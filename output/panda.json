@@ -1,74 +1,48 @@
 [
     {
-        "question_id": "PANDA_1_1778925861",
+        "question_id": "PANDA_0_1778925990",
         "form_name": "PANDA",
         "category": "general",
-        "question": "Question_1",
-        "choices": [
-            "\u30d8\u30d3",
-            "\u30ea\u30b9\u30de",
-            "\u30d1\u30f3\u30c0"
-        ],
-        "images": [
-            {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBiUcGi4Pnh2MT4_2A34nVOemGBpNbX-lljQ06e2tx-Hz1v9fnLb1EgxbQxZFf302vDPQAspa4_wqiwUgnTXFPozNpbXitusfF0a8ksfm676-gc0wTnbvrrIk4AU7tOwXU5vbdgJ5OJR9cc_WVEgKdCWmSUH2RG9jdNJBZBn7psV-ZmbnMATR5mWL1_Euskv0onM8tVY4WDk6iv=w246?key=TqF8Pd2xOVgOr5KLoaq6iw",
-                "path": "images/f7a8ed2ccbc206caffd515ec868840e3.png",
-                "index": 0
-            }
-        ],
+        "question": "Bagian Tanpa Judul",
+        "choices": [],
+        "images": [],
         "choice_images": [],
         "ocr_text": "",
         "audio_url": "",
         "audio": "",
-        "hash": "5605c9247b5678436053456a2502efe2",
-        "created_at": "2026-05-16T17:04:21.396007"
+        "hash": "d72e3cb1f7c20e9c6632acb09fa35db3",
+        "created_at": "2026-05-16T17:06:30.407112"
     },
     {
-        "question_id": "PANDA_2_1778925862",
+        "question_id": "PANDA_4_1778925990",
         "form_name": "PANDA",
         "category": "general",
-        "question": "Question_2",
+        "question": "4. \u3088\u308b \u304a\u3075\u308b \u306b...",
         "choices": [
-            "\u6691\u3044\u5929\u6c17",
-            "\u91d1\u304c\u306a\u304f",
-            "\u96e8\u304c\u3075\u308a"
+            "\u7fd2\u3044\u307e\u3059"
         ],
-        "images": [
-            {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDgATq3eosSE46F_u0atgviVfQDsGOjiDTf5fLBWgdW4YqJsZGTt4YFRDtyYS6I2F9nbh_xmGSlEc8rZe6wU14gLlIbjg_JuqqzDWx5YdNnUEF6C6GA2Tvzx6HsRqUOjPfoKDMhjeIfkOPtn4dJmVrkfF8Lpy1HQf3naDv2agjpPpmRqisDVZk0P8NY6DaT6WStOWi2kdIG2qE=w393?key=TqF8Pd2xOVgOr5KLoaq6iw",
-                "path": "images/54a9021f21065d8b129b79ab2cdd62a9.png",
-                "index": 0
-            }
-        ],
+        "images": [],
         "choice_images": [],
         "ocr_text": "",
         "audio_url": "",
         "audio": "",
-        "hash": "4ef227fe6cab4d6d09b3514b333a0bac",
-        "created_at": "2026-05-16T17:04:22.148765"
+        "hash": "bfe96bdc365af1f41b61f358ca9c1d73",
+        "created_at": "2026-05-16T17:06:30.489798"
     },
     {
-        "question_id": "PANDA_3_1778925862",
+        "question_id": "PANDA_12_1778925990",
         "form_name": "PANDA",
         "category": "general",
-        "question": "Question_3",
+        "question": "12. \u304d\u3087\u3046\u306f...\u6765\u308b\u304b\u3089 \u306f\u3084\u304f\u304b\u3048\u3063\u3066\u304f\u3060\u3055\u3044.",
         "choices": [
-            "\u4ecb\u8b77\u3092\u958b\u304f",
-            "\u4f1a\u8b70\u3092\u958b\u304f",
-            "\u4f1a\u8b70\u3092\u58f2\u308b"
+            "\u5bb6"
         ],
-        "images": [
-            {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVD1c9CRLQiQm_NvbSzXK2UKnWfQIq-GOiIWYd6o1FBGe2kgwa9v-N2Vz575QoAmvTL22KcZt_yfbWNa9PkBSzkhKrUQnrfTHfJ1qFHV3tft4aHFdq2Mes8s0uK0ORfOlb3CV5uxX-1d01UjV6m3DqjBGv-xNhZmdqx49WIv-Gzr_nYpTrnU3akCRb1DH21wJS5sMZx6GQpa_okB=w398?key=TqF8Pd2xOVgOr5KLoaq6iw",
-                "path": "images/efacc75cdc2b04034a46d142100e650f.png",
-                "index": 0
-            }
-        ],
+        "images": [],
         "choice_images": [],
         "ocr_text": "",
         "audio_url": "",
         "audio": "",
-        "hash": "030af5acf7568114e7108d9d3253c83e",
-        "created_at": "2026-05-16T17:04:22.877595"
+        "hash": "32e91867e07bce9506ae07471f09e473",
+        "created_at": "2026-05-16T17:06:30.614003"
     }
 ]

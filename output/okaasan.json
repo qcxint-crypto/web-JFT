@@ -1,33 +1,23 @@
 [
     {
-        "question_id": "OKAASAN_1_1778925833",
+        "question_id": "OKAASAN_0_1778925964",
         "form_name": "OKAASAN",
         "category": "general",
-        "question": "Question_1",
-        "choices": [
-            "\u3061\u3061",
-            "\u3042\u306d",
-            "\u304a\u304b\u3042\u3055\u3093"
-        ],
-        "images": [
-            {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBOIKBHZos-lkwj8Hv8eRk8ypK39TQcWmo245eDS9qcoo3SwPtfwbsnnt6zp2zbcJd3IgkfzfrKvQfL_2VKwwdWjefMKBiDw2IyauBEmG5vHFUozUHE4nMi8QnypskQtiwOMYAMkUztbv_53kJUh5PEOmH-pwcpNx5MYjfjJQ2Mm9XPhMX-pKRQyavRWejA8kJSyCXVm7TvH7Nv=w439?key=idVCgZCbFNfHtg05Hf-IQQ",
-                "path": "images/42f70de19a29ca176cda755153f0e94e.png",
-                "index": 0
-            }
-        ],
+        "question": "Bagian Tanpa Judul",
+        "choices": [],
+        "images": [],
         "choice_images": [],
         "ocr_text": "",
         "audio_url": "",
         "audio": "",
-        "hash": "4f07d9c62a086a52cb396033be86ef48",
-        "created_at": "2026-05-16T17:03:53.677636"
+        "hash": "0f75952932284d8f648471128d500701",
+        "created_at": "2026-05-16T17:06:04.739570"
     },
     {
-        "question_id": "OKAASAN_2_1778925834",
+        "question_id": "OKAASAN_2_1778925966",
         "form_name": "OKAASAN",
         "category": "general",
-        "question": "Question_2",
+        "question": "2.\u3044\u307e\u3066\u3093\u304d\u306f\u3069\u3046\u3067\u3059\u304b",
         "choices": [
             "\u5bd2\u3044",
             "\u6dbc\u3057\u3044",
@@ -44,32 +34,7 @@
         "ocr_text": "",
         "audio_url": "",
         "audio": "",
-        "hash": "90a321d941faab5afba8c1fb67ee2bac",
-        "created_at": "2026-05-16T17:03:54.612421"
-    },
-    {
-        "question_id": "OKAASAN_3_1778925835",
-        "form_name": "OKAASAN",
-        "category": "general",
-        "question": "Question_3",
-        "choices": [
-            "\u304d\u308c\u3044",
-            "\u3088\u3054\u308c\u307e\u3059",
-            "\u3042\u305d\u3073\u307e\u3059",
-            "\u304b\u306a\u3057\u3044"
-        ],
-        "images": [
-            {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVC_IQKUKFKuWTw1HTc9BLX_lNtJpdiKJ0hXJwtcgU4pASIo7eUWCOCQfx4moPOCq-ymTytO5_GEIWMQ0e7qszyA12aiXpQw1wT7ap6q8IGP5Ft2mCsexE5CjzoPkbmSHmxP-AFhz57XtvaBOULzlHmLzA3kFsrppgjjSUb3DvkIvwhQKlZfTYjJ1Y4BBNoT0Lb9PP_QrQWelddr=w257?key=idVCgZCbFNfHtg05Hf-IQQ",
-                "path": "images/d046aed5f94febb61c8d3a34441386b2.png",
-                "index": 0
-            }
-        ],
-        "choice_images": [],
-        "ocr_text": "",
-        "audio_url": "",
-        "audio": "",
-        "hash": "e53cb9c08687633aae4d0c41db943349",
-        "created_at": "2026-05-16T17:03:55.213950"
+        "hash": "4c138ff821e7424ee6dab04675f4798d",
+        "created_at": "2026-05-16T17:06:06.760521"
     }
 ]
