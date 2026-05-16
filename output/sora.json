@@ -1,0 +1,194 @@
+[
+    {
+        "question_id": "SORA_1_1778925888",
+        "form_name": "SORA",
+        "category": "general",
+        "question": "Question_1",
+        "choices": [
+            "\u7a7a",
+            "\u7a7a\u4e95",
+            "\u305d\u304a\u3089"
+        ],
+        "images": [
+            {
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAwWZq_A-ZvqGZ7RkYAs_xS2LSzAuzTwE2fZqd_JhWjEzqjyAO1C9RxTdBuXPFVGJrl5glpMP4Sbm7AeDgAIrL31Ho-KnjpC3ldCoGdhiokg2R04039ShUnCD9Jbtd8EsyttxFwKRz1dp-KOY9-dtfYRoANwmTS4dxUMzQoMrP8D9duYkX9DM8yp4skPDz2VKbDVJEqUV0qmoLm=w407?key=e3sqAjiv8EtnBZIYuEhG-g",
+                "path": "images/cf27e138e61afd2cc53bd3d728a455d9.png",
+                "index": 0
+            }
+        ],
+        "choice_images": [],
+        "ocr_text": "",
+        "audio_url": "",
+        "audio": "",
+        "hash": "c69633e67d9458a153f596bf380fbf0d",
+        "created_at": "2026-05-16T17:04:48.812815"
+    },
+    {
+        "question_id": "SORA_2_1778925890",
+        "form_name": "SORA",
+        "category": "general",
+        "question": "Question_2",
+        "choices": [
+            "\u53e4\u3044",
+            "\u4e38\u3044",
+            "\u7bb1"
+        ],
+        "images": [
+            {
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA7n5w703A-Xui4-ZlQbTc7ylshUFqRSbXX9E3ICWcyKcWJeMAZnRmY2-DC0aHTKnfyt1NOn8BJaN1p9BHWu_DUNh24K-T9xcsDgCsnXmsYhoo7doJwGypqoFggnOPgSI2muBofUOyKlQi68FT51PJGD-7Ijvs16ww-n7-tWPycHudIqX5TWFJJLW4HvZI9c7N716AQYhidM7LZ=w410?key=e3sqAjiv8EtnBZIYuEhG-g",
+                "path": "images/50157463e3d08ec67e6f81e9990b8858.png",
+                "index": 0
+            }
+        ],
+        "choice_images": [],
+        "ocr_text": "",
+        "audio_url": "",
+        "audio": "",
+        "hash": "e96b1e3220abb6adf7446249374ce38e",
+        "created_at": "2026-05-16T17:04:50.022924"
+    },
+    {
+        "question_id": "SORA_3_1778925890",
+        "form_name": "SORA",
+        "category": "general",
+        "question": "Question_3",
+        "choices": [
+            "\u6e29\u6cc9",
+            "\u6cf3\u3050",
+            "\u6d74\u3073\u307e\u3059"
+        ],
+        "images": [
+            {
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAB0XvV_ZSMU3_HWWjC1MNAZCO7pAZv85G16r1oaixv-V-MRfqoWtu6rnXg0eY5E8sDunn7QdLbF7nkwnP-yuiCW-bYQ4494iWaY9wh6EYRhvZr7mm6JDUJhxSiYEFbnPn-wiLgiDbSbATI0MzRKfVMjM3Vmfp4iaDNuGVfkGA9WobiXXBeu9FrOvl2YIyOZCa_M-p4Q_lqL4tC=w573?key=e3sqAjiv8EtnBZIYuEhG-g",
+                "path": "images/69b6e5a8894c4272f8af25bb37cc9bba.png",
+                "index": 0
+            }
+        ],
+        "choice_images": [],
+        "ocr_text": "",
+        "audio_url": "",
+        "audio": "",
+        "hash": "a44cb6500e9aeef486301786f2712f08",
+        "created_at": "2026-05-16T17:04:50.989906"
+    },
+    {
+        "question_id": "SORA_4_1778925891",
+        "form_name": "SORA",
+        "category": "general",
+        "question": "Question_4",
+        "choices": [
+            "\u7b11\u3046",
+            "\u6065\u305a\u304b\u3057",
+            "\u5065\u5eb7"
+        ],
+        "images": [
+            {
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVD2xhgQ9PPjtfD7uElbXTd1WSGwoFPhK2O8FIC2Cyoix3mQ6uL_ZoEOWcZgs8aEMwc1T2Ai0FGy5TQoCxDfuxHCNXP9X2mwm94uDpf9MXW9xBjmBQg4bFFxoxxOSy-kxrjul4SlaMLfnlLEWJqHq1pVsoyhmBbhmbc7-iFdXl_m3_1bDUZbbJkb6jI9QHmRVq1pQi89HQWKRtc=w641?key=e3sqAjiv8EtnBZIYuEhG-g",
+                "path": "images/9ef8bb8a10084d6bb5be87199caa921e.png",
+                "index": 0
+            }
+        ],
+        "choice_images": [],
+        "ocr_text": "",
+        "audio_url": "",
+        "audio": "",
+        "hash": "2d5d16a72ff78dd179e189e7c48565cf",
+        "created_at": "2026-05-16T17:04:51.794218"
+    },
+    {
+        "question_id": "SORA_6_1778925892",
+        "form_name": "SORA",
+        "category": "general",
+        "question": "Question_6",
+        "choices": [
+            "\u6728",
+            "\u6238\u68da",
+            "\u673a"
+        ],
+        "images": [
+            {
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB3M0UFJaSywulUlF3WCOBsVCWOK92zzbZAZ0LZeL-FKB3DCnQYkPDxxeQDbv9fcEreNyjxaL_cSi_B0gy4dM3BTX6X6ho8wm8LQaLSoHaQeKhiiZGWG0QXK2vBX9FmGuAeKyj4Tu4lb1UcPKgi4CBLBtLR4czOwktALv6b1ZAf0gMDv0-_V4ocQpcsO7sP8WXrOjj9mPYEHt7D=w296?key=e3sqAjiv8EtnBZIYuEhG-g",
+                "path": "images/8c6895ee7cd0c130d626697f793f28a1.png",
+                "index": 0
+            }
+        ],
+        "choice_images": [],
+        "ocr_text": "",
+        "audio_url": "",
+        "audio": "",
+        "hash": "5e38e021e6a2b4cea063c918ac595832",
+        "created_at": "2026-05-16T17:04:52.367013"
+    },
+    {
+        "question_id": "SORA_10_1778925893",
+        "form_name": "SORA",
+        "category": "general",
+        "question": "Question_10",
+        "choices": [
+            "\u9ad8\u3044",
+            "\u3061\u3055\u3044",
+            "\u304a\u304a\u304d"
+        ],
+        "images": [
+            {
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAvTAaUaA2clQvrkwYot22pwborXvitUkzzdLTKW1ScqCaRiBk4LsoVbQELCCtkTa1bs8zYmWQRygshUG4ChBbTzNKM0zfBdpqJj9PRCHl0XC2-Jrh1s23rvkCJ6S8FmmPy8cQ2bKW1wNnXqwlwHhMrq2WnsPU64V50jpr6wbSUprLHP5nmXjBj5QpCU1IYtzeJRmf02uCOlQQ=w273?key=e3sqAjiv8EtnBZIYuEhG-g",
+                "path": "images/fa20eb9831c390d7fe8bd838a7173afe.png",
+                "index": 0
+            }
+        ],
+        "choice_images": [],
+        "ocr_text": "",
+        "audio_url": "",
+        "audio": "",
+        "hash": "4c194ce81bc191952c85fccfa1012832",
+        "created_at": "2026-05-16T17:04:53.143843"
+    },
+    {
+        "question_id": "SORA_11_1778925893",
+        "form_name": "SORA",
+        "category": "general",
+        "question": "Question_11",
+        "choices": [
+            "\u3042\u3052\u307e\u3059",
+            "\u304b\u308a\u307e\u3059",
+            "\u304b\u3057\u307e\u3059"
+        ],
+        "images": [
+            {
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAzWO8N_fH0O1ub_oKRZsX6m4q9BW_ISjl6JfPAA0cKayVjfBiy4D7dN0L03g_izza0fxVy_y-c6YCagFT-BH4663KSZb14XRCVjmgMTjWTVSGLhYSpKkue8dbf8u1VCqL9SNoVFa_VdmStavS-Gk8oAUKBlZSDx1onfjSEK92zuH2rHeng24phW7yUE4Nv7vP_qwDW-cWIdn2H=w404?key=e3sqAjiv8EtnBZIYuEhG-g",
+                "path": "images/078c3be4a4495d98a1424b18c4343fd4.png",
+                "index": 0
+            }
+        ],
+        "choice_images": [],
+        "ocr_text": "",
+        "audio_url": "",
+        "audio": "",
+        "hash": "f9f89980af64f0ca4d515c6d819e7cd0",
+        "created_at": "2026-05-16T17:04:53.866105"
+    },
+    {
+        "question_id": "SORA_12_1778925894",
+        "form_name": "SORA",
+        "category": "general",
+        "question": "Question_12",
+        "choices": [
+            "\u982d\u304c\u75db\u3044",
+            "\u60aa\u3044",
+            "\u697d\u3057\u3044"
+        ],
+        "images": [
+            {
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVC8MkQNtFgCEY4XMrEK2qJRF1GLIbKVZkcHRIREc6-4j-RY6mRhsf4epz4sj-nmSUfv7LqRS4ptLQlOwg5Rypi_TxP_t_eCkGPhh1VRFiLfPsnX6zuGFjylOiIi7FmrGDi7dBY5iVQI9FR8nVZTeZwIsf9T0xDzM9r2Fu_MellaviEshdnjMYqATgu0wn5IhPMOWkDAkFUIX78=w517?key=e3sqAjiv8EtnBZIYuEhG-g",
+                "path": "images/e03766e7e79149e726ba09e2c8aa08d9.png",
+                "index": 0
+            }
+        ],
+        "choice_images": [],
+        "ocr_text": "",
+        "audio_url": "",
+        "audio": "",
+        "hash": "c0b5c27175c2360b5bb7efae9abbfcc6",
+        "created_at": "2026-05-16T17:04:54.835587"
+    }
+]

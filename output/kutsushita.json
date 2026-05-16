@@ -1,0 +1,74 @@
+[
+    {
+        "question_id": "KUTSUSHITA_1_1778925819",
+        "form_name": "KUTSUSHITA",
+        "category": "general",
+        "question": "Question_1",
+        "choices": [
+            "\u9774",
+            "\u9774\u4e0b",
+            "\u8f9e\u66f8"
+        ],
+        "images": [
+            {
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDQ0WAMJgiSujfvyQK6KF5mBKo4RoUD3b4_sCng30AhM9rjbTdnX-oOx7KwPv5dTJZ5b_JL9Z9MpMgwS8KnTbVV2a93o0lSNfHXoE14uyIlLI8owSmBxJHQBSYTnWkxmGnISUNtZOIWaQdxC4ymRKHYQGF5oZt0ktHRFpLvYTPhidC2RYASSiIfrIIcTrwSU5x6A7kwe16gfcKJ=w388?key=x40M0Q7qtuCn9tLm1hBSow",
+                "path": "images/a1862197cc1bdb14f352491be5843144.png",
+                "index": 0
+            }
+        ],
+        "choice_images": [],
+        "ocr_text": "",
+        "audio_url": "",
+        "audio": "",
+        "hash": "77a484d7e1d04f48dbc9974187543d72",
+        "created_at": "2026-05-16T17:03:39.616564"
+    },
+    {
+        "question_id": "KUTSUSHITA_2_1778925820",
+        "form_name": "KUTSUSHITA",
+        "category": "general",
+        "question": "Question_2",
+        "choices": [
+            "\u3053\u3046\u3061\u3087\u3046",
+            "\u3048\u3044\u304c",
+            "\u304b\u3057\u3085"
+        ],
+        "images": [
+            {
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBlM06ytS3B_cbjOE7C4EvsERJn3AHUNgs0rcD-AcK8xEhqGJS5aSbPDYY4G0n9ET0wsmTwkiTjxO5ZYs4HvmHs77lJLXzP5AiuC830pFpLqFkQ7kvElsOujvNbpbY6vybLF_JXtbfFmwM_4Yf2dGzs_WD7r_Q3UZKzVO90JapmKybe4lkWEodLjYkDz0bLO9vAHQHzOKVgy7w=w225?key=x40M0Q7qtuCn9tLm1hBSow",
+                "path": "images/cc9791a6c4e7632ae3b5fe9bff1622f4.png",
+                "index": 0
+            }
+        ],
+        "choice_images": [],
+        "ocr_text": "",
+        "audio_url": "",
+        "audio": "",
+        "hash": "0836537402c0f218fbb4e2776c3fa797",
+        "created_at": "2026-05-16T17:03:40.314522"
+    },
+    {
+        "question_id": "KUTSUSHITA_3_1778925821",
+        "form_name": "KUTSUSHITA",
+        "category": "general",
+        "question": "Question_3",
+        "choices": [
+            "\u3055\u3093\u307d\u3057\u307e\u3059",
+            "\u304a\u3088\u304e\u307e\u3059",
+            "\u3051\u3093\u304c\u304f\u3057\u307e\u3059"
+        ],
+        "images": [
+            {
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCQ8kJl5Z78fVfbDOgXEObCRgZbPNio-7QqVkrG-Hg3bB-s3TU9OMDo9Au0Zq1merx9cj-L_8rnwaJVswDuR0nIMmRTdnmuPLlN9JmumbqByHMU7OVXZjbG2KEoLRNwLNmf7NnFrjiIipOPZvcnvAPzchlESp24wZVo4CnTrHRAtXRgjetz6LK0XIXfbBwjcpR2nG4qvfnbiwip=w592?key=x40M0Q7qtuCn9tLm1hBSow",
+                "path": "images/8aeaff4ea2d6693cff7f128175763167.png",
+                "index": 0
+            }
+        ],
+        "choice_images": [],
+        "ocr_text": "",
+        "audio_url": "",
+        "audio": "",
+        "hash": "f69a5bb1b8614461b4d192095ed822b4",
+        "created_at": "2026-05-16T17:03:41.223511"
+    }
+]

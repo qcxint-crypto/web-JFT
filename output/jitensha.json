@@ -1,0 +1,196 @@
+[
+    {
+        "question_id": "JITENSHA_0_1778925890",
+        "form_name": "JITENSHA",
+        "category": "general",
+        "question": "Bagian Tanpa Judul",
+        "choices": [],
+        "images": [],
+        "choice_images": [],
+        "ocr_text": "",
+        "audio_url": "",
+        "audio": "",
+        "hash": "9e4662394e0ad2dd7b9ab4abf7b3cf2a",
+        "created_at": "2026-05-16T17:04:50.108161"
+    },
+    {
+        "question_id": "JITENSHA_4_1778925890",
+        "form_name": "JITENSHA",
+        "category": "general",
+        "question": "3.\u00a0 \u5fd9\u3057\u3044\u306e\u3067\u624b\u4f1d\u3048\u307e\u305b\u3093",
+        "choices": [
+            "\u3044\u305d\u304c\u3057\u3044",
+            "\u305f\u306e\u3057\u3044",
+            "\u3080\u305a\u304b\u3057\u3044"
+        ],
+        "images": [],
+        "choice_images": [],
+        "ocr_text": "",
+        "audio_url": "",
+        "audio": "",
+        "hash": "93457683b1318e4f4ef10847e9342fdc",
+        "created_at": "2026-05-16T17:04:50.180235"
+    },
+    {
+        "question_id": "JITENSHA_5_1778925890",
+        "form_name": "JITENSHA",
+        "category": "general",
+        "question": "5.\u00a0 \u671d \u30b7\u30e3\u30ef\u30fc \u3092________",
+        "choices": [
+            "\u884c\u304d\u307e\u3059",
+            "\u4e57\u308a\u307e\u3059",
+            "\u6d74\u3073\u307e\u3059"
+        ],
+        "images": [],
+        "choice_images": [],
+        "ocr_text": "",
+        "audio_url": "",
+        "audio": "",
+        "hash": "e4b0c85a56a24c8fd893a3950b70793b",
+        "created_at": "2026-05-16T17:04:50.210050"
+    },
+    {
+        "question_id": "JITENSHA_6_1778925890",
+        "form_name": "JITENSHA",
+        "category": "general",
+        "question": "6.\u00a0 \u3042\u307e\u3044\u3082\u306e \u304c______\u3067\u3059",
+        "choices": [
+            "\u304c",
+            "\u304a\u304a\u3044",
+            "\u306b\u304c\u3066"
+        ],
+        "images": [],
+        "choice_images": [],
+        "ocr_text": "",
+        "audio_url": "",
+        "audio": "",
+        "hash": "89883b6bfb21d03f6c5f960ff4ca5bf3",
+        "created_at": "2026-05-16T17:04:50.236407"
+    },
+    {
+        "question_id": "JITENSHA_7_1778925890",
+        "form_name": "JITENSHA",
+        "category": "general",
+        "question": "7. \u6628\u65e5 \u306e \u6620\u753b \u306f \u3042\u307e\u308a______",
+        "choices": [
+            "\u304a\u3082\u3057\u308d\u304b\u3063\u305f",
+            "\u304a\u3082\u3057\u308d\u304f\u306a\u304b\u3063\u305f",
+            "\u304a\u3082\u3057\u308d\u3044\u304b\u3063\u305f"
+        ],
+        "images": [],
+        "choice_images": [],
+        "ocr_text": "",
+        "audio_url": "",
+        "audio": "",
+        "hash": "48c2a96a148ae3566e6a337821ba4680",
+        "created_at": "2026-05-16T17:04:50.261220"
+    },
+    {
+        "question_id": "JITENSHA_8_1778925890",
+        "form_name": "JITENSHA",
+        "category": "general",
+        "question": "8. \u4eca\u65e5\u306f\u3044\u3044\u5929\u6c17\u3067\u3059\u306d",
+        "choices": [
+            "\u3066\u3093\u304d",
+            "\u3067\u3093\u304d",
+            "\u3052\u3093\u304d"
+        ],
+        "images": [],
+        "choice_images": [],
+        "ocr_text": "",
+        "audio_url": "",
+        "audio": "",
+        "hash": "69500a4c2228a4202f176efaf72952ca",
+        "created_at": "2026-05-16T17:04:50.288916"
+    },
+    {
+        "question_id": "JITENSHA_9_1778925890",
+        "form_name": "JITENSHA",
+        "category": "general",
+        "question": "9.\u00a0 \u6bce\u65e5\u00a0\u56f3\u66f8\u9928\u00a0\u3067 \u672c\u3092\u8aad\u3093\u3067 \u3044\u307e\u3059",
+        "choices": [
+            "\u306f\u304f\u3076\u3064\u304b\u3093",
+            "\u3086\u3073\u3093\u304d\u3087\u3046\u304f",
+            "\u3068\u3057\u3087\u304b\u3093"
+        ],
+        "images": [],
+        "choice_images": [],
+        "ocr_text": "",
+        "audio_url": "",
+        "audio": "",
+        "hash": "0296e4ac0b748ad2def60d0d168781eb",
+        "created_at": "2026-05-16T17:04:50.319244"
+    },
+    {
+        "question_id": "JITENSHA_10_1778925890",
+        "form_name": "JITENSHA",
+        "category": "general",
+        "question": "10.\u00a0 \u3055\u304f\u3089\u75c5\u9662\u00a0\u3067 \u3054\u306f\u3093 \u3092 \u98df\u3079\u307e\u3057\u3087\u3046",
+        "choices": [
+            "\u3073\u3088\u3046\u3044\u3093",
+            "\u3073\u3087\u3044\u3093",
+            "\u3073\u3087\u3046\u3044\u3093"
+        ],
+        "images": [],
+        "choice_images": [],
+        "ocr_text": "",
+        "audio_url": "",
+        "audio": "",
+        "hash": "9aaab9f3ecbd8882cb373ee56107c15b",
+        "created_at": "2026-05-16T17:04:50.345949"
+    },
+    {
+        "question_id": "JITENSHA_11_1778925890",
+        "form_name": "JITENSHA",
+        "category": "general",
+        "question": "11.\u00a0\u99c5\u00a0\u3067 \u3061\u304b\u3066\u3064 \u306b \u306e\u308a\u307e\u3059",
+        "choices": [
+            "\u3053\u3046\u3053\u3046",
+            "\u304f\u3046\u3053\u3046",
+            "\u3048\u304d"
+        ],
+        "images": [],
+        "choice_images": [],
+        "ocr_text": "",
+        "audio_url": "",
+        "audio": "",
+        "hash": "02435919e67ac1fd56d4c1252582b08b",
+        "created_at": "2026-05-16T17:04:50.374447"
+    },
+    {
+        "question_id": "JITENSHA_12_1778925890",
+        "form_name": "JITENSHA",
+        "category": "general",
+        "question": "12. \u3072\u3068\u308a\u3067\u00a0\u6620\u753b\u00a0\u3092 \u307f \u306b \u3044\u304d\u307e\u3059",
+        "choices": [
+            "\u3048\u3044\u304c",
+            "\u304c\u3063\u304b",
+            "\u3048\u3044\u3054"
+        ],
+        "images": [],
+        "choice_images": [],
+        "ocr_text": "",
+        "audio_url": "",
+        "audio": "",
+        "hash": "e7ed2c0d012ecffa7757c453a501ecb4",
+        "created_at": "2026-05-16T17:04:50.403456"
+    },
+    {
+        "question_id": "JITENSHA_13_1778925890",
+        "form_name": "JITENSHA",
+        "category": "general",
+        "question": "13. \u3053\u306e\u3078\u3084 \u306e \u3082\u306e \u3092 \u30db\u30fc\u30eb \u306b\u00a0\u904b\u3093\u3067\u304f\u3060\u3055\u3044",
+        "choices": [
+            "\u306f\u3053\u3093\u3067",
+            "\u3042\u305d\u3093\u3067",
+            "\u3088\u3093\u3067"
+        ],
+        "images": [],
+        "choice_images": [],
+        "ocr_text": "",
+        "audio_url": "",
+        "audio": "",
+        "hash": "80ea046587ac211e29cc3e571c674602",
+        "created_at": "2026-05-16T17:04:50.431632"
+    }
+]

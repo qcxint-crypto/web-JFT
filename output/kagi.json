@@ -1,0 +1,74 @@
+[
+    {
+        "question_id": "KAGI_1_1778925759",
+        "form_name": "KAGI",
+        "category": "general",
+        "question": "Question_1",
+        "choices": [
+            "\u304b\u304e",
+            "\u304b\u3044\u304e",
+            "\u304c\u304e"
+        ],
+        "images": [
+            {
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA4oAQiAdSCMlo8x3svAMGa-_0l_FXZ76eaUHmFAIMfX0ltQFCpSDJYdEIEEHDmuXlRZVKqgklAM-3S3E2BWURiJMOgtGBJzNv1WQk2vBvsTnt89zXBSneK9Z7fvVJUAA-xO3IaLtCFCrgVOJgJdHHBRmahZzFiV3LWpf5f1hNx6vPXdufZArhLBIJP0JqTBxutuUaUpbDuvxxY=w282?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                "path": "images/aaf8e02f0ee5f471a2e2deed02914ff4.png",
+                "index": 0
+            }
+        ],
+        "choice_images": [],
+        "ocr_text": "",
+        "audio_url": "",
+        "audio": "",
+        "hash": "00b27ed67ad1845fa69ca712db4db698",
+        "created_at": "2026-05-16T17:02:39.826151"
+    },
+    {
+        "question_id": "KAGI_2_1778925760",
+        "form_name": "KAGI",
+        "category": "general",
+        "question": "Question_2",
+        "choices": [
+            "\u3051\u3063\u3053\u3093",
+            "\u304a\u307e\u3064\u308a",
+            "\u3051\u3053\u3093"
+        ],
+        "images": [
+            {
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDIEsGYqLeik7gLG_q3M_xZ46alkecjNIjiWBXsZcVVid-FOJ9sPE_XoAjUw75R9iAUxHGr5apYFnkn51GYziJepo7xjjoCPMz9kQ5DDIo55KC28Jujj_lNvbzeq8dzOMMivZ1uCnuLZ68yacUJ00bI30g2-SyvGraUylJYI5wlQIXbx-q2Ea9iyAWWZdMdkCCJ8TGm8mPkOLra=w479?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                "path": "images/014bf59365b94ebf709686afeb41e4f7.png",
+                "index": 0
+            }
+        ],
+        "choice_images": [],
+        "ocr_text": "",
+        "audio_url": "",
+        "audio": "",
+        "hash": "12735e62b092255ffb63f2c80981ffa0",
+        "created_at": "2026-05-16T17:02:40.999905"
+    },
+    {
+        "question_id": "KAGI_3_1778925762",
+        "form_name": "KAGI",
+        "category": "general",
+        "question": "Question_3",
+        "choices": [
+            "\u5f85\u3061\u307e\u3059",
+            "\u5207\u308a\u307e\u3059",
+            "\u6848\u5185\u3057\u307e\u3059"
+        ],
+        "images": [
+            {
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAkW2MNNkhgYhJiQhmgeWoOFpFomDrWCV_WtI0XmRjs2QpbnyiAnnVTnaFE7XMAeqZQiJoahmfNNWPorlGlXl2EzMDVzmiJ2b6UaO9mJKIs0fpqp_Bh-ht8FJVL1eVmgNoEV_eWRDVI2M12bUfHDRjKV9MTSeRT1lKgZ6eURJKydkbkQ87U9WRXMSXU7AR5rJx60RU-CrwKZ9k=w492?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                "path": "images/3f136e5de27477397d9ea698cc094f27.png",
+                "index": 0
+            }
+        ],
+        "choice_images": [],
+        "ocr_text": "",
+        "audio_url": "",
+        "audio": "",
+        "hash": "638f5a1dd0dd268646e20d8ddc0d5cd0",
+        "created_at": "2026-05-16T17:02:42.348419"
+    }
+]
