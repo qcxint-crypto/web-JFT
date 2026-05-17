@@ -1,34 +1,317 @@
 [
     {
-        "question_id": "TANA_0_1778925781",
+        "question_id": "TANA_0_1779007160",
         "form_name": "TANA",
         "category": "general",
-        "question": "Bagian Tanpa Judul",
-        "choices": [],
-        "images": [],
-        "choice_images": [],
-        "ocr_text": "",
-        "audio_url": "",
-        "audio": "",
-        "hash": "9785e250b4c2e072011d29973f513856",
-        "created_at": "2026-05-16T17:03:01.723180"
-    },
-    {
-        "question_id": "TANA_7_1778925781",
-        "form_name": "TANA",
-        "category": "general",
-        "question": "\u3050\u308c\u3093\u3055\u3093\u306f\u767d\u3044\u30cf\u30f3\u30ab\u30c1\u3092\u8cb7\u3044\u307e\u3057\u305f",
+        "question": "1.\u00a0\u00a0\nA : RUMAH SAUDARA TANAKA DARI PERUSAHAAN JAUH KAN YAH\nSETIAP PAGI BANGUN PADA JAM BERAPA ?\nB : SETIAP PAGI BANGUN PADA JAM 05.30\nKALAU SAUDARA KAORI ?\nA : KALAU SAYA SETIAP PAGI BANGUN PADA JAM 7.00\n\n\nA. PEREMPUANNYA BANGUN PADA JAM BERAPA ?",
         "choices": [
-            "\u3057\u308d\u3044",
-            "\u304f\u308d\u3044",
-            "\u3053\u308d\u3044"
+            {
+                "text": "Jam 07.30",
+                "image": null
+            },
+            {
+                "text": "Jam 07.00",
+                "image": null
+            },
+            {
+                "text": "Jam 08.00",
+                "image": null
+            }
         ],
         "images": [],
-        "choice_images": [],
-        "ocr_text": "",
         "audio_url": "",
         "audio": "",
-        "hash": "f7747a74ae22c6a0c5d2bc751b2c1512",
-        "created_at": "2026-05-16T17:03:01.852279"
+        "hash": "5ee9650b5c57c950f41192700da4be9f",
+        "created_at": "2026-05-17T15:39:20.743230"
+    },
+    {
+        "question_id": "TANA_1_1779007161",
+        "form_name": "TANA",
+        "category": "general",
+        "question": "2.\u00a0\u00a0\nA : SETELAH INI MAU BAGAIMANA ?\nB : KALAU MAKAN BAGAIMANA ? APAKAH SUDAH LAPAR ?\nA : BELUM, ADA BUKU YANG INGIN SAYA BELI SETELAH INI\nTAPI, SEBELUM MEMBELI BUKU SAYA INGIN MENGAMBIL UANG KE ATM\nBOLEHKAH SAYA PERGI KE ATM DULU ?\nB : YA, KALAU BEGITU AYO\n\n\nB. APA YANG PERTAMA KALI DILAKUKAN PEREMPUAN TERSEBUT ?",
+        "choices": [
+            {
+                "text": "Membeli buku",
+                "image": null
+            },
+            {
+                "text": "Pergi ke ATM",
+                "image": null
+            },
+            {
+                "text": "Pergi ke restoran",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "85151b42ab2a0daff247027a53d7f66c",
+        "created_at": "2026-05-17T15:39:21.300402"
+    },
+    {
+        "question_id": "TANA_2_1779007161",
+        "form_name": "TANA",
+        "category": "general",
+        "question": "3.\u00a0\nA : HOBI SAUDARA TANAKA APA ?\nB : HOBI SAYA BERMACAM MACAM, SEPERTI BERMAIN TENIS, BERWISATA, DAN MEMASAK\nTAPI, KARENA TAHUN LALU KAKI SAYA SAKIT, SEKARANG SUDAH TIDAK BERMAIN TENIS.\nKALAU WISATA, SAYA MULAI SEJAK SMA, OLEH KARENA ITU SETIAP TAHUN SEKALI SAYA\nPERGI BERWISATA. KARENA KETIKA WISATA BANYAK MAKANAN YANG ENAK , AKHIR AKHIR INI\nSAYA SERING MEMASAK, KALAU MAU NANTI AKAN SAYA BUATKAN MASAKAN\nA : BENARKAH ? TERIMA KASIH\n\n\nBARU BARU INI HOBI PRIA TERSEBUT APA ?",
+        "choices": [
+            {
+                "text": "MEMASAK / \u6599\u7406",
+                "image": null
+            },
+            {
+                "text": "Bermain Tenis",
+                "image": null
+            },
+            {
+                "text": "Berwisata",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "6b22b91d802545ad0a29bae801066eb1",
+        "created_at": "2026-05-17T15:39:21.849895"
+    },
+    {
+        "question_id": "TANA_3_1779007162",
+        "form_name": "TANA",
+        "category": "general",
+        "question": "4.\u00a0\nA : JERUK INI HARGANYA BERAPA ?\nB : 1 BUAH 150 YEN\nA : KALAU APEL NYA ?\nB : APEL NYA 1 BUAH 120 YEN\nA : KALAU BEGITU , TOLONG APELNYA SATU\n\nHARGA APELNYA BERAPA ?",
+        "choices": [
+            {
+                "text": "150 Yen",
+                "image": null
+            },
+            {
+                "text": "100 Yen",
+                "image": null
+            },
+            {
+                "text": "120 Yen",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "1d9b067bb75081c346f4a04c9d16f0b4",
+        "created_at": "2026-05-17T15:39:22.394857"
+    },
+    {
+        "question_id": "TANA_4_1779007163",
+        "form_name": "TANA",
+        "category": "general",
+        "question": "5.\u00a0\nA : HALO\nB : HALO, INI TOKO ASIA SHOP\nA : MAAF SEKARANG SAYA DI STASIUN, DAN INGIN PERGI KE TOKO,\nTAPI SAYA TIDAK TAHU TEMPATNYA\nB : KALAU DARI STASIUN TOLONG PERGI LURUS MENGIKUTI JALAN BESAR\nKEMUDIAN NANTI ADA JEMBATAN, SETELAH MENYEBRANG JEMBATAN,\nTOKONYA DISEBELAH KIRI\nA : BAIKLAH, TERIMA KASIH\n\n\nTOKONYA DIMANA ?",
+        "choices": [
+            {
+                "text": "LURUS, LALU MENYEBRANG JEMBATAN, DI SEBELAH KANAN",
+                "image": null
+            },
+            {
+                "text": "LURUS , LALU MENYEBRANG JEMBATAN, DISEBELAH KIRI",
+                "image": null
+            },
+            {
+                "text": "LURUS, DI SEBELAH KIRI",
+                "image": null
+            }
+        ],
+        "images": [
+            {
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCRI9uXeB992XJqYXOAC-ax5BDlbTXHvrM5Nj0d7y6rdccNR6v-7b0FBtoY7vaJQVosygY-JN4JFPycosAgPrZfJOxd1Of7lOhBqnrewQZUKYJ_Ck8Rx46CZGzWk0c1wOMA0vCguabHQK0gL0lWgQ4jZ-d5iu3vd4s_ICk73V_8VNXvI6YP9CF78v-F5pSlbZ6heMB4jcvIYpQM=w412?key=lqrP7CI00SUj-mmik5XiXQ",
+                "path": "images/4289b435572f2b5d6601e0d293480edd.png",
+                "index": 0
+            }
+        ],
+        "audio_url": "",
+        "audio": "",
+        "hash": "cce82762bab64c821acf99e6dd417174",
+        "created_at": "2026-05-17T15:39:23.346523"
+    },
+    {
+        "question_id": "TANA_5_1779007164",
+        "form_name": "TANA",
+        "category": "general",
+        "question": "6.\u00a0 PERCAKAPAN DI KEBUN BINATANG ANTARA PETUGAS DAN PENGUNJUNG\nA : MAAF APAKAH MASIH BISA BERKELILING KEBUN BINATANG DENGAN BUS ?\nB : KALAU UNTUK BIS, TADI SUDAH BIS YANG TERAKHIR, TAPI KALAU MAU BISA\nBERKELILING DENGAN MOBIL, KALAU DENGAN MOBIL BISA KAPAN SAJA, DAN\nADA PEMANDUNYA, TAPI HARGANYA 3000 YEN\nA : CUKUP MAHAL JUGA YAH\nB : KALAU YANG MURAH JUGA ADA, BISA BERKELILING DENGAN SEPEDA, HARGANYA\n300 YEN\nA : SEPEDA YAH, KALAU SEPEDA, MAAF SAYA TIDAK BISA. KALAU BEGITU\nYANG ADA PEMANDU NYA SAJA\nB : BAIKLAH\n\nSAAT BERWISATA KE KEBUN BINATANG, BERKELILING DENGAN APA ?",
+        "choices": [
+            {
+                "text": "\u81ea\u8ee2\u8eca",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCG4SIqvxe2CmZ6HnHrkWZKapdLZPJPahPIGK6JQWSaPD1x2dyylMzvWDmfJP0oK3gnK6sXiIrps0qmvx1M_UZU8K0EF7hdOpLgUYGTOzS9UtHDHSKfeWWSRAPSMN4s9UaTKZxIlFJ1af2FQch0rnqp1b9M19utHAoDyYEjgtTSbvfxX7BLoVV0aKU3FKR8RmB0tRMUkJSMFgLJ=w260?key=lqrP7CI00SUj-mmik5XiXQ",
+                    "path": "images/f5865907d330768a076b9dbbc66c8e75.png"
+                }
+            },
+            {
+                "text": "\u30d0\u30b9",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB2cG4uLCzoPttbae079CYKISKjkYWdmU1mvp9uRLrjcRpuUICWJC1c1KpVo4MTt6YoZJcDLFBGx2GkUeoG75j6Ix2FLpLU-czcDErDQKxChsHWF2YgAmhcuJuR50gaHEsbVjC43Lto8vN3bEBlqxiYwH1ahrMQIkFM0ohb58ZKQ7H_E3kr1KhsuBZ-nesWN2LjDt-tO8Me0Alg=w260?key=lqrP7CI00SUj-mmik5XiXQ",
+                    "path": "images/87bcaf1e4518565da468b38ef1845c40.png"
+                }
+            },
+            {
+                "text": "\u30b8\u30fc\u30d7",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDSjLTUwEJwSdAlxRGp9ZoFK4Yp3JY7-89OyVtOmFnACcrM_8-EWyrkkRlWyJSOCJgBu0lMxoUdTXn7JlGbdvG3rNMRuMOw2ht9021fNW16zORqFlkJcb3pBs20cWWfoyZg8MdbAuHnqqrFz-2F2JW_vZ26mtFK4R38H5KZ-bQ76GJF4ua34b4N1xgrmFljeUFZgY_GVXH7cIA2=w260?key=lqrP7CI00SUj-mmik5XiXQ",
+                    "path": "images/74d4db408eaa7e6c65192d78eb27b9a9.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "231caafd38f28b59686c0c89c6478f45",
+        "created_at": "2026-05-17T15:39:24.741380"
+    },
+    {
+        "question_id": "TANA_6_1779007165",
+        "form_name": "TANA",
+        "category": "general",
+        "question": "7.\u00a0\u00a0\nA : TOLONG AMBILKAN KERTAS YANG UKURAN A3\nB : BAIKLAH. KERTASNYA ADA DIMANA ?\nA : DIBAWAH MEJA\n\u00a0\nA. KERTASNYA ADA DIMANA ?",
+        "choices": [
+            {
+                "text": "Di bawah Meja",
+                "image": null
+            },
+            {
+                "text": "Di atas Meja",
+                "image": null
+            },
+            {
+                "text": "Di bawah Kursi",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "4d9793a010e3efeb477d34dda9b5636c",
+        "created_at": "2026-05-17T15:39:25.297521"
+    },
+    {
+        "question_id": "TANA_7_1779007165",
+        "form_name": "TANA",
+        "category": "general",
+        "question": "8.\u00a0\u00a0\n\u00a0B. KERTASNYA UKURAN APA ?",
+        "choices": [
+            {
+                "text": "A3",
+                "image": null
+            },
+            {
+                "text": "A4",
+                "image": null
+            },
+            {
+                "text": "F4",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "7c3c20aa17f6482c8ad05e4f387bf459",
+        "created_at": "2026-05-17T15:39:25.846865"
+    },
+    {
+        "question_id": "TANA_8_1779007166",
+        "form_name": "TANA",
+        "category": "general",
+        "question": "9.\u00a0\u00a0\n\u00a0\u00a0PEMBERITAHUAN MENGENAI KEBAKARAN DI MALL\u00a0\n\n\nA.\u00a0 KEBAKARANNYA DI LANTAI BERAPA ?",
+        "choices": [
+            {
+                "text": "3 \u304b\u3044,",
+                "image": null
+            },
+            {
+                "text": "2 \u304b\u3044",
+                "image": null
+            },
+            {
+                "text": "4\u304b\u3044",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "fb76063261b1deb98081fd37443852d6",
+        "created_at": "2026-05-17T15:39:26.395777"
+    },
+    {
+        "question_id": "TANA_9_1779007166",
+        "form_name": "TANA",
+        "category": "general",
+        "question": "10.\u00a0\nB JANGAN PAKAI LIFT, PAKAI TANGGA SAJA, TANGGANYA ADA DIMANA ?",
+        "choices": [
+            {
+                "text": "Sebelah Lift",
+                "image": null
+            },
+            {
+                "text": "Sebelah Taman",
+                "image": null
+            },
+            {
+                "text": "Bawah Lift",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "b2cb6e21711508e87891c1c1a48375d6",
+        "created_at": "2026-05-17T15:39:26.943405"
+    },
+    {
+        "question_id": "TANA_10_1779007167",
+        "form_name": "TANA",
+        "category": "general",
+        "question": "11.\u00a0\u00a0\nPEMBERITAHUAN MENGENAI JADWAL HARI KERJA DAN PERALATAN\n\n\nA. KAPAN BEKERJA DI KANTOR ?",
+        "choices": [
+            {
+                "text": "\u6c34\u66dc\u65e5\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "\u6728\u66dc\u65e5\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "\u91d1\u66dc\u65e5\u3067\u3059",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "fbc971076e1ff74e2e883f276a5a0b6d",
+        "created_at": "2026-05-17T15:39:27.495540"
+    },
+    {
+        "question_id": "TANA_11_1779007168",
+        "form_name": "TANA",
+        "category": "general",
+        "question": "12.\u00a0\nB. SAAT BEKERJA DI PABRIK MEMBAWA APA ?",
+        "choices": [
+            {
+                "text": "Sarung Tangan",
+                "image": null
+            },
+            {
+                "text": "Topi dan Masker",
+                "image": null
+            },
+            {
+                "text": "Kacamata",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "0bdb0c8eaa486cb554dbfb1579d16aa3",
+        "created_at": "2026-05-17T15:39:28.046245"
     }
 ]

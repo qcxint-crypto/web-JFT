@@ -1,160 +1,356 @@
 [
     {
-        "question_id": "KAWAII_0_1778925825",
+        "question_id": "KAWAII_0_1779007301",
         "form_name": "KAWAII",
-        "category": "general",
-        "question": "Bagian Tanpa Judul",
-        "choices": [],
-        "images": [],
-        "choice_images": [],
-        "ocr_text": "",
-        "audio_url": "",
-        "audio": "",
-        "hash": "85d23375d51d14f078153d90e2ef2d5b",
-        "created_at": "2026-05-16T17:03:45.098473"
-    },
-    {
-        "question_id": "KAWAII_4_1778925825",
-        "form_name": "KAWAII",
-        "category": "general",
-        "question": "4. \u6bce\u65e5_________ \u3092 \u8aad\u307f\u307e\u3059",
+        "category": "chokai",
+        "question": "1.\u00a0Audio\n\u30ad\u30e0\u30e9\u3055\u3093\u306f\u3069\u3053\u306b\u3044\u307e\u3059\u304b\uff1f",
         "choices": [
-            "\u30de\u30f3\u30ac",
-            "\u307e\u3093\u304b",
-            "\u30de\u30f3\u30ac\u30a2"
+            {
+                "text": "\u3057\u3087\u304f\u3069\u3046",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCvtvMZQho2vxKxf16EVeuGbrqBaRsvOnbco18B0FPjIyHERKVGzijkeGCz97oi0bI3Ig2IVDPn1PcWJAUofux_yWhpmEP9GEG6vGBWvMM4Zdb7Q6RbiDJUU5emDXcrT9ArxqaB4FHrGlug08Y9u4S68xd801vHFNWsqKc86wGGY0cWG5EaMRk-kF3FI5wBiWiGipSZMhk6kanH=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/550fb602eb63b1012a22c0ee1c9ae18c.png"
+                }
+            },
+            {
+                "text": "\u3048\u304d",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDW1T-AsAwByiPbASr9zYztiUu1XIBcUoAAbSp5M34fXWaKIcaitkQFvOLIzJNc0BZv4Ywutjy_otFVB52TrL8nV8X5oeESmB1i2PtAePLgzoGGg-fPkpUBjVtQLHGgVu9K4RZjue0vD8ANKLtgA1xT84qDD_V8Fckjl8FgrPzyqyJU5V1ySLb-A-jl9ml-teo2_adorz5MQNsY=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/a7b140592553877add24c3db34740b30.png"
+                }
+            },
+            {
+                "text": "\u3053\u3046\u3048\u3093",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVADZ5RhzcyER2QUc4Nzqlzsumtissy_PPjTV_0QnafTdtTdi_zCq7iXYeYzhxC-JHXiPJUhcA0M1BD7uSMzXUIQWAUVJ8MzIHNkmNxcQTGj_6A9wCMlqc8spUCWJQlElkB-srSQUcbXuE3oAfeSfSqLU85V5rBAWcIfAMMwb9EV4BVLp94U8S2YE8DRGoRFxyaPeRsV=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/700ed43e6f77b77ae53eff1f90dc7ce5.png"
+                }
+            }
         ],
         "images": [],
-        "choice_images": [],
-        "ocr_text": "",
-        "audio_url": "",
-        "audio": "",
-        "hash": "9eb3931f47c81ef0b3bb9879013c0221",
-        "created_at": "2026-05-16T17:03:45.173863"
+        "audio_url": "https://drive.google.com/file/d/1W4v_4G51q9oDNay9rGsr2aS5Z_MBTben/view?usp=drive_link",
+        "audio": "audio/856cb6e4577bd21fd947b81ff86e8271.mp3",
+        "hash": "e7aaf28f360e34fcc3aa8ea3e42f0741",
+        "created_at": "2026-05-17T15:41:41.982023"
     },
     {
-        "question_id": "KAWAII_5_1778925825",
+        "question_id": "KAWAII_1_1779007305",
         "form_name": "KAWAII",
-        "category": "general",
-        "question": "5. \u3053\u306e\u304d\u304b\u3044 \u306e \u4f7f\u3044\u304b\u305f \u3092__________\u304f\u308c\u307e\u305b\u3093\u304b\uff1f",
+        "category": "chokai",
+        "question": "2.\u00a0\u00a0Audio\n\u65e5\u672c\u3067\u5973\u6027\u306e\u3058\u3083\u304f\u3066\u3093\u306f\u3069\u3053\u3067\u3059\u304b\uff1f",
         "choices": [
-            "\u8aad\u3093\u3067",
-            "\u805e\u3044\u3066",
-            "\u6559\u3048\u3066"
+            {
+                "text": "\u3061\u3087\u3046\u304b\u3044",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAStD_GW-CMITKOP9BroJOEhhFfHjMtyZvmNyIqbsaN10uslTCUiL5iMAaZxlnQ2ve1BELdak9Grnnl9VETKuDAn5rlnv5ErVX-DqozGMn6ibMhxFi3L0erLrw4eFLjviMf6VkTvLd6XqGK1EK7Hw8HbVxyPQD0MxqTWK80dC7zVt5h5m9n0QXD4hUFl8yvOZq-rpAEGGI4ty8_=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/d16e5ec9bfb729778d6b0e5291991cde.png"
+                }
+            },
+            {
+                "text": "\u304b\u3044\u308f",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAxzgQ_ctn_D0EHZgTnvAsOyzEzBKorx9wHrmBGfj9Aqn_5rUWFmTbo6VJ1F-U0B8Y6vGPBZu5ONr-wSzFFdjXTCWG3p6g2l_nQqyu9WmUAUXiQ2PztqJ9Y6o5AbPEE6s54cUGEj04scBvUVSAUes0mknDDIen1Ri_PEaztQzR_Fi9VTdeCc1AaIGAYJ_pIzpKy5Tbhiy4QM_1w=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/84ef7fcd5435b91f626c69954e6d9987.png"
+                }
+            },
+            {
+                "text": "\u3069\u304b\u3044",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAd9qJA8PNuw7eIRD55JdALJdKgY-aU2L6wlC1iw9SVAgTm-IizCytusY3rIwuO4_VBB-C239hpKDwk9YkJL_hNpE4g1Aet5VP7ak3iKRJtToxHPJeW5Bt3eK1dIdl4atv3JuGFkUx4m5dkzV6u0P8qLUYklWni_d1Wh3TLKqE9dEc8lewlGpprTvnLRd4iCK9qZNHVennQbb4=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/2b4599ff33bc9059e2387544c4b664a3.png"
+                }
+            }
         ],
         "images": [],
-        "choice_images": [],
-        "ocr_text": "",
-        "audio_url": "",
-        "audio": "",
-        "hash": "f830d11684791d6029ee2b66c7f98377",
-        "created_at": "2026-05-16T17:03:45.201490"
+        "audio_url": "https://drive.google.com/file/d/1aW4jJU8ifVTJ80LwMZejrWhe5gq8s16K/view?usp=drive_link",
+        "audio": "audio/08a8b88e7a2b489066d342e4657a0aed.mp3",
+        "hash": "d227276d7d9cd1a36b5104b0727da2e2",
+        "created_at": "2026-05-17T15:41:45.179368"
     },
     {
-        "question_id": "KAWAII_7_1778925825",
+        "question_id": "KAWAII_2_1779007306",
         "form_name": "KAWAII",
         "category": "general",
-        "question": "7. \u6bce\u9031\u3001\u304a\u305d\u304f\u307e\u3067\u3057\u3054\u3068\u3092_______\u3001\u3054\u98ef \u3092 \u98df\u3079\u307e\u3059",
+        "question": "3. HAL APAKAH YANG MASIH BISA DI LAKUKAN WANITA SETELAH LIBUR TAHUN BARU?",
         "choices": [
-            "\u3057\u3066",
-            "\u3057\u307e\u3059",
-            "\u3057\u305f"
+            {
+                "text": "\u3064\u308a\u3057\u307e\u3059",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBsp3NM0TKWcXLY8nRbQGEh7WFxJwWw4vX5RAuq81JBpce4zmQOck89o1anXIprHzAHwuyT07zCz5EF2W0nrSEP2ze7CGjbeXteh2zAt8kF7hD9i-slLoG1vOtyH9f8EakDGiZZY1RP1vCn0-q7vRlPaGU2P79JP5uk2yqW9ONJpsEkD8LaavDxcrg11JHt1btdp3fKULVJufE=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/8f6d9df077a7871a075916d38d06ea90.png"
+                }
+            },
+            {
+                "text": "\u308a\u3087\u3053\u3046\u3057\u307e\u3059",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDrUUGN2s-CmrEe7qElUuYBTMd42g5-aIRdMaHf6oI11zONHNh_7NuQyuGx2dtUo1CuI7A1gauUc3uE1rDfBr4wrHScjAjaeaTZbGeksyN8RkFioImz87pwzPMwxpwz9uSMbxiDg9rdYeBezETi7vr22DfvR8OJRzNXnvbSSE8JPO_dw5j-s6MuK8ncZMLqy7XF_bpMDJlcEGRD=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/56d232a7093080d5a1298760a6ff4fa5.png"
+                }
+            },
+            {
+                "text": "camping",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAj1HkuJdCOLDoa-m28-ilEJtcbkqt-zEBMqcfuiy8QS1yJOtitGavcjmmnPqZ1rrkunZai5db73h6-s_JHKT6N8_dld0OiL2dpFL5qBCYzjLG93tKpT5FKOTcJWPKLem0tsaWocKD63L2dwtuxbC0q9areTvVoNiND47rQ3rrDoMn2O7nq_aqIuWzkyWtF_LVzSgZKOHFZeMs=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/fc1d0234122e4feb812e107d7c99ad70.png"
+                }
+            }
         ],
         "images": [],
-        "choice_images": [],
-        "ocr_text": "",
         "audio_url": "",
         "audio": "",
-        "hash": "a95a12813a4743a4108dad7a70b472be",
-        "created_at": "2026-05-16T17:03:45.243723"
+        "hash": "daa36d897343fe317a78ae39044d7e19",
+        "created_at": "2026-05-17T15:41:46.528938"
     },
     {
-        "question_id": "KAWAII_8_1778925825",
+        "question_id": "KAWAII_3_1779007308",
         "form_name": "KAWAII",
-        "category": "general",
-        "question": "8. \u308f\u308c\u305f\u306e\u3067\u3001\u3053\u306e\u30b0\u30e9\u30b9 \u306f \u306f\u3053 \u306b\u3002\u3002\u3002\u3002\u304f\u3060\u3055\u3044",
+        "category": "chokai",
+        "question": "4.\u00a0Audio\nBERAPA HARGA TOPI?",
         "choices": [
-            "\u6368\u3066\u3066",
-            "\u904b\u3093\u3067",
-            "\u56de\u3057\u3066"
+            {
+                "text": "1900\u5186",
+                "image": null
+            },
+            {
+                "text": "1800\u5186",
+                "image": null
+            },
+            {
+                "text": "1700\u5186",
+                "image": null
+            }
         ],
         "images": [],
-        "choice_images": [],
-        "ocr_text": "",
-        "audio_url": "",
-        "audio": "",
-        "hash": "0b61838605d8a8153f006f10ca7f6404",
-        "created_at": "2026-05-16T17:03:45.271236"
+        "audio_url": "https://drive.google.com/file/d/1z4MCuxDHcrPUJFEW_DcGrdTteCv8zcvf/view?usp=drive_link",
+        "audio": "audio/d516f7a6d044ba508968499cf4fe68ca.mp3",
+        "hash": "40cd09f7af91cfd87108cce1073ccf9f",
+        "created_at": "2026-05-17T15:41:48.716966"
     },
     {
-        "question_id": "KAWAII_9_1778925825",
+        "question_id": "KAWAII_4_1779007313",
         "form_name": "KAWAII",
-        "category": "general",
-        "question": "9. \u5148\u9031\u3001\u65e5\u672c\u306b\u304d\u305f\u3070\u304b\u308a\u3067\u3059\u3002",
+        "category": "chokai",
+        "question": "5.\u00a0Audio\nMAKANAN MANAKAH YANG DIPESAN WANITA?",
         "choices": [
-            "\u3053\u3093\u3057\u3085\u3046",
-            "\u3089\u3044\u3057\u3085\u3046",
-            "\u305b\u3093\u3057\u3085\u3046"
+            {
+                "text": "\u30b9\u30fc\u30d7 (\u8f9b\u304f\u3066\u9178\u3063\u3071\u3044\u98df\u3079\u7269\u3092\u304a\u9858\u3044\u3057\u307e\u3059",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB_tvjzCOvkGQuxfW9GFwY7EWXv0kZ-FSjdiCRl6LS5_2zmtTlg9rwDHFq_ewAkwj-H56ueJ5LmaHU6yGPVqNnD2papbcPg6WBxQlxPFwc3w0gD8VW2LqlIVCJPFgO-zsjDJ8GP1NOevW4-v6op5_g3CdODYB31T7AJkgMNULlP8UuV5-3ZI2xDg_lBu5HcTcwWUjJLzHvGiHMH=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/40eba781e9a44027e09c47845ab5798b.png"
+                }
+            },
+            {
+                "text": "\u3084\u304d\u306b\u304f",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBEefPfe0jFVqO7wFKhhHPo9gYnD_DvQjiYoB8EVImOYnLpdv08mJ2FT2lbcIkMNnhuUGyy7qtaJ6Nf7wDMJabGgj6usiXqFFKbXJdvxbAfcXxywrseb21NV9xbM-bcwtjvXIEny8j9Wag4F02is5j8Z2fpdW8rWM61UK4IiKLosBdgxRHSdQ0a5EaAuVU2Q4oChEMSmWXDZV4=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/62b0cc0ca30ed2a7244229febcfed947.png"
+                }
+            },
+            {
+                "text": "\u30b5\u30e9\u30c0",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCwnvJ-V8AJILnDQLjdkf3zZAqtY24G3_PDi5f6oYKUYnO2aslaA6EfsBQOic4P3HCtoEjvpfJTgY4Cs6QZQK61vdpToUpw0tVRfeTzxmZWXEH_GO1HgUVWzl1uexKah4vrrI5cDucH8DuVm5dgIrJeabi4hA9x6ZiB8LBzp6iW1AQCLjfm28ySlcE-wY7dQCscrcRWl8uAmKdK=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/cfef241e442bc2bb1bc6c0407f3a972a.png"
+                }
+            }
         ],
         "images": [],
-        "choice_images": [],
-        "ocr_text": "",
-        "audio_url": "",
-        "audio": "",
-        "hash": "f629bc251c2ad861df70ffda7f441538",
-        "created_at": "2026-05-16T17:03:45.297368"
+        "audio_url": "https://drive.google.com/file/d/1YLmAy15nYX_YS1YxthcsmoiW_SV-PYkP/view?usp=drive_link",
+        "audio": "audio/d75438b07931dc2c2a5d220349a2f93f.mp3",
+        "hash": "b068ff168998d55425ac86acbb19c50e",
+        "created_at": "2026-05-17T15:41:53.489293"
     },
     {
-        "question_id": "KAWAII_10_1778925825",
+        "question_id": "KAWAII_5_1779007316",
         "form_name": "KAWAII",
-        "category": "general",
-        "question": "10. \u3057\u3051\u3093 \u306b \u5408\u683c\u3057\u307e\u3057\u305f",
+        "category": "chokai",
+        "question": "6.\u00a0Audio\nHAL APAKAH YANG PERTAMA KALI DI LAKUKAN PELANGGAN SEBELUM KE RUMAH SAKIT?",
         "choices": [
-            "\u305d\u3064\u304e\u3087\u3046",
-            "\u3054\u3046\u304b\u304f",
-            "\u3057\u3063\u3071\u3044"
+            {
+                "text": "\u30e1\u30fc\u30eb\u306b\u540d\u524d\u3092\u66f8\u304d\u3059",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBlgekXqfOUqinQ6m6qv-r1fTcuLWTfw_aRO8K_Y-whMILfFKn8NR13-49tG9h_B7_OPoFsD_J4jK_OgvmWEpPoTRkQJNvgCOfCTa8IaeEWVQRRfHIrVCMqDstDNeRnZdGSuC8wbl8fgyQEbmwDkjDnNf1N87ErOMm3_JRqpwU12QadDVdpey12VZ5H31FxRLpGZgXBFQvFam-V=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/4f5361f09e112f9488955fe9f57d16cf.png"
+                }
+            },
+            {
+                "text": "\u304b\u307f\u306b \u306a\u307e\u3048\u3092\u66f8\u304d\u3059",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB2BXvNCxBfC2dqWr596l0rc8i3DEq0F6WH224YR8ONlRCYBQvmKsgMOftE0jb6SqTyvt77vv8NPEz0tGlC9jHFVly7umVSsFnPLU4Bdy3luJUb_Z3y2nBoDFmRH6BWRz5Dxn4VH0auTXLCxrZgqu-KSi7lDrdodcSpyqK25_ZmjKAjn21nd7xYmu6Pu6M2ED_-sV4H0VUpEKw=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/7ac6aee2e424693cb2f34a7e7f043b05.png"
+                }
+            },
+            {
+                "text": "\u3067\u3093\u308f\u3059\u308b",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVC6lH4HAXIQVQNm7dMjFRs3-OGdjX7D0AxG9qq_fnvNdIIj4uNxKcmnuqSxxbN8XR_ryvaPd7JWgO-ieeodCW7kKsa1o8xvjPfCylFrF6AnCmSl_budsfePIkU9M4i5IglgPnk7xMUOUeuqD-KOGxXAGvQiDoacgwFm3mBjr2dzNU3bijEGZ3Cp-33iMQzMZcreHuZKrd-a-qHp=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/c3e42b5f4b077f9662489c4a6bd9afdf.png"
+                }
+            }
         ],
         "images": [],
-        "choice_images": [],
-        "ocr_text": "",
-        "audio_url": "",
-        "audio": "",
-        "hash": "0f24c6543135b7f0b25c1f10034c577f",
-        "created_at": "2026-05-16T17:03:45.324911"
+        "audio_url": "https://drive.google.com/file/d/1m8s03dl3DjqfP-aEi7N79mkX4WF-ZqqT/view?usp=drive_link",
+        "audio": "audio/346cd8bb590f6e60234fb765e4db7799.mp3",
+        "hash": "1cb711ab7ec297b34f8b5d0141d4a887",
+        "created_at": "2026-05-17T15:41:56.884039"
     },
     {
-        "question_id": "KAWAII_11_1778925825",
+        "question_id": "KAWAII_6_1779007319",
         "form_name": "KAWAII",
-        "category": "general",
-        "question": "11. \u3053\u306e\u307e\u3061 \u306f \u81ea\u7136\u306a\u307e\u3061\u3067\u3059",
+        "category": "chokai",
+        "question": "7.\u00a0Audio\nA. Dilantai berapakah kurir mengantar kotak?",
         "choices": [
-            "\u3057\u305c\u3093",
-            "\u3057\u3051\u3093",
-            "\u3057\u305b\u3093"
+            {
+                "text": "\u4e8c\u968e",
+                "image": null
+            },
+            {
+                "text": "\u4e09\u968e",
+                "image": null
+            },
+            {
+                "text": "\u56db\u968e",
+                "image": null
+            }
         ],
         "images": [],
-        "choice_images": [],
-        "ocr_text": "",
-        "audio_url": "",
-        "audio": "",
-        "hash": "658aa4e17beb37abbd756338a7449bb4",
-        "created_at": "2026-05-16T17:03:45.352146"
+        "audio_url": "https://drive.google.com/file/d/1gG1r5sbW6nhs96Eywo3EYKW-MDiBEEMc/view?usp=drive_link",
+        "audio": "audio/b7afebb52d6277e4df15a6f09e28f342.mp3",
+        "hash": "466d581f0c511ef720294d3e33f7cf89",
+        "created_at": "2026-05-17T15:41:59.458207"
     },
     {
-        "question_id": "KAWAII_12_1778925825",
+        "question_id": "KAWAII_7_1779007320",
         "form_name": "KAWAII",
         "category": "general",
-        "question": "12. \u5148\u751f \u306b \u65e5\u672c\u8a9e \u3092 \u7fd2\u3044\u307e\u3059",
+        "question": "8.\u00a0\nB. Berapa kotak yang dibawa?",
         "choices": [
-            "\u307e\u306a\u3073\u307e\u3059",
-            "\u306a\u3089\u3044\u307e\u3059",
-            "\u3044\u305d\u304e\u307e\u3059"
+            {
+                "text": "\u4e00\u3064",
+                "image": null
+            },
+            {
+                "text": "\u4e8c\u3064",
+                "image": null
+            },
+            {
+                "text": "\u4e09\u3064",
+                "image": null
+            }
         ],
         "images": [],
-        "choice_images": [],
-        "ocr_text": "",
         "audio_url": "",
         "audio": "",
-        "hash": "23866cc9d554341545fbeac4f9f0cd3e",
-        "created_at": "2026-05-16T17:03:45.379051"
+        "hash": "1b6aac4b9e0bffec5c780e3f14d032cf",
+        "created_at": "2026-05-17T15:42:00.002668"
+    },
+    {
+        "question_id": "KAWAII_8_1779007322",
+        "form_name": "KAWAII",
+        "category": "chokai",
+        "question": "9.\u00a0Audio\nA. Mulai kapan pasar loak diadakan?",
+        "choices": [
+            {
+                "text": "4\u670821\u65e5",
+                "image": null
+            },
+            {
+                "text": "3\u670821\u65e5",
+                "image": null
+            },
+            {
+                "text": "2\u670821\u65e5",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "https://drive.google.com/file/d/1eObZYwhZbRWginTro3EzgG5-Ji1uiVHD/view?usp=drive_link",
+        "audio": "audio/0a339f0df258f9c8e2991e1c4b08282c.mp3",
+        "hash": "b37ce1d1ddc963bcc047b193d859ecfe",
+        "created_at": "2026-05-17T15:42:02.672026"
+    },
+    {
+        "question_id": "KAWAII_9_1779007323",
+        "form_name": "KAWAII",
+        "category": "general",
+        "question": "10.\n\nB. Jam berapa konser dimulai?",
+        "choices": [
+            {
+                "text": "2\u664230\u5206",
+                "image": null
+            },
+            {
+                "text": "3\u664230\u5206",
+                "image": null
+            },
+            {
+                "text": "4\u664230\u5206",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "c5bcc4b9111a2513a0e6caa73c54fa63",
+        "created_at": "2026-05-17T15:42:03.224847"
+    },
+    {
+        "question_id": "KAWAII_10_1779007327",
+        "form_name": "KAWAII",
+        "category": "chokai",
+        "question": "11.\u00a0Audio\nA.Sebelum digoreng daging ayamnya diapakan?",
+        "choices": [
+            {
+                "text": "\u3057\u304a\u3092\u3064\u3051\u308b",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAeITzO-N0HD-KalUimX6l2Z4S9guI6WCusjo_4y5FwbGmj2FszgQaBklcGokQfLnCiFoaJGRS7A7kFwETjqLLtpgjtFb_NqukBUE01WLRXxamArNaX_iIkveGw7am6j1BIh6FRjp9psfWXoCo0qZZEajP0p_vFLVP3p2pD9d5v460QcU11MnqAke4QhPuWlMtnj0FIvdUwFwE=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/de154fc9bb50bd9bdc5c50225bdbf6f4.png"
+                }
+            },
+            {
+                "text": "\u5510\u8f9b\u5b50 \u3092\u3064\u3051\u308b",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB9rUQRam3UnVEz8gvtnV8bqT5NI3G3dSaJX-a1XyLVEZQBaLrqPXKDTRfd1NAnVGqPVFice-TkDOxh9xSpo_p72bt0s8QIQceC9fWzUUso8aVALAwSAeD8U8dkfxQ1Z-nU8gAKqrFQ8DpFbRoY0KQeJB0YbbcPVT0Oo2v2poSHs_snBghDWj5d-jd7d_zh5ugTSnYiDJ4L3Zo=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/2888c0d50088bed5b74adcda6ee210c2.png"
+                }
+            },
+            {
+                "text": "\u3057\u3087\u3046\u3086\u3092\u3092\u3064\u3051\u308b",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVC_ekoJwD3Cjz6SRi_JPfUmFo2j6TttRLrilUfi8X2gC0s03ltfR7H6ZIFID8C48CxHW-pC6xHNd6DkvPpLDC30gQBW-daEbN0J-f6ftlzsIWHID6k1D6lWP9cAbVzZWXDEtYblyUUeduAVglATan9-C-hFoOzj60KfGY5q18WLr3eY7ELgyeI5rv9nFqnDe0pfqYXLSUpW9Zrt=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/22e993e31c2eafb474753821e10e1dfd.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "https://drive.google.com/file/d/1EGT9NJQkNkYQUukbYzBwRLVtenfHF82d/view?usp=drive_link",
+        "audio": "audio/f73f0422ab206ac9c0a76f6384e5ac44.mp3",
+        "hash": "255387579a222cac2951a4deb760e340",
+        "created_at": "2026-05-17T15:42:07.066950"
+    },
+    {
+        "question_id": "KAWAII_11_1779007327",
+        "form_name": "KAWAII",
+        "category": "general",
+        "question": "12.\u00a0\nB. Ayam digoreng dengan cara apa?",
+        "choices": [
+            {
+                "text": "\u3075\u305f\u3092\u3057\u3066\u3001\u3088\u308f\u3073\u306b\u3059\u308b",
+                "image": null
+            },
+            {
+                "text": "\u3075\u305f\u3092\u306f\u3093\u3076\u3093\u3042\u3051\u3066\u3001\u3064\u3088\u3073\u306b\u3059\u308b",
+                "image": null
+            },
+            {
+                "text": "\u3075\u305f\u3092\u305c\u3093\u3076\u3042\u3051\u3066\u3001\u3088\u308f\u3073\u306b\u3059\u308b",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "1a29794a5d4d04f2e864b8a7c99dbdc9",
+        "created_at": "2026-05-17T15:42:07.624986"
     }
 ]
