@@ -1,1 +1,646 @@
-[]
+[
+    {
+        "question_id": "SOBA_0_1779082673",
+        "form_name": "SOBA",
+        "page_number": 1,
+        "category": "choukai",
+        "question": "1.\u00a0Audio\nMinuman apa yang diminum?",
+        "choices": [
+            {
+                "text": "JUS MANGGA",
+                "image": null
+            },
+            {
+                "text": "JUSS APEL",
+                "image": null
+            },
+            {
+                "text": "JUS JERUK",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "https://drive.google.com/file/d/14uyMPz1dM8LMmrmh4kceqx-BFGRwBEDz/view?usp=drive_link",
+        "audio": "audio/a8e7ac80995f7dde36f0da7af9629d76.mp3",
+        "hash": "027eefead39d3cbfb4beabea11e430f4",
+        "created_at": "2026-05-18T12:37:53.841807"
+    },
+    {
+        "question_id": "SOBA_1_1779082677",
+        "form_name": "SOBA",
+        "page_number": 1,
+        "category": "choukai",
+        "question": "2.\u00a0Audio\nMEREKA MEMILIH APA ?",
+        "choices": [
+            {
+                "text": "BISKUIT BULAT ISI 4 (EMPAT) DALAM KALENG TERBUKA",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA9csFdPAcfCKSmEm0QkdVOvfpNE4yXzsFR5-Hco0h8LUKaZiqX_i2hTdGvkY_E0LHzXQdoeFPF55ovK0V5BoseNETB3ZmLqt2ON_9ewYWanDD2bqP--w1RVXEmwzcW957vo1BBQVuDtxu3-j0xVHEGM0BEvWQ0tsSaKb8GaFDFwgV6tT4YnJGgwMr3RKB-Rsc0rkVRdeVgNlhA=w260?key=901O-MChNuot9IERf_g4UA",
+                    "path": "images/182a441d21641a8928fa3cb068003ffc.png"
+                }
+            },
+            {
+                "text": "BUNGA",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCj6Tb4WDYd9vb9plYRkrAHqgSOV8MEIOHW6sTgT3J5Ha1M_QFN9eEqngsHmZByJgAPON-IPmta2TivF9IL7LSQ-SiFKwR_pXzJUzpXITdU_rWFAHd_JWM_rE2YN5Cjpb-Al3IsysIeFsDiHI6Fg9t3eipSzF-xPoGLFrxkH7gW3KyGNf2_ndwEtRMmym_PizC2MfLnzAcqCnQ=w260?key=901O-MChNuot9IERf_g4UA",
+                    "path": "images/0a4816a048767f147aec4e7ee456d53c.png"
+                }
+            },
+            {
+                "text": "MANGA",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBMH7OvT_E_xcY0k05djpFfkIRJu4AJvSrdq0DVgt2-sA6OrmR7TmzNr4Ca98_3yVSIdxoRPiV05Y8zilbE30-CNfD3lZVH3l2EEItSq6fBfzCdFlot8BRn2uAbFzMVeRPDHVA9ONFYPDnRwzfVpEhOEWdBC1ke0ulEZO9yx98mYVS8NxL1kvcy0QK0COuVb2l6LYAXJr5rFnY3=w260?key=901O-MChNuot9IERf_g4UA",
+                    "path": "images/a3d0a184579ab96bd9599d924a67be6e.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "https://drive.google.com/file/d/1HkKU10aMr9VhLlfzxcNHuQNaZhOHHkjY/view?usp=drive_link",
+        "audio": "audio/8e3f0c32d6bf80f8380858ecf48965f8.mp3",
+        "hash": "9e3175b51b06f3c5a3e787a698df4bff",
+        "created_at": "2026-05-18T12:37:57.575951"
+    },
+    {
+        "question_id": "SOBA_2_1779082680",
+        "form_name": "SOBA",
+        "page_number": 1,
+        "category": "choukai",
+        "question": "3.\u00a0Audio\nITEM APA SAJA YANG DI LAUNDRY KAN ?",
+        "choices": [
+            {
+                "text": "Opsi 1",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCT2w1Hd8AESKHTcqQErOWaC_6aKzEj-EHqcIojId5CtueiG4DrxrDMYsPj15yZzyIZYXokE-DNNM0pOBaB-kR808eVdHI2LcjggNB6rMLo4u4kRABP-84nGHh6ikL68CZ8Dxy6YYyYuaI_ndwdqVPvb4n_po5UTQP80rdufGtIVQSMcYs2IXWlJWCqHX2B3Nx3S73UpLxeGZUY=w260?key=901O-MChNuot9IERf_g4UA",
+                    "path": "images/c04b97dcd1891e2eccb7e9fb9fdddc33.png"
+                }
+            },
+            {
+                "text": "Opsi 2",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAkipu47sxerFU_cH0GdWZ7WBILMlO4FXVZXNr61q_CDPUxmv5PuALuTuK4D_47r-eDQ89lqgldO_DMgLdtFoNFNTB3KgyU0RAns5idWmw71gmzrdU7V_irhx3MxsH00L4XlwQx7jMK2Av3ygFQBfpylBF_46hTwpLladZoZofxgM6TJv3XNpxbaExkIx_iHTZSEDmXglkCh70=w260?key=901O-MChNuot9IERf_g4UA",
+                    "path": "images/14b7cccf3bca0fbdaa7375a1654b43a0.png"
+                }
+            },
+            {
+                "text": "Opsi 3",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAbunqekZNUVCC2ptiS7MFkRG2VeGJjhw2d7CGNcyEctCPczo-TiaRCw63zLiEG71OhPa43Y7miYlGMOsMlW14t4s7k9U0PgUlBGt_TRrBZHy3uxqjLMesmiTR-Z1E6owvCFtjjbB9tFFB7nU9GqbzqYRJX6pdLKPv8c3T6Wg9BqqW9cESPvJia6b1rCaIYYj65A5mTrO7pDJ0=w260?key=901O-MChNuot9IERf_g4UA",
+                    "path": "images/18e6db77e5dc4993b231790a1098d937.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "https://drive.google.com/file/d/1t71zFToqSXt4oFXz5MPWdGM-0df2M__x/view?usp=drive_link",
+        "audio": "audio/71acc4c2391dcf4b49bd5ee8215b6b7b.mp3",
+        "hash": "02c452164caf169dc2778036ba2e318e",
+        "created_at": "2026-05-18T12:38:00.853770"
+    },
+    {
+        "question_id": "SOBA_3_1779082683",
+        "form_name": "SOBA",
+        "page_number": 1,
+        "category": "choukai",
+        "question": "4.\u00a0Audio",
+        "choices": [
+            {
+                "text": "5\u670811\u65e5",
+                "image": null
+            },
+            {
+                "text": "6\u670811\u65e5",
+                "image": null
+            },
+            {
+                "text": "7\u670811\u65e5",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "https://drive.google.com/file/d/1SDk0CAcr4SrWuTvjUjfDJdK6E5kS4p9G/view?usp=drive_link",
+        "audio": "audio/260e718ab4be958c9adfc24cee1941db.mp3",
+        "hash": "665819b04394bfdf5e3c3271e3963287",
+        "created_at": "2026-05-18T12:38:03.154660"
+    },
+    {
+        "question_id": "SOBA_4_1779082686",
+        "form_name": "SOBA",
+        "page_number": 1,
+        "category": "choukai",
+        "question": "5.\u00a0Audio\nADA ORANG YANG JANJIAN AKAN BERTEMU\u00a0\nAKAN BERTEMU DIMANA ?",
+        "choices": [
+            {
+                "text": "DIDEPAN KANTIN MAKANAN",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAh8piUd_3i978zysCcZbluZ0kVOn0Rf1eVrRbfncJAWjcdt1E9m7GR7B0HySgOOrUViBQEcF5FKS3eSJfP7rIDiuU3s_Uc-WryQaq4UpXbRA6RcHqAJH5BCHZDE6BWZjcAA3BkF-qGeIbkNSc1z094oQ5rE6Y9gu2F_eqb6DaOQXv-RE2MBF1Sa72zajhstHlFMIVpjzfwuYfS=w260?key=901O-MChNuot9IERf_g4UA",
+                    "path": "images/f632078835301f6c56841ce150611784.png"
+                }
+            },
+            {
+                "text": "DIDEPAN CAFE",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDBIVlNk3WL7vaptk6iUymvt5_CfPrI7vNkKPuhziWRnL1EIClvimW1r6pzpOs6khzFChy23K07jD-u-b1FhKZsY6gd_GZ-lWD1Xp78KjwmZhS2T5al2tE-Q3iWcNEUa_D-yZH1uIAO0C9OxWAdMeP318UbJ6gGNvAxckxWb_boRv03NmO9X0jQBjWE9oxT-O3juuwA0n2ULNo=w260?key=901O-MChNuot9IERf_g4UA",
+                    "path": "images/b81e892eb121f647fc0cb1452ee0c752.png"
+                }
+            },
+            {
+                "text": "DI DEPAN STASIUN YANG ADA JAM BESAR DAN BULAT NYA (GAMBAR)",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBeDF-r4OIzwmF1NqhJX9wtrCYS9Vcj8bs6BHYrrgDZez3P9vbZsFHgqMUPivaQv0hI6SwxOS7xf4aR2z3FO5xoVsQ1o7MDPrBT4MI0qq_7p2BbAYH7AvQrbODdd3-kE53uPNISnYCefgOGHYX_dm6ZynBPRLJeI4YUoTMCjT70zyGAB8neRXRWzFjBrvIrkrOR_gGb09La4WXB=w252?key=901O-MChNuot9IERf_g4UA",
+                    "path": "images/3c4ffaf3392212613dfea79825a655c5.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "https://drive.google.com/file/d/17_MP6d1pXn_7kAdzDhJEYsD6gwRSjvEp/view?usp=drive_link",
+        "audio": "audio/8b2b4bed238550c2cd816454d256fedf.mp3",
+        "hash": "013463177a2a2c681c0e37d025de198d",
+        "created_at": "2026-05-18T12:38:06.105543"
+    },
+    {
+        "question_id": "SOBA_5_1779082688",
+        "form_name": "SOBA",
+        "page_number": 1,
+        "category": "choukai",
+        "question": "6.\u00a0Audio\nBerapa harga yang dibayar?",
+        "choices": [
+            {
+                "text": "140 YEN",
+                "image": null
+            },
+            {
+                "text": "150 YEN",
+                "image": null
+            },
+            {
+                "text": "160 YEN",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "https://drive.google.com/file/d/1Qf0A-2SoQgru9_iaCUfhsCtK9bQ0IjzH/view?usp=drive_link",
+        "audio": "audio/a8e1dd56b796d3a289ca046f2466d1aa.mp3",
+        "hash": "6974278b5bb80013de78c3607ac4c0e7",
+        "created_at": "2026-05-18T12:38:08.262947"
+    },
+    {
+        "question_id": "SOBA_6_1779082690",
+        "form_name": "SOBA",
+        "page_number": 1,
+        "category": "choukai",
+        "question": "7.Audio\nA. Diwaktu apa obat tersebut diminum ?",
+        "choices": [
+            {
+                "text": "Diwaktu pagi hari",
+                "image": null
+            },
+            {
+                "text": "Diwaktu malam hari",
+                "image": null
+            },
+            {
+                "text": "Diwaktu siang hari",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "https://drive.google.com/file/d/1oKwbkB4KMJNifkp2anNBY_lQmqVrNRSn/view?usp=drive_linkhttps://drive.google.com/file/d/1oKwbkB4KMJNifkp2anNBY_lQmqVrNRSn/view?usp=drive_link",
+        "audio": "audio/463b69957153018ab4b4de3668a269e9.mp3",
+        "hash": "0d97ef70fb4f4c6471b0d1bd96d997ac",
+        "created_at": "2026-05-18T12:38:10.995192"
+    },
+    {
+        "question_id": "SOBA_7_1779082691",
+        "form_name": "SOBA",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question": "8.\nB. Berapa obat yang diminum",
+        "choices": [
+            {
+                "text": "\uff11\u3064",
+                "image": null
+            },
+            {
+                "text": "2 \u3064",
+                "image": null
+            },
+            {
+                "text": "3 \u3064",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "50a3175b67e2922e6c0b0a1be4f1f9d9",
+        "created_at": "2026-05-18T12:38:11.340191"
+    },
+    {
+        "question_id": "SOBA_8_1779082691",
+        "form_name": "SOBA",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question": "10.\nB. Jam berapa sampai ?",
+        "choices": [
+            {
+                "text": "10 : 50",
+                "image": null
+            },
+            {
+                "text": "11 : 40",
+                "image": null
+            },
+            {
+                "text": "12 : 45",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "665e43441ea1f061dd9be7d421f04f4b",
+        "created_at": "2026-05-18T12:38:11.719266"
+    },
+    {
+        "question_id": "SOBA_9_1779082700",
+        "form_name": "SOBA",
+        "page_number": 1,
+        "category": "choukai",
+        "question": "11.\u00a0Audio\nA. Kapan waktu untuk membuang sampah kertasnya ?",
+        "choices": [
+            {
+                "text": "\u571f\u66dc\u65e5 jam 09.00 Sabtu kertas",
+                "image": null
+            },
+            {
+                "text": "\u65e5\u66dc\u65e5 jam 09.00 botol",
+                "image": null
+            },
+            {
+                "text": "\u6708\u66dc\u65e5 jam 09.00 PLASTIK",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "https://drive.google.com/file/d/1bkX8y-QFEEheY-Plee3MgPZZPvxCqCpP/view?usp=drive_link",
+        "audio": "audio/e4b6914224c66a1f7a8853c3c64c125c.mp3",
+        "hash": "492b9d0049e1a2b9578dee8cfa29c68c",
+        "created_at": "2026-05-18T12:38:20.190871"
+    },
+    {
+        "question_id": "SOBA_10_1779082701",
+        "form_name": "SOBA",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question": "12.\u00a0\nB. Bagaimana cara membuang sampah botol plastiknya ?",
+        "choices": [
+            {
+                "text": "Dimasukkan kedalam kantong kresek gelap/hijau",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB9vGnc41elrTJx74xjR127LCOiMILFk1KSgD52W_wEucDMlPAnjdpFscNuvFiYKe3TLNUw8p6onZi4YObFrhPJCFEacK-FYddbO0hgaPjLPj8x0gUtn2PwQLK3e_14CWrjG2dX-PNuY1-XD-UZfHK4uIZHEWQHkWwOch0sIWnDRgC9OY4WpXprntYX6z9TNws2AywvHLxlufU=w260?key=901O-MChNuot9IERf_g4UA",
+                    "path": "images/41bb8610d79d2134199c0eb1b0809fe3.png"
+                }
+            },
+            {
+                "text": "Dimasukkan langsung ke tempat sampah",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBwTwnrEmyrDD6k-HjfrAV3N0F1eWzbqpLmFGTJydU-a4TBaMnPigVfoiQiarOjioP4NLBTxwVYX5jXpyQhpybfISEonQ1P1A6X2wfTFdoY1PUAvBZcvnoBY5P2_YYf2aI-IS7itibj95peSyGl5G6nd5cuySNsa5AgUIIrgmP8oG5KlMHxHfGLBkQwc6G0rEfG1PofX7ZGl5M=w260?key=901O-MChNuot9IERf_g4UA",
+                    "path": "images/5c4f1167eeb27b162080024d56013e9c.png"
+                }
+            },
+            {
+                "text": "Dimasukkan kedalam kantong kresek yang bening",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBfIB0mdF1fyY6KtaA4K-kuF2-ChDQybGWW_2eGMBghVYtVfbzrdoQVsaRDwJOIn_EOqM17DcsrGsSmlddRvem8UbAWnsTrSx0w8vPqQfaKaILEXw_gAq5QcTNCPxWcoJw-5JfBBv4X0lsyYX9oZ9Qp3Z7NnIpIl3An-7XzvKETTkmdN8LsfTDoqzujCaKkAtkuxKWm7LJhwQE=w260?key=901O-MChNuot9IERf_g4UA",
+                    "path": "images/4850590532c0c7b598bad226a22f4557.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "6d62acdcd6c2147f106cbaf7163d9e6e",
+        "created_at": "2026-05-18T12:38:21.461769"
+    },
+    {
+        "question_id": "SOBA_11_1779082712",
+        "form_name": "SOBA",
+        "page_number": 2,
+        "category": "choukai",
+        "question": "1.\u00a0Audio\nMinuman apa yang diminum?",
+        "choices": [
+            {
+                "text": "JUS MANGGA",
+                "image": null
+            },
+            {
+                "text": "JUSS APEL",
+                "image": null
+            },
+            {
+                "text": "JUS JERUK",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "https://drive.google.com/file/d/14uyMPz1dM8LMmrmh4kceqx-BFGRwBEDz/view?usp=drive_link",
+        "audio": "audio/a8e7ac80995f7dde36f0da7af9629d76.mp3",
+        "hash": "027eefead39d3cbfb4beabea11e430f4",
+        "created_at": "2026-05-18T12:38:32.875060"
+    },
+    {
+        "question_id": "SOBA_12_1779082716",
+        "form_name": "SOBA",
+        "page_number": 2,
+        "category": "choukai",
+        "question": "2.\u00a0Audio\nMEREKA MEMILIH APA ?",
+        "choices": [
+            {
+                "text": "BISKUIT BULAT ISI 4 (EMPAT) DALAM KALENG TERBUKA",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA9csFdPAcfCKSmEm0QkdVOvfpNE4yXzsFR5-Hco0h8LUKaZiqX_i2hTdGvkY_E0LHzXQdoeFPF55ovK0V5BoseNETB3ZmLqt2ON_9ewYWanDD2bqP--w1RVXEmwzcW957vo1BBQVuDtxu3-j0xVHEGM0BEvWQ0tsSaKb8GaFDFwgV6tT4YnJGgwMr3RKB-Rsc0rkVRdeVgNlhA=w260?key=901O-MChNuot9IERf_g4UA",
+                    "path": "images/182a441d21641a8928fa3cb068003ffc.png"
+                }
+            },
+            {
+                "text": "BUNGA",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCj6Tb4WDYd9vb9plYRkrAHqgSOV8MEIOHW6sTgT3J5Ha1M_QFN9eEqngsHmZByJgAPON-IPmta2TivF9IL7LSQ-SiFKwR_pXzJUzpXITdU_rWFAHd_JWM_rE2YN5Cjpb-Al3IsysIeFsDiHI6Fg9t3eipSzF-xPoGLFrxkH7gW3KyGNf2_ndwEtRMmym_PizC2MfLnzAcqCnQ=w260?key=901O-MChNuot9IERf_g4UA",
+                    "path": "images/0a4816a048767f147aec4e7ee456d53c.png"
+                }
+            },
+            {
+                "text": "MANGA",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBMH7OvT_E_xcY0k05djpFfkIRJu4AJvSrdq0DVgt2-sA6OrmR7TmzNr4Ca98_3yVSIdxoRPiV05Y8zilbE30-CNfD3lZVH3l2EEItSq6fBfzCdFlot8BRn2uAbFzMVeRPDHVA9ONFYPDnRwzfVpEhOEWdBC1ke0ulEZO9yx98mYVS8NxL1kvcy0QK0COuVb2l6LYAXJr5rFnY3=w260?key=901O-MChNuot9IERf_g4UA",
+                    "path": "images/a3d0a184579ab96bd9599d924a67be6e.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "https://drive.google.com/file/d/1HkKU10aMr9VhLlfzxcNHuQNaZhOHHkjY/view?usp=drive_link",
+        "audio": "audio/8e3f0c32d6bf80f8380858ecf48965f8.mp3",
+        "hash": "9e3175b51b06f3c5a3e787a698df4bff",
+        "created_at": "2026-05-18T12:38:36.146837"
+    },
+    {
+        "question_id": "SOBA_13_1779082719",
+        "form_name": "SOBA",
+        "page_number": 2,
+        "category": "choukai",
+        "question": "3.\u00a0Audio\nITEM APA SAJA YANG DI LAUNDRY KAN ?",
+        "choices": [
+            {
+                "text": "Opsi 1",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCT2w1Hd8AESKHTcqQErOWaC_6aKzEj-EHqcIojId5CtueiG4DrxrDMYsPj15yZzyIZYXokE-DNNM0pOBaB-kR808eVdHI2LcjggNB6rMLo4u4kRABP-84nGHh6ikL68CZ8Dxy6YYyYuaI_ndwdqVPvb4n_po5UTQP80rdufGtIVQSMcYs2IXWlJWCqHX2B3Nx3S73UpLxeGZUY=w260?key=901O-MChNuot9IERf_g4UA",
+                    "path": "images/c04b97dcd1891e2eccb7e9fb9fdddc33.png"
+                }
+            },
+            {
+                "text": "Opsi 2",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAkipu47sxerFU_cH0GdWZ7WBILMlO4FXVZXNr61q_CDPUxmv5PuALuTuK4D_47r-eDQ89lqgldO_DMgLdtFoNFNTB3KgyU0RAns5idWmw71gmzrdU7V_irhx3MxsH00L4XlwQx7jMK2Av3ygFQBfpylBF_46hTwpLladZoZofxgM6TJv3XNpxbaExkIx_iHTZSEDmXglkCh70=w260?key=901O-MChNuot9IERf_g4UA",
+                    "path": "images/14b7cccf3bca0fbdaa7375a1654b43a0.png"
+                }
+            },
+            {
+                "text": "Opsi 3",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAbunqekZNUVCC2ptiS7MFkRG2VeGJjhw2d7CGNcyEctCPczo-TiaRCw63zLiEG71OhPa43Y7miYlGMOsMlW14t4s7k9U0PgUlBGt_TRrBZHy3uxqjLMesmiTR-Z1E6owvCFtjjbB9tFFB7nU9GqbzqYRJX6pdLKPv8c3T6Wg9BqqW9cESPvJia6b1rCaIYYj65A5mTrO7pDJ0=w260?key=901O-MChNuot9IERf_g4UA",
+                    "path": "images/18e6db77e5dc4993b231790a1098d937.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "https://drive.google.com/file/d/1t71zFToqSXt4oFXz5MPWdGM-0df2M__x/view?usp=drive_link",
+        "audio": "audio/71acc4c2391dcf4b49bd5ee8215b6b7b.mp3",
+        "hash": "02c452164caf169dc2778036ba2e318e",
+        "created_at": "2026-05-18T12:38:39.484294"
+    },
+    {
+        "question_id": "SOBA_14_1779082721",
+        "form_name": "SOBA",
+        "page_number": 2,
+        "category": "choukai",
+        "question": "4.\u00a0Audio",
+        "choices": [
+            {
+                "text": "5\u670811\u65e5",
+                "image": null
+            },
+            {
+                "text": "6\u670811\u65e5",
+                "image": null
+            },
+            {
+                "text": "7\u670811\u65e5",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "https://drive.google.com/file/d/1SDk0CAcr4SrWuTvjUjfDJdK6E5kS4p9G/view?usp=drive_link",
+        "audio": "audio/260e718ab4be958c9adfc24cee1941db.mp3",
+        "hash": "665819b04394bfdf5e3c3271e3963287",
+        "created_at": "2026-05-18T12:38:41.715777"
+    },
+    {
+        "question_id": "SOBA_15_1779082724",
+        "form_name": "SOBA",
+        "page_number": 2,
+        "category": "choukai",
+        "question": "5.\u00a0Audio\nADA ORANG YANG JANJIAN AKAN BERTEMU\u00a0\nAKAN BERTEMU DIMANA ?",
+        "choices": [
+            {
+                "text": "DIDEPAN KANTIN MAKANAN",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAh8piUd_3i978zysCcZbluZ0kVOn0Rf1eVrRbfncJAWjcdt1E9m7GR7B0HySgOOrUViBQEcF5FKS3eSJfP7rIDiuU3s_Uc-WryQaq4UpXbRA6RcHqAJH5BCHZDE6BWZjcAA3BkF-qGeIbkNSc1z094oQ5rE6Y9gu2F_eqb6DaOQXv-RE2MBF1Sa72zajhstHlFMIVpjzfwuYfS=w260?key=901O-MChNuot9IERf_g4UA",
+                    "path": "images/f632078835301f6c56841ce150611784.png"
+                }
+            },
+            {
+                "text": "DIDEPAN CAFE",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDBIVlNk3WL7vaptk6iUymvt5_CfPrI7vNkKPuhziWRnL1EIClvimW1r6pzpOs6khzFChy23K07jD-u-b1FhKZsY6gd_GZ-lWD1Xp78KjwmZhS2T5al2tE-Q3iWcNEUa_D-yZH1uIAO0C9OxWAdMeP318UbJ6gGNvAxckxWb_boRv03NmO9X0jQBjWE9oxT-O3juuwA0n2ULNo=w260?key=901O-MChNuot9IERf_g4UA",
+                    "path": "images/b81e892eb121f647fc0cb1452ee0c752.png"
+                }
+            },
+            {
+                "text": "DI DEPAN STASIUN YANG ADA JAM BESAR DAN BULAT NYA (GAMBAR)",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBeDF-r4OIzwmF1NqhJX9wtrCYS9Vcj8bs6BHYrrgDZez3P9vbZsFHgqMUPivaQv0hI6SwxOS7xf4aR2z3FO5xoVsQ1o7MDPrBT4MI0qq_7p2BbAYH7AvQrbODdd3-kE53uPNISnYCefgOGHYX_dm6ZynBPRLJeI4YUoTMCjT70zyGAB8neRXRWzFjBrvIrkrOR_gGb09La4WXB=w252?key=901O-MChNuot9IERf_g4UA",
+                    "path": "images/3c4ffaf3392212613dfea79825a655c5.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "https://drive.google.com/file/d/17_MP6d1pXn_7kAdzDhJEYsD6gwRSjvEp/view?usp=drive_link",
+        "audio": "audio/8b2b4bed238550c2cd816454d256fedf.mp3",
+        "hash": "013463177a2a2c681c0e37d025de198d",
+        "created_at": "2026-05-18T12:38:44.844608"
+    },
+    {
+        "question_id": "SOBA_16_1779082726",
+        "form_name": "SOBA",
+        "page_number": 2,
+        "category": "choukai",
+        "question": "6.\u00a0Audio\nBerapa harga yang dibayar?",
+        "choices": [
+            {
+                "text": "140 YEN",
+                "image": null
+            },
+            {
+                "text": "150 YEN",
+                "image": null
+            },
+            {
+                "text": "160 YEN",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "https://drive.google.com/file/d/1Qf0A-2SoQgru9_iaCUfhsCtK9bQ0IjzH/view?usp=drive_link",
+        "audio": "audio/a8e1dd56b796d3a289ca046f2466d1aa.mp3",
+        "hash": "6974278b5bb80013de78c3607ac4c0e7",
+        "created_at": "2026-05-18T12:38:46.731162"
+    },
+    {
+        "question_id": "SOBA_17_1779082729",
+        "form_name": "SOBA",
+        "page_number": 2,
+        "category": "choukai",
+        "question": "7.Audio\nA. Diwaktu apa obat tersebut diminum ?",
+        "choices": [
+            {
+                "text": "Diwaktu pagi hari",
+                "image": null
+            },
+            {
+                "text": "Diwaktu malam hari",
+                "image": null
+            },
+            {
+                "text": "Diwaktu siang hari",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "https://drive.google.com/file/d/1oKwbkB4KMJNifkp2anNBY_lQmqVrNRSn/view?usp=drive_linkhttps://drive.google.com/file/d/1oKwbkB4KMJNifkp2anNBY_lQmqVrNRSn/view?usp=drive_link",
+        "audio": "audio/463b69957153018ab4b4de3668a269e9.mp3",
+        "hash": "0d97ef70fb4f4c6471b0d1bd96d997ac",
+        "created_at": "2026-05-18T12:38:49.776173"
+    },
+    {
+        "question_id": "SOBA_18_1779082730",
+        "form_name": "SOBA",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question": "8.\nB. Berapa obat yang diminum",
+        "choices": [
+            {
+                "text": "\uff11\u3064",
+                "image": null
+            },
+            {
+                "text": "2 \u3064",
+                "image": null
+            },
+            {
+                "text": "3 \u3064",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "50a3175b67e2922e6c0b0a1be4f1f9d9",
+        "created_at": "2026-05-18T12:38:50.122809"
+    },
+    {
+        "question_id": "SOBA_19_1779082730",
+        "form_name": "SOBA",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question": "10.\nB. Jam berapa sampai ?",
+        "choices": [
+            {
+                "text": "10 : 50",
+                "image": null
+            },
+            {
+                "text": "11 : 40",
+                "image": null
+            },
+            {
+                "text": "12 : 45",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "665e43441ea1f061dd9be7d421f04f4b",
+        "created_at": "2026-05-18T12:38:50.512238"
+    },
+    {
+        "question_id": "SOBA_20_1779082735",
+        "form_name": "SOBA",
+        "page_number": 2,
+        "category": "choukai",
+        "question": "11.\u00a0Audio\nA. Kapan waktu untuk membuang sampah kertasnya ?",
+        "choices": [
+            {
+                "text": "\u571f\u66dc\u65e5 jam 09.00 Sabtu kertas",
+                "image": null
+            },
+            {
+                "text": "\u65e5\u66dc\u65e5 jam 09.00 botol",
+                "image": null
+            },
+            {
+                "text": "\u6708\u66dc\u65e5 jam 09.00 PLASTIK",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "https://drive.google.com/file/d/1bkX8y-QFEEheY-Plee3MgPZZPvxCqCpP/view?usp=drive_link",
+        "audio": "audio/e4b6914224c66a1f7a8853c3c64c125c.mp3",
+        "hash": "492b9d0049e1a2b9578dee8cfa29c68c",
+        "created_at": "2026-05-18T12:38:55.234306"
+    },
+    {
+        "question_id": "SOBA_21_1779082736",
+        "form_name": "SOBA",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question": "12.\u00a0\nB. Bagaimana cara membuang sampah botol plastiknya ?",
+        "choices": [
+            {
+                "text": "Dimasukkan kedalam kantong kresek gelap/hijau",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB9vGnc41elrTJx74xjR127LCOiMILFk1KSgD52W_wEucDMlPAnjdpFscNuvFiYKe3TLNUw8p6onZi4YObFrhPJCFEacK-FYddbO0hgaPjLPj8x0gUtn2PwQLK3e_14CWrjG2dX-PNuY1-XD-UZfHK4uIZHEWQHkWwOch0sIWnDRgC9OY4WpXprntYX6z9TNws2AywvHLxlufU=w260?key=901O-MChNuot9IERf_g4UA",
+                    "path": "images/41bb8610d79d2134199c0eb1b0809fe3.png"
+                }
+            },
+            {
+                "text": "Dimasukkan langsung ke tempat sampah",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBwTwnrEmyrDD6k-HjfrAV3N0F1eWzbqpLmFGTJydU-a4TBaMnPigVfoiQiarOjioP4NLBTxwVYX5jXpyQhpybfISEonQ1P1A6X2wfTFdoY1PUAvBZcvnoBY5P2_YYf2aI-IS7itibj95peSyGl5G6nd5cuySNsa5AgUIIrgmP8oG5KlMHxHfGLBkQwc6G0rEfG1PofX7ZGl5M=w260?key=901O-MChNuot9IERf_g4UA",
+                    "path": "images/5c4f1167eeb27b162080024d56013e9c.png"
+                }
+            },
+            {
+                "text": "Dimasukkan kedalam kantong kresek yang bening",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBfIB0mdF1fyY6KtaA4K-kuF2-ChDQybGWW_2eGMBghVYtVfbzrdoQVsaRDwJOIn_EOqM17DcsrGsSmlddRvem8UbAWnsTrSx0w8vPqQfaKaILEXw_gAq5QcTNCPxWcoJw-5JfBBv4X0lsyYX9oZ9Qp3Z7NnIpIl3An-7XzvKETTkmdN8LsfTDoqzujCaKkAtkuxKWm7LJhwQE=w260?key=901O-MChNuot9IERf_g4UA",
+                    "path": "images/4850590532c0c7b598bad226a22f4557.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "6d62acdcd6c2147f106cbaf7163d9e6e",
+        "created_at": "2026-05-18T12:38:56.481774"
+    }
+]

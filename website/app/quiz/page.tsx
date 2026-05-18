@@ -23,11 +23,18 @@ const CATEGORY_COPY: Record<string, { label: string; tone: string }> = {
   dokkai: { label: 'Reading / Dokkai', tone: 'bg-amber-100 text-amber-900' },
 }
 
+const PLAYER_NAME_KEY = 'rananwari_player_name'
+
 export default function QuizPage() {
   const router = useRouter()
   const [questions, setQuestions] = useState<Question[]>([])
   const [currentIndex, setCurrentIndex] = useState(0)
   const [answers, setAnswers] = useState<number[]>([])
+  const [playerName, setPlayerName] = useState('')
+  const [sessionKey, setSessionKey] = useState('')
+  const [savedSessionKey, setSavedSessionKey] = useState('')
+  const [saveState, setSaveState] = useState<'idle' | 'saving' | 'saved' | 'error'>('idle')
+  const [leaderboardRank, setLeaderboardRank] = useState<number | null>(null)
   const [loading, setLoading] = useState(true)
   const [submitted, setSubmitted] = useState(false)
   const [showResults, setShowResults] = useState(false)
@@ -35,11 +42,21 @@ export default function QuizPage() {
   useEffect(() => {
     const initSession = async () => {
       try {
+        const storedName = localStorage.getItem(PLAYER_NAME_KEY) || ''
+        if (!storedName) {
+          router.replace('/')
+          return
+        }
+
+        setPlayerName(storedName)
+
         let sid = localStorage.getItem('jft_session_id')
         if (!sid) {
           sid = `session_${Date.now()}_${Math.random().toString(36).slice(2, 11)}`
           localStorage.setItem('jft_session_id', sid)
         }
+
+        setSessionKey(sid)
 
         const response = await fetch(`/api/quiz?session=${sid}`)
         const data = await response.json()
@@ -53,7 +70,7 @@ export default function QuizPage() {
     }
 
     initSession()
-  }, [])
+  }, [router])
 
   const handleAnswer = (choiceIndex: number) => {
     if (submitted) return
@@ -119,6 +136,48 @@ export default function QuizPage() {
 
     return { score, total: questions.length, answeredCount }
   }
+
+  useEffect(() => {
+    if (!showResults || !playerName || !sessionKey || savedSessionKey === sessionKey || questions.length === 0) {
+      return
+    }
+
+    const { score, total, answeredCount } = calculateScore()
+
+    const saveResult = async () => {
+      setSaveState('saving')
+
+      try {
+        const response = await fetch('/api/leaderboard', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            mode: 'jft',
+            name: playerName,
+            score,
+            totalQuestions: total,
+            answeredCount,
+          }),
+        })
+
+        if (!response.ok) {
+          throw new Error('Failed to save JFT leaderboard result.')
+        }
+
+        const payload = await response.json()
+        setLeaderboardRank(payload.rank ?? null)
+        setSavedSessionKey(sessionKey)
+        setSaveState('saved')
+      } catch (error) {
+        console.error('Failed to save JFT result:', error)
+        setSaveState('error')
+      }
+    }
+
+    saveResult()
+  }, [answers, playerName, questions.length, savedSessionKey, sessionKey, showResults])
 
   if (loading) {
     return (
@@ -212,6 +271,16 @@ export default function QuizPage() {
               className="h-full rounded-full bg-[linear-gradient(90deg,#11203a_0%,#2a4e87_42%,#00d7a0_100%)]"
               style={{ width: `${percentage}%` }}
             />
+          </div>
+
+          <div className="mt-6 rounded-[24px] border border-slate-900/10 bg-white/90 px-5 py-4 text-sm text-slate-600">
+            {saveState === 'saving' && 'Menyimpan skor ke weekly leaderboard...'}
+            {saveState === 'saved' &&
+              (leaderboardRank
+                ? `Skor tersimpan di leaderboard JFT. Posisi Anda saat ini: #${leaderboardRank}.`
+                : 'Skor tersimpan di leaderboard JFT minggu ini.')}
+            {saveState === 'error' && 'Skor lokal selesai, tetapi leaderboard belum berhasil diperbarui.'}
+            {saveState === 'idle' && 'Menyiapkan sinkronisasi leaderboard.'}
           </div>
 
           <div className="mt-8 grid gap-3 sm:grid-cols-3">

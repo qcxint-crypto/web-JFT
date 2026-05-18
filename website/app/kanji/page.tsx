@@ -26,6 +26,7 @@ const FIELD_LABELS: Record<Field, { ja: string; id: string }> = {
 }
 
 const DEFAULT_QUESTION_COUNT = 25
+const PLAYER_NAME_KEY = 'rananwari_player_name'
 
 const clampQuestionCount = (value: number) => {
   if (!Number.isFinite(value)) return DEFAULT_QUESTION_COUNT
@@ -190,6 +191,11 @@ export default function KanjiQuizPage() {
   const [questionsPerSession, setQuestionsPerSession] = useState(DEFAULT_QUESTION_COUNT)
   const [currentIndex, setCurrentIndex] = useState(0)
   const [score, setScore] = useState(0)
+  const [playerName, setPlayerName] = useState('')
+  const [quizInstanceKey, setQuizInstanceKey] = useState('')
+  const [savedQuizInstanceKey, setSavedQuizInstanceKey] = useState('')
+  const [saveState, setSaveState] = useState<'idle' | 'saving' | 'saved' | 'error'>('idle')
+  const [leaderboardRank, setLeaderboardRank] = useState<number | null>(null)
   const [quizStarted, setQuizStarted] = useState(false)
   const [quizEnded, setQuizEnded] = useState(false)
   const [questions, setQuestions] = useState<QuizQuestion[]>([])
@@ -198,8 +204,15 @@ export default function KanjiQuizPage() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
+    const storedName = localStorage.getItem(PLAYER_NAME_KEY) || ''
+    if (!storedName) {
+      router.replace('/')
+      return
+    }
+
+    setPlayerName(storedName)
     setLoading(false)
-  }, [])
+  }, [router])
 
   const generateQuiz = (count = questionsPerSession) => {
     const selectedEntries = pickRandom(allKanji, clampQuestionCount(count))
@@ -257,21 +270,27 @@ export default function KanjiQuizPage() {
 
   const startQuiz = () => {
     generateQuiz(questionsPerSession)
+    setQuizInstanceKey(`kanji_${Date.now()}_${Math.random().toString(36).slice(2, 10)}`)
     setQuizStarted(true)
     setQuizEnded(false)
     setCurrentIndex(0)
     setScore(0)
     setSelectedAnswerId(null)
     setAnswered(false)
+    setSaveState('idle')
+    setLeaderboardRank(null)
   }
 
   const resetQuiz = () => {
     generateQuiz(questionsPerSession)
+    setQuizInstanceKey(`kanji_${Date.now()}_${Math.random().toString(36).slice(2, 10)}`)
     setQuizEnded(false)
     setCurrentIndex(0)
     setScore(0)
     setSelectedAnswerId(null)
     setAnswered(false)
+    setSaveState('idle')
+    setLeaderboardRank(null)
   }
 
   const handleAnswer = (answerId: number) => {
@@ -310,6 +329,46 @@ export default function KanjiQuizPage() {
       router.push('/')
     }
   }
+
+  useEffect(() => {
+    if (!quizEnded || !playerName || !quizInstanceKey || savedQuizInstanceKey === quizInstanceKey || questions.length === 0) {
+      return
+    }
+
+    const saveResult = async () => {
+      setSaveState('saving')
+
+      try {
+        const response = await fetch('/api/leaderboard', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            mode: 'kanji',
+            name: playerName,
+            score,
+            totalQuestions: questions.length,
+            answeredCount: questions.length,
+          }),
+        })
+
+        if (!response.ok) {
+          throw new Error('Failed to save Kanji leaderboard result.')
+        }
+
+        const payload = await response.json()
+        setLeaderboardRank(payload.rank ?? null)
+        setSavedQuizInstanceKey(quizInstanceKey)
+        setSaveState('saved')
+      } catch (error) {
+        console.error('Failed to save Kanji result:', error)
+        setSaveState('error')
+      }
+    }
+
+    saveResult()
+  }, [playerName, questions.length, quizEnded, quizInstanceKey, savedQuizInstanceKey, score])
 
   if (loading) {
     return (
@@ -478,6 +537,16 @@ export default function KanjiQuizPage() {
               className="h-full rounded-full bg-[linear-gradient(90deg,#11203a_0%,#00d7a0_60%,#ff7a59_100%)]"
               style={{ width: `${percentage}%` }}
             />
+          </div>
+
+          <div className="mt-6 rounded-[24px] border border-slate-900/10 bg-white/90 px-5 py-4 text-sm text-slate-600">
+            {saveState === 'saving' && 'Menyimpan skor ke weekly leaderboard Kanji...'}
+            {saveState === 'saved' &&
+              (leaderboardRank
+                ? `Skor tersimpan di leaderboard Kanji. Posisi Anda saat ini: #${leaderboardRank}.`
+                : 'Skor tersimpan di leaderboard Kanji minggu ini.')}
+            {saveState === 'error' && 'Batch selesai, tetapi leaderboard Kanji belum berhasil diperbarui.'}
+            {saveState === 'idle' && 'Menyiapkan sinkronisasi leaderboard.'}
           </div>
 
           <div className="mt-8 grid gap-3 sm:grid-cols-3">
