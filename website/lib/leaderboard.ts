@@ -326,17 +326,35 @@ function createView(snapshot: LeaderboardSnapshot, playerName?: string, source: 
 }
 
 async function readLocalSnapshot() {
-  try {
-    const raw = await fs.readFile(LEADERBOARD_FILE, 'utf8')
-    return normalizeSnapshot(JSON.parse(raw))
-  } catch {
-    return createEmptySnapshot()
+  // On Vercel production, /tmp is writable but project dirs are read-only.
+  // Try /tmp first in production (written by previous warm invocations),
+  // then fall back to the project file (populated at deploy time).
+  const paths =
+    process.env.NODE_ENV === 'production'
+      ? ['/tmp/leaderboard.json', LEADERBOARD_FILE]
+      : [LEADERBOARD_FILE, '/tmp/leaderboard.json']
+
+  for (const filePath of paths) {
+    try {
+      const raw = await fs.readFile(filePath, 'utf8')
+      return normalizeSnapshot(JSON.parse(raw))
+    } catch {
+      continue
+    }
   }
+
+  return createEmptySnapshot()
 }
 
 async function writeLocalSnapshot(snapshot: LeaderboardSnapshot) {
-  await fs.mkdir(path.dirname(LEADERBOARD_FILE), { recursive: true })
-  await fs.writeFile(LEADERBOARD_FILE, `${JSON.stringify(snapshot, null, 2)}\n`, 'utf8')
+  // Vercel serverless functions cannot write to the project directory (read-only).
+  // Use /tmp in production — data persists across warm invocations of the same instance
+  // but is cleared on cold starts. Set GITHUB_TOKEN in Vercel env for full persistence.
+  const writePath =
+    process.env.NODE_ENV === 'production' ? '/tmp/leaderboard.json' : LEADERBOARD_FILE
+
+  await fs.mkdir(path.dirname(writePath), { recursive: true })
+  await fs.writeFile(writePath, `${JSON.stringify(snapshot, null, 2)}\n`, 'utf8')
 }
 
 function getGitHubConfig() {
@@ -466,20 +484,14 @@ async function loadSnapshot() {
   await hydrateRootEnv()
   const config = getGitHubConfig()
 
-  if (!config.token && process.env.NODE_ENV !== 'production') {
-    return {
-      snapshot: await readLocalSnapshot(),
-      source: 'local' as const,
-      sha: null,
-      branch: 'local',
-    }
-  }
-
-  if (config.repoPath) {
+  // Only use GitHub when a token is explicitly available.
+  // Without a token, unauthenticated reads are rate-limited and writes always fail —
+  // falling back immediately avoids the cascade failure.
+  if (config.token && config.repoPath) {
     try {
       return await readGithubSnapshot()
     } catch (error) {
-      console.error('GitHub leaderboard read failed, falling back to local file.', error)
+      console.error('GitHub leaderboard read failed, falling back to local.', error)
     }
   }
 
@@ -497,11 +509,17 @@ async function persistSnapshot(snapshot: LeaderboardSnapshot, source: 'github' |
       await writeGithubSnapshot(snapshot)
       return 'github' as const
     } catch (error) {
-      console.error('GitHub leaderboard write failed, falling back to local file.', error)
+      console.error('GitHub leaderboard write failed, falling back to local.', error)
     }
   }
 
-  await writeLocalSnapshot(snapshot)
+  try {
+    await writeLocalSnapshot(snapshot)
+  } catch (error) {
+    // Non-fatal: data may not persist across cold starts, but submission still succeeds.
+    console.error('Local leaderboard write failed (data may not persist):', error)
+  }
+
   return 'local' as const
 }
 
