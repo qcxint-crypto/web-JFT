@@ -1,10 +1,12 @@
 [
     {
-        "question_id": "PANDA_0_1779086250",
+        "question_id": "PANDA_0_1779089054",
         "form_name": "PANDA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "image_only",
         "question": "1.",
+        "context": "",
         "choices": [
             {
                 "text": "\u30d8\u30d3",
@@ -29,14 +31,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "48bd17da3c3b42602267240028f01985",
-        "created_at": "2026-05-18T13:37:30.939199"
+        "created_at": "2026-05-18T14:24:14.367254"
     },
     {
-        "question_id": "PANDA_1_1779086251",
+        "question_id": "PANDA_1_1779089055",
         "form_name": "PANDA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "image_only",
         "question": "2.",
+        "context": "",
         "choices": [
             {
                 "text": "\u6691\u3044\u5929\u6c17",
@@ -53,7 +57,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAMFmTNJoIm9PAs7RGduiXGwavlMKu7baYRVBmD3ngYWedIBAm9oWDftZed7o5ulstM7te3_E3KL4JpNEze4B3ED33yXwh6R1GihKJfYwPUSR-wJ8KKcI1LZ-dDaXKvTpJfVjvADlRvO7tIfxEaLEH_6pdhmgtWHjTCbMzbGTCu6IUW98DHs6abnGfNrMSProa6g-SFW0LkegM=w393?key=TqF8Pd2xOVgOr5KLoaq6iw",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDPLcvWqhJphjT5ddNhPg4GIbjeqnrrNS3lgZb4GyVuhcGkAInbGyA6FRQ-O--OSQh9zNeZ8OVhty6miG5Zr1BPRok7gcz-LNHwtM0lfhVlsYHKmJvxcYnkStL-Hs_sptgGc7D-dy-e8PSfHOwhxAHGf-sQGd9rp6fEBEi6ywEVbaOlAotj8z38ZBqPI4aIBe7kf2wFIY6H-g4=w393?key=TqF8Pd2xOVgOr5KLoaq6iw",
                 "path": "images/54a9021f21065d8b129b79ab2cdd62a9.png",
                 "index": 0
             }
@@ -61,14 +65,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "7d50793751c90d9044746053b87428e0",
-        "created_at": "2026-05-18T13:37:31.549185"
+        "created_at": "2026-05-18T14:24:15.223209"
     },
     {
-        "question_id": "PANDA_2_1779086252",
+        "question_id": "PANDA_2_1779089055",
         "form_name": "PANDA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "image_only",
         "question": "3.",
+        "context": "",
         "choices": [
             {
                 "text": "\u4ecb\u8b77\u3092\u958b\u304f",
@@ -85,7 +91,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDyvC8iviQIBfqLeLPwr7aDGEhqDNAHfW3QSmuwJIuC3H2mXNDz8b8rt1o79L6zfxc-wpFTwN9RN2w3MI0uGOvb6XiUn1_jSs3MMyRF97wihPdWs92wrYIZYy5B7Akgl33gp4YnKfVR-yclDNIKd8J6hD5GQRcR3bn_mZ5QoI0hH38uVfFb21m0HREM6UNqfiA8-P0sKKqGMOEW=w398?key=TqF8Pd2xOVgOr5KLoaq6iw",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDEqBuS8XlLI6WqLotjXLMt0q7b7oQZlH8DTL0zYFpZn8zcDb6Kaw4Hspfy0r8DIM9e1JAHj7ya8Q-C_TVi9nhyYTF7Lht5IyLTCANaH1c9zCB3xEcZLMhGSvEZ9_KCw3MaF9WoEAfGcxxRnHA5w39cxXKZkPaJD_d_M2gtPI235BtipuvISE3Kz0OX4EKxDhO5F01W81k5naNm=w398?key=TqF8Pd2xOVgOr5KLoaq6iw",
                 "path": "images/efacc75cdc2b04034a46d142100e650f.png",
                 "index": 0
             }
@@ -93,14 +99,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "f878bc7375754a294f146e7eac2aa73b",
-        "created_at": "2026-05-18T13:37:32.229554"
+        "created_at": "2026-05-18T14:24:15.911321"
     },
     {
-        "question_id": "PANDA_3_1779086262",
+        "question_id": "PANDA_3_1779089065",
         "form_name": "PANDA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "image_only",
         "question": "1.",
+        "context": "",
         "choices": [
             {
                 "text": "\u30d8\u30d3",
@@ -125,14 +133,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "48bd17da3c3b42602267240028f01985",
-        "created_at": "2026-05-18T13:37:42.112324"
+        "created_at": "2026-05-18T14:24:25.937757"
     },
     {
-        "question_id": "PANDA_4_1779086262",
+        "question_id": "PANDA_4_1779089066",
         "form_name": "PANDA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "image_only",
         "question": "2.",
+        "context": "",
         "choices": [
             {
                 "text": "\u6691\u3044\u5929\u6c17",
@@ -149,7 +159,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAMFmTNJoIm9PAs7RGduiXGwavlMKu7baYRVBmD3ngYWedIBAm9oWDftZed7o5ulstM7te3_E3KL4JpNEze4B3ED33yXwh6R1GihKJfYwPUSR-wJ8KKcI1LZ-dDaXKvTpJfVjvADlRvO7tIfxEaLEH_6pdhmgtWHjTCbMzbGTCu6IUW98DHs6abnGfNrMSProa6g-SFW0LkegM=w393?key=TqF8Pd2xOVgOr5KLoaq6iw",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDPLcvWqhJphjT5ddNhPg4GIbjeqnrrNS3lgZb4GyVuhcGkAInbGyA6FRQ-O--OSQh9zNeZ8OVhty6miG5Zr1BPRok7gcz-LNHwtM0lfhVlsYHKmJvxcYnkStL-Hs_sptgGc7D-dy-e8PSfHOwhxAHGf-sQGd9rp6fEBEi6ywEVbaOlAotj8z38ZBqPI4aIBe7kf2wFIY6H-g4=w393?key=TqF8Pd2xOVgOr5KLoaq6iw",
                 "path": "images/54a9021f21065d8b129b79ab2cdd62a9.png",
                 "index": 0
             }
@@ -157,14 +167,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "7d50793751c90d9044746053b87428e0",
-        "created_at": "2026-05-18T13:37:42.776324"
+        "created_at": "2026-05-18T14:24:26.584430"
     },
     {
-        "question_id": "PANDA_5_1779086263",
+        "question_id": "PANDA_5_1779089067",
         "form_name": "PANDA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "image_only",
         "question": "3.",
+        "context": "",
         "choices": [
             {
                 "text": "\u4ecb\u8b77\u3092\u958b\u304f",
@@ -181,7 +193,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDyvC8iviQIBfqLeLPwr7aDGEhqDNAHfW3QSmuwJIuC3H2mXNDz8b8rt1o79L6zfxc-wpFTwN9RN2w3MI0uGOvb6XiUn1_jSs3MMyRF97wihPdWs92wrYIZYy5B7Akgl33gp4YnKfVR-yclDNIKd8J6hD5GQRcR3bn_mZ5QoI0hH38uVfFb21m0HREM6UNqfiA8-P0sKKqGMOEW=w398?key=TqF8Pd2xOVgOr5KLoaq6iw",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDEqBuS8XlLI6WqLotjXLMt0q7b7oQZlH8DTL0zYFpZn8zcDb6Kaw4Hspfy0r8DIM9e1JAHj7ya8Q-C_TVi9nhyYTF7Lht5IyLTCANaH1c9zCB3xEcZLMhGSvEZ9_KCw3MaF9WoEAfGcxxRnHA5w39cxXKZkPaJD_d_M2gtPI235BtipuvISE3Kz0OX4EKxDhO5F01W81k5naNm=w398?key=TqF8Pd2xOVgOr5KLoaq6iw",
                 "path": "images/efacc75cdc2b04034a46d142100e650f.png",
                 "index": 0
             }
@@ -189,6 +201,6 @@
         "audio_url": "",
         "audio": "",
         "hash": "f878bc7375754a294f146e7eac2aa73b",
-        "created_at": "2026-05-18T13:37:43.578024"
+        "created_at": "2026-05-18T14:24:27.419051"
     }
 ]

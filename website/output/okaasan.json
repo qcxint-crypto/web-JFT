@@ -1,10 +1,12 @@
 [
     {
-        "question_id": "OKAASAN_0_1779086160",
+        "question_id": "OKAASAN_0_1779088966",
         "form_name": "OKAASAN",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "1.\n\u00a0Percakapan tentang makan bersama (shokuji)\n\nPertanyaan:\u00a0Kapan makan bersama dilakukan?",
+        "context": "",
         "choices": [
             {
                 "text": "\u3082\u304f\u3088\u3046\u3073\u3068\u304a\u304b",
@@ -23,14 +25,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "1e212101892506ce0d247f3e101f7163",
-        "created_at": "2026-05-18T13:36:00.897252"
+        "created_at": "2026-05-18T14:22:46.128437"
     },
     {
-        "question_id": "OKAASAN_1_1779086161",
+        "question_id": "OKAASAN_1_1779088966",
         "form_name": "OKAASAN",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "2.\nPercakapan 2 orang",
+        "context": "",
         "choices": [
             {
                 "text": "Rumah didekat stasiun",
@@ -49,14 +53,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "10543f7d15f502415b47611bcf8f8c96",
-        "created_at": "2026-05-18T13:36:01.253319"
+        "created_at": "2026-05-18T14:22:46.502042"
     },
     {
-        "question_id": "OKAASAN_2_1779086161",
+        "question_id": "OKAASAN_2_1779088966",
         "form_name": "OKAASAN",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "3.\nCewek-cowok pesan makanan\u00a0\u00a0\nPertanyaan:\u00a0Bingung pilih sashimi atau udon. Tanaka pesan apa?",
+        "context": "",
         "choices": [
             {
                 "text": "\u3046\u3069\u3093",
@@ -75,14 +81,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "4f4b94434e1ff8db4fb469cb1e8aedab",
-        "created_at": "2026-05-18T13:36:01.618531"
+        "created_at": "2026-05-18T14:22:46.865588"
     },
     {
-        "question_id": "OKAASAN_3_1779086161",
+        "question_id": "OKAASAN_3_1779088967",
         "form_name": "OKAASAN",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "4.\u00a0\nAda percakapan pelayan toko senior dan junior di supermarket. Jus dan sampah ditaro dimana.",
+        "context": "",
         "choices": [
             {
                 "text": "Jus di \u3072\u3060\u308a\u304c\u308f dan Sampah di \u305d\u3068",
@@ -101,14 +109,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "08f5e24bcca4e2386941bba73a6acdb1",
-        "created_at": "2026-05-18T13:36:01.992893"
+        "created_at": "2026-05-18T14:22:47.229342"
     },
     {
-        "question_id": "OKAASAN_4_1779086162",
+        "question_id": "OKAASAN_4_1779088967",
         "form_name": "OKAASAN",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "6.\u00a0\n\u306a\u304c\u306e\u306b\u3044\u304d\u305f\u3044\u3093\u3067\u3059\u304c\u3044\u3061\u3070\u3093\u306f\u3084\u3044\u3064\u304f\u3067\u3093\u3057\u3083\u306f\u306a\u3093\u3070\u3093\u305b\u3093\u3067\u3059\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "\u306f\u3061\u3070\u3093\u305b\u3093",
@@ -127,14 +137,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "9ebcbd1a517ac9fbf4055d11b83d5822",
-        "created_at": "2026-05-18T13:36:02.374432"
+        "created_at": "2026-05-18T14:22:47.626245"
     },
     {
-        "question_id": "OKAASAN_5_1779086162",
+        "question_id": "OKAASAN_5_1779088967",
         "form_name": "OKAASAN",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "7.\u00a0\n\u306a\u3093\u3058\u306b\u3067\u3093\u3057\u3083\u306b\u306e\u3063\u305f\u307b\u3046\u304c\u3044\u3044\u3067\u3059\u304b\u3002",
+        "context": "",
         "choices": [
             {
                 "text": "\u3058\u3083\u3001\u3054\u3054\u306b\u3058\u3087\u3093\u3058\u3085\u3046\u3054\u3075\u3093\u3002(\u3054\u30542.45)",
@@ -153,14 +165,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "433fb444d4c5bf1454476d3b1a9f0e6c",
-        "created_at": "2026-05-18T13:36:02.722771"
+        "created_at": "2026-05-18T14:22:47.992791"
     },
     {
-        "question_id": "OKAASAN_6_1779086163",
+        "question_id": "OKAASAN_6_1779088968",
         "form_name": "OKAASAN",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "8.\nPercakapan ingin beli HP baru\n\nPertanyaan:\u00a0Beli di toko mana?",
+        "context": "",
         "choices": [
             {
                 "text": "Toko Baru",
@@ -179,14 +193,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "7f953719f9686a92d2d2c9f35d986429",
-        "created_at": "2026-05-18T13:36:03.090562"
+        "created_at": "2026-05-18T14:22:48.358588"
     },
     {
-        "question_id": "OKAASAN_7_1779086163",
+        "question_id": "OKAASAN_7_1779088968",
         "form_name": "OKAASAN",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "9.\u00a0\nDikaryawisata ada penjelasan mengenai peraturan bersepeda.Apa yang boleh dilakukan.",
+        "context": "",
         "choices": [
             {
                 "text": "Orang yang bersepeda dikanan mobil",
@@ -205,14 +221,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "85c8546201f4b4123716cdf6f2cc94c4",
-        "created_at": "2026-05-18T13:36:03.453733"
+        "created_at": "2026-05-18T14:22:48.728161"
     },
     {
-        "question_id": "OKAASAN_8_1779086163",
+        "question_id": "OKAASAN_8_1779088969",
         "form_name": "OKAASAN",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "10.\u00a0\nParkirnya dimana.",
+        "context": "",
         "choices": [
             {
                 "text": "Parkiran yang sudah disediakan dibelakang stasiun.",
@@ -231,14 +249,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "136462d2e85f4361c36c2cf39f08fb38",
-        "created_at": "2026-05-18T13:36:03.820640"
+        "created_at": "2026-05-18T14:22:49.094167"
     },
     {
-        "question_id": "OKAASAN_9_1779086164",
+        "question_id": "OKAASAN_9_1779088969",
         "form_name": "OKAASAN",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "11.\nPercakapan pembeli dan penjual\n\nPertanyaan:\u00a0Apa yang dibeli?",
+        "context": "",
         "choices": [
             {
                 "text": "Hamburger 1 dan kokakola 2",
@@ -257,14 +277,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "19c96212235dbfb4870bf727ee608972",
-        "created_at": "2026-05-18T13:36:04.187863"
+        "created_at": "2026-05-18T14:22:49.458389"
     },
     {
-        "question_id": "OKAASAN_10_1779086173",
+        "question_id": "OKAASAN_10_1779088978",
         "form_name": "OKAASAN",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "1.\n\u00a0Percakapan tentang makan bersama (shokuji)\n\nPertanyaan:\u00a0Kapan makan bersama dilakukan?",
+        "context": "",
         "choices": [
             {
                 "text": "\u3082\u304f\u3088\u3046\u3073\u3068\u304a\u304b",
@@ -283,14 +305,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "1e212101892506ce0d247f3e101f7163",
-        "created_at": "2026-05-18T13:36:13.661406"
+        "created_at": "2026-05-18T14:22:58.986468"
     },
     {
-        "question_id": "OKAASAN_11_1779086174",
+        "question_id": "OKAASAN_11_1779088979",
         "form_name": "OKAASAN",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "2.\nPercakapan 2 orang",
+        "context": "",
         "choices": [
             {
                 "text": "Rumah didekat stasiun",
@@ -309,14 +333,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "10543f7d15f502415b47611bcf8f8c96",
-        "created_at": "2026-05-18T13:36:14.021362"
+        "created_at": "2026-05-18T14:22:59.344102"
     },
     {
-        "question_id": "OKAASAN_12_1779086174",
+        "question_id": "OKAASAN_12_1779088979",
         "form_name": "OKAASAN",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "3.\nCewek-cowok pesan makanan\u00a0\u00a0\nPertanyaan:\u00a0Bingung pilih sashimi atau udon. Tanaka pesan apa?",
+        "context": "",
         "choices": [
             {
                 "text": "\u3046\u3069\u3093",
@@ -335,14 +361,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "4f4b94434e1ff8db4fb469cb1e8aedab",
-        "created_at": "2026-05-18T13:36:14.392123"
+        "created_at": "2026-05-18T14:22:59.712932"
     },
     {
-        "question_id": "OKAASAN_13_1779086174",
+        "question_id": "OKAASAN_13_1779088980",
         "form_name": "OKAASAN",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "4.\u00a0\nAda percakapan pelayan toko senior dan junior di supermarket. Jus dan sampah ditaro dimana.",
+        "context": "",
         "choices": [
             {
                 "text": "Jus di \u3072\u3060\u308a\u304c\u308f dan Sampah di \u305d\u3068",
@@ -361,14 +389,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "08f5e24bcca4e2386941bba73a6acdb1",
-        "created_at": "2026-05-18T13:36:14.754122"
+        "created_at": "2026-05-18T14:23:00.074351"
     },
     {
-        "question_id": "OKAASAN_14_1779086175",
+        "question_id": "OKAASAN_14_1779088980",
         "form_name": "OKAASAN",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "6.\u00a0\n\u306a\u304c\u306e\u306b\u3044\u304d\u305f\u3044\u3093\u3067\u3059\u304c\u3044\u3061\u3070\u3093\u306f\u3084\u3044\u3064\u304f\u3067\u3093\u3057\u3083\u306f\u306a\u3093\u3070\u3093\u305b\u3093\u3067\u3059\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "\u306f\u3061\u3070\u3093\u305b\u3093",
@@ -387,14 +417,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "9ebcbd1a517ac9fbf4055d11b83d5822",
-        "created_at": "2026-05-18T13:36:15.144015"
+        "created_at": "2026-05-18T14:23:00.470770"
     },
     {
-        "question_id": "OKAASAN_15_1779086175",
+        "question_id": "OKAASAN_15_1779088980",
         "form_name": "OKAASAN",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "7.\u00a0\n\u306a\u3093\u3058\u306b\u3067\u3093\u3057\u3083\u306b\u306e\u3063\u305f\u307b\u3046\u304c\u3044\u3044\u3067\u3059\u304b\u3002",
+        "context": "",
         "choices": [
             {
                 "text": "\u3058\u3083\u3001\u3054\u3054\u306b\u3058\u3087\u3093\u3058\u3085\u3046\u3054\u3075\u3093\u3002(\u3054\u30542.45)",
@@ -413,14 +445,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "433fb444d4c5bf1454476d3b1a9f0e6c",
-        "created_at": "2026-05-18T13:36:15.520411"
+        "created_at": "2026-05-18T14:23:00.839319"
     },
     {
-        "question_id": "OKAASAN_16_1779086175",
+        "question_id": "OKAASAN_16_1779088981",
         "form_name": "OKAASAN",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "8.\nPercakapan ingin beli HP baru\n\nPertanyaan:\u00a0Beli di toko mana?",
+        "context": "",
         "choices": [
             {
                 "text": "Toko Baru",
@@ -439,14 +473,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "7f953719f9686a92d2d2c9f35d986429",
-        "created_at": "2026-05-18T13:36:15.885000"
+        "created_at": "2026-05-18T14:23:01.204119"
     },
     {
-        "question_id": "OKAASAN_17_1779086176",
+        "question_id": "OKAASAN_17_1779088981",
         "form_name": "OKAASAN",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "9.\u00a0\nDikaryawisata ada penjelasan mengenai peraturan bersepeda.Apa yang boleh dilakukan.",
+        "context": "",
         "choices": [
             {
                 "text": "Orang yang bersepeda dikanan mobil",
@@ -465,14 +501,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "85c8546201f4b4123716cdf6f2cc94c4",
-        "created_at": "2026-05-18T13:36:16.252084"
+        "created_at": "2026-05-18T14:23:01.578719"
     },
     {
-        "question_id": "OKAASAN_18_1779086176",
+        "question_id": "OKAASAN_18_1779088981",
         "form_name": "OKAASAN",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "10.\u00a0\nParkirnya dimana.",
+        "context": "",
         "choices": [
             {
                 "text": "Parkiran yang sudah disediakan dibelakang stasiun.",
@@ -491,14 +529,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "136462d2e85f4361c36c2cf39f08fb38",
-        "created_at": "2026-05-18T13:36:16.617795"
+        "created_at": "2026-05-18T14:23:01.943671"
     },
     {
-        "question_id": "OKAASAN_19_1779086176",
+        "question_id": "OKAASAN_19_1779088982",
         "form_name": "OKAASAN",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "11.\nPercakapan pembeli dan penjual\n\nPertanyaan:\u00a0Apa yang dibeli?",
+        "context": "",
         "choices": [
             {
                 "text": "Hamburger 1 dan kokakola 2",
@@ -517,6 +557,6 @@
         "audio_url": "",
         "audio": "",
         "hash": "19c96212235dbfb4870bf727ee608972",
-        "created_at": "2026-05-18T13:36:16.986389"
+        "created_at": "2026-05-18T14:23:02.376378"
     }
 ]

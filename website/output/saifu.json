@@ -1,10 +1,12 @@
 [
     {
-        "question_id": "SAIFU_0_1779086283",
+        "question_id": "SAIFU_0_1779089087",
         "form_name": "SAIFU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "image_only",
         "question": "1.",
+        "context": "",
         "choices": [
             {
                 "text": "\u30cf\u30f3\u30ab\u30c1",
@@ -21,7 +23,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDtjk34hay4uNn2i2KazobOkFPWx-knnmjCqN-cgBEd4Ids5eDW5Gvi4TTmDqmS4gWgs0NQw3H7VgHkjI6kzZfwXwYqGocWwmMnVjFglCw9jHna0wFxeKrDzDaLq8wKBa46UJiSO7jhQG5zNvhR4UUptgw4Zduc6Wih8MC_oFodqkQPjdi1eIbzN_fJXdozHkakE60WMTWFIX5k=w475?key=9wlSYt_IO1eursrSJP15iw",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDMNBEJB6cJnHkZ2n8H6Y9BWEwFD5L8aPdv5EGsfXJ8ePJZ-wMsq8HZdc_LleMAg3QC9WteO9cIX6mkiEMlybs3C9sbjofKgchYvCASDeGkFEypjpkREpt7-UYFIBNTV2PdS_d9DiKUMRmWAiUkx-Io0FbjJHBSRYWCJ6vcZQwn0Mxk3Jb8bkALPK8-GuIDbSpv4SocHcu41dzr=w475?key=9wlSYt_IO1eursrSJP15iw",
                 "path": "images/5bab246159ae5e16de6aa91d1fc65656.png",
                 "index": 0
             }
@@ -29,15 +31,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "990b40077e7cbf1cc38cb8721cd744a4",
-        "created_at": "2026-05-18T13:38:03.655929",
+        "created_at": "2026-05-18T14:24:47.060521",
         "correctAnswer": "\u3055\u3044\u3075"
     },
     {
-        "question_id": "SAIFU_1_1779086284",
+        "question_id": "SAIFU_1_1779089087",
         "form_name": "SAIFU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "image_only",
         "question": "2.",
+        "context": "",
         "choices": [
             {
                 "text": "\u306f\u3055\u307f",
@@ -54,7 +58,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAzqF-EblbapIT1TIKkxhSU93g9pHQKLCg5hpQvSgsexY0Vq8trDAHESK8u_RfGPyUKJNC-U0cpMdogZjso5bHyr-qNRxakHTBbWNW1HtdYJGS6QmMRkQM-EwOypJmlOzLruvGv3tPRzTcHwn9kVcPKlTe7BFc_d8PTOIIzc-V72oyNJzzF1JDl83h3ChIZm-7TVh2ADayfjS8=w459?key=9wlSYt_IO1eursrSJP15iw",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDHOYSSke4l-Q07mHMyKgeBc662AuUwlpTi4JoualHt61aZlKLEbKrtK-AusYUCZoSariV1-GTs3qfR1HtxPsUmGken5KFnl3sQH690wdCPeL4F7MM5-D7Q27IecMOn85jB2XKD8rfrp6EN4SyAhAHiErl2k7UAIAV0BqY0WzbE9VxDgvzv8LCvICEO0M8-YrOsdhI-u3GfW6I=w459?key=9wlSYt_IO1eursrSJP15iw",
                 "path": "images/da040283af6702a961deeff6d83f08b2.png",
                 "index": 0
             }
@@ -62,15 +66,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "bfdd9c77cab5514b05ca0a1a5a7ba453",
-        "created_at": "2026-05-18T13:38:04.419609",
+        "created_at": "2026-05-18T14:24:47.832978",
         "correctAnswer": "\u30b9\u30d7\u30fc\u30f3"
     },
     {
-        "question_id": "SAIFU_2_1779086285",
+        "question_id": "SAIFU_2_1779089088",
         "form_name": "SAIFU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "image_only",
         "question": "3.",
+        "context": "",
         "choices": [
             {
                 "text": "\u3053\u308f\u3044",
@@ -87,7 +93,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCVNMYR7wy3d-kDSV63RgzXJ0QHDJ6qFs_AVVJVfx-Qk2KU0F8B3nxaBndGVe9wWu9sHjpGcQIe28aT4Z6dD-g7NPPphcg5_O5CkLDF25d-V7jxvojA5WEc9sJWf67aPh5eZ-hN608dXRI3u-5JX2lEHg_5UXrzRiKMI40VOStL3Xkv0Qa5a-YHFKLQ4Vv27cKCMaOdUeQalJI=w245?key=9wlSYt_IO1eursrSJP15iw",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAx45cjXzEHb1B0fNhJsfo4ay31P7CBw7xeLgM0JwDhDdGwghgzU_Ce4H948MQ3bNMi90mUURfj6jCOlmqxgAJ8c8qJzMMFcFkQOee9Xvsg778oPVenJhENu3KnmyX6yQi4wkduoAdWs95CDiMP3b7p8ajIhgBlmZZLDqLPJZzjvv3J88jukmGBVJ-3vLXULXpm4v9ynRI72VQ=w245?key=9wlSYt_IO1eursrSJP15iw",
                 "path": "images/69759403f5814cd2f8ae41f967b64aab.png",
                 "index": 0
             }
@@ -95,14 +101,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "aa939ccaacb26907b4f578bb4e1d72cc",
-        "created_at": "2026-05-18T13:38:05.133285"
+        "created_at": "2026-05-18T14:24:48.461635"
     },
     {
-        "question_id": "SAIFU_3_1779086285",
+        "question_id": "SAIFU_3_1779089088",
         "form_name": "SAIFU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "4. \u5c71\u7530\u3055\u3093 \u306f \u56f3\u66f8\u9928 \u3067 \u672c \u3092\u00a0\u501f\u308a\u307e\u3059\u3002",
+        "context": "",
         "choices": [
             {
                 "text": "\u304b\u3048\u308a\u307e\u3059",
@@ -121,14 +129,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "7b761ee124dedd009e044838b44e46dc",
-        "created_at": "2026-05-18T13:38:05.498118"
+        "created_at": "2026-05-18T14:24:48.820547"
     },
     {
-        "question_id": "SAIFU_4_1779086285",
+        "question_id": "SAIFU_4_1779089089",
         "form_name": "SAIFU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "5. \u3059\u307f\u307e\u3042\u305b\u3093\u3001\u96fb\u6c17 \u3092\u00a0\u6d88\u3057\u3066\u304f\u3060\u3055\u3044",
+        "context": "",
         "choices": [
             {
                 "text": "\u3051\u3057\u3066",
@@ -147,14 +157,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "1eab679eafb17742a670898b78741cdd",
-        "created_at": "2026-05-18T13:38:05.867819"
+        "created_at": "2026-05-18T14:24:49.186553",
+        "correctAnswer": "\u3051\u3057\u3066"
     },
     {
-        "question_id": "SAIFU_5_1779086286",
+        "question_id": "SAIFU_5_1779089089",
         "form_name": "SAIFU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "6. \u6771\u4eac \u306f\u00a0\u3075\u308b\u3044\u753a\u3067\u3059\u3002",
+        "context": "",
         "choices": [
             {
                 "text": "\u8efd\u3044",
@@ -173,15 +186,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "570efc75ea153461d9531e3498bed3a6",
-        "created_at": "2026-05-18T13:38:06.226600",
+        "created_at": "2026-05-18T14:24:49.561008",
         "correctAnswer": "\u53e4\u3044"
     },
     {
-        "question_id": "SAIFU_6_1779086286",
+        "question_id": "SAIFU_6_1779089089",
         "form_name": "SAIFU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "7\uff0e\u79c1 \u306f\u00a0\u3072\u304c\u3057\u3050\u3061\u00a0\u306b \u3044\u307e\u3059\u3088",
+        "context": "",
         "choices": [
             {
                 "text": "\u5357\u53e3",
@@ -200,15 +215,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "0c39cb9d1c8ef5b4c2f5d46b0ac11720",
-        "created_at": "2026-05-18T13:38:06.597594",
+        "created_at": "2026-05-18T14:24:49.919456",
         "correctAnswer": "\u6771\u53e3"
     },
     {
-        "question_id": "SAIFU_7_1779086286",
+        "question_id": "SAIFU_7_1779089090",
         "form_name": "SAIFU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "8. \u3053\u308c \u306f \u304a\u795d\u3044 \u306e\u3068\u304d \u305f\u3079\u308b\u3002\u3002\u3002\u3002\u3067\u3059\u3002",
+        "context": "",
         "choices": [
             {
                 "text": "\u7279\u5225",
@@ -227,14 +244,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "6ac3ea11853ad9ad162e9606171564ea",
-        "created_at": "2026-05-18T13:38:06.955897"
+        "created_at": "2026-05-18T14:24:50.286260",
+        "correctAnswer": "\u7279\u5225"
     },
     {
-        "question_id": "SAIFU_8_1779086287",
+        "question_id": "SAIFU_8_1779089090",
         "form_name": "SAIFU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "image_only",
         "question": "9.",
+        "context": "",
         "choices": [
             {
                 "text": "\u30c0\u30d0\u30b3",
@@ -251,7 +271,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCaXdd4F8z0rp7SjMTBB4LcbQCoNm2x08j-U7zqFK7DPgb_sq4CKPCwGmzG3wasxodTjZAZgX8DeJPpRRvR_8YN_OE1jboNtKpJVtpR0bzyMQC-yg1rzh7ws2Mh8Hewu8ReuF2rTHaF85U7YKxY2hQLZBgKNlujKNCxj5sxkAxSemtnuwW4ftcQ7UvirbtrTb0redgnjTaelx_L=w422?key=9wlSYt_IO1eursrSJP15iw",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCbBGLluqDQZ1tHlZLW-jPTqFeelYxh156fWsESOPrX00gxho1ErkpuBebR0SvYFRU80oJkvC1-J_bEtsikPLBfr7WcJHxXvWTKmTrJTggqCWl7nCpLoEX4osTC8VBYp7U2Crp9EnwaKuqf-Ojp-Mxv88BbTHtAZNOksB-XvF6MUl65F6rsEj_Pv1Y9RSMfLFjn7Vw9MIt-52R9=w422?key=9wlSYt_IO1eursrSJP15iw",
                 "path": "images/55082f5576957560247eb7c8162dd77d.png",
                 "index": 0
             }
@@ -259,15 +279,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "48d63d94bba4233cc2a14693835a5ffe",
-        "created_at": "2026-05-18T13:38:07.566935",
-        "correctAnswer": "\u30bf\u30d0\u30b3"
+        "created_at": "2026-05-18T14:24:50.946235"
     },
     {
-        "question_id": "SAIFU_9_1779086287",
+        "question_id": "SAIFU_9_1779089091",
         "form_name": "SAIFU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "10. \u3053\u306e\u753a \u306f \u3075\u3046\u3051\u3044 \u304c\u00a0\u3046\u3064\u304f\u3057\u3044\u306e\u3067\u3001\u3086\u3046\u3081\u3044\u3067\u3059\u3002",
+        "context": "",
         "choices": [
             {
                 "text": "\u5bc2\u3057\u3044",
@@ -286,15 +307,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "85249982b215e273b9a0632c0f7e1f7c",
-        "created_at": "2026-05-18T13:38:07.926387",
+        "created_at": "2026-05-18T14:24:51.304976",
         "correctAnswer": "\u7f8e\u3057\u3044"
     },
     {
-        "question_id": "SAIFU_10_1779086288",
+        "question_id": "SAIFU_10_1779089091",
         "form_name": "SAIFU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "11. \u53bb\u5e74\u3001\u5927\u5b66 \u306b \u305d\u3064\u304e\u3087\u3046\u3057\u307e\u3057\u305f\u3002",
+        "context": "",
         "choices": [
             {
                 "text": "\u3089\u3044\u306d\u3093",
@@ -313,15 +336,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "02283180c061d43645779835fcc3e83b",
-        "created_at": "2026-05-18T13:38:08.289178",
-        "correctAnswer": "\u304d\u3087\u306d\u3093"
+        "created_at": "2026-05-18T14:24:51.676477"
     },
     {
-        "question_id": "SAIFU_11_1779086288",
+        "question_id": "SAIFU_11_1779089092",
         "form_name": "SAIFU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "12.\u00a0 \u30d7\u30c8\u30ea\u3055\u3093 \u306f \u304d\u308c\u3044\u3067\u00a0\u89aa\u5207\u306a\u4eba\u3067\u3059",
+        "context": "",
         "choices": [
             {
                 "text": "\u305f\u3044\u305b\u3064\u306a",
@@ -340,14 +364,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "a2c47a85012c013996d9f84e5e2abe7a",
-        "created_at": "2026-05-18T13:38:08.680923"
+        "created_at": "2026-05-18T14:24:52.047283",
+        "correctAnswer": "\u3057\u3093\u305b\u3064\u306a"
     },
     {
-        "question_id": "SAIFU_12_1779086298",
+        "question_id": "SAIFU_12_1779089102",
         "form_name": "SAIFU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "1.\u00a0\nA. \u3053\u308c \u306f \u30e9\u30fc\u30e1\u30f3 \u3044\u304b\u304c\u3067\u3059\u304b\nB. \u3002\u3002\u3002\u305d\u3046\u3067\u3059\u3001\u79c1 \u304c \u304b\u3089\u3044\u305f\u3079\u3082\u306e \u3092 \u305f\u3079\u307e\u305b\u3093\u3002\nA. \u305d\u3046\u3067\u3059\u306d\u3001\u304b\u3089\u304f\u306a\u3044\u3088\u3001\u305f\u3079\u3066\u307f\u3066\u304f\u3060\u3055\u3044\u3002",
+        "context": "",
         "choices": [
             {
                 "text": "\u8f9b",
@@ -366,15 +393,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "60ac6e15f5b6363445ff106ffcd1235a",
-        "created_at": "2026-05-18T13:38:18.759045",
+        "created_at": "2026-05-18T14:25:02.048145",
         "correctAnswer": "\u8f9b"
     },
     {
-        "question_id": "SAIFU_13_1779086299",
+        "question_id": "SAIFU_13_1779089102",
         "form_name": "SAIFU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "2.\u00a0\nA. \u306f\u3058\u3081\u307e\u3057\u3066\u3001\u305f\u306a\u304b\u3067\u3059\u3001\u30aa\u30fc\u30b9\u31f3\u30e9\u30ea\u30a2\u3002\u3002\u3002\u3002\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3057\u307e\u3059\u3002\nB. \u3053\u3061\u3089\u3053\u305d \u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3057\u307e\u3059",
+        "context": "",
         "choices": [
             {
                 "text": "\u304b\u3089\u3044\u304d\u307e\u3057\u305f",
@@ -393,15 +422,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "7ad82cacfab07feb9c608e5cb8106b68",
-        "created_at": "2026-05-18T13:38:19.130831",
+        "created_at": "2026-05-18T14:25:02.409153",
         "correctAnswer": "\u304b\u3089\u304d\u307e\u3057\u305f"
     },
     {
-        "question_id": "SAIFU_14_1779086299",
+        "question_id": "SAIFU_14_1779089102",
         "form_name": "SAIFU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "3.\u00a0\nA. \u3002\u3002\u3002\u3002\u304a\u3081\u3067\u3068\u3046,\nB. \u3053\u3068\u3057 \u3082 \u3088\u308d\u3057\u304f\u306d",
+        "context": "",
         "choices": [
             {
                 "text": "\u3042\u3051\u307e\u3057\u3066",
@@ -420,15 +451,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "dbef39ce61d4b3360bf57b5d6e91521d",
-        "created_at": "2026-05-18T13:38:19.509102",
-        "correctAnswer": "\u3042\u3051\u307e\u3057\u3066"
+        "created_at": "2026-05-18T14:25:02.777592"
     },
     {
-        "question_id": "SAIFU_15_1779086299",
+        "question_id": "SAIFU_15_1779089103",
         "form_name": "SAIFU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "4.\u00a0\nA. \u3059\u307f\u307e\u305b\u3093,\u3000\u3053\u308c\u306f\u3002\u3002\u3002\u3067\u3059\u304b\u3002\nB. \u306f\u3055\u307f\u3067\u3059",
+        "context": "",
         "choices": [
             {
                 "text": "\u3060\u308c",
@@ -447,15 +479,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "a7633b80ecd136faf2948b706dea851b",
-        "created_at": "2026-05-18T13:38:19.893994",
+        "created_at": "2026-05-18T14:25:03.139116",
         "correctAnswer": "\u306a\u3093"
     },
     {
-        "question_id": "SAIFU_16_1779086300",
+        "question_id": "SAIFU_16_1779089103",
         "form_name": "SAIFU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "5.\u00a0\nA\uff1a\u3048\u3068\u30fc\u3001\u306a\u306b\u304c\u3042\u308a\u307e\u3059\u304b\nB\uff1a\u3061\u3087\u3063\u3068\u75c5\u6c17\u3067\u3059\u3001\u3042\u305f\u307e\u304c\u3044\u305f\u3044\u3093\u3067\u3059\u3002\nA\uff1a\u3002\u3002\u3002\u304b\u3048\u3063\u3066\u304f\u3060\u3055\u3044\u3088\u3002\nB\uff1a\u306f\u3044\u3001\u304a\u3055\u304d\u306b\u3057\u3064\u308c\u3044\u3057\u307e\u3059\u3002",
+        "context": "",
         "choices": [
             {
                 "text": "\u306f\u3084\u304f",
@@ -474,14 +508,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "80449b430d7900bc7e61f61a22f73593",
-        "created_at": "2026-05-18T13:38:20.256158"
+        "created_at": "2026-05-18T14:25:03.507058",
+        "correctAnswer": "\u306f\u3084\u304f"
     },
     {
-        "question_id": "SAIFU_17_1779086300",
+        "question_id": "SAIFU_17_1779089103",
         "form_name": "SAIFU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "6.\u00a0\nA\uff1a\u3053\u306e\u30de\u30f3\u30ac\u304c\u304a\u3082\u3057\u304b\u3063\u305f\u3088\u3001\u3088\u3093\u3060\u3053\u3068\u304c\u3042\u308a\u307e\u3059\u304b\nB\uff1a\u307e\u3060\u3067\u3059\u3001\u3042\u3068\u306f\u3002\u3002\u3002\u307f\u307e\u3059\u3002",
+        "context": "",
         "choices": [
             {
                 "text": "\u306e\u3093\u3067",
@@ -500,15 +537,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "03c3782010504ed17dd38881421a588f",
-        "created_at": "2026-05-18T13:38:20.625258",
+        "created_at": "2026-05-18T14:25:03.870640",
         "correctAnswer": "\u3088\u3093\u3067"
     },
     {
-        "question_id": "SAIFU_18_1779086300",
+        "question_id": "SAIFU_18_1779089104",
         "form_name": "SAIFU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "7.\u00a0\nA\uff1a\u3061\u3061\u306e\u305f\u3093\u3058\u3087\u3046\u3073\u306f\u3069\u3046\u3067\u3059\u304b\nB\uff1a\u30b1\u30fc\u30ad\u304c\u597d\u304d\u306a\u306e\u3067\u3001\u30b1\u30fc\u30ad\u3092\u3002\u3002\u3002\u3002\u3044\u3044\u3068\u304a\u3082\u3044\u307e\u3059\u3002\nA\uff1a\u306f\u3044\u3001\u3044\u3057\u3087\u3046\u306b\u3064\u304f\u308a\u307e\u3057\u3087\u3046\u3002",
+        "context": "",
         "choices": [
             {
                 "text": "\u3064\u304f\u3063\u305f",
@@ -527,14 +566,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "1cd19dd886037c6e68dbb112eae24b0c",
-        "created_at": "2026-05-18T13:38:20.993773"
+        "created_at": "2026-05-18T14:25:04.239837",
+        "correctAnswer": "\u3064\u304f\u308b\u3068"
     },
     {
-        "question_id": "SAIFU_19_1779086301",
+        "question_id": "SAIFU_19_1779089104",
         "form_name": "SAIFU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "8.\u00a0\nA\uff1a\u4f1a\u8b70\u306e\u307e\u3048\u306b\u3001\u30b3\u30d4\u30fc\u3057\u3066\u304a\u3044\u3066\u304f\u3060\u3055\u3044\u306d\u3002\nB\uff1a\u3082\u3046\u304a\u308f\u3063\u305f\u3001\u3053\u308c\u3067\u3002\u3002\u3002\u3002\u3067\u3059\u304b\nA\uff1a\u306f\u3044\u3001\u3042\u308a\u304c\u3068\u3046",
+        "context": "",
         "choices": [
             {
                 "text": "\u3044\u3044",
@@ -553,15 +595,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "428831d20ea6e16b596e87b12b722256",
-        "created_at": "2026-05-18T13:38:21.357747",
-        "correctAnswer": "\u3044\u3044"
+        "created_at": "2026-05-18T14:25:04.605090"
     },
     {
-        "question_id": "SAIFU_20_1779086301",
+        "question_id": "SAIFU_20_1779089104",
         "form_name": "SAIFU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "9.\u00a0\nA\uff1a\u65e5\u672c\u8a9e\u304c\u4e0a\u624b\u3067\u3059\u306d\nB\uff1a\u3044\u3044\u3048\u307e\u3060\u307e\u3060\u3067\u3059\u3002\u6bce\u65e5\u3002\u3002\u3002\u3002\u3002\u65e5\u672c\u4eba\u3068\u65e5\u672c\u8a9e\u3067\u306f\u306a\u3057\u3066\u3044\u307e\u3059",
+        "context": "",
         "choices": [
             {
                 "text": "\u3067\u304d\u308b\u3060\u3051",
@@ -580,15 +623,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "02527a7433b3497bcdbdf3255d66da01",
-        "created_at": "2026-05-18T13:38:21.722412",
+        "created_at": "2026-05-18T14:25:04.970889",
         "correctAnswer": "\u3067\u304d\u308b\u3060\u3051"
     },
     {
-        "question_id": "SAIFU_21_1779086302",
+        "question_id": "SAIFU_21_1779089105",
         "form_name": "SAIFU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "10.\u00a0\nA\uff1a\u6bce\u65e5\u5143\u6c17\u3067\u3059\u306d\u3002\u4f55\u304b\u904b\u52d5\u3057\u307e\u3059\u304b\u3002\nB\uff1a\u305d\u3046\u3067\u3059\u306d\u3002\u5bdd\u308b\u524d\u306b\u3067\u304d\u308b\u3060\u3051\u30e8\u30ac\u3092\u3059\u308b\u3002\u3002\u3002",
+        "context": "",
         "choices": [
             {
                 "text": "\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
@@ -607,15 +652,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "ea3f7b42279de4877cd4db9cf3696bdf",
-        "created_at": "2026-05-18T13:38:22.093928",
-        "correctAnswer": "\u7528\u306b\u3057\u3066\u3044\u307e\u3059"
+        "created_at": "2026-05-18T14:25:05.336323"
     },
     {
-        "question_id": "SAIFU_22_1779086302",
+        "question_id": "SAIFU_22_1779089105",
         "form_name": "SAIFU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "11.\u00a0\nA\uff1a\u30ca\u30a4\u30f3\u3055\u3093\u3001\u3082\u3046\u3059\u3050\u5e30\u308a\u307e\u3059\u306d\u3002\nB\uff1a\u5e30\u56fd\u3059\u308b\u65e5\u3000\u306f\u3000\u3082\u3046\u304d\u307e\u308a\u307e\u3057\u305f\u304b\u3002\nA\uff1a\u306f\u3044\u3001\u3002\u3002\u3002\u3002\u3002\u3002\nB\uff1a\u305d\u3046\u3067\u3059\u304b\u3001\u3042\u30682\u9031\u9593\u3067\u3059\u306d\u3002",
+        "context": "",
         "choices": [
             {
                 "text": "\u6765\u6708\u306e\u5341\u65e5\u306b\u304b\u3048\u308a\u307e\u3059\u3002",
@@ -634,15 +680,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "2b224977e8903cb584dc1a260b9825fc",
-        "created_at": "2026-05-18T13:38:22.459293",
+        "created_at": "2026-05-18T14:25:05.702786",
         "correctAnswer": "\u6765\u6708\u306e\u5341\u65e5\u306b\u304b\u3048\u308a\u307e\u3059\u3002"
     },
     {
-        "question_id": "SAIFU_23_1779086313",
+        "question_id": "SAIFU_23_1779089116",
         "form_name": "SAIFU",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_image",
         "question": "1.\nCokai.\nAda percakapan pria dan wanita.\n\n\nDi awal percakapan cwek nunjukin profesinya,\nDan pada akhir yang di tanya profesi cowoknya:\nNanti jawabanya foto guru!!\napa pekerjaan pria tersebut",
+        "context": "",
         "choices": [
             {
                 "text": "\u5148\u751f",
@@ -667,15 +715,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "88edf93aee731bc3da379f3c9827c75d",
-        "created_at": "2026-05-18T13:38:33.154014",
-        "correctAnswer": "\u5148\u751f"
+        "created_at": "2026-05-18T14:25:16.536070"
     },
     {
-        "question_id": "SAIFU_24_1779086313",
+        "question_id": "SAIFU_24_1779089116",
         "form_name": "SAIFU",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "2. Percakapan untuk\u00a02 soal\n\n\na. Ada cewe nyuruh bawa sesuatu dari kamar,\u00a0barang apa yang harus di bawa ?",
+        "context": "",
         "choices": [
             {
                 "text": "\u673a",
@@ -694,15 +743,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "8fdd0bb3bca21b90e8e8556f2454f039",
-        "created_at": "2026-05-18T13:38:33.507790",
+        "created_at": "2026-05-18T14:25:16.892376",
         "correctAnswer": "\u3044\u3059"
     },
     {
-        "question_id": "SAIFU_25_1779086313",
+        "question_id": "SAIFU_25_1779089117",
         "form_name": "SAIFU",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "3.\n\n\nb. Ada berapa kursi ?",
+        "context": "",
         "choices": [
             {
                 "text": "\u3080\u3064",
@@ -721,14 +772,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "b0c4d49a3fb533fbf78a2dfd071ed54c",
-        "created_at": "2026-05-18T13:38:33.868681"
+        "created_at": "2026-05-18T14:25:17.275230",
+        "correctAnswer": "\u3080\u3064"
     },
     {
-        "question_id": "SAIFU_26_1779086314",
+        "question_id": "SAIFU_26_1779089117",
         "form_name": "SAIFU",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "4.\u00a0\n\nDi dapur ada percakapan pria dan wanita dan pria ,\nPertanyaan apa yang di lakukan pria langkah pertama dalam memasak?",
+        "context": "",
         "choices": [
             {
                 "text": "\u3084\u3055\u3044\u3092\u304d\u3063\u3066\u304f\u3060\u3055\u3044",
@@ -747,15 +801,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "06e47d6b9994b4106eb206a762f9f5b1",
-        "created_at": "2026-05-18T13:38:34.272254",
+        "created_at": "2026-05-18T14:25:17.636947",
         "correctAnswer": "\u3084\u3055\u3044\u3092\u304d\u3063\u3066\u304f\u3060\u3055\u3044"
     },
     {
-        "question_id": "SAIFU_27_1779086314",
+        "question_id": "SAIFU_27_1779089118",
         "form_name": "SAIFU",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "5. nenek bertanya ke polisi terkait kendaraan ke\u00a0TOKYO TOWER\n\n\nNenek :\u00a0\u6771\u4eac\u306b\u884c\u304f\u306b\u306f\u3069\u306e\u3088\u3046\u306a\u4e57\u308a\u7269\u304c\u5b9f\u7528\u7684\u3067\u3059\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "\u3061\u304b\u3066\u3064",
@@ -774,34 +830,36 @@
         "audio_url": "",
         "audio": "",
         "hash": "b9a60aa9a5bb2e8fcd98ade788a8ae0d",
-        "created_at": "2026-05-18T13:38:34.630813",
+        "created_at": "2026-05-18T14:25:18.009417",
         "correctAnswer": "\u3061\u304b\u3066\u3064\nFeedback\npilih kereta yang gelap/hitam"
     },
     {
-        "question_id": "SAIFU_28_1779086315",
+        "question_id": "SAIFU_28_1779089119",
         "form_name": "SAIFU",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "6.\nCokainya si cewek belajar bahasa korea dengan cara menonton drama kore,\nNanti isinya ada gambar di jawaban!",
+        "context": "",
         "choices": [
             {
                 "text": "Gambar orang sedang menonton TV",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDo3EEzPY-7j2hSBSzJjw54Z7fmnCyY3njG_kD0j3v2ZgFper6fTiJkmGaQsmed8jyWg6iM5_Awlm5MBz_GAl89m0tWY-BrRFOoMmGpbyh6Qgv7fG2Hv9OFobNMtkVqv9l4xH8kyJwqh1tUuGR2QL1CfshDMP8L8QZSS2iyAXLn8gwkEcJqeiLWHNR0S7mO2hSWMPGdGnKurbAh=w260?key=9wlSYt_IO1eursrSJP15iw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBgChle_gLnu4FH4zDWVGGGAxs0OoHbYyAjPHldxPNumbeFkvvuSYbsEXkIBfuggtqv7opyctMVzEFcxyVZO9HnD6sPvPHey4lVSVczSAt245G4vnYsNVfFVV26iBGiEBJa2bNbz9hClw44ppIV4zJLqMf9JUue5lVcfzTJ-D2cJxxEdmR-FDWzafovDrt2MzOIcnpUDwoSgVLM=w260?key=9wlSYt_IO1eursrSJP15iw",
                     "path": "images/01e34cbe85d217b781cab2a0ceab659b.png"
                 }
             },
             {
                 "text": "Gambar orang sedang tidur",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDMjLVw7sR5rJ7nQD_tcn4Hd-FrP6FTC360lKgVlxAdIAd5C5TR7ctODv2AWXannrOIqOEKXmgrYC-TEBYLjznwcMIImsUsaI-U-g5xf07U3BNOA-hSkMxqGXheYXxY46Q7d5irnLcm0gE0AJQrvWwurbwTrRHTT8TNzq0GebzBUjSPzL0w-uvRT5J3XMEsOWF69TGwIot6_uYt=w260?key=9wlSYt_IO1eursrSJP15iw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAudYu1rHM1xC4iWfRYZFxY3KE8aK39fxeiFRwiMwzcxJwnLH_Tua5o85q0gherSy0FnFF2EId7QxHREbNjv6B8dDeSykORm_XchDtWL669b4qC2Bexy8BcT2s_erxd2oj6Zl-ZHBp6QisTuzdktij8rNomXkixGoO7-Dsl30e784TUVnbncRJpvikkLQrdOmscMD1C0nvd9r1B=w260?key=9wlSYt_IO1eursrSJP15iw",
                     "path": "images/cce3efaa755f391a76df09f922670df0.png"
                 }
             },
             {
                 "text": "Gambar sedang membaca",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVChYvu6351Jjp5ZncjwNQ-9iVQSVDQZQJAK_fnx7u340WGeixATzf_uBnSs4FNIi9CGIux7EERDT3-M4idg_K6HKsJkSEbKr-rt7P0LMXGu4dxxxLdY0VX8aRpKFooKh1q_JKBaqWGwRoKpAum3R0tOquIck4qS8Tnm3Dtp9LjrVceZzGQbk3OtIDLmCiWdclOzk0rwePOUW-rU=w225?key=9wlSYt_IO1eursrSJP15iw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDCEZYNLsMYpCc-jxJFs875nJMhM84IAyJNuLg-M8cAqFamQtLHttQzFEp_52kLL3cXqKzJmxnE4R88ox0HSlrqfRGtAKHVpfeyuzSdxHf0aLPzCpb7bMiascdbUsIF2r951U584Nu6ByiNlJvLF90rlPaYo2Ov58Q3-NBVUL1M10NBaqNC6I9YBa0apWGOO-_IIX1fuQmsab0I=w225?key=9wlSYt_IO1eursrSJP15iw",
                     "path": "images/a77bbae4013c52477771a619f1db4458.png"
                 }
             }
@@ -810,15 +868,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "87ab1b962c6c69f963d1db629ca337c0",
-        "created_at": "2026-05-18T13:38:35.953559",
-        "correctAnswer": "Gambar orang sedang menonton TV"
+        "created_at": "2026-05-18T14:25:19.549134"
     },
     {
-        "question_id": "SAIFU_29_1779086316",
+        "question_id": "SAIFU_29_1779089119",
         "form_name": "SAIFU",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "7. Ada percakapan pesan barang\n\n\nBarang mau di kirim pada hari apa ?",
+        "context": "",
         "choices": [
             {
                 "text": "\u6728\u66dc\u65e5",
@@ -837,15 +896,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "f89f43982caea566dba61d12c2a4acfa",
-        "created_at": "2026-05-18T13:38:36.299172",
-        "correctAnswer": "\u571f\u66dc\u65e5"
+        "created_at": "2026-05-18T14:25:19.903658"
     },
     {
-        "question_id": "SAIFU_30_1779086316",
+        "question_id": "SAIFU_30_1779089120",
         "form_name": "SAIFU",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "8. Ada Obrolan terkait VAS Bunga\n\n\nVas Bunga dari China dan Jepang ada berapa Buah?",
+        "context": "",
         "choices": [
             {
                 "text": "14",
@@ -864,15 +924,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "984a9039feb4fa52c1e139e43e5803fb",
-        "created_at": "2026-05-18T13:38:36.665812",
+        "created_at": "2026-05-18T14:25:20.270074",
         "correctAnswer": "16"
     },
     {
-        "question_id": "SAIFU_31_1779086317",
+        "question_id": "SAIFU_31_1779089120",
         "form_name": "SAIFU",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_image",
         "question": "9. ada gambar wadah\n\n\npertanyaannya, benda ini di gunakan untuk apa ?",
+        "context": "",
         "choices": [
             {
                 "text": "untuk hiasan kamar",
@@ -889,7 +951,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDfGX62wXiMKB-ALLLuiPXIwCOQRm9athh5jbAeb4UkfDeRDaC6ij5rBRWaqbvVYgZXpTQ9B9LyIMsP4yv2h9ruRxrCmT8-8O_UeV8R6w6dhkpJHtGGVT0k_MiM578zl6KPcHt8u0LLsgVrS9MBFQRi2189JuQpDl7s9urSx8IkvyU1Oj4cXLigra1BIHZcbZ72TFo5npip7Ci0=w275?key=9wlSYt_IO1eursrSJP15iw",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB3t___homKBPqVxZO7CyUA2ziv9w9RVRFbhqfNULOTNJGraE3db2A5YGztgOZBFRp4xUkTq8XkvJyX0rV6qfjBj6Oy6ueicyAZJ66Zi1OSqDA3YLXXB-ZUV9Tbq5_JuCVL0BsSw-EQKPlDk-GlMURkX1IbtxwP-kihYflJXlLT39uWTxtg9f_Mb1AWsVg6jCDY59KZ5tYowLqN=w275?key=9wlSYt_IO1eursrSJP15iw",
                 "path": "images/51efbcb9545348720c254007a8ee9578.png",
                 "index": 0
             }
@@ -897,15 +959,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "2d873602b2d308a93a113908c4193bcf",
-        "created_at": "2026-05-18T13:38:37.390902",
-        "correctAnswer": "untuk tempat Osake"
+        "created_at": "2026-05-18T14:25:20.923883"
     },
     {
-        "question_id": "SAIFU_32_1779086317",
+        "question_id": "SAIFU_32_1779089121",
         "form_name": "SAIFU",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "10.\u00a0 pengumuman di toko tentang natal\u00a03\u00a0soal\n\n\na. \u4f55\u304c\u58f2\u3089\u308c\u3066\u3044\u308b?",
+        "context": "",
         "choices": [
             {
                 "text": "\u304a\u3055\u3051",
@@ -924,15 +987,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "3d2ee9fb4a9175757d25ca4ad46affe8",
-        "created_at": "2026-05-18T13:38:37.750430",
-        "correctAnswer": "\u4e0a\u7740"
+        "created_at": "2026-05-18T14:25:21.270346"
     },
     {
-        "question_id": "SAIFU_33_1779086318",
+        "question_id": "SAIFU_33_1779089121",
         "form_name": "SAIFU",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "11.\u00a0\n\n\nb. sampai jam berapa ?",
+        "context": "",
         "choices": [
             {
                 "text": "6.30",
@@ -951,15 +1015,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "4411610bd6c3dae7e91e39241d427e87",
-        "created_at": "2026-05-18T13:38:38.118741",
-        "correctAnswer": "7.30"
+        "created_at": "2026-05-18T14:25:21.638361"
     },
     {
-        "question_id": "SAIFU_34_1779086318",
+        "question_id": "SAIFU_34_1779089122",
         "form_name": "SAIFU",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "12.\u00a0\n\n\nc. Untuk membayar nya pakai apa ?",
+        "context": "",
         "choices": [
             {
                 "text": "poincard",
@@ -978,15 +1043,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "d5f0325d38e0db9b87ed5cbbb079d487",
-        "created_at": "2026-05-18T13:38:38.483559",
+        "created_at": "2026-05-18T14:25:22.011704",
         "correctAnswer": "poincard"
     },
     {
-        "question_id": "SAIFU_35_1779086329",
+        "question_id": "SAIFU_35_1779089132",
         "form_name": "SAIFU",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_image",
         "question": "1.\u00a0\u00a0\na. Menu\u00a0apa yg makanannya mengandung daging ?",
+        "context": "",
         "choices": [
             {
                 "text": "\u725b",
@@ -1003,7 +1070,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBUETIQi0fwZekfVNxwJCY7gxhFwNP_KKmnTdRAO4LZg_xT02oIPNNkDYEK37963W76cXN6vYh0HQWP839-kVL98vMeHU0Nb0HHKdvydiAmaXaHGGXygo5JlWfHfqx0LSJO-IdfulmzCnkUQlsyzCDkSmoALa-Ypx6YDJK1VtoVEPNdWbZRJQVz0Jfu0LeFE8GXj9R3lKZZ26fb=w740?key=9wlSYt_IO1eursrSJP15iw",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBI8zYBo9z5hNN0tKnO9VwAZDJH6gs-asuK92mSm2vBXEqVemYJZVqJlT8zPcIm2wRvFT68u4P9JmaSz_Sp6O-jNhj6urC9N7gly9wJCE94ALGTQ_pTQHBn2rgb1oey4jx7SWf5MDMIZR4uRWYgHRUMz5zsbG0lrZhZt4qGQfdqiI2HYq4pM6g_Qmqkafyd_zTHjKh_N64QfESi=w740?key=9wlSYt_IO1eursrSJP15iw",
                 "path": "images/897e4a51b9a860f51893dd6fc25cae8c.png",
                 "index": 0
             }
@@ -1011,15 +1078,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "5964543a412707ed690375bd1cd68a1a",
-        "created_at": "2026-05-18T13:38:49.764464",
+        "created_at": "2026-05-18T14:25:32.863422",
         "correctAnswer": "\u725b"
     },
     {
-        "question_id": "SAIFU_36_1779086331",
+        "question_id": "SAIFU_36_1779089135",
         "form_name": "SAIFU",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_image",
         "question": "2.\u00a0\nb. \u6ce8\u6587\u3057\u305f\u3089\u4f55\u304c\u3082\u3089\u3048\u308b\u306e",
+        "context": "",
         "choices": [
             {
                 "text": "\u30d7\u30ec\u30bc\u30f3\u30c8",
@@ -1044,15 +1113,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "a6ae16eb9a28f30271310c38f59fbde6",
-        "created_at": "2026-05-18T13:38:51.243839",
+        "created_at": "2026-05-18T14:25:35.875855",
         "correctAnswer": "\u98f2\u307f\u7269"
     },
     {
-        "question_id": "SAIFU_37_1779086332",
+        "question_id": "SAIFU_37_1779089139",
         "form_name": "SAIFU",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_image",
         "question": "3.\na. Kereta nomer berapa yang ditunggu ?",
+        "context": "",
         "choices": [
             {
                 "text": "6",
@@ -1069,7 +1140,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBDUsSSMLp2PwPzoeWBqyZ5D8D1W32q-NWexKOdSby4t0aHOH2wKypd83y6bAf5QXBUaGK65cSPj9hYJCAjQ38teQPQ4lF8yNBlPJ0j-0knys_4S4CmL9pA67qG46zTE_2TnXShwZnXoPHGBxR5Nl-2R3jMzNYZfGMIJM0icyPPDj1G3MtC_SQJ2UyOd_jcJC6p0bkUXZfFO5P0=w740?key=9wlSYt_IO1eursrSJP15iw",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAG-tgiYbUPNtRHRvtjZNcCmJ2lpRf4ZDecmeFVQsvHuFPI1ufxiKktkxpg07lX_N5cQEl15YbI5orUq6255EYkl9d79scMS-GeCxr0h7CIoBAg5Aol7HfG_JJBq4WUpJKse8Jq2EI9hO49lGPl_dcnXaT4tVhgubD4wpHwxWQlU8qkPtce63uecZvtPN4d9UbyX6TsEW-JTn08=w740?key=9wlSYt_IO1eursrSJP15iw",
                 "path": "images/43196ba92527fa444b8aac0b5dff738e.png",
                 "index": 0
             }
@@ -1077,14 +1148,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "76be620fc4cc0274b362a9562e27d13c",
-        "created_at": "2026-05-18T13:38:52.646770"
+        "created_at": "2026-05-18T14:25:39.555584"
     },
     {
-        "question_id": "SAIFU_38_1779086333",
+        "question_id": "SAIFU_38_1779089139",
         "form_name": "SAIFU",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "4.\u00a0\n\n\nb. Dimana menunggu transitnya ?",
+        "context": "",
         "choices": [
             {
                 "text": "\u4e57\u308a\u63db\u3048\u308b",
@@ -1103,14 +1176,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "d4f15a176faeb04a8282482f7e98b0ca",
-        "created_at": "2026-05-18T13:38:53.001171"
+        "created_at": "2026-05-18T14:25:39.927037"
     },
     {
-        "question_id": "SAIFU_39_1779086333",
+        "question_id": "SAIFU_39_1779089140",
         "form_name": "SAIFU",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "5. Ada pengumuman\u00a02 soal\n\n\na. siapa yang boleh menari ?",
+        "context": "",
         "choices": [
             {
                 "text": "semua orang bisa ikut menari",
@@ -1129,14 +1204,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "b54e7bf1d5023df9c6b20633168ff940",
-        "created_at": "2026-05-18T13:38:53.362686"
+        "created_at": "2026-05-18T14:25:40.291038",
+        "correctAnswer": "semua orang bisa ikut menari"
     },
     {
-        "question_id": "SAIFU_40_1779086333",
+        "question_id": "SAIFU_40_1779089140",
         "form_name": "SAIFU",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "6.\u00a0\n\n\nb. supaya tidak sakit bagaimana?",
+        "context": "",
         "choices": [
             {
                 "text": "1",
@@ -1155,14 +1233,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "ff7ba49e5e5d571fa0f98ba318afc0c7",
-        "created_at": "2026-05-18T13:38:53.733289"
+        "created_at": "2026-05-18T14:25:40.653926",
+        "correctAnswer": "3\nFeedback\npilih nomor 3 pola nai youni"
     },
     {
-        "question_id": "SAIFU_41_1779086335",
+        "question_id": "SAIFU_41_1779089144",
         "form_name": "SAIFU",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_image",
         "question": "7.\u00a0\na. sedang ngapain ?",
+        "context": "",
         "choices": [
             {
                 "text": "sedang membaca koran",
@@ -1187,15 +1268,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "7f5bdf7b1c90c9a41ff053149978d140",
-        "created_at": "2026-05-18T13:38:55.144262",
-        "correctAnswer": "sedang membaca buku"
+        "created_at": "2026-05-18T14:25:44.865712"
     },
     {
-        "question_id": "SAIFU_42_1779086335",
+        "question_id": "SAIFU_42_1779089145",
         "form_name": "SAIFU",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "8.\u00a0\u00a0\n\n\nb. \u3069\u3053\u3067\u672c\u3092\u8aad\u307f\u307e\u3059\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "\u516c\u5712",
@@ -1214,15 +1296,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "e94932d5ab0968f3fcc89b82a44b37de",
-        "created_at": "2026-05-18T13:38:55.502847",
-        "correctAnswer": "\u5bb6"
+        "created_at": "2026-05-18T14:25:45.220402"
     },
     {
-        "question_id": "SAIFU_43_1779086336",
+        "question_id": "SAIFU_43_1779089148",
         "form_name": "SAIFU",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_image",
         "question": "9.\na. Tanggal berapakah rapat di ubah.\nNanti tangalnya di dokai kanji!",
+        "context": "",
         "choices": [
             {
                 "text": "rapat diubah dari tgl 21 menjadi tgl 22",
@@ -1247,14 +1330,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "d796136842741c29c3737a955cd546f4",
-        "created_at": "2026-05-18T13:38:56.876897"
+        "created_at": "2026-05-18T14:25:48.364808",
+        "correctAnswer": "rapat diubah dari tgl 21 menjadi tgl 22\nFeedback\nTinggal kalian baca aja pas jft"
     },
     {
-        "question_id": "SAIFU_44_1779086337",
+        "question_id": "SAIFU_44_1779089148",
         "form_name": "SAIFU",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "10.\u00a0\n\n\nb. \u3069\u3053\u3067\u304b\u3044\u304e\u3057\u307e\u3059\u304b\uff1f",
+        "context": "",
         "choices": [
             {
                 "text": "\u3058\u3080\u3057\u3087",
@@ -1273,14 +1359,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "bcb0b0e270dd6eef92a0b11a16324d57",
-        "created_at": "2026-05-18T13:38:57.233860"
+        "created_at": "2026-05-18T14:25:48.721742",
+        "correctAnswer": "\u304b\u3044\u304e\u3057\u3064"
     },
     {
-        "question_id": "SAIFU_45_1779086337",
+        "question_id": "SAIFU_45_1779089149",
         "form_name": "SAIFU",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "11. Terkait toko\u00a0\n\n\na. tanggal 31 tutup nya jam berapa ?",
+        "context": "",
         "choices": [
             {
                 "text": "9 malam",
@@ -1299,14 +1388,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "e71383afa2a80118b978b0f489c39dd9",
-        "created_at": "2026-05-18T13:38:57.594748"
+        "created_at": "2026-05-18T14:25:49.086556",
+        "correctAnswer": "9 malam"
     },
     {
-        "question_id": "SAIFU_46_1779086337",
+        "question_id": "SAIFU_46_1779089149",
         "form_name": "SAIFU",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "12.\u00a0\n\n\nb. tokonya libur kapan ?",
+        "context": "",
         "choices": [
             {
                 "text": "tanggal 1",
@@ -1325,6 +1417,6 @@
         "audio_url": "",
         "audio": "",
         "hash": "6f4628ea2260b145d6b346044ae3351f",
-        "created_at": "2026-05-18T13:38:57.964967"
+        "created_at": "2026-05-18T14:25:49.452984"
     }
 ]

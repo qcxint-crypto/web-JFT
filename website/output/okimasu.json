@@ -1,45 +1,49 @@
 [
     {
-        "question_id": "OKIMASU_0_1779086208",
+        "question_id": "OKIMASU_0_1779089006",
         "form_name": "OKIMASU",
         "page_number": 1,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "1. Percakapan Cowok dan cewek, Hobi Cowok mendengarkan musik dan cewek melihat film.\n\n\n\u304a\u3068\u3053 \u306e \u3057\u3085\u307f \u306f \u306a\u3093\u3067\u3059\u304b\uff1f",
+        "context": "",
         "choices": [
             {
                 "text": "\u304a\u3093\u304c\u304f\u3092\u304d\u304f\u3053\u3068",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVC9uIo-YWMHvCtFnkzqv2k2N6i-str2CewOwRvuO2zAGPoBgo4--nwxGCFr6qQZzz7lh3pUV4BTe-Oqr1pj8jYofNZGq0nsVFUxJB3L7rWUDpBZlZIIa4imfXN9teZyt1-S5k8SkXaf95wE0f7dOY_iJjpPtrHo7owk_5ifFsBb5rCSLXzPMh-Lt7_JoueCM9LIR3t1kf4GveoV=w258?key=racT95aLQfQuNs-VpmkC7A",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDW26pJLeSEwljPNSx6F5XJU0G2_z5PV44gZUxPCX313gmwhLkQkstrt__zjQE1uC4SwpqDk0nHv1hh4bu_Iczt6phupFMKii475msXnFD9945F_URTjGXW8mDHmVguQSi1BnH3XpRTnUy5G4kLtXWdVa4HVF8cU1Cl1n_YplmzC16L8LfnyqULpCOFsNRulM89xh5-HT5UKxlP=w258?key=racT95aLQfQuNs-VpmkC7A",
                     "path": "images/5c2309d7a6a11de99c80fa8d633fec2d.png"
                 }
             },
             {
                 "text": "\u30b5\u30c3\u30ab\u30fc\u3059\u308b\u3053\u3068",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCh4YxPgjlxgrpEU2VVYRIMHAUaPjPk8weOvfD6DjD2EnP-pkX0nI_ZSqQ6jFsoO_iZUhfA1PJhdXhdrlgAIsN2dPGGcWsQODdlyvcEaHhlMiC0y2Hw9fIrIQHYvtJHiO7fzdEynymUUUcilNlEPH0ODMHjPsLUbkvXyAQbYyHiWKW1a-o3LSUDQqoX5YjJHpx-wjY3rO7bpnkN=w260?key=racT95aLQfQuNs-VpmkC7A",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVADLO_asSOpdiM_Zf7P7lNkHvwcFXlgxPU2moPxLhvtHwa3pL7bxK_1kgNHP_DQvMoFuagx_8h9pMJhjkL8eIex-7shNgOxLtbhRlk-uH_9fPVRF2o8qC5BOuruTah8psWkyzIqF1lio8T0vD6t6yrG-5rgFiqbB8XUMy6FY9w8eqvgI5uym4MnPH_fz8IQlEf6U0Fb3UmSLLaJ=w260?key=racT95aLQfQuNs-VpmkC7A",
                     "path": "images/e02d2cdafea499f8d47a783ef2ec02b1.png"
                 }
             },
             {
                 "text": "\u3048\u3044\u304c\u3092\u307f\u308b\u3053\u3068",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAIfttvrYNmEMGb_mqcjvm6UQi10-cT7b_eSGMKnY1wRzgOL5Kvam4UN7LQWfPSP9E0-Phs2zowj0ysJxSmGE-7gxYZBwPE1fv9lTIACdTZ5O-GWQWeRDLtZ3-ip58CfMQ3h-_EfabpN7CjmzCvXl6oQq4EXepsQkMFPCQZe1JrxAljDMaOBOEJNU6s544PUyuCdDg31K0LZuwm=w260?key=racT95aLQfQuNs-VpmkC7A",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDcPtEczTK2Via9m3M51DfC6Jf1P-BU853Z6b2rn___Zpav8skp0KNtRN-G89e0KWiaS4YPeU7Kg0f1gBIN2KLNNO4Y5efMktCIU6v8fXeAwQb7Qq4KvXT45NInQDe5j6ZDSAQKR4wZUJ197T7tBqNyQhaQWaBBOFWu-jVE_IA9_DOIWSNy2dV9EgCnoNYWOOT3I-ReGmBfszdG=w260?key=racT95aLQfQuNs-VpmkC7A",
                     "path": "images/62567065e60a6772a287c40ad1d0471d.png"
                 }
             }
         ],
         "images": [],
-        "audio_url": "",
-        "audio": "",
+        "audio_url": "https://drive.google.com/file/d/1ch9yIY224wcApwaRYjHqUCweoEopa4zj/view?usp=sharing",
+        "audio": null,
         "hash": "f3a8e585a017f4012c1b6e55cab7a680",
-        "created_at": "2026-05-18T13:36:48.590780"
+        "created_at": "2026-05-18T14:23:26.380401"
     },
     {
-        "question_id": "OKIMASU_1_1779086208",
+        "question_id": "OKIMASU_1_1779089006",
         "form_name": "OKIMASU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "2. Percakapan tentang musim, Bulan 12 sangat panas, dibulan 1 dan 2 sangat dingin\n\n\n\u00a0DIBULAN APAKAH YANG PALING DINGIN?",
+        "context": "",
         "choices": [
             {
                 "text": "12 \u6708",
@@ -58,26 +62,28 @@
         "audio_url": "",
         "audio": "",
         "hash": "b0fca461adde51fbf81829a297703bcc",
-        "created_at": "2026-05-18T13:36:48.958528"
+        "created_at": "2026-05-18T14:23:26.745695"
     },
     {
-        "question_id": "OKIMASU_2_1779086211",
+        "question_id": "OKIMASU_2_1779089010",
         "form_name": "OKIMASU",
         "page_number": 1,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "3.\u00a0\n\n\nPercakapan membahas Hadiah\n\n\nMereka memutuskan untuk memberi hadiah apa?",
+        "context": "",
         "choices": [
             {
                 "text": "bunga",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAyJZ19LC_vIzIgk81_rkiQM1Vutu3x6T8An_RyRIWJs9xgx2MxYt9U0amld_iqGDSTekPEdAdo6peUF3IkRVaBBsminUnDFFOggPYPOibDBq-o2Iy_iAH-kgqXKk5slh7DlTT11VWOIX-imzViudmv_9Pb1hsigvP_nALldoCojzwSKjj4xdbFfH0U7zhrSYwm6mwEusAXrZCC=w260?key=racT95aLQfQuNs-VpmkC7A",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAcH3RqplTEsL9mNDhLtfIhUp-n7xF-R0VGSfGfsy_hwNJocuVuRXUPDaNOAmwHNicCADpzlUBCWGGiCVE8s335PUEQe3_4FEFbLboNQPhMRNs-MxmZD3u_i45w9U-NOFZ0YIxXXaQmSngOvz1MGd_Qep-YhRhAFxauUh0IIqYw95wBjaLNNpqSdSrTzKuwYFPv99sjnegerLLv=w260?key=racT95aLQfQuNs-VpmkC7A",
                     "path": "images/221d93938f70e0ec11e0eb4a63012905.png"
                 }
             },
             {
                 "text": "\u30ef\u30a4\u30f3 Anggur Putih",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBJ2aFDABoVB6bSdUceWZ1en-sWNePEuSdkgtoKIobGA_FfTOdK1u-V9H105mR9BAfPH_G2s18KGxqpzqh2sx3JMs0RvMTXA22YjFmMhqZjewoQxC4NobQ2wQcJjYckJXEFXlxpaLKkHWkjThfKtG38ue-B8CrCHQ1x2NVi0VvqDTrJSD-Ys74kI5lke5Z1qq4HeN4tUUnRw9nK=w256?key=racT95aLQfQuNs-VpmkC7A",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVD8G2WjLFpHi-p9IXKNIy1apUXMEWTcHCo4E9ifIEnD1F1DJqegvlY4ieWb-UQYkIYIH5GDhFekqZ_qD7gZ8uYDay6w629ruyZzdwUTpSyCRKNhvV-_AkeHl7qllckpyZh8R8Kk5fVXQ07RC6eWzzXrVd836sceoPs0FWWIpnDF0LUsh7U6NWlrbqx9VSiOKC7nF69Hk9-GVWnw=w256?key=racT95aLQfQuNs-VpmkC7A",
                     "path": "images/f032e20bf34b952b93989c6b0d476d38.png"
                 }
             },
@@ -93,14 +99,16 @@
         "audio_url": "https://drive.google.com/file/d/1ch9yIY224wcApwaRYjHqUCweoEopa4zj/view?usp=sharing",
         "audio": null,
         "hash": "269f7dd09517c0d83e859e54373d76b9",
-        "created_at": "2026-05-18T13:36:51.848968"
+        "created_at": "2026-05-18T14:23:30.521107"
     },
     {
-        "question_id": "OKIMASU_3_1779086212",
+        "question_id": "OKIMASU_3_1779089010",
         "form_name": "OKIMASU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "4.\u00a0\nPercakapan Pelayan toko dengan pengunjung\n\n\nBerapa harga vitamin besar ?",
+        "context": "",
         "choices": [
             {
                 "text": "\uff15\uff10\uff10\u5186",
@@ -119,14 +127,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "2d736b6e69d7aeafba85506dd2e0073d",
-        "created_at": "2026-05-18T13:36:52.211460"
+        "created_at": "2026-05-18T14:23:30.876203"
     },
     {
-        "question_id": "OKIMASU_4_1779086212",
+        "question_id": "OKIMASU_4_1779089011",
         "form_name": "OKIMASU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "5.\u00a0\nDi toko Baju\nMemutuskan untuk membeli baju yang mana?",
+        "context": "",
         "choices": [
             {
                 "text": "\u9ed2\u3044\u670d (M)",
@@ -145,14 +155,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "600984d45d016c1b7d10b786575cd8e5",
-        "created_at": "2026-05-18T13:36:52.580504"
+        "created_at": "2026-05-18T14:23:31.246787"
     },
     {
-        "question_id": "OKIMASU_5_1779086212",
+        "question_id": "OKIMASU_5_1779089011",
         "form_name": "OKIMASU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "6.\nPercakapan tentang Bus\n\n\nSebaiknya naik Bus yang mana ?",
+        "context": "",
         "choices": [
             {
                 "text": "\u91d1\u66dc\u65e5",
@@ -171,14 +183,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "b8456c0cd466626859f777b56594a582",
-        "created_at": "2026-05-18T13:36:52.946042"
+        "created_at": "2026-05-18T14:23:31.606126"
     },
     {
-        "question_id": "OKIMASU_6_1779086213",
+        "question_id": "OKIMASU_6_1779089011",
         "form_name": "OKIMASU",
         "page_number": 1,
         "category": "moji_goi",
-        "question": "8.\u00a0\n2. Di lantai berapa diadakan?",
+        "question_type": "text_only",
+        "question": "2. Di lantai berapa diadakan?",
+        "context": "8.",
         "choices": [
             {
                 "text": "\uff12\u304b\u3044",
@@ -196,15 +210,17 @@
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "2f561c0e1e8ac01cfc90e017267fef33",
-        "created_at": "2026-05-18T13:36:53.336286"
+        "hash": "3e83ec0192fda38de459a292b7098069",
+        "created_at": "2026-05-18T14:23:31.995728"
     },
     {
-        "question_id": "OKIMASU_7_1779086213",
+        "question_id": "OKIMASU_7_1779089012",
         "form_name": "OKIMASU",
         "page_number": 1,
         "category": "moji_goi",
-        "question": "9.\u00a0\nPercakapan tentang kerja bakti 2 soal\n\n\n1. Dimana sampah akan di kumpulkan?",
+        "question_type": "text_only",
+        "question": "1. Dimana sampah akan di kumpulkan?",
+        "context": "9.\u00a0\nPercakapan tentang kerja bakti 2 soal",
         "choices": [
             {
                 "text": "\u516c\u5712\u306e\u3044\u308a\u3050\u3061",
@@ -222,15 +238,17 @@
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "85a200d6913ed648a914d2e3ec57bc15",
-        "created_at": "2026-05-18T13:36:53.709131"
+        "hash": "fa7a6c598a41c748a70e2002ff6c512d",
+        "created_at": "2026-05-18T14:23:32.343058"
     },
     {
-        "question_id": "OKIMASU_8_1779086214",
+        "question_id": "OKIMASU_8_1779089012",
         "form_name": "OKIMASU",
         "page_number": 1,
         "category": "moji_goi",
-        "question": "10.\u00a0\u00a0\n2. Sampai jam berapa kegiatannya ?",
+        "question_type": "text_only",
+        "question": "2. Sampai jam berapa kegiatannya ?",
+        "context": "10.",
         "choices": [
             {
                 "text": "13:00",
@@ -248,15 +266,17 @@
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "ab1c73b929d142423668ff4ff527fa67",
-        "created_at": "2026-05-18T13:36:54.080089"
+        "hash": "de61a5fcf4700de034df1792a1526300",
+        "created_at": "2026-05-18T14:23:32.709127"
     },
     {
-        "question_id": "OKIMASU_9_1779086214",
+        "question_id": "OKIMASU_9_1779089013",
         "form_name": "OKIMASU",
         "page_number": 1,
         "category": "moji_goi",
-        "question": "11.\nAda gambar remot AC (\u30a8\u30a2\u30b3\u30f3) 2 SOAL\n\n\n1. Berapa suhu yang di tentukan?",
+        "question_type": "text_only",
+        "question": "1. Berapa suhu yang di tentukan?",
+        "context": "11.\nAda gambar remot AC (\u30a8\u30a2\u30b3\u30f3) 2 SOAL",
         "choices": [
             {
                 "text": "30\u00b0C",
@@ -274,15 +294,17 @@
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "fb8867263d83aa9f0bc77022576b53bf",
-        "created_at": "2026-05-18T13:36:54.537139"
+        "hash": "4d0f860078e57e74226fc0b884dd65d2",
+        "created_at": "2026-05-18T14:23:33.070849"
     },
     {
-        "question_id": "OKIMASU_10_1779086214",
+        "question_id": "OKIMASU_10_1779089013",
         "form_name": "OKIMASU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "12. Tombol apa yang di tekan untuk mengatur suhu?",
+        "context": "",
         "choices": [
             {
                 "text": "GAMBAR TOMBOL KOTAK MERAH",
@@ -301,49 +323,53 @@
         "audio_url": "",
         "audio": "",
         "hash": "333112b6dd2416dbafbc07c86db54481",
-        "created_at": "2026-05-18T13:36:54.922630"
+        "created_at": "2026-05-18T14:23:33.439549"
     },
     {
-        "question_id": "OKIMASU_11_1779086225",
+        "question_id": "OKIMASU_11_1779089026",
         "form_name": "OKIMASU",
         "page_number": 2,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "1. Percakapan Cowok dan cewek, Hobi Cowok mendengarkan musik dan cewek melihat film.\n\n\n\u304a\u3068\u3053 \u306e \u3057\u3085\u307f \u306f \u306a\u3093\u3067\u3059\u304b\uff1f",
+        "context": "",
         "choices": [
             {
                 "text": "\u304a\u3093\u304c\u304f\u3092\u304d\u304f\u3053\u3068",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVC9uIo-YWMHvCtFnkzqv2k2N6i-str2CewOwRvuO2zAGPoBgo4--nwxGCFr6qQZzz7lh3pUV4BTe-Oqr1pj8jYofNZGq0nsVFUxJB3L7rWUDpBZlZIIa4imfXN9teZyt1-S5k8SkXaf95wE0f7dOY_iJjpPtrHo7owk_5ifFsBb5rCSLXzPMh-Lt7_JoueCM9LIR3t1kf4GveoV=w258?key=racT95aLQfQuNs-VpmkC7A",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDW26pJLeSEwljPNSx6F5XJU0G2_z5PV44gZUxPCX313gmwhLkQkstrt__zjQE1uC4SwpqDk0nHv1hh4bu_Iczt6phupFMKii475msXnFD9945F_URTjGXW8mDHmVguQSi1BnH3XpRTnUy5G4kLtXWdVa4HVF8cU1Cl1n_YplmzC16L8LfnyqULpCOFsNRulM89xh5-HT5UKxlP=w258?key=racT95aLQfQuNs-VpmkC7A",
                     "path": "images/5c2309d7a6a11de99c80fa8d633fec2d.png"
                 }
             },
             {
                 "text": "\u30b5\u30c3\u30ab\u30fc\u3059\u308b\u3053\u3068",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCh4YxPgjlxgrpEU2VVYRIMHAUaPjPk8weOvfD6DjD2EnP-pkX0nI_ZSqQ6jFsoO_iZUhfA1PJhdXhdrlgAIsN2dPGGcWsQODdlyvcEaHhlMiC0y2Hw9fIrIQHYvtJHiO7fzdEynymUUUcilNlEPH0ODMHjPsLUbkvXyAQbYyHiWKW1a-o3LSUDQqoX5YjJHpx-wjY3rO7bpnkN=w260?key=racT95aLQfQuNs-VpmkC7A",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVADLO_asSOpdiM_Zf7P7lNkHvwcFXlgxPU2moPxLhvtHwa3pL7bxK_1kgNHP_DQvMoFuagx_8h9pMJhjkL8eIex-7shNgOxLtbhRlk-uH_9fPVRF2o8qC5BOuruTah8psWkyzIqF1lio8T0vD6t6yrG-5rgFiqbB8XUMy6FY9w8eqvgI5uym4MnPH_fz8IQlEf6U0Fb3UmSLLaJ=w260?key=racT95aLQfQuNs-VpmkC7A",
                     "path": "images/e02d2cdafea499f8d47a783ef2ec02b1.png"
                 }
             },
             {
                 "text": "\u3048\u3044\u304c\u3092\u307f\u308b\u3053\u3068",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAIfttvrYNmEMGb_mqcjvm6UQi10-cT7b_eSGMKnY1wRzgOL5Kvam4UN7LQWfPSP9E0-Phs2zowj0ysJxSmGE-7gxYZBwPE1fv9lTIACdTZ5O-GWQWeRDLtZ3-ip58CfMQ3h-_EfabpN7CjmzCvXl6oQq4EXepsQkMFPCQZe1JrxAljDMaOBOEJNU6s544PUyuCdDg31K0LZuwm=w260?key=racT95aLQfQuNs-VpmkC7A",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDcPtEczTK2Via9m3M51DfC6Jf1P-BU853Z6b2rn___Zpav8skp0KNtRN-G89e0KWiaS4YPeU7Kg0f1gBIN2KLNNO4Y5efMktCIU6v8fXeAwQb7Qq4KvXT45NInQDe5j6ZDSAQKR4wZUJ197T7tBqNyQhaQWaBBOFWu-jVE_IA9_DOIWSNy2dV9EgCnoNYWOOT3I-ReGmBfszdG=w260?key=racT95aLQfQuNs-VpmkC7A",
                     "path": "images/62567065e60a6772a287c40ad1d0471d.png"
                 }
             }
         ],
         "images": [],
-        "audio_url": "",
-        "audio": "",
+        "audio_url": "https://drive.google.com/file/d/1ch9yIY224wcApwaRYjHqUCweoEopa4zj/view?usp=sharing",
+        "audio": null,
         "hash": "f3a8e585a017f4012c1b6e55cab7a680",
-        "created_at": "2026-05-18T13:37:05.138776"
+        "created_at": "2026-05-18T14:23:46.042095"
     },
     {
-        "question_id": "OKIMASU_12_1779086225",
+        "question_id": "OKIMASU_12_1779089026",
         "form_name": "OKIMASU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "2. Percakapan tentang musim, Bulan 12 sangat panas, dibulan 1 dan 2 sangat dingin\n\n\n\u00a0DIBULAN APAKAH YANG PALING DINGIN?",
+        "context": "",
         "choices": [
             {
                 "text": "12 \u6708",
@@ -362,26 +388,28 @@
         "audio_url": "",
         "audio": "",
         "hash": "b0fca461adde51fbf81829a297703bcc",
-        "created_at": "2026-05-18T13:37:05.492078"
+        "created_at": "2026-05-18T14:23:46.387747"
     },
     {
-        "question_id": "OKIMASU_13_1779086228",
+        "question_id": "OKIMASU_13_1779089030",
         "form_name": "OKIMASU",
         "page_number": 2,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "3.\u00a0\n\n\nPercakapan membahas Hadiah\n\n\nMereka memutuskan untuk memberi hadiah apa?",
+        "context": "",
         "choices": [
             {
                 "text": "bunga",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAyJZ19LC_vIzIgk81_rkiQM1Vutu3x6T8An_RyRIWJs9xgx2MxYt9U0amld_iqGDSTekPEdAdo6peUF3IkRVaBBsminUnDFFOggPYPOibDBq-o2Iy_iAH-kgqXKk5slh7DlTT11VWOIX-imzViudmv_9Pb1hsigvP_nALldoCojzwSKjj4xdbFfH0U7zhrSYwm6mwEusAXrZCC=w260?key=racT95aLQfQuNs-VpmkC7A",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAcH3RqplTEsL9mNDhLtfIhUp-n7xF-R0VGSfGfsy_hwNJocuVuRXUPDaNOAmwHNicCADpzlUBCWGGiCVE8s335PUEQe3_4FEFbLboNQPhMRNs-MxmZD3u_i45w9U-NOFZ0YIxXXaQmSngOvz1MGd_Qep-YhRhAFxauUh0IIqYw95wBjaLNNpqSdSrTzKuwYFPv99sjnegerLLv=w260?key=racT95aLQfQuNs-VpmkC7A",
                     "path": "images/221d93938f70e0ec11e0eb4a63012905.png"
                 }
             },
             {
                 "text": "\u30ef\u30a4\u30f3 Anggur Putih",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBJ2aFDABoVB6bSdUceWZ1en-sWNePEuSdkgtoKIobGA_FfTOdK1u-V9H105mR9BAfPH_G2s18KGxqpzqh2sx3JMs0RvMTXA22YjFmMhqZjewoQxC4NobQ2wQcJjYckJXEFXlxpaLKkHWkjThfKtG38ue-B8CrCHQ1x2NVi0VvqDTrJSD-Ys74kI5lke5Z1qq4HeN4tUUnRw9nK=w256?key=racT95aLQfQuNs-VpmkC7A",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVD8G2WjLFpHi-p9IXKNIy1apUXMEWTcHCo4E9ifIEnD1F1DJqegvlY4ieWb-UQYkIYIH5GDhFekqZ_qD7gZ8uYDay6w629ruyZzdwUTpSyCRKNhvV-_AkeHl7qllckpyZh8R8Kk5fVXQ07RC6eWzzXrVd836sceoPs0FWWIpnDF0LUsh7U6NWlrbqx9VSiOKC7nF69Hk9-GVWnw=w256?key=racT95aLQfQuNs-VpmkC7A",
                     "path": "images/f032e20bf34b952b93989c6b0d476d38.png"
                 }
             },
@@ -397,14 +425,16 @@
         "audio_url": "https://drive.google.com/file/d/1ch9yIY224wcApwaRYjHqUCweoEopa4zj/view?usp=sharing",
         "audio": null,
         "hash": "269f7dd09517c0d83e859e54373d76b9",
-        "created_at": "2026-05-18T13:37:08.196916"
+        "created_at": "2026-05-18T14:23:50.386925"
     },
     {
-        "question_id": "OKIMASU_14_1779086228",
+        "question_id": "OKIMASU_14_1779089030",
         "form_name": "OKIMASU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "4.\u00a0\nPercakapan Pelayan toko dengan pengunjung\n\n\nBerapa harga vitamin besar ?",
+        "context": "",
         "choices": [
             {
                 "text": "\uff15\uff10\uff10\u5186",
@@ -423,14 +453,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "2d736b6e69d7aeafba85506dd2e0073d",
-        "created_at": "2026-05-18T13:37:08.557224"
+        "created_at": "2026-05-18T14:23:50.741306"
     },
     {
-        "question_id": "OKIMASU_15_1779086228",
+        "question_id": "OKIMASU_15_1779089031",
         "form_name": "OKIMASU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "5.\u00a0\nDi toko Baju\nMemutuskan untuk membeli baju yang mana?",
+        "context": "",
         "choices": [
             {
                 "text": "\u9ed2\u3044\u670d (M)",
@@ -449,14 +481,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "600984d45d016c1b7d10b786575cd8e5",
-        "created_at": "2026-05-18T13:37:08.919466"
+        "created_at": "2026-05-18T14:23:51.104565"
     },
     {
-        "question_id": "OKIMASU_16_1779086229",
+        "question_id": "OKIMASU_16_1779089031",
         "form_name": "OKIMASU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "6.\nPercakapan tentang Bus\n\n\nSebaiknya naik Bus yang mana ?",
+        "context": "",
         "choices": [
             {
                 "text": "\u91d1\u66dc\u65e5",
@@ -475,14 +509,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "b8456c0cd466626859f777b56594a582",
-        "created_at": "2026-05-18T13:37:09.293346"
+        "created_at": "2026-05-18T14:23:51.481757"
     },
     {
-        "question_id": "OKIMASU_17_1779086229",
+        "question_id": "OKIMASU_17_1779089031",
         "form_name": "OKIMASU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
-        "question": "8.\u00a0\n2. Di lantai berapa diadakan?",
+        "question_type": "text_only",
+        "question": "2. Di lantai berapa diadakan?",
+        "context": "8.",
         "choices": [
             {
                 "text": "\uff12\u304b\u3044",
@@ -500,15 +536,17 @@
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "2f561c0e1e8ac01cfc90e017267fef33",
-        "created_at": "2026-05-18T13:37:09.674560"
+        "hash": "3e83ec0192fda38de459a292b7098069",
+        "created_at": "2026-05-18T14:23:51.869577"
     },
     {
-        "question_id": "OKIMASU_18_1779086230",
+        "question_id": "OKIMASU_18_1779089032",
         "form_name": "OKIMASU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
-        "question": "9.\u00a0\nPercakapan tentang kerja bakti 2 soal\n\n\n1. Dimana sampah akan di kumpulkan?",
+        "question_type": "text_only",
+        "question": "1. Dimana sampah akan di kumpulkan?",
+        "context": "9.\u00a0\nPercakapan tentang kerja bakti 2 soal",
         "choices": [
             {
                 "text": "\u516c\u5712\u306e\u3044\u308a\u3050\u3061",
@@ -526,15 +564,17 @@
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "85a200d6913ed648a914d2e3ec57bc15",
-        "created_at": "2026-05-18T13:37:10.016790"
+        "hash": "fa7a6c598a41c748a70e2002ff6c512d",
+        "created_at": "2026-05-18T14:23:52.242514"
     },
     {
-        "question_id": "OKIMASU_19_1779086230",
+        "question_id": "OKIMASU_19_1779089032",
         "form_name": "OKIMASU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
-        "question": "10.\u00a0\u00a0\n2. Sampai jam berapa kegiatannya ?",
+        "question_type": "text_only",
+        "question": "2. Sampai jam berapa kegiatannya ?",
+        "context": "10.",
         "choices": [
             {
                 "text": "13:00",
@@ -552,15 +592,17 @@
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "ab1c73b929d142423668ff4ff527fa67",
-        "created_at": "2026-05-18T13:37:10.385867"
+        "hash": "de61a5fcf4700de034df1792a1526300",
+        "created_at": "2026-05-18T14:23:52.608140"
     },
     {
-        "question_id": "OKIMASU_20_1779086230",
+        "question_id": "OKIMASU_20_1779089032",
         "form_name": "OKIMASU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
-        "question": "11.\nAda gambar remot AC (\u30a8\u30a2\u30b3\u30f3) 2 SOAL\n\n\n1. Berapa suhu yang di tentukan?",
+        "question_type": "text_only",
+        "question": "1. Berapa suhu yang di tentukan?",
+        "context": "11.\nAda gambar remot AC (\u30a8\u30a2\u30b3\u30f3) 2 SOAL",
         "choices": [
             {
                 "text": "30\u00b0C",
@@ -578,15 +620,17 @@
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "fb8867263d83aa9f0bc77022576b53bf",
-        "created_at": "2026-05-18T13:37:10.750761"
+        "hash": "4d0f860078e57e74226fc0b884dd65d2",
+        "created_at": "2026-05-18T14:23:52.979007"
     },
     {
-        "question_id": "OKIMASU_21_1779086231",
+        "question_id": "OKIMASU_21_1779089033",
         "form_name": "OKIMASU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "12. Tombol apa yang di tekan untuk mengatur suhu?",
+        "context": "",
         "choices": [
             {
                 "text": "GAMBAR TOMBOL KOTAK MERAH",
@@ -605,6 +649,6 @@
         "audio_url": "",
         "audio": "",
         "hash": "333112b6dd2416dbafbc07c86db54481",
-        "created_at": "2026-05-18T13:37:11.117408"
+        "created_at": "2026-05-18T14:23:53.346924"
     }
 ]

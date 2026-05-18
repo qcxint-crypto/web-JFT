@@ -1,10 +1,12 @@
 [
     {
-        "question_id": "KUROI_0_1779085991",
+        "question_id": "KUROI_0_1779088792",
         "form_name": "KUROI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_image",
         "question": "1. \u670d\u306e\u8272\u3000\u306f\u3000\u4f55\u3067\u3059\u304b\u3002\u3002\u3002\u3002\u3002",
+        "context": "",
         "choices": [
             {
                 "text": "\u9ed2\u3044",
@@ -25,7 +27,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAe31wzt_0UmNQCVmcFAMAaoDOtxAT17C_qAJkojInYLP0UEaaZwRsNUXKdEWjulas1Nxc-jNbFTFCii5ZbuT4q9X3IEVcSzIckqnus9GETfKhVv1barl1ROz6D_eb40uoGFpCl0nlfDr-zDyS6E6QPFIU-5AshhWnptchD8Ow6ISacB-lNf0WUTFx6_q2nBNnDT6CLLfPV9dt4=w380?key=BM_ihZRMuvkHz31PlhBWQQ",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBWVC3PL2rdYj6iTk1YWYhenQdgxltoWfL081NbLeX6ScDNGnsdrllfhi0VMdRv8NR11OekW60dcP1UvNiatehQZ_FUj9_OLhTEnvqFgmaEjF8koNKJ5SiIu9YLq78L3tU5QG8mcsaiK-SbD3ldfl8k9LZnNXH2sNRWfbrANBpwI5khAyqm4K6X8wr4w5hP-JLRCs3250NPCxyP=w380?key=BM_ihZRMuvkHz31PlhBWQQ",
                 "path": "images/e934c432adbc223850bc1622d6eb0c29.png",
                 "index": 0
             }
@@ -33,15 +35,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "ad37e19905869c4edf3cf2fbe0caab46",
-        "created_at": "2026-05-18T13:33:11.158974",
+        "created_at": "2026-05-18T14:19:52.527101",
         "correctAnswer": "\u9ed2\u3044"
     },
     {
-        "question_id": "KUROI_1_1779085991",
+        "question_id": "KUROI_1_1779088793",
         "form_name": "KUROI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "image_only",
         "question": "2.",
+        "context": "",
         "choices": [
             {
                 "text": "\u3046\u3061",
@@ -58,7 +62,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDK4xxD1b4E5QlpXxwALgMiFyOxdKwm3lBSHU-p7GFf1oi4X6t7yPSfSOK8NtHB2eNSnVOh_JjHqRoE3L7mpZ7CJ1KJwASWgggWy5F1exKghIo_lF-bdPmyhHyCo04k1mJ50JiFL42iVsrf1CTNDMLDo-Ihqi7rAK4uFdoufEpdfmYllCAe7PnIh5Sm_XchsDBAs16NsCbr_N8=w218?key=BM_ihZRMuvkHz31PlhBWQQ",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAdlXySF6xMIqUh1swFXaU3v6fHxqA7HhzvrfGqgww316CwkeuUhN9lhz445HSALScsCF1OUSyivggQcBDVDcListd68CaIb5pVEROHsNc2Q7feVaUSLmHrrFR84zn1zuqBVUHhG3ckYuIrmj8Dn41d0eBNNfo0WVpxI3eOzJIeXvhAEU2eI1qNbJ6Fza-blqDbAqoY6W-HrFM=w218?key=BM_ihZRMuvkHz31PlhBWQQ",
                 "path": "images/f1e6431bf349ab29843d7b05553ae110.png",
                 "index": 0
             }
@@ -66,14 +70,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "db579bb54542535987d42fa481ac5eaa",
-        "created_at": "2026-05-18T13:33:11.914484"
+        "created_at": "2026-05-18T14:19:53.246399",
+        "correctAnswer": "\u3057\u3093\u3054\u3046"
     },
     {
-        "question_id": "KUROI_2_1779085992",
+        "question_id": "KUROI_2_1779088794",
         "form_name": "KUROI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "image_only",
         "question": "3.",
+        "context": "",
         "choices": [
             {
                 "text": "\u306f\u308c\u307e\u3059",
@@ -90,7 +97,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDZjAhlz5TpHSiXfKJ03jn5M-nrdU6-CuGvOap2GKOuGev-U6A4ykCbdq3i5d60qTdvMUyTrPn29L8Ifk-BYzADnql54WCwC3JGYkvxrs9bDsi2g7az61qCSzzNHMmYIz2cvSPX0z3W0zKrzSHZvMnFMMV8czOA186fg4fVk6TC2sJWmbuPSBOBsP2g6w8MM7XwVu58J7RT9zM=w366?key=BM_ihZRMuvkHz31PlhBWQQ",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVByXX_7yAYf_xy4vmY-BJt0zR471157k2zqiniSpv0qXPQNI3SdZUcd-2VYuXGebBuyir4kLFEfdGOEc3da0ntlD_yEJI6rs9vMZ6874-vk0UcvCvxd5vBSBo0FWPAmLYpQgOAC-B9TQ9r13flMUrhRmv12PdbhQjnwDO8STZGeyzTpPhVY_uzjUUhfJ1a7TzAOdLmxvBHXlEo=w366?key=BM_ihZRMuvkHz31PlhBWQQ",
                 "path": "images/855580ff5de7349ee25ac9e0fa1e78b9.png",
                 "index": 0
             }
@@ -98,14 +105,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "4f2d7c24eec853bf3ace949607d11e85",
-        "created_at": "2026-05-18T13:33:12.912378"
+        "created_at": "2026-05-18T14:19:54.270246"
     },
     {
-        "question_id": "KUROI_3_1779085993",
+        "question_id": "KUROI_3_1779088794",
         "form_name": "KUROI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "4. _____\u3092 2\u307e\u3044 \u304b\u3063\u3066\u304f\u3060\u3055\u3044",
+        "context": "",
         "choices": [
             {
                 "text": "\u305f\u3070\u3053",
@@ -124,15 +133,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "3502db6126514e950c2ffad6fb9d7dbc",
-        "created_at": "2026-05-18T13:33:13.261431",
+        "created_at": "2026-05-18T14:19:54.616596",
         "correctAnswer": "\u304d\u3063\u3077"
     },
     {
-        "question_id": "KUROI_4_1779085993",
+        "question_id": "KUROI_4_1779088794",
         "form_name": "KUROI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "5.\u00a0 _____\u3082\u306e \u3092 \u98f2\u307f \u306b \u3044\u304d\u307e\u305b\u3093\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "\u3055\u3080\u3044",
@@ -151,15 +162,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "b8bccf8f4f3f187879c9e6997f40ba96",
-        "created_at": "2026-05-18T13:33:13.626730",
+        "created_at": "2026-05-18T14:19:54.990273",
         "correctAnswer": "\u3064\u3081\u305f\u3044"
     },
     {
-        "question_id": "KUROI_5_1779085993",
+        "question_id": "KUROI_5_1779088795",
         "form_name": "KUROI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "6.\u00a0 \u3042\u3055\u300c\u304a\u306f\u3088\u3046\u3054\u3056\u3044\u307e\u3059\u3068\u300d\u6328\u62f6\u3057\u307e\u3059",
+        "context": "",
         "choices": [
             {
                 "text": "\u3042\u3044\u3055\u3064\u3057\u307e\u3059",
@@ -178,15 +191,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "4dc13367504b98cddbdd1b6edc086df1",
-        "created_at": "2026-05-18T13:33:13.994521",
+        "created_at": "2026-05-18T14:19:55.351159",
         "correctAnswer": "\u3042\u3044\u3055\u3064\u3057\u307e\u3059"
     },
     {
-        "question_id": "KUROI_6_1779085994",
+        "question_id": "KUROI_6_1779088795",
         "form_name": "KUROI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "7.\u6771\u4eac\u00a0\u3078 \u3044\u304d\u307e\u305b\u3093\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "\u307b\u304b\u3044\u3069",
@@ -205,15 +220,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "7d1aa175bd65d3c09ab184bfb4abad83",
-        "created_at": "2026-05-18T13:33:14.360664",
+        "created_at": "2026-05-18T14:19:55.725364",
         "correctAnswer": "\u3068\u3046\u304d\u3087\u3046"
     },
     {
-        "question_id": "KUROI_7_1779085994",
+        "question_id": "KUROI_7_1779088796",
         "form_name": "KUROI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "8.\u00a0 \u3053\u306e\u753a \u306e \u4eba \u304c\u00a0\u5c11\u306a\u3044\u3067\u3059",
+        "context": "",
         "choices": [
             {
                 "text": "\u3057\u3085\u304f\u306a\u3044",
@@ -232,15 +249,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "e567893620bc4cd0e0fa5ce353f6c7f7",
-        "created_at": "2026-05-18T13:33:14.727158",
+        "created_at": "2026-05-18T14:19:56.082366",
         "correctAnswer": "\u3059\u304f\u306a\u3044"
     },
     {
-        "question_id": "KUROI_8_1779085995",
+        "question_id": "KUROI_8_1779088796",
         "form_name": "KUROI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "9.\u00a0 \u660e\u65e5 \u306f \u65e5\u66dc\u65e5 \u3067\u3059\u304b\u3089, ______\u3067\u3059",
+        "context": "",
         "choices": [
             {
                 "text": "\u4f11\u307f",
@@ -259,14 +278,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "92e4cb71719ea125e7706ab25319e776",
-        "created_at": "2026-05-18T13:33:15.093286"
+        "created_at": "2026-05-18T14:19:56.449984",
+        "correctAnswer": "\u4f11\u307f"
     },
     {
-        "question_id": "KUROI_9_1779085995",
+        "question_id": "KUROI_9_1779088796",
         "form_name": "KUROI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "10. \u6c7a\u3081\u308b\u524d\u306b, \u3044\u308d\u3044\u308d\u306e\u3053\u3068 \u3092\u00a0\u8003\u3048\u307e\u3059",
+        "context": "",
         "choices": [
             {
                 "text": "\u307e\u3061\u304c\u3048\u307e\u3059",
@@ -285,15 +307,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "2e4f987003af7f525ad92bdff152d855",
-        "created_at": "2026-05-18T13:33:15.461523",
-        "correctAnswer": "\u304b\u3093\u304c\u3048\u307e\u3059"
+        "created_at": "2026-05-18T14:19:56.815144"
     },
     {
-        "question_id": "KUROI_10_1779085995",
+        "question_id": "KUROI_10_1779088797",
         "form_name": "KUROI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "11. \u304d\u304b\u3044 \u306e \u4f7f\u3044\u65b9 \u3092 \u8aac\u660e\u3059\u308b\u306e\u3067, \u96c6\u3081\u3066\u304f\u3060\u3055\u3044",
+        "context": "",
         "choices": [
             {
                 "text": "\u305b\u3064\u3081\u3044\u3059\u308b",
@@ -312,14 +335,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "18093744fd4453c0fa9f306130cc35e7",
-        "created_at": "2026-05-18T13:33:15.827164"
+        "created_at": "2026-05-18T14:19:57.180652",
+        "correctAnswer": "\u305b\u3064\u3081\u3044\u3059\u308b"
     },
     {
-        "question_id": "KUROI_11_1779085996",
+        "question_id": "KUROI_11_1779088797",
         "form_name": "KUROI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "12.\u00a0 \u660e \u65e5\u306f\uff11\u6642\u304b\u3089\uff12\u6642\u307e\u3067,\u30a8\u30ec\u30d9\u30fc\u30bf\u30fc\u304c_________",
+        "context": "",
         "choices": [
             {
                 "text": "\u904a\u3073\u307e\u3059",
@@ -338,15 +364,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "5f949b9fb34b2bdfd832d44ffd7b9eff",
-        "created_at": "2026-05-18T13:33:16.193630",
-        "correctAnswer": "\u6b62\u307e\u308a\u307e\u3059"
+        "created_at": "2026-05-18T14:19:57.549360"
     },
     {
-        "question_id": "KUROI_12_1779085996",
+        "question_id": "KUROI_12_1779088797",
         "form_name": "KUROI",
         "page_number": 1,
         "category": "moji_goi",
-        "question": "13.\u00a0 \u3053\u306e\u3053\u3046\u3058\u3087\u3046 \u306f \u304f\u3064 \u3092\u00a0\u751f\u7523\u3059\u308b\u00a0 12.\u00a0 \u660e \u65e5\u306f\uff11\u6642\u304b\u3089\uff12\u6642\u307e\u3067,\u30a8\u30ec\u30d9\u30fc\u30bf\u30fc\u304c_________",
+        "question_type": "text_only",
+        "question": "12.\u00a0 \u660e \u65e5\u306f\uff11\u6642\u304b\u3089\uff12\u6642\u307e\u3067,\u30a8\u30ec\u30d9\u30fc\u30bf\u30fc\u304c_________",
+        "context": "13.\u00a0 \u3053\u306e\u3053\u3046\u3058\u3087\u3046 \u306f \u304f\u3064 \u3092\u00a0\u751f\u7523\u3059\u308b",
         "choices": [
             {
                 "text": "\u305d\u3046\u3060\u3093\u3059\u308b",
@@ -364,16 +391,17 @@
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "4416acb36fe9f98fa5cf2414078fc6b9",
-        "created_at": "2026-05-18T13:33:16.559442",
-        "correctAnswer": "\u305b\u3044\u3055\u3093\u3059\u308b"
+        "hash": "b2cf2cffedf9f37542810ea35b6e01c1",
+        "created_at": "2026-05-18T14:19:57.916061"
     },
     {
-        "question_id": "KUROI_13_1779086006",
+        "question_id": "KUROI_13_1779088807",
         "form_name": "KUROI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "1. A: \u3053\u308c \u306f \u79c1 \u304c \u4f5c\u3063\u305f\u6599\u7406\u3067\u3059. \u30ab\u30ec\u30fc\u30e9\u30a4\u30b9\u3069\u3046\u305e\u00a0\n\u00a0 \u00a0 B: \u3042\u3042\u00a0 \u3053\u308c \u306f \u79c1 \u306e______\u308a\u3087\u3046\u308a\u3067\u3059",
+        "context": "",
         "choices": [
             {
                 "text": "\u597d\u304d\u306a",
@@ -392,15 +420,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "dd0316f961e8358c60aa188500238e8a",
-        "created_at": "2026-05-18T13:33:26.626632",
+        "created_at": "2026-05-18T14:20:07.957133",
         "correctAnswer": "\u597d\u304d\u306a"
     },
     {
-        "question_id": "KUROI_14_1779086006",
+        "question_id": "KUROI_14_1779088808",
         "form_name": "KUROI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "2.\u00a0A: \u3055\u3080\u3044,\u00a0 \u00a0 \u4eca\u306f\uff12\uff10\u5ea6\u3067\u3059\u304b\u00a0\n\u00a0 \u00a0 B: \u3053\u306e\u753a \u306b\u306f \u6bce\u65e5 \u3055\u3080\u3044\u3067\u3059\u3088\n\u00a0 \u00a0 A: \u3048\u3048 \u3044\u3064_______\u306a\u308b\u3067\u3059\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "\u3042\u305f\u305f\u304f",
@@ -419,15 +449,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "6b2de898b59dd4abe83d2bbdf179a4c2",
-        "created_at": "2026-05-18T13:33:26.982428",
+        "created_at": "2026-05-18T14:20:08.323447",
         "correctAnswer": "\u3042\u305f\u305f\u304f"
     },
     {
-        "question_id": "KUROI_15_1779086007",
+        "question_id": "KUROI_15_1779088808",
         "form_name": "KUROI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "3.\u00a0 A: \u307b\u3093\u3060\u3055\u3093 \u3053\u3061\u3089 \u306f \u79c1\u306e\u7236\u3067\u3059\u00a0\n\u00a0 \u00a0 \u00a0B: \u3069\u3046\u305e\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3057\u307e\u3059\u00a0C: ............\n\u00a0 \u00a0 \u00a0A: \u3059\u307f\u307e\u305b\u3093 \u7236 \u306f \u65e5\u672c\u8a9e \u304c \u305c\u3093\u305c\u3093_______",
+        "context": "",
         "choices": [
             {
                 "text": "\u5206\u304b\u308a\u307e\u305b\u3093",
@@ -446,15 +478,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "74f87abfadc0a10b9604917e40682fdc",
-        "created_at": "2026-05-18T13:33:27.347107",
+        "created_at": "2026-05-18T14:20:08.687072",
         "correctAnswer": "\u5206\u304b\u308a\u307e\u305b\u3093"
     },
     {
-        "question_id": "KUROI_16_1779086007",
+        "question_id": "KUROI_16_1779088809",
         "form_name": "KUROI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "4.\u00a0\u00a0\nA: \u6599\u7406 \u3092 \u306a\u3089\u3044\u305f\u3044\u3093\u3067\u3059\u304c, \u304a\u3059\u3059\u3081 \u304c \u3042\u308b\u304b\u00a0\nB: _______,\u3053\u306e\u30a2\u30d7\u30ea\u3000\u3069\u3046\u3067\u3059\u304b\u00a0\nA: \u3044\u3044\u3067\u3059\u306d\u3000\u5206\u304b\u308a\u3084\u3059\u3044\u3067\u3059",
+        "context": "",
         "choices": [
             {
                 "text": "\u305d\u3057\u3066",
@@ -473,14 +507,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "523958b5808f9663d42291056c049c11",
-        "created_at": "2026-05-18T13:33:27.717635"
+        "created_at": "2026-05-18T14:20:09.049511",
+        "correctAnswer": "\u305d\u308c\u306a\u3089"
     },
     {
-        "question_id": "KUROI_17_1779086008",
+        "question_id": "KUROI_17_1779088809",
         "form_name": "KUROI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "5.\u00a0\u00a0\nA: \u4f55 \u306e \u904b\u52d5 \u3092 \u3057\u3066\u3044\u307e\u3059\u304b\u00a0\nB: \u591c \u306f____\u524d\u306b, \u305f\u3044\u305d\u3046\u3067\u3059",
+        "context": "",
         "choices": [
             {
                 "text": "\u5bdd\u308b",
@@ -499,15 +536,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "13ab200260a58a8ee05768bfc6040db7",
-        "created_at": "2026-05-18T13:33:28.077950",
-        "correctAnswer": "\u5bdd\u308b"
+        "created_at": "2026-05-18T14:20:09.416417"
     },
     {
-        "question_id": "KUROI_18_1779086008",
+        "question_id": "KUROI_18_1779088809",
         "form_name": "KUROI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "6.\nA: \u3044\u3064\u3082 \u9031\u672b \u304b\u3044\u3082\u306e\u3057\u307e\u3059\u304b\u00a0\nB: \u306f\u3044 \u6628\u65e5 \u306f \u30b9\u30fc\u30c4\u30b1\u30fc\u30b9 \u3092 \u8cb7\u3044\u307e\u3057\u305f\u00a0\nA: \u305d\u308c \u306f________\u3069\u306e\u3050\u3089\u3044 \u304b\u304b\u308a\u307e\u3059\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "\u305f\u3057\u304b\u306b",
@@ -526,14 +564,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "b7590af7ad2d8a45f7a062623169550d",
-        "created_at": "2026-05-18T13:33:28.441735"
+        "created_at": "2026-05-18T14:20:09.783635"
     },
     {
-        "question_id": "KUROI_19_1779086008",
+        "question_id": "KUROI_19_1779088810",
         "form_name": "KUROI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "7.\nA: \u4ed5\u4e8b\u306f\u3069\u3046\u3067\u3059\u304b\u00a0\nB:____________",
+        "context": "",
         "choices": [
             {
                 "text": "\u305d\u3046\u3067\u3059\u306d",
@@ -552,14 +592,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "05053c72b28fb8b1a48d086e6416b690",
-        "created_at": "2026-05-18T13:33:28.809606"
+        "created_at": "2026-05-18T14:20:10.151490",
+        "correctAnswer": "\u304a\u304b\u3052\u3055\u307e\u3067"
     },
     {
-        "question_id": "KUROI_20_1779086009",
+        "question_id": "KUROI_20_1779088810",
         "form_name": "KUROI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "8.\nA: 305 \u306e \u3078\u3084\u3067\u3059.\u00a0______________\u00a0\nB: \u3053\u3061\u3089\u3053\u305d\u304a\u305b\u308f\u306b\u306a\u308a\u307e\u3059",
+        "context": "",
         "choices": [
             {
                 "text": "\u304a\u305b\u308f\u306b\u306a\u308a\u307e\u3059",
@@ -578,15 +621,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "d674af769f6a52ef2467df78e93d95d8",
-        "created_at": "2026-05-18T13:33:29.177449",
+        "created_at": "2026-05-18T14:20:10.516047",
         "correctAnswer": "\u304a\u305b\u308f\u306b\u306a\u308a\u307e\u3059"
     },
     {
-        "question_id": "KUROI_21_1779086009",
+        "question_id": "KUROI_21_1779088810",
         "form_name": "KUROI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "9.\nA: \u3059\u307f\u307e\u305b\u3093, ________\u3044\u307e\u3059\u304b\u00a0\nB: \u5927\u4e08\u592b \u3067\u3059\u304b \u304d\u3085\u3046\u304d\u3085\u3046\u3057\u3083 \u3092 \u547c\u3073\u307e\u3057\u3087\u3046",
+        "context": "",
         "choices": [
             {
                 "text": "\u306a\u306b\u304b",
@@ -605,15 +650,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "d24f8cc5dd53a7a53f67db56b060f5f6",
-        "created_at": "2026-05-18T13:33:29.549249",
+        "created_at": "2026-05-18T14:20:10.885130",
         "correctAnswer": "\u3060\u308c\u304b"
     },
     {
-        "question_id": "KUROI_22_1779086009",
+        "question_id": "KUROI_22_1779088811",
         "form_name": "KUROI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "10.\u00a0\nA: \u571f\u3088\u3046\u65e5 \u306e \u591c\u3001\u304b\u3044\u3082\u306e \u306b \u884c\u304f\u3093\u3067\u3059\u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u304c,\u00a0\u4e00\u7dd2 \u306b \u884c\u304d\u307e\u305b\u3093\u304b\u3002\u00a0\nB: \u3044\u3044\u3067\u3059\u306d, \u305c\u3072\u00a0\nA: \u3067\u306f\u3001\u3042\u3057\u305f 4\u6642 \u306b \u3072\u304b\u308a\u99c5 \u3067 \u4f1a\u3044\u307e\u00a0 \u00a0 \u00a0 \u00a0 \u3057 \u3087\u3046\u3002\u00a0\nB: \u306f\u3044 \u3001______________",
+        "context": "",
         "choices": [
             {
                 "text": "\u305f\u306e\u3057\u307f\u306b\u3057\u3066\u307e\u3059",
@@ -632,14 +679,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "e76e320e322cc8a6b7637fc5751e1b8c",
-        "created_at": "2026-05-18T13:33:29.910683"
+        "created_at": "2026-05-18T14:20:11.247734"
     },
     {
-        "question_id": "KUROI_23_1779086010",
+        "question_id": "KUROI_23_1779088811",
         "form_name": "KUROI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "11.\u00a0 A: \u3053\u3053 \u306f________\u00a0\n\u00a0 \u00a0 \u00a0 \u00a0 B: \u306f\u3044, \u3069\u3046\u305e",
+        "context": "",
         "choices": [
             {
                 "text": "\u306a\u3093\u3067\u3059\u304b",
@@ -658,15 +707,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "6b8ba3dba57e0d82f52a0a7b64dde9e8",
-        "created_at": "2026-05-18T13:33:30.275614",
+        "created_at": "2026-05-18T14:20:11.614466",
         "correctAnswer": "\u3044\u3044\u3067\u3059\u304b"
     },
     {
-        "question_id": "KUROI_24_1779086010",
+        "question_id": "KUROI_24_1779088811",
         "form_name": "KUROI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "12.\u00a0\u00a0\nA: \u5927\u962a \u306b \u884c\u3063\u305f\u3053\u3068 \u304c \u3042\u308a\u307e\u3059\u304b\u00a0\nB:\u3046\u3093\u3001\u3042\u308a\u307e\u3059\u3088\u3002\u00a0\nA:\u304a\u304a\u3055\u304b \u3067 \u4f55 \u3092 \u98df\u3079\u307e\u3057\u305f\u304b\nB: \u305f\u3053\u3084\u304d\u3068\u304b\u3001\u3046\u3069\u3093\u3068\u304b\u3001\u3044\u308d\u3044\u308d\u306a\u00a0 \u00a0 \u00a0 \u00a0 \u98df\u3079\u7269\u3092\u98df\u3079\u307e\u3057\u305f\u3002\u304a\u304a\u3055\u304b\u3067 \u4f55\u3092\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0________\u304a\u3044\u3057\u3044\u3067\u3059\u3088",
+        "context": "",
         "choices": [
             {
                 "text": "\u98df\u3079\u306a\u3044",
@@ -685,26 +736,28 @@
         "audio_url": "",
         "audio": "",
         "hash": "4510558580fc515f224dcc26dc149568",
-        "created_at": "2026-05-18T13:33:30.641323"
+        "created_at": "2026-05-18T14:20:11.983287"
     },
     {
-        "question_id": "KUROI_25_1779086024",
+        "question_id": "KUROI_25_1779088825",
         "form_name": "KUROI",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "1.\u00a0Audio\u00a0\nPerempuan menelfon pria menanyakan posisi nya di mana?",
+        "context": "",
         "choices": [
             {
                 "text": "\u75c5\u9662",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBQVokViGxMgVJPOF34K2JAxb5JQb75sMk8UUhlYwdqqEacWdN18120reFUSKLzgymR6SP0gFqRjlQHQjZMiFbeTHfCurgvHqQ3c9vmJ_od-hTwMdHX3f5K92txVx8WFkUzjeIJm5UrEHpSq73KP0vy6HqB1HI9ogqMBKVgMzq9P9TjXlrIg1abz92mhaGWAV9T8mHG3m0Rm8BN=w204?key=BM_ihZRMuvkHz31PlhBWQQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDPSfcOKaiOBTUUPEpXRCihGSOBv4DtOPsNuKljFYyvj5lQVY049GvV5QDzbyjjCriiMUjxLLrZlO6CVWTlNjYNspIdl7MCy3uiztDmkcUQuVII-6lO-tSQZvAW3ZZ9Umg_XyldmMx0DYwbKXDQmt0dOZzCN8Nq2lWM9U0WiWjfPHr6HooCq9wDAC1XLCqWZr8M3PG5C0Ab_Yv-=w204?key=BM_ihZRMuvkHz31PlhBWQQ",
                     "path": "images/7bd9f88e1237a831062c13612dfe8e3d.png"
                 }
             },
             {
                 "text": "\u30b3\u30f3\u30d3\u30cb",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDOn_N4IzEwcad0uBszcES4lWRtI438Mod4EFU5rjz1f-_ZvS75It83zCjqOzCvd6fc_0xgUDSz8riwG7kgkB7GcKEiLyAXslSgHd2Cy1MhJgBNLc1n5wNVBh-5nPMNbcUsYiQFiSPTke-uWFxYZTUyoMt3sWMLsMHgzgXDEYflN0mFiADNuvExnT80WYqg4_KkYqQV2Mg7TRfN=w237?key=BM_ihZRMuvkHz31PlhBWQQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVD3vXyt5Wn-_t0OR3449mkRbchSTuRT2mq-pRz-9hEkBkEgv0hUUyEZ617kR424Y2aw7rCPQwVsLVhKec7f5O965ZNNcAAm9NlXqYBJorMwuJwPLUmBtkevRfMs7dJrIR3UZpvtzUbLe6dGenAwX33hZBNUGbGpRtO4EihcuniJaQWoLvw7bz8g3t330Z9gI-gY3TJyt5A3yEcV=w237?key=BM_ihZRMuvkHz31PlhBWQQ",
                     "path": "images/bf707fa3aed27a028f14658caa5c5050.png"
                 }
             },
@@ -720,14 +773,17 @@
         "audio_url": "https://drive.google.com/file/d/1lfSjfF7UhE9RIZq6j9JWR1EB9AMZ1_rw/view?usp=drive_link",
         "audio": "audio/9ede3f33821182bcbab2db43e286b5bf.mp3",
         "hash": "db9d150c57809b2559f9c58d02c38fa6",
-        "created_at": "2026-05-18T13:33:44.256776"
+        "created_at": "2026-05-18T14:20:25.205572",
+        "correctAnswer": "\u30b3\u30f3\u30d3\u30cb"
     },
     {
-        "question_id": "KUROI_26_1779086026",
+        "question_id": "KUROI_26_1779088827",
         "form_name": "KUROI",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "2.\u00a0Audio\nPria saat di Kanagawa pergi kemana ?",
+        "context": "",
         "choices": [
             {
                 "text": "Ke taman seperti taman malam",
@@ -746,14 +802,17 @@
         "audio_url": "https://drive.google.com/file/d/1Cf7PN4wlU062d2EG-MrPXq_vPkcBLfBt/view?usp=drive_link",
         "audio": "audio/06d6364913121b1def906a922bef7f0a.mp3",
         "hash": "af5b405a9dbba23513fb49b93d1d0fae",
-        "created_at": "2026-05-18T13:33:46.611464"
+        "created_at": "2026-05-18T14:20:27.928097",
+        "correctAnswer": "Ke taman seperti taman malam"
     },
     {
-        "question_id": "KUROI_27_1779086026",
+        "question_id": "KUROI_27_1779088828",
         "form_name": "KUROI",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "3. Toko sepatu ada di lantai berapa ?",
+        "context": "",
         "choices": [
             {
                 "text": "lantai 5",
@@ -772,33 +831,36 @@
         "audio_url": "",
         "audio": "",
         "hash": "7540bbec379b3efc102739fe31ef973f",
-        "created_at": "2026-05-18T13:33:46.969668"
+        "created_at": "2026-05-18T14:20:28.286892",
+        "correctAnswer": "lantai 7"
     },
     {
-        "question_id": "KUROI_28_1779086028",
+        "question_id": "KUROI_28_1779088829",
         "form_name": "KUROI",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "4.\nSaat piknik wanita membawa apa ?",
+        "context": "",
         "choices": [
             {
                 "text": "\u304b\u3070\u3093",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDb2Ds_QcsK0FGxKdVQ5VUbffvveCmry-ZoDnvBLS0IP4W_Q7l0Lv1hJ5Zxhe2SCVPS5oh34lkF7V4l39wQSck-xJy5fjEzgzm8KDTtLEfEuWUbjem9Sn6hXD3_OC14s3EPd0jnYkcpGUV_ddN5vBLTS9xA36pT2Donzkk1F9EsBX5ZW6a61eEtAz1N7ktqRWus6iUOMWBBv3cw=w260?key=BM_ihZRMuvkHz31PlhBWQQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAE81HI2CG2Q-KCGxTaaLxWmN9zzvOdlGzeBeSLAeZwSg6tZIxm2Gsw0Q57ewW1SekzQTubUbKIW4KgvkKrzPX-GbFDEqjra0bvZ7Qq4STXSOjz2CfweeoUDyiId4Wg27DsHZN37XJ4qJYvsj4wyan0SATEKKA9z9aBvml_VsKBjHHIgMsqdVYzFQXct2EUFEZsPZvJM5xWcXo4=w260?key=BM_ihZRMuvkHz31PlhBWQQ",
                     "path": "images/e1696cefa565a43ea06a00f943425213.png"
                 }
             },
             {
                 "text": "\u3075\u3068\u3093",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBFN6jrb3QPIsyc05jRjlWo2hUjFsH4weV8Okw5iHn5iybMkHQX0Il2EjtuzVH4R7pgq564lsLTYVb3J1uKEdpRzvJQtpmifNpBuIURRurGwj9aTKPMhlL-UL80XcWD1N6q5iPOfdYtrV_kJpXZ56Ez4AHpCG7zBCAhQXdnD2h6YNA62EPNEXv_Dlux8OynX9K05unB29aPP7F0=w228?key=BM_ihZRMuvkHz31PlhBWQQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAyYPBZvUw1fYqrzS4K-KY7HtemARXH8j4q5RrgYHPMbNwAiwPyx-V7ChGwQskimq1enu2i2DqW2u55FL0pTFxPBq3J8bjKCvbOETyeR6img01kuWtpLTwTpzuCLSn6gYSOqql4mZbDrWdjahWhCSESmyHUrAGbZdYREzhQsP339_GPvz_pnKhPv02Pw3hv6YaYV4kMMr5PS32W=w228?key=BM_ihZRMuvkHz31PlhBWQQ",
                     "path": "images/55fa03db212a96e4366c7f48252d865b.png"
                 }
             },
             {
                 "text": "\u30ab\u30c3\u30d7 \u3068 \u76bf",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAzd1g-EjgukU6l5oM1Km7wbOEXXha7d2sxszPGXgRV7ZlZfRpcvKevOsW2FT1d9iXF4FzfkL_9703B5LPcgxzT0PeSiZT6qM1D31yoUZuFEti9r2JifDNsLpCkPflcz1yWdRIIsCd0CVDWMzBQSa3aIKh9inSjZ2wYUkeMTCDOFa-7s7mBRNL2s_1y5vuaEnEyxedpqtskwco=w214?key=BM_ihZRMuvkHz31PlhBWQQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCsa59rF4OLAzddH6m1hxH6jhNhX5mN6stuLsXP9YZIQobtZZGA4FIH6MkWGMHgRsfkwHsvja1KcF5ZNA788SfyqY5oabvHrzO0LJ0LQxxytqc9tKoCu91TfTFUwyXzFrM0gGFf6meBF6sykPuejjeT0SO1CwJnc-neHRpznP4t9ovxj50PVuWgDHY27-auwtlQG81Q9x_JjlQ=w214?key=BM_ihZRMuvkHz31PlhBWQQ",
                     "path": "images/21b3a06f8d73fc2c25ff76cd6c45670d.png"
                 }
             }
@@ -807,15 +869,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "b95198f1367716d814ff587f560bf0b6",
-        "created_at": "2026-05-18T13:33:48.684934",
+        "created_at": "2026-05-18T14:20:29.823104",
         "correctAnswer": "\u30ab\u30c3\u30d7 \u3068 \u76bf"
     },
     {
-        "question_id": "KUROI_29_1779086033",
+        "question_id": "KUROI_29_1779088833",
         "form_name": "KUROI",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "5.\u00a0Audio\n#Bagaimana cara mengembalikan CD",
+        "context": "",
         "choices": [
             {
                 "text": "wanita di meja resepsionis sambil membawa CD",
@@ -827,7 +891,7 @@
             {
                 "text": "wanita di meja resepsionis sambil membawa uang",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBW9wBX-ZJ4Ua1-LBjwjHem1ECMzsqfSSmia5zBG3nGAgBNzp2hTFtgLDZQEK0iwdtnDr7JCalNmymdu4goP9dRWZpuZa1l7br9jVi2HMJbE_vRsbbfNtIiQzPWCFimkP1LDb0A3yHgbQma6rp_z-ZgOBzhTu5Wvjbv8OhUuJw_NiGWeHZaeBvUFcLxAzLPNPy4rTN3FXO3MRB5=w162?key=BM_ihZRMuvkHz31PlhBWQQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDPnLb6E2pfdQRG-1GK1Ckvdyi9ZbOLw2e_MTUWS9Dymr2EitxllHvmQy5A2w5sC5G9EGJYbzsTa9_edtNRZMVnwxlc0fMA4HtJZ4MZQct7Vwvd3zXq5qapR8mdDeUL8273Az8zFD5LMH7xHlY8OVlMCBIhEPsqB-xuhSAanynkAQsoebBer5yAjY5S7561PYv3epIFctS7dF5c=w162?key=BM_ihZRMuvkHz31PlhBWQQ",
                     "path": "images/33808f91f5970b0ac26bf9228685aa57.png"
                 }
             }
@@ -836,26 +900,29 @@
         "audio_url": "https://drive.google.com/file/d/1hLbN9kKGjemwjdi_iBJ84JpKvxNnwSuU/view?usp=drive_link",
         "audio": "audio/3ed24a530f34cf88c79ef2354d357357.mp3",
         "hash": "2a2edb691822841ff163e6fc5dfbce01",
-        "created_at": "2026-05-18T13:33:53.734829"
+        "created_at": "2026-05-18T14:20:33.043361",
+        "correctAnswer": "wanita di meja resepsionis sambil membawa CD"
     },
     {
-        "question_id": "KUROI_30_1779086035",
+        "question_id": "KUROI_30_1779088834",
         "form_name": "KUROI",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "6.\u00a0#apa yang bisa di lakukan di perpustakaan",
+        "context": "",
         "choices": [
             {
                 "text": "merokok",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBtO9gcyPzu-XID9xRZVajTBIHnb0SMISDLccwgne4BKUBMytYXrAIoMMwlQm-uVpvFZVANh990BP7p3y_Gn45DXLw7XZ5fHtMy_Yedz_D-0zUpyjOtXYQqXUR18d6BSgl8hh5Ueo5vrzH3UdUtuFghj-T4ukMLv39CTZFgADCe5UoXjTY4Op4zK4rfZGKG42rAMepcyPL6T4o=w214?key=BM_ihZRMuvkHz31PlhBWQQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDfVXS6vKE8elJqdeDHeWuTeqr6blld0U_u86YapwUVRhiBr__QKvTgOFsoNbKzsJ6C0FTkuL-3LhO7oa9bDXE4M_WnfYrZx2PIU478OWQZhfUtpXUQoLee-Wpt8FtMtmoCkdJvlqEa4X2qmhRL5EHROPPtkBV4yhKKZT9uHZB20W2FOHQuYkPi0Gand-ehKAodXTsnTE4iZ10=w214?key=BM_ihZRMuvkHz31PlhBWQQ",
                     "path": "images/fadcfb36e09990bb6fd1eff18e80da1c.png"
                 }
             },
             {
                 "text": "menggunakan laptop",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCukA1w-8cQxR2daMN51olbYvIeXkGyDxWiao6xM53YuflbLkREX34pLdyolgqfmKmdyUMMwp2XadW6IA_NJebGXTzVGv-4_YHJNBSY0F8EJXtPmlt8o5GHLFflilPvc6HLL_oasfOY7RpNOXVFya1gh7_JtuWoz3nzLJ6Z-smAT8XNDZkTHcOZlic3K2TKWjeAxE-7b440skV8=w215?key=BM_ihZRMuvkHz31PlhBWQQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVC9oQH6brNyIJtpv7HWMRO6O_jp34MdL4nAa7dw7qRgU8899wolLdMdyQ6qK3GjSw9ASO4iInuUh89wRUGIL5_Dz0ncwrfC4t1pGJEeDTXkKo3i_O7XPb6CuqAuKZwNPVJ10iYr7SqOHS9P3qiBtd-MhJu633Eg0FjFeTYiEPNU44gLf1bLwfZcX1YjYjlTzyvJEFIlLbiaryjB=w215?key=BM_ihZRMuvkHz31PlhBWQQ",
                     "path": "images/d03bf6319b0cbaf7c3c9a641d4b08123.png"
                 }
             },
@@ -871,15 +938,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "25fbeadc821c15e245269e01a20347ac",
-        "created_at": "2026-05-18T13:33:55.152855",
-        "correctAnswer": "menggunakan laptop"
+        "created_at": "2026-05-18T14:20:34.437626"
     },
     {
-        "question_id": "KUROI_31_1779086039",
+        "question_id": "KUROI_31_1779088838",
         "form_name": "KUROI",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "7.\u00a0Audio\nCEWEMU MAU JALAN-JALAN KE KANAGAWA/ \u795e\u5948\u5ddd KEMANA",
+        "context": "",
         "choices": [
             {
                 "text": "toko ikan",
@@ -891,14 +959,14 @@
             {
                 "text": "tempat perkemahan",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVArosePv5PIl6H3AIF0XNySsPQK08rNgXKcD4r8U1FxqER-AtSlkUlVIyICypewewDMLZsfTbTTHjeFzIGgeNcPnswaQ4CJmxZDi6OiE9TmR_rHDLJxUeWCictBwozMY1-_f4y8P7jJkJauadDzrAqXmSmS4uIl4fJXSqXyOpGyFpRfbBoId1l4be_FOYsPPfjHnz5fXyPNG1n7=w259?key=BM_ihZRMuvkHz31PlhBWQQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAqLBke6lKnHP-kR9dL2yyQiwTzDarktZm5MG_HodmIrVk7-TZ0jehv0ukRyCL79o1kOasYlYzVb8iYIwQTpb-MjsofR84FwNSdFGJO6623InTPue1iqfWLxrzHhgiGAfM3PAOpOU7f-a9CvghVPF_5k1T3CC9w7ubPAu_Nq4gsnmlwDWT7QxpLBfIIusIa3lTXZvK5rGkXZaL_=w259?key=BM_ihZRMuvkHz31PlhBWQQ",
                     "path": "images/69cd404e3ce9b9bf401d2506928870b5.png"
                 }
             },
             {
                 "text": "kastil tua ada jembatannya",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCPfzTaSQPUy2fbesHR8mSaDn8oUjp_Spma6u1VZ9TTpqlPMwD62W0_5M8QoQVsnpWoQUZH0e4CJWwKYvB-AKAmZsCDVB7MNo8H2SOuJU7KnadTzo0I4WoI9OnTwK3AVarSNCSyH2dxEN8ZX3uAnwWbDczNY_DwaZ6V1hbb6b0K_4C2timfu1kPINRgpUKWceY6WSKvL3y_XUWw=w260?key=BM_ihZRMuvkHz31PlhBWQQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDguHhzFnEa46_nPAeH-Tm8HtFVYLa-AnqbU6kEbEi3cqYIvxiDbc7ePwSQFWm3gcHsZWINMgE6m5yh_R2sWg0gDthA96v6MxPUeDC8ABxyFPRvimhIWU0hhgi-ixV7NSsG6Co3V3opglDhba6Xs4paSNuNKAUIP4y7Yl09J1oHVkJQGZzkielJUXYR4spKJ3pYZn2YBJElSzCq=w260?key=BM_ihZRMuvkHz31PlhBWQQ",
                     "path": "images/55c06f7a4aaac0ed45f95bb932d1bbb4.png"
                 }
             }
@@ -907,15 +975,17 @@
         "audio_url": "https://drive.google.com/file/d/1Cf7PN4wlU062d2EG-MrPXq_vPkcBLfBt/view?usp=drive_link",
         "audio": "audio/06d6364913121b1def906a922bef7f0a.mp3",
         "hash": "1fe4548e003dfbc829747803fcac7f01",
-        "created_at": "2026-05-18T13:33:59.466063",
+        "created_at": "2026-05-18T14:20:38.133013",
         "correctAnswer": "kastil tua ada jembatannya"
     },
     {
-        "question_id": "KUROI_32_1779086039",
+        "question_id": "KUROI_32_1779088838",
         "form_name": "KUROI",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "8. Pashword wifi nya apa ?",
+        "context": "",
         "choices": [
             {
                 "text": "ABC5301",
@@ -934,15 +1004,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "08087f027fbe2e0f37e3d22dc11a2db0",
-        "created_at": "2026-05-18T13:33:59.827334",
+        "created_at": "2026-05-18T14:20:38.481578",
         "correctAnswer": "ABC5101"
     },
     {
-        "question_id": "KUROI_33_1779086046",
+        "question_id": "KUROI_33_1779088841",
         "form_name": "KUROI",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "9.\u00a0Audio\u00a0\n#obat yang berwarna biru di minum sehari berapa kali",
+        "context": "",
         "choices": [
             {
                 "text": "\uff15\u56de\uff11\u65e5",
@@ -961,15 +1033,16 @@
         "audio_url": "https://drive.google.com/file/d/19Kpm8bN1FJJn_wYcPoLasfQp8u2EmlOI/view?usp=drive_link",
         "audio": "audio/d459158ba4e9d344f08406887015749d.mp3",
         "hash": "2d5adf85a0064b721abc8886ca862efa",
-        "created_at": "2026-05-18T13:34:06.742384",
-        "correctAnswer": "\uff12\u56de\uff11\u65e5"
+        "created_at": "2026-05-18T14:20:41.913912"
     },
     {
-        "question_id": "KUROI_34_1779086047",
+        "question_id": "KUROI_34_1779088842",
         "form_name": "KUROI",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "10.\u00a0\u00a0setelah minum obat berwarna putih tidak boleh minum apa",
+        "context": "",
         "choices": [
             {
                 "text": "\u304a\u8336",
@@ -988,15 +1061,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "e95d22f4e5b6c2018b5a97e6fe8e4427",
-        "created_at": "2026-05-18T13:34:07.157930",
+        "created_at": "2026-05-18T14:20:42.265729",
         "correctAnswer": "\u725b\u4e73"
     },
     {
-        "question_id": "KUROI_35_1779086052",
+        "question_id": "KUROI_35_1779088845",
         "form_name": "KUROI",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "11.\u00a0Audio\n#berapa lembar yang di fotocopy pria tersebut",
+        "context": "",
         "choices": [
             {
                 "text": "22 \u307e\u3044",
@@ -1015,14 +1090,17 @@
         "audio_url": "https://drive.google.com/file/d/1xOWF5ZGkmCCSRzLjnDykOBLFoVpom5UE/view?usp=drive_link",
         "audio": "audio/ab7e24c17fc623457e034f1c6c14ebbd.mp3",
         "hash": "f34079756c99c4f601d4aac8b420f20a",
-        "created_at": "2026-05-18T13:34:12.492645"
+        "created_at": "2026-05-18T14:20:45.977359",
+        "correctAnswer": "22 \u307e\u3044"
     },
     {
-        "question_id": "KUROI_36_1779086052",
+        "question_id": "KUROI_36_1779088846",
         "form_name": "KUROI",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "12. Sampai jam berapa fotocopy nya buka",
+        "context": "",
         "choices": [
             {
                 "text": "Sebelum jam 02.30",
@@ -1041,15 +1119,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "8256cacd91bdee965df3fdd2df2f77e8",
-        "created_at": "2026-05-18T13:34:12.910830",
+        "created_at": "2026-05-18T14:20:46.336472",
         "correctAnswer": "Sebelum jam 04.30"
     },
     {
-        "question_id": "KUROI_37_1779086063",
+        "question_id": "KUROI_37_1779088856",
         "form_name": "KUROI",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "1.\u00a0Untuk 2 Soal\n\n\na. Oleh oleh dari hokkaido di letakkan di mana",
+        "context": "",
         "choices": [
             {
                 "text": "kulkas",
@@ -1068,14 +1148,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "33620e4fbe2ac0ef64ea3e931256c91c",
-        "created_at": "2026-05-18T13:34:23.042361"
+        "created_at": "2026-05-18T14:20:56.474619",
+        "correctAnswer": "kulkas"
     },
     {
-        "question_id": "KUROI_38_1779086063",
+        "question_id": "KUROI_38_1779088856",
         "form_name": "KUROI",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "2.\noleh olehnya makanan apa ?",
+        "context": "",
         "choices": [
             {
                 "text": "coklat",
@@ -1094,15 +1177,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "d2e556132f203e91b327f443a9d704c1",
-        "created_at": "2026-05-18T13:34:23.417986",
-        "correctAnswer": "coklat"
+        "created_at": "2026-05-18T14:20:56.850421"
     },
     {
-        "question_id": "KUROI_39_1779086064",
+        "question_id": "KUROI_39_1779088858",
         "form_name": "KUROI",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_image",
         "question": "3.\u00a0\na. olahraga apa yang pernah dilakukan sebelum ke jepang ?",
+        "context": "",
         "choices": [
             {
                 "text": "\u30b5\u30c3\u30ab\u30fc",
@@ -1119,7 +1203,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDbWfZ6-bc3ZM_3Rk4FUIOE4kvDEXPj990b7Cb-qAPPjIiSpgejJG0oJgUHOSiZp837hwTbhlyF1IqqtxROcXc0ZhNDwVUDjNyoj6lAYBp8GhF9QirU6klG798lndyTufOYRq6z8jre9__gEX5d3VXJOJ7-_QR44Q9gDB_a_c0EogTTNsOCAQwsrRSwi9EzBa8_xGoZJ8j7uq9S=w740?key=BM_ihZRMuvkHz31PlhBWQQ",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVC6kTRbKyLEMP0HqzD8S6hZasifgsllbSdlttVqCTs6jJycrCW8cVp3j2UMVC6SoqsUAao5TISIL5UrJZRugb-psnuTIVnL8GlBC5o7RYCN_HMaV0_p712ps4CBB4M-WKWdG_uwyokIaMFDW0ttS8cUiB0sQweF3APQRH2IC3PublMf97O9LhhvUiF4VsoHU3V7B8UPsbffvITP=w740?key=BM_ihZRMuvkHz31PlhBWQQ",
                 "path": "images/376540e7ed8cda002152ae410a21a726.png",
                 "index": 0
             }
@@ -1127,14 +1211,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "3d7de233caf13979c4204f0c96ecdb2e",
-        "created_at": "2026-05-18T13:34:24.832688"
+        "created_at": "2026-05-18T14:20:58.628638"
     },
     {
-        "question_id": "KUROI_40_1779086065",
+        "question_id": "KUROI_40_1779088858",
         "form_name": "KUROI",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "4.\u00a0\nb. Seminggu berapa kali bermain tenis ?",
+        "context": "",
         "choices": [
             {
                 "text": "\uff12\u56de\u6c34\u66dc\u65e5\u3068\u571f\u66dc\u65e5",
@@ -1153,15 +1239,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "a4d28d5810a7bb6c88d5cc1b802e016e",
-        "created_at": "2026-05-18T13:34:25.193572",
-        "correctAnswer": "\uff12\u56de\u6c34\u66dc\u65e5\u3068\u571f\u66dc\u65e5"
+        "created_at": "2026-05-18T14:20:58.981918"
     },
     {
-        "question_id": "KUROI_41_1779086067",
+        "question_id": "KUROI_41_1779088863",
         "form_name": "KUROI",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_image",
         "question": "5.\u00a0\na. Buku tersebut di rekomendasikan untuk siapa ?",
+        "context": "",
         "choices": [
             {
                 "text": "Untuk orang yang sedang bekerja",
@@ -1178,7 +1265,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAFyeWcb9NwUh1AeIonbXUyCZ45hDiYgLkKLfg7motxNNRXU6SSS0wscA-Z4hfJUA8_6iuLEpZXSJEPgz6i7yI8Bdgl8SZKsKd40jVQSA3xOXOkOwKsIO1Kp_NHCGU7WyUH6P-UvMlWN-Gcj4jeK9NbTORVCPpQuDszBjUsb59nz6LR9upOERfqmFpBULvGNLjQj0-256TAvpc=w740?key=BM_ihZRMuvkHz31PlhBWQQ",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDKHVljO-V9O1VhUf3tbY17obY4llPU3xSBV0lUYJ7CMA0hlIY0EXe6K9JmklZBTevu0wX5DGsZOpbFbPpycSZ4cbeocFrN2_dpKoIicLXXYd1Y3RMNP3t8j3NnGwoxX-qKi2PA9Wl41wCFb2aCdl-tY6Gdvrs-V0L0TEJxtBDUNPE_WeK7KLjodA-tbojcm8OAk0-wfbWuqc8=w740?key=BM_ihZRMuvkHz31PlhBWQQ",
                 "path": "images/eeb2f51da89c272e5a1ef516c9fb663d.png",
                 "index": 0
             }
@@ -1186,14 +1273,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "82800b06dcdc81603c9f67a5b0b58f20",
-        "created_at": "2026-05-18T13:34:27.614080"
+        "created_at": "2026-05-18T14:21:03.857705"
     },
     {
-        "question_id": "KUROI_42_1779086067",
+        "question_id": "KUROI_42_1779088864",
         "form_name": "KUROI",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "6.\u00a0\nb. Buku bisa di baca dengan cara apa ?",
+        "context": "",
         "choices": [
             {
                 "text": "Dengan kamus",
@@ -1212,14 +1301,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "7fcb6308746c9ac77aed5623d7553db2",
-        "created_at": "2026-05-18T13:34:27.961057"
+        "created_at": "2026-05-18T14:21:04.217984",
+        "correctAnswer": "Dengan kamus"
     },
     {
-        "question_id": "KUROI_43_1779086069",
+        "question_id": "KUROI_43_1779088868",
         "form_name": "KUROI",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_image",
         "question": "7.KUPON WARIBIKI / DISKON 300 \u5186\na. kalau menggunakan kupon tersebut menjadi bagaimana ?",
+        "context": "",
         "choices": [
             {
                 "text": "\u304b\u3044\u3082\u306e\u304c\u3059\u304d\u3067\u3059",
@@ -1236,7 +1328,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCDfggwKS_EOP-ASg1Nh4hikmIMqSN6hW_IqRx7QiZ6-i8DvXanfyP8ztTabxN99soHEpJ05T9uWHx5frtlWmyHHdHOYaZ9AH1vQJQqGA_WbGtXflp2wQ5i8f7AGKkj62eH8v5BCN5gRxDD01ZIHPpaQV8LbxV6cZAxe488cA8vSOT4V81e3-PiMrmjqy8SBgIVApB5J368NGj1=w740?key=BM_ihZRMuvkHz31PlhBWQQ",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBiWAamAVfaMAspg9VeQJpjUECkmdIAgSJ9PuXWpLpCxs1OTrwGjjZyHn5fmfYea5RE5R6RKeIorBrUHDf5P09ifWXPUJKgsQM8Hb38nj7I-bBcUe3qDgAXW4r0eE5NqjzGqbJKr79khR8EaaTbZOratrtMOu7cIuWHymsDjuTzNZ01a8rsjvx8akITRuxnVE4mZ1ex4w4vM7Lh=w740?key=BM_ihZRMuvkHz31PlhBWQQ",
                 "path": "images/f6a51fc360396f5195c63bdadfc0bceb.png",
                 "index": 0
             }
@@ -1244,15 +1336,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "87d96b33d04def77ac0d2a49f155b225",
-        "created_at": "2026-05-18T13:34:29.948255",
+        "created_at": "2026-05-18T14:21:08.611094",
         "correctAnswer": "\u304b\u3044\u3082\u306e\u304c\u3084\u3059\u304f\u306a\u308b"
     },
     {
-        "question_id": "KUROI_44_1779086070",
+        "question_id": "KUROI_44_1779088868",
         "form_name": "KUROI",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "8.\nKapan kupon tersebut bisa digunakan ?",
+        "context": "",
         "choices": [
             {
                 "text": "\u96e8\u304c\u3075\u308b\u307e\u3048\u306b",
@@ -1271,15 +1365,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "3af5fdbee9682e36bbdd45dff277d4bb",
-        "created_at": "2026-05-18T13:34:30.307596",
+        "created_at": "2026-05-18T14:21:08.972864",
         "correctAnswer": "3000\u5186\u4ee5\u4e0a\u8cb7\u3044\u3092\u3059\u308b\u3053\u3068\u5b89\u3044\u3067\u3059"
     },
     {
-        "question_id": "KUROI_45_1779086071",
+        "question_id": "KUROI_45_1779088870",
         "form_name": "KUROI",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_image",
         "question": "9.\na. Jeni orang mana ?",
+        "context": "",
         "choices": [
             {
                 "text": "amerika",
@@ -1296,7 +1392,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBDIv3Y2ZpAdmwCJrju20J5c83oVvG1zGBOd8oAu1yBk-gK2wb7Yd9V0MHOA1xINhCU4JjWd_Ar8LN4BZPVuEhwvYKW7NW8lmBFxzHsK8TqPOTvJZZ1mdEjFEwCTTqJrNjSva12h7qNonm0t956TRVRZk4KPtl31mslYBkmsWxFIBpy0GE3kFA1Ddwr-iSw5evs8j1NoZKODwZ8=w740?key=BM_ihZRMuvkHz31PlhBWQQ",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBBuiaLSQ1jZwL6JG8fWlkeEIm4RxktntL_2n0soz9whL0T758p31HS779DuufT523vzDl9GPIp3B97JxkJsIVD-6JpZL9xltifg6zDs6ZVUWEhDuEbjfayuPTC_SueirYsNxy8_NlK_a2-t6R4sNxftF0SK9fsfV1URmfobWzsit2tcEe-5ihUfnQAaFBCWEOZD_v9OQu8yZqG=w740?key=BM_ihZRMuvkHz31PlhBWQQ",
                 "path": "images/04f6cbda41efa4fbc176206781bdbeed.png",
                 "index": 0
             }
@@ -1304,15 +1400,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "c47f4985a4dd161d7398cbe806bba651",
-        "created_at": "2026-05-18T13:34:31.496933",
+        "created_at": "2026-05-18T14:21:10.476635",
         "correctAnswer": "filihpina"
     },
     {
-        "question_id": "KUROI_46_1779086071",
+        "question_id": "KUROI_46_1779088870",
         "form_name": "KUROI",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "10.\n\nb. Siapa yang suka menonton film",
+        "context": "",
         "choices": [
             {
                 "text": "\u3084\u307e\u3060\u3055\u3093",
@@ -1331,15 +1429,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "50644b795ea582317349bbb4537502e5",
-        "created_at": "2026-05-18T13:34:31.847086",
+        "created_at": "2026-05-18T14:21:10.837186",
         "correctAnswer": "\u3055\u3068\u3046\u3055\u3093"
     },
     {
-        "question_id": "KUROI_47_1779086073",
+        "question_id": "KUROI_47_1779088872",
         "form_name": "KUROI",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_image",
         "question": "11.\u00a0\na. Berapa harga satu jajanan nya ?",
+        "context": "",
         "choices": [
             {
                 "text": "\uff13\uff10\uff10\u5186",
@@ -1356,7 +1456,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDLnImrQ2B6FQUh6e4Q63qlNgONj75ysSKA_S4NsZ8mgU9nFIgYlwuBV162erYH7dS1ISHoQm2pUqs6QQNmdIHpbRSco14Ermr50KJHjvOvq1dYe5_299psOviju8PJwcJvQaPTAOjDkFBWjbXNouj5vbD6B1OrOrGHW7so16TS00Wx2XNW3ZW7jH6yjL0Dfci-CzNrXOVKzJ5o=w740?key=BM_ihZRMuvkHz31PlhBWQQ",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB4cs16rNWmVU7tYO7a2OwIIwTRIInx6bWVzrphBcZw5aakF82kQ67-WcpvxehGCiLp9fCCN1lsSS5YXfBn2RKeqskukrBVoLW7sHrWDjRNUanuZqWMuERpq_-39g39zZ9ja9mbGzAtsOGeBOFDuxCKFItBDrIIO5wEWWBtA39IpShY6N7EBFmkES6pqcX-rk2_UkKB_7zcaILG=w740?key=BM_ihZRMuvkHz31PlhBWQQ",
                 "path": "images/df4daebfd03101d4bc8290e3b79c9fe6.png",
                 "index": 0
             }
@@ -1364,15 +1464,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "b7c36b7475e6ba0a731a8eccdcf002f6",
-        "created_at": "2026-05-18T13:34:33.040102",
+        "created_at": "2026-05-18T14:21:12.194355",
         "correctAnswer": "\uff12\uff10\uff10\u5186"
     },
     {
-        "question_id": "KUROI_48_1779086073",
+        "question_id": "KUROI_48_1779088872",
         "form_name": "KUROI",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "12.\nFestival musik nya jam berapa ?",
+        "context": "",
         "choices": [
             {
                 "text": "\uff11\uff16:\uff10\uff10",
@@ -1391,7 +1493,7 @@
         "audio_url": "",
         "audio": "",
         "hash": "25005d37436ec0460f1777c835d64f7d",
-        "created_at": "2026-05-18T13:34:33.397206",
+        "created_at": "2026-05-18T14:21:12.546188",
         "correctAnswer": "\uff11\uff18:\uff10\uff10"
     }
 ]

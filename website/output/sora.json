@@ -1,10 +1,12 @@
 [
     {
-        "question_id": "SORA_0_1779086368",
+        "question_id": "SORA_0_1779089181",
         "form_name": "SORA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "image_only",
         "question": "1.",
+        "context": "",
         "choices": [
             {
                 "text": "\u7a7a",
@@ -29,15 +31,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "ae1289db69356d426f557b37844833fd",
-        "created_at": "2026-05-18T13:39:28.784984",
-        "correctAnswer": "\u6563\u6b69\u306b\u884c\u304d\u307e\u3057\u3087\u3046"
+        "created_at": "2026-05-18T14:26:21.141333"
     },
     {
-        "question_id": "SORA_1_1779086369",
+        "question_id": "SORA_1_1779089182",
         "form_name": "SORA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "image_only",
         "question": "2.",
+        "context": "",
         "choices": [
             {
                 "text": "\u53e4\u3044",
@@ -54,7 +57,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVD99xl0b0NS0e4jvegDdumkaugKVnLcR7a3DbBTu8s1W0ki7yNDAKFsJS3P9KAlWY_wFO3H2zahGLqlDSYVPBH8MX7YDTa8hstK1QWeCz9vaj4_BhTsJpnIlh4puy7bF7-9C9ecNQbkS4SPKqsSa-PDTPPaqhcFKwtLmeOStQmGed2J4HFb1uo4w3RtYSQBAh_pIwmeKxL9FkQH=w410?key=e3sqAjiv8EtnBZIYuEhG-g",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBznlGTfH6oQF-SDWX_DOwpG6I64m-0iyLM7ei0kr4M8T1MTveWOxRgZRbyStAUVc0_Cy5vD64Yutzw3R8I7MNJmTKOO-sfHEEcm5_av1_0isjYX78OXKBAQD54m1n38zUhqMIbgfR34FDqKKilGwoxtH1V1WxFLohSKGC2YatXQEHYbkKgxBkVvdAmckSUFfoUCP-mTAPoyJaG=w410?key=e3sqAjiv8EtnBZIYuEhG-g",
                 "path": "images/50157463e3d08ec67e6f81e9990b8858.png",
                 "index": 0
             }
@@ -62,14 +65,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "50f884e3388985bd760e2a11b5fb173d",
-        "created_at": "2026-05-18T13:39:29.991037"
+        "created_at": "2026-05-18T14:26:22.240459",
+        "correctAnswer": "\u707d\u5bb3"
     },
     {
-        "question_id": "SORA_2_1779086370",
+        "question_id": "SORA_2_1779089183",
         "form_name": "SORA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "image_only",
         "question": "3.",
+        "context": "",
         "choices": [
             {
                 "text": "\u6e29\u6cc9",
@@ -86,7 +92,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVD4DA_AmpKc3elsT6_ZS8_r2Pr2oMEXhhYywdJLXS0-8sg6aFH-tpWamkr4_flGa2CS7fdTuJNwL6wz5TD58guxWEJNYf6ifCc8iZnZS2xFE1KMo5iXndYuL2vsiEM0GkZsPb36Jt2yPOKllErpUkD5BsL2bJVrVBlcmM64xvIZ1e8ol550cezr7YAjY2Feb1PdPYvcQJBlKZTO=w573?key=e3sqAjiv8EtnBZIYuEhG-g",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVC7qdnC782bMiqZP62at5ageONoJ8MYtNGb5lWy6nhN0sb4XqBeCIljFrzus0U1QIipyoSaX3ACsOgQzMBF94cdFHY5ooYndh9k9fFRqp3jLtkWZOcSjzXCXbOghIaK_yKxo4AceU4r_ramtDiaI41XaOYDFxzv5byV7nrs_F0mBtgjMaQnhjkmUBnyJkVqIb7YNsOxWjEGciTH=w573?key=e3sqAjiv8EtnBZIYuEhG-g",
                 "path": "images/69b6e5a8894c4272f8af25bb37cc9bba.png",
                 "index": 0
             }
@@ -94,14 +100,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "ab748b776cb910bd9293252298d60d6c",
-        "created_at": "2026-05-18T13:39:30.936287"
+        "created_at": "2026-05-18T14:26:23.073877",
+        "correctAnswer": "\u6e29\u6cc9"
     },
     {
-        "question_id": "SORA_3_1779086371",
+        "question_id": "SORA_3_1779089183",
         "form_name": "SORA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "image_only",
         "question": "4.",
+        "context": "",
         "choices": [
             {
                 "text": "\u7b11\u3046",
@@ -118,7 +127,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCEZSwGIc7OvaDpolcvCcNkmX6_li1eTW_cS3qtsSHLdLcaw6WwLiRmL7my7kCg7DFFBbi7YICuJvGAJirwn5z6S82lWN60I31P7uhfOGENdQeqmLbjBt7uMTL35AZGyFgvR_kHM8O8zTgFkh9gNorctCwV1fSBBUYVcK3vbxeUvAp7wZn7tWXmmVN1uubldB1K1TeLiEc4stc=w641?key=e3sqAjiv8EtnBZIYuEhG-g",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCjUl430zpMyJ0Jl5tlR6ndeFcWPcUs1NiL8FYhL7JHO5_ZYyfLjtE5w7C0_2_07w0sem58tXMEsVWhZYaTXD67H_uXVUUVtde31YqqhNp8PyCF0_-8aKjFcnDm3oIcJBKDXMcURtTlVnLEfnauP_esAn-nDrQqL9IO9x6qGmImPkmotypHvYoY0IWvE3DZC2zYMoNwaMlG-PY=w641?key=e3sqAjiv8EtnBZIYuEhG-g",
                 "path": "images/9ef8bb8a10084d6bb5be87199caa921e.png",
                 "index": 0
             }
@@ -126,15 +135,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "bad7ebdb704f8c080d8676f782dbe657",
-        "created_at": "2026-05-18T13:39:31.668861",
+        "created_at": "2026-05-18T14:26:23.749385",
         "correctAnswer": "\u5065\u5eb7"
     },
     {
-        "question_id": "SORA_4_1779086372",
+        "question_id": "SORA_4_1779089184",
         "form_name": "SORA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "5.\u00a0\nada gambar laki laki menunjuk ke meja. menyuruh adik ambilkan sesuatu di meja apakah itu?",
+        "context": "",
         "choices": [
             {
                 "text": "\u672c",
@@ -153,14 +164,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "24597c691a1f9de4f81810243dc837f1",
-        "created_at": "2026-05-18T13:39:32.033117"
+        "created_at": "2026-05-18T14:26:24.100551",
+        "correctAnswer": "\u30cd\u30fc\u30e0\u30ab\u30fc\u30c9"
     },
     {
-        "question_id": "SORA_5_1779086372",
+        "question_id": "SORA_5_1779089184",
         "form_name": "SORA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "image_only",
         "question": "6.",
+        "context": "",
         "choices": [
             {
                 "text": "\u6728",
@@ -177,7 +191,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCv4lQp9UWZZRKxFNyQ-FwcmkHvfksqiYCDkkDJY13TMMk-G6kp2D5iAXiLeFHRyxzqRlR4HoTMuqT_ZXXr7x6vRMamP9W9zmk00HETzHbC_UVx4OEB0kw-M0E_bw4Qk2SIQbwsc3yUNm_A2yB5ekXUqmvpiEhChRRPFk20OhcpX-6X11t_OrBipc3khSz3mf31lQ8vTJeJrzRN=w296?key=e3sqAjiv8EtnBZIYuEhG-g",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDUNcQP9tEdkCP6EE9xrn009GXz9oqdaAt4mDqIaw5coEl2WGhRweWvSUPBgXzGgODUsqGY5EXDgcZuIN1ICpuxLxqhLV80hR27wsslA6mdbYqefwACCRT4Gv3NDWEPl-CDwJ70ahZKHn-HVGGT6u2vQw3tyBlLELxduydkMTha19oAQQ6To-KFA-n7wD2sUPRhL_YO0D2-zbEu=w296?key=e3sqAjiv8EtnBZIYuEhG-g",
                 "path": "images/8c6895ee7cd0c130d626697f793f28a1.png",
                 "index": 0
             }
@@ -185,15 +199,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "b741cd8dbe2e46c0aba1078617071887",
-        "created_at": "2026-05-18T13:39:32.835485",
+        "created_at": "2026-05-18T14:26:24.820919",
         "correctAnswer": "\u6328\u62f6"
     },
     {
-        "question_id": "SORA_6_1779086373",
+        "question_id": "SORA_6_1779089185",
         "form_name": "SORA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "7.\u00a0\n\u56f3\u66f8\u9928\u306b\u5165\u308b\u3068\u304d\u3001\u5b66\u751f\u3092\u6301\u3064\u3002\u3002\u3002\u3002\u304c\u3042\u308b\uff1f\uff1f",
+        "context": "",
         "choices": [
             {
                 "text": "\u4f7f\u3046",
@@ -212,14 +228,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "051832dc537c4ebb92c5d948cae67f11",
-        "created_at": "2026-05-18T13:39:33.199026"
+        "created_at": "2026-05-18T14:26:25.169385"
     },
     {
-        "question_id": "SORA_7_1779086373",
+        "question_id": "SORA_7_1779089185",
         "form_name": "SORA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "8.\u00a0\n\u304f\u308b\u9b54 \u306e \u904b\u8ee2\u3059\u308b\u3068\u304d\u3001\u3002\u3002\u3002\u3002\u306a\u3051\u308c\u3070\u306a\u308a\u307e\u305b\u3093",
+        "context": "",
         "choices": [
             {
                 "text": "\u306f\u3084\u304f",
@@ -238,14 +256,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "629cb4d2cabf6f47d2abd65db2719eeb",
-        "created_at": "2026-05-18T13:39:33.575566"
+        "created_at": "2026-05-18T14:26:25.534388"
     },
     {
-        "question_id": "SORA_8_1779086373",
+        "question_id": "SORA_8_1779089185",
         "form_name": "SORA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "9.\u00a0\n\u826f\u3044\u6210\u7e3e\u3092\u53d6\u308a\u305f\u3051\u308c\u3070___________?",
+        "context": "",
         "choices": [
             {
                 "text": "\u3079\u3093\u304d\u3087\u3046\u3057\u306a\u3044",
@@ -264,15 +284,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "a95fbc5545571fd8a4843299b36b3032",
-        "created_at": "2026-05-18T13:39:33.927491",
-        "correctAnswer": "\u305f\u304f\u3055\u3093\u5b66\u3070\u306a\u3051\u308c\u3070\u306a\u308a\u307e\u305b\u3093"
+        "created_at": "2026-05-18T14:26:25.900605"
     },
     {
-        "question_id": "SORA_9_1779086374",
+        "question_id": "SORA_9_1779089186",
         "form_name": "SORA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "image_only",
         "question": "10.",
+        "context": "",
         "choices": [
             {
                 "text": "\u9ad8\u3044",
@@ -289,7 +310,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCj5gI-XnG465PVHo9S8QwSeylYl-HKzhOG5ikLFGOi011lbuI9KiRCioYXiQz8M48mbDqhA1nlYCVloGI9Bo7CFxD26rbC0YU_kWCqmBaN1bKtVKRct8Td0TlWBv2cjiLkmR6aoYsYgsYvofbkw0KvehkH1Vx951OK4Ak6uJTGw75LmrpqpvhvxB3cDXOBdky33_wPfZ5Nb_U=w273?key=e3sqAjiv8EtnBZIYuEhG-g",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAPnTiiuTFQHrxuhVkxVT8_oRPxwqOHUjmzx_LqGKAsUiDEqDJTyqN3i3Shq90ssbIc39sCo2PuS7ckFTfz1OwFX8oLmpC8RvMiEY5yoU_214N6-zCMHcS6YhC34NxT-R_VsTUhYyUaen5e68JnhPtdIeF89Fqv51mt3qyvd0jdXiZINEp1Xx56G0PRJTZSuOxtVEzqcTJ-CMk=w273?key=e3sqAjiv8EtnBZIYuEhG-g",
                 "path": "images/fa20eb9831c390d7fe8bd838a7173afe.png",
                 "index": 0
             }
@@ -297,15 +318,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "e93363d4b0802b224289e6f10550822a",
-        "created_at": "2026-05-18T13:39:34.684202",
-        "correctAnswer": "\u9ad8\u3044"
+        "created_at": "2026-05-18T14:26:26.718243"
     },
     {
-        "question_id": "SORA_10_1779086375",
+        "question_id": "SORA_10_1779089187",
         "form_name": "SORA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "image_only",
         "question": "11.",
+        "context": "",
         "choices": [
             {
                 "text": "\u3042\u3052\u307e\u3059",
@@ -322,7 +344,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDrN99q9hn-5ke7CWzeIIPXni-_WEQvmM88a5aP045PK-gyuRqz63CAkfAf0vjGxPLaSVNGkxfOn_p5ri2pKnj4lImk6o_UYoWaAS7QaT0ecWYXh0UVC32NKVzwcdvelzChB9PP6uWhQaZOTVgXqQ0AKa7zCXIxYnpYkuVHK4ctrrmpJlKM_-JxpiUNvoIej4rnUhgd6DqK-I8k=w404?key=e3sqAjiv8EtnBZIYuEhG-g",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCNEQ9v4klfLs-pBXJ2XvrAb_Mkc91AsyzQE5Q7k4hGfJTV6Zbu6-_KAPk72sTDefO_OIA2Q0g_TRPufjbYQf9ZKGNltTA5Hdue2p3EmTPSzLjRcDqNlvA0dlTT5LNVlFDqLP2eTDzo0xwTKB4xdMLBJbwWTC6N-aG5J3MdIksFEu__xxXCaFAxTKywocZU2ZyWujl8bnI-4PGw=w404?key=e3sqAjiv8EtnBZIYuEhG-g",
                 "path": "images/078c3be4a4495d98a1424b18c4343fd4.png",
                 "index": 0
             }
@@ -330,14 +352,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "83fd58f9f6dc09a1e6a7d553cb33d541",
-        "created_at": "2026-05-18T13:39:35.295735"
+        "created_at": "2026-05-18T14:26:27.309388",
+        "correctAnswer": "\u304b\u308a\u307e\u3059"
     },
     {
-        "question_id": "SORA_11_1779086376",
+        "question_id": "SORA_11_1779089188",
         "form_name": "SORA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "image_only",
         "question": "12.",
+        "context": "",
         "choices": [
             {
                 "text": "\u982d\u304c\u75db\u3044",
@@ -354,7 +379,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBu6-ZR6AB-_B9Ha03TLsPeJwHTuWFDQQILZn4ljjtE4PFLzhag2DNcoBg9qKOZw-5gw2sBskqqPsnGbK0F7NJjiwM7QwHml-tdpjhP0ozENeKhnL0Kvq24gEwPIYfusFceDbwW2-egRKpma3lUeTTV-j_FEpcaZyLR2Q3pm0ywgI8oYk3LzJXuboHI5JlmbpzOfJtU3FfU8H4=w517?key=e3sqAjiv8EtnBZIYuEhG-g",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCRNGrewb3SI4hgedtCAgovbex92u4mHlA9RJ0smjhEcb_GPS-GSQyBm0xfyW-ehW3a8OckluU7Yv3qapW1dqSAyxfUQB_N7XQWXKqYhX_vMMeHNd67xHDnY2DMRpdK-MXil5HOxr3mtVHXhQ5Hhzy3nwaGroG8Isd4PorRFuQWXTgYmaMLxpNk3uWdauPp8PWLWd0yYcq1Qcc=w517?key=e3sqAjiv8EtnBZIYuEhG-g",
                 "path": "images/e03766e7e79149e726ba09e2c8aa08d9.png",
                 "index": 0
             }
@@ -362,47 +387,46 @@
         "audio_url": "",
         "audio": "",
         "hash": "235d7320382cf5ac9ef39e810b7a7770",
-        "created_at": "2026-05-18T13:39:36.055233",
+        "created_at": "2026-05-18T14:26:28.078211",
         "correctAnswer": "\u60aa\u3044"
     },
     {
-        "question_id": "SORA_12_1779086385",
+        "question_id": "SORA_12_1779089198",
         "form_name": "SORA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "1.\u00a0\n\u65e5\u672c\u306b\u6765\u305f\u3089\u3044\u304f\u3089\u3061\u3087\u304d\u3093\u3057\u305f\u3044\u3067\u3059\u304b\uff1f",
+        "context": "",
         "choices": [
             {
                 "text": "\u8caf\u91d1",
                 "image": null
             },
             {
-                "text": "\u507d\u91d1",
+                "text": "\u5148\u91d1",
                 "image": null
             },
             {
-                "text": "\u5148\u91d1",
+                "text": "\u507d\u91d1",
                 "image": null
             }
         ],
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "aaab511ec47fc0555c61a44eb77b0a67",
-        "created_at": "2026-05-18T13:39:45.935873",
-        "correctAnswer": "\u8caf\u91d1"
+        "hash": "f47c8a211bd0933a4fe62d132fd885b9",
+        "created_at": "2026-05-18T14:26:38.111734"
     },
     {
-        "question_id": "SORA_13_1779086386",
+        "question_id": "SORA_13_1779089198",
         "form_name": "SORA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "2.\n\u3057\u3087\u304f\u3070\u306e\u4eba\u306f\u3057\u3093\u305b\u3064\u306b\u3057\u3066\u304f\u308c\u307e\u3059\u3002",
+        "context": "",
         "choices": [
-            {
-                "text": "\u673a",
-                "image": null
-            },
             {
                 "text": "\u89aa\u5207",
                 "image": null
@@ -410,22 +434,32 @@
             {
                 "text": "\u512a\u3057\u3044",
                 "image": null
+            },
+            {
+                "text": "\u673a",
+                "image": null
             }
         ],
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "f02c48b4e5aed3ca0eca116374b09865",
-        "created_at": "2026-05-18T13:39:46.303099",
+        "hash": "cbf38cb434d2e97fe8f1e0137e849b06",
+        "created_at": "2026-05-18T14:26:38.474231",
         "correctAnswer": "\u89aa\u5207"
     },
     {
-        "question_id": "SORA_14_1779086386",
+        "question_id": "SORA_14_1779089198",
         "form_name": "SORA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "3.\u00a0\n\u5bb6\u65cf\u306f\u305f\u3044\u305b\u3064\u3067\u3059\u3002",
+        "context": "",
         "choices": [
+            {
+                "text": "\u5927\u5207",
+                "image": null
+            },
             {
                 "text": "\u5fd9\u3057\u3044",
                 "image": null
@@ -433,27 +467,25 @@
             {
                 "text": "\u60aa\u3044",
                 "image": null
-            },
-            {
-                "text": "\u5927\u5207",
-                "image": null
             }
         ],
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "88c94aed248dad05f757d2fb46fe0cc0",
-        "created_at": "2026-05-18T13:39:46.666547"
+        "hash": "0eaf50be6e94bb88cad7581fd195ecb2",
+        "created_at": "2026-05-18T14:26:38.837857"
     },
     {
-        "question_id": "SORA_15_1779086387",
+        "question_id": "SORA_15_1779089199",
         "form_name": "SORA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "4.\u00a0\u00a0\n\u4eca\u9031\u672b\u6620\u753b\u9928\u3067\u4e0a\u6620\u3055\u308c\u308b\u304d\u3093\u3061\u3087\u306f\u3042\u308a\u307e\u3059\u304b?",
+        "context": "",
         "choices": [
             {
-                "text": "\u5fc3\u914d",
+                "text": "\u8fd1\u8457",
                 "image": null
             },
             {
@@ -461,22 +493,24 @@
                 "image": null
             },
             {
-                "text": "\u8fd1\u8457",
+                "text": "\u5fc3\u914d",
                 "image": null
             }
         ],
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "f18701a4705bab40d6e48f6c30e08b7c",
-        "created_at": "2026-05-18T13:39:47.030183"
+        "hash": "bd89bf00807c7bcfb8ba66dcdfba881d",
+        "created_at": "2026-05-18T14:26:39.203139"
     },
     {
-        "question_id": "SORA_16_1779086387",
+        "question_id": "SORA_16_1779089199",
         "form_name": "SORA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "image_only",
         "question": "5.",
+        "context": "",
         "choices": [
             {
                 "text": "\u7537\u6027",
@@ -493,7 +527,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCU-FZ3xc1mwj6UkOQICGQ3bp0wwLJNCcT-2858iZCpli-sJIzQKTH4pDRU7UnAgAvQNocxdJZNgAkh_l67QW_3uYqHHGnPMexODPqtr1KDxZBp45xm6pXQZone-qpuNyBLwBvD3I6fcsuApZlJskaS_m3tgeld0zL6OltUsuIpq5Tr5azDFQERF2gWteMO8lN4X6zbgkNGZ-OF=w239?key=e3sqAjiv8EtnBZIYuEhG-g",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDWh7v7JtuPyUNU7wWWz_M0KNUj6ashXRxE2StI5qQOWhFNJfksqsLZw9S2Kin0yxEw40oR-YSDLT2p6NFlpvmOYxvgOob4Av0tuGTV8UfCxqDZo6A7vrTQeCV2N5xFGD-evA6mkIRA2Kn1lutaiPjy3USwIsWRG95-mJQQmXkxfpuv7Zet4xdGJFiflgL0FykObl-7oYZurQKy=w239?key=e3sqAjiv8EtnBZIYuEhG-g",
                 "path": "images/913383e0735be8f6ca54b6d5040687fc.png",
                 "index": 0
             }
@@ -501,18 +535,20 @@
         "audio_url": "",
         "audio": "",
         "hash": "b87a142fb8f3ba9024b7213037661770",
-        "created_at": "2026-05-18T13:39:47.812290",
-        "correctAnswer": "\u00a0\n5.\n*\n\u00b7\u00b7\u00b7\n/5\n\u7537\u6027\n\u4eba\u751f\n\u5148\u751f\n\u00a0\nNo correct answers"
+        "created_at": "2026-05-18T14:26:39.911908",
+        "correctAnswer": "\u00a0\n5.\n*\n\u00b7\u00b7\u00b7\n/5\n\u7537\u6027\n\u00a0\n\u4eba\u751f\n\u5148\u751f\nNo correct answers"
     },
     {
-        "question_id": "SORA_17_1779086388",
+        "question_id": "SORA_17_1779089200",
         "form_name": "SORA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "image_only",
         "question": "6.",
+        "context": "",
         "choices": [
             {
-                "text": "\u6328\u62f6",
+                "text": "\u4f1a\u3044\u307e\u3059",
                 "image": null
             },
             {
@@ -520,7 +556,7 @@
                 "image": null
             },
             {
-                "text": "\u4f1a\u3044\u307e\u3059",
+                "text": "\u6328\u62f6",
                 "image": null
             }
         ],
@@ -533,16 +569,18 @@
         ],
         "audio_url": "",
         "audio": "",
-        "hash": "476bb6ce7de0c5c1a7c03b16683bd27b",
-        "created_at": "2026-05-18T13:39:48.415054",
+        "hash": "ac1e9e3c9b3e1029d1270e665928c1e5",
+        "created_at": "2026-05-18T14:26:40.770703",
         "correctAnswer": "\u6328\u62f6"
     },
     {
-        "question_id": "SORA_18_1779086389",
+        "question_id": "SORA_18_1779089201",
         "form_name": "SORA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "image_only",
         "question": "7.",
+        "context": "",
         "choices": [
             {
                 "text": "\u75c5\u9662",
@@ -567,15 +605,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "0b1b8d0acfd47472b8a64c6dcb78478c",
-        "created_at": "2026-05-18T13:39:49.014881",
+        "created_at": "2026-05-18T14:26:41.700098",
         "correctAnswer": "\u5bb6"
     },
     {
-        "question_id": "SORA_19_1779086389",
+        "question_id": "SORA_19_1779089202",
         "form_name": "SORA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "8.\n\u4eca\u671d\u3051\u3055\u306f\u3075\u304b\u3044\u304b\u3044\u9727\u304d\u308a\u304c\u305f\u3061\u3053\u3081\u305f",
+        "context": "",
         "choices": [
             {
                 "text": "\u9ad8\u3044",
@@ -594,14 +634,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "0b3e2d920a73a9ef95490f3462b20f80",
-        "created_at": "2026-05-18T13:39:49.374622"
+        "created_at": "2026-05-18T14:26:42.052180"
     },
     {
-        "question_id": "SORA_20_1779086390",
+        "question_id": "SORA_20_1779089203",
         "form_name": "SORA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "image_only",
         "question": "9.",
+        "context": "",
         "choices": [
             {
                 "text": "\u9280\u884c",
@@ -618,7 +660,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDj5jKL_tYcFUM7_5Pyp0rR9i0lCOrC6zNqE6s5qU4-e_FeH4n--cXNSCNQLDSs4_ilCPKw2Xj52A_vfcTIpNHOQpGsxsWV9gHPEDc6xx1UFuuHSVAJpOXURkQjyqFoNe_Iyl3OLULE4g7y1qFbJ-2jplnG5FSNX2bIelsSH6Xx2ns1jgscqnsBESGOOSDdbjT4fUlo8xsiiTY=w564?key=e3sqAjiv8EtnBZIYuEhG-g",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDhBFccGkhBS3iBFT9YPrLfB8M4cHDIuI3QhNkkjhtbfRPWB6O_lg4vpHS5G7bCHQ56L_wfRdbF8DB7AAjkIfTTngMLzocEqo8CQHQO2KjhS4xHK5XwFck4yd8S57Vx9TzpK7n2tjMjlgUrCTl5tSvX48t_So3MgczommJmaFuY0_Z-KnUrWEJ5yjHiuaT1xc-56i3Qns9mTKE=w564?key=e3sqAjiv8EtnBZIYuEhG-g",
                 "path": "images/2ecc0d6ebbebe109939bdf374945bb9b.png",
                 "index": 0
             }
@@ -626,15 +668,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "bf9a39a841d1fbb6babc0f6cd38a2295",
-        "created_at": "2026-05-18T13:39:50.339089",
+        "created_at": "2026-05-18T14:26:43.074033",
         "correctAnswer": "\u9280\u884c"
     },
     {
-        "question_id": "SORA_21_1779086390",
+        "question_id": "SORA_21_1779089203",
         "form_name": "SORA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "10.\n\u00a0\u3053\u306e \u304d\u3087\u304f\u306f \u304b\u306a\u3057\u3044\u3067\u3059\u3002",
+        "context": "",
         "choices": [
             {
                 "text": "\u6016\u3044",
@@ -653,15 +697,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "fbc77c85aedf572f8e4d0b52a1e88416",
-        "created_at": "2026-05-18T13:39:50.694379",
-        "correctAnswer": "\u60b2\u3057\u3044"
+        "created_at": "2026-05-18T14:26:43.431050"
     },
     {
-        "question_id": "SORA_22_1779086401",
+        "question_id": "SORA_22_1779089214",
         "form_name": "SORA",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "image_only",
         "question": "1.",
+        "context": "",
         "choices": [
             {
                 "text": "\u6563\u6b69\u306b\u884c\u304d\u307e\u3057\u3087\u3046",
@@ -678,7 +723,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAcZPLCdLqbhDvoOAqv6-yFRPpg9J2Jiye4flVhxig75EgD228arvqT05p97C7SHL5LVDXgkMprXhwqopSoz9pIufR8Z-8EQ2Qr7i5KVVzpW4ZRzHyFB1vcRvThPxxQOB86uQVRikm2m1_8tJwMLgqA0QZjTw5NAdMJ8XUF0f9ruiAhqiFeVVF_2T1kk35n2Z8bstcQ_X8jRrAN=w609?key=e3sqAjiv8EtnBZIYuEhG-g",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAkANXLge-Dcu4aBtYcPpUQC__b55uAVzFaBYVz8HbsYpnwvGV3G3p0hmEuaveBMm57hkEE3BjvEQ1fYjn7FTbajxO9-b1gYVHZ-FVcYBnkrWYpqFODADOstJjJ53wZkHl3UqDQIB3ZpGqyrW2asdPvS1i3Q8wAIfMrZ-neY97Pl7y-5yEEQ0G0EWqm77n19iQkOvu7mGM-4fNe=w609?key=e3sqAjiv8EtnBZIYuEhG-g",
                 "path": "images/78cec2b545dad1db2d56f7ba46e35312.png",
                 "index": 0
             }
@@ -686,15 +731,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "9e4aca0a2147373340c5ca8f4cf0da0f",
-        "created_at": "2026-05-18T13:40:01.335689",
-        "correctAnswer": "\u6563\u6b69\u306b\u884c\u304d\u307e\u3057\u3087\u3046"
+        "created_at": "2026-05-18T14:26:54.435137"
     },
     {
-        "question_id": "SORA_23_1779086402",
+        "question_id": "SORA_23_1779089215",
         "form_name": "SORA",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "image_only",
         "question": "2.",
+        "context": "",
         "choices": [
             {
                 "text": "\u96e8",
@@ -711,7 +757,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVByChRI0soo8jderTdLH9urSaY0W4hNUkG8pqlAaHk04xKKJ9S9GQl9DigKf0ueeV9365uw7CPkg2yPbX7EKDMaNsa7XWvKz6pbI8hQM2BFNvgYysMB0-Cx5hCLqZ9OSZkTNKooaB4RT93UJCnbRYasLrfpjeegji4voV3ULAQd8OgrHsLpoT6zLVcQ44wYzWzxVCIBeaSuPsM=w216?key=e3sqAjiv8EtnBZIYuEhG-g",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVC7SrHcpRlbEYq9zGmQM0zZvUHmW9ayPCOCM3Ckoin06qeWQEuZ2VPU1tbciWOkCD29mcNaWoEbSB3DedbKKkFRKcB4-UrYO0vR6OUZk4mjJo5AEfMnhbopgQBtbgJG2OjzeYon1QieGbABGxS4vqcega1zYr58P3csIrBvWUSyzT6uGADx9J1MUSVTYa4LaB_lLEvjakhkBVI=w216?key=e3sqAjiv8EtnBZIYuEhG-g",
                 "path": "images/66de4c678106694cc22992abe788e295.png",
                 "index": 0
             }
@@ -719,14 +765,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "562580d5c0efbf02b64caf3e0b5748dd",
-        "created_at": "2026-05-18T13:40:02.126413"
+        "created_at": "2026-05-18T14:26:55.093782",
+        "correctAnswer": "\u707d\u5bb3"
     },
     {
-        "question_id": "SORA_24_1779086403",
+        "question_id": "SORA_24_1779089216",
         "form_name": "SORA",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "image_only",
         "question": "3.",
+        "context": "",
         "choices": [
             {
                 "text": "\u7d50\u5a5a",
@@ -743,7 +792,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDih96jUQcjBqVodfayr93hmzp9LFCb-pLqa30PXrKjd78s_p4LGauGcF0VCuus0cWOppIKhR4A4US7oRgjtVxq9PgU9L4N9ssInfFBdUXKiyrIPhmJ77HN4rzvRyCQTYG2POrlM4vKK91WjlFbhwT58xDHAuZqfZx_wytMR3iRtTqfRgEb3Crbll933ths0ly8Oy2o3vJQv0n8=w592?key=e3sqAjiv8EtnBZIYuEhG-g",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAyMuu_pUQBYGWfjaIHqKqwsefOpMmjSlafvA1uccxyNMAAqSS8wVMypU_BfrvRWyb6UnXKY2hOtH1Oon4aUhCSgIRI3zcJKxJc4s8agRrs1ONMVPubYDFvOYZI1dDX1V880fU21cfJPoaR23n6ZBFfzjCAPuDv7af6FkpoV3Rr8n2FHXdshVYenW3FBBgGDvGzl6-3kfvQjl85=w592?key=e3sqAjiv8EtnBZIYuEhG-g",
                 "path": "images/b427f52a8b14318c7590b4bca27bcc54.png",
                 "index": 0
             }
@@ -751,14 +800,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "4330a8ae2f5ad8880c9aba92fb595c2b",
-        "created_at": "2026-05-18T13:40:03.098003"
+        "created_at": "2026-05-18T14:26:56.125032",
+        "correctAnswer": "\u6e29\u6cc9"
     },
     {
-        "question_id": "SORA_25_1779086403",
+        "question_id": "SORA_25_1779089216",
         "form_name": "SORA",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "4.\n\u30c1\u30e7\u30b3\u30ec\u30fc\u30c8\u306f\u3069\u3046\u305e",
+        "context": "",
         "choices": [
             {
                 "text": "\u3044\u305f\u3060\u304d\u307e\u3059",
@@ -777,15 +829,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "b61e140608567972a80398956cec759f",
-        "created_at": "2026-05-18T13:40:03.442426",
+        "created_at": "2026-05-18T14:26:56.483516",
         "correctAnswer": "\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059"
     },
     {
-        "question_id": "SORA_26_1779086403",
+        "question_id": "SORA_26_1779089216",
         "form_name": "SORA",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "5.\u00a0\n\u3055\u304f\u3089\u3055\u3093\u304a\u5143\u6c17\u3067\u3059\u304b\uff1f",
+        "context": "",
         "choices": [
             {
                 "text": "\u3082\u3061\u308d\u3093\u5927\u4e08\u592b\u3067\u3059",
@@ -804,14 +858,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "55c091acabbb07b5df58b37c790e213b",
-        "created_at": "2026-05-18T13:40:03.811539"
+        "created_at": "2026-05-18T14:26:56.848035"
     },
     {
-        "question_id": "SORA_27_1779086413",
+        "question_id": "SORA_27_1779089226",
         "form_name": "SORA",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "1.\u00a0\n\u707d\u5bb3\u304c\u8d77\u304d\u305f\u3089\u4f55\u3092\u4f7f\u3044\u307e\u3059\u304b\uff1f",
+        "context": "",
         "choices": [
             {
                 "text": "\u81ea\u8ee2\u8eca",
@@ -830,14 +886,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "276599eb98d2437055f1272611e1d83c",
-        "created_at": "2026-05-18T13:40:13.739739"
+        "created_at": "2026-05-18T14:27:06.867638"
     },
     {
-        "question_id": "SORA_28_1779086414",
+        "question_id": "SORA_28_1779089227",
         "form_name": "SORA",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "2.\u00a0\nadik sedang bersama ibu!\n\u7f8e\u8853\u68df\u304b\u3089\u4f55\u6642\u306b\u5e30\u308a\u307e\u3059\u304b\uff1f",
+        "context": "",
         "choices": [
             {
                 "text": "11:30",
@@ -856,15 +914,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "f2f61d66af70b08ca581d6c9e409b5db",
-        "created_at": "2026-05-18T13:40:14.098453",
-        "correctAnswer": "11:30"
+        "created_at": "2026-05-18T14:27:07.219698"
     },
     {
-        "question_id": "SORA_29_1779086414",
+        "question_id": "SORA_29_1779089227",
         "form_name": "SORA",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "3.\n\u4f1a\u8b70\u306b\u4eba\u304c\u3044\u307e\u3059\u3002\u5f8c\u3067\u3082\u3046\u4e00\u5ea6\u96fb\u8a71\u3057\u3066\u304f\u3060\u3055\u3044",
+        "context": "",
         "choices": [
             {
                 "text": "\u4eca",
@@ -883,15 +942,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "b8b8fae9949d158138b673f6a73c6ded",
-        "created_at": "2026-05-18T13:40:14.463737",
+        "created_at": "2026-05-18T14:27:07.585890",
         "correctAnswer": "\u3069\u3046\u305e"
     },
     {
-        "question_id": "SORA_30_1779086414",
+        "question_id": "SORA_30_1779089227",
         "form_name": "SORA",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "4.\nTentang kulkas yang harganya 2000man",
+        "context": "",
         "choices": [
             {
                 "text": "\u72ed\u3044",
@@ -910,15 +971,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "fe72d2659e7edceb58d78cd24e392572",
-        "created_at": "2026-05-18T13:40:14.828507",
+        "created_at": "2026-05-18T14:27:07.948133",
         "correctAnswer": "\u5e83\u3044"
     },
     {
-        "question_id": "SORA_31_1779086415",
+        "question_id": "SORA_31_1779089228",
         "form_name": "SORA",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "5.\n\u79c1\u306e\u5bb6\u65cf\u5168\u54e1\u304c\u3053\u306e\u75c5\u6c17\u306b\u5192\u3055\u308c\u3066\u3044\u307e\u3059\u3002\u75c5\u9662\u306b\u884c\u304f\u306e\u306b\u4f55\u3092\u4f7f\u3048\u3070\u3044\u3044\u306e\u304b\u5206\u304b\u3089\u306a\u3044.\n\u4f55\u3067\u75c5\u9662\u306b\u884c\u304d\u307e\u3059\u304b\uff1f",
+        "context": "",
         "choices": [
             {
                 "text": "\u30bf\u30af\u30b7\u30fc",
@@ -937,7 +1000,7 @@
         "audio_url": "",
         "audio": "",
         "hash": "623f0e16f2ca7a0014642f4d57ae190f",
-        "created_at": "2026-05-18T13:40:15.195305",
+        "created_at": "2026-05-18T14:27:08.316768",
         "correctAnswer": "\u30bf\u30af\u30b7\u30fc"
     }
 ]
