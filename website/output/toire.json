@@ -1,0 +1,626 @@
+[
+    {
+        "question_id": "TOIRE_0_1779079570",
+        "form_name": "TOIRE",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question": "1.\u00a0\u00a0\nA:\u3000\u79c1\u306e\u5bb6\u306f\u3053\u3058\u307e\u3053\u3046\u3053\u3046\u306e\u3061\u304b\u304f\u3067\u3059\u3002\nB:\u3000\u3082\u3046\u3059\u3053\u3057\u3053\u3058\u307e\u3053\u3046\u3053\u3046\u3060\u3051\u3069\u3002\nA:\u3000\u6b21\u306e\u306f\u4fe1\u53f7\u306f\u53f3\u306b\u66f2\u304c\u3063\u3066\u304f\u3060\u3055\u3044\u3001___\u3042____\nB:\u3000\u3053\u3053\uff1f\u3058\u3083\u3042\u3001\u304a\u75b2\u308c\u3055\u307e\u3067\u3057\u305f\u3002\u304a\u3084\u3059\u307f\u306a\u3055\u3044\u3002",
+        "choices": [
+            {
+                "text": "\u3053\u3053\u3067\u3044\u3044\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "\u3053\u3061\u3089\u3053\u305d",
+                "image": null
+            },
+            {
+                "text": "\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "d97345920f0e38a27792d52cc2dd3247",
+        "created_at": "2026-05-18T11:46:10.425046"
+    },
+    {
+        "question_id": "TOIRE_1_1779079570",
+        "form_name": "TOIRE",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question": "2.\u00a0\u00a0\n\u3068\u3082\u3060\u3061 \u304c \u3073\u3087\u3046\u304d \u306e \u3068\u304d, \u4f55 \u3092 \u3057\u307e\u3059\u304b\uff1f ______________",
+        "choices": [
+            {
+                "text": "\u535a\u7269\u9928 \u3078 \u3044\u304d\u307e\u3059",
+                "image": null
+            },
+            {
+                "text": "\u75c5\u9662 \u3078 \u3044\u304d\u307e\u3059",
+                "image": null
+            },
+            {
+                "text": "\u56f3\u66f8\u9928 \u3078 \u3044\u304d\u307e\u3059",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "4367af80e7ebb6eaffa05a3f63c27b88",
+        "created_at": "2026-05-18T11:46:10.791656"
+    },
+    {
+        "question_id": "TOIRE_2_1779079571",
+        "form_name": "TOIRE",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question": "3.\u00a0\nA ; \u30ab\u30e9\u30aa\u30b1\u3000\u306b\u3000\u3044\u3063\u305f\u3053\u3068\u304c\u3042\u308a\u307e\u3059\u304b\nB ; \u305c\u3093\u305c\u3093\u3000\u306a\u3044\u3000\u3088\nA ;\u00a0 . . . . . . .\nB ; \u306f\u3044\u3001\u6765\u9031\u306e\u4f11\u307f\u3000\u884c\u3063\u3066\u307f\u307e\u3057\u3087\u3046",
+        "choices": [
+            {
+                "text": "\u3080\u308a\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "\u3080\u308a\u3087\u3046\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "\u305d\u3046\u305d\u3046",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "a73194090935b7c11b35f708ba194690",
+        "created_at": "2026-05-18T11:46:11.160217"
+    },
+    {
+        "question_id": "TOIRE_3_1779079571",
+        "form_name": "TOIRE",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question": "3.\u00a0\nA : \u3059\u307f\u307e\u305b\u3093, \u3053\u306e\u30b3\u30d4\u30fc\u6a5f \u304c \u3064\u304b\u3063\u305f____________\u00a0\nB : \u306f\u3044\u3042\u308a\u307e\u3059. \u3069\u3046\u3057\u3066",
+        "choices": [
+            {
+                "text": "\u3053\u3068\u304c\u3042\u308a\u307e\u3059\u304b",
+                "image": null
+            },
+            {
+                "text": "\u3070\u304b\u308a\u3067\u3059\u304b",
+                "image": null
+            },
+            {
+                "text": "\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u304b",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "5746ade17dc54fa48e08af69d8188165",
+        "created_at": "2026-05-18T11:46:11.560264"
+    },
+    {
+        "question_id": "TOIRE_4_1779079571",
+        "form_name": "TOIRE",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question": "4.\n\nA : \u307f\u306a\u3055\u3093\u3001___________\u3002\u30d9\u30c8 \u30ca\u30e0 \u306e \u304a\u3044\u3057\u3044\u30b3\u30fc\u30d2\u30fc\u3067\u3059\u3088\u3002\u00a0\nB : \u3042\u3042 \u3044\u3044\u306b\u304a\u3044, \u3044\u305f\u3060\u304d\u307e\u3059",
+        "choices": [
+            {
+                "text": "\u304a\u307e\u3061\u3057\u3066\u304a\u308a\u307e\u3059",
+                "image": null
+            },
+            {
+                "text": "\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059",
+                "image": null
+            },
+            {
+                "text": "\u304a\u307e\u305f\u305b\u3057\u307e\u3057\u305f",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "c6f3608630913cb26aba89b5ff1d0291",
+        "created_at": "2026-05-18T11:46:11.918669"
+    },
+    {
+        "question_id": "TOIRE_5_1779079572",
+        "form_name": "TOIRE",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question": "5.\u00a0\u00a0\nA : \u304a\u3055\u304d \u306b \u3057\u3064\u308c\u3044\u3057\u307e\u3059\nB : \u306f\u3044 ___________",
+        "choices": [
+            {
+                "text": "\u304a\u5927\u4e8b\u306b",
+                "image": null
+            },
+            {
+                "text": "\u3044\u3063\u3066\u3089\u3055\u3044",
+                "image": null
+            },
+            {
+                "text": "\u3044\u3089\u3063\u3055\u3044\u307e\u305b",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "4ca186a12320fe143cf868879ee2ddbb",
+        "created_at": "2026-05-18T11:46:12.288706"
+    },
+    {
+        "question_id": "TOIRE_6_1779079572",
+        "form_name": "TOIRE",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question": "6.\u00a0\nA : \u3053\u308c \u306f \u30c1\u30e3\u30fc\u30cf\u30f3\u3067\u3059\u3088\u3002\u3069\u3046\u305e\u00a0\nB : __________, \u3044\u305f\u3060\u304d\u307e\u3059",
+        "choices": [
+            {
+                "text": "\u304a\u3044\u3057\u305d\u3046\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "\u304a\u3044\u3057\u3044\u305d\u3046\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "\u304a\u3044\u3057\u3044\u306e\u305d\u3046\u3067\u3059",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "d64dd455292a365555b2be33bb9a581e",
+        "created_at": "2026-05-18T11:46:12.649623"
+    },
+    {
+        "question_id": "TOIRE_7_1779079573",
+        "form_name": "TOIRE",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question": "8.\u00a0\u00a0\nA : \u30a2\u30cb\u3055\u3093, \u65e5\u672c\u8a9e \u306e \u3079\u3093\u304d\u3087\u3046 \u306f \u3069\u306e \u3050\u3089\u3044 \u304b\u304b\u308a\u307e\u3057\u305f\u304b\uff61\u3000\u304b\u3044\u308f \u304c \u3081\u3061\u3083\u3081\u3061\u3083 \u3046\u307e\u3044\u306d.\u00a0\nB : \u3042..... _______, \u307e\u3060 4\u6708 \u52c9\u5f37\u3057\u3066\u3044\u307e\u3059",
+        "choices": [
+            {
+                "text": "\u5927\u5909\u3067\u3082\u52c9\u5f37\u306b\u306a\u308a\u307e\u3059",
+                "image": null
+            },
+            {
+                "text": "\u3044\u3084\u306b\u306a\u308a\u307e\u3059",
+                "image": null
+            },
+            {
+                "text": "\u3044\u3048\u3044\u3048\u305d\u3093\u306a\u3053\u3068\u306a\u3044\u3088",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "aaa411747dc7ec4dc42276b97fa0a708",
+        "created_at": "2026-05-18T11:46:13.722139"
+    },
+    {
+        "question_id": "TOIRE_8_1779079574",
+        "form_name": "TOIRE",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question": "\uff19.\u00a0\u00a0\n\nA ; \u307e\u3064\u3082\u3068\u3055\u3093\u3001\u663c\u3054\u98ef\u3000\u4f55\u3092\u3000\uff0e\u3000\uff0e\u3000\uff0e\uff1f\nB\uff1b\u3059\u3057\u3092\u305f\u3079\u305f\u3044\u3067\u3059",
+        "choices": [
+            {
+                "text": "\u98df\u3079\u307e\u3057\u305f\u304b",
+                "image": null
+            },
+            {
+                "text": "\u98df\u3079\u307e\u3059\u304b",
+                "image": null
+            },
+            {
+                "text": "\u98df\u3079\u307e\u305b\u3093\u304b",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "37122e493660f9d22b399537e1361016",
+        "created_at": "2026-05-18T11:46:14.066654"
+    },
+    {
+        "question_id": "TOIRE_9_1779079574",
+        "form_name": "TOIRE",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question": "10.\u00a0\u00a0\nA : \u4f11\u307f \u306e \u65e5 \u306f \u3069\u3053 \u306b \u3044\u304d\u307e\u3059\u304b\u00a0\nB : __________\u3088\u304b\u3063\u305f\uff61\u3046\u3061 \u3067 \u306d\u307e\u3059",
+        "choices": [
+            {
+                "text": "\u3086\u3063\u304f\u308a\u3067\u304d\u3066",
+                "image": null
+            },
+            {
+                "text": "\u3069\u3053\u3082\u884c\u304d\u307e\u305b\u3093",
+                "image": null
+            },
+            {
+                "text": "\u4f55\u3082",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "87edcdc13e117febd17fe65d7f5a52c1",
+        "created_at": "2026-05-18T11:46:14.433080"
+    },
+    {
+        "question_id": "TOIRE_10_1779079574",
+        "form_name": "TOIRE",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question": "11.\u00a0\nA ; \u6628\u65e5\u3072\u3063\u3053\u3057\u3060\u3063\u305f\u3067\u3057\u3087\uff1f\u3000\u30a2\u30d1\u30c8\u306f\u3069\u3046\u3067\u3059\u304b\nB ; \u305d\u3046\u3067\u3059\u306d\u3001\u30c8\u30a4\u30ec\u306f\u3061\u3055\u3044\u3067\u3059\u304c\u3002\u3002\u3002\u3002\u3002\u3002\u3001\u3088\u304b\u3063\u305f\u3002\nA ; \u3042\u3057\u305f\u304d\u307e\u3059",
+        "choices": [
+            {
+                "text": "\u308f\u308b\u3044\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "\u3042\u305f\u3089\u3057\u3044\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "\u305b\u307e\u3044\u3067\u3059",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "daf91bb19fd35dc0b9607a65c9ce5ffe",
+        "created_at": "2026-05-18T11:46:14.801048"
+    },
+    {
+        "question_id": "TOIRE_11_1779079575",
+        "form_name": "TOIRE",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question": "14.\nA:\u3000____________________\nB:\u3000\u304a\u75b2\u308c\u3055\u307e\u3067\u3057\u305f\u3002",
+        "choices": [
+            {
+                "text": "\u3055\u304d\u306b\u3057\u3064\u308c\u3044\u3057\u307e\u3059\u3002 \u5148\u306b\u5931\u793c\u3057\u307e\u3059",
+                "image": null
+            },
+            {
+                "text": "\u3053\u308c\u304b\u3089\u3082\u3088\u308d\u3057\u304f",
+                "image": null
+            },
+            {
+                "text": "\u304a\u3081\u3067\u3068\u3046\u3054\u3056\u3044\u307e\u3059",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "8569b10b138084d17b3e5c5de16c1779",
+        "created_at": "2026-05-18T11:46:15.168568"
+    },
+    {
+        "question_id": "TOIRE_12_1779079584",
+        "form_name": "TOIRE",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question": "1.\u00a0\u00a0\nA:\u3000\u79c1\u306e\u5bb6\u306f\u3053\u3058\u307e\u3053\u3046\u3053\u3046\u306e\u3061\u304b\u304f\u3067\u3059\u3002\nB:\u3000\u3082\u3046\u3059\u3053\u3057\u3053\u3058\u307e\u3053\u3046\u3053\u3046\u3060\u3051\u3069\u3002\nA:\u3000\u6b21\u306e\u306f\u4fe1\u53f7\u306f\u53f3\u306b\u66f2\u304c\u3063\u3066\u304f\u3060\u3055\u3044\u3001___\u3042____\nB:\u3000\u3053\u3053\uff1f\u3058\u3083\u3042\u3001\u304a\u75b2\u308c\u3055\u307e\u3067\u3057\u305f\u3002\u304a\u3084\u3059\u307f\u306a\u3055\u3044\u3002",
+        "choices": [
+            {
+                "text": "\u3053\u3053\u3067\u3044\u3044\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "\u3053\u3061\u3089\u3053\u305d",
+                "image": null
+            },
+            {
+                "text": "\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "d97345920f0e38a27792d52cc2dd3247",
+        "created_at": "2026-05-18T11:46:24.653003"
+    },
+    {
+        "question_id": "TOIRE_13_1779079584",
+        "form_name": "TOIRE",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question": "2.\u00a0\u00a0\n\u3068\u3082\u3060\u3061 \u304c \u3073\u3087\u3046\u304d \u306e \u3068\u304d, \u4f55 \u3092 \u3057\u307e\u3059\u304b\uff1f ______________",
+        "choices": [
+            {
+                "text": "\u535a\u7269\u9928 \u3078 \u3044\u304d\u307e\u3059",
+                "image": null
+            },
+            {
+                "text": "\u75c5\u9662 \u3078 \u3044\u304d\u307e\u3059",
+                "image": null
+            },
+            {
+                "text": "\u56f3\u66f8\u9928 \u3078 \u3044\u304d\u307e\u3059",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "4367af80e7ebb6eaffa05a3f63c27b88",
+        "created_at": "2026-05-18T11:46:24.998389"
+    },
+    {
+        "question_id": "TOIRE_14_1779079585",
+        "form_name": "TOIRE",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question": "3.\u00a0\nA ; \u30ab\u30e9\u30aa\u30b1\u3000\u306b\u3000\u3044\u3063\u305f\u3053\u3068\u304c\u3042\u308a\u307e\u3059\u304b\nB ; \u305c\u3093\u305c\u3093\u3000\u306a\u3044\u3000\u3088\nA ;\u00a0 . . . . . . .\nB ; \u306f\u3044\u3001\u6765\u9031\u306e\u4f11\u307f\u3000\u884c\u3063\u3066\u307f\u307e\u3057\u3087\u3046",
+        "choices": [
+            {
+                "text": "\u3080\u308a\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "\u3080\u308a\u3087\u3046\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "\u305d\u3046\u305d\u3046",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "a73194090935b7c11b35f708ba194690",
+        "created_at": "2026-05-18T11:46:25.372672"
+    },
+    {
+        "question_id": "TOIRE_15_1779079585",
+        "form_name": "TOIRE",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question": "3.\u00a0\nA : \u3059\u307f\u307e\u305b\u3093, \u3053\u306e\u30b3\u30d4\u30fc\u6a5f \u304c \u3064\u304b\u3063\u305f____________\u00a0\nB : \u306f\u3044\u3042\u308a\u307e\u3059. \u3069\u3046\u3057\u3066",
+        "choices": [
+            {
+                "text": "\u3053\u3068\u304c\u3042\u308a\u307e\u3059\u304b",
+                "image": null
+            },
+            {
+                "text": "\u3070\u304b\u308a\u3067\u3059\u304b",
+                "image": null
+            },
+            {
+                "text": "\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u304b",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "5746ade17dc54fa48e08af69d8188165",
+        "created_at": "2026-05-18T11:46:25.732343"
+    },
+    {
+        "question_id": "TOIRE_16_1779079586",
+        "form_name": "TOIRE",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question": "4.\n\nA : \u307f\u306a\u3055\u3093\u3001___________\u3002\u30d9\u30c8 \u30ca\u30e0 \u306e \u304a\u3044\u3057\u3044\u30b3\u30fc\u30d2\u30fc\u3067\u3059\u3088\u3002\u00a0\nB : \u3042\u3042 \u3044\u3044\u306b\u304a\u3044, \u3044\u305f\u3060\u304d\u307e\u3059",
+        "choices": [
+            {
+                "text": "\u304a\u307e\u3061\u3057\u3066\u304a\u308a\u307e\u3059",
+                "image": null
+            },
+            {
+                "text": "\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059",
+                "image": null
+            },
+            {
+                "text": "\u304a\u307e\u305f\u305b\u3057\u307e\u3057\u305f",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "c6f3608630913cb26aba89b5ff1d0291",
+        "created_at": "2026-05-18T11:46:26.099983"
+    },
+    {
+        "question_id": "TOIRE_17_1779079586",
+        "form_name": "TOIRE",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question": "5.\u00a0\u00a0\nA : \u304a\u3055\u304d \u306b \u3057\u3064\u308c\u3044\u3057\u307e\u3059\nB : \u306f\u3044 ___________",
+        "choices": [
+            {
+                "text": "\u304a\u5927\u4e8b\u306b",
+                "image": null
+            },
+            {
+                "text": "\u3044\u3063\u3066\u3089\u3055\u3044",
+                "image": null
+            },
+            {
+                "text": "\u3044\u3089\u3063\u3055\u3044\u307e\u305b",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "4ca186a12320fe143cf868879ee2ddbb",
+        "created_at": "2026-05-18T11:46:26.467263"
+    },
+    {
+        "question_id": "TOIRE_18_1779079586",
+        "form_name": "TOIRE",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question": "6.\u00a0\nA : \u3053\u308c \u306f \u30c1\u30e3\u30fc\u30cf\u30f3\u3067\u3059\u3088\u3002\u3069\u3046\u305e\u00a0\nB : __________, \u3044\u305f\u3060\u304d\u307e\u3059",
+        "choices": [
+            {
+                "text": "\u304a\u3044\u3057\u305d\u3046\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "\u304a\u3044\u3057\u3044\u305d\u3046\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "\u304a\u3044\u3057\u3044\u306e\u305d\u3046\u3067\u3059",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "d64dd455292a365555b2be33bb9a581e",
+        "created_at": "2026-05-18T11:46:26.830643"
+    },
+    {
+        "question_id": "TOIRE_19_1779079587",
+        "form_name": "TOIRE",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question": "8.\u00a0\u00a0\nA : \u30a2\u30cb\u3055\u3093, \u65e5\u672c\u8a9e \u306e \u3079\u3093\u304d\u3087\u3046 \u306f \u3069\u306e \u3050\u3089\u3044 \u304b\u304b\u308a\u307e\u3057\u305f\u304b\uff61\u3000\u304b\u3044\u308f \u304c \u3081\u3061\u3083\u3081\u3061\u3083 \u3046\u307e\u3044\u306d.\u00a0\nB : \u3042..... _______, \u307e\u3060 4\u6708 \u52c9\u5f37\u3057\u3066\u3044\u307e\u3059",
+        "choices": [
+            {
+                "text": "\u5927\u5909\u3067\u3082\u52c9\u5f37\u306b\u306a\u308a\u307e\u3059",
+                "image": null
+            },
+            {
+                "text": "\u3044\u3084\u306b\u306a\u308a\u307e\u3059",
+                "image": null
+            },
+            {
+                "text": "\u3044\u3048\u3044\u3048\u305d\u3093\u306a\u3053\u3068\u306a\u3044\u3088",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "aaa411747dc7ec4dc42276b97fa0a708",
+        "created_at": "2026-05-18T11:46:27.805488"
+    },
+    {
+        "question_id": "TOIRE_20_1779079588",
+        "form_name": "TOIRE",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question": "\uff19.\u00a0\u00a0\n\nA ; \u307e\u3064\u3082\u3068\u3055\u3093\u3001\u663c\u3054\u98ef\u3000\u4f55\u3092\u3000\uff0e\u3000\uff0e\u3000\uff0e\uff1f\nB\uff1b\u3059\u3057\u3092\u305f\u3079\u305f\u3044\u3067\u3059",
+        "choices": [
+            {
+                "text": "\u98df\u3079\u307e\u3057\u305f\u304b",
+                "image": null
+            },
+            {
+                "text": "\u98df\u3079\u307e\u3059\u304b",
+                "image": null
+            },
+            {
+                "text": "\u98df\u3079\u307e\u305b\u3093\u304b",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "37122e493660f9d22b399537e1361016",
+        "created_at": "2026-05-18T11:46:28.144846"
+    },
+    {
+        "question_id": "TOIRE_21_1779079588",
+        "form_name": "TOIRE",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question": "10.\u00a0\u00a0\nA : \u4f11\u307f \u306e \u65e5 \u306f \u3069\u3053 \u306b \u3044\u304d\u307e\u3059\u304b\u00a0\nB : __________\u3088\u304b\u3063\u305f\uff61\u3046\u3061 \u3067 \u306d\u307e\u3059",
+        "choices": [
+            {
+                "text": "\u3086\u3063\u304f\u308a\u3067\u304d\u3066",
+                "image": null
+            },
+            {
+                "text": "\u3069\u3053\u3082\u884c\u304d\u307e\u305b\u3093",
+                "image": null
+            },
+            {
+                "text": "\u4f55\u3082",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "87edcdc13e117febd17fe65d7f5a52c1",
+        "created_at": "2026-05-18T11:46:28.517386"
+    },
+    {
+        "question_id": "TOIRE_22_1779079588",
+        "form_name": "TOIRE",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question": "11.\u00a0\nA ; \u6628\u65e5\u3072\u3063\u3053\u3057\u3060\u3063\u305f\u3067\u3057\u3087\uff1f\u3000\u30a2\u30d1\u30c8\u306f\u3069\u3046\u3067\u3059\u304b\nB ; \u305d\u3046\u3067\u3059\u306d\u3001\u30c8\u30a4\u30ec\u306f\u3061\u3055\u3044\u3067\u3059\u304c\u3002\u3002\u3002\u3002\u3002\u3002\u3001\u3088\u304b\u3063\u305f\u3002\nA ; \u3042\u3057\u305f\u304d\u307e\u3059",
+        "choices": [
+            {
+                "text": "\u308f\u308b\u3044\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "\u3042\u305f\u3089\u3057\u3044\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "\u305b\u307e\u3044\u3067\u3059",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "daf91bb19fd35dc0b9607a65c9ce5ffe",
+        "created_at": "2026-05-18T11:46:28.882647"
+    },
+    {
+        "question_id": "TOIRE_23_1779079589",
+        "form_name": "TOIRE",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question": "14.\nA:\u3000____________________\nB:\u3000\u304a\u75b2\u308c\u3055\u307e\u3067\u3057\u305f\u3002",
+        "choices": [
+            {
+                "text": "\u3055\u304d\u306b\u3057\u3064\u308c\u3044\u3057\u307e\u3059\u3002 \u5148\u306b\u5931\u793c\u3057\u307e\u3059",
+                "image": null
+            },
+            {
+                "text": "\u3053\u308c\u304b\u3089\u3082\u3088\u308d\u3057\u304f",
+                "image": null
+            },
+            {
+                "text": "\u304a\u3081\u3067\u3068\u3046\u3054\u3056\u3044\u307e\u3059",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "8569b10b138084d17b3e5c5de16c1779",
+        "created_at": "2026-05-18T11:46:29.248452"
+    }
+]
