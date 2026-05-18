@@ -25,9 +25,12 @@ npm run dev
 
 ## Production Deploy
 
-This directory is designed to be published directly to GitHub and deployed by Vercel.
+This website lives in the `website/` folder inside the full scraper project.
 
-If this project is deployed from the repository root, make sure the repository contains this folder's contents at the root level.
+Recommended Vercel setup:
+
+- If the GitHub repo keeps the `website/` folder, set `Root Directory` to `website`
+- If this folder is published as the repository root, use the repository root directly
 
 ## Notes
 

@@ -1,6 +1,8 @@
 import subprocess
 import logging
 import os
+import shutil
+import tempfile
 from datetime import datetime
 from pathlib import Path
 from urllib.parse import quote
@@ -14,12 +16,24 @@ load_dotenv(BASE_DIR / ".env")
 class GitHelper:
     REMOTE_NAME = "origin"
     LOCAL_COMMIT_PATHS = ("website",)
+    PUBLISH_IGNORE_PATTERNS = (
+        ".git",
+        "node_modules",
+        ".next",
+        ".next-dev",
+        ".next-build",
+        "out",
+        ".vercel",
+        "__pycache__",
+        ".DS_Store",
+        "*.log",
+    )
 
     @staticmethod
-    def _run_git(args, check=True, display_args=None):
+    def _run_git(args, check=True, display_args=None, cwd=BASE_DIR):
         result = subprocess.run(
             ["git", *args],
-            cwd=BASE_DIR,
+            cwd=cwd,
             capture_output=True,
             text=True
         )
@@ -129,28 +143,58 @@ class GitHelper:
         return GitHelper.REMOTE_NAME
 
     @staticmethod
-    def _create_website_split_commit():
+    def _get_git_identity():
+        name_result = GitHelper._run_git(["config", "--get", "user.name"], check=False)
+        email_result = GitHelper._run_git(["config", "--get", "user.email"], check=False)
+
+        name = (name_result.stdout or "").strip() or "QCXINT Bot"
+        email = (email_result.stdout or "").strip() or "bot@localhost"
+        return name, email
+
+    @staticmethod
+    def _copy_publish_snapshot(snapshot_dir):
         if not WEBSITE_DIR.exists():
             raise RuntimeError("Folder website tidak ditemukan, snapshot deploy tidak bisa dibuat.")
 
-        result = GitHelper._run_git(["subtree", "split", "--prefix", "website"])
-        split_commit = (result.stdout or "").strip().splitlines()
-        split_commit = split_commit[-1].strip() if split_commit else ""
+        snapshot_dir = Path(snapshot_dir)
+        website_target = snapshot_dir / "website"
+        shutil.copytree(
+            WEBSITE_DIR,
+            website_target,
+            ignore=shutil.ignore_patterns(*GitHelper.PUBLISH_IGNORE_PATTERNS),
+        )
 
-        if not split_commit:
-            raise RuntimeError("Gagal membuat commit snapshot untuk folder website.")
-
-        return split_commit
+        metadata_files = (
+            (WEBSITE_DIR / "README.md", snapshot_dir / "README.md"),
+            (WEBSITE_DIR / "LICENSE", snapshot_dir / "LICENSE"),
+            (WEBSITE_DIR / ".gitignore", snapshot_dir / ".gitignore"),
+        )
+        for source, destination in metadata_files:
+            if source.exists():
+                shutil.copy2(source, destination)
 
     @staticmethod
     def _push_website_snapshot(push_target, branch):
-        split_commit = GitHelper._create_website_split_commit()
-        GitHelper._run_git(
-            ["push", "--force", push_target, f"{split_commit}:refs/heads/{branch}"],
-            display_args=["push", "--force", "<website-snapshot>", f"refs/heads/{branch}"]
-            if push_target != GitHelper.REMOTE_NAME
-            else ["push", "--force", GitHelper.REMOTE_NAME, f"{split_commit}:refs/heads/{branch}"]
-        )
+        with tempfile.TemporaryDirectory(prefix="website-publish-") as temp_dir:
+            snapshot_dir = Path(temp_dir)
+            GitHelper._copy_publish_snapshot(snapshot_dir)
+
+            author_name, author_email = GitHelper._get_git_identity()
+            GitHelper._run_git(["init", "-b", "publish"], cwd=snapshot_dir)
+            GitHelper._run_git(["config", "user.name", author_name], cwd=snapshot_dir)
+            GitHelper._run_git(["config", "user.email", author_email], cwd=snapshot_dir)
+            GitHelper._run_git(["add", "-A"], cwd=snapshot_dir)
+            GitHelper._run_git(
+                ["commit", "-m", f"Website snapshot {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"],
+                cwd=snapshot_dir,
+            )
+            GitHelper._run_git(
+                ["push", "--force", push_target, f"HEAD:refs/heads/{branch}"],
+                cwd=snapshot_dir,
+                display_args=["push", "--force", "<website-publish>", f"refs/heads/{branch}"]
+                if push_target != GitHelper.REMOTE_NAME
+                else ["push", "--force", GitHelper.REMOTE_NAME, f"HEAD:refs/heads/{branch}"]
+            )
 
     @staticmethod
     def commit_and_push():
@@ -158,7 +202,7 @@ class GitHelper:
             logging.info("Starting Auto Git Commit & Push...")
 
             # Commit only website assets locally. The GitHub repository is always
-            # published from a website-only subtree snapshot afterwards.
+            # published from a website-only snapshot afterwards.
             for folder in GitHelper.LOCAL_COMMIT_PATHS:
                 if (BASE_DIR / folder).exists():
                     GitHelper._run_git(["add", "-A", folder])
