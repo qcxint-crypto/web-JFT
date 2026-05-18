@@ -168,6 +168,8 @@ class GitHelper:
             (WEBSITE_DIR / "README.md", snapshot_dir / "README.md"),
             (WEBSITE_DIR / "LICENSE", snapshot_dir / "LICENSE"),
             (WEBSITE_DIR / ".gitignore", snapshot_dir / ".gitignore"),
+            (BASE_DIR / "package.json", snapshot_dir / "package.json"),
+            (BASE_DIR / "vercel.json", snapshot_dir / "vercel.json"),
         )
         for source, destination in metadata_files:
             if source.exists():
