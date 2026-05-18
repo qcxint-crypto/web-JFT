@@ -25,18 +25,16 @@ export default function QuestionCard({
     if (imagePath.startsWith('http')) {
       return imagePath
     }
-
     const filename = imagePath.split('/').pop() || imagePath
-    return `/api/images/${filename}`
+    return `/images/${filename}`
   }
 
   const getAudioUrl = (audioPath: string) => {
     if (audioPath.startsWith('http')) {
       return audioPath
     }
-
     const filename = audioPath.includes('/') ? audioPath.split('/').pop() : audioPath
-    return `/api/audio/${filename}`
+    return `/audio/${filename}`
   }
 
   const getAudioSourceTypes = (audioPath: string) => {
@@ -114,7 +112,9 @@ export default function QuestionCard({
                   alt={`Question image ${idx + 1}`}
                   className="choice-image mx-auto max-h-80 w-full rounded-[18px] object-contain"
                   onError={(e) => {
-                    ;(e.target as HTMLImageElement).style.display = 'none'
+                    const img = e.target as HTMLImageElement
+                    const wrapper = img.closest('.overflow-hidden') as HTMLElement | null
+                    if (wrapper) wrapper.style.display = 'none'
                   }}
                 />
               </div>
@@ -209,7 +209,8 @@ export default function QuestionCard({
                         alt={`Choice ${idx + 1}`}
                         className="choice-image mx-auto h-32 w-auto rounded-[14px] object-contain md:h-40"
                         onError={(e) => {
-                          ;(e.target as HTMLImageElement).style.display = 'none'
+                          const img = e.target as HTMLImageElement
+                          if (img.parentElement) img.parentElement.style.display = 'none'
                         }}
                       />
                     </div>

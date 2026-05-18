@@ -2,6 +2,7 @@ import { Buffer } from 'buffer'
 import fs from 'fs/promises'
 import path from 'path'
 import { resolveWebsitePath } from './project-paths'
+import { bundledToken, bundledRepoUrl, bundledBranch } from './enc-config'
 
 export type LeaderboardMode = 'jft' | 'kanji'
 
@@ -358,10 +359,15 @@ async function writeLocalSnapshot(snapshot: LeaderboardSnapshot) {
 }
 
 function getGitHubConfig() {
+  // Prefer explicit env vars (Vercel dashboard), fall back to bundled obfuscated credentials
+  const token    = (process.env.GITHUB_TOKEN || '').trim() || bundledToken
+  const repoUrl  = process.env.LEADERBOARD_REPO_PATH || process.env.GITHUB_REPO_URL || bundledRepoUrl
+  const srcBranch = (process.env.GITHUB_BRANCH || '').trim() || bundledBranch || DEFAULT_SOURCE_BRANCH
+
   return {
-    repoPath: extractRepoPath(process.env.LEADERBOARD_REPO_PATH || process.env.GITHUB_REPO_URL),
-    token: (process.env.GITHUB_TOKEN || '').trim(),
-    sourceBranch: DEFAULT_SOURCE_BRANCH,
+    repoPath: extractRepoPath(repoUrl),
+    token,
+    sourceBranch: srcBranch,
     leaderboardBranch: DEFAULT_LEADERBOARD_BRANCH,
     filePath: (process.env.LEADERBOARD_FILE_PATH || DEFAULT_LEADERBOARD_PATH).trim() || DEFAULT_LEADERBOARD_PATH,
   }

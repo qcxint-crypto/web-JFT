@@ -247,9 +247,13 @@ export default function QuizPage() {
           <div className="mt-8 grid gap-5 lg:grid-cols-[1.1fr_0.9fr]">
             <div className="rounded-[32px] bg-slate-900 p-7 text-white shadow-[0_28px_70px_-38px_rgba(15,23,42,0.85)]">
               <div className="text-[11px] font-black uppercase tracking-[0.28em] text-white/55">Score Drop</div>
-              <div className="font-display mt-4 text-7xl font-bold tracking-[-0.08em]">
-                {score}
-                <span className="text-2xl text-white/35"> / {total}</span>
+              <div className="mt-4">
+                <div className="font-display text-7xl font-bold leading-none tracking-[-0.08em]">
+                  {score}
+                </div>
+                <div className="mt-2 text-xl font-semibold text-white/50">
+                  / {total}
+                </div>
               </div>
               <p className="mt-3 text-sm leading-6 text-white/72">
                 Nilai ini dihitung dari jawaban yang punya kunci. Jika ada soal tanpa kunci, sistem tetap menghitung progress supaya sesi tidak terasa kosong.

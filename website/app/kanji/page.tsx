@@ -511,9 +511,13 @@ export default function KanjiQuizPage() {
           <div className="mt-8 grid gap-5 lg:grid-cols-[1.05fr_0.95fr]">
             <div className="rounded-[32px] bg-slate-900 p-7 text-white shadow-[0_28px_70px_-38px_rgba(15,23,42,0.85)]">
               <div className="text-[11px] font-black uppercase tracking-[0.28em] text-white/55">Score Drop</div>
-              <div className="font-display mt-4 text-7xl font-bold tracking-[-0.08em]">
-                {score}
-                <span className="text-2xl text-white/35"> / {questions.length}</span>
+              <div className="mt-4">
+                <div className="font-display text-7xl font-bold leading-none tracking-[-0.08em]">
+                  {score}
+                </div>
+                <div className="mt-2 text-xl font-semibold text-white/50">
+                  / {questions.length}
+                </div>
               </div>
               <p className="mt-3 text-sm leading-6 text-white/72">
                 Persentase ini merefleksikan seberapa baik Anda membaca pasangan Kanji, Hiragana, dan arti dalam satu sesi acak.

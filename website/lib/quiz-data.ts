@@ -241,15 +241,19 @@ export function normalizeQuestions() {
     let previousPageNumber: number | null = null
     let lastAudio = ''
     let lastAudioUrl = ''
+    let lastImages: QuizQuestion['images'] = []
 
     for (const question of orderedQuestions) {
       const nextQuestion = { ...question }
 
+      // Reset shared media tracking when page changes
       if (previousPageNumber !== null && question.page_number !== previousPageNumber) {
         lastAudio = ''
         lastAudioUrl = ''
+        lastImages = []
       }
 
+      // Propagate audio: every question in a choukai set gets the shared audio
       if (nextQuestion.audio || nextQuestion.audio_url) {
         nextQuestion.audio = nextQuestion.audio || nextQuestion.audio_url || ''
         nextQuestion.audio_url = nextQuestion.audio_url || nextQuestion.audio || ''
@@ -258,6 +262,14 @@ export function normalizeQuestions() {
       } else if (lastAudio || lastAudioUrl) {
         nextQuestion.audio = lastAudio
         nextQuestion.audio_url = lastAudioUrl
+      }
+
+      // Propagate images: every question in a dokkai/choukai set gets the shared image
+      // This ensures randomized questions still display the passage/image they belong to
+      if (nextQuestion.images && nextQuestion.images.length > 0) {
+        lastImages = nextQuestion.images
+      } else if (lastImages.length > 0) {
+        nextQuestion.images = [...lastImages]
       }
 
       propagatedQuestions.push(nextQuestion)
