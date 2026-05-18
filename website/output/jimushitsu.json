@@ -1,373 +1,6 @@
 [
     {
-        "question_id": "JIMUSHITSU_0_1779091670",
-        "form_name": "JIMUSHITSU",
-        "page_number": 1,
-        "category": "moji_goi",
-        "question_type": "image_only",
-        "question": "1.",
-        "context": "",
-        "choices": [
-            {
-                "text": "\u304b\u3044\u3060\u3093",
-                "image": null
-            },
-            {
-                "text": "\u307e\u3069",
-                "image": null
-            },
-            {
-                "text": "\u3052\u3093\u304b\u3093",
-                "image": null
-            }
-        ],
-        "images": [
-            {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDeBapBuKUT7S0fnvQkjuOxRZ324LlbRbB4mcnkT_YkIXLsV83BWD4CfAntPq_5Lm8BPYLgpF93zGL0cTA2pVc21MaH0k6-z-dZ8X_m3OoPhOGof6DGfCRMqEx-MT5wSQZlmFyCLAsWagf1qwyw222FGJa1Hug2Ib331BJzM5CTKfK4foyfvhqPb_KFyFGdQTCp-EVkmsPYiWY=w740?key=TgjLIogtHAsD5FP4piV_Uw",
-                "path": "images/062d1dd6dc1da09232c161dc3e9b8f62.png",
-                "index": 0
-            }
-        ],
-        "audio_url": "",
-        "audio": "",
-        "hash": "46b0e73d9a57bd84612c66844e2fca00",
-        "created_at": "2026-05-18T15:07:50.620140",
-        "correctAnswer": "\u3052\u3093\u304b\u3093"
-    },
-    {
-        "question_id": "JIMUSHITSU_1_1779091671",
-        "form_name": "JIMUSHITSU",
-        "page_number": 1,
-        "category": "moji_goi",
-        "question_type": "image_only",
-        "question": "2.",
-        "context": "",
-        "choices": [
-            {
-                "text": "\u3084\u308f\u3089\u304b\u3044",
-                "image": null
-            },
-            {
-                "text": "\u305f\u304b\u3044",
-                "image": null
-            },
-            {
-                "text": "\u304b\u308f\u3044\u3044",
-                "image": null
-            }
-        ],
-        "images": [
-            {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDSTglEJhudGQQ64pJlzEyLGokHAuyum_s_MvcFPLUXC6k6EsWX3Qvp5dDol-Zk1oZUJbXoZJxBK82Sj4LdgnsMvSkdMsL-uKIq1KeCr-pSYnfwlXygP56ZKm-Q_YStCnn6UGzUn4vEvMFx40uRHNp0D-ggBKR9SgjGAatU3igaP2SqrNgSUtih2U4S3eioKY118Hb6Kw5SYLzM=w392?key=TgjLIogtHAsD5FP4piV_Uw",
-                "path": "images/60c64535d4eaab888cdad133688371b2.png",
-                "index": 0
-            }
-        ],
-        "audio_url": "",
-        "audio": "",
-        "hash": "6c582d76d9826c257c3b98b0849fde71",
-        "created_at": "2026-05-18T15:07:51.511991"
-    },
-    {
-        "question_id": "JIMUSHITSU_2_1779091672",
-        "form_name": "JIMUSHITSU",
-        "page_number": 1,
-        "category": "moji_goi",
-        "question_type": "image_only",
-        "question": "3.",
-        "context": "",
-        "choices": [
-            {
-                "text": "\u304f\u308b\u307e\u306e\u304b\u304e",
-                "image": null
-            },
-            {
-                "text": "\u30ad\u30fc\u30db\u30eb\u30c0\u30fc",
-                "image": null
-            },
-            {
-                "text": "\u30cd\u30c3\u30af\u30ec\u30b9",
-                "image": null
-            }
-        ],
-        "images": [
-            {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVC0v4wT0hUERq_HO8N3TLfWkhCQ4SNAf5baWR3TM8uI1fRdjSOtMmW2g1OhbY4Ox1NfA8yB79Ljj8Wu_90AfXJq-Ds4tV5zP9AP7s4Xn07ouOk6C1_RwC8SRf9ThULkNN0X6USblp2xZOb8-cSER1YePZcG265u6fPrS1BK7cxvVbZg6cyFciMR4-Imc--h8y4a8Gjuh0rtltMN=w180?key=TgjLIogtHAsD5FP4piV_Uw",
-                "path": "images/0a63a03f16c3e506c83d898b9f1fadb6.png",
-                "index": 0
-            }
-        ],
-        "audio_url": "",
-        "audio": "",
-        "hash": "952f33c6734e9cd5ac5c8efef3751554",
-        "created_at": "2026-05-18T15:07:52.221900"
-    },
-    {
-        "question_id": "JIMUSHITSU_3_1779091674",
-        "form_name": "JIMUSHITSU",
-        "page_number": 1,
-        "category": "moji_goi",
-        "question_type": "image_only",
-        "question": "4.",
-        "context": "",
-        "choices": [
-            {
-                "text": "\u3042\u3052\u308b",
-                "image": null
-            },
-            {
-                "text": "\u304b\u3051\u308b",
-                "image": null
-            },
-            {
-                "text": "\u3064\u3051\u308b",
-                "image": null
-            }
-        ],
-        "images": [
-            {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAUjKVlMJ0Az2LzC69QlnX_zMXIqhRknMTUCVcnFZLjVqC1_XbgrJJj-OxSw7GGuKAELq-W320fFJj7_2_5g_IkX6X-_pdLkCpH8TlsMGtzrMK3Mm1hp5Y0SA7YiZduJExQ_mwGO5lubERbgAyM772-otOVnpQc5Ke-ICI2CFo6ETFVC3mBziUwdiRMNhXFnTPMnO0Aft-4Ng6O=w200?key=TgjLIogtHAsD5FP4piV_Uw",
-                "path": "images/f0468baf4bd5224a743ff583e99b9fe3.png",
-                "index": 0
-            }
-        ],
-        "audio_url": "",
-        "audio": "",
-        "hash": "c5dfbbf494cc41b0bb08a054f6f8803f",
-        "created_at": "2026-05-18T15:07:54.339060",
-        "correctAnswer": "\u304b\u3051\u308b"
-    },
-    {
-        "question_id": "JIMUSHITSU_4_1779091674",
-        "form_name": "JIMUSHITSU",
-        "page_number": 1,
-        "category": "moji_goi",
-        "question_type": "text_only",
-        "question": "5.\u00a0\n\u30db\u30fc\u30eb \u306e \u3044\u308a\u3050\u3061 \u3067 \u306a\u307e\u3048 \u3092_________\u304f\u3060\u3055\u3044",
-        "context": "",
-        "choices": [
-            {
-                "text": "\u98df\u3079\u3066",
-                "image": null
-            },
-            {
-                "text": "\u8a00\u3063\u3066",
-                "image": null
-            },
-            {
-                "text": "\u98f2\u3093\u3067",
-                "image": null
-            }
-        ],
-        "images": [],
-        "audio_url": "",
-        "audio": "",
-        "hash": "6f30f296c827e322d7daf32fc70274d6",
-        "created_at": "2026-05-18T15:07:54.681809",
-        "correctAnswer": "\u8a00\u3063\u3066"
-    },
-    {
-        "question_id": "JIMUSHITSU_5_1779091675",
-        "form_name": "JIMUSHITSU",
-        "page_number": 1,
-        "category": "moji_goi",
-        "question_type": "text_only",
-        "question": "6.\u00a0\u00a0\n\u3053\u3046\u3048\u3093 \u306b \u304d\u308c\u3044\u306a_________ \u304c \u3055\u3044\u3066\u3044\u307e\u3059",
-        "context": "",
-        "choices": [
-            {
-                "text": "\u82b1\u706b",
-                "image": null
-            },
-            {
-                "text": "\u9f3b",
-                "image": null
-            },
-            {
-                "text": "\u82b1",
-                "image": null
-            }
-        ],
-        "images": [],
-        "audio_url": "",
-        "audio": "",
-        "hash": "7ab870ca4fbb11dfc93a064d33e908e1",
-        "created_at": "2026-05-18T15:07:55.052608",
-        "correctAnswer": "\u82b1"
-    },
-    {
-        "question_id": "JIMUSHITSU_6_1779091675",
-        "form_name": "JIMUSHITSU",
-        "page_number": 1,
-        "category": "moji_goi",
-        "question_type": "text_only",
-        "question": "7.\u00a0\u00a0\n\u82f1\u8a9e \u304c \u3059\u3053\u3057_________",
-        "context": "",
-        "choices": [
-            {
-                "text": "\u308c\u3093\u3089\u304f\u3057\u307e\u3059",
-                "image": null
-            },
-            {
-                "text": "\u3067\u304d\u307e\u3059",
-                "image": null
-            },
-            {
-                "text": "\u306e\u307f\u307e\u3059",
-                "image": null
-            }
-        ],
-        "images": [],
-        "audio_url": "",
-        "audio": "",
-        "hash": "5022a08f757d11c015d2432b009593f5",
-        "created_at": "2026-05-18T15:07:55.417418"
-    },
-    {
-        "question_id": "JIMUSHITSU_7_1779091675",
-        "form_name": "JIMUSHITSU",
-        "page_number": 1,
-        "category": "moji_goi",
-        "question_type": "text_only",
-        "question": "8.\u00a0\u00a0\n\u3059\u304d\u306a\u304b\u3057\u3085 \u304c \u307f\u3089\u308c\u306a\u304f\u3066\u3001_________\u3067\u3057\u305f",
-        "context": "",
-        "choices": [
-            {
-                "text": "\u6b8b\u5ff5",
-                "image": null
-            },
-            {
-                "text": "\u6691\u3044",
-                "image": null
-            },
-            {
-                "text": "\u6b8b\u696d",
-                "image": null
-            }
-        ],
-        "images": [],
-        "audio_url": "",
-        "audio": "",
-        "hash": "ba47044abebeb2fee412cfb0f8e98dab",
-        "created_at": "2026-05-18T15:07:55.781020",
-        "correctAnswer": "\u6b8b\u5ff5"
-    },
-    {
-        "question_id": "JIMUSHITSU_8_1779091676",
-        "form_name": "JIMUSHITSU",
-        "page_number": 1,
-        "category": "moji_goi",
-        "question_type": "text_only",
-        "question": "9.\u00a0\u00a0\n\u307e\u3044\u3068\u3057\u3001\u5916\u56fd\u00a0\u3078 \u884c\u304d\u305f\u3044\u3067\u3059",
-        "context": "",
-        "choices": [
-            {
-                "text": "\u304c\u3044\u3053\u304f",
-                "image": null
-            },
-            {
-                "text": "\u305d\u3068\u304f\u306b",
-                "image": null
-            },
-            {
-                "text": "\u304d\u3053\u304f",
-                "image": null
-            }
-        ],
-        "images": [],
-        "audio_url": "",
-        "audio": "",
-        "hash": "a25be493aa6348c5d2f895517bda176a",
-        "created_at": "2026-05-18T15:07:56.147942"
-    },
-    {
-        "question_id": "JIMUSHITSU_9_1779091676",
-        "form_name": "JIMUSHITSU",
-        "page_number": 1,
-        "category": "moji_goi",
-        "question_type": "text_only",
-        "question": "10.\u00a0\u00a0\n\u65e5\u672c\u8a9e \u3092\u00a0\u4e0a\u624b\u00a0\u306b \u306a\u308a\u305f\u3044\u3067\u3059",
-        "context": "",
-        "choices": [
-            {
-                "text": "\u3066\u3093\u3055\u3044",
-                "image": null
-            },
-            {
-                "text": "\u3078\u305f",
-                "image": null
-            },
-            {
-                "text": "\u3058\u3087\u3046\u305a",
-                "image": null
-            }
-        ],
-        "images": [],
-        "audio_url": "",
-        "audio": "",
-        "hash": "7c77daac139b16dd02fe931d9daa49b4",
-        "created_at": "2026-05-18T15:07:56.516217",
-        "correctAnswer": "\u3058\u3087\u3046\u305a"
-    },
-    {
-        "question_id": "JIMUSHITSU_10_1779091676",
-        "form_name": "JIMUSHITSU",
-        "page_number": 1,
-        "category": "moji_goi",
-        "question_type": "text_only",
-        "question": "11.\u00a0\u00a0\n\u307e\u3044\u3070\u3093\u3001\u65e5\u672c\u8a9e \u3092\u00a0\u52c9\u5f37\u3057\u307e\u3059",
-        "context": "",
-        "choices": [
-            {
-                "text": "\u3079\u3093\u304d\u3087\u3046",
-                "image": null
-            },
-            {
-                "text": "\u306a\u3089\u3044",
-                "image": null
-            },
-            {
-                "text": "\u3057\u3085\u304f\u3060\u3044",
-                "image": null
-            }
-        ],
-        "images": [],
-        "audio_url": "",
-        "audio": "",
-        "hash": "4a8ac88255edee4bd15f5494f05dce45",
-        "created_at": "2026-05-18T15:07:56.882321"
-    },
-    {
-        "question_id": "JIMUSHITSU_11_1779091677",
-        "form_name": "JIMUSHITSU",
-        "page_number": 1,
-        "category": "moji_goi",
-        "question_type": "text_only",
-        "question": "12.\u00a0\u00a0\n\u306b\u308f \u306b\u00a0\u5c0f\u3055\u3044\u306d\u3053 \u304c \u3044\u307e\u3059",
-        "context": "",
-        "choices": [
-            {
-                "text": "\u3061\u3044\u3055\u3044",
-                "image": null
-            },
-            {
-                "text": "\u306a\u3093\u3055\u3044",
-                "image": null
-            },
-            {
-                "text": "\u3042\u3055\u3044",
-                "image": null
-            }
-        ],
-        "images": [],
-        "audio_url": "",
-        "audio": "",
-        "hash": "782d8ee56615de6c6165febc42423b62",
-        "created_at": "2026-05-18T15:07:57.248997",
-        "correctAnswer": "\u3061\u3044\u3055\u3044"
-    },
-    {
-        "question_id": "JIMUSHITSU_12_1779091678",
+        "question_id": "JIMUSHITSU_12_1779098831",
         "form_name": "JIMUSHITSU",
         "page_number": 1,
         "category": "moji_goi",
@@ -380,115 +13,29 @@
                 "image": null
             },
             {
-                "text": "\u3053\u3046\u3058\u3087\u3046",
+                "text": "\u3058\u3080\u3057\u3064",
                 "image": null
             },
             {
-                "text": "\u3058\u3080\u3057\u3064",
+                "text": "\u3053\u3046\u3058\u3087\u3046",
                 "image": null
             }
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB_CedDqc2aoOwdBHCZNZNmF6NgRtK8AkJsu43k297mwfMWaQnbSqWzuDwCv2zBsrpFULAR-HRbD4ffA0e0S8Guw2rOQ3LhabJdSQ2aKBzvVMkC7dd7ctAEAHTy2I4sqdRtUXk11jFLCglzcDLkwNM62pyd8aC3T6IaWATHKpTzBRfHOTdfY1D5DCR_eF0jjFGITDDMvB9034M=w523?key=TgjLIogtHAsD5FP4piV_Uw",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBi6CcQcwWGBJeoihV-38BPjPCZmgiwZNN7mb5-evCx55lP5G9MhdbLTPyjPHBUjRVq7ZhcSJF_DO5Qr43L77qkxKUO6kqNXklSmb8CpxAp3B1Y2tey6BHI5UOJUzt3sDxIEpIQNs6sgQkQhnIQX8pq6uZ0GbuzFTxHEF6699Cx_keiFwForPGK4T8JVdVwOaIi1pdpYNMGNcw=w523?key=TgjLIogtHAsD5FP4piV_Uw",
                 "path": "images/00c0d6a58f0f4a4fbeeba3a23ab32b26.png",
                 "index": 0
             }
         ],
         "audio_url": "",
         "audio": "",
-        "hash": "34ba0387d6d52bf45dc6f607a64320c2",
-        "created_at": "2026-05-18T15:07:58.388113"
+        "hash": "ae0bf2ea07502ba5601dddf657a90506",
+        "created_at": "2026-05-18T17:07:11.113752",
+        "correctAnswer": "\u3058\u3080\u3057\u3064"
     },
     {
-        "question_id": "JIMUSHITSU_13_1779091688",
-        "form_name": "JIMUSHITSU",
-        "page_number": 2,
-        "category": "kaiwa_hyougen",
-        "question_type": "text_only",
-        "question": "1.\u00a0\nA : \u3055\u3088\u3046\u306a\u3089\nB : __________",
-        "context": "",
-        "choices": [
-            {
-                "text": "\u3042\u308a\u304c\u3068\u3046",
-                "image": null
-            },
-            {
-                "text": "\u3058\u3083\u3001\u307e\u305f",
-                "image": null
-            },
-            {
-                "text": "\u3057\u3064\u308c\u3044\u3057\u307e\u3059",
-                "image": null
-            }
-        ],
-        "images": [],
-        "audio_url": "",
-        "audio": "",
-        "hash": "4f7f2f173e4bf7bcea26d80e8dd086be",
-        "created_at": "2026-05-18T15:08:08.374894",
-        "correctAnswer": "\u3058\u3083\u3001\u307e\u305f"
-    },
-    {
-        "question_id": "JIMUSHITSU_14_1779091688",
-        "form_name": "JIMUSHITSU",
-        "page_number": 2,
-        "category": "kaiwa_hyougen",
-        "question_type": "text_only",
-        "question": "2\nA :\u00a0\u8a95\u751f\u65e5__________\nB : \u3042\u308a\u304c\u3068\u3046",
-        "context": "",
-        "choices": [
-            {
-                "text": "\u304a\u3081\u3067\u3068\u3046\u3054\u3056\u3044\u307e\u3059",
-                "image": null
-            },
-            {
-                "text": "\u30db\u30e9\u30fc",
-                "image": null
-            },
-            {
-                "text": "\u3042\u3051\u307e\u3057\u3066\u304a\u3081\u3067\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002",
-                "image": null
-            }
-        ],
-        "images": [],
-        "audio_url": "",
-        "audio": "",
-        "hash": "09c0f271f1a893fa28af1c5943e787c1",
-        "created_at": "2026-05-18T15:08:08.739117",
-        "correctAnswer": "\u304a\u3081\u3067\u3068\u3046\u3054\u3056\u3044\u307e\u3059"
-    },
-    {
-        "question_id": "JIMUSHITSU_15_1779091689",
-        "form_name": "JIMUSHITSU",
-        "page_number": 2,
-        "category": "kaiwa_hyougen",
-        "question_type": "text_only",
-        "question": "3.\u00a0\nA :\u00a0\u3057\u3087\u308b\u3044 \u306e \u304b\u304d\u304b\u305f\u3092____________________\nB : \u3044\u3044\u3067\u3059\u3088",
-        "context": "",
-        "choices": [
-            {
-                "text": "\u305b\u3064\u3081\u3044\u3057\u3066\u3082\u3089\u3044\u307e\u305b\u3093\u304b",
-                "image": null
-            },
-            {
-                "text": "\u6cf3\u3044\u3067\u3082\u3089\u3044\u307e\u305b\u3093\u304b",
-                "image": null
-            },
-            {
-                "text": "\u3042\u3089\u3063\u3066\u3082\u3089\u3044\u307e\u305b\u3093\u304b",
-                "image": null
-            }
-        ],
-        "images": [],
-        "audio_url": "",
-        "audio": "",
-        "hash": "addc69e5001cdb8c03158323d52b6022",
-        "created_at": "2026-05-18T15:08:09.104628",
-        "correctAnswer": "\u305b\u3064\u3081\u3044\u3057\u3066\u3082\u3089\u3044\u307e\u305b\u3093\u304b"
-    },
-    {
-        "question_id": "JIMUSHITSU_16_1779091689",
+        "question_id": "JIMUSHITSU_16_1779098841",
         "form_name": "JIMUSHITSU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
@@ -497,26 +44,27 @@
         "context": "",
         "choices": [
             {
+                "text": "\u66f8\u3044\u3066\u307f\u307e\u3059",
+                "image": null
+            },
+            {
                 "text": "\u6d17\u3063\u3066\u307f\u307e\u3059",
                 "image": null
             },
             {
                 "text": "\u8ff7\u3063\u3066\u307f\u307e\u3059",
                 "image": null
-            },
-            {
-                "text": "\u66f8\u3044\u3066\u307f\u307e\u3059",
-                "image": null
             }
         ],
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "d48374e4e0720faed10d3604ea01a773",
-        "created_at": "2026-05-18T15:08:09.467400"
+        "hash": "dbf85324922bce8a6a38eeba97b1bac5",
+        "created_at": "2026-05-18T17:07:21.404588",
+        "correctAnswer": "\u66f8\u3044\u3066\u307f\u307e\u3059"
     },
     {
-        "question_id": "JIMUSHITSU_17_1779091690",
+        "question_id": "JIMUSHITSU_17_1779098842",
         "form_name": "JIMUSHITSU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
@@ -525,67 +73,33 @@
         "context": "",
         "choices": [
             {
-                "text": "\u6d17\u3046\u304b",
-                "image": null
-            },
-            {
                 "text": "\u6255\u3046\u304b",
                 "image": null
             },
             {
                 "text": "\u51fa\u3059\u304b",
                 "image": null
+            },
+            {
+                "text": "\u6d17\u3046\u304b",
+                "image": null
             }
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA7zyacupETxou17sOHmpm2aFaiybQHdEGpx86a_xNAxwUyXUmepSOmoYLAtYEsu6NKJuy35whDoa3PuWrfZPILp2aO8I2vrUg4kG75yZmv6CeifZuqtwBcSk5VtFbCkcF6z9NNyLeaF77qB2huzAqfAzEAhiPEKIQbckGMyxUEIyc_8UWmd_gyEtgS426zXcViBl6lyTGPb9N7=w337?key=TgjLIogtHAsD5FP4piV_Uw",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVANCvH3lHlv-RUX414dQzbQq0LRcUPSCLA1XNL2OTnec7qPkNOivq7k8MrsAnkdW9PTT5MtWGNIoySd4rf4cLSq_h-wdfqVwk4-MSgQWvIIxwCcALMqurW3V1VSgOPf9PoublJOUIBndmLq0IzVsKx2pla0Tv5dhzKZjinMWYTOQk9kkLL7SVypLFguKktgeO05UzcLyd85yO8s=w337?key=TgjLIogtHAsD5FP4piV_Uw",
                 "path": "images/05b22702f9d299590a0893cf29b04338.png",
                 "index": 0
             }
         ],
         "audio_url": "",
         "audio": "",
-        "hash": "187a981b6ee7559b2d92cca3f18dbc41",
-        "created_at": "2026-05-18T15:08:10.146670"
+        "hash": "b1a35f1167b0f1abbb43c7cbbf3cc9ca",
+        "created_at": "2026-05-18T17:07:22.020294",
+        "correctAnswer": "\u51fa\u3059\u304b"
     },
     {
-        "question_id": "JIMUSHITSU_18_1779091691",
-        "form_name": "JIMUSHITSU",
-        "page_number": 2,
-        "category": "kaiwa_hyougen",
-        "question_type": "text_image",
-        "question": "6\nA : \u30dd\u30a4\u30f3\u30c8\u30ab\u30fc\u30c9 \u3092 \u6301\u3061\u307e\u3059\u304b\uff1f\nB : \u3059\u307f\u307e\u305b\u3093\u3001__________",
-        "context": "",
-        "choices": [
-            {
-                "text": "\u3042\u308a\u307e\u3059",
-                "image": null
-            },
-            {
-                "text": "\u5e30\u308a\u307e\u3057\u305f",
-                "image": null
-            },
-            {
-                "text": "\u5fd8\u308c\u3066\u3057\u307e\u3044\u307e\u3057\u305f",
-                "image": null
-            }
-        ],
-        "images": [
-            {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBabrN1G8skkJzREUnAEnferhM1ZOwIo8j-wV1v_C_RKSIbdnWY5IY6pgw1HsjgRs7aV8gj9HIBBGSt_1DmrZRWBntlgQprbbQ8WYm8Y2i_ZG3hx0mGIgaxfyiM6HRxMNdL4oemdv3sLKl-hTQQPiLH9gZhk2g7Gzaa1AE-AVHHgN4rn9NnEa9dup8Z-mh4R3g5TzNHLYld8TkK=w520?key=TgjLIogtHAsD5FP4piV_Uw",
-                "path": "images/911deae78086e950bdcbd8d6dbaa4fac.png",
-                "index": 0
-            }
-        ],
-        "audio_url": "",
-        "audio": "",
-        "hash": "63af2a19987ff96bb72948761ac181b1",
-        "created_at": "2026-05-18T15:08:11.122419",
-        "correctAnswer": "\u5fd8\u308c\u3066\u3057\u307e\u3044\u307e\u3057\u305f"
-    },
-    {
-        "question_id": "JIMUSHITSU_19_1779091692",
+        "question_id": "JIMUSHITSU_19_1779098843",
         "form_name": "JIMUSHITSU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
@@ -594,33 +108,33 @@
         "context": "",
         "choices": [
             {
+                "text": "\u8aad\u307f\u307e\u3059\u304b",
+                "image": null
+            },
+            {
                 "text": "\u98df\u3079\u307e\u3059\u304b",
                 "image": null
             },
             {
                 "text": "\u98f2\u307f\u307e\u3059\u304b",
                 "image": null
-            },
-            {
-                "text": "\u8aad\u307f\u307e\u3059\u304b",
-                "image": null
             }
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB_aeg7cSRIyIm1x7WJc65TYeUYHiQc6lLwwmxBgqEc1hFQFztAPA2uk_uyxLfBkgzjVpzmy2jmIoCwoJk37r9MYiEZAEsv-rVAL-2q4t3AYbYQKR_O1oDleL58J-LLerJQpm15Ae7WwqYNJbDHJ2lRo6efFbFTIyXqV2xgV0pTHqQCjPnq4h8ENIA1KNGaG8ivOsg-tQ8Jbzz5=w403?key=TgjLIogtHAsD5FP4piV_Uw",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBm-vYa6Er3kS8GWRpgtodqV4df2eJeTWoCeSRa6_-S01PADfQ54L4uYbvb5OKNf26WZXDpHsb8ws7vWyPIGpaW1dy0C1nfXIzjEY-SsFDa2VZjw9VgwgXFWGivRXGxcONZSOZ1PM5Td9tTPleQwDRPGQOIWE-WEF7kh-ENsPZk4gYSkP1oWICcdTHIOHYbw76V-TijNh6jFd0A=w403?key=TgjLIogtHAsD5FP4piV_Uw",
                 "path": "images/450a2d184641fa38227076214bddb389.png",
                 "index": 0
             }
         ],
         "audio_url": "",
         "audio": "",
-        "hash": "24bc4f6d430e53c842c3cec292a0b111",
-        "created_at": "2026-05-18T15:08:12.145289",
+        "hash": "a84d9007c1d119b4be654a5af667c3a9",
+        "created_at": "2026-05-18T17:07:23.655057",
         "correctAnswer": "\u98f2\u307f\u307e\u3059\u304b"
     },
     {
-        "question_id": "JIMUSHITSU_20_1779091692",
+        "question_id": "JIMUSHITSU_20_1779098844",
         "form_name": "JIMUSHITSU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
@@ -629,11 +143,11 @@
         "context": "",
         "choices": [
             {
-                "text": "\u5e30\u308a\u307e\u3059",
+                "text": "\u9078\u3073\u307e\u3059",
                 "image": null
             },
             {
-                "text": "\u9078\u3073\u307e\u3059",
+                "text": "\u5e30\u308a\u307e\u3059",
                 "image": null
             },
             {
@@ -644,11 +158,12 @@
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "643a0ccc98b01efdb4f9fec3338c2fbe",
-        "created_at": "2026-05-18T15:08:12.499417"
+        "hash": "19cfcbddca560bb4b48ee039c458a36d",
+        "created_at": "2026-05-18T17:07:24.017908",
+        "correctAnswer": "\u9078\u3073\u307e\u3059"
     },
     {
-        "question_id": "JIMUSHITSU_21_1779091692",
+        "question_id": "JIMUSHITSU_21_1779098844",
         "form_name": "JIMUSHITSU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
@@ -661,23 +176,23 @@
                 "image": null
             },
             {
-                "text": "\u305d\u3046\u3059\u308b\u3068",
+                "text": "\u305c\u3093\u305c\u3093",
                 "image": null
             },
             {
-                "text": "\u305c\u3093\u305c\u3093",
+                "text": "\u305d\u3046\u3059\u308b\u3068",
                 "image": null
             }
         ],
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "06e351fc9090f7bf882443f21463aeb6",
-        "created_at": "2026-05-18T15:08:12.866316",
+        "hash": "f04f89561681a477bcff7dead7bd90a1",
+        "created_at": "2026-05-18T17:07:24.382988",
         "correctAnswer": "\u305d\u3046\u3059\u308b\u3068"
     },
     {
-        "question_id": "JIMUSHITSU_22_1779091693",
+        "question_id": "JIMUSHITSU_22_1779098844",
         "form_name": "JIMUSHITSU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
@@ -686,7 +201,7 @@
         "context": "",
         "choices": [
             {
-                "text": "\u3069\u3053\u304c\u3044\u3044\u3067\u3059\u304b",
+                "text": "\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002",
                 "image": null
             },
             {
@@ -694,19 +209,18 @@
                 "image": null
             },
             {
-                "text": "\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002",
+                "text": "\u3069\u3053\u304c\u3044\u3044\u3067\u3059\u304b",
                 "image": null
             }
         ],
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "054b9fb3c9fcef0baec3c818943a949f",
-        "created_at": "2026-05-18T15:08:13.231548",
-        "correctAnswer": "\u3069\u3046\u3057\u305f\u3089\u3044\u3044\u3067\u3059\u304b"
+        "hash": "69b7fa926d996afcd9927a5590dff25f",
+        "created_at": "2026-05-18T17:07:24.748451"
     },
     {
-        "question_id": "JIMUSHITSU_23_1779091693",
+        "question_id": "JIMUSHITSU_23_1779098845",
         "form_name": "JIMUSHITSU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
@@ -715,27 +229,27 @@
         "context": "",
         "choices": [
             {
-                "text": "\u98df\u3079\u307e\u3057\u3087\u3046",
-                "image": null
-            },
-            {
                 "text": "\u98f2\u307f\u307e\u3057\u3087\u3046",
                 "image": null
             },
             {
                 "text": "\u3069\u3046\u3067\u3059\u304b",
                 "image": null
+            },
+            {
+                "text": "\u98df\u3079\u307e\u3057\u3087\u3046",
+                "image": null
             }
         ],
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "666c5dbc807f7c1d6a29d97a52cac56c",
-        "created_at": "2026-05-18T15:08:13.598728",
+        "hash": "ecee8a79baf2b0ee87822bd952ac8d40",
+        "created_at": "2026-05-18T17:07:25.116681",
         "correctAnswer": "\u3069\u3046\u3067\u3059\u304b"
     },
     {
-        "question_id": "JIMUSHITSU_24_1779091693",
+        "question_id": "JIMUSHITSU_24_1779098845",
         "form_name": "JIMUSHITSU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
@@ -744,27 +258,27 @@
         "context": "",
         "choices": [
             {
+                "text": "\u3068\u304b\u3044",
+                "image": null
+            },
+            {
                 "text": "\u306b\u304c\u3066",
                 "image": null
             },
             {
                 "text": "\u3068\u304f\u3044",
                 "image": null
-            },
-            {
-                "text": "\u3068\u304b\u3044",
-                "image": null
             }
         ],
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "fc8259a9cb175e62ff8adaf501ad3718",
-        "created_at": "2026-05-18T15:08:13.963733",
+        "hash": "bb3f16ef4b2c28b52f8691105efc9ba8",
+        "created_at": "2026-05-18T17:07:25.484128",
         "correctAnswer": "\u306b\u304c\u3066"
     },
     {
-        "question_id": "JIMUSHITSU_25_1779091707",
+        "question_id": "JIMUSHITSU_25_1779098858",
         "form_name": "JIMUSHITSU",
         "page_number": 3,
         "category": "choukai",
@@ -775,99 +289,34 @@
             {
                 "text": "\u3068\u3082\u3060\u3061\u3068\u30e2\u30fc\u30eb\u306b\u3044\u304f",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDvvqC7V2JDwHOo7I7ox4Xh8tKncvfblfePlscGlH8uQzoiraYnZ6XZXAT5kLpGd8x3dHXSERwewCT6pmVMjGr_Ju2phxsHmHdN-ULZMq0mL66HBJ16mcKsfMWA2UJKPE1YbOwmdi3zAxgQDGUmHw3BZq1AV-svkS64hBd9dFtnOKhdmzcu3srauqWgwOO1U4MsyYcy-tJ9VJ0L=w260?key=TgjLIogtHAsD5FP4piV_Uw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCdEAH2K1EOriCAsfb7vxx9MWPE5khmO-GkRXzGVfaCdq1arM4DVDPIYBiy7aDuPq5C1oHH41eN26L6L1m01-n8mzyrdivXSxF6otZ5zb9fc_H4oinZNIpoDqKCpD9p0zYIKwZTjlg4nwtlqU9cuPAi-ecHSokKThbH4XfpjPr-jEbw_qMQwNIt-av2sHKBeC5LwzM8Sdv71zP-=w260?key=TgjLIogtHAsD5FP4piV_Uw",
                     "path": "images/f270516b6b099c5f8ff7db97b3454531.png"
-                }
-            },
-            {
-                "text": "\u3068\u3082\u3060\u3061\u3068\u3044\u3063\u3057\u3087\u306b\u304c\u3063\u3053\u3046",
-                "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDnI8ZB9mqy29CvPilSE0QDujrQ7qbd2kCnBfKt1eldEHlh2SdpCHmfe5mByA42eCsC6a6pv5ZtSATln-DVR5corXrdoRaTTk2Hb-8q4-vBNiRJCNVEDLh97jyyJrTzDbPqnUly6GruxZeBPYwPqHx_yowqAV1CjsbR2WUCahR7xSJuh5SCNYkSKst3b48q02nB-OSXFVK9ThA=w260?key=TgjLIogtHAsD5FP4piV_Uw",
-                    "path": "images/9b8d04261b26280683f670496990eb93.png"
                 }
             },
             {
                 "text": "\u3068\u3082\u3060\u3061\u306e\u3046\u3061",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDQlFIQvTTzacKmzB07a_TdAlmeUAwcf3aAon27HdlbI-aYEXRduYHyOCu7yHL-5eBjr0B_CHjUqCrv9xIOjJ2nsxhgs1DUCQ4P5MyEyE5XvCezJzH3cC_2BAO6E8ZqVw5VZ0l32hN5J98cEGZO6szWVxYw0PrIYBz_QkMedmTaY-pW0wD9Q-wtvqskeny6XxS9sg_jJPretecI=w260?key=TgjLIogtHAsD5FP4piV_Uw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBgcIWZOfaGez6wBfyRMBsbndZGLeCgZp0AXZJgN99uSjc_AvlqKGzPl9D1E-WCefzWypVjUtiKMgPXEhTduQxbSk2ygJKIEgTWppOwYR7z3VW9xkkIUTOB1ZciKG2k0j92LNjUofbwLEupV5_gO88doi3uYDPuBKVogBLWfwp81YSeedqPYufeSpyZ-NgXue0ZhjmkgmoVLn1A=w260?key=TgjLIogtHAsD5FP4piV_Uw",
                     "path": "images/cddae1951e732c93c562ab8ec4f2eac4.png"
+                }
+            },
+            {
+                "text": "\u3068\u3082\u3060\u3061\u3068\u3044\u3063\u3057\u3087\u306b\u304c\u3063\u3053\u3046",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBgE7QnDF8uSqycVbHAvzUVeYE4UmHxZZw3B8hJJXe4DF0tgFU_pAtUheXOZwo_jEW4cZ_NpvufnFGMF0g2BM8UiHl4ZfBoAeNLAHIMWL2HRhss8uLusconNDDHkz_gkKMFTy7guiT72jBH4JK7BjReO3Rlh68_oo9XNtcsPXYJRXg5ZYkBCygJpHaFnsy-XUutCwmMD6oicwM=w260?key=TgjLIogtHAsD5FP4piV_Uw",
+                    "path": "images/9b8d04261b26280683f670496990eb93.png"
                 }
             }
         ],
         "images": [],
         "audio_url": "https://drive.google.com/file/d/175XSF2A67oK4yBs75h4J-gt_xu8WHBeK/view?usp=drive_link",
         "audio": "audio/d1100d35fc79b4e235d594d525b8e360.mp3",
-        "hash": "2df013f3e8807fb7ec9f929ef2f9b848",
-        "created_at": "2026-05-18T15:08:27.826799"
+        "hash": "78e4cd08a65883ec8f1fb8763b7752d4",
+        "created_at": "2026-05-18T17:07:38.545753",
+        "correctAnswer": "\u3068\u3082\u3060\u3061\u306e\u3046\u3061"
     },
     {
-        "question_id": "JIMUSHITSU_26_1779091711",
-        "form_name": "JIMUSHITSU",
-        "page_number": 3,
-        "category": "choukai",
-        "question_type": "chokai",
-        "question": "2.\u00a0Audio\nRUMAH PEREMPUAN TERSEBUT DEKAT DENGAN APA ?",
-        "context": "",
-        "choices": [
-            {
-                "text": "\u3046\u307f\u306e\u3061\u304b\u304f\u306b\u3042\u308a\u307e\u3059",
-                "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAvdsJoznLl9WRCT7R0LJ83KPfqs0EHQ3gMWfg2rz-vyxnw9eAL04dk3CPp-shNzcXPJFU8KMlItTF2D_iaCTeGBgXt-VDR-bvcFmcsOCP_OPYqxVVQnZtZwV1My126hjI5xVI_qHzUsrfam_ifGmDQu1MQcKrT10OeV3hbeyPtZNiE7AxKLfphX8Z3u-no1U8q2R7qh6XEij8J=w260?key=TgjLIogtHAsD5FP4piV_Uw",
-                    "path": "images/7611c6b5d4bf706604e3a0b12cde3b67.png"
-                }
-            },
-            {
-                "text": "\u304b\u308f\u306e\u3061\u304b\u304f\u306b\u3042\u308a\u307e\u3059",
-                "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBWhOqFk8Cgzf8CYeObIc3plE6fnrXI_i0Px-kNQISpZU1eRqqVTblZLEMLiozsjO6-CylGBjFNEif5hoVDag4HB-2y5I8RFLo5yXRVlPtcKh8pxV-NsAieKpQdEbnNbN7HZeFR4NZaGiD04O-FoDSf08K1RXPSIdwXvmxIJYYpl22NVcALPxyRo8sVBsTwnVSgThcMAdMcNitX=w260?key=TgjLIogtHAsD5FP4piV_Uw",
-                    "path": "images/6e63138904e64b390f627f38c9acc863.png"
-                }
-            },
-            {
-                "text": "\u3084\u307e\u306e\u3061\u304b\u304f\u306b\u3042\u308a\u307e\u3059",
-                "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAjoXqclUEYUQ9i_8kHO1QxGvw-cmmyTmYs8OrZS_MmoJAW6O3Vg_s1CBkLuWr-UsTyOpLSW5doEVHFyFhpBC1jwdcT88HKx4SV4OcASAigOUz9p9nDDQh9AZ9YUP-0C6cF1lY_WMI6jDmmYyaOMOWQTqYcsMWKoRC_5Ht6m0IgaH4CIXNWOr_ht8cqIUoIi0N7FvLm9kctLB_z=w260?key=TgjLIogtHAsD5FP4piV_Uw",
-                    "path": "images/3e047a9a9c8dc2f6b8477229f1b8e16f.png"
-                }
-            }
-        ],
-        "images": [],
-        "audio_url": "https://drive.google.com/file/d/1WFc1ornPiVidAMisrEh4JBOYvBZWkbWI/view?usp=drive_link",
-        "audio": "audio/2283af8184036e6a9242d871998d95c1.mp3",
-        "hash": "fa05af38293411bc04046af0441dfaaa",
-        "created_at": "2026-05-18T15:08:31.768325",
-        "correctAnswer": "\u304b\u308f\u306e\u3061\u304b\u304f\u306b\u3042\u308a\u307e\u3059"
-    },
-    {
-        "question_id": "JIMUSHITSU_27_1779091714",
-        "form_name": "JIMUSHITSU",
-        "page_number": 3,
-        "category": "choukai",
-        "question_type": "chokai",
-        "question": "3.\u00a0\u00a0Audio\nPRIA DAN WANITA SEDANG MENGOBROL TENTANG HARI KETIKA ADA DAGING YANG MURAH\u00a0\n\n\nPEREMPUAN TERSEBUT PERGI KE SUPERMARKET HARI APA ?",
-        "context": "",
-        "choices": [
-            {
-                "text": "\u306b\u3061\u3088\u3046\u3073\u3067\u3059",
-                "image": null
-            },
-            {
-                "text": "\u3052\u3064\u3088\u3046\u3073\u3067\u3059",
-                "image": null
-            },
-            {
-                "text": "\u3069\u3088\u3046\u3073\u3067\u3059",
-                "image": null
-            }
-        ],
-        "images": [],
-        "audio_url": "https://drive.google.com/file/d/1oSljZ8YB5YntpVQdbfsvx-_XpDcrM6Qn/view?usp=drive_link",
-        "audio": "audio/349b10fdcd8cdd9acaa1518c37176da1.mp3",
-        "hash": "ffc4dea068d677f73581dfdfdb4f07b8",
-        "created_at": "2026-05-18T15:08:34.573273"
-    },
-    {
-        "question_id": "JIMUSHITSU_28_1779091716",
+        "question_id": "JIMUSHITSU_28_1779098861",
         "form_name": "JIMUSHITSU",
         "page_number": 3,
         "category": "choukai",
@@ -876,11 +325,11 @@
         "context": "",
         "choices": [
             {
-                "text": "NOMOR 54",
+                "text": "NOMOR 55",
                 "image": null
             },
             {
-                "text": "NOMOR 55",
+                "text": "NOMOR 54",
                 "image": null
             },
             {
@@ -891,78 +340,12 @@
         "images": [],
         "audio_url": "https://drive.google.com/file/d/1LHwgBCyvbASCaMLTfn5-R7IdSGWMZ6x5/view?usp=drive_link",
         "audio": "audio/c2ffc8377c2ba8316edf824c47a6d3ce.mp3",
-        "hash": "5604b4aac65a2c43940587a78ef8432b",
-        "created_at": "2026-05-18T15:08:36.487025",
+        "hash": "d6264b3217faad05f5828ea6b6003f3a",
+        "created_at": "2026-05-18T17:07:41.717443",
         "correctAnswer": "NOMOR 54"
     },
     {
-        "question_id": "JIMUSHITSU_29_1779091717",
-        "form_name": "JIMUSHITSU",
-        "page_number": 3,
-        "category": "choukai",
-        "question_type": "text_only",
-        "question": "5.\u00a0\u00a0\nSELAIN BISA MEMAKAI RUANGAN GYM, BISA MEMAKAI LAPANGAN APA LAGI\u00a0 ?",
-        "context": "",
-        "choices": [
-            {
-                "text": "\u30d0\u30c9\u30df\u30f3\u30c8\u30f3 \u3092\u3057\u307e\u3059",
-                "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVASRzqpuGLrEv1qJi_obBKAeSVuvho3HG5Hbx_gtV-UX5syuLRy90PocULVQiQVu220inyn4t5KI3lf-wK3lhm3X4umQjh3L5ALtCkgcv2mRTqE_Ohj9_7t13I3zA9OqdT11o-f1XBEhkKe_Vr8ucbbMDrUZCn9mtLVu5Blw_WV8FxsoaCE_2RlDNLLmFKnIg9wJFvo2mE_ohkR=w260?key=TgjLIogtHAsD5FP4piV_Uw",
-                    "path": "images/f9e8d8e14bb9ea37cb8dead12a42cc59.png"
-                }
-            },
-            {
-                "text": "\u30b5\u30c3\u30ab\u30fc\u3092\u3057\u307e\u3059",
-                "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBWySV6IA9Wefz0JyN9Td6c3HMINGIhMieFqlYQ0rr7vSWqHpj8mJlDJHWbnxUZmIKScghDsMEY-JO2TSvI4Evy55NtVq9rrNVTfpLMf2uy_SAItRHMGMeGkrVM0x0tmBd0f9slTKKHMGZPikAPgA17H3mzeWXZNq5BtZHAZpwUMShsh_XbWcjLKWk6XOC1h1U8UzsLOyQyHGZ6=w260?key=TgjLIogtHAsD5FP4piV_Uw",
-                    "path": "images/9be5ac128f9de06b0b05ee432de20897.png"
-                }
-            },
-            {
-                "text": "\u3064\u308a\u3092\u3057\u307e\u3059",
-                "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDSYXtxYwvCroeWYueCU4EWXlsBBUr_r3it0ieYGbXdz01plRP2FbarR1Pz4pc6peckgGkaX3BN7rJmycdVBwiZHNL2tKlmYobpImQgIQNXhFcLYpdpEzNlYo8mbnp7NGn2X4smXZmLsUM2dukBIB-tzpGqVswzrBr4dO1ZVW_zZ8df6GFMZuOmAquLBzGppThLX-ZPxed1SCo-=w260?key=TgjLIogtHAsD5FP4piV_Uw",
-                    "path": "images/4546a11d00634186e94b6cf85f561f98.png"
-                }
-            }
-        ],
-        "images": [],
-        "audio_url": "",
-        "audio": "",
-        "hash": "fd7a200307b1dbcdba402f216938e8aa",
-        "created_at": "2026-05-18T15:08:37.577271"
-    },
-    {
-        "question_id": "JIMUSHITSU_30_1779091719",
-        "form_name": "JIMUSHITSU",
-        "page_number": 3,
-        "category": "choukai",
-        "question_type": "chokai",
-        "question": "6.\u00a0Audio\nPEREMPUAN NYA ADA DIMANA ?",
-        "context": "",
-        "choices": [
-            {
-                "text": "DI RUMAH",
-                "image": null
-            },
-            {
-                "text": "DI KANTOR",
-                "image": null
-            },
-            {
-                "text": "DI KAMPUS",
-                "image": null
-            }
-        ],
-        "images": [],
-        "audio_url": "https://drive.google.com/file/d/1P5AenbeuDXTU_64eWsu3U8TS8_TkIYwL/view?usp=drive_link",
-        "audio": "audio/5bf7c526a8e788ef402abc98af738ca1.mp3",
-        "hash": "df1b57efd6b07123b2c2dd8ce03b0039",
-        "created_at": "2026-05-18T15:08:39.892428",
-        "correctAnswer": "DI KANTOR"
-    },
-    {
-        "question_id": "JIMUSHITSU_31_1779091721",
+        "question_id": "JIMUSHITSU_31_1779098864",
         "form_name": "JIMUSHITSU",
         "page_number": 3,
         "category": "choukai",
@@ -971,7 +354,7 @@
         "context": "",
         "choices": [
             {
-                "text": "\u308a\u3093\u3054\u3075\u305f\u3064 \u3068 \u305f\u307e\u3054\u3075\u305f\u3064",
+                "text": "\u308a\u3093\u3054\u307f\u3063\u3064 \u3068 \u305f\u307e\u3054\u3075\u305f\u3064",
                 "image": null
             },
             {
@@ -979,19 +362,18 @@
                 "image": null
             },
             {
-                "text": "\u308a\u3093\u3054\u307f\u3063\u3064 \u3068 \u305f\u307e\u3054\u3075\u305f\u3064",
+                "text": "\u308a\u3093\u3054\u3075\u305f\u3064 \u3068 \u305f\u307e\u3054\u3075\u305f\u3064",
                 "image": null
             }
         ],
         "images": [],
         "audio_url": "https://drive.google.com/file/d/1527Q48zRVsqefRF_u8jY15dm4YrTGXUG/view?usp=drive_link",
         "audio": "audio/dc3ab303906c5b7069c119e8779f91f3.mp3",
-        "hash": "72b395b4ebafc9b93f5e182f419a43f8",
-        "created_at": "2026-05-18T15:08:41.972301",
-        "correctAnswer": "\u308a\u3093\u3054\u307f\u3063\u3064 \u3068 \u305f\u307e\u3054\u3075\u305f\u3064"
+        "hash": "0c81c17cfd5fd0d5f9f4d6f772b8c265",
+        "created_at": "2026-05-18T17:07:44.435626"
     },
     {
-        "question_id": "JIMUSHITSU_32_1779091723",
+        "question_id": "JIMUSHITSU_32_1779098865",
         "form_name": "JIMUSHITSU",
         "page_number": 3,
         "category": "choukai",
@@ -1000,36 +382,36 @@
         "context": "",
         "choices": [
             {
-                "text": "DIATAS MEJA",
-                "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB_Ra9porGeN5YDUsSl6PxGuxUth47I_2DVoLd2CrMhY_LFTenX93XoQbhmffkRGgAe7ODXKGvalySW8ic7FEZvtDTtr62HSqiIgv7ggnpS4Z89KhtMHAf88_S1MGF0i7X2eCJPkM3nEyosPglV1ZqWMUVcyHWI-RU3CD74qo9UcAdoiK2Sg051w0wEMM0wnqgz8kd0MbeIesiN=w260?key=TgjLIogtHAsD5FP4piV_Uw",
-                    "path": "images/e1b8c2523c197918d03da4eb4b7094d9.png"
-                }
-            },
-            {
                 "text": "DI DALAM KULKAS",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBIpvSEhwL5ZEuXR45QJ9Y7iLekjD9auYju4JQRV8xHrxHWPNn5t60u6ymeoQRpdw6hkmBs7EL3VJ4JeJ4mtxWvKm3K5uRwiT1T9CkvjlGWh555zDhF5oJBk_xNCYyM8g9LDD6Eaz5-KkgPJEirwcWOA3gzau7gvPhyYo-30p6LDHiBEo5_9im90CelmyMG8ruG-at4KhcHxjWc=w251?key=TgjLIogtHAsD5FP4piV_Uw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAYcHBDkIWNmS_8NGUUJoECuSpW4yApuGn9rJLsE3EdJfT-9tk21Xx7A8T3Egw7FR1lbbeZOs6SH4yaAdd_Uuv8nh2bOIMeBsyWBE3rr1RqkjWd7_CJfj28VXxVVwMAS2tN3XRNJILICMPRhRUmx8QD3C5c-83bnKpVrPGyz_oy8urOlYgVNc9BEIospOg_4bYslctjE6_8P-Vt=w251?key=TgjLIogtHAsD5FP4piV_Uw",
                     "path": "images/305c7f8e4304cd355900aba521d672b6.png"
                 }
             },
             {
                 "text": "DIBAWAH MEJA",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCeUi_Xs9KjscPe6liHimnEj1Q3AT9UPbqplmYFTJZAdY_JTxmJWjlRwwGWGTCmZsZ_Ommxb1Wtv4RERDvjFAa1ye1ZXo2U2KEncql1Y-FCgh6dcAQJm78RAFwpMbur3vU-66H2O6EYOPr47ZTL7u4iXWLbk0pGO39fKYG_OSoMjZ8PO3b19OPPOx8OBUg4PjdgO1RWJzzXrc9y=w260?key=TgjLIogtHAsD5FP4piV_Uw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA5tco8DX-59TIX63HzuVdNCRufEMcrgtK6Sc3lZXjgnM_gvTXwdNffbR0tuJMYqs1O5uid2b53fAgUXPSr8TOlzTTZQ1-1chBxtuehQHW8Xx6YmMRBBswe2vfb-NjAvj9TG0T0E1rMbSj5mgInjJUgZvMrGvW6eP-hIo5kEAwTJhEvPqJLH0IYY2DsdhL7Ovx97iEl_clKKl-K=w260?key=TgjLIogtHAsD5FP4piV_Uw",
                     "path": "images/7720f1a4ede0eb2b208e0027da5dad3f.png"
+                }
+            },
+            {
+                "text": "DIATAS MEJA",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDUUpymMTdlxfnRqJcmEqvZhO1VBbMUbTgPhCldl9FjqSZBs6zINhfPyq80Iw21i5IYgUiQ8L4ccc6GyFc8bKdwk9rrWmRA5Iys0ZxyJyJXdtct0s3lTo0iYgICD8FgFueXzIGjLdUIK6W2x0zNupNQecv4kYd5dDBm4IIsL1-Ic6JyrG-uiXEk0F4LdOG_9jZ1UOUTCPsUCxms=w260?key=TgjLIogtHAsD5FP4piV_Uw",
+                    "path": "images/e1b8c2523c197918d03da4eb4b7094d9.png"
                 }
             }
         ],
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "d5d800d3ea061da06dc8468ba01a7cdb",
-        "created_at": "2026-05-18T15:08:43.125712",
+        "hash": "6865395aba7f45c1407a30cc6b18dd70",
+        "created_at": "2026-05-18T17:07:45.547075",
         "correctAnswer": "DIATAS MEJA"
     },
     {
-        "question_id": "JIMUSHITSU_33_1779091723",
+        "question_id": "JIMUSHITSU_33_1779098865",
         "form_name": "JIMUSHITSU",
         "page_number": 3,
         "category": "choukai",
@@ -1038,54 +420,26 @@
         "context": "",
         "choices": [
             {
-                "text": "JAM 02.55",
-                "image": null
-            },
-            {
                 "text": "JAM 04.55",
                 "image": null
             },
             {
                 "text": "JAM 03.55",
                 "image": null
-            }
-        ],
-        "images": [],
-        "audio_url": "",
-        "audio": "",
-        "hash": "fdd8c6a33d36afb30beeacd0e4a6fdae",
-        "created_at": "2026-05-18T15:08:43.485277"
-    },
-    {
-        "question_id": "JIMUSHITSU_34_1779091723",
-        "form_name": "JIMUSHITSU",
-        "page_number": 3,
-        "category": "choukai",
-        "question_type": "text_only",
-        "question": "10.\nB. Apa yang dilakukan si Maria ?",
-        "context": "",
-        "choices": [
-            {
-                "text": "Mengecek ruang foto copy",
-                "image": null
             },
             {
-                "text": "Mengecek elktronik",
-                "image": null
-            },
-            {
-                "text": "Mengecek mesin pabrik",
+                "text": "JAM 02.55",
                 "image": null
             }
         ],
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "1070acde2b492f96f6cb022b216b2ed1",
-        "created_at": "2026-05-18T15:08:43.848013"
+        "hash": "a557cc700f29b9b5fbff8d209e6a0531",
+        "created_at": "2026-05-18T17:07:45.898707"
     },
     {
-        "question_id": "JIMUSHITSU_35_1779091727",
+        "question_id": "JIMUSHITSU_35_1779098868",
         "form_name": "JIMUSHITSU",
         "page_number": 3,
         "category": "choukai",
@@ -1096,34 +450,33 @@
             {
                 "text": "ONIGIRI DAN KARAGE",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBxVZDofpbPepgZFlTzVoPtA7OGn2iqX110VWkZ-83OdaQBl4gLMSdRgrssrpcEQpR_eYjDVeP4rSi_OKiUygdYHF77lMhROGJlvgURWyra5K2GsnMRcUppSZw-i8KkFbXZYDTteYRqk3D5LzKYfDnavA2iVp0lJb0B7Br2q1ki6DH_bcXhqlxGwSndGl29wocUvRJBF-GYRITO=w260?key=TgjLIogtHAsD5FP4piV_Uw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCnxE48rke2SRwzVpu3QXIYO6uyYnQD5P3k9-n9n75vKwJUalWCBD4Ocd-IiJnzu4mgInmfG9VxSwALZN0ETHle0mrFA8La5327lOrMlNfPWyt1jOhYKosXrqi6ZEY5CXjjaM4GhGR4aGj9noYBOgs0hgDKMo8b6Vn5SmHOv4OXDTC-XZbpHn2k-yBsmPRCX0OIRTIl0lC0gkGr=w260?key=TgjLIogtHAsD5FP4piV_Uw",
                     "path": "images/a879eba3eabecc07865e232defd9ed59.png"
-                }
-            },
-            {
-                "text": "SET SUSHI DAN ATATAKAI MISO PUTIH",
-                "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDGYwr5H1HI7pDdEvQr_ZxKdvuTXRIOyAzvp_64DEwNfnKfGGqQlIokLms99ZgFrxrXQwsrEk1LlFh2AuqZ9igtC98bws64nbBqtuHoF86eQStpDaTJCqEdmiKvGhvCgi0wgCbb7DqCGeHUBQDQoOb9lekEO-KurafaVxXNlHr9PmGHKcx8TnwPIxK5ujfhl0HFhWvl0m4JGjd2=w260?key=TgjLIogtHAsD5FP4piV_Uw",
-                    "path": "images/9bfe3f6c705473a6a408f4c5e91486f6.png"
                 }
             },
             {
                 "text": "SET SUSHI DAN ATATAKAI MISO",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCH7yYcDk-QfHoamUpqOgm0keHYX3tqNt9yhcZzplvn3onrlj2Pa13gqEQI9uZSnbcNbLBRYu9mQWEmoQSK9uEhOpMaxrnQtmPP1ZaYAn44NN3eqdfHop_m4nFloPXjjlyHDKP2myXbyR3fPjbmnCwxAsR4BidGr5A4g2p3Qbgexq5Jo2Ai0UJ5falgxUkHjrGf5ktVie8G6qMW=w260?key=TgjLIogtHAsD5FP4piV_Uw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCns4BobWqiCEC11jN0R7II5x6lGkxt2ksKWWqh5Vv4FptC1XhhY2spJAAhed43X6MztGoj0UjeWYi42rxMqfXH8kI1c29c5rWwZvUv8dJcz-aBPgdnqNO3yTMnHUGNLL7o4a1Cqb4ya-SNt4nU2A1xl2G5Ai3HamI3TJwGJkYUGnAaeBNAMzrHRpFJkLZ5prk2tWuC6nzSOO3w=w260?key=TgjLIogtHAsD5FP4piV_Uw",
                     "path": "images/644d09c64f5ec0fcb6734c0f73875ebd.png"
+                }
+            },
+            {
+                "text": "SET SUSHI DAN ATATAKAI MISO PUTIH",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCKHL85ZtaWJqJmERG0mF-2VFEQpPHc_bby0CdAXvjnZl1SB9JUYl8KW_6pyjvzZU-M1fs2bVcSpzSo9Ze3I8_wpQ6vSLeDaiK6g61gXPUunWMjQwUSuFJgrTVwB2nUZpJAFTnjg3-v49nqnBojsh64COy-YHdbMNTx-x22AoeFEYH7YIBU0PCPAPILvYFDL0AKvIiPu33xwVoh=w260?key=TgjLIogtHAsD5FP4piV_Uw",
+                    "path": "images/9bfe3f6c705473a6a408f4c5e91486f6.png"
                 }
             }
         ],
         "images": [],
         "audio_url": "https://drive.google.com/file/d/1YpvZPg6WhfgnDTuACmzL84iy0bDjRrhz/view?usp=drive_link",
         "audio": "audio/d04cca0027c3b829a7dbccc611733c2c.mp3",
-        "hash": "937a6901c05115c0aa6804858d01e503",
-        "created_at": "2026-05-18T15:08:47.318612",
-        "correctAnswer": "SET SUSHI DAN ATATAKAI MISO"
+        "hash": "c4f01dd68da7c0878b0ca29db3c1fdfb",
+        "created_at": "2026-05-18T17:07:48.965201"
     },
     {
-        "question_id": "JIMUSHITSU_36_1779091729",
+        "question_id": "JIMUSHITSU_36_1779098871",
         "form_name": "JIMUSHITSU",
         "page_number": 3,
         "category": "choukai",
@@ -1132,11 +485,11 @@
         "context": "",
         "choices": [
             {
-                "text": "Mengecek komputer",
+                "text": "Mengecek ruang rapat",
                 "image": null
             },
             {
-                "text": "Mengecek ruang rapat",
+                "text": "Mengecek komputer",
                 "image": null
             },
             {
@@ -1147,50 +500,12 @@
         "images": [],
         "audio_url": "https://drive.google.com/file/d/1LJDBa-3LenUE86GZ92HhUIuQAjH5MTfw/view?usp=drive_link",
         "audio": "audio/80a6d600e05110af320c830362dcd25d.mp3",
-        "hash": "c3886a6955ea13e75046520d0a850e39",
-        "created_at": "2026-05-18T15:08:49.514557",
+        "hash": "5dadad2c9cf9e7217fec8109cad944d5",
+        "created_at": "2026-05-18T17:07:51.096415",
         "correctAnswer": "Mengecek ruang rapat"
     },
     {
-        "question_id": "JIMUSHITSU_37_1779091731",
-        "form_name": "JIMUSHITSU",
-        "page_number": 3,
-        "category": "choukai",
-        "question_type": "text_only",
-        "question": "13.\nB. Apa yang dilakukan oleh perempuannya ?",
-        "context": "",
-        "choices": [
-            {
-                "text": "MENYIAPKAN KAMAR (GAMBAR)",
-                "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDzSaLPTVArpB-D7EIYcOkVMU7uH5PRqUfWBS3Z7K89lUxemTWeMuu_QTny9vn3gSlKmJzCd4riKU-Ng_2oCPvew6xEPudgPw-SP0QTfqHcMeE9hU6fehe0o5g_CWavbzteMO46Bhm1DGwApZpDQ6b-rKJgBYze3y7UM4hjIEJDlTuvDWJoCd78vhpqtM_RibdPRXntvxbZETjz=w260?key=TgjLIogtHAsD5FP4piV_Uw",
-                    "path": "images/ee2bd7763c97eab5a98c0f45107c9f32.png"
-                }
-            },
-            {
-                "text": "MENYIAPKAN DOKUMEN (GAMBAR)",
-                "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVClXOqy90nShULr3uySlmmU8uYl2w6UPb5kp_2qHkMZKhy00pGfi64Yzf1xJPD2zfNgznmzwovijM_H6ar4exDNNRWrl76E0DvinHafzTvAE7szgPPz0kn7a8L4MpVtSzjtjbGhEJqKF0iQwVuzH9ehEjGuVIO1wTcsJEjsrxRVVwYNzyHe86fa3B2oGsRtDQLPQfp8XFB70DTJ=w260?key=TgjLIogtHAsD5FP4piV_Uw",
-                    "path": "images/1f741684900741d0cfd7c7bfdf24afff.png"
-                }
-            },
-            {
-                "text": "MENYIAPKAN MAKANAN (GAMBAR)",
-                "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA7W9nvCdft6nhPJA6vq-gwb5dl8aJK-GrAgXWU3yscWEyFMkBLhizi-5FpiyzDfo8c9oEKfNA7AzW5W0SUWUSst_wohk4iFbwx6ZHC79kmWtqvfJFZnVSNeUtlVvAvQ3CPuU1xxARi8MA_1j2_aetGjWKea2yYtQk8YrZCcVLrs1OXclwK44UOfbuPQhEPzJiInTynXqTTplYw=w260?key=TgjLIogtHAsD5FP4piV_Uw",
-                    "path": "images/6e82bc96a2cd8312cc71c39af20c345d.png"
-                }
-            }
-        ],
-        "images": [],
-        "audio_url": "",
-        "audio": "",
-        "hash": "64abacbebade8fd328a75bbced665ebd",
-        "created_at": "2026-05-18T15:08:51.433746",
-        "correctAnswer": "MENYIAPKAN DOKUMEN (GAMBAR)"
-    },
-    {
-        "question_id": "JIMUSHITSU_38_1779091733",
+        "question_id": "JIMUSHITSU_38_1779098873",
         "form_name": "JIMUSHITSU",
         "page_number": 3,
         "category": "choukai",
@@ -1199,26 +514,26 @@
         "context": "",
         "choices": [
             {
+                "text": "3\u304b\u3044",
+                "image": null
+            },
+            {
                 "text": "1 \u304b\u3044",
                 "image": null
             },
             {
                 "text": "2\u304b\u3044",
                 "image": null
-            },
-            {
-                "text": "3\u304b\u3044",
-                "image": null
             }
         ],
         "images": [],
         "audio_url": "https://drive.google.com/file/d/1ficCQD2a5td7TbzZ0MgkfP9APbwfH65k/view?usp=drive_link",
         "audio": "audio/60cc7fcf5a37142498d663dc5838f34d.mp3",
-        "hash": "4ebba0d6869e6edf3926ad4c4d0e972b",
-        "created_at": "2026-05-18T15:08:53.848703"
+        "hash": "1278bef694d95c207cdf28afd715af5c",
+        "created_at": "2026-05-18T17:07:53.938885"
     },
     {
-        "question_id": "JIMUSHITSU_39_1779091735",
+        "question_id": "JIMUSHITSU_39_1779098876",
         "form_name": "JIMUSHITSU",
         "page_number": 3,
         "category": "choukai",
@@ -1227,23 +542,23 @@
         "context": "",
         "choices": [
             {
-                "text": "Tempat yang dingin",
+                "text": "Diatas kulkas",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDlO6gMXyTkpP_2D5G8yokrCPPck6waeiBGCLGxKJ73NfKwSg3zasgwdY5bvVM8b5slLzgd5W5WMVk-qDl12LaMcz_NSGR1RI5-oeS396-YkudFdzy-0_SPpJOs8L9fxta6WnZcxy8tUdv4d2WppTdEfB8Nlfqt6jH5G63Aopv8YpK1Qg6ZTiV2OxbKy3jdpW3yoNbZOQ9HQqrn=w260?key=TgjLIogtHAsD5FP4piV_Uw",
-                    "path": "images/a4f29bff7364279a62aee50e67658eb5.png"
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVD21u_mOxKfE5GIf1xz9EMhQ0v1RHw23LxgjyaMsjDYsMyASr0QrniUwsZAvRHFpIQS79agZxiz-qf-YFUkPnw4_Oi8aDdspJe_Dexv0FowUIl0eoq63ll0iom4cw84d_dRhKz_Y3yJt4TGsA-d0OlrUdbYYjhgKx1sB9YnohmfXLLpxS7cdLBus7ZmH7okQJ0JbVHBACdH1Qk-=w132?key=TgjLIogtHAsD5FP4piV_Uw",
+                    "path": "images/1cce2b21c78af49aa3035d5fe0222df3.png"
                 }
             },
             {
-                "text": "Diatas kulkas",
+                "text": "Tempat yang dingin",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBxZpJeejrn3MBtw4clqNRzEJok3b8pZV0oqi8_vRAdx-Fnw43hiraemqGqTvaz3nd-ZKUrsur_DammpHE1GIF7yCcm35aP1pNwkBOx04FFivw9U9XFOid2uQYntNCsLXDyUO6sh8gg3qo4n950EohbG649lWoqSGlgVU1T_W6eewUCttwh4npdpPgT6r9TPcGnvXwSk5EZoeLb=w132?key=TgjLIogtHAsD5FP4piV_Uw",
-                    "path": "images/1cce2b21c78af49aa3035d5fe0222df3.png"
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA4fSukM9rUybZqIvOPbuZzz0hpzjnBFXq3Hzc3U7XrjwvYT_sZ7YisI8fENJbpDByptfvVcrZQxT7bFgzD-BfeeC-OvTk1KzWYyZ63CY7Q5IQ1mI0SseUa_2YSBcFqMBBhtFBKLZ6TUeGSG8NxhPZJ7wdhhjlrtgcK6oKlsN9MKO6ttQkAP4AVYFym5LuWQc976AtErGoLCEjR=w260?key=TgjLIogtHAsD5FP4piV_Uw",
+                    "path": "images/a4f29bff7364279a62aee50e67658eb5.png"
                 }
             },
             {
                 "text": "Tempat yang panas dan dekat jendela",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBlDEvXNYyFhJyBLD-ld-AwhtcCxpDKq2LzaLDn6oJWv9RCur0dxXwqkE-gj0fKST6kGw9QGC7U5EZW7UkdH6olXY-bOICjd0f2IyY08L-6NIYx705XRq-LiRE0nQpYVLvsA7V519hhkOYrvyLpR--pds0w1JGVH3dW5PMqV0smbc3T4i1kkQXhNCMG0BX_rNBGi4I4GMZrvr8=w233?key=TgjLIogtHAsD5FP4piV_Uw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDHttK2UrMF6d6zg9JGuWGBqJcTi8vrJ8DQ01-WK9eF-kHz9rHUWAYPPTOqeX7HAh0uuqbvDvaY5kURbHs5ZlWNAAmz2YiI2pV29VOsjrYbCDvsxXhT3dDyGwM7_PAXIWX9myDzYOwE_pk4eH807Mz1nfHaTnzD9iA8uXONQdmgPYymfUCZdOtNAiL2LFbYkUWNN3XPs9T3LxQ=w233?key=TgjLIogtHAsD5FP4piV_Uw",
                     "path": "images/4f6e6112934142e0727d83180bd75ee4.png"
                 }
             }
@@ -1251,83 +566,12 @@
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "688420e0b8cf6b1ea3e484f37f358001",
-        "created_at": "2026-05-18T15:08:55.194240",
+        "hash": "849e0085643ec2dada3fceed98892ddd",
+        "created_at": "2026-05-18T17:07:56.475638",
         "correctAnswer": "Tempat yang panas dan dekat jendela"
     },
     {
-        "question_id": "JIMUSHITSU_40_1779091746",
-        "form_name": "JIMUSHITSU",
-        "page_number": 4,
-        "category": "dokkai",
-        "question_type": "text_image",
-        "question": "1. \u3000\n\u4eca\u65e5\u3001\u7530\u4e2d\u306f\u71b1\u3092\u51fa\u3057\u305f\u306e\u3067\u3001\u660e\u65e5\u75c5\u9662\u306b\u884c\u304f\u3064\u3082\u308a\u3067\u3059\u3002\n\u672c\u5f53\u306f\u3001\u660e\u65e5\u306e\u4e88\u5b9a\u306f\u6620\u753b\u9928\u3067\u6620\u753b\u3092\u898b\u308b\u3053\u3068\u3067\u3059\u3002\u6765\u9031\u304b\u308f\u308b\u3068\u5927\u4e08\u592b\u3067\u3059\u304b\uff1f\u672c\u5f53\u306b\u7533\u3057\u8a33\u3042\u308a\u307e\u305b\u3093\n\n\n\n\u7530\u4e2d\u3055\u3093\u306f \u3069\u3046\u3057\u3066\uff1f",
-        "context": "",
-        "choices": [
-            {
-                "text": "\u304a\u306a\u304b\u3044\u305f\u3044",
-                "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDmB36KJXSYNgIWbjF2Rw8Yc5EK343s9ToKeBmhQAz0RTQxAaLu2k4Fx3HiPlRAYS6AVthW9dMXhnWHSRvDekGC7mT13XEk-QOO_LQhAd6Lvn8KKRZsR4L3hhbfaFue7xUXplBGb6aQlKHO21TxGbxi1BIVTlCTwobq-tKpEjd0iqZNpq-JHMj0edbR5Oo9wJ8jg0MRVc6TjrQx=w260?key=TgjLIogtHAsD5FP4piV_Uw",
-                    "path": "images/7645afd8c8e9bb8bcb19a9e9ac529609.png"
-                }
-            },
-            {
-                "text": "\u306d\u3064",
-                "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCo7cDYSrGUL-Qqvvyx9xxe5mgUoxjFITnvPGG0v1Tk5uxThIZGNSv0FnjgSKX_Z9CyLjl6peZEhI00gTIePqidyC6mzarExpu10qIm7P5n0jPBREP2swlqsLIVupknqgqfkrUpkY_j802pK8el9yMnQOG4zW2g_3ZyPjoJDnWfV0HD_AsasW3kSG3TNT7XoJpImWeRmvzGByaY=w260?key=TgjLIogtHAsD5FP4piV_Uw",
-                    "path": "images/0cf3771f542cd30e1cc40808fb9a69ad.png"
-                }
-            },
-            {
-                "text": "\u306e\u3069\u304c\u3044\u305f\u3044",
-                "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBw4LtIR19IERLRPDswS7S4iunM261wzi-t-WsAxWQL3J6aSYa1-qDp6TKthrlegDCOczhfxO3y8YInEADisFIn5rwIEzUsxYnkowg2gH2CysDp5BRL3zGUW7pUMHRdPC_d93UxGzNeXddHvFMbMz6JKLaHbF1raqAuDVQe2ngZhdz7VgbsiAZPKcDNPBM-4rtACANbLpwbxr19=w260?key=TgjLIogtHAsD5FP4piV_Uw",
-                    "path": "images/b10ecdb59d6a6299b47acdab47f71e62.png"
-                }
-            }
-        ],
-        "images": [
-            {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCvhwBptz1941-PITnCnE6FiaUaLUC8lVnTaLhebpL-jCsxrVeVasCs5LL0uQNAU8_SZRdwG6kSduEpodZIxjxW-oxXvX-JN1MFdpOsXRa1hj90jiIlXYEM4aQ9EGxSxg-JC6zaWoAZvT7IBBm6R0lU3-u-iJd6gImoyG1vZ8YGD5bUzdr5_q3xsP1lJehOiqCVjs1EtKEITcgo=w740?key=TgjLIogtHAsD5FP4piV_Uw",
-                "path": "images/31f0be2af5b00aa1e694cb1a55abb5f9.png",
-                "index": 0
-            }
-        ],
-        "audio_url": "",
-        "audio": "",
-        "hash": "52bda6f13f145c4f4a6b58a2b938c24a",
-        "created_at": "2026-05-18T15:09:06.997603"
-    },
-    {
-        "question_id": "JIMUSHITSU_41_1779091747",
-        "form_name": "JIMUSHITSU",
-        "page_number": 4,
-        "category": "dokkai",
-        "question_type": "text_only",
-        "question": "2.\u00a0\nAda dokkai percakapan tentang nonton film\n\n\nKapan saudara Tanaka Menonton film\n\n\u3044\u3064\u305f\u306a\u304b\u3055\u3093\u306f\u6620\u753b\u3092\u898b\u307e\u3059\u304b",
-        "context": "",
-        "choices": [
-            {
-                "text": "\u6765\u6708",
-                "image": null
-            },
-            {
-                "text": "\u4eca\u9031",
-                "image": null
-            },
-            {
-                "text": "\u6765\u9031",
-                "image": null
-            }
-        ],
-        "images": [],
-        "audio_url": "",
-        "audio": "",
-        "hash": "c4d6ffe61706f604e06599fb94244582",
-        "created_at": "2026-05-18T15:09:07.354847"
-    },
-    {
-        "question_id": "JIMUSHITSU_42_1779091748",
+        "question_id": "JIMUSHITSU_42_1779098890",
         "form_name": "JIMUSHITSU",
         "page_number": 4,
         "category": "dokkai",
@@ -1336,33 +580,33 @@
         "context": "",
         "choices": [
             {
-                "text": "\u3044\u3044\u306b\u304a\u3044\u304c\u3042\u308b",
-                "image": null
-            },
-            {
                 "text": "\u30d0\u30ca\u30ca\u3059\u304d",
                 "image": null
             },
             {
                 "text": "\u306b\u304a\u3044\u304c\u3088\u304f\u306a\u3044",
                 "image": null
+            },
+            {
+                "text": "\u3044\u3044\u306b\u304a\u3044\u304c\u3042\u308b",
+                "image": null
             }
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDdesl6joZFhlxMqJAecnBZ_J6bMZ_G3RF_CQmoLNDObxEUpN6Ib-Cld_K0esfpHleoeFdJNppY-G7UgNQMvLyYGshjMC58Q4Hzuf2BS2LBOBFweFt13IO6TJOajYgYnqEFeXcpIcHaISBB1_RU5e5FmzKD7wmrAMbELUDQ0qxhBfvutVeJhhNfHE7J2YHMQekHVe37Gdy16YB3=w740?key=TgjLIogtHAsD5FP4piV_Uw",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDz-iU_HkPPgvCUcLzs-G652Ui-7s-Zhgt2lcCW5Uri3irz7UA7Cg1iSVTs5HcF0AUzBZ1e-M1K2J2DvkjbOPFKzDm2fo3lBBI8BoSAMSvNqt_phY9jScZh_FWhDScGKexdoX9ccX-t55hNaP269_msHCd1BjrBEYc26skqwC42BA7m3jOzgcf_QEM-1kiL5r_6KRzkOouwvGpr=w740?key=TgjLIogtHAsD5FP4piV_Uw",
                 "path": "images/92de8204275a12552418fe74a2c46a8e.png",
                 "index": 0
             }
         ],
         "audio_url": "",
         "audio": "",
-        "hash": "cb7561e62a58b64bae07f4dfbe4bf2b5",
-        "created_at": "2026-05-18T15:09:08.470761",
+        "hash": "27a054c0a5981acff8ab48b21946015c",
+        "created_at": "2026-05-18T17:08:10.032482",
         "correctAnswer": "\u306b\u304a\u3044\u304c\u3088\u304f\u306a\u3044"
     },
     {
-        "question_id": "JIMUSHITSU_43_1779091748",
+        "question_id": "JIMUSHITSU_43_1779098890",
         "form_name": "JIMUSHITSU",
         "page_number": 4,
         "category": "dokkai",
@@ -1371,62 +615,27 @@
         "context": "",
         "choices": [
             {
-                "text": "MENULIS NAMA PADA BARANG (MAGGA) + \u306a\u307e\u3048",
-                "image": null
-            },
-            {
                 "text": "MENULIS NAMA PADA BARANG (APEL) + \u306a\u307e\u3048",
                 "image": null
             },
             {
                 "text": "MENULIS NAMA PADA BARANG (PISANG) + \u306a\u307e\u3048",
                 "image": null
+            },
+            {
+                "text": "MENULIS NAMA PADA BARANG (MAGGA) + \u306a\u307e\u3048",
+                "image": null
             }
         ],
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "328f52b280042ea389ce9fda260c7780",
-        "created_at": "2026-05-18T15:09:08.830047",
+        "hash": "7dcf8810fd80a3d907fd861539dcfef0",
+        "created_at": "2026-05-18T17:08:10.380803",
         "correctAnswer": "MENULIS NAMA PADA BARANG (PISANG) + \u306a\u307e\u3048"
     },
     {
-        "question_id": "JIMUSHITSU_44_1779091749",
-        "form_name": "JIMUSHITSU",
-        "page_number": 4,
-        "category": "dokkai",
-        "question_type": "text_image",
-        "question": "5.\u00a0 DENAH LANTAI 1 DAN LANTAI 2\u00a0\n\n\n\u30c8\u30a4\u30ec \u306f \u3069\u3053 \u306b \u3042\u308a\u307e\u3059\u304b\uff1f",
-        "context": "",
-        "choices": [
-            {
-                "text": "\uff11\u304b\u3044\u3068\uff12\u304b\u3044",
-                "image": null
-            },
-            {
-                "text": "\uff11\u304b\u3044\u30684\u304b\u3044",
-                "image": null
-            },
-            {
-                "text": "\uff11\u304b\u3044\u30683\u304b\u3044",
-                "image": null
-            }
-        ],
-        "images": [
-            {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBe3dxda5Lcg89k-ksGPSJqhBaIg6HMroIu_XGeIpTpNdFbNUg8lGFy5SZmpQ3Py4abZGdhTjzKvTyC8Bo6yhg6YgSjQHPMMtRHtsWZEKR4CTM80vsBBP5xxBtguKvVy2Ee1ojua1m9ybFpcCnoHFBKNaQuIhnEQjAhSWFxq7JvkvXjEv68Y6xKGsS1WoRK92Sjau5v7eN4O1BL=w740?key=TgjLIogtHAsD5FP4piV_Uw",
-                "path": "images/a13074ab4d58c9567d2d05a8da0a223f.png",
-                "index": 0
-            }
-        ],
-        "audio_url": "",
-        "audio": "",
-        "hash": "c276155ce6bd7bb640a264630400bcc6",
-        "created_at": "2026-05-18T15:09:09.670719",
-        "correctAnswer": "\uff11\u304b\u3044\u3068\uff12\u304b\u3044"
-    },
-    {
-        "question_id": "JIMUSHITSU_45_1779091750",
+        "question_id": "JIMUSHITSU_45_1779098891",
         "form_name": "JIMUSHITSU",
         "page_number": 4,
         "category": "dokkai",
@@ -1439,29 +648,29 @@
                 "image": null
             },
             {
-                "text": "4 JAM (DARI JAM 17.00 - 18.00",
+                "text": "3 JAM (DARI JAM 16.00 - 17.00",
                 "image": null
             },
             {
-                "text": "3 JAM (DARI JAM 16.00 - 17.00",
+                "text": "4 JAM (DARI JAM 17.00 - 18.00",
                 "image": null
             }
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAHHG9xUlebnxqkY5TPqrieP-tXBM2jBmeBIsL-9nAtk5puc4xAsJ0xAGvjx6d2DHSMtnxaVP8HXcVWb5TefCP07uY4ESUljUa_FtVdKq2Rdj83KXqq46mMWytx_g6kogBbtDmRuyw4HxfLOOp8YPniHgnQR0Y3NgmZVABM4VNr5uiusENBT9B8FpzzpvC1bbtqljk4HuwAh-li=w740?key=TgjLIogtHAsD5FP4piV_Uw",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA__EFGhwGhhWnA69zT-wTIqnYgWOLEqbjaZvUz48AdjhZColD0-b5DlEKvfZfC7eivz0TXV75NjyCXpqqQr5hIL-APLVhVF_xmYViDeZncsnxud-EikvhNuEgjmZb_PPHXqudJJjZLxeNhCurhwS1KtSNOS9KjBFQn0XMVE2p9m1WW_MS8w_h30Lp2LcVAz_ycv1ltz67ZZeFD=w740?key=TgjLIogtHAsD5FP4piV_Uw",
                 "path": "images/677145a4decc560fde9ad8d1276b738e.png",
                 "index": 0
             }
         ],
         "audio_url": "",
         "audio": "",
-        "hash": "23e2f0301d7a37f6e6e15f08fb5a1d89",
-        "created_at": "2026-05-18T15:09:10.846858",
+        "hash": "62b4820f3276278e0ac21832bb47a1d4",
+        "created_at": "2026-05-18T17:08:11.882981",
         "correctAnswer": "2 JAM (DARI JAM 01.00 - 03.00"
     },
     {
-        "question_id": "JIMUSHITSU_46_1779091751",
+        "question_id": "JIMUSHITSU_46_1779098892",
         "form_name": "JIMUSHITSU",
         "page_number": 4,
         "category": "dokkai",
@@ -1470,26 +679,27 @@
         "context": "",
         "choices": [
             {
+                "text": "\uff11\uff10\u6708\uff12\uff12\u65e5",
+                "image": null
+            },
+            {
                 "text": "\uff11\uff11\u6708\uff12\uff13\u65e5",
                 "image": null
             },
             {
                 "text": "\uff11\uff11\u6708\uff12\uff12\u65e5",
                 "image": null
-            },
-            {
-                "text": "\uff11\uff10\u6708\uff12\uff12\u65e5",
-                "image": null
             }
         ],
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "91ae65c4c69de66ec9801c9c68303939",
-        "created_at": "2026-05-18T15:09:11.195153"
+        "hash": "a100b62f5e156f5c9b0e397b67842ad1",
+        "created_at": "2026-05-18T17:08:12.228107",
+        "correctAnswer": "\uff11\uff11\u6708\uff12\uff12\u65e5"
     },
     {
-        "question_id": "JIMUSHITSU_47_1779091752",
+        "question_id": "JIMUSHITSU_47_1779098893",
         "form_name": "JIMUSHITSU",
         "page_number": 4,
         "category": "dokkai",
@@ -1498,11 +708,11 @@
         "context": "",
         "choices": [
             {
-                "text": "\u4f1a\u8b70\u5ba4 \u306b \u884c\u304f",
+                "text": "\u55ab\u8336\u5e97\u306b\u884c\u304f",
                 "image": null
             },
             {
-                "text": "\u55ab\u8336\u5e97\u306b\u884c\u304f",
+                "text": "\u4f1a\u8b70\u5ba4 \u306b \u884c\u304f",
                 "image": null
             },
             {
@@ -1512,19 +722,19 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAJFKuorB_8zFdVsFJG97DwOiEljA5EXCashwLUXWFo1xntWbH37fVP18e5Rxk4gDAZKa_8nJHgI446FFqMmYW8kYO5x_N_ak-PArAtimu8vaFq56Xd3FkkXmclPm6RAzLSjWVpyQnT9Xsqhz-S4KN4Ad4iQjIfn2RN-uHOJqmJY4foyPZa5QZwHh5RXnrvdDRUht1CX3B1DZmn=w740?key=TgjLIogtHAsD5FP4piV_Uw",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCNSTpQLWSAoc-tT9DfW67a3t2K5PlGiQxur_MuMdtNdMllP1k-iEHoVu1OP1f1v4PYPbmU3wvAIguuh2lwluuneaPQ9DBQ2hXtAoSF-dvfHqdcZFG-S-6yLS_zfRFy7ZjCFxompx7AWBmjIdRKDSzOhi3gRBA9nh_bYWT_00HX76hpnVGcLtJJyjZamLmIovNeVMpbqXu5xXxX=w740?key=TgjLIogtHAsD5FP4piV_Uw",
                 "path": "images/a6480860de4dfe027389d0a4e6d0033d.png",
                 "index": 0
             }
         ],
         "audio_url": "",
         "audio": "",
-        "hash": "96bb8a1d3448ebf4a3cef28b87d30b77",
-        "created_at": "2026-05-18T15:09:12.305592",
+        "hash": "02c19c18b08f15ac8a89cbcb110797cd",
+        "created_at": "2026-05-18T17:08:13.234712",
         "correctAnswer": "\u4f1a\u8b70\u5ba4 \u306b \u884c\u304f"
     },
     {
-        "question_id": "JIMUSHITSU_48_1779091752",
+        "question_id": "JIMUSHITSU_48_1779098893",
         "form_name": "JIMUSHITSU",
         "page_number": 4,
         "category": "dokkai",
@@ -1533,11 +743,11 @@
         "context": "",
         "choices": [
             {
-                "text": "\uff11\uff11\u6642\u3067\u3059",
+                "text": "\uff110 \u6642\u3067\u3059",
                 "image": null
             },
             {
-                "text": "\uff110 \u6642\u3067\u3059",
+                "text": "\uff11\uff11\u6642\u3067\u3059",
                 "image": null
             },
             {
@@ -1548,46 +758,12 @@
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "4347ba32ea6daf6ef48654b2792f6609",
-        "created_at": "2026-05-18T15:09:12.662207"
+        "hash": "4c16971acaea1cf6526d12f764a40295",
+        "created_at": "2026-05-18T17:08:13.604038",
+        "correctAnswer": "\uff11\uff11\u6642\u3067\u3059"
     },
     {
-        "question_id": "JIMUSHITSU_49_1779091753",
-        "form_name": "JIMUSHITSU",
-        "page_number": 4,
-        "category": "dokkai",
-        "question_type": "text_image",
-        "question": "10.\nResepsionisnya sampai jam berapa ?",
-        "context": "",
-        "choices": [
-            {
-                "text": "JAM 18 \uff1a\uff10\uff10",
-                "image": null
-            },
-            {
-                "text": "JAM 19 \uff1a\uff10\uff10",
-                "image": null
-            },
-            {
-                "text": "JAM 17 \uff1a\uff10\uff10",
-                "image": null
-            }
-        ],
-        "images": [
-            {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBlhjjYYN-UltI2WGJ8wwUmKHztlABp0vRvGiP2VGvnODa5MzMYPEJU7ggvaAO9z_RpjDognM5WpMfDSwpWtlG5aU1-dCfc9uWyTcxyoSaUvnKoEhmgF98TIpseRRb2sW-uWWnXsrBWR_NFuwSS48DbJgkSaKEVpigrleoSuGhanOiGHLk6Rnh6Qfu-1AQ_1y35WAWAsrvSPho=w740?key=TgjLIogtHAsD5FP4piV_Uw",
-                "path": "images/a629158c665a93efd2899fced5378f7a.png",
-                "index": 0
-            }
-        ],
-        "audio_url": "",
-        "audio": "",
-        "hash": "bf78505721e7b681c41e78c5e2de3010",
-        "created_at": "2026-05-18T15:09:13.730753",
-        "correctAnswer": "JAM 17 \uff1a\uff10\uff10"
-    },
-    {
-        "question_id": "JIMUSHITSU_50_1779091754",
+        "question_id": "JIMUSHITSU_50_1779098894",
         "form_name": "JIMUSHITSU",
         "page_number": 4,
         "category": "dokkai",
@@ -1596,11 +772,11 @@
         "context": "",
         "choices": [
             {
-                "text": "KENCHIKI",
+                "text": "KETAYAYOI",
                 "image": null
             },
             {
-                "text": "KETAYAYOI",
+                "text": "KENCHIKI",
                 "image": null
             },
             {
@@ -1611,12 +787,12 @@
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "de9e3b6f29857d50bf5bcd82432dfa21",
-        "created_at": "2026-05-18T15:09:14.077692",
+        "hash": "d06c319e3e1fb5c46ab0526a5b50b3f8",
+        "created_at": "2026-05-18T17:08:14.698331",
         "correctAnswer": "KETAYAYOI"
     },
     {
-        "question_id": "JIMUSHITSU_51_1779091754",
+        "question_id": "JIMUSHITSU_51_1779098895",
         "form_name": "JIMUSHITSU",
         "page_number": 4,
         "category": "dokkai",
@@ -1625,22 +801,23 @@
         "context": "",
         "choices": [
             {
-                "text": "JAM 17.30",
-                "image": null
-            },
-            {
                 "text": "JAM 16.30",
                 "image": null
             },
             {
                 "text": "JAM 18.30",
                 "image": null
+            },
+            {
+                "text": "JAM 17.30",
+                "image": null
             }
         ],
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "1013c23132ef9dc150acedbb2614e79c",
-        "created_at": "2026-05-18T15:09:14.455554"
+        "hash": "ecdb3d1dd34f47d383524b41a420b7ee",
+        "created_at": "2026-05-18T17:08:15.062269",
+        "correctAnswer": "JAM 17.30"
     }
 ]
