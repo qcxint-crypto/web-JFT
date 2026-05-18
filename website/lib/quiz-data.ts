@@ -24,7 +24,9 @@ export interface QuizQuestion {
   page_number?: number
   category?: string
   categoryKey?: QuizCategoryKey
+  question_type?: 'text_only' | 'text_image' | 'image_only' | 'chokai'
   question: string
+  context?: string
   choices: Array<{ text: string; image?: { url: string; path: string } }>
   images: Array<{ url: string; path: string; index: number }>
   ocr_text?: string

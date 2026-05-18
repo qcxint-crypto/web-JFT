@@ -1,10 +1,12 @@
 [
     {
-        "question_id": "ICHIGO_0_1779085601",
+        "question_id": "ICHIGO_0_1779088379",
         "form_name": "ICHIGO",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "image_only",
         "question": "1.",
+        "context": "",
         "choices": [
             {
                 "text": "\u3076\u3069\u3046",
@@ -21,7 +23,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDNQMspw7UJv59a-PrCxAM_M3noDHHq3R5JPKR0ocEO8lqJuMBv7F3i4BnZ6LKoPf9EMexoPVUCIi2gSy4XVpQXFmoKpM-SJ-nGjgK7f9Hog942VYmGVOunQnL7i1eUR7_1QpQn8M0_dVFYEQYreqZXyZIETzcrNBZw_cC34me1T7UzuO-tDo1Zt1-4OqEFHybAUBVvHZd3S-s=w291?key=THvpiOZoAE-SiOTtpZ1tBQ",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDObZWIWsSfHV_W7qkoI4SaZD77_GzV_5D33O3IGJM9p4x-OIw_F_clIrC00BOCaA61eJMpoKeDNQcttiXxksuKN5c3d-HHAxZR5bRY7xH8DVhtGKYn5kITEKcVBFpOg31WE2IOdU7BzGmC2FERzoW0KL04Ts_9ccI6WY1GOb9TM6BwknkXZ1Wp4tXXvckpmzI_cGXq68VKy-U=w291?key=THvpiOZoAE-SiOTtpZ1tBQ",
                 "path": "images/356a409a13840f1366a1959fa9ca4528.png",
                 "index": 0
             }
@@ -29,14 +31,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "1fbfa0e17fcd4592e9c3181db883593c",
-        "created_at": "2026-05-18T13:26:41.332853"
+        "created_at": "2026-05-18T14:12:59.017208",
+        "correctAnswer": "\u3044\u3061\u3054"
     },
     {
-        "question_id": "ICHIGO_1_1779085602",
+        "question_id": "ICHIGO_1_1779088379",
         "form_name": "ICHIGO",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "image_only",
         "question": "2.",
+        "context": "",
         "choices": [
             {
                 "text": "\u6ce3\u304f",
@@ -53,7 +58,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAPNDKNldylrUwjS79FtfsRpYfpNrdtPHKX7TDPa3rCSWW7dYlh7xjkR_-TSaITJF_2w9WHLCW9RW-QMwlPJu0ayKYfb8LnnxxAWfnVINE_OLMMlcjAv9dswSfPuGl0bHLGfOcDoL_LPf1YbB62TIexdqDx_7c42rCDHpY4srNvvTbS3HGw3wMI-NIAm-XjvIFACn1hKHdroA4=w309?key=THvpiOZoAE-SiOTtpZ1tBQ",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVARrBuSLm9nI8rb7FeBNlPoGQmfHZvYt-_C2oKQDBhzJImlhBCQOcOWK5AZB6Grsa_BIv_7LgqBu8aTI5vRY3N9PIhf6VWebPMMtb08vYRQf0IoeAxMGUiZs0oQdcsHKwWWwVxjYuSHWTPalaEP_Gz4gboISyFGBkPOSpG3TpbzEo4qyni52GyaJRHt7K2Z590KEqWHvECKyFg=w309?key=THvpiOZoAE-SiOTtpZ1tBQ",
                 "path": "images/56221a9afe8e793cf0f99bb456429be8.png",
                 "index": 0
             }
@@ -61,15 +66,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "b81710d9fb8ac5347c7b7237bb9b07c5",
-        "created_at": "2026-05-18T13:26:42.130141",
-        "correctAnswer": "\u6ce3\u304f"
+        "created_at": "2026-05-18T14:12:59.841076"
     },
     {
-        "question_id": "ICHIGO_2_1779085602",
+        "question_id": "ICHIGO_2_1779088380",
         "form_name": "ICHIGO",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "3. \u4eca\u5ea6\u306e\u30c6\u30b9\u30c8\u306780\u3066\u3093 \u3044\u3058\u3087\u3046 \u53d6\u308b\u3068\u3001\u3002 \u305d\u3064\u304e\u3087\u3046\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+        "context": "",
         "choices": [
             {
                 "text": "\u4ee5\u4e0b",
@@ -88,15 +94,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "26fc4b947e422a6cf54aba3ea73f4010",
-        "created_at": "2026-05-18T13:26:42.492023",
+        "created_at": "2026-05-18T14:13:00.199496",
         "correctAnswer": "\u4ee5\u4e0a"
     },
     {
-        "question_id": "ICHIGO_3_1779085602",
+        "question_id": "ICHIGO_3_1779088380",
         "form_name": "ICHIGO",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "4. \u3053\u306e\u65b0\u3057\u3044\u30ab\u30e1\u30e9\u306f(\u304b\u308b\u3044)\u3057\u3001\u5c0f\u3055\u3044\u3057\u3044\u3044\u3067\u3059\u3088",
+        "context": "",
         "choices": [
             {
                 "text": "\u91cd\u3044",
@@ -115,15 +123,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "6f25e487bec5eb74268295c3b68030f6",
-        "created_at": "2026-05-18T13:26:42.853215",
+        "created_at": "2026-05-18T14:13:00.563560",
         "correctAnswer": "\u8efd\u3044"
     },
     {
-        "question_id": "ICHIGO_4_1779085603",
+        "question_id": "ICHIGO_4_1779088380",
         "form_name": "ICHIGO",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "5. \u6559\u5ba4\u3067\u30bf\u30d0\u30b3\u3092\u3059\u3063\u3066\u306f\u3044\u3051\u307e\u305b\u3093\u3002\u3002 \u305f\u3070\u3053\u3092\uff3f\uff3f\u3001\u5916\u3067\u3059\u3044\u306a\u3055\u3044",
+        "context": "",
         "choices": [
             {
                 "text": "\u3059\u3046\u306a\u3089",
@@ -142,15 +152,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "59eb6c63f9c8834ed44d32681087a61e",
-        "created_at": "2026-05-18T13:26:43.230913",
-        "correctAnswer": "\u3059\u3046\u306a\u3089"
+        "created_at": "2026-05-18T14:13:00.929385"
     },
     {
-        "question_id": "ICHIGO_5_1779085603",
+        "question_id": "ICHIGO_5_1779088381",
         "form_name": "ICHIGO",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "6. \u30b9\u30fc\u30d1\u30fc\u3078\uff3f\uff3f\u306b\u884c\u304d\u307e\u3057\u305f",
+        "context": "",
         "choices": [
             {
                 "text": "\u904b\u52d5",
@@ -169,15 +180,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "4a3f324e54d35524dbfe72d37d9fc9b9",
-        "created_at": "2026-05-18T13:26:43.589494",
+        "created_at": "2026-05-18T14:13:01.299000",
         "correctAnswer": "\u8cb7\u3044\u7269"
     },
     {
-        "question_id": "ICHIGO_6_1779085603",
+        "question_id": "ICHIGO_6_1779088381",
         "form_name": "ICHIGO",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "7. \u671d\u304b\u3089\u3064\u3081\u305f\u3044\uff3f\uff3f\u304c\u3075\u3044\u3066\u3044\u307e\u3059",
+        "context": "",
         "choices": [
             {
                 "text": "\u96f7",
@@ -196,15 +209,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "6a825fd19514ce7ed97f3c3be5221894",
-        "created_at": "2026-05-18T13:26:43.953594",
-        "correctAnswer": "\u98a8"
+        "created_at": "2026-05-18T14:13:01.662846"
     },
     {
-        "question_id": "ICHIGO_7_1779085604",
+        "question_id": "ICHIGO_7_1779088382",
         "form_name": "ICHIGO",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "8. \uff3f\uff3f\u3067\u304f\u3059\u308a\u3092\u3082\u3089\u3063\u3066\u304b\u3089\u3001\u884c\u304d\u307e\u3059",
+        "context": "",
         "choices": [
             {
                 "text": "\u75c5\u6c17",
@@ -223,14 +237,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "a87700a64c9e803b3099fce4e035e6f2",
-        "created_at": "2026-05-18T13:26:44.325418"
+        "created_at": "2026-05-18T14:13:02.031688"
     },
     {
-        "question_id": "ICHIGO_8_1779085604",
+        "question_id": "ICHIGO_8_1779088382",
         "form_name": "ICHIGO",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "9. \u308f\u305f\u3057\u306f11\u3058\u304b\u30897\u3058\u307e\u3067\uff3f\uff3f",
+        "context": "",
         "choices": [
             {
                 "text": "\u5bdd\u307e\u3059",
@@ -249,15 +265,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "7baf00871b8d22d64914305d235bf6bf",
-        "created_at": "2026-05-18T13:26:44.701646",
-        "correctAnswer": "\u5bdd\u307e\u3059"
+        "created_at": "2026-05-18T14:13:02.397352"
     },
     {
-        "question_id": "ICHIGO_9_1779085614",
+        "question_id": "ICHIGO_9_1779088392",
         "form_name": "ICHIGO",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "1.\u00a0\nA: \u30e1\u30a4\u3055\u3093\u3001\u4e45\u3057\u3076\u308a\u3067\u3059\nB: \u305f\u306a\u304b\u3055\u3093\u3001\u4e45\u3057\u3076\u308a\u3067\u3059\u3002\u30e1\u30a4\u3055\u3093\u306f\u65e5\u672c\u306b\uff3f\uff3f\u3069\u306e\u304f\u3089\u3044\u3067\u3059\u304b?",
+        "context": "",
         "choices": [
             {
                 "text": "\u304f\u3066",
@@ -276,15 +293,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "859c7406bc8542231f1cbc70832275d4",
-        "created_at": "2026-05-18T13:26:54.805734",
+        "created_at": "2026-05-18T14:13:12.449812",
         "correctAnswer": "\u304d\u3066"
     },
     {
-        "question_id": "ICHIGO_10_1779085615",
+        "question_id": "ICHIGO_10_1779088392",
         "form_name": "ICHIGO",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "2\nA : \u3042\u306e\u304b\u3069\u3092\u307e\u304c\u3063\u3066\u304f\u3060\u3055\u3044\u00a0\nB : \u5206\u304b\u308a\u307e\u3057\u305f\u3002\nA : \u30ab\u30e9\u30aa\u30b1\u5927\u4f1a\u306f\u307e\u3060___",
+        "context": "",
         "choices": [
             {
                 "text": "\u3084\u3063\u3066\u3044\u307e\u3059\u304b",
@@ -303,15 +322,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "89f9b6ccebd9f78a2f0f5a94b9017ad5",
-        "created_at": "2026-05-18T13:26:55.217660",
+        "created_at": "2026-05-18T14:13:12.804081",
         "correctAnswer": "\u3084\u3063\u3066\u3044\u307e\u3059\u304b"
     },
     {
-        "question_id": "ICHIGO_11_1779085615",
+        "question_id": "ICHIGO_11_1779088393",
         "form_name": "ICHIGO",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "3.\u00a0\nA : \u3084\u307e\u3060\u3055\u3093\u3001\u3069\u3046\u3057\u307e\u3057\u305f\u304b?\u00a0\nB : \u6628\u65e5\u304b\u3089\u3001\u306e\u3069\u304c\u3044\u305f\u3044\u3067\u3059\u3002\nA : _____\nB : \u3042\u305f\u305f\u304b\u3044\u304a\u8336\u3092\u98f2\u3093\u3060 \u307b\u3046\u304c\u3044\u3044\u3067\u3059\u3088",
+        "context": "",
         "choices": [
             {
                 "text": "\u305d\u308c\u306f\u3044\u3051\u307e\u305b\u3093\u306d",
@@ -330,15 +351,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "f9947a4776f9983f3c6656ec58547726",
-        "created_at": "2026-05-18T13:26:55.612556",
+        "created_at": "2026-05-18T14:13:13.168662",
         "correctAnswer": "\u305d\u308c\u306f\u3044\u3051\u307e\u305b\u3093\u306d"
     },
     {
-        "question_id": "ICHIGO_12_1779085615",
+        "question_id": "ICHIGO_12_1779088393",
         "form_name": "ICHIGO",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "4.\u00a0\u00a0\nA : \u308c\u304d\u3057\u3084, \u753a\u306e\u6587\u5316\u304c\u5206\u304b\u3063\u3066, \u304a\u3082\u3057\u308d\u3044\u3067\u3059\u3088\u3002 B : ___ \u6848\u5185\u3057\u307e\u3057\u3087\u3046\u304b ?\u00a0\nA : \u307b\u3093\u3068\u3046\u3067\u3059\u304b\u3002\u306f\u3044\u3001\u305c\u3072\u884c\u304d\u305f\u3044\u3067\u3059",
+        "context": "",
         "choices": [
             {
                 "text": "\u3044\u3044\u3067\u3059\u304b",
@@ -357,15 +380,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "8a481df428a20d3c24d19d05310f0534",
-        "created_at": "2026-05-18T13:26:55.982820",
+        "created_at": "2026-05-18T14:13:13.529875",
         "correctAnswer": "\u3088\u304b\u3063\u305f\u3089"
     },
     {
-        "question_id": "ICHIGO_13_1779085616",
+        "question_id": "ICHIGO_13_1779088393",
         "form_name": "ICHIGO",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "5\nA : \u3082\u3046\u3061\u3087\u3063\u3068\u3001\u304a\u304a\u304d\u3044\u306e\u304c\u3042\u308a\u307e\u3059\u304b?\u00a0\nB : \u306f\u3044\u3001\u3042\u308a\u307e\u3059\u3002\u3053\u308c\u3067\u3059 \u3002\nA : \u3058\u3083\u3001\uff3f\uff3f\uff3f",
+        "context": "",
         "choices": [
             {
                 "text": "\u3053\u308c\u306b\u3057\u307e\u3059",
@@ -384,15 +409,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "d4d85b9f8303e65c8a2680365e355225",
-        "created_at": "2026-05-18T13:26:56.368284",
-        "correctAnswer": "\u3053\u308c\u306b\u3057\u307e\u3059"
+        "created_at": "2026-05-18T14:13:13.899727"
     },
     {
-        "question_id": "ICHIGO_14_1779085616",
+        "question_id": "ICHIGO_14_1779088394",
         "form_name": "ICHIGO",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "6.\nA : \uff3f\uff3f\uff3f\nB : \u306f\u3044\u00a0\nA : \u71b1\u304c\u3042\u308b\u306e\u3067\u3001\u3084\u3059\u3093\u3067\u3082\u3044\u3044\u3067\u3059\u304b?\u00a0\nB : \u306f\u3044",
+        "context": "",
         "choices": [
             {
                 "text": "\u3042\u306a\u305f\u3055\u3093",
@@ -411,14 +437,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "1a8ba02a474e48ced71726a264fde824",
-        "created_at": "2026-05-18T13:26:56.763505"
+        "created_at": "2026-05-18T14:13:14.262937",
+        "correctAnswer": "\u3061\u3087\u3063\u3068\u3044\u3044\u3067\u3059\u304b"
     },
     {
-        "question_id": "ICHIGO_15_1779085617",
+        "question_id": "ICHIGO_15_1779088394",
         "form_name": "ICHIGO",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_image",
         "question": "7.\n\u30ea\u30aa : \u3053\u306e\u3078\u3093\u3067\u3088\u308b\u3069\u3053\u304b\u306b\u3044\u304d\u305f\u3044\u3068\u304d\u306f\u3069\u3046\u3067\u3059\u304b\n\u30cb\u30a2 : \uff3f\uff3f\uff3f",
+        "context": "",
         "choices": [
             {
                 "text": "\u3059\u3066\u304d\u3067\u3059",
@@ -443,15 +472,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "271de86d02e684ffabf4f22f2ea67dcb",
-        "created_at": "2026-05-18T13:26:57.352782",
+        "created_at": "2026-05-18T14:13:14.990113",
         "correctAnswer": "\u3042\u3076\u306a\u3044\u3067\u3059"
     },
     {
-        "question_id": "ICHIGO_16_1779085617",
+        "question_id": "ICHIGO_16_1779088395",
         "form_name": "ICHIGO",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "8\nA : \u30b3\u30d4\u30fc\u304c\u7d42\u308f\u308a\u307e\u3057\u305f\u304b?\u00a0\nB : \u3042\u306818\u5206\u3050\u3089\u3044 \uff3f\uff3f\uff3f\nA : \u306f\u3044\u3001\u3064\u304e\u3082\u3063\u3066\u304d\u3066\u304f\u3060\u3055\u3044",
+        "context": "",
         "choices": [
             {
                 "text": "\u304a\u308f\u3063\u305f\u305d\u3046\u3067\u3059",
@@ -470,14 +501,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "8dd569a717dca43aa14e5fcc1663536c",
-        "created_at": "2026-05-18T13:26:57.719767"
+        "created_at": "2026-05-18T14:13:15.347238",
+        "correctAnswer": "\u304a\u308f\u308a\u305d\u3046\u3067\u3059"
     },
     {
-        "question_id": "ICHIGO_17_1779085618",
+        "question_id": "ICHIGO_17_1779088395",
         "form_name": "ICHIGO",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "9.\nA : \u3067\u3082\u3001\u4eca\u65e5\u306f\u3060\u3044\u3058\u3087\u3046\u3076\u3067\u3059\u304b?\u00a0\nB : \u306f\u3044\u3001\u3060\u3044\u3058\u3087\u3046\u3076\u3067\u3059\u3002 _____\u306a\u308a\u307e\u3059",
+        "context": "",
         "choices": [
             {
                 "text": "\u3052\u3093\u304d\u304f",
@@ -496,15 +530,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "5577eef11cae01a97a094d794f079908",
-        "created_at": "2026-05-18T13:26:58.087092",
+        "created_at": "2026-05-18T14:13:15.731597",
         "correctAnswer": "\u3052\u3093\u304d\u306b"
     },
     {
-        "question_id": "ICHIGO_18_1779085627",
+        "question_id": "ICHIGO_18_1779088405",
         "form_name": "ICHIGO",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "1. Audio \u3069\u3053\u3067\u3059\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "\u3064\u304e\u306e\u304b\u3069\u3072\u3060\u308a\u3067\u3059",
@@ -523,15 +559,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "3d49d0886637cbdabad963e1d187549d",
-        "created_at": "2026-05-18T13:27:07.977759",
-        "correctAnswer": "\u3064\u304e\u306e\u304b\u3069\u307f\u304e\u3067\u3059"
+        "created_at": "2026-05-18T14:13:25.717285"
     },
     {
-        "question_id": "ICHIGO_19_1779085628",
+        "question_id": "ICHIGO_19_1779088406",
         "form_name": "ICHIGO",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "2. Audio \u3069\u3053\u3067\u3059\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "\u307e\u3063\u3059\u3050\u884c\u3063\u3066\u3001\u4e8c\u3064\u76ee\u306e\u4fe1\u53f7\u3092\u5de6\u306b\u307e\u304c\u3063\u3066\u304f\u3060\u3055\u3044",
@@ -550,15 +587,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "cbc4d7caf628c393215ce3b7f679161a",
-        "created_at": "2026-05-18T13:27:08.336602",
-        "correctAnswer": "\u307e\u3063\u3059\u3050\u884c\u3063\u3066\u3001\u4e8c\u3064\u76ee\u306e\u4fe1\u53f7\u3092\u5de6\u306b\u307e\u304c\u3063\u3066\u304f\u3060\u3055\u3044"
+        "created_at": "2026-05-18T14:13:26.092033"
     },
     {
-        "question_id": "ICHIGO_20_1779085628",
+        "question_id": "ICHIGO_20_1779088406",
         "form_name": "ICHIGO",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "3. Audio \u3069\u3053\u3067\u3059\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "\u3042\u306e\u4fe1\u53f7\u3092\u53f3\u306b\u66f2\u304c\u3063\u3066\u3001\u305a\u3063\u3068\u5e30\u308a\u307e\u3059\u3067\u3059",
@@ -577,15 +615,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "257dbcac5033b86090ef9edd86ac0b23",
-        "created_at": "2026-05-18T13:27:08.702553",
+        "created_at": "2026-05-18T14:13:26.469965",
         "correctAnswer": "\u3042\u306e\u4fe1\u53f7\u3092\u53f3\u306b\u66f2\u304c\u3063\u3066\u3001\u305a\u3063\u3068\u307e\u3063\u3059\u3050\u3067\u3059"
     },
     {
-        "question_id": "ICHIGO_21_1779085629",
+        "question_id": "ICHIGO_21_1779088406",
         "form_name": "ICHIGO",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "4. Audio \u3069\u3053\u3067\u3059\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "\u3053\u3053\u304b\u3089\u307e\u3063\u3059\u3050\u884c\u3063\u3066\u3001\u6a4b\u3092\u3042\u3063\u3066\u3001\u53f3\u306b\u66f2\u304c\u308b",
@@ -604,15 +644,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "02e894cf3a6ac18e0367aaec1903b2dc",
-        "created_at": "2026-05-18T13:27:09.071195",
+        "created_at": "2026-05-18T14:13:26.832548",
         "correctAnswer": "\u3053\u3053\u304b\u3089\u307e\u3063\u3059\u3050\u884c\u3063\u3066\u3001\u6a4b\u3092\u308f\u305f\u3063\u3066\u3001\u53f3\u306b\u66f2\u304c\u308b"
     },
     {
-        "question_id": "ICHIGO_22_1779085629",
+        "question_id": "ICHIGO_22_1779088407",
         "form_name": "ICHIGO",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "5. Audio \u4eca\u3069\u3053\u306b\u3044\u307e\u3059\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "\u3055\u304f\u3089\u99c5\u306e\u6771\u53e3\u306b\u3044\u307e\u3059",
@@ -631,15 +673,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "f45f289e3b969518fa30c13ba0d3775a",
-        "created_at": "2026-05-18T13:27:09.434108",
+        "created_at": "2026-05-18T14:13:27.196700",
         "correctAnswer": "\u3055\u304f\u3089\u99c5\u306e\u5317\u53e3\u306b\u3044\u307e\u3059"
     },
     {
-        "question_id": "ICHIGO_23_1779085629",
+        "question_id": "ICHIGO_23_1779088407",
         "form_name": "ICHIGO",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "6. \u99c5\u304b\u3089\u3069\u3046\u3057\u307e\u3059\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "\u99c5\u306e\u524d\u306e\u9053\u3092\u307e\u304c\u3063\u3066\u3001\u9280\u884c\u3068\u30b3\u30f3\u30d3\u30cb\u306e\u9593\u306e\u9053\u3092\u307e\u3063\u3059\u3050\u884c\u304d\u307e\u3059",
@@ -662,14 +706,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "cf7fe950f929e34d998ab23774723aab",
-        "created_at": "2026-05-18T13:27:09.797419"
+        "created_at": "2026-05-18T14:13:27.572820",
+        "correctAnswer": "\u99c5\u306e\u524d\u306e\u9053\u3092\u308f\u305f\u3063\u3066\u3001\u9280\u884c\u3068\u30b3\u30f3\u30d3\u30cb\u306e\u9593\u306e\u9053\u3092\u307e\u3063\u3059\u3050\u884c\u304d\u307e\u3059"
     },
     {
-        "question_id": "ICHIGO_24_1779085630",
+        "question_id": "ICHIGO_24_1779088407",
         "form_name": "ICHIGO",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "7 \u3069\u3053\u306e\u4fe1\u53f7\u3067\u3059\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "\u4e8c\u3064\u3081\u306e\u4fe1\u53f7\u3092\u53f3\u306b\u307e\u304c\u308b",
@@ -688,15 +735,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "93ca92d77d99557b92148a87bf91e56a",
-        "created_at": "2026-05-18T13:27:10.161425",
-        "correctAnswer": "\u4e00\u3064\u3081\u306e\u4fe1\u53f7\u3092\u53f3\u306b\u307e\u304c\u308b"
+        "created_at": "2026-05-18T14:13:27.930398"
     },
     {
-        "question_id": "ICHIGO_25_1779085630",
+        "question_id": "ICHIGO_25_1779088408",
         "form_name": "ICHIGO",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "8 \u3069\u3053\u306e\u304b\u3069\u3067\u3059\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "\u4e00\u3064\u76ee\u306e\u304b\u3069\u3092\u5de6",
@@ -715,15 +763,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "db3bffa25b4f6276749cebd30340b8b4",
-        "created_at": "2026-05-18T13:27:10.527983",
+        "created_at": "2026-05-18T14:13:28.297542",
         "correctAnswer": "\u4e8c\u3064\u76ee\u306e\u304b\u3069\u3092\u5de6"
     },
     {
-        "question_id": "ICHIGO_26_1779085630",
+        "question_id": "ICHIGO_26_1779088408",
         "form_name": "ICHIGO",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "9 \u5834\u6240\u306f\u3069\u3053\u3067\u3059\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "\u767d\u3044\u30d3\u30fc\u30eb\u306e\u3068\u306a\u308a",
@@ -742,14 +792,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "527e8f941495bedb0534f8489b8a184f",
-        "created_at": "2026-05-18T13:27:10.898644"
+        "created_at": "2026-05-18T14:13:28.663374",
+        "correctAnswer": "\u9ed2\u3044\u30d3\u30fc\u30eb\u306e\u3068\u306a\u308a"
     },
     {
-        "question_id": "ICHIGO_27_1779085641",
+        "question_id": "ICHIGO_27_1779088419",
         "form_name": "ICHIGO",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_image",
         "question": "1 \u3000\n\u4f1a\u793e\u306f\u4e00\u9031\u9593\u3067\u6708\u66dc\u65e5\u304b\u3089\u91d1\u66dc\u65e5\u307e\u3067\u50cd\u3044\u3066\u3044\u307e\u3059\u3002\n\u3067\u3082\u4eca\u9031\u306e\u6728\u66dc\u65e5\u306b\u4f11\u307f\u3092\u3068\u308a\u305f\u3044\u3067\u3059\u3002\u56fd\u306e\u5bb6\u65cf\u304c\u3053\u3053\u306b\u6765\u307e\u3059\u3002\u5bb6\u65cf\u306f\uff12\uff16\u65e5\u307e\u3067\u3053\u3053\u306b\u3044\u307e\u3059\u3002\uff12\uff17\u65e5\u306b\u56fd\u3078\u5e30\u308b\u4e88\u5b9a\u3067\u3059\n\n\n\u304d\u3085\u3046\u304b\u306f\u306a\u3093\u3088\u3046\u3073\u3068\u308a\u307e\u3059\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "1",
@@ -770,7 +823,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAVjxkjrehhpUcVDTjqegV80_vX936K9b-aJYn_riXP5o6EKpxoheEzbidfq5srtU03tDzMgG6reLB8mQZaAH-OvuSuO8F-0naG98Uzvun2BooGWxhx-kjHyZNtf4Bb1zKs3duARzHodkIlR24VaPx9sl94as6Gs0OoaSBPgckLqxMlo5VTfEeTSNT_NcY6En3K5Z_-JkJcT9de=w200?key=THvpiOZoAE-SiOTtpZ1tBQ",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBuAS9cTq4yKQRLrwTUPrQPTV9BBH4dNYMcB9tFZjaw411PZ_3tglaPzEDX06OYSXDIEvxYbufyQLWDU0jpXDb1lmXGADU7iHcHmhv3qIFOvs-XGPxYQqDPpCBRnv2bhcBoLHgNyJhRtTd2BYXzM78gi3O4Nknbda9yFnzHwVZla9EBMxWJINXCVtxS860fSM6nD7OqGuax-gdK=w200?key=THvpiOZoAE-SiOTtpZ1tBQ",
                 "path": "images/33bf675ed62ba35c34ec9eb83f72d6cc.png",
                 "index": 0
             }
@@ -778,15 +831,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "2b64afcc41851f4878ba2128e0c9f821",
-        "created_at": "2026-05-18T13:27:21.164558",
+        "created_at": "2026-05-18T14:13:39.367947",
         "correctAnswer": "\u6728\u66dc\u65e5"
     },
     {
-        "question_id": "ICHIGO_28_1779085641",
+        "question_id": "ICHIGO_28_1779088419",
         "form_name": "ICHIGO",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "2. \u5bb6\u65cf\u306f\u3044\u3064\u56fd\u3078\u5e30\u308a\u307e\u3059\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "\uff16\u6708\uff12\uff16\u65e5",
@@ -809,15 +864,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "92c04945be6d5e2f0466bf596e676711",
-        "created_at": "2026-05-18T13:27:21.547979",
+        "created_at": "2026-05-18T14:13:39.723161",
         "correctAnswer": "\uff16\u6708\uff12\uff17\u65e5"
     },
     {
-        "question_id": "ICHIGO_29_1779085641",
+        "question_id": "ICHIGO_29_1779088420",
         "form_name": "ICHIGO",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "3\u00a0\n\u5de5\u5834\u3067\u521d\u3081\u3066\u4ed5\u4e8b\u3057\u3066\u3044\u308b\u3068\u304d\u306f\u3001\u5148\u8f29\u306f\u308f\u305f\u3057\u306b\u304a\u3057\u3048\u3066\u3042\u3052\u307e\u3059\u3002\u3055\u3044\u3057\u3087\u304b\u3089\u306e\u3057\u3054\u3068\u306f\u3055\u3044\u3054\u306e\u307e\u3067\u306e\u3057\u3054\u3068\u3092\u304a\u3057\u3048\u307e\u3057\u305f\u3002\u4ed5\u4e8b\u304c\u7d42\u308f\u3063\u305f\u5f8c\u3067\u3069\u3046\u3054\u3092\u3082\u3068\u306e\u3068\u3053\u308d\u306b\u304b\u3048\u3055\u306d\u3051\u308c\u3070\u306a\u308a\u307e\u305b\u3093\u3002\u79c1\u306b\u3044\u3044\u52c9\u5f37\u306b\u306a\u308a\u307e\u3059\u3002\n\n\nJIKA PEKERJAAN SELESAI HARUS APA ?",
+        "context": "",
         "choices": [
             {
                 "text": "\u3075\u304f\u3092\u3064\u304b\u3063\u305f\u3089\u3001\u3082\u3068\u306e\u3068\u3053\u308d\u306b\u304b\u3048\u3057\u307e\u3059",
@@ -840,15 +897,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "d948f0043abb7efc0bf7ae4db1c1dd5d",
-        "created_at": "2026-05-18T13:27:21.925642",
+        "created_at": "2026-05-18T14:13:40.090490",
         "correctAnswer": "\u3069\u3046\u3050\u3092\u3064\u304b\u3063\u305f\u3089\u3001\u3082\u3068\u306e\u3068\u3053\u308d\u306b\u304b\u3048\u3057\u307e\u3059"
     },
     {
-        "question_id": "ICHIGO_30_1779085642",
+        "question_id": "ICHIGO_30_1779088420",
         "form_name": "ICHIGO",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "4\u00a0\n\u30ae\u30bf\u30fc\u304d\u3087\u3046\u3057\u3064\n\n\n \u6bce\u9031\u306e\u6728\u66dc\u65e5\u3067\u3059\u300219:00-20:00\n \u3055\u3093\u304b\u3057\u305f\u3044\u4eba\u306f\u30e1\u30fc\u30eb\u3067\u304a\u304f\u3063\u3066\u304f\u3060\u3055\u3044\u3002\n\n\n\u30ae\u30bf\u30fc\u30af\u30e9\u30b9\u306f\u4f55\u66dc\u65e5\u306b\u958b\u3044\u3066\u3044\u307e\u3059\u304b?\n\u3069\u3046\u3084\u3063\u3066\u53c2\u52a0\u3057\u307e\u3059\u304b\uff1f",
+        "context": "",
         "choices": [
             {
                 "text": "\u6728\u66dc\u65e5\u3001\u3061\u3087\u304f\u305b\u3064\u3059\u308b",
@@ -871,15 +930,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "fc64436af5530b81d719c602a4e9a746",
-        "created_at": "2026-05-18T13:27:22.278678",
+        "created_at": "2026-05-18T14:13:40.452195",
         "correctAnswer": "\u6728\u66dc\u65e5\u3001\u30e1\u30fc\u30eb\u3059\u308b"
     },
     {
-        "question_id": "ICHIGO_31_1779085642",
+        "question_id": "ICHIGO_31_1779088420",
         "form_name": "ICHIGO",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "5\u00a0\n\u79c1\u306e\u3057\u3085\u3046\u304b\u3093\u306f\u3078\u3044\u3058\u3064\u3068\u304d\u6bce\u65e5\uff16\u6642\u306b\u8d77\u304d\u3066\u3044\u307e\u3059\u3002\u8d77\u304d\u305f\u3089\u671d\u3054\u306f\u3093\u3092\u98df\u3079\u3066\u3001\u3059\u3050\u4f1a\u793e\u306b\u96fb\u8eca\u3067\u884c\u304d\u307e\u3059\u3002\u4f11\u307f\u306e\u65e5\u306f\u3044\u3064\u3082\u4e5d\u6642\u306b\u8d77\u304d\u307e\u3059\u3002\u75b2\u308c\u307e\u3057\u305f\u304b\u3089\u8d77\u304d\u308b\u306f\u9045\u3044\u3067\u3059\u3002\n\n\nketika libur perempuan bangun pada jam berapa ?",
+        "context": "",
         "choices": [
             {
                 "text": "\u5348\u5f8c\uff19\u6642",
@@ -898,7 +959,6 @@
         "audio_url": "",
         "audio": "",
         "hash": "dfd558860ad55fc30b5937fcb2cdbd1c",
-        "created_at": "2026-05-18T13:27:22.643668",
-        "correctAnswer": "\u5348\u524d\uff19\u6642"
+        "created_at": "2026-05-18T14:13:40.812534"
     }
 ]

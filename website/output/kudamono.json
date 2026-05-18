@@ -1,10 +1,12 @@
 [
     {
-        "question_id": "KUDAMONO_0_1779085886",
+        "question_id": "KUDAMONO_0_1779088678",
         "form_name": "KUDAMONO",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "image_only",
         "question": "1.",
+        "context": "",
         "choices": [
             {
                 "text": "\u98df\u3079\u7269",
@@ -21,7 +23,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVATdd7BFw4mmhq4_yMOA0AF41_K2pDtJGxNrmW0Nq24syBimgxSf3t-Qkp9pJpADwXEL9FSKbbDs9amz6hEl0xISHNa0zgkhvG1RTV0IxHByZXxwcfl3cSyMgqi1diE7g-NcLZB_ojTsduyRDp7PDJ2uIo0OLFUWMgB3Vn2i-zAnzFRFKLqmIkzJlJ1gISDONhvTr3j20pQih_h=w630?key=PcSn1SHkYwejCQit03vnFQ",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAYQWmCHTfL2gi-dvHyx2N42jdqvNyj82_jNifOjzX4zcWj0K9nfAdVuVaAFR0iHlRBzoDAbVs17HzdC29r5t8QtWH1bSJeMNnMglty5-b0YaMGpWSNYaT0jqx9ADHgVLalW6T3xi8bT6YYtTUQ1ibA_-kzrOGrpMiFOZ21RYZv7qMw6M-DlK9BWfIKB6etnRRNkseZrZXtVHl6=w630?key=PcSn1SHkYwejCQit03vnFQ",
                 "path": "images/896970d5b902743039d95332cd22f428.png",
                 "index": 0
             }
@@ -29,14 +31,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "b4b7d85aa547d3c975c59709afa522ab",
-        "created_at": "2026-05-18T13:31:26.731092"
+        "created_at": "2026-05-18T14:17:58.787122"
     },
     {
-        "question_id": "KUDAMONO_1_1779085887",
+        "question_id": "KUDAMONO_1_1779088679",
         "form_name": "KUDAMONO",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "image_only",
         "question": "2.",
+        "context": "",
         "choices": [
             {
                 "text": "\u5e30\u308a\u307e\u3059",
@@ -53,7 +57,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDQ9OWDMZzsIGHO3bMqcPsC-mjaA0uu4xfKNHR4MXRedSOaPeMmugmnDif_1vlEynRk-Jsc34cCSy5M5UF4wgMuh-KMph7gNlq1NVat5s2gJxvS4DYTMta-NLmGk0p1nAigNqfBDeEPv5e2vuYrxTjG0wl-eVKHJu8ETkJ_2o8DSisQdOlG2e635QUg0_fe7EhXz7Sfg0HAgPeu=w421?key=PcSn1SHkYwejCQit03vnFQ",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA-PeraJ_NSjcKc6YBKhXhsRAxtOr1_lA03O7QpufOAUg9GLbLqRxnh2OanFlVAjpHk2D3NWO53uvKxICs3KUXN3DBulc4KXusmTppYQrvabtJ_7ORfvGwHXkzNwQZA1ZIhrdYNl44CIRNfWH13hq5ISyJGEBdWG0OZYTCorF_i8QKZSW5nHjlb9nKXF-O2j-6uif_XzrrhhgHp=w421?key=PcSn1SHkYwejCQit03vnFQ",
                 "path": "images/c3bd65a1578921427c5501dad7278627.png",
                 "index": 0
             }
@@ -61,15 +65,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "e919b3dbd2a28288fc6c8a2b99997d17",
-        "created_at": "2026-05-18T13:31:27.507076",
+        "created_at": "2026-05-18T14:17:59.923987",
         "correctAnswer": "\u62bc\u3057\u307e\u3059"
     },
     {
-        "question_id": "KUDAMONO_2_1779085888",
+        "question_id": "KUDAMONO_2_1779088680",
         "form_name": "KUDAMONO",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "image_only",
         "question": "3.",
+        "context": "",
         "choices": [
             {
                 "text": "\u3058\u3053",
@@ -94,15 +100,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "054f2ba2d97cbb4a6613597ce5ec7648",
-        "created_at": "2026-05-18T13:31:28.099931",
+        "created_at": "2026-05-18T14:18:00.526076",
         "correctAnswer": "\u3058\u3053"
     },
     {
-        "question_id": "KUDAMONO_3_1779085888",
+        "question_id": "KUDAMONO_3_1779088680",
         "form_name": "KUDAMONO",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "4.\n\u00a0\u4eca\u9031\u306e\u8a66\u5408\u306f\u3069\u3046\u3067\u3059\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "\u3044\u307e\u3057\u3085\u3046",
@@ -121,15 +129,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "6a862d516a3789965d8a81f6a0830fb4",
-        "created_at": "2026-05-18T13:31:28.446929",
+        "created_at": "2026-05-18T14:18:00.871530",
         "correctAnswer": "\u3053\u3093\u3057\u3085\u3046"
     },
     {
-        "question_id": "KUDAMONO_4_1779085888",
+        "question_id": "KUDAMONO_4_1779088681",
         "form_name": "KUDAMONO",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "5.\n\u822a\u7a7a\u4fbf\u3067\u304a\u8a95\u751f\u65e5\u30d7\u30ec\u30bc\u30f3\u30c8\u3092\u9001\u308a\u307e\u3059\u3002",
+        "context": "",
         "choices": [
             {
                 "text": "\u304a\u304d\u308b",
@@ -148,15 +158,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "c55721de0bd751cb89209e4c4caaa041",
-        "created_at": "2026-05-18T13:31:28.814274",
-        "correctAnswer": "\u304a\u304f\u308b"
+        "created_at": "2026-05-18T14:18:01.239792"
     },
     {
-        "question_id": "KUDAMONO_5_1779085889",
+        "question_id": "KUDAMONO_5_1779088681",
         "form_name": "KUDAMONO",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "6.\n\u79c1\u306e\u5bb6\u306f\u99c5\u306b.......... \u4fbf\u5229\u3067\u3059",
+        "context": "",
         "choices": [
             {
                 "text": "\u8fd1\u304f\u3066",
@@ -175,14 +186,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "d3ca2f6735c67bb62c50dda7da687e34",
-        "created_at": "2026-05-18T13:31:29.183206"
+        "created_at": "2026-05-18T14:18:01.604646",
+        "correctAnswer": "\u8fd1\u304f\u3066"
     },
     {
-        "question_id": "KUDAMONO_6_1779085889",
+        "question_id": "KUDAMONO_6_1779088681",
         "form_name": "KUDAMONO",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "7.\n\u3068\u3046\u304d\u3087\u3046\u30c7\u30a3\u30ba\u30cb\u30fc\u30e9\u30f3\u30c9\u3078............",
+        "context": "",
         "choices": [
             {
                 "text": "\u884c\u3063\u3066\u3082\u3044\u3044\u3067\u3059\u304b",
@@ -201,14 +215,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "b83c9ff4b7b546af2edaf201ef840fe9",
-        "created_at": "2026-05-18T13:31:29.548502"
+        "created_at": "2026-05-18T14:18:01.970243",
+        "correctAnswer": "\u3044\u304d\u307e\u305b\u3093\u304b"
     },
     {
-        "question_id": "KUDAMONO_7_1779085889",
+        "question_id": "KUDAMONO_7_1779088682",
         "form_name": "KUDAMONO",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "8.\n\u50cd\u304d\u307e\u3059",
+        "context": "",
         "choices": [
             {
                 "text": "\u3046\u3093\u3069\u3046",
@@ -227,15 +244,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "0a7cc36970b82abab2c01ccc134e93df",
-        "created_at": "2026-05-18T13:31:29.914380",
+        "created_at": "2026-05-18T14:18:02.338684",
         "correctAnswer": "\u306f\u305f\u3089\u304d\u307e\u3059"
     },
     {
-        "question_id": "KUDAMONO_8_1779085890",
+        "question_id": "KUDAMONO_8_1779088682",
         "form_name": "KUDAMONO",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "9.\n\u30d4\u30a2\u30ce\u3092........",
+        "context": "",
         "choices": [
             {
                 "text": "\u5f3e\u304f",
@@ -254,15 +273,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "20e5c9d0216d8afcb61cc78a217c7097",
-        "created_at": "2026-05-18T13:31:30.283623",
+        "created_at": "2026-05-18T14:18:02.702704",
         "correctAnswer": "\u5f3e\u304f"
     },
     {
-        "question_id": "KUDAMONO_9_1779085890",
+        "question_id": "KUDAMONO_9_1779088683",
         "form_name": "KUDAMONO",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "10.\n\u5f7c\u306f\u672c\u306e\u30d7\u30ec\u30bc\u30f3\u30c8\u304c\u597d\u304d\u3060\u3068.........",
+        "context": "",
         "choices": [
             {
                 "text": "\u63a8\u5b9a\u3059\u308b",
@@ -281,14 +302,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "c9b8f51f661a0baf99cc8ef46d3b6da4",
-        "created_at": "2026-05-18T13:31:30.647111"
+        "created_at": "2026-05-18T14:18:03.071081",
+        "correctAnswer": "\u601d\u3044\u307e\u3059"
     },
     {
-        "question_id": "KUDAMONO_10_1779085891",
+        "question_id": "KUDAMONO_10_1779088683",
         "form_name": "KUDAMONO",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "11.\n\u30af\u30fc\u30dd\u30f3\u3082\u3042\u308b\u307f\u305f\u3044\u3067\u3059\n.....",
+        "context": "",
         "choices": [
             {
                 "text": "\u305d\u3046\u3067\u3059\u304b",
@@ -307,15 +331,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "0bb60f7a47769867414dc360b9a6fe42",
-        "created_at": "2026-05-18T13:31:31.015787",
-        "correctAnswer": "\u305d\u3046\u3067\u3059"
+        "created_at": "2026-05-18T14:18:03.438645"
     },
     {
-        "question_id": "KUDAMONO_11_1779085891",
+        "question_id": "KUDAMONO_11_1779088683",
         "form_name": "KUDAMONO",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "12.\nA: \u7530\u4e2d\u3055\u3093\u306f\u3044\u307e\u3059\u304b\u3002\nB: \u3044\u3044\u3048 \u3044\u307e\u305b\u3093\u3001\u5c71\u7530\u3055\u3093\u304c\u3001.\u00a0 \u00a0 ............... \u304b\u3082\u3057\u308c\u307e\u305b\u3093",
+        "context": "",
         "choices": [
             {
                 "text": "\u5206\u304b\u308b",
@@ -334,15 +359,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "11d8f31e30b65b01f520100e5509db23",
-        "created_at": "2026-05-18T13:31:31.382667",
-        "correctAnswer": "\u5206\u304b\u308b"
+        "created_at": "2026-05-18T14:18:03.803123"
     },
     {
-        "question_id": "KUDAMONO_12_1779085891",
+        "question_id": "KUDAMONO_12_1779088684",
         "form_name": "KUDAMONO",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "13\n\u65b0\u3057\u3044\u3075\u304f\u304c_______\u3067\u3059",
+        "context": "",
         "choices": [
             {
                 "text": "\u3068\u3066\u3082",
@@ -361,14 +387,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "8165cd8431c205a61fe9bb1288d1961c",
-        "created_at": "2026-05-18T13:31:31.746671"
+        "created_at": "2026-05-18T14:18:04.169244",
+        "correctAnswer": "\u307b\u3057\u3044"
     },
     {
-        "question_id": "KUDAMONO_13_1779085901",
+        "question_id": "KUDAMONO_13_1779088694",
         "form_name": "KUDAMONO",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "1.\u00a0\nA :\u00a0\u00a0\u6b6f\u304c\u75db\u3044\u3001\u3044\u3044\u6b6f\u533b\u8005\u304c\u308f\u304b\u308a\u307e\u3059\u304b\u3002\nB :\u00a0\u00a0\u3059\u307f\u307e\u305b\u3093\u3001\u65e5\u672c\u3067\u307e\u3060 \u6b6f\u533b\u8005\u00a0 \u306b\u884c\u3063\u305f\u3053\u3068\u304c\u306a\u3044\u304b\u3089\u3001\u3000\u5c71\u7530\u3055\u3093\u306b\u304d\u3066\u3001\u00a0________\u00a0\u3002\nA :\u00a0\u00a0\u00a0 \u3042\u30fc\u3001\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002",
+        "context": "",
         "choices": [
             {
                 "text": "\u308f\u304b\u308b\u304b\u3082\u3057\u308c\u307e\u305b\u3093",
@@ -387,15 +416,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "6c870906bfc2983140d51cd699053141",
-        "created_at": "2026-05-18T13:31:41.820266",
+        "created_at": "2026-05-18T14:18:14.253650",
         "correctAnswer": "\u308f\u304b\u308b\u304b\u3082\u3057\u308c\u307e\u305b\u3093"
     },
     {
-        "question_id": "KUDAMONO_14_1779085902",
+        "question_id": "KUDAMONO_14_1779088694",
         "form_name": "KUDAMONO",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "2.\u00a0\u00a0\nA :\u00a0 \u306f\u3058\u3081\u307e\u3057\u3066\u3000 \u5c71\u7530\u3067\u3059\u3002\u00a0________\u00a0\u00a0\u304a\u9858\u3044\u3057\u307e\u3059\nB :\u00a0\u3053\u3061\u3089\u3053\u305d",
+        "context": "",
         "choices": [
             {
                 "text": "\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059",
@@ -414,15 +445,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "272d32c962f7a045a28a2daea3411f50",
-        "created_at": "2026-05-18T13:31:42.212601",
+        "created_at": "2026-05-18T14:18:14.610274",
         "correctAnswer": "\u3069\u3046\u305e\u3088\u308d\u3057\u304f"
     },
     {
-        "question_id": "KUDAMONO_15_1779085902",
+        "question_id": "KUDAMONO_15_1779088694",
         "form_name": "KUDAMONO",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "3.\u00a0\nA : \u3059\u307f\u307e\u305b\u3093, \u3053\u306e\u5098 \u306f \u3044\u304f\u3089\u3067\u3059\u304b\u00a0\nB : 800\u5186\u3067\u3059\u00a0\nA : \u3048\u3048..\u3059\u307f\u307e\u305b\u3093 \u805e\u3053\u3048\u307e\u305b\u3093____________\u304a\u306d\u304c\u3044\u3057\u307e\u3059\u00a0\nB : 800\u5186\u3067\u3059",
+        "context": "",
         "choices": [
             {
                 "text": "\u3082\u3046\u3044\u3063\u3071\u3044",
@@ -441,15 +474,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "887b3aaad1f52ad5ac915cffe5d4e640",
-        "created_at": "2026-05-18T13:31:42.599575",
+        "created_at": "2026-05-18T14:18:14.974130",
         "correctAnswer": "\u3082\u3046\u3044\u3061\u3069"
     },
     {
-        "question_id": "KUDAMONO_16_1779085902",
+        "question_id": "KUDAMONO_16_1779088695",
         "form_name": "KUDAMONO",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "4.\u00a0\u00a0\n\u3053\u306e\u81ea\u8ee2\u8eca \u304c__________\u3067\u3059\u304b\u3089,\u3046\u308c\u3057\u3044\u3067\u3059",
+        "context": "",
         "choices": [
             {
                 "text": "\u4e57\u308a\u3084\u3059\u3044",
@@ -468,14 +503,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "dfa71cae52d2e6d319dc0fa2cf0585a9",
-        "created_at": "2026-05-18T13:31:42.995535"
+        "created_at": "2026-05-18T14:18:15.337234"
     },
     {
-        "question_id": "KUDAMONO_17_1779085903",
+        "question_id": "KUDAMONO_17_1779088695",
         "form_name": "KUDAMONO",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "5.\u00a0\u00a0\nA : \u3053\u306e\u304a\u307f\u3084\u3052 \u306f \u79c1 \u306e \u56fd \u304b\u3089\u3067\u3059\u3001\u308f\u305f\u3057\u3044\u306f\u3042\u307e\u3044\u305f\u3079\u3082\u306e\u304c\u306b\u304c\u3066\u3067\u3059\u3002\nB : \u305f\u3079\u3066\u307f\u3066\u3082______\uff1f",
+        "context": "",
         "choices": [
             {
                 "text": "\u3044\u3044\u3067\u3059\u304b",
@@ -494,15 +531,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "b392210cc114430d1c7ba9094d76f738",
-        "created_at": "2026-05-18T13:31:43.358883",
+        "created_at": "2026-05-18T14:18:15.702977",
         "correctAnswer": "\u3044\u3044\u3067\u3059\u304b"
     },
     {
-        "question_id": "KUDAMONO_18_1779085903",
+        "question_id": "KUDAMONO_18_1779088696",
         "form_name": "KUDAMONO",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "6.\u00a0\nA : \u30a2\u30cb\u3055\u3093, \u65e5\u672c\u8a9e \u306e \u3079\u3093\u304d\u3087\u3046 \u306f \u3069\u306e \u3050\u3089\u3044\u304b\u304b\u308a\u307e\u3057\u305f\u304b\uff61 \u304b\u3044\u308f \u304c \u3081\u3061\u3083\u3081\u3061\u3083\u3046\u307e\u3044\u306d.\u00a0\nB : \u3042....._______, \u307e\u3060 4\u6708 \u52c9\u5f37\u3057\u3066\u3044\u307e\u3059",
+        "context": "",
         "choices": [
             {
                 "text": "\u305d\u3093\u306a\u3053\u3068\u306a\u3044\u3088",
@@ -521,15 +560,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "17849d002251fb5abe069bdb40b0739c",
-        "created_at": "2026-05-18T13:31:43.724429",
-        "correctAnswer": "\u305d\u3093\u306a\u3053\u3068\u306a\u3044\u3088"
+        "created_at": "2026-05-18T14:18:16.069858"
     },
     {
-        "question_id": "KUDAMONO_19_1779085904",
+        "question_id": "KUDAMONO_19_1779088696",
         "form_name": "KUDAMONO",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "7.\u00a0\u00a0\nA\uff1a\u65e5\u672c \u306e \u751f\u6d3b \u306b \u3082\u3046 \u306a\u308c\u307e\u3057\u305f\u304b\uff1f\nB\uff1a\u3082\u3046 \u306a\u308c\u307e\u3057\u305f\u3051\u3069\u3001\u3055\u3073\u3057\u3044\u3067\u3059\u304c\u3001\u6bce\u65e5\u304b\u305e\u304f\u306b\u3002\u3002\u3002\u3002\u3002\u3001\u3046\u308c\u3057\u3044\u3067\u3059\u3002\nA\uff1a\u3088\u304b\u3063\u305f\u3067\u3059\u306d",
+        "context": "",
         "choices": [
             {
                 "text": "\u4f1a\u793e \u304c \u3067\u304d\u3066",
@@ -548,14 +588,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "97f99437335fe811c09a99d22ebe8d98",
-        "created_at": "2026-05-18T13:31:44.088882"
+        "created_at": "2026-05-18T14:18:16.437065"
     },
     {
-        "question_id": "KUDAMONO_20_1779085904",
+        "question_id": "KUDAMONO_20_1779088696",
         "form_name": "KUDAMONO",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "8.\nA: \u4f11\u307f\u306e\u65e5\u306f\u65c5\u884c\u3067\u3059\u304b\nB: \u3044\u3048, \u79c1\u3082\u00a0______\u5bb6\u306b\u3044\u307e\u3057\u305f",
+        "context": "",
         "choices": [
             {
                 "text": "\u304d\u3063\u3068",
@@ -574,14 +616,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "9cbf33d2e2323ec6bc9ce3cfb4ba4951",
-        "created_at": "2026-05-18T13:31:44.458758"
+        "created_at": "2026-05-18T14:18:16.805183",
+        "correctAnswer": "\u305a\u3063\u3068"
     },
     {
-        "question_id": "KUDAMONO_21_1779085904",
+        "question_id": "KUDAMONO_21_1779088697",
         "form_name": "KUDAMONO",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "9.\u00a0\n\u65b0\u5e79\u7dda \u306e \u30c1\u30b1\u30c3\u30c8 \u306f \u30a4\u30f3\u30bf\u30cd\u30c3\u30c8 \u3067_________ \u3053\u3068 \u304c \u3067\u304d\u307e\u3059",
+        "context": "",
         "choices": [
             {
                 "text": "\u4e88\u7d04\u3057\u3066",
@@ -600,15 +645,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "591cb93f67e62b7dd0c196c56c4c19aa",
-        "created_at": "2026-05-18T13:31:44.856811",
+        "created_at": "2026-05-18T14:18:17.170725",
         "correctAnswer": "\u4e88\u7d04\u3059\u308b"
     },
     {
-        "question_id": "KUDAMONO_22_1779085905",
+        "question_id": "KUDAMONO_22_1779088697",
         "form_name": "KUDAMONO",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "10.\u00a0\u00a0\u00a0\nA\uff1a\u3059\u307f\u307e\u305b\u3093\u3001\u30d3\u30fc\u30eb \u3092\u3002\u3002\u3002\u3002\nB\uff1a\u306f\u3044\u3001\u304b\u3057\u3053\u307e\u308a\u307e\u3057\u305f\u3002",
+        "context": "",
         "choices": [
             {
                 "text": "\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059",
@@ -627,14 +674,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "1b3ea24fcfb9bd3783c68491a358ce9e",
-        "created_at": "2026-05-18T13:31:45.227388"
+        "created_at": "2026-05-18T14:18:17.539300"
     },
     {
-        "question_id": "KUDAMONO_23_1779085905",
+        "question_id": "KUDAMONO_23_1779088697",
         "form_name": "KUDAMONO",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "11.\u00a0\u00a0\nA : \u30a2\u30cb\u3055\u3093\u304d\u306e\u3046 \u306f \u3067\u3093\u304d \u304c \u3064\u3044\u305f\u307e\u307e\u3067\u3059\u3088\u00a0\nB : \u3048..\u672c\u5f53\u306b, \u3059\u307f\u307e\u305b\u3093\u4eca\u5ea6________",
+        "context": "",
         "choices": [
             {
                 "text": "\u304d\u3092\u3064\u3051\u307e\u3059",
@@ -653,15 +702,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "22133591f79799f5b551f1ec17b8642a",
-        "created_at": "2026-05-18T13:31:45.605747",
-        "correctAnswer": "\u304d\u3092\u3064\u3051\u307e\u3059"
+        "created_at": "2026-05-18T14:18:17.904812"
     },
     {
-        "question_id": "KUDAMONO_24_1779085906",
+        "question_id": "KUDAMONO_24_1779088698",
         "form_name": "KUDAMONO",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "12.\u00a0\nA\uff1a\u5229\u7530\u3055\u3093\u3001\u3058\u3057\u3087 \u3092 \u3002\u3002\u3002\u3002\u3002\nB\uff1a\u3059\u307f\u307e\u305b\u3093\u3001\u304d\u3087\u3046 \u306f \u3058\u3057\u3087 \u3092 \u6301\u3063\u3066\u6765\u307e\u305b\u3093\u3067\u3057\u305f\u3002",
+        "context": "",
         "choices": [
             {
                 "text": "\u8cb8\u3057\u3066\u304f\u308c\u307e\u305b\u3093\u304b",
@@ -680,14 +730,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "66817d2c4fad2fafe233395fbf1aa785",
-        "created_at": "2026-05-18T13:31:46.001961"
+        "created_at": "2026-05-18T14:18:18.270062",
+        "correctAnswer": "\u8cb8\u3057\u3066\u304f\u308c\u307e\u305b\u3093\u304b"
     },
     {
-        "question_id": "KUDAMONO_25_1779085906",
+        "question_id": "KUDAMONO_25_1779088698",
         "form_name": "KUDAMONO",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "13.\u00a0\nA : \u3053\u306e\u304a\u307f\u3084\u3052 \u306f \u3069\u3053\u306b\u8cb7\u3044\u307e\u3057\u305f\u304b\u00a0\nB : \u3053\u308c \u306f\u00a0\u6771\u4eac \u304b\u3089\u00a0_______",
+        "context": "",
         "choices": [
             {
                 "text": "\u6301\u3063\u3066\u304d\u307e\u3057\u305f",
@@ -706,15 +759,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "13f1ebf9f9607f828f324753fb454ddb",
-        "created_at": "2026-05-18T13:31:46.355899",
+        "created_at": "2026-05-18T14:18:18.638077",
         "correctAnswer": "\u8cb7\u3063\u3066\u304d\u307e\u3057\u305f"
     },
     {
-        "question_id": "KUDAMONO_26_1779085906",
+        "question_id": "KUDAMONO_26_1779088699",
         "form_name": "KUDAMONO",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "14.\u00a0\nA\uff1a\u30a2\u30ea\u30b9\u3055\u3093\u3001\u3053\u308c\u304a\u307f\u3084\u3052\u3067\u3059\u3002\nB\uff1a\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3001\u00a0_______",
+        "context": "",
         "choices": [
             {
                 "text": "\u3044\u3063\u3066\u304d\u307e\u3059",
@@ -733,20 +788,22 @@
         "audio_url": "",
         "audio": "",
         "hash": "21a2378b2a9cff2f359de2f28ad07cc2",
-        "created_at": "2026-05-18T13:31:46.736079",
+        "created_at": "2026-05-18T14:18:19.001561",
         "correctAnswer": "\u3044\u305f\u3060\u304d\u307e\u3059"
     },
     {
-        "question_id": "KUDAMONO_27_1779085920",
+        "question_id": "KUDAMONO_27_1779088711",
         "form_name": "KUDAMONO",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "1.\u00a0Audio\nCowok meprediksi habis ini ada kejadian apa?",
+        "context": "",
         "choices": [
             {
                 "text": "\u3067\u3093\u3058\u3083\u3068\u307e\u308a\u307e\u3059",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA6WqLsAXcc7LgpOt_7TNiGt-LgByAUmkf7ZlqlRFSX5Xl2N0ueyrOp52Yxp-7Hd-p-9kXTcbGiKN3VU-Y2hC-qDl5F9TRpT429JFW6osv5OMQiz5RUFt07O40MAh_Z51CATnL37_U9Zy8jbxpmE-cbvdz-0ry7NkbM-9zhW4Dt0oM92c1nBNXjy6znodee3t-WKm2r0Dq8EvI=w260?key=PcSn1SHkYwejCQit03vnFQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBubaJ8gzfyRHWdWncM--R71LpqmpupTW1R7TofttxnPsltLE7mFLxXQnDeTApSufyNip7iZlk2ZGUVscy2cGgONG1NGQG9rktjqIzz1e790DhGcJzQfZyNOCQrTFDt0Q9DXTbe4mocKs7GOL7NmR_pYbvZ5MZ33fqz45PbzMPK_4UO_wKi0i1LmLDpSR-mDZUZGg2Nlru1898=w260?key=PcSn1SHkYwejCQit03vnFQ",
                     "path": "images/7d17eb9e646a4981d1b6226a7c61704f.png"
                 }
             },
@@ -760,7 +817,7 @@
             {
                 "text": "\u4e8b\u6545\u304c\u3042\u3063\u305f",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDLC6_4xv7vu90YVLfRoRl52ej63gwHNtKqBRT7KuHpKfyyd1-aRORJQq-JSEvl6BRxaedAlI2tXHt0k0CX1LvtpPOqrpQ5hMbZuAZjTovyYoti9JT_4NQu97halycfYL9MUe1G6M_2n1T-78OP87qZkNbrTfWf9MueeManejWTyTU0PqHFue0IHt-A0SC7DsOJFdExS35ElAw=w260?key=PcSn1SHkYwejCQit03vnFQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCMMgsYUXDUZEZ3X0cr-vMgxlLL9duyElBXlwnxQt3fWqDLTDYpNGDzWe_gqwF6t4o4-c6Ai522A_0UDxrZLhhlzT4IjdRmpbghcZHzUV_lGcZNDjdpFmzRr8Zt3YjAyjY3PV7wS-BX9a6HdTUR66k9LEynnXRVjp7qDOxDxRku_ZqIlRxwaFijZ5v6P5qVezziDV0m4o7ZCTg=w260?key=PcSn1SHkYwejCQit03vnFQ",
                     "path": "images/a01db9d293bb48fc3397041f7c128e4d.png"
                 }
             }
@@ -769,15 +826,16 @@
         "audio_url": "https://drive.google.com/file/d/1FuzPJ-lODlLp3oXdhv92SDVju9OPudqT/view?usp=drive_link",
         "audio": "audio/81ea21f0a07863d24982ed20b093b592.mp3",
         "hash": "243733c87e19c03ac196b054bd943bcf",
-        "created_at": "2026-05-18T13:32:00.045633",
-        "correctAnswer": "\u3067\u3093\u3058\u3083\u3068\u307e\u308a\u307e\u3059\nFeedback\ngambar kereta disilang"
+        "created_at": "2026-05-18T14:18:31.673444"
     },
     {
-        "question_id": "KUDAMONO_28_1779085922",
+        "question_id": "KUDAMONO_28_1779088714",
         "form_name": "KUDAMONO",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "2.\u00a0Audio\nPaket tiba jam berapa? Jam paling cepet, soalnya kalau siang sibuk",
+        "context": "",
         "choices": [
             {
                 "text": "20.00-21.00",
@@ -796,34 +854,35 @@
         "audio_url": "https://drive.google.com/file/d/1eWKajsqeQnZNR-UVVss-WGbe663WnW-J/view?usp=drive_link",
         "audio": "audio/de830d7d8375b9a29f549eb8cf4d21c7.mp3",
         "hash": "43d7615f2e1e82cef36c671059380b41",
-        "created_at": "2026-05-18T13:32:02.137612",
-        "correctAnswer": "12.00-14.00"
+        "created_at": "2026-05-18T14:18:34.024203"
     },
     {
-        "question_id": "KUDAMONO_29_1779085925",
+        "question_id": "KUDAMONO_29_1779088717",
         "form_name": "KUDAMONO",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "3.\u00a0Audio\nPercapakapan cowok ketika akan rapat (2 soal)\u00a0\n\n\n1.apa yang dibawa cowok untuk rapat?",
+        "context": "",
         "choices": [
             {
                 "text": "AK 48",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBsloStLO67_94ZnNdqQzS3vV4RnNpRiLuHcN9kiOac0ZllC4QL7NagAL8eCrCoXL40AeW1dO5IGeFQEjCtWYZrBoM0oZ5b06-ATZYYSsPqoPl3x34AuQbGUE1zJvk3eXjwDJKJd3s7M7UkwSIYqj2At_q3NGXW7LxAaIo3kMD3V7Torplc90hIDSbp612YD-NsPrdHygIueeQ=w260?key=PcSn1SHkYwejCQit03vnFQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBt3t21mIAsrMYsGS7ewCB_D06KOdhLXsFlBfjG4HRbBH167RUIYbi-DVGMhw-FFtoB3Jlseq_073c-qOKx0dih1Zi7HqENbjHPkSsIkeN-jH7x2siSyeNaR5LDoWF5u6NIywVukHIeOZreL6HGKM5tafpauSWezL55W2G9KHRa_B1m7Q9nzedm1xuwnnSX2iveGq6Nvtk843E=w260?key=PcSn1SHkYwejCQit03vnFQ",
                     "path": "images/36975642b4c4f446118685202220b207.png"
                 }
             },
             {
                 "text": "teh",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVASvE4LG8CK_MezvXkvN0QbN2mzi-X9M47fb0iR2X7RjE5IGCLBITsaVkH-syqxr0nYdumi9f6hVSs6yr8cZmnXjpua0c864hI2Gpho9jRFFVfLCHH79_dizGNKcxvYdQoVSBnwor67alHvqSx_PHz1reGg8YJqlY9lz8hQiPnYXweZqEyvent_wzFIaAe3NkKOfoGGvPdP1E0=w260?key=PcSn1SHkYwejCQit03vnFQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCNdxpyKJoqcxnPw4vEZewUIza80ku2Vu0pUIWf0JqrpmqwRKYkYNEg6itbeKYD8G9u6iJqLwr6VyGe88ojCBnGL411Il-cNiJ_LV026UcmB2TllOTeeAU161XJ94AgaQkm9ybGuSbD3Q0-j3AWIbQcTo9c3nH_Lu5LLnwb9mr-QSxDHSWa8r2PdKMrBOhMb9PhIwxlRV96vzU=w260?key=PcSn1SHkYwejCQit03vnFQ",
                     "path": "images/fdc55cc031606ef8fd0902925050ed64.png"
                 }
             },
             {
                 "text": "bunga",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB9fKkqfmTIyx-so6465RgYyD0bB_-YAzqFhKbQAx82irB1o1Cl2bwiLSh-bvT1M3gwYlFNVDwym5KTbn5bFZfHsswa42oCUrDzInKs8QXH_KJg50B8JmNsJ2kxUO_tZyISm0IyapwLEDCl5H_c0OPxmV8JYawMWtFMCanRDxDqMfeQNMYZ0Ls_pnGTbP6h4MmcBr0-i9-qgXLm=w260?key=PcSn1SHkYwejCQit03vnFQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBtqyEDHBfgRDqQQ873qavfzKzTrH8V76olGvV_V9GZ7S5ZlWFxo96AXUTLb7HfCkNl3GQBxZx2zaAZ659EHjhzX2Pm7NAQkoGprnGI3l6s-BBq9DtElGKAHo-5S0IHqC1B-JlrRp3iqW38O1dq-iPey9guYLWWuRAezz4nHzKU4qhHYt5zrB4aOtUIcNXewpiDDCnjpSoWBDPT=w260?key=PcSn1SHkYwejCQit03vnFQ",
                     "path": "images/da3fc5ee7e0bc4b9c209e600ee0876b8.png"
                 }
             }
@@ -832,15 +891,17 @@
         "audio_url": "https://drive.google.com/file/d/1HHXZ9AWS0tP1SOZ1UnZ-CVHAfNEZQ8ka/view?usp=drive_link",
         "audio": "audio/a9c4eb9cff3d5ae26623448df2496a47.mp3",
         "hash": "288f07b7caf668c466eb4d7ddeb43072",
-        "created_at": "2026-05-18T13:32:05.643301",
+        "created_at": "2026-05-18T14:18:37.397950",
         "correctAnswer": "teh"
     },
     {
-        "question_id": "KUDAMONO_30_1779085926",
+        "question_id": "KUDAMONO_30_1779088717",
         "form_name": "KUDAMONO",
         "page_number": 3,
         "category": "choukai",
-        "question": "4.\u00a0\n2. berapa jumlah \u304a\u8336 yang di bawa ?",
+        "question_type": "text_only",
+        "question": "2. berapa jumlah \u304a\u8336 yang di bawa ?",
+        "context": "4.",
         "choices": [
             {
                 "text": "4\u3064",
@@ -858,16 +919,17 @@
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "e1702ec39a40da429864efa55b6bab4d",
-        "created_at": "2026-05-18T13:32:06.004562",
-        "correctAnswer": "3 \u3064"
+        "hash": "771ac06cfb1b0e30fabb7096b59755d6",
+        "created_at": "2026-05-18T14:18:37.753101"
     },
     {
-        "question_id": "KUDAMONO_31_1779085928",
+        "question_id": "KUDAMONO_31_1779088720",
         "form_name": "KUDAMONO",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "5.\u00a0Audio\nPercakapan antara cowok dan cewek\nCowok :\u4eca\u9031\u3001 \u3069\u3053\u306b\u884c\u304d\u305f\u3044\u3067\u3059\u304b\uff1f\nCewek : \u3002\u3002\u3002\u3002\u3002",
+        "context": "",
         "choices": [
             {
                 "text": "\u56f3\u66f8\u9928 \uff08\u3068\u3057\u3087\u304b\u3093\uff09",
@@ -886,15 +948,17 @@
         "audio_url": "https://drive.google.com/file/d/1jwqX2f6l5ItH6UyyTt3WeiuwvyDP6hb5/view?usp=drive_link",
         "audio": "audio/dd9360e2179d4c8a93cabad1dcd4f596.mp3",
         "hash": "74ec81bccce469d63659cdd20b1c0d89",
-        "created_at": "2026-05-18T13:32:08.594863",
+        "created_at": "2026-05-18T14:18:40.390729",
         "correctAnswer": "\u52d5\u7269\u5712 \uff08\u3069\u3046\u3076\u3064\u3048\u3093\uff09"
     },
     {
-        "question_id": "KUDAMONO_32_1779085931",
+        "question_id": "KUDAMONO_32_1779088722",
         "form_name": "KUDAMONO",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "6.\u00a0Audio\nPercakapan\nNanti siang mau pesan apa ? (\u3072\u308b\u3054\u306f\u3093)",
+        "context": "",
         "choices": [
             {
                 "text": "\u305f\u3053\u3084\u304d",
@@ -913,15 +977,17 @@
         "audio_url": "https://drive.google.com/file/d/1sYJPPCzecubNU_NRHp8kVpHPM4Zl6oOJ/view?usp=drive_link",
         "audio": "audio/051f09692e221c0a59c1b401ebeb0ee3.mp3",
         "hash": "3c69492cdb669bd1e947c6ac4794990a",
-        "created_at": "2026-05-18T13:32:11.163065",
+        "created_at": "2026-05-18T14:18:42.688188",
         "correctAnswer": "\u305d\u3070"
     },
     {
-        "question_id": "KUDAMONO_33_1779085933",
+        "question_id": "KUDAMONO_33_1779088724",
         "form_name": "KUDAMONO",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "7.\u00a0Audio\nPercakapan tentang Seorang cewek mau membeli vakumcleaner atau \u305d\u3046\u3058\u304d,\u00a0\n\n\nBERAPA HARGANYA ?",
+        "context": "",
         "choices": [
             {
                 "text": "\uff15\uff10\uff10\uff10\u5186",
@@ -940,15 +1006,16 @@
         "audio_url": "https://drive.google.com/file/d/1AIoG56MwVkQJ8OKt5cp7MMEnLIq6K6dR/view?usp=drive_link",
         "audio": "audio/199544ed878bf0e0e402aa498f30ea32.mp3",
         "hash": "007df74604025f430fdce6188c753ad8",
-        "created_at": "2026-05-18T13:32:13.250664",
-        "correctAnswer": "1\uff15\uff10\uff10\uff10\u5186"
+        "created_at": "2026-05-18T14:18:44.983415"
     },
     {
-        "question_id": "KUDAMONO_34_1779085935",
+        "question_id": "KUDAMONO_34_1779088727",
         "form_name": "KUDAMONO",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "8.\u00a0Audio\u00a0\u00a0\nPercakapan antara cowok dan cewek\nCOWOK TANYA TOILET ADA DILANTAI BERAPA ?",
+        "context": "",
         "choices": [
             {
                 "text": "1\u968e\u30682\u968e\u306b\u3042\u308a\u307e\u3059",
@@ -967,20 +1034,22 @@
         "audio_url": "https://drive.google.com/file/d/1kevI36_JVjFzwLsr4rUtyM-LI-V3PnnX/view?usp=drive_link",
         "audio": "audio/31ad8a0b4523e01c53e808c2756b9b27.mp3",
         "hash": "ecc2e9e07d9383747f3f67a0eedd6bf6",
-        "created_at": "2026-05-18T13:32:15.419200",
+        "created_at": "2026-05-18T14:18:47.274243",
         "correctAnswer": "2\u968e\u30684\u968e\u306b\u3042\u308a\u307e\u3059"
     },
     {
-        "question_id": "KUDAMONO_35_1779085939",
+        "question_id": "KUDAMONO_35_1779088730",
         "form_name": "KUDAMONO",
         "page_number": 3,
         "category": "choukai",
-        "question": "9.\u00a0Audio\nPercakapan tentang izin cuti bekerja\u00a0\n( 2 soal )\u00a0\n1. Surat izin di taruh dimana?",
+        "question_type": "chokai",
+        "question": "1. Surat izin di taruh dimana?",
+        "context": "9.\u00a0Audio\nPercakapan tentang izin cuti bekerja\u00a0\n( 2 soal )",
         "choices": [
             {
                 "text": "di surga",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVD_Mn-yFFbg5sMzDeau3a_43TENhcWpJGC1hi35_JNBRN4jHKYWnpcwDsUtdE2M_YFFCS5RnoguwmbRKWFo1FgYrHmc7ZcyLecLT5ZVZlQFUCJt1L6IgOgbSzo8tL2w0LGSh4CCvdMCQPbdL0tMSMTt3kNX0jE9Kj7-mRY6glhedQMgBBBH5uRH9l6lUMIMLAv2cPM7_8_ONv76=w260?key=PcSn1SHkYwejCQit03vnFQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDpAezVMPss2z8C51-YskL37TwydlJz_ZeLi8GPtmDfiPMtiFA7jxIId0JVYARgrtyU6NLUGAMgMEtM3Q2GraE3LKqJSoszW_J-SHkkiufdv0niE5bRm_2ApLZVb5tKeZu5lYb7Allqk-GS2RfxGCZgzQ6Ro1usCwCGJi6kISFAJc9oMSgjTWGgq5_b_EaHYGgWrwIP1e1cGO74=w260?key=PcSn1SHkYwejCQit03vnFQ",
                     "path": "images/fdba74fb9a4c6d91b0c16d1ab28cd9bf.png"
                 }
             },
@@ -1002,16 +1071,17 @@
         "images": [],
         "audio_url": "https://drive.google.com/file/d/1GB94R9lZn7kDWzqI4OxHB-l43s-QQ9dG/view?usp=drive_link",
         "audio": "audio/e60875acda8eeb7689a6a33eb8d4450d.mp3",
-        "hash": "4739421998eddafaa4cd77b79dcfed68",
-        "created_at": "2026-05-18T13:32:19.411872",
-        "correctAnswer": "ditaruh diatas meja"
+        "hash": "a2ed5b1e6bb3cb2a57c917bff3397e8a",
+        "created_at": "2026-05-18T14:18:50.531565"
     },
     {
-        "question_id": "KUDAMONO_36_1779085939",
+        "question_id": "KUDAMONO_36_1779088730",
         "form_name": "KUDAMONO",
         "page_number": 3,
         "category": "choukai",
-        "question": "10.\u00a0\n2. Paling lambat menyerahkan surat tanggal berapa?",
+        "question_type": "text_only",
+        "question": "2. Paling lambat menyerahkan surat tanggal berapa?",
+        "context": "10.",
         "choices": [
             {
                 "text": "\uff11\uff13\u65e5",
@@ -1029,16 +1099,17 @@
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "62f255991829c9b8232eb09a0dbf0640",
-        "created_at": "2026-05-18T13:32:19.765557",
-        "correctAnswer": "\uff11\uff13\u65e5"
+        "hash": "16d671d06a3627b755db95c83bd378d8",
+        "created_at": "2026-05-18T14:18:50.890521"
     },
     {
-        "question_id": "KUDAMONO_37_1779085942",
+        "question_id": "KUDAMONO_37_1779088733",
         "form_name": "KUDAMONO",
         "page_number": 3,
         "category": "choukai",
-        "question": "11.\u00a0Audio\nPengumuman perusahaan tentang penjelasan mesin baru ( 2 soal )\u00a0\n\n\n1. Setelah makan siang Berkumpul dimana? ( karena saya masih ragu jadi tolong nanti ketika ujian di dengarkan lagi dengan seksama",
+        "question_type": "chokai",
+        "question": "1. Setelah makan siang Berkumpul dimana? ( karena saya masih ragu jadi tolong nanti ketika ujian di dengarkan lagi dengan seksama",
+        "context": "11.\u00a0Audio\nPengumuman perusahaan tentang penjelasan mesin baru ( 2 soal )",
         "choices": [
             {
                 "text": "\u3060\u3044\u3069\u3053\u308d",
@@ -1056,16 +1127,17 @@
         "images": [],
         "audio_url": "https://drive.google.com/file/d/1qW8_lv8TxL-uOn8rN3ECpOuq-AyKXegR/view?usp=drive_link",
         "audio": "audio/f05c7a8623e71ea2cde46b5e5ddf55a6.mp3",
-        "hash": "75abd8383d25d031a7d443f4fb107af5",
-        "created_at": "2026-05-18T13:32:22.067699",
-        "correctAnswer": "\u3057\u3087\u304f\u3069\u3046\u306e\u304b\u3044\u304e\u3057\u3064"
+        "hash": "30770afa530326b2d57e3a56db545264",
+        "created_at": "2026-05-18T14:18:53.599057"
     },
     {
-        "question_id": "KUDAMONO_38_1779085942",
+        "question_id": "KUDAMONO_38_1779088733",
         "form_name": "KUDAMONO",
         "page_number": 3,
         "category": "choukai",
-        "question": "12.\n2. Harus berkumpul di ruangan jam berapa?",
+        "question_type": "text_only",
+        "question": "2. Harus berkumpul di ruangan jam berapa?",
+        "context": "12.",
         "choices": [
             {
                 "text": "\uff11\uff11:\uff14\uff15",
@@ -1083,15 +1155,17 @@
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "cb02ab7c929c41857f7ce3f38b509d3d",
-        "created_at": "2026-05-18T13:32:22.416944"
+        "hash": "a48a2ed7fc89259da4ba26e3f636d804",
+        "created_at": "2026-05-18T14:18:53.953965"
     },
     {
-        "question_id": "KUDAMONO_39_1779085953",
+        "question_id": "KUDAMONO_39_1779088745",
         "form_name": "KUDAMONO",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_image",
         "question": "1.\na. Minggu kemarin melakukan apa ?",
+        "context": "",
         "choices": [
             {
                 "text": "\u30e8\u30ac",
@@ -1108,7 +1182,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAvf9s8ltiJRSVjlIrKBl1r18elYYA7YsE4nbTXs1uZX5CDC5_4MEHp1q6x30tnATObne7lq5RJlEJlcLojOON8XlryMEe5p14zOzPPrezSjylpbTDhaCeM7PvOt3a1Nc0_Yu4XPZuO3lxeaMX5Or_FrK1AwXbDEIk0kEXXvH16oIjysSe-VSaA1xY8hk3ZQIZMmQeheWcLgubk=w740?key=PcSn1SHkYwejCQit03vnFQ",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBJZx8jG63edszOh5dJA1PH4Sy7bjWY4FznlJqoILaKbozz43AdAb-PbFwR3oL8-cHFcpN99W3342uwOmiuOLKMA9Cl55FlmNEjH-wC9uDyUPIzpwjOEafrjMnG3j9p-ocZpoCHmii82WU4ou7QuvgM0P3Pthob7ivyVl0HXeLm-KMKo-UT533eOGi9i7RW6jc8V2cBPzLItNTx=w740?key=PcSn1SHkYwejCQit03vnFQ",
                 "path": "images/28f5921a9a5f7c8304f1406449bf9166.png",
                 "index": 0
             }
@@ -1116,14 +1190,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "841dc7a7159b6616fd4e3fc6f888da79",
-        "created_at": "2026-05-18T13:32:33.282084"
+        "created_at": "2026-05-18T14:19:05.288927"
     },
     {
-        "question_id": "KUDAMONO_40_1779085956",
+        "question_id": "KUDAMONO_40_1779088757",
         "form_name": "KUDAMONO",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_image",
         "question": "2.\nb. Besok melakukan apa ?",
+        "context": "",
         "choices": [
             {
                 "text": "\u3068\u3082\u3060\u3061\u306b\u3042\u3044\u305f\u3044\u3067\u3059",
@@ -1148,14 +1224,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "ee77da8711b7f770dbed2411b7aae910",
-        "created_at": "2026-05-18T13:32:36.191636"
+        "created_at": "2026-05-18T14:19:17.030141"
     },
     {
-        "question_id": "KUDAMONO_41_1779085956",
+        "question_id": "KUDAMONO_41_1779088757",
         "form_name": "KUDAMONO",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "3.\u00a0 Gambar jadwal acara televisi\u00a02 soal\n\n\na. siarannya pada jam berapa ?",
+        "context": "",
         "choices": [
             {
                 "text": "20.00",
@@ -1174,15 +1252,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "019d13de1b44f5bf41aebedbca624c59",
-        "created_at": "2026-05-18T13:32:36.551507",
+        "created_at": "2026-05-18T14:19:17.395001",
         "correctAnswer": "20.00"
     },
     {
-        "question_id": "KUDAMONO_42_1779085956",
+        "question_id": "KUDAMONO_42_1779088757",
         "form_name": "KUDAMONO",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "4.\u00a0\u00a0\nb. Acara masak/makan di chanel apa?",
+        "context": "",
         "choices": [
             {
                 "text": "\u3072\u306a\u305f\u30c6\u30ec\u30d3",
@@ -1201,15 +1281,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "2ba7ffb1def9078bbc5a422006d00614",
-        "created_at": "2026-05-18T13:32:36.911782",
+        "created_at": "2026-05-18T14:19:17.754214",
         "correctAnswer": "\u3055\u304f\u3089\u30c6\u30ec\u30d3"
     },
     {
-        "question_id": "KUDAMONO_43_1779085957",
+        "question_id": "KUDAMONO_43_1779088758",
         "form_name": "KUDAMONO",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "5.\u00a0 \u00a0\nCerita tentang penginapan\u00a02 soal\na. Alasan menginap di penginapan tersebut?",
+        "context": "",
         "choices": [
             {
                 "text": "\u3059\u3079\u3066\u306e\u98df\u3079\u7269\u3092\u305f\u3081\u3059\u3053\u3068\u304c\u3067\u304d\u307e\u3059",
@@ -1228,14 +1310,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "613b237bfbaedb3b8e625b0666b08c6b",
-        "created_at": "2026-05-18T13:32:37.290035"
+        "created_at": "2026-05-18T14:19:18.116066"
     },
     {
-        "question_id": "KUDAMONO_44_1779085957",
+        "question_id": "KUDAMONO_44_1779088758",
         "form_name": "KUDAMONO",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "6.\u00a0\nb. \u30df\u3055\u3093\u304c\u3088\u304f\u306a\u3044\u3068\u304a\u3082\u3044\u306f\u306a\u3093\u3067\u3059\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "\u308a\u3087\u304b\u3093\u304c\u304d\u308c\u3044\u3067\u3059",
@@ -1254,14 +1338,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "cc526ea145b6684b86207748d60f3579",
-        "created_at": "2026-05-18T13:32:37.648905"
+        "created_at": "2026-05-18T14:19:18.483931",
+        "correctAnswer": "\u3046\u308b\u3055\u3044\u306e\u3067\u3001\u3054\u98ef\u3092\u98df\u3079\u3089\u308c\u306a\u3044"
     },
     {
-        "question_id": "KUDAMONO_45_1779085958",
+        "question_id": "KUDAMONO_45_1779088758",
         "form_name": "KUDAMONO",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "7.\u00a0 \u00a0\nPamflet harga Koper.\u00a02 soal\na\uff0ePERNYATAAN YANG BENAR DARI PAMFLET ITU APA?",
+        "context": "",
         "choices": [
             {
                 "text": "Karna banyak warna bisa memilih",
@@ -1280,14 +1367,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "b25be68d5a293ab2d36619b6eee66774",
-        "created_at": "2026-05-18T13:32:38.027739"
+        "created_at": "2026-05-18T14:19:18.852001",
+        "correctAnswer": "Karna banyak warna bisa memilih\nFeedback\npilih yang beragam warna"
     },
     {
-        "question_id": "KUDAMONO_46_1779085958",
+        "question_id": "KUDAMONO_46_1779088759",
         "form_name": "KUDAMONO",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "8.\u00a0\nb\uff0eKalau beli di tokonya dapat pelayanan apa ?",
+        "context": "",
         "choices": [
             {
                 "text": "FREE ONGKOS KIRIM",
@@ -1306,14 +1396,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "aa76af241089de8ff8dd4c07ee15f1ad",
-        "created_at": "2026-05-18T13:32:38.387636"
+        "created_at": "2026-05-18T14:19:19.217924"
     },
     {
-        "question_id": "KUDAMONO_47_1779085958",
+        "question_id": "KUDAMONO_47_1779088759",
         "form_name": "KUDAMONO",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "9.\u00a0\nPamflet menu paket\u00a02 soal\na. Hari jumat menunya apa?",
+        "context": "",
         "choices": [
             {
                 "text": "ramen",
@@ -1332,14 +1424,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "55b91645d81b3e2dfcffa75fe5bbf3f4",
-        "created_at": "2026-05-18T13:32:38.752975"
+        "created_at": "2026-05-18T14:19:19.582990"
     },
     {
-        "question_id": "KUDAMONO_48_1779085959",
+        "question_id": "KUDAMONO_48_1779088759",
         "form_name": "KUDAMONO",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "10.\u00a0\u00a0\nb.\u00a0 sushi harganya berapa?",
+        "context": "",
         "choices": [
             {
                 "text": "900\u5186",
@@ -1358,14 +1452,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "544c10eefce60327ef08e20350d15366",
-        "created_at": "2026-05-18T13:32:39.118349"
+        "created_at": "2026-05-18T14:19:19.953114",
+        "correctAnswer": "900\u5186"
     },
     {
-        "question_id": "KUDAMONO_49_1779085959",
+        "question_id": "KUDAMONO_49_1779088760",
         "form_name": "KUDAMONO",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "11.\u00a0\nPengumuman tentang air pam\u00a02 soal\na. Air PAM berhenti sampai jam berapa",
+        "context": "",
         "choices": [
             {
                 "text": "12:00",
@@ -1384,15 +1481,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "096f4e12ff2bae6e6a6745c902d430e0",
-        "created_at": "2026-05-18T13:32:39.561515",
+        "created_at": "2026-05-18T14:19:20.315976",
         "correctAnswer": "\u5348\u5f8c03.00\nFeedback\n\u5348\u5f8c3\u6642\u307e\u3067"
     },
     {
-        "question_id": "KUDAMONO_50_1779085959",
+        "question_id": "KUDAMONO_50_1779088760",
         "form_name": "KUDAMONO",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "12.\u00a0\u00a0\n\uff42. Kalau air nya warna coklat sebaiknya melakukan apa?",
+        "context": "",
         "choices": [
             {
                 "text": "10\u5206\u3050\u3089\u3044\u6c34\u3092\u3060\u3057\u307e\u3065",
@@ -1411,15 +1510,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "bbe4a0d780d49da80d2ff122cb7130e0",
-        "created_at": "2026-05-18T13:32:39.989921",
+        "created_at": "2026-05-18T14:19:20.689016",
         "correctAnswer": "5\u5206\u3050\u3089\u3044\u6c34\u3092\u3060\u3057\u307e\u3059"
     },
     {
-        "question_id": "KUDAMONO_51_1779085960",
+        "question_id": "KUDAMONO_51_1779088761",
         "form_name": "KUDAMONO",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "13.\u00a0\u00a0\nTentang jadwal konser musik\u00a0\npertanyaan :\u00a0konsernya jam berapa?",
+        "context": "",
         "choices": [
             {
                 "text": "20:00",
@@ -1438,6 +1539,6 @@
         "audio_url": "",
         "audio": "",
         "hash": "fc7e804aa2d6768c2c478a425e34e5a4",
-        "created_at": "2026-05-18T13:32:40.366736"
+        "created_at": "2026-05-18T14:19:21.051360"
     }
 ]

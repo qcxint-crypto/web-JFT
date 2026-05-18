@@ -1,10 +1,12 @@
 [
     {
-        "question_id": "CHICHI_0_1779085553",
+        "question_id": "CHICHI_0_1779088329",
         "form_name": "CHICHI",
         "page_number": 1,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "1.\u00a0\u00a0\u00a0untuk 2 soal\nAda audio tentang perempuan datang terlambat.\n\n\na. Kenapa perempuan datang terlambat?",
+        "context": "",
         "choices": [
             {
                 "text": "\u53f0\u98a8\u304c\u3042\u308b\u306e\u3067",
@@ -23,14 +25,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "12b8aaaf40cec762653cb82487c3449f",
-        "created_at": "2026-05-18T13:25:53.183482"
+        "created_at": "2026-05-18T14:12:09.439027"
     },
     {
-        "question_id": "CHICHI_1_1779085553",
+        "question_id": "CHICHI_1_1779088329",
         "form_name": "CHICHI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "2.\nb. Dompet nya ketinggalan di mana ?",
+        "context": "",
         "choices": [
             {
                 "text": "DITAMAN",
@@ -49,14 +53,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "bbb58249ee94f7fc1ec52c7e4ae12d00",
-        "created_at": "2026-05-18T13:25:53.596403"
+        "created_at": "2026-05-18T14:12:09.787242"
     },
     {
-        "question_id": "CHICHI_2_1779085553",
+        "question_id": "CHICHI_2_1779088330",
         "form_name": "CHICHI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "3.\nBerapa harga piring kecil itu?",
+        "context": "",
         "choices": [
             {
                 "text": "\uff13\uff15\uff10",
@@ -75,33 +81,35 @@
         "audio_url": "",
         "audio": "",
         "hash": "be8a60b92f48db8354e202c9a7d7b757",
-        "created_at": "2026-05-18T13:25:53.982777"
+        "created_at": "2026-05-18T14:12:10.160342"
     },
     {
-        "question_id": "CHICHI_3_1779085555",
+        "question_id": "CHICHI_3_1779088331",
         "form_name": "CHICHI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "\uff14.\nPerempuan itu terlambat datang ke acara menonton film. Setelah itu dia memilih rekomendasi acara lain, tetapiApa yang dilakukan perempuan tersebutbut",
+        "context": "",
         "choices": [
             {
                 "text": "\u30ed\u30d3\u30fc\u3067\u3053\u3069\u3082\u306e\u3057\u3083\u3057\u3093\u3092\u307f\u308b",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA3MrJzhCX91AMMy-ZMVNafIgeoPosOsvV75P9aqxvjzJaWlngnF5bexOsCGYTeY0O0x-sRRt_VMgDXFZN-rrYhhe1u6e9pqfck4wC8tBJARDOncZOG9TsOWAMiVkAGznCLyXNlEJM8CJjRZ68HKKzI7o4QeBrup9niNp6bfh0olb0fz6lhEdUnZTZVKCYywxNqC0QUX9Q6FUUO=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDx6kUqoYkpSTj7XlUuaZG-cXLam0NMJF_Xf14x-givmqX_EVypz-Md7MMVnpupXTZrzyNe3zn-k3RTzvVoKp9EoveaVIYwAzYtxLPdF385aMfjiqi70CTLQ2KQ_pED3z492X2booHd7ncR6WCLHQjvRzcZ0eBMVdkPMqY20hvoKkmxWDl7QcJQhhHt3zsAcvwraYYL5yKmgn97=w260?key=gdt-tdeJ3uzfD_3x990zHg",
                     "path": "images/147c730aa26797892a6e97e796f1a1b4.png"
                 }
             },
             {
                 "text": "\u30b3\u30f3\u30b5\u30fc\u30c8 \u3092 \u898b\u308b",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAuRrzwIpxQiq43AEm2sI_QKSYBiK3d8pebqesFQHDuzbuY7fAtjiTfrIs_wEyQd2-29zJEsXrkBhWIKmStw06wVjChb8xcQevcT9KqUCFzO5NcNPFrKCWUYGcaAcSDPAY4t5TO8QzsdDV3ZfOe9TJuz-xAjjS7FLfGnW_aFCLHtl0q_UKefxT_0JlJBivZovXxxzx1xV3HIvE=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBDDAimXEHnLQmCr553SHTLLhmwlVYeBxXm0XmuSETpzdeOFfXbox2nq0lC_6oJdsIED-Fb82bmIguSgsjp6lt9pgDS7EhLdnhbNTVw4juzvAIMFjJYUiPEolCj_iflhkHBPCPwVpd0-QkV5qix2VI0VutPSfMnXrOzafi7YNsBYmwKnrLSb-8M5d6cXe2ZvUHiZubPg6kFT8w=w260?key=gdt-tdeJ3uzfD_3x990zHg",
                     "path": "images/8c97b478658d2480cbb0294efd66ec12.png"
                 }
             },
             {
                 "text": "\u3048\u3044\u304c\u3092\u307e\u3063\u3066\u3044\u307e\u3059",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAn5Hyuxl0fbcnC52BS29oiXqTxl9WZJFGrKZ5s5M7kiG2I7gva4pGzimOp5P-rzriYwNrcc313h9eq9Zt1vHNQY2ATLfAikttSwhFO-igyEo1u4Y6bnCzrKmhaqYOLQhlU07emGdPkefvjsMsJAe_YJxAi0wycmur56tBhw7dr8BxEZWPgio1ewmmcoGIOrH5NnvuSWkHAR2MU=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDqYUXdjtWptln1EwVahj1gW4vaorsbMY2R8Q8nvx5pnhSw08bZP5lZLrMI5AU64g_O7CRFb-cbIcrr7Qycu4dResa2ts9j4XgOO7UbdCPrb1JvmvpmIFL-1gPd7WjBNLjmgNaEA_468qfJXEnm4oYZDTT5OmIK3ds0oZSv-wyQ57SnhqedgBMpMP0Q_CTDDCntjFdLgesmhTuk=w260?key=gdt-tdeJ3uzfD_3x990zHg",
                     "path": "images/40d1e87e13bd5e64d004aca548c58568.png"
                 }
             }
@@ -110,14 +118,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "49497f33d3c43f7bd48a137c838c328c",
-        "created_at": "2026-05-18T13:25:55.579212"
+        "created_at": "2026-05-18T14:12:11.842646"
     },
     {
-        "question_id": "CHICHI_4_1779085556",
+        "question_id": "CHICHI_4_1779088333",
         "form_name": "CHICHI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "5.\nMemilih menu makanan, kemudian memilih yang paling disukai",
+        "context": "",
         "choices": [
             {
                 "text": "Kare",
@@ -136,7 +146,7 @@
             {
                 "text": "Rawon",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBx5Tu9Aig9ZSATgYzqGvJnf2Oaxs3k6t_2p5SY7kyVjcwfnMu7UuyxvB0xAGV3kU4s1j0Rc7lgCq1FJ0B-7jK3B6Ps1bwRNcPI8gIfP0wzf5beCLBXDUTEpXdl9AKmofGvPrCKlZkhMWfxNi32wPRp55dkFgify_N35FKeGlQhBy56gJPNTw3x8XJt3royQYTMt06CvrKihRo=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDkPvaaIxW2YwMcNqAJ1bvsirKZ5Bp8E4d6gqyxH7JwARIB11XfwZKL9vXFivsppJNbaIazZCi1sPRELTjafqrBRLvNvrn-GaARCeEnUB9ChK-cpMTMmXFgWtfBXTYLabl0aKupQDYp3snEajlt3gfzUdbhY_6YytWvKNUNwAdLpufaOhWdqGmnzCq02VF-4q8xf_HW5XA1BOw=w260?key=gdt-tdeJ3uzfD_3x990zHg",
                     "path": "images/93e31e36d1875d0dcdc4e6c3265f3b6d.png"
                 }
             }
@@ -145,33 +155,35 @@
         "audio_url": "",
         "audio": "",
         "hash": "8abaa818c402977fa9d5d7f09b741dcd",
-        "created_at": "2026-05-18T13:25:56.900958"
+        "created_at": "2026-05-18T14:12:13.764168"
     },
     {
-        "question_id": "CHICHI_5_1779085558",
+        "question_id": "CHICHI_5_1779088335",
         "form_name": "CHICHI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "6.\nApa yang membuat pria itu terkagum?",
+        "context": "",
         "choices": [
             {
                 "text": "\u3046\u305f\u3092\u6b4c\u3048\u308b",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDaZ6payZBm2CTQoOCre7QBbLShrcdekpZCq1Nox2P1vEHAmSrGIKz9zLVEJsg8i1n8PfVknwOnosWtw8vevn1NJeosQA0Sd_QhscZaykEIy-lVigf0JTbAsDmMq0YGdP5WUswX8aUY9u5O06l86nurNyPTDKZAxtnav3Y6DZDa7sgoDaX9Rx3Kl0LqrIQhnX_Ws5x6XaIaAHNa=w220?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA-ngy_U4r9SeyMAs8YYcLbteEPUorsNR3XVB4oxDrGqVAgw3_Dv7jf1Bop_-N_k0d9jN4CT1qEXONBXz0Qk12Q8LCutGq0I0wKVR1_HzKusihvK5iDs3EQvycyqyXdeiE1zTFctKa6eZiZRQra1zPwKRLapkv2UGaiTwrl9c_b8E4HrNH6bU2sWyDy9fuVyGL-F1J1cG1lJa_P=w220?key=gdt-tdeJ3uzfD_3x990zHg",
                     "path": "images/bd071094f910a55d4fb280cb5f9adda0.png"
                 }
             },
             {
                 "text": "\u30c9\u30e9\u30de\u3092\u898b\u308b",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDOPnI74urqXJ5txsYWXdH9lb9mxdfQx02by8rFvEJdUdEiosF69l7IyfMrqZ3qO34CKo5LvsaTy9ciD_6e-DzniHiDcVCzYeUp66zAQGJtstDKUgIUoHTebgclnAUy9wVAXEnNh7GY8JTfun_BW_VPO90VkLCLSG9eGjuVWshSC1RiyXzUSbTRJGRr33xK0C-mczfvMD1k0xEc=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBQNklj-bOHLqLwMPNSy3u-z7MCPmQzvJzMwd6yCRClFmNgLJ4HpS5-XPL19c0YuJSi6ZNhMYU-mGQwGC27gtdwicQz53R_XoV35vp99F7eqzhMTTAJSoUt4mzqbObxl2X1cMu2u36cxmgQKPvBhtkv8UHmNtLdBW6g23k74C56YO0jehTBP-kc7XN4kHn9ByI3GqIiipCDrsxs=w260?key=gdt-tdeJ3uzfD_3x990zHg",
                     "path": "images/8002ef0d0b14c9deab916ad9642f03cd.png"
                 }
             },
             {
                 "text": "\u5c0f\u8aac\u3092\u3088\u3080",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCABfxGtHXM9hYwJYYE-M4kOHN3rsg5myIdUk-tq75iG782sl3nB99qWk1mST9Jniv1XecGIpS7kKnIEyZkNRinrhEF6cwD9_DlUCVQaD9GhWlFRXiOR1WU-8hx3YOekOLHNdSDXhfMxCqKO6gYlbs6LXMM3VM_OqZd222h8gtaNO5TZMRLUlkF6c_xGRFF_kObgne2acYmzqBd=w209?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDPPUhDJuFPBz2GnZCj5Jom69Z4nYfFSSA-70q_r3aX5ekZzioM_qC8eFlQdYhKVr95dhVN1xQzMBnTbcb5IfP1JenmECR64GspGHM6u3oo_RLfqQKZszc9H1Td7qsqNB0bMmZNfxcjlss7YeD_JxpkwGbg1quqobMll30d3DQKOJ33qJITQwnae-6KgtNFPh3eK0jXjU1hrzK6=w209?key=gdt-tdeJ3uzfD_3x990zHg",
                     "path": "images/2dced07bc0ca843119bf96360e3f5745.png"
                 }
             }
@@ -180,14 +192,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "a696af31eb9f14ed3c48592bcc43d5f6",
-        "created_at": "2026-05-18T13:25:58.169268"
+        "created_at": "2026-05-18T14:12:15.096962"
     },
     {
-        "question_id": "CHICHI_6_1779085558",
+        "question_id": "CHICHI_6_1779088335",
         "form_name": "CHICHI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "7.\u00a0\nAda percakapan orang akan mengirim barang #kapan barangnya sampai",
+        "context": "",
         "choices": [
             {
                 "text": "8\u67085\u65e5",
@@ -206,14 +220,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "fa7f186e791b5c321c24364f1625ebcc",
-        "created_at": "2026-05-18T13:25:58.526075"
+        "created_at": "2026-05-18T14:12:15.450811"
     },
     {
-        "question_id": "CHICHI_7_1779085558",
+        "question_id": "CHICHI_7_1779088335",
         "form_name": "CHICHI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "8.\nNomor busnya berapa dan di stasiun berikutnya berhenti di stasiun apa?",
+        "context": "",
         "choices": [
             {
                 "text": "47",
@@ -232,33 +248,35 @@
         "audio_url": "",
         "audio": "",
         "hash": "a3063078ab703f0f30c4e4669c3ed77f",
-        "created_at": "2026-05-18T13:25:58.891115"
+        "created_at": "2026-05-18T14:12:15.822890"
     },
     {
-        "question_id": "CHICHI_8_1779085560",
+        "question_id": "CHICHI_8_1779088337",
         "form_name": "CHICHI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "9.\u00a0\nBus Berhenti Dimana ?",
+        "context": "",
         "choices": [
             {
                 "text": "Opsi 1",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBqjAXb-UtAeOesuxUswClq5RsYABFtwSByuExbAOwu2JU_EMPbZpmcLa0y7NCskRqFEtZBIeRsdZXdxkOHZgvLRUIrIBxbNLbc1G327LuYY1UurOv_wDZaHy0PJ8tl133iIoq68pxW7LecLtzahqIzD5RmWZsaJtBKKvxZfHsO4NH2uddPQvYNVdRHpJdGa_QeOwPYAWIoHE0=w122?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB_5pb_ibKnuIl1AEnyGM7vyrn9ZUoE2zvsDjM-79ezdOxkRSEt6vuFjMfnRKpkNrfPK4iVNqw0PmTxH1KnBGG9832TKENA5S6Hb68Se3ceWwz5zAgo12beGS0cIcwA1UFbfQ-B2Ya56__EewsCoGrUbxcDW9ntKvpT3RifbxuWsftmq-kw7TrKJ-hdgik_tlsMu0VZDf4jnuQ=w122?key=gdt-tdeJ3uzfD_3x990zHg",
                     "path": "images/7db6aacc20f7f46e8d3490d360605bd7.png"
                 }
             },
             {
                 "text": "Opsi 2",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVADlwADqlmi6rvz7ZCapPayvULedr5bqQLXWAd669HpYDgrWDiW9xv5Us5gDEBZXzIHmfMVXuq9NhWJpsUl30DmLcE_10O-SCGtYHF_ZcIgl2lF21_Ro0meirdqYohYA6GjVNikFAPJ9b9q11d55CfRPoRhjEv0861K529sxVTllpSDC_CdyHrwtllVn--PPGdfAzR1f7KJgug=w167?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCPTs0el3rQ2NIKLhdjmQ-4b2RQOrOl4yGfKO31MOKYUTMaXtNC0Ev-1UkVA_JU1UKkREyU0A_JhF7Cb_LGCXvY_Rs3iFWyNp0Jz6PeEPmIdLT68I0EUI0RzWh40jxIA31dYYhwKj1mBXQpP3qzNwmgIxTcxSW3OM8aJm8HLXT9UTwF_ROXFbObCA5snI9pMhewdyE2hReNK9c=w167?key=gdt-tdeJ3uzfD_3x990zHg",
                     "path": "images/6a7bc86829bdc0c5c34c775e82264b84.png"
                 }
             },
             {
                 "text": "Opsi 3",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDjYrt2zuDUmGR-faOIFi9_JSYIqzVCcWW6E90OdNIGIUiAuCVire2gAeL1vdlpHT-13YDJxWNH6db7vDjAVeVgQ9w-FKYLoKdC5iM36X3yJ26E-2lyVCmVRo_FPzQ22YjOCALOV_DY8qov_MLXefgvyWaxn5pGJHSrS9s8wMVrt7rYlWzsq8CzkVIZeap2Csu4qbYhOipgeqFc=w192?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBjVwjQ4C60O0HrM8Hz-fYd-vA0QnDvZkky0CfWACB0qxKbmfQzbeKlG0xilIBI0LlUC-vCrwHVPE9fVKldoCRNCvpz56llAOgPyHHN76Y2zRyj6aP0_pJG5qLu6qOveB7rZ6NI4yRz5bc6twJKbasxZ-Ff2nSHFX7EHLOprUFZCZFRuT-MViDnUgqltWgzqbwiCa5hL3kb1qox=w192?key=gdt-tdeJ3uzfD_3x990zHg",
                     "path": "images/978136a90fb6d1e82ce3a10f9149395d.png"
                 }
             }
@@ -267,33 +285,35 @@
         "audio_url": "",
         "audio": "",
         "hash": "0ec9274f09e27ce55bf6efadb37d9bd6",
-        "created_at": "2026-05-18T13:26:00.187674"
+        "created_at": "2026-05-18T14:12:17.397032"
     },
     {
-        "question_id": "CHICHI_9_1779085561",
+        "question_id": "CHICHI_9_1779088338",
         "form_name": "CHICHI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "10.\u00a0\nDimana Mendapatkan Alat Bersih-Bersih",
+        "context": "",
         "choices": [
             {
                 "text": "Resepsionis",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBLeG1RXvI4NH67Lsz77rHpULzwdf0mWA9k8GUd_Je_hUkK2gzJX_9j-93VwElFrLWVgCdRq5SCCfuod3QbdruL1XNRwQgWT8KTuGbOTiV_0r5286lfq1mdoR7cz1u3HBlnab2IXVId1AUvP8DjLL1tdp5-4tANS0iA3thbg4ov__dNQTgfPV0D-4fD4Noc3et5ST5AvNB99d5G=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDQM0gpPlQ_JD5hfzuz93Jrh9y6UjU61lbRBz5l3pFh0MBvDKvq1KhPPW07MiyAVuR_D8tqbwmqjKpfRrCjjJxjZxhfSHjwGbQ1b3aQa4BofVWPjPGbzPhL10Rttcf0o4wCx5WQaUFnkK8PPzcCC24ZuIhApffSbiMq3CjpOqh0FzUnBudbjHD6LeGq60j-EFs2cwiGuqsNcu2U=w260?key=gdt-tdeJ3uzfD_3x990zHg",
                     "path": "images/8df6a8d9b119bbf9f2163656163a7300.png"
                 }
             },
             {
                 "text": "ruang rapat",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBEeUP8PTMl_NiV_4yRwfnmr9bGwNhJieDxgfVquw6NxAhKJ4k-s2udCid0rdANN8y4Lm-cdTbmGTn_gpnYs45xBW-HndUtIDsW3MjsqCNoXKt1xWecAKR6tdjEsgpH6S7LMWRlhVuED-Ny89cfmQJZfp64CnAmx0Bl3jJhZeULSOUv5hBRc8JZ6w-bDFRyTIUHoKR2BA9W4WQ=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCDRfMqRZkNxXO4amwarhSVj8it0LyszT5AA_qnrbqxn1LlcoONut3xWzMZGre2Mre4jQjLyIEzJvdlmEoCFSPUVRLqfPea_jrt73DfandEYDdHepVbDFKwqpwdkWpj0DVObU1Y0jcGWyFwx3BeMV0tTUyMREYV6uodlXlHuTxm4JxQMrGX9u6WOb7CO7Wsu8hOWInUZbNjEpU=w260?key=gdt-tdeJ3uzfD_3x990zHg",
                     "path": "images/b41ddef72fcc0352f94ee5b3b4b23909.png"
                 }
             },
             {
                 "text": "luar angkasa",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDxq5a_rTSZmr995es-BIN5dtt72oh-LkMOxhjwhGh8XmoZUALSW92jXMNq5xXPQ7usUUpBXHdRw3JbmWq7EY7Rsl0YwiqQ1P7IqFKmDtdhImhOkAKOcE9l2eswQFEdrKN-dcZ4dhL2bSF6XI-JYq7iXCcb-lr_lacTY17rHwADJ0b4NDILJtFkg4BcjaLbI-yANXkOSZ247Jhz=w231?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAr0fkWiCbOwGmWs3GYgXYosDalaoAUWA3xovEHqHLSSS5LbwId4mUDrrMDp8WSnMztofhZNt6cUoj13STXZpz8s_lSTehKXBNKT6EiFlvlsAhlyPi_thHyT-4M2ZkEjC8GNwulMc_z91J85Aq1do34NyPvkSalBjLsjCsz3JonfPjRG_h13ynk5bQ-DXyC5Gb7FmD7p69TxQuG=w231?key=gdt-tdeJ3uzfD_3x990zHg",
                     "path": "images/c8eabc38b3dfcae98090654b64b21db9.png"
                 }
             }
@@ -302,14 +322,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "b2d4957d76c7164d0e46b3200c726975",
-        "created_at": "2026-05-18T13:26:01.814888"
+        "created_at": "2026-05-18T14:12:18.721829"
     },
     {
-        "question_id": "CHICHI_10_1779085562",
+        "question_id": "CHICHI_10_1779088339",
         "form_name": "CHICHI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "11.\na. ruang rapat tertata seperti apa?",
+        "context": "",
         "choices": [
             {
                 "text": "Gambar ruangan yang tidak ada mic nya dan tempat duduk ditata menjadi 2 baris dan tengah dikasih space",
@@ -328,14 +350,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "8829fb02535cfbed45fbb3def3b05f6e",
-        "created_at": "2026-05-18T13:26:02.174240"
+        "created_at": "2026-05-18T14:12:19.063208"
     },
     {
-        "question_id": "CHICHI_11_1779085562",
+        "question_id": "CHICHI_11_1779088339",
         "form_name": "CHICHI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "12.\nb.\u00a0Apa\u00a0yang dilakukan pertama kali ketika ada orang yang datang?",
+        "context": "",
         "choices": [
             {
                 "text": "gambar kantor dengan komputer, ada laki-laki dan perempuan berdiri",
@@ -354,14 +378,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "07a00c9f442dc10007e478ed605e38a3",
-        "created_at": "2026-05-18T13:26:02.532373"
+        "created_at": "2026-05-18T14:12:19.430625"
     },
     {
-        "question_id": "CHICHI_12_1779085572",
+        "question_id": "CHICHI_12_1779088348",
         "form_name": "CHICHI",
         "page_number": 2,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "1.\u00a0\u00a0\u00a0untuk 2 soal\nAda audio tentang perempuan datang terlambat.\n\n\na. Kenapa perempuan datang terlambat?",
+        "context": "",
         "choices": [
             {
                 "text": "\u53f0\u98a8\u304c\u3042\u308b\u306e\u3067",
@@ -380,14 +406,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "12b8aaaf40cec762653cb82487c3449f",
-        "created_at": "2026-05-18T13:26:12.138434"
+        "created_at": "2026-05-18T14:12:28.997717"
     },
     {
-        "question_id": "CHICHI_13_1779085572",
+        "question_id": "CHICHI_13_1779088349",
         "form_name": "CHICHI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "2.\nb. Dompet nya ketinggalan di mana ?",
+        "context": "",
         "choices": [
             {
                 "text": "DITAMAN",
@@ -406,14 +434,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "bbb58249ee94f7fc1ec52c7e4ae12d00",
-        "created_at": "2026-05-18T13:26:12.501936"
+        "created_at": "2026-05-18T14:12:29.348901"
     },
     {
-        "question_id": "CHICHI_14_1779085572",
+        "question_id": "CHICHI_14_1779088349",
         "form_name": "CHICHI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "3.\nBerapa harga piring kecil itu?",
+        "context": "",
         "choices": [
             {
                 "text": "\uff13\uff15\uff10",
@@ -432,33 +462,35 @@
         "audio_url": "",
         "audio": "",
         "hash": "be8a60b92f48db8354e202c9a7d7b757",
-        "created_at": "2026-05-18T13:26:12.861869"
+        "created_at": "2026-05-18T14:12:29.719554"
     },
     {
-        "question_id": "CHICHI_15_1779085574",
+        "question_id": "CHICHI_15_1779088352",
         "form_name": "CHICHI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "\uff14.\nPerempuan itu terlambat datang ke acara menonton film. Setelah itu dia memilih rekomendasi acara lain, tetapiApa yang dilakukan perempuan tersebutbut",
+        "context": "",
         "choices": [
             {
                 "text": "\u30ed\u30d3\u30fc\u3067\u3053\u3069\u3082\u306e\u3057\u3083\u3057\u3093\u3092\u307f\u308b",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA3MrJzhCX91AMMy-ZMVNafIgeoPosOsvV75P9aqxvjzJaWlngnF5bexOsCGYTeY0O0x-sRRt_VMgDXFZN-rrYhhe1u6e9pqfck4wC8tBJARDOncZOG9TsOWAMiVkAGznCLyXNlEJM8CJjRZ68HKKzI7o4QeBrup9niNp6bfh0olb0fz6lhEdUnZTZVKCYywxNqC0QUX9Q6FUUO=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDx6kUqoYkpSTj7XlUuaZG-cXLam0NMJF_Xf14x-givmqX_EVypz-Md7MMVnpupXTZrzyNe3zn-k3RTzvVoKp9EoveaVIYwAzYtxLPdF385aMfjiqi70CTLQ2KQ_pED3z492X2booHd7ncR6WCLHQjvRzcZ0eBMVdkPMqY20hvoKkmxWDl7QcJQhhHt3zsAcvwraYYL5yKmgn97=w260?key=gdt-tdeJ3uzfD_3x990zHg",
                     "path": "images/147c730aa26797892a6e97e796f1a1b4.png"
                 }
             },
             {
                 "text": "\u30b3\u30f3\u30b5\u30fc\u30c8 \u3092 \u898b\u308b",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAuRrzwIpxQiq43AEm2sI_QKSYBiK3d8pebqesFQHDuzbuY7fAtjiTfrIs_wEyQd2-29zJEsXrkBhWIKmStw06wVjChb8xcQevcT9KqUCFzO5NcNPFrKCWUYGcaAcSDPAY4t5TO8QzsdDV3ZfOe9TJuz-xAjjS7FLfGnW_aFCLHtl0q_UKefxT_0JlJBivZovXxxzx1xV3HIvE=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBDDAimXEHnLQmCr553SHTLLhmwlVYeBxXm0XmuSETpzdeOFfXbox2nq0lC_6oJdsIED-Fb82bmIguSgsjp6lt9pgDS7EhLdnhbNTVw4juzvAIMFjJYUiPEolCj_iflhkHBPCPwVpd0-QkV5qix2VI0VutPSfMnXrOzafi7YNsBYmwKnrLSb-8M5d6cXe2ZvUHiZubPg6kFT8w=w260?key=gdt-tdeJ3uzfD_3x990zHg",
                     "path": "images/8c97b478658d2480cbb0294efd66ec12.png"
                 }
             },
             {
                 "text": "\u3048\u3044\u304c\u3092\u307e\u3063\u3066\u3044\u307e\u3059",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAn5Hyuxl0fbcnC52BS29oiXqTxl9WZJFGrKZ5s5M7kiG2I7gva4pGzimOp5P-rzriYwNrcc313h9eq9Zt1vHNQY2ATLfAikttSwhFO-igyEo1u4Y6bnCzrKmhaqYOLQhlU07emGdPkefvjsMsJAe_YJxAi0wycmur56tBhw7dr8BxEZWPgio1ewmmcoGIOrH5NnvuSWkHAR2MU=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDqYUXdjtWptln1EwVahj1gW4vaorsbMY2R8Q8nvx5pnhSw08bZP5lZLrMI5AU64g_O7CRFb-cbIcrr7Qycu4dResa2ts9j4XgOO7UbdCPrb1JvmvpmIFL-1gPd7WjBNLjmgNaEA_468qfJXEnm4oYZDTT5OmIK3ds0oZSv-wyQ57SnhqedgBMpMP0Q_CTDDCntjFdLgesmhTuk=w260?key=gdt-tdeJ3uzfD_3x990zHg",
                     "path": "images/40d1e87e13bd5e64d004aca548c58568.png"
                 }
             }
@@ -467,14 +499,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "49497f33d3c43f7bd48a137c838c328c",
-        "created_at": "2026-05-18T13:26:14.642266"
+        "created_at": "2026-05-18T14:12:32.389975"
     },
     {
-        "question_id": "CHICHI_16_1779085576",
+        "question_id": "CHICHI_16_1779088353",
         "form_name": "CHICHI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "5.\nMemilih menu makanan, kemudian memilih yang paling disukai",
+        "context": "",
         "choices": [
             {
                 "text": "Kare",
@@ -493,7 +527,7 @@
             {
                 "text": "Rawon",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBx5Tu9Aig9ZSATgYzqGvJnf2Oaxs3k6t_2p5SY7kyVjcwfnMu7UuyxvB0xAGV3kU4s1j0Rc7lgCq1FJ0B-7jK3B6Ps1bwRNcPI8gIfP0wzf5beCLBXDUTEpXdl9AKmofGvPrCKlZkhMWfxNi32wPRp55dkFgify_N35FKeGlQhBy56gJPNTw3x8XJt3royQYTMt06CvrKihRo=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDkPvaaIxW2YwMcNqAJ1bvsirKZ5Bp8E4d6gqyxH7JwARIB11XfwZKL9vXFivsppJNbaIazZCi1sPRELTjafqrBRLvNvrn-GaARCeEnUB9ChK-cpMTMmXFgWtfBXTYLabl0aKupQDYp3snEajlt3gfzUdbhY_6YytWvKNUNwAdLpufaOhWdqGmnzCq02VF-4q8xf_HW5XA1BOw=w260?key=gdt-tdeJ3uzfD_3x990zHg",
                     "path": "images/93e31e36d1875d0dcdc4e6c3265f3b6d.png"
                 }
             }
@@ -502,33 +536,35 @@
         "audio_url": "",
         "audio": "",
         "hash": "8abaa818c402977fa9d5d7f09b741dcd",
-        "created_at": "2026-05-18T13:26:16.815000"
+        "created_at": "2026-05-18T14:12:33.946014"
     },
     {
-        "question_id": "CHICHI_17_1779085578",
+        "question_id": "CHICHI_17_1779088355",
         "form_name": "CHICHI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "6.\nApa yang membuat pria itu terkagum?",
+        "context": "",
         "choices": [
             {
                 "text": "\u3046\u305f\u3092\u6b4c\u3048\u308b",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDaZ6payZBm2CTQoOCre7QBbLShrcdekpZCq1Nox2P1vEHAmSrGIKz9zLVEJsg8i1n8PfVknwOnosWtw8vevn1NJeosQA0Sd_QhscZaykEIy-lVigf0JTbAsDmMq0YGdP5WUswX8aUY9u5O06l86nurNyPTDKZAxtnav3Y6DZDa7sgoDaX9Rx3Kl0LqrIQhnX_Ws5x6XaIaAHNa=w220?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA-ngy_U4r9SeyMAs8YYcLbteEPUorsNR3XVB4oxDrGqVAgw3_Dv7jf1Bop_-N_k0d9jN4CT1qEXONBXz0Qk12Q8LCutGq0I0wKVR1_HzKusihvK5iDs3EQvycyqyXdeiE1zTFctKa6eZiZRQra1zPwKRLapkv2UGaiTwrl9c_b8E4HrNH6bU2sWyDy9fuVyGL-F1J1cG1lJa_P=w220?key=gdt-tdeJ3uzfD_3x990zHg",
                     "path": "images/bd071094f910a55d4fb280cb5f9adda0.png"
                 }
             },
             {
                 "text": "\u30c9\u30e9\u30de\u3092\u898b\u308b",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDOPnI74urqXJ5txsYWXdH9lb9mxdfQx02by8rFvEJdUdEiosF69l7IyfMrqZ3qO34CKo5LvsaTy9ciD_6e-DzniHiDcVCzYeUp66zAQGJtstDKUgIUoHTebgclnAUy9wVAXEnNh7GY8JTfun_BW_VPO90VkLCLSG9eGjuVWshSC1RiyXzUSbTRJGRr33xK0C-mczfvMD1k0xEc=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBQNklj-bOHLqLwMPNSy3u-z7MCPmQzvJzMwd6yCRClFmNgLJ4HpS5-XPL19c0YuJSi6ZNhMYU-mGQwGC27gtdwicQz53R_XoV35vp99F7eqzhMTTAJSoUt4mzqbObxl2X1cMu2u36cxmgQKPvBhtkv8UHmNtLdBW6g23k74C56YO0jehTBP-kc7XN4kHn9ByI3GqIiipCDrsxs=w260?key=gdt-tdeJ3uzfD_3x990zHg",
                     "path": "images/8002ef0d0b14c9deab916ad9642f03cd.png"
                 }
             },
             {
                 "text": "\u5c0f\u8aac\u3092\u3088\u3080",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCABfxGtHXM9hYwJYYE-M4kOHN3rsg5myIdUk-tq75iG782sl3nB99qWk1mST9Jniv1XecGIpS7kKnIEyZkNRinrhEF6cwD9_DlUCVQaD9GhWlFRXiOR1WU-8hx3YOekOLHNdSDXhfMxCqKO6gYlbs6LXMM3VM_OqZd222h8gtaNO5TZMRLUlkF6c_xGRFF_kObgne2acYmzqBd=w209?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDPPUhDJuFPBz2GnZCj5Jom69Z4nYfFSSA-70q_r3aX5ekZzioM_qC8eFlQdYhKVr95dhVN1xQzMBnTbcb5IfP1JenmECR64GspGHM6u3oo_RLfqQKZszc9H1Td7qsqNB0bMmZNfxcjlss7YeD_JxpkwGbg1quqobMll30d3DQKOJ33qJITQwnae-6KgtNFPh3eK0jXjU1hrzK6=w209?key=gdt-tdeJ3uzfD_3x990zHg",
                     "path": "images/2dced07bc0ca843119bf96360e3f5745.png"
                 }
             }
@@ -537,14 +573,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "a696af31eb9f14ed3c48592bcc43d5f6",
-        "created_at": "2026-05-18T13:26:18.009002"
+        "created_at": "2026-05-18T14:12:35.308979"
     },
     {
-        "question_id": "CHICHI_18_1779085578",
+        "question_id": "CHICHI_18_1779088355",
         "form_name": "CHICHI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "7.\u00a0\nAda percakapan orang akan mengirim barang #kapan barangnya sampai",
+        "context": "",
         "choices": [
             {
                 "text": "8\u67085\u65e5",
@@ -563,14 +601,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "fa7f186e791b5c321c24364f1625ebcc",
-        "created_at": "2026-05-18T13:26:18.362136"
+        "created_at": "2026-05-18T14:12:35.663577"
     },
     {
-        "question_id": "CHICHI_19_1779085578",
+        "question_id": "CHICHI_19_1779088356",
         "form_name": "CHICHI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "8.\nNomor busnya berapa dan di stasiun berikutnya berhenti di stasiun apa?",
+        "context": "",
         "choices": [
             {
                 "text": "47",
@@ -589,33 +629,35 @@
         "audio_url": "",
         "audio": "",
         "hash": "a3063078ab703f0f30c4e4669c3ed77f",
-        "created_at": "2026-05-18T13:26:18.730831"
+        "created_at": "2026-05-18T14:12:36.071361"
     },
     {
-        "question_id": "CHICHI_20_1779085580",
+        "question_id": "CHICHI_20_1779088357",
         "form_name": "CHICHI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "9.\u00a0\nBus Berhenti Dimana ?",
+        "context": "",
         "choices": [
             {
                 "text": "Opsi 1",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBqjAXb-UtAeOesuxUswClq5RsYABFtwSByuExbAOwu2JU_EMPbZpmcLa0y7NCskRqFEtZBIeRsdZXdxkOHZgvLRUIrIBxbNLbc1G327LuYY1UurOv_wDZaHy0PJ8tl133iIoq68pxW7LecLtzahqIzD5RmWZsaJtBKKvxZfHsO4NH2uddPQvYNVdRHpJdGa_QeOwPYAWIoHE0=w122?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB_5pb_ibKnuIl1AEnyGM7vyrn9ZUoE2zvsDjM-79ezdOxkRSEt6vuFjMfnRKpkNrfPK4iVNqw0PmTxH1KnBGG9832TKENA5S6Hb68Se3ceWwz5zAgo12beGS0cIcwA1UFbfQ-B2Ya56__EewsCoGrUbxcDW9ntKvpT3RifbxuWsftmq-kw7TrKJ-hdgik_tlsMu0VZDf4jnuQ=w122?key=gdt-tdeJ3uzfD_3x990zHg",
                     "path": "images/7db6aacc20f7f46e8d3490d360605bd7.png"
                 }
             },
             {
                 "text": "Opsi 2",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVADlwADqlmi6rvz7ZCapPayvULedr5bqQLXWAd669HpYDgrWDiW9xv5Us5gDEBZXzIHmfMVXuq9NhWJpsUl30DmLcE_10O-SCGtYHF_ZcIgl2lF21_Ro0meirdqYohYA6GjVNikFAPJ9b9q11d55CfRPoRhjEv0861K529sxVTllpSDC_CdyHrwtllVn--PPGdfAzR1f7KJgug=w167?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCPTs0el3rQ2NIKLhdjmQ-4b2RQOrOl4yGfKO31MOKYUTMaXtNC0Ev-1UkVA_JU1UKkREyU0A_JhF7Cb_LGCXvY_Rs3iFWyNp0Jz6PeEPmIdLT68I0EUI0RzWh40jxIA31dYYhwKj1mBXQpP3qzNwmgIxTcxSW3OM8aJm8HLXT9UTwF_ROXFbObCA5snI9pMhewdyE2hReNK9c=w167?key=gdt-tdeJ3uzfD_3x990zHg",
                     "path": "images/6a7bc86829bdc0c5c34c775e82264b84.png"
                 }
             },
             {
                 "text": "Opsi 3",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDjYrt2zuDUmGR-faOIFi9_JSYIqzVCcWW6E90OdNIGIUiAuCVire2gAeL1vdlpHT-13YDJxWNH6db7vDjAVeVgQ9w-FKYLoKdC5iM36X3yJ26E-2lyVCmVRo_FPzQ22YjOCALOV_DY8qov_MLXefgvyWaxn5pGJHSrS9s8wMVrt7rYlWzsq8CzkVIZeap2Csu4qbYhOipgeqFc=w192?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBjVwjQ4C60O0HrM8Hz-fYd-vA0QnDvZkky0CfWACB0qxKbmfQzbeKlG0xilIBI0LlUC-vCrwHVPE9fVKldoCRNCvpz56llAOgPyHHN76Y2zRyj6aP0_pJG5qLu6qOveB7rZ6NI4yRz5bc6twJKbasxZ-Ff2nSHFX7EHLOprUFZCZFRuT-MViDnUgqltWgzqbwiCa5hL3kb1qox=w192?key=gdt-tdeJ3uzfD_3x990zHg",
                     "path": "images/978136a90fb6d1e82ce3a10f9149395d.png"
                 }
             }
@@ -624,33 +666,35 @@
         "audio_url": "",
         "audio": "",
         "hash": "0ec9274f09e27ce55bf6efadb37d9bd6",
-        "created_at": "2026-05-18T13:26:20.004023"
+        "created_at": "2026-05-18T14:12:37.511570"
     },
     {
-        "question_id": "CHICHI_21_1779085581",
+        "question_id": "CHICHI_21_1779088359",
         "form_name": "CHICHI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "10.\u00a0\nDimana Mendapatkan Alat Bersih-Bersih",
+        "context": "",
         "choices": [
             {
                 "text": "Resepsionis",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBLeG1RXvI4NH67Lsz77rHpULzwdf0mWA9k8GUd_Je_hUkK2gzJX_9j-93VwElFrLWVgCdRq5SCCfuod3QbdruL1XNRwQgWT8KTuGbOTiV_0r5286lfq1mdoR7cz1u3HBlnab2IXVId1AUvP8DjLL1tdp5-4tANS0iA3thbg4ov__dNQTgfPV0D-4fD4Noc3et5ST5AvNB99d5G=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDQM0gpPlQ_JD5hfzuz93Jrh9y6UjU61lbRBz5l3pFh0MBvDKvq1KhPPW07MiyAVuR_D8tqbwmqjKpfRrCjjJxjZxhfSHjwGbQ1b3aQa4BofVWPjPGbzPhL10Rttcf0o4wCx5WQaUFnkK8PPzcCC24ZuIhApffSbiMq3CjpOqh0FzUnBudbjHD6LeGq60j-EFs2cwiGuqsNcu2U=w260?key=gdt-tdeJ3uzfD_3x990zHg",
                     "path": "images/8df6a8d9b119bbf9f2163656163a7300.png"
                 }
             },
             {
                 "text": "ruang rapat",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBEeUP8PTMl_NiV_4yRwfnmr9bGwNhJieDxgfVquw6NxAhKJ4k-s2udCid0rdANN8y4Lm-cdTbmGTn_gpnYs45xBW-HndUtIDsW3MjsqCNoXKt1xWecAKR6tdjEsgpH6S7LMWRlhVuED-Ny89cfmQJZfp64CnAmx0Bl3jJhZeULSOUv5hBRc8JZ6w-bDFRyTIUHoKR2BA9W4WQ=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCDRfMqRZkNxXO4amwarhSVj8it0LyszT5AA_qnrbqxn1LlcoONut3xWzMZGre2Mre4jQjLyIEzJvdlmEoCFSPUVRLqfPea_jrt73DfandEYDdHepVbDFKwqpwdkWpj0DVObU1Y0jcGWyFwx3BeMV0tTUyMREYV6uodlXlHuTxm4JxQMrGX9u6WOb7CO7Wsu8hOWInUZbNjEpU=w260?key=gdt-tdeJ3uzfD_3x990zHg",
                     "path": "images/b41ddef72fcc0352f94ee5b3b4b23909.png"
                 }
             },
             {
                 "text": "luar angkasa",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDxq5a_rTSZmr995es-BIN5dtt72oh-LkMOxhjwhGh8XmoZUALSW92jXMNq5xXPQ7usUUpBXHdRw3JbmWq7EY7Rsl0YwiqQ1P7IqFKmDtdhImhOkAKOcE9l2eswQFEdrKN-dcZ4dhL2bSF6XI-JYq7iXCcb-lr_lacTY17rHwADJ0b4NDILJtFkg4BcjaLbI-yANXkOSZ247Jhz=w231?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAr0fkWiCbOwGmWs3GYgXYosDalaoAUWA3xovEHqHLSSS5LbwId4mUDrrMDp8WSnMztofhZNt6cUoj13STXZpz8s_lSTehKXBNKT6EiFlvlsAhlyPi_thHyT-4M2ZkEjC8GNwulMc_z91J85Aq1do34NyPvkSalBjLsjCsz3JonfPjRG_h13ynk5bQ-DXyC5Gb7FmD7p69TxQuG=w231?key=gdt-tdeJ3uzfD_3x990zHg",
                     "path": "images/c8eabc38b3dfcae98090654b64b21db9.png"
                 }
             }
@@ -659,14 +703,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "b2d4957d76c7164d0e46b3200c726975",
-        "created_at": "2026-05-18T13:26:21.241741"
+        "created_at": "2026-05-18T14:12:39.072126"
     },
     {
-        "question_id": "CHICHI_22_1779085581",
+        "question_id": "CHICHI_22_1779088359",
         "form_name": "CHICHI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "11.\na. ruang rapat tertata seperti apa?",
+        "context": "",
         "choices": [
             {
                 "text": "Gambar ruangan yang tidak ada mic nya dan tempat duduk ditata menjadi 2 baris dan tengah dikasih space",
@@ -685,14 +731,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "8829fb02535cfbed45fbb3def3b05f6e",
-        "created_at": "2026-05-18T13:26:21.592470"
+        "created_at": "2026-05-18T14:12:39.434968"
     },
     {
-        "question_id": "CHICHI_23_1779085581",
+        "question_id": "CHICHI_23_1779088359",
         "form_name": "CHICHI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "12.\nb.\u00a0Apa\u00a0yang dilakukan pertama kali ketika ada orang yang datang?",
+        "context": "",
         "choices": [
             {
                 "text": "gambar kantor dengan komputer, ada laki-laki dan perempuan berdiri",
@@ -711,6 +759,6 @@
         "audio_url": "",
         "audio": "",
         "hash": "07a00c9f442dc10007e478ed605e38a3",
-        "created_at": "2026-05-18T13:26:21.967400"
+        "created_at": "2026-05-18T14:12:39.803299"
     }
 ]

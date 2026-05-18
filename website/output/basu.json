@@ -1,10 +1,12 @@
 [
     {
-        "question_id": "BASU_0_1779085497",
+        "question_id": "BASU_0_1779088271",
         "form_name": "BASU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_image",
         "question": "1. laki laki ini menawarkan perempuan minuman apa",
+        "context": "",
         "choices": [
             {
                 "text": "\u304a\u3061\u3083\u3068\u3055\u3068\u3046",
@@ -21,7 +23,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDo1Ut9D5gee5MFgW3DBvlt22rxefitt5QCrXGPLEUBAyP8YbnSxmAfRPToec24v-0nLDNYn9LOkjGlXNwdZUp021t1Wx4Ter7X-G7D2I383233AzMVE7m0TsghDvIQn9xwT0NtwALR3ICjouONXs-Fc9dIdD1INw5kypXkdSc3WYO07DYtcNbNwUGyCQIwjCY5NaouYTdR53Ya=w358?key=IFS06RDQ_64vWTlJwxDgeQ",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCr9TPiv7PfKLOWV8upjJc2kRO095lQb5GjmK-n16kfPIn8fky7eQjMdXn6iM-PAm6gR9GGDwvVLirmKVH6KfbhojoHKDT7sNsEOwA4czuO9_P709dKCR-1lsAV-2XrUWFXNOt3nMEYX6ESYOsroEkY2H36xhvThm56YBQWHCGc_1rn3dpMKPJX3b9znaPRyfMdO5e5s2iCR4fW=w358?key=IFS06RDQ_64vWTlJwxDgeQ",
                 "path": "images/8f27e9fc964974cdb06656803447c174.png",
                 "index": 0
             }
@@ -29,14 +31,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "bca33c0a4140c798f5b3bdedd662151a",
-        "created_at": "2026-05-18T13:24:57.390400"
+        "created_at": "2026-05-18T14:11:11.913423"
     },
     {
-        "question_id": "BASU_1_1779085497",
+        "question_id": "BASU_1_1779088272",
         "form_name": "BASU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "2.\nIngin menonton film, janjian pukul ?",
+        "context": "",
         "choices": [
             {
                 "text": "12.30",
@@ -55,14 +59,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "97d22ecd793a4e7ca3b3937215dae3d8",
-        "created_at": "2026-05-18T13:24:57.752835"
+        "created_at": "2026-05-18T14:11:12.268792"
     },
     {
-        "question_id": "BASU_2_1779085498",
+        "question_id": "BASU_2_1779088273",
         "form_name": "BASU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "3.\u00a0\nPerempuan ini menyewa apa di tempat sky?",
+        "context": "",
         "choices": [
             {
                 "text": "Papan ski, jaket",
@@ -74,14 +80,14 @@
             {
                 "text": "Sarung tangan,papan ski",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB9NKCWi1AEZyQdMnkWsEAo5T5sWiSaUBKXqDImd1pbIfkhSnKFt0EeIFWiqkbcJnQ8VIIMbS4u5EduIG1mzECqr8a3kZndio6sNi_x18gNicRkarqaA3ogq13FBruAZCDpmC9r4H0FyGChr_lASIW72TIsq-gB-RSZWAU17wx794Q3FTNQMzC7UERuqcu0BrJqc-ufGNMYjoc=w138?key=IFS06RDQ_64vWTlJwxDgeQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCEO8fTm_dA5U2RbqpKDRggcW1hDTFxqjNnVDbUJXjpNhQMlgHBGQXkh6HG8IBYvEor_Rk-bH-u3XKqPMSegnfyk0VXV9QCAxg3wQRRratOjfAGCxwNYigvt3VJY0TrxeX1YrndffqZ0w9KIaXx21_DqSu7JvC5XAgBcBaSz7iYO3XnHaNTzoWUx78LzjSJ6nehlnr4D8rUFeM=w138?key=IFS06RDQ_64vWTlJwxDgeQ",
                     "path": "images/97de71d4a5186f0e46be4f19a5d12286.png"
                 }
             },
             {
                 "text": "Papan ski",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAENG3u9StwOFqLaRTXXECyuolJUhLW9XGXKs0Lbrqy5Yj6Y2GLJo8jhNMeTbLyGAbNrovyIr0GpIPONIqZWI0XpOs9sVaqOPyLeffcLg5f7apaCjFf-ytAhJbp1ym8igAySSXH9IqFVEpZyQ-WXROMe1TB36zt9Ro374iRSMPOQnxyDCGEjAriJJD8a0nPjnfF0DHIsQstBwAE=w111?key=IFS06RDQ_64vWTlJwxDgeQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDihdZPyPCOjsNIsOlCOztNbsWuA8nB58by-E5YH-Ng_wxu8Xq_0UBXhEh4DI7l915maEL1qdjyh7e5Ay6VQt6Dnw3haI9elqDDsFzyqc7VRgJEGRzfhV0zhyMd2mK2hi6ouJ6blmG_6HK3jIeiq3_7umRURQrn8UWBbHDfpOuSPco9WQJqyeAm7By-GJrvB_ZDLJfatFD45A04=w111?key=IFS06RDQ_64vWTlJwxDgeQ",
                     "path": "images/1addb2f8fc80ebee5dd1df043483212c.png"
                 }
             }
@@ -90,14 +96,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "96d686564fe80f08911ba3174980d46e",
-        "created_at": "2026-05-18T13:24:58.961907"
+        "created_at": "2026-05-18T14:11:13.773844"
     },
     {
-        "question_id": "BASU_3_1779085499",
+        "question_id": "BASU_3_1779088274",
         "form_name": "BASU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "4.\nBiaya peminjaman selama 1 jam adalah",
+        "context": "",
         "choices": [
             {
                 "text": "450\u5186\u3067\u3059",
@@ -116,33 +124,35 @@
         "audio_url": "",
         "audio": "",
         "hash": "d891bf535ddcc7e987f7440cd397026d",
-        "created_at": "2026-05-18T13:24:59.312468"
+        "created_at": "2026-05-18T14:11:14.116320"
     },
     {
-        "question_id": "BASU_4_1779085500",
+        "question_id": "BASU_4_1779088275",
         "form_name": "BASU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "5.\n\nDi toko, bertanya apakah ada baju ukuran L warna hitam. Tidak tersedia.\nYang tersedia apa ?",
+        "context": "",
         "choices": [
             {
                 "text": "Gambar kaos hitam ukuran M",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBO71h7G-XxCki9ISL_ZQ1w3JE1ysBY_0MuTjPq7oHnC_ktgqcV_GrMVXPgjKtJN8TUUwG8xuVqJp69bVShKE8QTwYAUSP-1TQFs_md1psP3MyMQbJyB2r8Vy4tboqBS3_DHv40lN7sdRDUiJTXtchovpxf-AqM6W8UNG7pEs7W0k7OK7fQfCUeV7ySZHGi5ZkkmyJcxs3xbtU=w109?key=IFS06RDQ_64vWTlJwxDgeQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAQQzoIrjI55TRCpUXqhZxfEr46ph5SlU4jzRd8mzvzG4mh9-egZ9sgpZbqpBYpst-esYGkqv-1eSLs2TuNdAcu7U_jYHxHHZEfYaECE4yK7uf8QOaJSfnaZ9EOGSpph7u670OiKt7F8wI9ojSOTq6lTHUjG6GoFegRE14p5QexQ_mALxOmB6HKirsdfXw5SHuiSYWfInxvjns=w109?key=IFS06RDQ_64vWTlJwxDgeQ",
                     "path": "images/67609d39aeac87b21cbbeff3e3d37fa2.png"
                 }
             },
             {
                 "text": "Gambar kaos kuning ukuran M",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVC8rSvhTYkGNq7Y2cVPEltDh-pr3s-ZjO0OowlTJihtkzK_uf82IADveD7-BTkny26JrbK4083T1lSZMBc_mJrgW6e5zCB3cgOPo23bXsz8BifaXUF02Kpc_zdSLrPNYzfng4vCxxOwvqNz_g9CJPZkcPsJ5XKLHC6cZ9EQxbBzhOObSlRaBrdPueO9dll_wchDsiX8labPpCw=w113?key=IFS06RDQ_64vWTlJwxDgeQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVChxgKB5ZslhwCribSHf-iNLR2tn__ux2VyFUlYtgjhN5DvPP-wlIRSbDP-o1ERStmZ8v86y3C_-2lqN7iKEB6oPi0gbLXdjB_P3AJxyrr0l0EIsp9THIlAo17BUUuzs5LoxOVAyaoPY7iR2qE_qRAjwbfHX5b-C-_gVlJd4-6H4BdItq9_H9bqnaCkPtnx1r4bfaNF5y9y1_A=w113?key=IFS06RDQ_64vWTlJwxDgeQ",
                     "path": "images/4d856e0c107863c305ec91550f3d3081.png"
                 }
             },
             {
                 "text": "Gambar kaos merah ukuran M",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCDTaglgEWAq6Tyn84r19SEiQ0r-eGwnvfQZwkaG_TT9gIb6c42jqTpdadpLm2LrEKy-yGccSvpT7dwekQsXOUKa71NXpeZNVbDySJOxBC3-HejZNesH8lcFMjuAqSwW_4kspx1wB67sHG5VHumhMBMXmMhBgK_SS7IQ3DI2Jbp5ISqXmLJqPRlXaDiQH257uueJlGX8mmTQZ-x=w115?key=IFS06RDQ_64vWTlJwxDgeQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBfpHW_AWGn_d2m8WBj_9XGADlHqApQkpTKQCxkEiugBT8Od8Bzl2dGOIS_c3yRRJqwBWaspA5Ffw_zDd4f2O5ipjcJrrxM2WfuIqxUGiRwZn_gB22Xi1nSZkUiMHg2r2GAZEwYeBhtwnoCNRXeR3v_ay7xh1FAV3BlfGmHMIsINBTrjJeAVzzb_BTKWPmpKiiycjtXYCGIlMuN=w115?key=IFS06RDQ_64vWTlJwxDgeQ",
                     "path": "images/73ac16875d2b17d1983106f07f88c883.png"
                 }
             }
@@ -151,14 +161,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "01487c9b1befb7a9cfb54d770a5f2381",
-        "created_at": "2026-05-18T13:25:00.846728"
+        "created_at": "2026-05-18T14:11:15.531989"
     },
     {
-        "question_id": "BASU_5_1779085501",
+        "question_id": "BASU_5_1779088275",
         "form_name": "BASU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "6.\u00a0 Soal cuaca, cuaca kemarin hujan besar sekarang bagaimana",
+        "context": "",
         "choices": [
             {
                 "text": "Gambar 1 peta jalan ( \u3070\u3093\u3054\u3046 1 \u3001\u3044\u3061\u3070\u3093\u306e\u30ed\u30fc\u30c9\u30de\u30c3\u30d7\u306e\u3057\u3083\u3057\u3093\u3067\u3059",
@@ -177,14 +189,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "85d71bb668416b1828f0bff9bcdb4382",
-        "created_at": "2026-05-18T13:25:01.204921"
+        "created_at": "2026-05-18T14:11:15.885849"
     },
     {
-        "question_id": "BASU_6_1779085501",
+        "question_id": "BASU_6_1779088276",
         "form_name": "BASU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "7.\u00a0\nA. Minum obat berapa kali sehari?",
+        "context": "",
         "choices": [
             {
                 "text": "\u3075\u305f\u3064",
@@ -203,26 +217,28 @@
         "audio_url": "",
         "audio": "",
         "hash": "883833e23129172b13b28051caa88351",
-        "created_at": "2026-05-18T13:25:01.576963"
+        "created_at": "2026-05-18T14:11:16.252714"
     },
     {
-        "question_id": "BASU_7_1779085502",
+        "question_id": "BASU_7_1779088277",
         "form_name": "BASU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "8.\nB. Saran dari dokter ?",
+        "context": "",
         "choices": [
             {
                 "text": "Opsi 1",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDmN9SMUXSZw1xd-slzDGdZftynHgUoflGxHFQH6TMkeUZCmdZID-p2SngQUWIVrByvKuePbfM1IwzwBDNcjnLo7ebqfcFR_Oe6lRIFVP8PI4OZ_eLsr1nHDTWXm9hQ25NRf9B3AtaRJmhTS944qyoyofRFDsWH9ZItw18FHi0xExks4S9hRegLkKWt6uZJhUHEckA724ffRTIK=w212?key=IFS06RDQ_64vWTlJwxDgeQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDba2x8xofSdlwYMkw3yeTXbHj2z7-s5Uj4DRVjOaJlW8Zb_GHZiss15WUIMqjmCvU-p8Mp5qRNaPb9MCfG9pICIm0L3u07Vkll6_YIr_q2ZJVFY0Iq-b-rDmkPy8-kYIwHxLLHLFeL014TNZ5IDzUI2A0gXW_jrI-K5z_BZkKouCfzQOfc1GXuEr0cU1UafAUISdaV2eoouHRF=w212?key=IFS06RDQ_64vWTlJwxDgeQ",
                     "path": "images/1a6ef2ada9c9b48a976fc7bc845d437d.png"
                 }
             },
             {
                 "text": "Opsi 2",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB_9M-71sbcMV4bTZFaWCRto8YfAbxUUy8Zs2cowFT4S0cFDwvyIxO5rHWT2OkAaAV3NcVVSAanzfpssN5p4Aschb2dx_LePHUG2L3HPCx2eVxu8_UabeHK4zF6N79K0nZjqQ0C2kZb7lqZKmn7pfZgkhHDieEfJ46lbs9-5XsZqet3PKEmHVIMMtJj3V9EK_Vvryep08aLqYBJ=w99?key=IFS06RDQ_64vWTlJwxDgeQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDtj6VJisl0RifSAVjRgy7WTeZKr6wRLQUuuorOUNp6BA0kv8y343c9el_SGBFREhn7blmaYK3RSYxGmoe9z_unh6jDVn-0ii519N-BWzbj4eg3MblZ0AEZ-LZhuAJ3_VzqGq0cEnlENhj_9CayoovPxEOlzlMUY9H-Vlx5wyPS7yCjuyTZZQTkYkak8rQXijiVZztoNHmctg06=w99?key=IFS06RDQ_64vWTlJwxDgeQ",
                     "path": "images/05d21d27a7ecf8e702576c12040154fa.png"
                 }
             },
@@ -238,14 +254,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "8f13d4ef107ed7f89d51744738bb4d1e",
-        "created_at": "2026-05-18T13:25:02.953888"
+        "created_at": "2026-05-18T14:11:17.695811"
     },
     {
-        "question_id": "BASU_8_1779085503",
+        "question_id": "BASU_8_1779088278",
         "form_name": "BASU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "9.\u00a0\nTentang festival cokelat:\nA. Di lantai berapa festival diadakan?",
+        "context": "",
         "choices": [
             {
                 "text": "5 kai",
@@ -264,14 +282,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "a2efdf971d2b6844a05c196b968908a7",
-        "created_at": "2026-05-18T13:25:03.312832"
+        "created_at": "2026-05-18T14:11:18.057755"
     },
     {
-        "question_id": "BASU_9_1779085503",
+        "question_id": "BASU_9_1779088278",
         "form_name": "BASU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "10.\nB. Sampai pukul berapa festival berlangsung?",
+        "context": "",
         "choices": [
             {
                 "text": "18.30",
@@ -290,14 +310,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "09ab1e6c533f4770db3568262bcf9b09",
-        "created_at": "2026-05-18T13:25:03.680462"
+        "created_at": "2026-05-18T14:11:18.418463"
     },
     {
-        "question_id": "BASU_10_1779085504",
+        "question_id": "BASU_10_1779088279",
         "form_name": "BASU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "11.\u00a0\u00a0\nA. Hal pertama yang dilakukan saat terjadi gempa",
+        "context": "",
         "choices": [
             {
                 "text": "ketakutan diatas meja",
@@ -316,7 +338,7 @@
             {
                 "text": "sembunyi dibawah meja",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDZrd1knjhD5WBh7JPynjP9MvQgKlWIfmwu_eOsV9vGGJeMTi_TZsoXFxHr-GzL5jt2FbQdSiuGmddnhUtNC0QIMjC2Qbe5VJHX2j70IL8s7q4SDNQ3rYYM7pWxqkpRK5AJabOSlmouqIMTmubEybnau21sm7_jwyLigjgJJp1u6CkmpcxBBG6MNX6QGClCrjF3HdqsTlBNgcv_=w155?key=IFS06RDQ_64vWTlJwxDgeQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBFVL29cXo1DYHZL2L-9en8WbZirEWZR2PeBP5ETq1ZlNJv3ADlZuRUpD0LnRGAc51L1rl003zfrNrqP0RRSTmpjRpgaNqxMsqmZc6slrpN9t_lDWUHqI-X5jeDDEPsTzDUbYSsTyuBAFIOONjNcALdgTJgYYoNZ4SWfOBFWCdKHQaxrvLTcnbU9Mc_VElU41L8_X7FryuNgWlf=w155?key=IFS06RDQ_64vWTlJwxDgeQ",
                     "path": "images/97de8e75d9afc71b11964abd067b8004.png"
                 }
             }
@@ -325,33 +347,35 @@
         "audio_url": "",
         "audio": "",
         "hash": "054419b516d409c8f6e09fe881e310a8",
-        "created_at": "2026-05-18T13:25:04.855047"
+        "created_at": "2026-05-18T14:11:19.915023"
     },
     {
-        "question_id": "BASU_11_1779085506",
+        "question_id": "BASU_11_1779088281",
         "form_name": "BASU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "12.\nB. Ke mana harus pergi untuk berlindung?",
+        "context": "",
         "choices": [
             {
                 "text": "rumah",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDoor0_AmZMJsRpSStSLd_xy-BAmUCE5ZllSCU3pTv99lzECsAQ17GJlq_fGooeW3zvaSXxOOYkXhI7jzpfD7Kjt1ZomFgKUT8rc5B3RYYMX4sEd36GqZ2Mde-atw0oz2Uxuxs7qIfRGav1B5R7M1Kt50pMg6dbnrNqfKQscfjq7VEotKo-xKrvt0ltTxpUhVaOKsQuA6KwNx2d=w125?key=IFS06RDQ_64vWTlJwxDgeQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBt2RZXmvhPbkzH0kPxpkT8-55sAerJdiudjrw0a84edMbsXuIZCx4CcQv746QGP6sC-TbgCyH-zQPTqFeDLFtxb9iIJuojzjCBrdoYGTP12DgsJMIRT8Z_33MoHvvQvee0IlZcrPeanNCnlOXYad3LT9tXQ2jUhUVV703f0P3qjTSqZgNEHE6rUAFmRjVmIOdsB6JIM90YJFAo=w125?key=IFS06RDQ_64vWTlJwxDgeQ",
                     "path": "images/aceb1eafc2f84303878f8fb5a0235764.png"
                 }
             },
             {
                 "text": "lapangan hijau",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA05IHe-paZI4kbHpZZTUbDz5ojCBJI3ydkIj3DzgK_LN2x2_5tbg7P3OKn-EecvRZygzOtZeuLELoVQ97qSnLm--nxY1NY2GItpjh8LTC0M4V90O-0IBGuJpXYHts0yxaG_llN_ffIY_obrjywFDWPtfE31UdlILSGcF0TXC3iG-oD1J5oPU5YP7cfNB5Q3hNYKEClvBggrqs=w197?key=IFS06RDQ_64vWTlJwxDgeQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAqdUr8acAqY8IO1_9hIypAY-56RN4FxI2N6ItzxD9d0w9jxmMp34eN6uQeN6ZmqKLrdJMJxaGPyUXFUqqEOWPmmkk88ML1d2EtxSVMcPwkvh_D-3KSyhtznsVNmO0DxyMxPqu_sT4QlAJSchazbtB4LNx6rO-jZTJ6_7Oj82rwZCO6X3GOv9Mg862GmZySZU3QSUpwmmR7kWs=w197?key=IFS06RDQ_64vWTlJwxDgeQ",
                     "path": "images/5342841f714e8c4fb29b60693d590e34.png"
                 }
             },
             {
                 "text": "hotel",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDUooRTDoB21HsxLrFdS3w9GwuWZks4T1gW7P2kV-t55139u-84PjBRMSCUvYv4khetLj_H6Tq8m7tv3Zafalfee5iO7y8eOeJ-HMU-9vmOI86evLvhZhsG099zOEYE6RNqMaQ2-oQkx3R2LRiR8x0VJ4bGwNc4uhZ0jKI3wv0NE7kwdVNFwSlOpA5BwcrhCpwdYQsdN_FwrWOx=w158?key=IFS06RDQ_64vWTlJwxDgeQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDO7AVA4guWKb0GpsF7bnKpfLIvzWjWSReWiicSBQGDyhuF25NAQT_IEbP_qf1gSFKXDvbNH0dncHh-5EQ-9VnfUP0OuPdI9HgJRHkeSsnTrP5nXsyVX_A3XA9vWgxmOfQjIkw_pOwKX2dJkVSrmoZ4euGJzByC6MoPbu2F9hr-br1RTvfpTA1BH4Gpvp7x4pXOxNBY8xEF9K9f=w158?key=IFS06RDQ_64vWTlJwxDgeQ",
                     "path": "images/1fc12e918a496019f03d57bae44d8a32.png"
                 }
             }
@@ -360,33 +384,35 @@
         "audio_url": "",
         "audio": "",
         "hash": "7b9479fea041ab576110e8a969cce888",
-        "created_at": "2026-05-18T13:25:06.411458"
+        "created_at": "2026-05-18T14:11:21.328715"
     },
     {
-        "question_id": "BASU_12_1779085518",
+        "question_id": "BASU_12_1779088292",
         "form_name": "BASU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "1.\u00a0\nSMS AJAKAN PERGI KE KOTA\n\nA.\u00a0Dalam SMS disebutkan ajakan ingin pergi ke mana?",
+        "context": "",
         "choices": [
             {
                 "text": "Ke mall",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDBX64h4m2CaJo1nwtDxlgQPtAiupa_rrujT5qoitW2biGqqczT6qLv_GaBifOqTWMs6CnZB84KD__IUYRI2Cn9GRag27v8QwQjxgD9-WbMp_tbRt3zMOfjLyTnLDynCW6gj63f7EDywdyUYKn2Ads2tBPjVWb7KBKbWuZtYFXyA2Pker0xtDIrOYZoml9Lx8C0aU2DS7txEPwm=w260?key=IFS06RDQ_64vWTlJwxDgeQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBSUrGZ0feecWNbC-s5UMidWzXNZE0Vnv_JJc3htOxehSdEmZi-YUtR4Iepsj8uSWsmLmgU3nzezaZlbrlp1chF7U7ckVpWhqUzY_VlKVe2nMo6XRecOZ5cu2LPddD_JnoKleXe9US352d71y1YX5MytTewxBeMYXXw2i61vtzkkzJOLPneDu8VR1H5XgiuZzO1IiqcB5Ar6M0_=w260?key=IFS06RDQ_64vWTlJwxDgeQ",
                     "path": "images/5e253b58e46e4c0049a662630055d62a.png"
                 }
             },
             {
                 "text": "Ke pedesaan",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCQ4MerYXIcS2qqrP64qvV_DibiZqweq_ykZcldZ5WnMSJkDZW7D1_kOk8YZRq9JkVsxisuDimLcNzqUbCPI7dITJVgsWpwzi2NTm-Mbzui3jyjv73rA3Lj9MyTJgrQID4y4b2r_rc8BK5qaLRY42PovVOVn6hfX7VlxPXCLvoPC2cT--vN8IjjWMOHQx-kSa_362g6HsCZpXc_=w260?key=IFS06RDQ_64vWTlJwxDgeQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDenA2TgDiTg-F0jbFys17IG0KcJrtR5h67oEmZfvsq5C2328J4lbT6KyM49yk6iPcH5lUPVcfZceLgMcgkZSstbuvNXPIpA0DCXCghnHniHlcadAqbEVkds0VF_9V2TSzMHiS0Ww1YU_hpptafgq8lDEVyts0pHjnmQ1IENRVYRXznMtH7K9mXtHZWTIKOmbjDSiCkANgZJQkZ=w260?key=IFS06RDQ_64vWTlJwxDgeQ",
                     "path": "images/6229e46fb356f176dc9fbafc7bef75d2.png"
                 }
             },
             {
                 "text": "Ke kota",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBME_caX7jFgmHCNJKcpwMFUF651I0m0YaqWOTbB0Oop9q0RrAlFFNC0t1VieN099KpJM0Z2wRD9eCFUWuA2ce9DjFSlKf15_W2XmXSMJG3eSQm1ghOsMQsQwCR5N9DYAnCeyD5RxRtgIfyhfgICFLKlU7p5ku8XCESdXN6kDzJyYWudw8E4R1WTg7CdLzIe2N-5uLFNe5ySCGY=w260?key=IFS06RDQ_64vWTlJwxDgeQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBVz9wHGJXOz3cRhJIzE5c4FQAtKqnls5d6hNanPWKvoPIEVM3mw092CegIZD0vNoiOYk96QjnS1xCCrG4-djTvZ73-2SfdY1xtSYAFxuLyKkDcF1kV-Bl1G1opiBl1Cm4ZqIrg9FezqcgK6zr5VvgfvocMivv1DxiY9SxHOm2MhDXeDYRuFFeoXuICGl7_TEKptfpNAHXhSwws=w260?key=IFS06RDQ_64vWTlJwxDgeQ",
                     "path": "images/fd2c2714c791e09862d95f26b6fbc112.png"
                 }
             }
@@ -395,33 +421,35 @@
         "audio_url": "",
         "audio": "",
         "hash": "045f7794d4546f95abf3e03ba9da0c59",
-        "created_at": "2026-05-18T13:25:18.653095"
+        "created_at": "2026-05-18T14:11:32.947256"
     },
     {
-        "question_id": "BASU_13_1779085520",
+        "question_id": "BASU_13_1779088296",
         "form_name": "BASU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "2.\u00a0\u00a0\nB.\u00a0Apa tujuan pergi ke kota tersebut?",
+        "context": "",
         "choices": [
             {
                 "text": "Ingin Belanja",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDUuqSM90AFpzPsNMDIl9S1o6ln1m4uYYd7KwCxZTtTyUS5TVomhHvwEWJV3SEwnipXZzvq_EBtFzbsfdPBO7W4NHRZ5xxM6vwedP-2SOQO7uRd7PrHspRz6cwnR-jDOcSnlnYWZJOKLantRNZeHlZ5g0YMcpiO7cYBVpa9_na6LiC_0LOA7zKVMZ9q5D9qxsGMTAhyCsUkG83K=w260?key=IFS06RDQ_64vWTlJwxDgeQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVALY-1fI9YvYDinpnDcPEz7YVr1Yz9XEwBJ1OF13Kd-QBuPY2BgLe9UYOorxQSRiei-WijD4-bLbEHidzvPzt2-GvwQShXQYK-tBKby4kFyWoPYe0orGGcPujKvDud92nxW93L5zAbS-p3KGEdAWOu1X0lGyWH3flvXUl7zdYCbyG3BLLn8vuw3LCH4-ApHUu9O3iVqiVBvlnQ-=w260?key=IFS06RDQ_64vWTlJwxDgeQ",
                     "path": "images/1a3946627d501f22730083c59f0d6e4a.png"
                 }
             },
             {
                 "text": "Ingin Demo",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVD7JITMdUUlpL2eJSMgS4iIHWqFwB0qZIIbaAVSuAaBCW2u8kBf7pAPWvuRKkgQS-9tFp_nzso7RyjBntoINUeS1RTYtuhnVGu5u-xc8E8y6ymGmV_mE2KzTWrNsQSlg3_DTfTI_5ya0iJe0fQR2xHvpx0zHrYocWViSjkPEE_cYGh5J4sYl_eM7gawKgx6Ahlyu6iyQc0Uy57X=w260?key=IFS06RDQ_64vWTlJwxDgeQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDf0AG7GbubiZPPz2r0OxUvYUhCDN515YTB-sNGqfgW_aSeXgmBN3aL5u8AmS0-Femr1NDhClR7i51uNuyxYy8K921-hTLcNYd_Lsdt6pleJaTLuUA7xusCI0MqGF-M-CJvn7qeyEfHfi8wJPUZWXO3cef6OUkkTKG94Sl9Sp9Eka-66Zm6DAVeVUJHUEoGK-hYG670iUBe8aNB=w260?key=IFS06RDQ_64vWTlJwxDgeQ",
                     "path": "images/674c0e023e2e3b307a6badc1fd9ee0dd.png"
                 }
             },
             {
                 "text": "Ingin mancing",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCzg4hKunlTf1NtHHLoYD6g5rSWV9_VmRSqJUArPJJtQS4WJJNVvnFCLEY6c4Xf6a5IMdcSMoWBWhxzS2yBngHRaE0xQiWlKUJ2YSdqhgBV6ycteYOXShltv9W7zCr24g7N3H5uCGGjNydk3X9-QiC9dyrnv7GjNRC9Ho60wQHkeIWB8sUS0TkOel_1J5hm6Rwj2IGQeSjCHWXl=w260?key=IFS06RDQ_64vWTlJwxDgeQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAF7newMbqoN8nYaZ0Cn1oHRAddQ7xujn2aOWpp0P8S6cVP79Eif5rPWwVdhI-8xI5dEk9gACzGCSzak5M-q0rSQuh-WIZ7uFMF4g2W3LHG2S5Spk0PQvl1h6wbAKjK_nOarun1JBqcoCUg6YvoWkkcQwXr5J9i7h9yjqvLbxOakX1JtRFIz8ocPx0_mJZEe3V-lHSQYb8PwBvh=w260?key=IFS06RDQ_64vWTlJwxDgeQ",
                     "path": "images/65dfecb9a6348831a7fd4cf1974ee1d1.png"
                 }
             }
@@ -430,14 +458,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "753631090173d76201d7ca376c196aaf",
-        "created_at": "2026-05-18T13:25:20.062779"
+        "created_at": "2026-05-18T14:11:36.791106"
     },
     {
-        "question_id": "BASU_14_1779085520",
+        "question_id": "BASU_14_1779088297",
         "form_name": "BASU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "2.\u00a0\nMENERIMA HADIAH\n\nA.\u00a0Menerima hadiah dari siapa?",
+        "context": "",
         "choices": [
             {
                 "text": "\u3055\u304f\u3089\u3068\u3044\u306e",
@@ -456,14 +486,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "6975c7e71a58cb211306264d1196b11b",
-        "created_at": "2026-05-18T13:25:20.434871"
+        "created_at": "2026-05-18T14:11:37.140722"
     },
     {
-        "question_id": "BASU_15_1779085520",
+        "question_id": "BASU_15_1779088297",
         "form_name": "BASU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "B.\u00a0Hadiah apa yang diterima?",
+        "context": "",
         "choices": [
             {
                 "text": "Baju tenis warna pink (gambar baju warna pink).",
@@ -482,14 +514,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "6146c21444602992912ca96c498054b5",
-        "created_at": "2026-05-18T13:25:20.789818"
+        "created_at": "2026-05-18T14:11:37.506368"
     },
     {
-        "question_id": "BASU_16_1779085521",
+        "question_id": "BASU_16_1779088297",
         "form_name": "BASU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "3.\u00a0\nATURAN DI TAMAN\n\nA.\u00a0Hal apa yang\u00a0tidak boleh\u00a0dilakukan di taman?",
+        "context": "",
         "choices": [
             {
                 "text": "membawa tikar sendiri dari rumah",
@@ -512,14 +546,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "a5c36b0fa89a8a542677382ddca05b27",
-        "created_at": "2026-05-18T13:25:21.169881"
+        "created_at": "2026-05-18T14:11:37.874983"
     },
     {
-        "question_id": "BASU_17_1779085521",
+        "question_id": "BASU_17_1779088298",
         "form_name": "BASU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "B.\u00a0Apa kegiatan yang dilakukan di taman?",
+        "context": "",
         "choices": [
             {
                 "text": "membersihkan sampah di toilet",
@@ -538,14 +574,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "c553dd43eab07ae8381667bfbb39ab8d",
-        "created_at": "2026-05-18T13:25:21.553792"
+        "created_at": "2026-05-18T14:11:38.238356"
     },
     {
-        "question_id": "BASU_18_1779085521",
+        "question_id": "BASU_18_1779088298",
         "form_name": "BASU",
         "page_number": 2,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "4.\u00a0\nTEMPAT DAN WAKTU ACARA\n\nA.\u00a0Di mana kita bisa mendengarkan musik?",
+        "context": "",
         "choices": [
             {
                 "text": "Di rumah",
@@ -564,14 +602,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "6edf6a61b30e56317c22dfacf71737e9",
-        "created_at": "2026-05-18T13:25:21.913564"
+        "created_at": "2026-05-18T14:11:38.603059"
     },
     {
-        "question_id": "BASU_19_1779085522",
+        "question_id": "BASU_19_1779088298",
         "form_name": "BASU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "B.\u00a0Pada pukul berapa makanan tersedia dalam jumlah banyak?",
+        "context": "",
         "choices": [
             {
                 "text": "15.00",
@@ -590,14 +630,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "7d885d62ea88c26d1f9d3691470736c5",
-        "created_at": "2026-05-18T13:25:22.284413"
+        "created_at": "2026-05-18T14:11:38.968668"
     },
     {
-        "question_id": "BASU_20_1779085522",
+        "question_id": "BASU_20_1779088299",
         "form_name": "BASU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "9. Hadiah apa yang di berikan",
+        "context": "",
         "choices": [
             {
                 "text": "sepatu tenis",
@@ -616,14 +658,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "1ac6ee432eeb217df428210a7d645836",
-        "created_at": "2026-05-18T13:25:22.647504"
+        "created_at": "2026-05-18T14:11:39.337649"
     },
     {
-        "question_id": "BASU_21_1779085523",
+        "question_id": "BASU_21_1779088299",
         "form_name": "BASU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "10. Parkirnya dimana",
+        "context": "",
         "choices": [
             {
                 "text": "Parkiran yang sudah disediakan dibelakang stasiun.",
@@ -642,14 +686,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "1ea767e5ae82e15e289f71220a83a260",
-        "created_at": "2026-05-18T13:25:23.016231"
+        "created_at": "2026-05-18T14:11:39.706869"
     },
     {
-        "question_id": "BASU_22_1779085523",
+        "question_id": "BASU_22_1779088300",
         "form_name": "BASU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "11. Percakapan antara pelayan toko dan pembeli.Apa yang dibeli",
+        "context": "",
         "choices": [
             {
                 "text": "Hamburger 1 dan kokakola 2",
@@ -668,19 +714,21 @@
         "audio_url": "",
         "audio": "",
         "hash": "3fcee3e92feb30c1cbbeb5e5bac14cb9",
-        "created_at": "2026-05-18T13:25:23.381755"
+        "created_at": "2026-05-18T14:11:40.068044"
     },
     {
-        "question_id": "BASU_23_1779085524",
+        "question_id": "BASU_23_1779088301",
         "form_name": "BASU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "1. \u304d\u306e\u3046\u3068\u3082\u305f\u3061\u3068\u304a\u3072\u308b\u3054\u306f\u3093\u306f\u3053\u3046\u3048\u3093\u3067\u305f\u3079\u307e\u3057\u305f\u3002\u3055\u3080\u3044\u3051\u3069\u305f\u306e\u3057\u304b\u305f\u3002\u304d\u306e\u3046\u306a\u3044\u3092\u3057\u307e\u3059\u304b\u3002",
+        "context": "",
         "choices": [
             {
                 "text": "Gambar orang lagi duduk dibangku",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBjR7w8JtFinvtm2PQtlGBBfUe9f-3ngIWsDu3mvVPubGbUK6IO1FsC98z9E10huivFS4miRf0NU-RXDbTGMBPilPAr_H0fc2rVkqgmv3awV4tjMjxrz6X4Gw_e9YKRG6p_DWb-Xv6eVd8YntW68BNwxJ40nunKAzfxS1m4Ye83zJZJL5G5O7pxJgEkAEA9Inhd1MM-g4S28g0P=w260?key=IFS06RDQ_64vWTlJwxDgeQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBWcQc44eMVSIrX8BBTykC0wKhFLwxeV9kWVpwqavnq32uru6QPbvjZAxbUtX91kICKNo36N7xZnxiNvxekQDyAaHDSFivnpzoBLPwZV1EE9VbwQcgezt08zeJ6-vJS6PX7CazYrgdAua6ded_IqLT6koRhnsKuV6MlmLObPEzRUYodPtOVSMQuLM5yhuJkFCmy-HimN92PX1oG=w260?key=IFS06RDQ_64vWTlJwxDgeQ",
                     "path": "images/f993028c44b82f5a7fe50fe88fd5f8a6.png"
                 }
             },
@@ -694,7 +742,7 @@
             {
                 "text": "Gambar orang lagi makan dibangku",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDyerMm6LHnbRnXmf361BVSKJLqPRswtRoAIt0p4D_WTfyHwo96rP8UWwJNI3IExPmA7gcDUm4bztKnkpHDzL-uQrnx0k7kF_ZeIOoecZbmdr2upptHuGxBDqj_v3P3RIpAVJfpn27V6tajrY3SVnJ20lhamiAxV1LuT-s42s7Yt1yw7_vLb_PBAlG8bXgXgG39Kkahadhwg-LN=w256?key=IFS06RDQ_64vWTlJwxDgeQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAEtBcfSNfX8_RiDu4eLXlVQc0ZdRkeiYxeMpli75murQQw4o0tfdxIaPdK7ZrL_fVlgt9gMCGffOKPslx7X4NrCnWvWFLtFE4sh5q9GRvlHpWppOhba6axSvPSvVbWJ8jEnE6Iyv9_VVv8d48-DF9tVuf2nVypEgzTVEV_qbttaW9BivWpBgfj16hdK7g5vqHGUjfUf3kKfilN=w256?key=IFS06RDQ_64vWTlJwxDgeQ",
                     "path": "images/7620250f5a5c863364b0c36329e0cd49.png"
                 }
             }
@@ -703,14 +751,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "ef31a567791ae7776c02a1b8a6a63c49",
-        "created_at": "2026-05-18T13:25:24.643204"
+        "created_at": "2026-05-18T14:11:41.407824"
     },
     {
-        "question_id": "BASU_24_1779085524",
+        "question_id": "BASU_24_1779088301",
         "form_name": "BASU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "2. \u3042\u3057\u305f 11\u3058 30\u3077\u3093\u306b\u307e\u3061\u3042\u308f\u3057\u307e\u3057\u305f\u306d\u3002\u307f\u3061\u306b\u307e\u3088\u3046\u304b\u3089\u3055\u3093\u3058\u3085\u3046\u3077\u3093\u304a\u304f\u308c\u307e\u3059\u3002 \u307b\u3093\u3068\u306b\u3059\u307f\u307e\u305b\u3093.\n\u306a\u3093\u3058\u306b\u3064\u304d\u307e\u3059\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "11 \u3058",
@@ -729,14 +779,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "43d63ef666ae866ec5c3556befa06726",
-        "created_at": "2026-05-18T13:25:24.998097"
+        "created_at": "2026-05-18T14:11:41.752908"
     },
     {
-        "question_id": "BASU_25_1779085525",
+        "question_id": "BASU_25_1779088302",
         "form_name": "BASU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "3. \u3072\u304b\u308a\u3067\u306a\u306b\u304c\u3067\u304d\u307e\u3059\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "\u304d\u3082\u306e\u3092\u501f\u308a\u3089\u308c\u307e\u3059",
@@ -755,14 +807,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "7c77307adb68f953b120b2113516bd80",
-        "created_at": "2026-05-18T13:25:25.361779"
+        "created_at": "2026-05-18T14:11:42.123858"
     },
     {
-        "question_id": "BASU_26_1779085525",
+        "question_id": "BASU_26_1779088302",
         "form_name": "BASU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "4. \u3069\u3053\u3067\u3055\u304b\u306a\u3092\u304b\u3044\u307e\u3059\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "Tore tore \u3044\u3061\u3070",
@@ -781,14 +835,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "c02fcc49a6e01369dff27eb4fccb72e4",
-        "created_at": "2026-05-18T13:25:25.727376"
+        "created_at": "2026-05-18T14:11:42.484170"
     },
     {
-        "question_id": "BASU_27_1779085526",
+        "question_id": "BASU_27_1779088302",
         "form_name": "BASU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "6.\u00a0\u305f\u3044\u306e\u304b\u3093\u305f\u3093\u306a\u3042\u3044\u3055\u3064\u3092\u307e\u306a\u3073\u307e\u3057\u305f\u3002\n\u30da\u30c3\u30c8\u30dc\u30c8\u30eb\u306f\u306a\u3093\u3088\u3046\u3073\u3067\u3059\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "\u6728\u66dc\u65e5",
@@ -807,14 +863,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "04153dacb125a3f79f10065113262076",
-        "created_at": "2026-05-18T13:25:26.120723"
+        "created_at": "2026-05-18T14:11:42.878591"
     },
     {
-        "question_id": "BASU_28_1779085526",
+        "question_id": "BASU_28_1779088303",
         "form_name": "BASU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "7. \u306a\u3093\u3058\u307e\u3067\u3001\u304b\u3055\u3092\u3063\u3066\u307e\u3057\u305f",
+        "context": "",
         "choices": [
             {
                 "text": "8.00\u3058",
@@ -833,14 +891,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "cb56575f900c2d626f24b81630a0b55a",
-        "created_at": "2026-05-18T13:25:26.498847"
+        "created_at": "2026-05-18T14:11:43.252810"
     },
     {
-        "question_id": "BASU_29_1779085527",
+        "question_id": "BASU_29_1779088304",
         "form_name": "BASU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "8. \u3069\u3046\u3057\u3066\u304a\u304f\u308c\u307e\u3059\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "\u307f\u3061\u306b\u307e\u3087\u3046\u304b\u3002",
@@ -858,6 +918,6 @@
         "audio_url": "",
         "audio": "",
         "hash": "cd6b1245c5fd24e526400668ab0ff2a7",
-        "created_at": "2026-05-18T13:25:27.097753"
+        "created_at": "2026-05-18T14:11:44.191231"
     }
 ]

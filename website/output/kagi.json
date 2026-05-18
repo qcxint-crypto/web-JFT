@@ -1,22 +1,24 @@
 [
     {
-        "question_id": "KAGI_0_1779085747",
+        "question_id": "KAGI_0_1779088539",
         "form_name": "KAGI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "1.\u00a0\nPercakapan 2 orang membahas tentang tempat olahraga Cara membersihkannya bagaimana?",
+        "context": "",
         "choices": [
             {
                 "text": "gambar orang mungut sampah pakai tangan",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCl9fKgNmEEocNqXnrABGtbQKxLVgEq8vZ5VlhVtPFXwOcgjNRNveAhFJNMOV21bYa4zRZAMm03qYvGnZI528_Lllr2k807QYqygPfNRz8vDxkcBpeyholbz1VEjYI2HjyN5uRqLPHqVXuPJ-mgXwxtANECBByn02fgRxpryLiIw8hzbzi8bT5xpGg9hby0qnR5DgQLBK34Gwc=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB14bvgadeFvP4MqcCFid-BBSypc75U7dhDO2uwNjQV_n52RSzppWpqVN-5-zhY-mrN36PL0DhQhnq3Rg2jNAjD015D6oLA16EDZTG7ma5rXoLAy4lsHOvqKL0fp0FVW7XehmHM_HsORO2Atg16-xrlAfNr_Gwdb71nHhDW1unxzcPeOOsxt8wd0gSpu3CsPKQQa_ljceBQYIo=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
                     "path": "images/aa4050226a940116b879c950d09d0e3b.png"
                 }
             },
             {
                 "text": "gambar orang bersih2 pakai kain",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAf3Wk5K1DvFwJ7hh5aY_JXp5zQr9X6ZQBWrLjdPJNsVFrr38NbUy_7st1d7Ax2z15SoGNtZxnIlRabflkA6fpkYRotAlUmZBIkkCM52-8gv4yQIDM35V8X6XdsQG0-u1kYkjnfBpW_xHoF0ZdO84F8TWi4GmLFP5UdEY8I0hU4VgOdPXL4A8GmNvDdxYTgGDQCinvY2O_AoUM=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAePf3yLjHnnyyZUHZhBwim_kRzerHjEHg45lgiVXUgnj0FaQKvrO5FhVPWO8HDHk69ZHZCYumCyKX_iUYXLSIYscMfrq088NFMuPjH2nVpkFXexj94D2Kzg_qUIomNkTJPDkO-6LBtZKe0z3clq3mq_nsTDrOmkaatYcJemC63etMdqQi8nZmfDCyOi_vzx_Aylgy7-oaksfQ=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
                     "path": "images/583a37d5d5398a5d2dd7ef2876d26373.png"
                 }
             },
@@ -32,33 +34,35 @@
         "audio_url": "",
         "audio": "",
         "hash": "6426a77b7c76dc949d173f99a5f27ff8",
-        "created_at": "2026-05-18T13:29:07.013215"
+        "created_at": "2026-05-18T14:15:39.819442"
     },
     {
-        "question_id": "KAGI_1_1779085748",
+        "question_id": "KAGI_1_1779088541",
         "form_name": "KAGI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "2.\u00a0\nTidak boleh memesan lewat apa?\n(Gambar menunjukkan tidak dapat melakukan pemesanan melalui telepon )",
+        "context": "",
         "choices": [
             {
                 "text": "Lewat telepon",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCJNLsdedqfKRHOgkb42eObC7RyytgQb6XvpNi89_EA4asBv1gG9EPXfJAnFiZG_tQF5AhH3VYK1RKG7vpb5Oy8xbqDzOnTQ3j3KK7FMkx0b-7Gk8w1KDbVBbSdRx8nWvQ8J_XFWzq5-IFIcDxrBDfnUOYsAIESE2xAoV_znsCq-DaWhO2tynyOXPsXujgq4JHwb1kMlxF8rD0=w224?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDm40XytyOLq4jam_RjdqUP7xSJ16meJk6t-t9kF91IIVAIbzFvd017XB9WclFPZjYIshcjUE2kHklnZu0i4OXhypS8RsBxSHdO7a8u2BHfleEwqQTx6lBwVVrIkT6BJnKKxDdlynWN7HE2jz2bZVFnmOojfPfLcnHQc5EYw5jdGRyX-3sdYUxElB2OgwuF9E_47JPY3KGiGPo=w224?key=MzZ7vfEeMrsPY6ICm7VyMg",
                     "path": "images/51e4b07eb6419f1d66a9b5be1d3cb417.png"
                 }
             },
             {
                 "text": "Reservasi langsung",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBRLkOgR4Rqnz12NOx37K2bf-LOwjTLEHjf3pT_nid-nzqKZs2gpH6PpGwveP74DvgEV0RAeRLHbUimCKaAMYQY6OlrvTSNgcPAihqzvSP1OMmCmUmBrja07Ax3snH8TfopGWcpWxQaSUJJaSIQ72NU4nuWhfyFR_kj_8wO4Eg41qegnOQn6_pd-0J3wlAG3_rEoudTj9WeHe0=w222?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVD7oXKhvfhMU1uuCHjF6pIKeGGFlv1rLVRWV_ah0YwI5ED3n7j69ae-9IpepBycx3eYeCf-kx4r3WP5Kho1m5g9hFCk0t8csc54Yi74PLb3BMIS5D2BQTRQUz7gePk2n2NBVUcsJArjvnbV0cP5ZDsgPdbC2ZPEULGGTp-lF3vGoLDodi-bVXur7ZUN9GXkwUoVLHv_jADIoiE=w222?key=MzZ7vfEeMrsPY6ICm7VyMg",
                     "path": "images/c046d7a99a0b8faaa609085d228b950d.png"
                 }
             },
             {
                 "text": "Lewat online",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAQJCVZTZ2bt3q28BYDwse2gLUX6tugjvu3o_VdJRPPh8yf_sXcY8FVfRgOHv6L8I9f0B2FFRWjFdjl25_g428suk4NG1ovX_qz5WYj-gjISr4aTMv3t5hedz7J1kiCWQbYd6dZUxNMCbfeY9LypkXjwywEoNtc2kINmiyPdQHsnsNxUwWN8-Cu2F-BmmyEEeD2nU9G4N2KYTMp=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCjj9cYiN2W1O8alfqb-8AWw-Y4x7ps9cnC5P_PbCGUBOavtL1CGmeJY0phm6WOwx29ZQzduKelnuo93CQQcQbbQWe61DbfslkS0WOIBkGZuAodHehqpTHlGupli6eWnyZVXnJzleHAUBvLb0zyEv3SYe5LsiOPHLBz75QrEFBcUMKAxG19j2gbP5xJXVvhov_5aWs89liEa8ci=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
                     "path": "images/20a3b80a71b1e8f201851d3fbf5efa3a.png"
                 }
             }
@@ -67,33 +71,35 @@
         "audio_url": "",
         "audio": "",
         "hash": "31d1e25e7abf77ac010f7a10c353d7e2",
-        "created_at": "2026-05-18T13:29:08.390747"
+        "created_at": "2026-05-18T14:15:41.125064"
     },
     {
-        "question_id": "KAGI_2_1779085750",
+        "question_id": "KAGI_2_1779088543",
         "form_name": "KAGI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "3.\u00a0\nPercakapan 2 orang. Bertanya yang dimakan setiap hari apa?",
+        "context": "",
         "choices": [
             {
                 "text": "Mie ayam",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAAKfPM2n8y4FEe4nj1Wki0x9BmZVFNtTH3-PvTi8RjNODvTXsOgCKJNrxhWZSnniCMeoA0-K_aafvcc_CGeQgXJYPpTYpT_7n3vqo6ovk6vhzdbpOTQWg0U-_IQoXEjzF1nFFGalXVpDSSdOk8nqW70QwxqM4X1UcGlUkJ9Kb3xUzI9E1gcQmk08ApByyti4fyNKkw8SthEd_4=w256?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVD2viLRvfiDgO45ktqISff6rxwOa9ZsEiZqvxUG6tTsq0KxD2jJA7q_gGFsvL4K2LoYtOFOWywDJo9ouc4RNL9M2Tth2E_MssaoaCm-S68DFFmMT5Wp79-5dkPoY2MmGNRLU_A5p8GxcG47MdW1LibmErFB7okzZ1k5H0IlILX9uhm4821ZGypci1upmtRjan02qBJQpz1eBlQf=w256?key=MzZ7vfEeMrsPY6ICm7VyMg",
                     "path": "images/139471dd335990ca5d30995663f5827f.png"
                 }
             },
             {
                 "text": "Roti dan Telur",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVD0t1oT0wOelIVMExUH8u-iA4IEKv4v01neeup6UJ6xZei_8yjh4bgwza49oAtTRDn_cUigcNsTMVrDpxGEaV54ik0Wq287KwkgpGch1ljtvsYBgTc9fUPh2fuLcdttVb2KTe_1K9OsrXaNRYtEYpnYpAl5WssbQq1mBY1KmbD8ac_7wpemPd4w5EegVpzZ-RV6n4ey3lmNcB8=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCZb0UFv2wFxpz5_7fpgBBQpCwtgXkgHqOtRlwPMoHrEJiYGv0Tp8YR6e6l9vcVRsV5opZpvTa_rZI_XGrKIhBhP9N3qyom-mPdzGmAHTw9ZeaPDMwB_A45b6JPaciWagkEM0khgIvwde2Zhqrn_qi8CNkXEbpMz6QF1lIdUKBxGVxHbvpwb1oFrvthQlwYu1xtmPKcC52qGHM=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
                     "path": "images/7cda8a40c6ef9e83ef8bc0a0b7ead1ab.png"
                 }
             },
             {
                 "text": "Ramen",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDtuIaSpsshXwWmNy7APJEHOnEqcRttVAk8HG-sGM_FXA0nQpeGJTYE6M2b_sp7b04wP6k7IZtlUyYT3uFiD9tZrWQvNbgwHrYWVWdVTyhb9vWdQu1F0Az0wTgqfeqmQKku82xpvVtwoWwgywdjYvX_Zciid6YaiBCVWRU6s3NASgt2-YjvXWz5bhdDbu0pHn6wK72N3Ry_p7A4=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDaVTiJWYRtqe2NWUCXiNWGX_JCpU-EVy5DqJur2gdkElS-1uAKjfJzRkblpWyfA-ct_dh-bqduOyzfxafnj1eTVtcRp-e6x0r-AwETZT1ela1eubkGq0fQwLzqf2j-v_F80ZyLJG0wbmm6uhwP2Uki5-YGdwaPBdIB_yDRSvMX5FVP4bGfCbDH4Tebl_3q7-1eErBOURgeC2Cf=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
                     "path": "images/2020261b79022aaf9dc0a8039c405111.png"
                 }
             }
@@ -102,33 +108,35 @@
         "audio_url": "",
         "audio": "",
         "hash": "62e9bce49c866d84fc4b90e6d17912f9",
-        "created_at": "2026-05-18T13:29:10.272988"
+        "created_at": "2026-05-18T14:15:43.449956"
     },
     {
-        "question_id": "KAGI_3_1779085751",
+        "question_id": "KAGI_3_1779088544",
         "form_name": "KAGI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "5.\u00a0\nAda seorang wanita mengajar Disuruh melakukan apa",
+        "context": "",
         "choices": [
             {
                 "text": "Menulis dibuku",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBauVhXP0UBTE_reNiqcLV2E1Y8T7bSRS8y-jinceF6ge9mvHnVBHjSzBFGfD5RHlXitgEZ-rcithUqPYIgmLtC406h0cLAUugGYk0SciKeTNu8Eh04GHEVoLelTvS4wt5rCNpEM_cyr6NcQY7dqF0DqI617LZbswr8Q_cOu3DJah_CwGOJIr0wHUKWtmB6GHKMTNvbcbPxJBc=w193?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCWyqQxgP-oQxZSu5yxfo1RE908_6DFoqFpTqw7hv0t1wZW5MCVbzeBrYqJg8n7Ss2mz90wCA-dxwbvGduZRxOyU-IQrYmzsZOFXFEljI7EQ-oIV4L2NqGJjijBHFF7-2wxYWjKmJoSdVwfotUOZP_puRZd0XgKuzrzcCGn14ekkVZqdxlDbIKOuBCAE1LFeKvwEiWKlInydbc=w193?key=MzZ7vfEeMrsPY6ICm7VyMg",
                     "path": "images/a25059144d5923e99b6b2a1b3a045c18.png"
                 }
             },
             {
                 "text": "Menulis dipapan tulis",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAHhVMWCtaITR-DtLal2yATZkOQezsZefIpUjwr_wq61ALc3Hx26vJgq7sHEuFqpbPG5fiWwcnSo99XtDdv5RjkNFW_wqKCWIC2_TQaO-sonf0SvklPX7COxNx8sGM1t_p2t7gIlA2PpvVMjlykuN7BnEhVToSG94kpEBj72NymH0KC1VB9TA8Dc5HzfH0muRtsKyTkT5OcXm0o=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBXzTUBdQXajoOH24IPGT_1JprznapAX6EntDnwy_jucX0JKsMdlzh_gF8DLRamy73RHnuNsEa5U6kz38M2IYsG9swcUmBxwpKIyucZdQxgC5zJi5FEZ34rTxPdT1XCw4wMHh_M5_XTfkx_YpncPrf7BSl5EfF-ZX0aZUfMDZLUVIrjeKxmiDEUJ-crAjjsyDKnhD4uE40jd6Rk=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
                     "path": "images/e33f33a74c74eb2a15e9e848298dd0a3.png"
                 }
             },
             {
                 "text": "Memegang telinga/mendengarkan",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA_CKcaXRu1MNUrvs2GtRNGtqbqu2zbB_p0_XHWnNVgcZmSxUt3Zcv4bJzThxJWjNSzVFI_zJPZvppTRfjTes3V9GPAwD8KOo-kbXz7yC5cjHshhWy2oD_tVIbTUCiNIBmPbcB-zG_6Z23B0krE3ewINUpjByno_j-IbSQ8yKTZM_xlfcxYTvEfcXXSu_k0CcXfrNIuSH4SwZIF=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDeQy6NfDbikHZC3Rm08wFO_MppM_KHNUDjjg0Usm8-kMmacExyFBgQriKVNO_nxOx-Mn4dvdflLL51CFQsmPxaAtz_4wPRV6yHqSdhRSt_z1wLTu-FHwTnj3e-_ZsoJ7KzwjLsTlI6L8Fse-mDIG1kGStDAkih6hieTo2z1svQk2eTGGmixIWZ4Sdwcrm4sUjqEwd0PDebC5p7=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
                     "path": "images/76c270792c1129c86daef764f98e254c.png"
                 }
             }
@@ -137,14 +145,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "eec0cb7407744643179386eefb10c929",
-        "created_at": "2026-05-18T13:29:11.774363"
+        "created_at": "2026-05-18T14:15:44.997607"
     },
     {
-        "question_id": "KAGI_4_1779085752",
+        "question_id": "KAGI_4_1779088545",
         "form_name": "KAGI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "6.\u00a0\nPercakapan telepon bahas cuaca) Apa cuaca hari ini",
+        "context": "",
         "choices": [
             {
                 "text": "\u306f\u308c (Cerah, ditunjukkan dengan gambar matahari)",
@@ -163,19 +173,21 @@
         "audio_url": "",
         "audio": "",
         "hash": "37fa248b32ef6e31acb215f57127ab38",
-        "created_at": "2026-05-18T13:29:12.122201"
+        "created_at": "2026-05-18T14:15:45.346384"
     },
     {
-        "question_id": "KAGI_5_1779085753",
+        "question_id": "KAGI_5_1779088546",
         "form_name": "KAGI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "7.\u00a0\nPercakapan menanyakan hobi) Apa hobi laki laki",
+        "context": "",
         "choices": [
             {
                 "text": "Gambar seseorang sedang melakukan tenis",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAgUYMvyx7EkJch_qmfoDairpNkfSU2scMo04IPtylZ2_kHWMa5kb9bp0qSLPL4vAQ7FL8kaFpLBljW0HtrMwj7jIT013CW792Owwn48IHcc5aQK98IDBsUZU7iHlr38iawaN7mzGslPbJbPJl2I6cdEFLhi2fjBdBkk_b3yt9MH1YZ8klBPYnKIZd6vumvPwvvSGT9ziu8q7s=w207?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB_GyZuJLxjvAEXuIIqDRO50gTQ4PynE8xqpfXU2T8qSKZ_cS0CAk46kilbaOJ-60ARN_UUNBr_EWado6ALegGsoSOXpWhuQru10acnzEPt_IquIwljUz6x74Rmj6bkZiTHNapJv7tn13Dllzm9QH55ypWR8R_hjzqvh8O0xgTTBdxYb02gXuItsNyqaVJi705VVKDrcGRlKI4=w207?key=MzZ7vfEeMrsPY6ICm7VyMg",
                     "path": "images/c1682df1fff10c0ecd4e6b7990b345f7.png"
                 }
             },
@@ -189,7 +201,7 @@
             {
                 "text": "Gambar seseorang sedang melakukan berenang",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDaxp9veTa1UZy37Qz3J4FRdMpmyhAN489T0u3IUj8nvBP9hrz0im54-fj1QQxpRC53roLk9ajHFBEKP5XUuXrvIUCsSOyUDuMO3ZyTAKbqZWypKmL7pOOmzIIZg5xBWRiAw0TVdMWxTslCJO9ADX1wMZWbPZ8hc7oyFyDrsT32z0MrUso5gGtgkiFJjin2rEmfnHP1sYCJ_GU=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVArnfy1J9N7Xz_bLgNeEMJe4vxqqNb-nE4cGr0jkHDT8DZW2j_IbCxdLEV3zNqw6BTL3Wm-jYK4gJMhfZUyaNFZJMBjxAZz2sAKjPbdTRqmV9mYCvJ5LOwQgJNmCxH-dAFNpccqPwZMkRM1XbCVZGPQltkdp37IXnKVR7rX-ryoiCIA54Dr8gap8tU-pJBPPv9n9pPuqFKWAPw=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
                     "path": "images/a570fa7a6afb58beb68bca5fee328a34.png"
                 }
             }
@@ -198,14 +210,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "e93c1cd8b270f07d2e77265fce3f4dcc",
-        "created_at": "2026-05-18T13:29:13.301945"
+        "created_at": "2026-05-18T14:15:46.700458"
     },
     {
-        "question_id": "KAGI_6_1779085753",
+        "question_id": "KAGI_6_1779088547",
         "form_name": "KAGI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "8.\nKapan libur musim panas dimulai?",
+        "context": "",
         "choices": [
             {
                 "text": "5\u670830\u65e5",
@@ -224,14 +238,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "85b4485179d6b498ee0764bb3102df32",
-        "created_at": "2026-05-18T13:29:13.651955"
+        "created_at": "2026-05-18T14:15:47.056667"
     },
     {
-        "question_id": "KAGI_7_1779085754",
+        "question_id": "KAGI_7_1779088547",
         "form_name": "KAGI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "9.\u00a0\nDiadakan dimana",
+        "context": "",
         "choices": [
             {
                 "text": "Ditunjukkan dengan gambar stasiun yang memiliki kuil Shinto di sekitarnya.",
@@ -250,14 +266,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "a58029ace0d086cdd76c66c9228cac0b",
-        "created_at": "2026-05-18T13:29:14.021020"
+        "created_at": "2026-05-18T14:15:47.424212"
     },
     {
-        "question_id": "KAGI_8_1779085754",
+        "question_id": "KAGI_8_1779088547",
         "form_name": "KAGI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "10.\nBerapa minggu batas waktu peminjaman buku?",
+        "context": "",
         "choices": [
             {
                 "text": "2\u3057\u3085\u3046\u304b\u3093 \u9031\u9593",
@@ -276,14 +294,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "e439417fda029aea33662d76bb8dc92b",
-        "created_at": "2026-05-18T13:29:14.393828"
+        "created_at": "2026-05-18T14:15:47.788660"
     },
     {
-        "question_id": "KAGI_9_1779085754",
+        "question_id": "KAGI_9_1779088548",
         "form_name": "KAGI",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "11.\u00a0\nDitanya kalau sabtu toko buka sampai jam berapa",
+        "context": "",
         "choices": [
             {
                 "text": "1:30",
@@ -302,26 +322,28 @@
         "audio_url": "",
         "audio": "",
         "hash": "b9c71fbe8de7923f42d695772445ee88",
-        "created_at": "2026-05-18T13:29:14.758761"
+        "created_at": "2026-05-18T14:15:48.165957"
     },
     {
-        "question_id": "KAGI_10_1779085765",
+        "question_id": "KAGI_10_1779088558",
         "form_name": "KAGI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "1.\u00a0\nPercakapan 2 orang membahas tentang tempat olahraga Cara membersihkannya bagaimana?",
+        "context": "",
         "choices": [
             {
                 "text": "gambar orang mungut sampah pakai tangan",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCl9fKgNmEEocNqXnrABGtbQKxLVgEq8vZ5VlhVtPFXwOcgjNRNveAhFJNMOV21bYa4zRZAMm03qYvGnZI528_Lllr2k807QYqygPfNRz8vDxkcBpeyholbz1VEjYI2HjyN5uRqLPHqVXuPJ-mgXwxtANECBByn02fgRxpryLiIw8hzbzi8bT5xpGg9hby0qnR5DgQLBK34Gwc=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB14bvgadeFvP4MqcCFid-BBSypc75U7dhDO2uwNjQV_n52RSzppWpqVN-5-zhY-mrN36PL0DhQhnq3Rg2jNAjD015D6oLA16EDZTG7ma5rXoLAy4lsHOvqKL0fp0FVW7XehmHM_HsORO2Atg16-xrlAfNr_Gwdb71nHhDW1unxzcPeOOsxt8wd0gSpu3CsPKQQa_ljceBQYIo=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
                     "path": "images/aa4050226a940116b879c950d09d0e3b.png"
                 }
             },
             {
                 "text": "gambar orang bersih2 pakai kain",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAf3Wk5K1DvFwJ7hh5aY_JXp5zQr9X6ZQBWrLjdPJNsVFrr38NbUy_7st1d7Ax2z15SoGNtZxnIlRabflkA6fpkYRotAlUmZBIkkCM52-8gv4yQIDM35V8X6XdsQG0-u1kYkjnfBpW_xHoF0ZdO84F8TWi4GmLFP5UdEY8I0hU4VgOdPXL4A8GmNvDdxYTgGDQCinvY2O_AoUM=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAePf3yLjHnnyyZUHZhBwim_kRzerHjEHg45lgiVXUgnj0FaQKvrO5FhVPWO8HDHk69ZHZCYumCyKX_iUYXLSIYscMfrq088NFMuPjH2nVpkFXexj94D2Kzg_qUIomNkTJPDkO-6LBtZKe0z3clq3mq_nsTDrOmkaatYcJemC63etMdqQi8nZmfDCyOi_vzx_Aylgy7-oaksfQ=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
                     "path": "images/583a37d5d5398a5d2dd7ef2876d26373.png"
                 }
             },
@@ -337,33 +359,35 @@
         "audio_url": "",
         "audio": "",
         "hash": "6426a77b7c76dc949d173f99a5f27ff8",
-        "created_at": "2026-05-18T13:29:25.173248"
+        "created_at": "2026-05-18T14:15:58.962171"
     },
     {
-        "question_id": "KAGI_11_1779085766",
+        "question_id": "KAGI_11_1779088560",
         "form_name": "KAGI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "2.\u00a0\nTidak boleh memesan lewat apa?\n(Gambar menunjukkan tidak dapat melakukan pemesanan melalui telepon )",
+        "context": "",
         "choices": [
             {
                 "text": "Lewat telepon",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCJNLsdedqfKRHOgkb42eObC7RyytgQb6XvpNi89_EA4asBv1gG9EPXfJAnFiZG_tQF5AhH3VYK1RKG7vpb5Oy8xbqDzOnTQ3j3KK7FMkx0b-7Gk8w1KDbVBbSdRx8nWvQ8J_XFWzq5-IFIcDxrBDfnUOYsAIESE2xAoV_znsCq-DaWhO2tynyOXPsXujgq4JHwb1kMlxF8rD0=w224?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDm40XytyOLq4jam_RjdqUP7xSJ16meJk6t-t9kF91IIVAIbzFvd017XB9WclFPZjYIshcjUE2kHklnZu0i4OXhypS8RsBxSHdO7a8u2BHfleEwqQTx6lBwVVrIkT6BJnKKxDdlynWN7HE2jz2bZVFnmOojfPfLcnHQc5EYw5jdGRyX-3sdYUxElB2OgwuF9E_47JPY3KGiGPo=w224?key=MzZ7vfEeMrsPY6ICm7VyMg",
                     "path": "images/51e4b07eb6419f1d66a9b5be1d3cb417.png"
                 }
             },
             {
                 "text": "Reservasi langsung",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBRLkOgR4Rqnz12NOx37K2bf-LOwjTLEHjf3pT_nid-nzqKZs2gpH6PpGwveP74DvgEV0RAeRLHbUimCKaAMYQY6OlrvTSNgcPAihqzvSP1OMmCmUmBrja07Ax3snH8TfopGWcpWxQaSUJJaSIQ72NU4nuWhfyFR_kj_8wO4Eg41qegnOQn6_pd-0J3wlAG3_rEoudTj9WeHe0=w222?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVD7oXKhvfhMU1uuCHjF6pIKeGGFlv1rLVRWV_ah0YwI5ED3n7j69ae-9IpepBycx3eYeCf-kx4r3WP5Kho1m5g9hFCk0t8csc54Yi74PLb3BMIS5D2BQTRQUz7gePk2n2NBVUcsJArjvnbV0cP5ZDsgPdbC2ZPEULGGTp-lF3vGoLDodi-bVXur7ZUN9GXkwUoVLHv_jADIoiE=w222?key=MzZ7vfEeMrsPY6ICm7VyMg",
                     "path": "images/c046d7a99a0b8faaa609085d228b950d.png"
                 }
             },
             {
                 "text": "Lewat online",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAQJCVZTZ2bt3q28BYDwse2gLUX6tugjvu3o_VdJRPPh8yf_sXcY8FVfRgOHv6L8I9f0B2FFRWjFdjl25_g428suk4NG1ovX_qz5WYj-gjISr4aTMv3t5hedz7J1kiCWQbYd6dZUxNMCbfeY9LypkXjwywEoNtc2kINmiyPdQHsnsNxUwWN8-Cu2F-BmmyEEeD2nU9G4N2KYTMp=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCjj9cYiN2W1O8alfqb-8AWw-Y4x7ps9cnC5P_PbCGUBOavtL1CGmeJY0phm6WOwx29ZQzduKelnuo93CQQcQbbQWe61DbfslkS0WOIBkGZuAodHehqpTHlGupli6eWnyZVXnJzleHAUBvLb0zyEv3SYe5LsiOPHLBz75QrEFBcUMKAxG19j2gbP5xJXVvhov_5aWs89liEa8ci=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
                     "path": "images/20a3b80a71b1e8f201851d3fbf5efa3a.png"
                 }
             }
@@ -372,33 +396,35 @@
         "audio_url": "",
         "audio": "",
         "hash": "31d1e25e7abf77ac010f7a10c353d7e2",
-        "created_at": "2026-05-18T13:29:26.370999"
+        "created_at": "2026-05-18T14:16:00.382472"
     },
     {
-        "question_id": "KAGI_12_1779085767",
+        "question_id": "KAGI_12_1779088562",
         "form_name": "KAGI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "3.\u00a0\nPercakapan 2 orang. Bertanya yang dimakan setiap hari apa?",
+        "context": "",
         "choices": [
             {
                 "text": "Mie ayam",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAAKfPM2n8y4FEe4nj1Wki0x9BmZVFNtTH3-PvTi8RjNODvTXsOgCKJNrxhWZSnniCMeoA0-K_aafvcc_CGeQgXJYPpTYpT_7n3vqo6ovk6vhzdbpOTQWg0U-_IQoXEjzF1nFFGalXVpDSSdOk8nqW70QwxqM4X1UcGlUkJ9Kb3xUzI9E1gcQmk08ApByyti4fyNKkw8SthEd_4=w256?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVD2viLRvfiDgO45ktqISff6rxwOa9ZsEiZqvxUG6tTsq0KxD2jJA7q_gGFsvL4K2LoYtOFOWywDJo9ouc4RNL9M2Tth2E_MssaoaCm-S68DFFmMT5Wp79-5dkPoY2MmGNRLU_A5p8GxcG47MdW1LibmErFB7okzZ1k5H0IlILX9uhm4821ZGypci1upmtRjan02qBJQpz1eBlQf=w256?key=MzZ7vfEeMrsPY6ICm7VyMg",
                     "path": "images/139471dd335990ca5d30995663f5827f.png"
                 }
             },
             {
                 "text": "Roti dan Telur",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVD0t1oT0wOelIVMExUH8u-iA4IEKv4v01neeup6UJ6xZei_8yjh4bgwza49oAtTRDn_cUigcNsTMVrDpxGEaV54ik0Wq287KwkgpGch1ljtvsYBgTc9fUPh2fuLcdttVb2KTe_1K9OsrXaNRYtEYpnYpAl5WssbQq1mBY1KmbD8ac_7wpemPd4w5EegVpzZ-RV6n4ey3lmNcB8=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCZb0UFv2wFxpz5_7fpgBBQpCwtgXkgHqOtRlwPMoHrEJiYGv0Tp8YR6e6l9vcVRsV5opZpvTa_rZI_XGrKIhBhP9N3qyom-mPdzGmAHTw9ZeaPDMwB_A45b6JPaciWagkEM0khgIvwde2Zhqrn_qi8CNkXEbpMz6QF1lIdUKBxGVxHbvpwb1oFrvthQlwYu1xtmPKcC52qGHM=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
                     "path": "images/7cda8a40c6ef9e83ef8bc0a0b7ead1ab.png"
                 }
             },
             {
                 "text": "Ramen",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDtuIaSpsshXwWmNy7APJEHOnEqcRttVAk8HG-sGM_FXA0nQpeGJTYE6M2b_sp7b04wP6k7IZtlUyYT3uFiD9tZrWQvNbgwHrYWVWdVTyhb9vWdQu1F0Az0wTgqfeqmQKku82xpvVtwoWwgywdjYvX_Zciid6YaiBCVWRU6s3NASgt2-YjvXWz5bhdDbu0pHn6wK72N3Ry_p7A4=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDaVTiJWYRtqe2NWUCXiNWGX_JCpU-EVy5DqJur2gdkElS-1uAKjfJzRkblpWyfA-ct_dh-bqduOyzfxafnj1eTVtcRp-e6x0r-AwETZT1ela1eubkGq0fQwLzqf2j-v_F80ZyLJG0wbmm6uhwP2Uki5-YGdwaPBdIB_yDRSvMX5FVP4bGfCbDH4Tebl_3q7-1eErBOURgeC2Cf=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
                     "path": "images/2020261b79022aaf9dc0a8039c405111.png"
                 }
             }
@@ -407,33 +433,35 @@
         "audio_url": "",
         "audio": "",
         "hash": "62e9bce49c866d84fc4b90e6d17912f9",
-        "created_at": "2026-05-18T13:29:27.947115"
+        "created_at": "2026-05-18T14:16:02.050481"
     },
     {
-        "question_id": "KAGI_13_1779085769",
+        "question_id": "KAGI_13_1779088563",
         "form_name": "KAGI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "5.\u00a0\nAda seorang wanita mengajar Disuruh melakukan apa",
+        "context": "",
         "choices": [
             {
                 "text": "Menulis dibuku",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBauVhXP0UBTE_reNiqcLV2E1Y8T7bSRS8y-jinceF6ge9mvHnVBHjSzBFGfD5RHlXitgEZ-rcithUqPYIgmLtC406h0cLAUugGYk0SciKeTNu8Eh04GHEVoLelTvS4wt5rCNpEM_cyr6NcQY7dqF0DqI617LZbswr8Q_cOu3DJah_CwGOJIr0wHUKWtmB6GHKMTNvbcbPxJBc=w193?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCWyqQxgP-oQxZSu5yxfo1RE908_6DFoqFpTqw7hv0t1wZW5MCVbzeBrYqJg8n7Ss2mz90wCA-dxwbvGduZRxOyU-IQrYmzsZOFXFEljI7EQ-oIV4L2NqGJjijBHFF7-2wxYWjKmJoSdVwfotUOZP_puRZd0XgKuzrzcCGn14ekkVZqdxlDbIKOuBCAE1LFeKvwEiWKlInydbc=w193?key=MzZ7vfEeMrsPY6ICm7VyMg",
                     "path": "images/a25059144d5923e99b6b2a1b3a045c18.png"
                 }
             },
             {
                 "text": "Menulis dipapan tulis",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAHhVMWCtaITR-DtLal2yATZkOQezsZefIpUjwr_wq61ALc3Hx26vJgq7sHEuFqpbPG5fiWwcnSo99XtDdv5RjkNFW_wqKCWIC2_TQaO-sonf0SvklPX7COxNx8sGM1t_p2t7gIlA2PpvVMjlykuN7BnEhVToSG94kpEBj72NymH0KC1VB9TA8Dc5HzfH0muRtsKyTkT5OcXm0o=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBXzTUBdQXajoOH24IPGT_1JprznapAX6EntDnwy_jucX0JKsMdlzh_gF8DLRamy73RHnuNsEa5U6kz38M2IYsG9swcUmBxwpKIyucZdQxgC5zJi5FEZ34rTxPdT1XCw4wMHh_M5_XTfkx_YpncPrf7BSl5EfF-ZX0aZUfMDZLUVIrjeKxmiDEUJ-crAjjsyDKnhD4uE40jd6Rk=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
                     "path": "images/e33f33a74c74eb2a15e9e848298dd0a3.png"
                 }
             },
             {
                 "text": "Memegang telinga/mendengarkan",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA_CKcaXRu1MNUrvs2GtRNGtqbqu2zbB_p0_XHWnNVgcZmSxUt3Zcv4bJzThxJWjNSzVFI_zJPZvppTRfjTes3V9GPAwD8KOo-kbXz7yC5cjHshhWy2oD_tVIbTUCiNIBmPbcB-zG_6Z23B0krE3ewINUpjByno_j-IbSQ8yKTZM_xlfcxYTvEfcXXSu_k0CcXfrNIuSH4SwZIF=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDeQy6NfDbikHZC3Rm08wFO_MppM_KHNUDjjg0Usm8-kMmacExyFBgQriKVNO_nxOx-Mn4dvdflLL51CFQsmPxaAtz_4wPRV6yHqSdhRSt_z1wLTu-FHwTnj3e-_ZsoJ7KzwjLsTlI6L8Fse-mDIG1kGStDAkih6hieTo2z1svQk2eTGGmixIWZ4Sdwcrm4sUjqEwd0PDebC5p7=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
                     "path": "images/76c270792c1129c86daef764f98e254c.png"
                 }
             }
@@ -442,14 +470,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "eec0cb7407744643179386eefb10c929",
-        "created_at": "2026-05-18T13:29:29.343163"
+        "created_at": "2026-05-18T14:16:03.735020"
     },
     {
-        "question_id": "KAGI_14_1779085769",
+        "question_id": "KAGI_14_1779088564",
         "form_name": "KAGI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "6.\u00a0\nPercakapan telepon bahas cuaca) Apa cuaca hari ini",
+        "context": "",
         "choices": [
             {
                 "text": "\u306f\u308c (Cerah, ditunjukkan dengan gambar matahari)",
@@ -468,19 +498,21 @@
         "audio_url": "",
         "audio": "",
         "hash": "37fa248b32ef6e31acb215f57127ab38",
-        "created_at": "2026-05-18T13:29:29.702354"
+        "created_at": "2026-05-18T14:16:04.095734"
     },
     {
-        "question_id": "KAGI_15_1779085770",
+        "question_id": "KAGI_15_1779088565",
         "form_name": "KAGI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "7.\u00a0\nPercakapan menanyakan hobi) Apa hobi laki laki",
+        "context": "",
         "choices": [
             {
                 "text": "Gambar seseorang sedang melakukan tenis",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAgUYMvyx7EkJch_qmfoDairpNkfSU2scMo04IPtylZ2_kHWMa5kb9bp0qSLPL4vAQ7FL8kaFpLBljW0HtrMwj7jIT013CW792Owwn48IHcc5aQK98IDBsUZU7iHlr38iawaN7mzGslPbJbPJl2I6cdEFLhi2fjBdBkk_b3yt9MH1YZ8klBPYnKIZd6vumvPwvvSGT9ziu8q7s=w207?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB_GyZuJLxjvAEXuIIqDRO50gTQ4PynE8xqpfXU2T8qSKZ_cS0CAk46kilbaOJ-60ARN_UUNBr_EWado6ALegGsoSOXpWhuQru10acnzEPt_IquIwljUz6x74Rmj6bkZiTHNapJv7tn13Dllzm9QH55ypWR8R_hjzqvh8O0xgTTBdxYb02gXuItsNyqaVJi705VVKDrcGRlKI4=w207?key=MzZ7vfEeMrsPY6ICm7VyMg",
                     "path": "images/c1682df1fff10c0ecd4e6b7990b345f7.png"
                 }
             },
@@ -494,7 +526,7 @@
             {
                 "text": "Gambar seseorang sedang melakukan berenang",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDaxp9veTa1UZy37Qz3J4FRdMpmyhAN489T0u3IUj8nvBP9hrz0im54-fj1QQxpRC53roLk9ajHFBEKP5XUuXrvIUCsSOyUDuMO3ZyTAKbqZWypKmL7pOOmzIIZg5xBWRiAw0TVdMWxTslCJO9ADX1wMZWbPZ8hc7oyFyDrsT32z0MrUso5gGtgkiFJjin2rEmfnHP1sYCJ_GU=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVArnfy1J9N7Xz_bLgNeEMJe4vxqqNb-nE4cGr0jkHDT8DZW2j_IbCxdLEV3zNqw6BTL3Wm-jYK4gJMhfZUyaNFZJMBjxAZz2sAKjPbdTRqmV9mYCvJ5LOwQgJNmCxH-dAFNpccqPwZMkRM1XbCVZGPQltkdp37IXnKVR7rX-ryoiCIA54Dr8gap8tU-pJBPPv9n9pPuqFKWAPw=w260?key=MzZ7vfEeMrsPY6ICm7VyMg",
                     "path": "images/a570fa7a6afb58beb68bca5fee328a34.png"
                 }
             }
@@ -503,14 +535,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "e93c1cd8b270f07d2e77265fce3f4dcc",
-        "created_at": "2026-05-18T13:29:30.791825"
+        "created_at": "2026-05-18T14:16:05.521285"
     },
     {
-        "question_id": "KAGI_16_1779085771",
+        "question_id": "KAGI_16_1779088565",
         "form_name": "KAGI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "8.\nKapan libur musim panas dimulai?",
+        "context": "",
         "choices": [
             {
                 "text": "5\u670830\u65e5",
@@ -529,14 +563,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "85b4485179d6b498ee0764bb3102df32",
-        "created_at": "2026-05-18T13:29:31.133644"
+        "created_at": "2026-05-18T14:16:05.889618"
     },
     {
-        "question_id": "KAGI_17_1779085771",
+        "question_id": "KAGI_17_1779088566",
         "form_name": "KAGI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "9.\u00a0\nDiadakan dimana",
+        "context": "",
         "choices": [
             {
                 "text": "Ditunjukkan dengan gambar stasiun yang memiliki kuil Shinto di sekitarnya.",
@@ -555,14 +591,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "a58029ace0d086cdd76c66c9228cac0b",
-        "created_at": "2026-05-18T13:29:31.501044"
+        "created_at": "2026-05-18T14:16:06.246438"
     },
     {
-        "question_id": "KAGI_18_1779085771",
+        "question_id": "KAGI_18_1779088566",
         "form_name": "KAGI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "10.\nBerapa minggu batas waktu peminjaman buku?",
+        "context": "",
         "choices": [
             {
                 "text": "2\u3057\u3085\u3046\u304b\u3093 \u9031\u9593",
@@ -581,14 +619,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "e439417fda029aea33662d76bb8dc92b",
-        "created_at": "2026-05-18T13:29:31.870439"
+        "created_at": "2026-05-18T14:16:06.606841"
     },
     {
-        "question_id": "KAGI_19_1779085772",
+        "question_id": "KAGI_19_1779088566",
         "form_name": "KAGI",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "11.\u00a0\nDitanya kalau sabtu toko buka sampai jam berapa",
+        "context": "",
         "choices": [
             {
                 "text": "1:30",
@@ -607,6 +647,6 @@
         "audio_url": "",
         "audio": "",
         "hash": "b9c71fbe8de7923f42d695772445ee88",
-        "created_at": "2026-05-18T13:29:32.232084"
+        "created_at": "2026-05-18T14:16:06.969590"
     }
 ]

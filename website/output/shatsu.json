@@ -1,10 +1,12 @@
 [
     {
-        "question_id": "SHATSU_0_1779084954",
+        "question_id": "SHATSU_0_1779087685",
         "form_name": "SHATSU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "image_only",
         "question": "1.",
+        "context": "",
         "choices": [
             {
                 "text": "\u4f11\u61a9 (\u304d\u3085\u3046\u3051\u3044)\u3057\u3066\u3044\u307e\u3059",
@@ -21,7 +23,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVC3RQbTts_a4oUZtzNCpqE5_LhRz-4lzXoqylCVLgrbXrIdVpdk2xJkSmMt_sIbFMQ2X6kfoGVVYjHn9oPSdPvKVi_N4GarzLHjJys4t2Z-z_bsFXpovemfm-QKnuuUnhmSqA3QP2YZEdOCIAeKM1dfGcgBqweJHfg1UwbWbNFeMolfSRLlwz6EI5f9qcnBcpKE4InS-OzKXGsH=w547?key=hx55_DCq0RN-JHjXN-CkkA",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAAocnFJVq1_FTqPBdoOneIO3hkWmVncszBI5xQgzmKgmDmyaa1bpq19tZQqKYmJXQGjbQ9R4ZY7WruulupuDNERZhh8JYZnukgmRbecVkVfRFYLIzOa7zkVqf1qt44kE-qcXsnN6LTQ9iBolGBSAlMXLg15-iz03eP4zj-qWR-DStMtS857VujaxtnlAUqx1Wf3KFddWQqPW2k=w547?key=hx55_DCq0RN-JHjXN-CkkA",
                 "path": "images/7d50a21382f955b3a2fabc83ed8c7b85.png",
                 "index": 0
             }
@@ -29,14 +31,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "73cd0626e126f491ad5cfc6769c288e7",
-        "created_at": "2026-05-18T13:15:54.824243"
+        "created_at": "2026-05-18T14:01:25.045025"
     },
     {
-        "question_id": "SHATSU_1_1779084955",
+        "question_id": "SHATSU_1_1779087688",
         "form_name": "SHATSU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "image_only",
         "question": "2.",
+        "context": "",
         "choices": [
             {
                 "text": "\u304b\u3069",
@@ -61,15 +65,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "4f4a687e529e84bfb019edf536fafdae",
-        "created_at": "2026-05-18T13:15:55.641265",
+        "created_at": "2026-05-18T14:01:28.210198",
         "correctAnswer": "\u307e\u3069"
     },
     {
-        "question_id": "SHATSU_2_1779084956",
+        "question_id": "SHATSU_2_1779087689",
         "form_name": "SHATSU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "image_only",
         "question": "3.",
+        "context": "",
         "choices": [
             {
                 "text": "\u3042\u3084\u308b",
@@ -86,7 +92,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCb53HOsgcvDWYQd0P-IggcZJ7mQQ1s73ujXsAWPSPjKe4bsXh43ZfwsSZIAzRBozvPLQOeIRy7dOKu1zobFLGnr-H_R8YnOcJnxpsrvMwz4uTL-8wHOMBQbnJimrqSdyYxk2rma3121UaoereL-SwOohQLMWME6OODZReKTVEWAmmZQ39dAQkWTijhxoR7Ct03DOTnhXx40Rwv=w408?key=hx55_DCq0RN-JHjXN-CkkA",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA43cFZtxpKQuRWOfXnzwZe-Kk6MANe3GtEj_S1mQ0uvadmlb5iZ2YNtGmqd1o7ZMzmWyNpeCjX6a0_AyrQlbKIA-w3UGPzUTyykrNDYxpmmkGj5U35L82u3VSERlVug809YeWs4O_-UYEmQzvi1qHwX2U1GmFTcbuE582NaVO9HuXQHN9Vhkr0ywaFS-R3wDxBUR9A_hvavppQ=w408?key=hx55_DCq0RN-JHjXN-CkkA",
                 "path": "images/f753176e9884daae0d8c08c070844710.png",
                 "index": 0
             }
@@ -94,15 +100,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "b3d3bc9078993cbe0c5477a22b028af4",
-        "created_at": "2026-05-18T13:15:56.588022",
+        "created_at": "2026-05-18T14:01:29.236105",
         "correctAnswer": "\u3042\u3084\u307e\u308b"
     },
     {
-        "question_id": "SHATSU_3_1779084956",
+        "question_id": "SHATSU_3_1779087689",
         "form_name": "SHATSU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "\uff14\uff0e\u30b9\u30fc\u30d1\u30fc\u3078__________\u306b\u884c\u304d\u307e\u3057\u305f",
+        "context": "",
         "choices": [
             {
                 "text": "\u305f\u304b\u3044",
@@ -121,15 +129,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "f212911275c2efc647579b4c3dd55ac6",
-        "created_at": "2026-05-18T13:15:56.932707",
+        "created_at": "2026-05-18T14:01:29.596599",
         "correctAnswer": "\u304b\u3044\u3082\u306e"
     },
     {
-        "question_id": "SHATSU_4_1779084957",
+        "question_id": "SHATSU_4_1779087689",
         "form_name": "SHATSU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "5. \u3057\u3087\u308b\u3044\u306f\u3064\u304f\u3048\u306e\u4e0a\u306b__________",
+        "context": "",
         "choices": [
             {
                 "text": "\u304a\u304d\u307e\u3057\u305f",
@@ -148,14 +158,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "a291a586c5794d9fa252a69d6f97380e",
-        "created_at": "2026-05-18T13:15:57.302481"
+        "created_at": "2026-05-18T14:01:29.959437"
     },
     {
-        "question_id": "SHATSU_5_1779084957",
+        "question_id": "SHATSU_5_1779087690",
         "form_name": "SHATSU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "6. \u30c6\u30ec\u30d3\u306e\u97f3\u304c__________\u306e\u3067\u3001\u5bdd\u3089\u308c\u307e\u305b\u3093",
+        "context": "",
         "choices": [
             {
                 "text": "\u3046\u308b\u3055\u3044",
@@ -174,15 +186,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "668a41cd6de6bc9a410952355b3c5745",
-        "created_at": "2026-05-18T13:15:57.669432",
+        "created_at": "2026-05-18T14:01:30.327768",
         "correctAnswer": "\u3046\u308b\u3055\u3044"
     },
     {
-        "question_id": "SHATSU_6_1779084958",
+        "question_id": "SHATSU_6_1779087690",
         "form_name": "SHATSU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "7. \u3053\u306e\u307e\u3061\u3067\u9ad8\u3044\u30d3\u30eb\u304c\u305f\u304f\u3055\u3093\u3042\u308a\u307e\u3059\u306d",
+        "context": "",
         "choices": [
             {
                 "text": "\u306a\u304c\u3044",
@@ -201,15 +215,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "cb45511a307541033e71a320642a34ea",
-        "created_at": "2026-05-18T13:15:58.038617",
+        "created_at": "2026-05-18T14:01:30.705154",
         "correctAnswer": "\u305f\u304b\u3044"
     },
     {
-        "question_id": "SHATSU_7_1779084958",
+        "question_id": "SHATSU_7_1779087691",
         "form_name": "SHATSU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "8. \u6bce\u65e5\u3001\u3046\u3061\u3067(.\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 )\u3057\u306a\u3051\u308c\u3070\u306a\u308a\u307e\u305b\u3093",
+        "context": "",
         "choices": [
             {
                 "text": "\u3079\u3093\u304d\u3087\u3046",
@@ -228,15 +244,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "62289169b8c231149bf7f7a18dd2a51d",
-        "created_at": "2026-05-18T13:15:58.399704",
+        "created_at": "2026-05-18T14:01:31.060712",
         "correctAnswer": "\u3079\u3093\u304d\u3087\u3046"
     },
     {
-        "question_id": "SHATSU_8_1779084958",
+        "question_id": "SHATSU_8_1779087691",
         "form_name": "SHATSU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "9. \u660e\u65e5\u3001\u65e5\u672c\u8a9e\u306e(\u00a0 \u00a0 \u00a0 \u00a0 )\u304c\u3042\u308a\u307e\u3059\u3088",
+        "context": "",
         "choices": [
             {
                 "text": "\u3058\u304b\u3093",
@@ -255,15 +273,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "9511b27412bc0ebf135ea145bf8dde03",
-        "created_at": "2026-05-18T13:15:58.779303",
-        "correctAnswer": "\u3057\u3051\u3093"
+        "created_at": "2026-05-18T14:01:31.424722"
     },
     {
-        "question_id": "SHATSU_9_1779084959",
+        "question_id": "SHATSU_9_1779087691",
         "form_name": "SHATSU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "10. \u3078\u3084\u3067\u4e00\u4eba\u3067\u97f3\u697d\u3092\uff08\u3000\u3000\u3000\uff09",
+        "context": "",
         "choices": [
             {
                 "text": "\u805e\u304d\u307e\u3059",
@@ -282,15 +301,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "0096a13585789c1a521377f5168a64db",
-        "created_at": "2026-05-18T13:15:59.134869",
+        "created_at": "2026-05-18T14:01:31.792992",
         "correctAnswer": "\u805e\u304d\u307e\u3059"
     },
     {
-        "question_id": "SHATSU_10_1779084959",
+        "question_id": "SHATSU_10_1779087692",
         "form_name": "SHATSU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "11. \u671d\u304b\u3089\u3064\u3081\u305f\u3044\uff08\u3000\u3000\u3000\u3000\uff09\u304c\u3075\u3044\u3066\u3044\u307e\u3059",
+        "context": "",
         "choices": [
             {
                 "text": "\u98b1",
@@ -309,14 +330,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "bdd8edb12dfb50e0847f5fa7e9fb468c",
-        "created_at": "2026-05-18T13:15:59.503781"
+        "created_at": "2026-05-18T14:01:32.160888",
+        "correctAnswer": "\u98a8"
     },
     {
-        "question_id": "SHATSU_11_1779084959",
+        "question_id": "SHATSU_11_1779087692",
         "form_name": "SHATSU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "12. \u304a\u9152\u3092\u98f2\u3093\u3060\u3042\u3068\u3001\u8eca\u3092\uff08\u3000\u3000\u3000\u3000\uff09\u3057\u3066.\u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u306f\u3044\u3051\u307e\u305b\u3093",
+        "context": "",
         "choices": [
             {
                 "text": "\u904b\u8ee2",
@@ -335,14 +359,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "eef0e69149a2534a8b1a7b4340ea3a5e",
-        "created_at": "2026-05-18T13:15:59.867553"
+        "created_at": "2026-05-18T14:01:32.527025",
+        "correctAnswer": "\u904b\u8ee2"
     },
     {
-        "question_id": "SHATSU_12_1779084960",
+        "question_id": "SHATSU_12_1779087693",
         "form_name": "SHATSU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "image_only",
         "question": "13.",
+        "context": "",
         "choices": [
             {
                 "text": "\u30b7\u30e3\u30c4",
@@ -359,7 +386,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCW5tn0MygXp8HCXmybd9N7LBeIo7SbXWgPjtOnuojLHhx1h2ZW74ujnO9fjyCSL5iZ7Dog0aOcDQEy3QDkDDJgo4x40u-GyOnBO-WT-nCcgx0B4mahEooEcYyofo2D2RiiVxXrdniMc5S_jCDTiY41UMgTo7tZA8vhSArtfLAwZzLLhdlK3ffKbz2ocwEOAzYzwa-cFZiK8WwG=w233?key=hx55_DCq0RN-JHjXN-CkkA",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCQOYslKPmXlmbB-NZm15KhZLmBqQ2wIkmpGYR8dLnhj5NhqopaFMreyHgz-V_n4c-9Upelaa14tdx-MCAhlknqFET6qB08MEo3ftBaQzfncLnS8BIX-ZkFl7CB39s8R-nSJN2YrPEiUZhQtcBlHeAH3FQBr9Rn7DdLEQJWhqQ8kXpbgTUZR05WMli_nYFwg7eGENWA7b7UCrGe=w233?key=hx55_DCq0RN-JHjXN-CkkA",
                 "path": "images/db78a975145f73f7400d5c3785be1d62.png",
                 "index": 0
             }
@@ -367,15 +394,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "6cf50172b0daf580987b77fd6e1e47fb",
-        "created_at": "2026-05-18T13:16:00.483905",
+        "created_at": "2026-05-18T14:01:33.191365",
         "correctAnswer": "\u30b7\u30e3\u30c4"
     },
     {
-        "question_id": "SHATSU_13_1779084961",
+        "question_id": "SHATSU_13_1779087696",
         "form_name": "SHATSU",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "image_only",
         "question": "14.",
+        "context": "",
         "choices": [
             {
                 "text": "\u925b\u7b46  \u3048\u3093\u3074\u3064",
@@ -400,14 +429,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "c5e01e5c95bb9c73b3be5733181707c4",
-        "created_at": "2026-05-18T13:16:01.090294"
+        "created_at": "2026-05-18T14:01:36.065987",
+        "correctAnswer": "\u92cf \u306f\u3055\u307f"
     },
     {
-        "question_id": "SHATSU_14_1779084971",
+        "question_id": "SHATSU_14_1779087706",
         "form_name": "SHATSU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_image",
         "question": "1.\u00a0\nA : \u30d9\u30b8\u30bf\u30ea\u30a2\u30f3\u306e\u30e1\u30cb\u30e5\u30fc\u304c__________\uff1f\u00a0\nB : \u306f\u3044\u3001\u3053\u3061\u3089\u3078\u3069\u3046\u305e\nA : \u3069\u3046\u3082",
+        "context": "",
         "choices": [
             {
                 "text": "\u3044\u307e\u3059",
@@ -424,7 +456,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBBMQhywS2CGWD1gP6uv1oYUbytBu4EsimJNMxbTKigHLpZWT1lFQklLQPtWKjKtx29UvIZeDfnywHVOWmE5gfXP2LumWC8I4gbCsY8REHHEnVNJ2Z2KCP2pd_fQlF5J41PE73lpTjgC5th7z-mx6L7XZjoKc9_vfsC-9a1a_ttL_YxpSbMsKEuJz5qWrGMLQBl6mdF2OSspuA=w382?key=hx55_DCq0RN-JHjXN-CkkA",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAWj6glUJhCDcZGRCpFLuv-g5Rvlw6oZ2f6lBmSkrFpdPJOMJ4D3GnzrCMONUOII4w_Xf4gg8cI1vmAhOKTuiT49swJaw-xXdb857-0GQtO32Llrrc7o545fMHIcIH4ezYvoGdj3YQSYFO6DdbO8dkojj13gDXva0S8-B4rYEEeIb_YuByrW8RvXoCQF956FnuJ7AXxoQA9AQc=w382?key=hx55_DCq0RN-JHjXN-CkkA",
                 "path": "images/13897955a3ba07dd13eb4ee07015eff9.png",
                 "index": 0
             }
@@ -432,15 +464,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "c2d772feb6e06ae507a2a5c80754a413",
-        "created_at": "2026-05-18T13:16:11.585155",
+        "created_at": "2026-05-18T14:01:46.529067",
         "correctAnswer": "\u3042\u308a\u307e\u3059\u304b"
     },
     {
-        "question_id": "SHATSU_15_1779084972",
+        "question_id": "SHATSU_15_1779087707",
         "form_name": "SHATSU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_image",
         "question": "2.\u00a0\nA : \u65e5\u66dc\u65e5\u306b\u4f55\u3092\u3057\u307e\u3057\u305f\u304b\uff1f\nB : \u53cb\u3060\u3061\u3068\u306f\u306a\u3073\u3092\u898b\u306b\u884c\u304d\u307e\u3057\u305f\nA : \u3078\u3048\u3001\u3069\u3046\u3067\u3057\u305f\u304b\uff1f\nB : __________\u3002\u3067\u3082\u3001\u3061\u3087\u3063\u3068\u3064\u304b\u308c\u307e\u3057\u305f\u3002",
+        "context": "",
         "choices": [
             {
                 "text": "\u3088\u304b\u3063\u305f\u3067\u3059",
@@ -465,15 +499,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "6a26c502376aa2485c6f33a5b4a79989",
-        "created_at": "2026-05-18T13:16:12.609857",
+        "created_at": "2026-05-18T14:01:47.519514",
         "correctAnswer": "\u3088\u304b\u3063\u305f\u3067\u3059"
     },
     {
-        "question_id": "SHATSU_16_1779084972",
+        "question_id": "SHATSU_16_1779087707",
         "form_name": "SHATSU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "3. A : \u30e1\u30a4\u3055\u3093\u3001\u4e45\u3057\u3076\u308a\u3067\u3059\n\u00a0 \u00a0 B : \u305f\u306a\u304b\u3055\u3093\u3001\u4e45\u3057\u3076\u308a\u3067\u3059\n\u00a0 \u00a0 A : \u30e1\u30a4\u3055\u3093\u306f\u65e5\u672c\u306b__________\u3069\u306e\u304f\u3089\u3044\u00a0\n\u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u3067\u3059\u304b\uff1f\n\u00a0 \u00a0B : \uff13\u304b\u6708\u306b\u306a\u308a\u307e\u3059\n\u00a0 \u00a0A : \u305d\u3046\u3067\u3059\u304b\u3002\u306f\u3084\u3044\u3067\u3059\u306d",
+        "context": "",
         "choices": [
             {
                 "text": "\u6765\u3066",
@@ -492,15 +528,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "ff5233d47cf2967c71877ec07f50c6e6",
-        "created_at": "2026-05-18T13:16:12.976129",
+        "created_at": "2026-05-18T14:01:47.879898",
         "correctAnswer": "\u6765\u3066"
     },
     {
-        "question_id": "SHATSU_17_1779084973",
+        "question_id": "SHATSU_17_1779087708",
         "form_name": "SHATSU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "4. A : \u3053\u308c\u306f\u79c1\u304c\u6628\u65e5\u3064\u304f\u3063\u305f\u30b1\u30fc\u30ad\u3067\u3059\u3002\n\u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u3069\u3046\u305e\n\u00a0 \u00a0 B : \u3048\u3048\u3002_____________\u30b1\u30fc\u30ad\u3067\u3059\u306d\u00a0\n\u00a0 \u00a0 A : \u30d0\u30ca\u30ca\u3068\u30c1\u30e7\u30b3\u30ec\u30fc\u30c8\u304c\u306f\u3044\u3063\u3066\u3044\u307e\u3059\n\u00a0 \u00a0 B : \u3058\u3083\u3042\u3001\u3044\u305f\u3060\u304d\u307e\u3059",
+        "context": "",
         "choices": [
             {
                 "text": "\u304a\u3044\u3057",
@@ -519,14 +557,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "fb7c4137df574ed0c7617e352bf37998",
-        "created_at": "2026-05-18T13:16:13.334469"
+        "created_at": "2026-05-18T14:01:48.242977"
     },
     {
-        "question_id": "SHATSU_18_1779084973",
+        "question_id": "SHATSU_18_1779087708",
         "form_name": "SHATSU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "5. A : \u3059\u307f\u307e\u305b\u3093\u3001\u30a4\u30d9\u30f3\u30c8\u306e\u4f1a\u5834\u306f\n\u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u3069\u3053\u3067\u3059\u304b\uff1f\n\u00a0 \u00a0 B : \u3042\u306e\u304b\u3069\u3092\u307e\u304c\u3063\u3066\u304f\u3060\u3055\u3044\n\u00a0 \u00a0 A : \u5206\u304b\u308a\u307e\u3057\u305f\u3002\n\u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u30ab\u30e9\u30aa\u30b1\u5927\u4f1a\u306f\u307e\u3060_____________\u00a0\n\u00a0 \u00a0 B : \u3048\u3048\u30014\u6642\u307e\u3067\u3067\u3059\u304b\u3089\u3001\n\u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u3060\u3044\u3058\u3087\u3046\u3076\u3067\u3059\u3088\n\u00a0 \u00a0 A : \u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059",
+        "context": "",
         "choices": [
             {
                 "text": "\u3084\u3063\u3066\u3044\u307e\u3059\u304b",
@@ -545,14 +585,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "18c95eac834d91e78c29c299078fc504",
-        "created_at": "2026-05-18T13:16:13.700415"
+        "created_at": "2026-05-18T14:01:48.607708",
+        "correctAnswer": "\u3084\u3063\u3066\u3044\u307e\u3059\u304b"
     },
     {
-        "question_id": "SHATSU_19_1779084974",
+        "question_id": "SHATSU_19_1779087708",
         "form_name": "SHATSU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "6\uff0eA : \u30de\u30a4\u30af\u3055\u3093\u306e\u304f\u306b\u3067\u306f\u3001\u98df\u3079\u308b\u524d\u306b\n\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u4f55\u304b\u3044\u3044\u307e\u3059\u304b\uff1f\n\u00a0 \u00a0 \u00a0 B : \u3044\u3044\u3048\u3002\u3067\u3082\u65e5\u672c\u3067\u306f \u300c \u3044\u305f\u3060\u304d\u307e\u3059\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u300d\n\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u3092__________\u3001\u98df\u4e8b\u3092\u306f\u3058\u3081\u307e\u3059\u3088\u306d\u3002\u00a0\n\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u4f55\u304b\u3044\u307f\u304c\u3042\u308b\u3093\u3067\u3059\u304b\uff1f\n\u00a0 \u00a0 \u00a0 A : \u3042\u3042\u3001\u3042\u308c\u306f\u3054\u98ef\u3092\u4f5c\u3063\u305f\u4eba\u306b\u304b\u3093\u3057\u3083\n\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u3059\u308b\u3053\u3068\u3070\u306a\u3093\u3067\u3059\u3002\n\u00a0 \u00a0 \u00a0 B : \u305d\u3046\u306a\u3093\u3067\u3059\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "\u601d\u3063\u3066\u304b\u3089",
@@ -571,15 +614,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "c0df2d1e0553910a06b135dc2f7437d9",
-        "created_at": "2026-05-18T13:16:14.064494",
+        "created_at": "2026-05-18T14:01:48.977046",
         "correctAnswer": "\u8a00\u3063\u3066\u304b\u3089"
     },
     {
-        "question_id": "SHATSU_20_1779084975",
+        "question_id": "SHATSU_20_1779087709",
         "form_name": "SHATSU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_image",
         "question": "7.A : \u3053\u3093\u306b\u3061\u306f\n\u00a0 \u00a0B : \u30ad\u30e0\u3055\u3093\u3001_____________",
+        "context": "",
         "choices": [
             {
                 "text": "\u3044\u3089\u3063\u3057\u3083\u3044",
@@ -596,7 +641,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDVe49kC-13pr0U-AsmsN3FE4sJoHzkwWL-onv1i_scpIz9DfDnPfuyKO9ttfeu3GwbRyQ9Amp6sZ-7Usc_GuuUZwQ2yzSdVaR9J_27u-Db7mGyqsZSTeLIxdw2ezz29tehzU9cpw-TH4nbRetCyyca4cODLhjMtDnuu6q1QLv9ELdBsOmSbMiVZE7myLq4TXcuUYfW3ckRKpQ=w407?key=hx55_DCq0RN-JHjXN-CkkA",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAb5MCDiv0XQ4ngBao7OX3E8U6c_bMs-qyyt7AN9PE94JEH-5rrSH_7I8G0jgGhAc6ChA1J85k33mfMj2Ax58VniZFldagpttWbQDNv_hW6h5ruUO3iJEX258NIrainTb9aYy7jKdxN4EUK3bosYSoLrv1krDTAQkpncroh_iQNdmyTWmdatTQMmrUHZpIYlr54-bf80T6FJBI=w407?key=hx55_DCq0RN-JHjXN-CkkA",
                 "path": "images/2cca6cc43ab1d280d4780734e8f0fb7e.png",
                 "index": 0
             }
@@ -604,15 +649,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "38b36952301f4d5018bc0d24a991131d",
-        "created_at": "2026-05-18T13:16:15.074015",
+        "created_at": "2026-05-18T14:01:49.999094",
         "correctAnswer": "\u3044\u3089\u3063\u3057\u3083\u3044"
     },
     {
-        "question_id": "SHATSU_21_1779084975",
+        "question_id": "SHATSU_21_1779087710",
         "form_name": "SHATSU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "8\uff0e\nA : \u4eca\u65e5\u306f_____________\u00a0\u00a0\nB : \u3044\u3044\u3048\u3044\u3044\u3048\u3001\u3060\u3044\u3058\u3087\u3046\u3076\u3067\u3059\u3088",
+        "context": "",
         "choices": [
             {
                 "text": "\u3069\u3044\u305f\u3057\u307e\u3057\u3066",
@@ -631,15 +678,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "c760c592a5bde1451d4d0de71e18448a",
-        "created_at": "2026-05-18T13:16:15.434025",
+        "created_at": "2026-05-18T14:01:50.362789",
         "correctAnswer": "\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f"
     },
     {
-        "question_id": "SHATSU_22_1779084975",
+        "question_id": "SHATSU_22_1779087710",
         "form_name": "SHATSU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "9\uff0eA : \u30ad\u30e0\u3055\u3093\u3001\u65e5\u672c\u8a9e\u304c\u3058\u3087\u3046\u305a\u3067\u3059\u306d\n\u00a0 \u00a0 \u00a0 B : _____________\u00a0\n\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u8aad\u3080\u306e\u306f\u306b\u304c\u3066\u306a\u3093\u3067\u3059\u3002\n\u00a0 \u00a0 \u00a0 A : \u3042\u3042\u3001\u304b\u3093\u3058\u304c\u305f\u304f\u3055\u3093\u3042\u308b\u304b\u3089\u306d",
+        "context": "",
         "choices": [
             {
                 "text": "\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059",
@@ -658,15 +707,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "4e353c1f6b623af5818ed51ae65a04cf",
-        "created_at": "2026-05-18T13:16:15.808273",
+        "created_at": "2026-05-18T14:01:50.725665",
         "correctAnswer": "\u307e\u3060\u307e\u3060\u3067\u3059"
     },
     {
-        "question_id": "SHATSU_23_1779084976",
+        "question_id": "SHATSU_23_1779087711",
         "form_name": "SHATSU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "10\uff0e\nA : \u3084\u307e\u3060\u3055\u3093\u3001\u3069\u3046\u3057\u307e\u3057\u305f\u304b\uff1f\nB : \u6628\u65e5\u304b\u3089\u3001\u306e\u3069\u304c\u3044\u305f\u3044\u3067\u3059\u3002\nA : _____________\u00a0\u3042\u305f\u305f\u304b\u3044\u304a\u8336\u3092\u98f2\u3093\u3060\n\u00a0 \u00a0 \u00a0\u307b\u3046\u304c\u3044\u3044\u3067\u3059\u3088",
+        "context": "",
         "choices": [
             {
                 "text": "\u305d\u308c\u306f\u3044\u3051\u307e\u305b\u3093\u306d",
@@ -685,14 +736,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "7f948e3cf169f26dfabccee7493fcbbc",
-        "created_at": "2026-05-18T13:16:16.166536"
+        "created_at": "2026-05-18T14:01:51.092786"
     },
     {
-        "question_id": "SHATSU_24_1779084976",
+        "question_id": "SHATSU_24_1779087711",
         "form_name": "SHATSU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "11\uff0eA : \u3059\u307f\u307e\u305b\u3093\u3001\u304a\u306d\u304c\u3044\u3053\u3068\u304c\u3042\u308b\u3093\u3067.\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u3059\n\u00a0 \u00a0 \u00a0 \u00a0 B : \u306f\u3044\u3001\u306a\u3093\u3067\u3059\u304b\uff1f\n\u00a0 \u00a0 \u00a0 \u00a0 A : \u65e5\u66dc\u65e5\u306b\u3001\u30b9\u30de\u30db\u3092\u8cb7\u3044\u305f\u3044\u3093\u3067\u3059\u3002\n\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u4e00\u7dd2\u306b\u8cb7\u3044\u306b\u3044\u3063\u3066\u304f\u308c\u307e\u305b\u3093\u304b\uff1f\n\u00a0 \u00a0 \u00a0 \u00a0 B : \u306f\u3044\u3001\u3060\u3044\u3058\u3087\u3046\u3076\u3067\u3059\u3002\n\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u65e5\u66dc\u65e5\u306f\u3072\u307e\u306a\u306e\u3067\u3002\n\u00a0 \u00a0 \u00a0 \u00a0A : \u307b\u3093\u3068\u3046\u3067\u3059\u304b\u3002_____________",
+        "context": "",
         "choices": [
             {
                 "text": "\u305f\u3059\u3051\u307e\u3059",
@@ -711,15 +764,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "3387afb7c98e8164b44d2ebf374d480e",
-        "created_at": "2026-05-18T13:16:16.533331",
-        "correctAnswer": "\u305f\u3059\u304b\u308a\u307e\u3059"
+        "created_at": "2026-05-18T14:01:51.458538"
     },
     {
-        "question_id": "SHATSU_25_1779084976",
+        "question_id": "SHATSU_25_1779087711",
         "form_name": "SHATSU",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "12\uff0eA : \u307f\u3069\u308a\u753a\u306f\u304f\u3076\u3064\u304b\u3093\u3078\u884c\u3063\u305f\n\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u3053\u3068\u304c\u3042\u308a\u307e\u3059\u304b\uff1f\n\u00a0 \u00a0 \u00a0 \u00a0 B : \u307e\u3060\u3067\u3059\u3002\u3067\u3082\u884c\u304d\u305f\u3044\u3068\u601d\u3044\u307e\u3059\n\u00a0 \u00a0 \u00a0 \u00a0 A : \u308c\u304d\u3057\u3084\u3001\u753a\u306e\u6587\u5316\u304c\u5206\u304b\u3063\u3066\u3001\n\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u304a\u3082\u3057\u308d\u3044\u3067\u3059\u3088\u3002\n\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 _____________\u3001\u6848\u5185\u3057\u307e\u3057\u3087\u3046\u304b\uff1f\u00a0\n\u00a0 \u00a0 \u00a0 \u00a0B : \u307b\u3093\u3068\u3046\u3067\u3059\u304b\u3002\u306f\u3044\u3001\u305c\u3072\u884c\u304d\u305f\u3044.\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u3067\u3059",
+        "context": "",
         "choices": [
             {
                 "text": "\u3088\u3053\u306a\u3089",
@@ -738,15 +792,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "063c3a25183b107442cda2b75445b0dc",
-        "created_at": "2026-05-18T13:16:16.899081",
+        "created_at": "2026-05-18T14:01:51.823845",
         "correctAnswer": "\u3088\u304b\u3063\u305f\u3089"
     },
     {
-        "question_id": "SHATSU_26_1779084988",
+        "question_id": "SHATSU_26_1779087723",
         "form_name": "SHATSU",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "1.\u00a0Audio\nAdik laki lakinya umur berapa ?",
+        "context": "",
         "choices": [
             {
                 "text": "\uff117\u3055\u3044\u3067\u3059",
@@ -765,33 +821,36 @@
         "audio_url": "https://drive.google.com/file/d/1epKipvgQs9jSgI6uUIGb0XEPx6mhLuyv/view?usp=drive_link",
         "audio": "audio/60b5f142ee1069120e4a644dbe7677fc.mp3",
         "hash": "d307b586e507278a255935a0f2ed5b93",
-        "created_at": "2026-05-18T13:16:28.874944"
+        "created_at": "2026-05-18T14:02:03.758073",
+        "correctAnswer": "\uff11\uff18\u3055\u3044\u3067\u3059"
     },
     {
-        "question_id": "SHATSU_27_1779084993",
+        "question_id": "SHATSU_27_1779087728",
         "form_name": "SHATSU",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "2.\u00a0Audio\nApa yang akan diberikan kepada saudara ogawa?",
+        "context": "",
         "choices": [
             {
                 "text": "\u304a\u3082\u3061\u3083",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB4EzHGJsrjZB6d00W0IDJ33j57FhvW_HzbYUAcoqAdbbQbFR57BTq0iKEiIxGGdIeIpOLyIEAhNij1J5ksX1hQ8rkxFkpREcxlmHbfrKn120Xulbv8VLsmUV52FnLRyNX27S29yuTMoyklcyDaaXlt7A9js91uQSkBPpoO_ep3YLlp1wxhbO9iILsC4QAQ1XH1RGlb_O-9NNgQ=w260?key=hx55_DCq0RN-JHjXN-CkkA",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAUcmQfMmVhnuu8yYiERRxGpeZUMUWPEDEUGwZY_98xpftAGVxk12ZdeYKJ670v_CrFODttjLW8maGntpbniyCs7nclOFuwxACrG86MWUCfn62URLoXztTC2lUaUAGX9aFGbcObkYQINEpFrAa1EYEXA8KT5-nyoYLrfm7daYIrrsPq1yFHYnW8VkoWNSHF_LfvbyvypPN-okGl=w260?key=hx55_DCq0RN-JHjXN-CkkA",
                     "path": "images/3099c03737fdcd799a13b173dfd8473e.png"
                 }
             },
             {
                 "text": "Opsi 2",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA806GdZvODWmISMEIrWN9Mr6-dvJseVXlYjc4Ui75NZ3MXDEYnSOGqU2QjpwPHzU-G6cdxAmTOJWPDiYTfGTXT3RYM5H-lxceEiHHWM6c8-3dNmM-wHygZK5RKXhem90J1q4fckaB-JbBTK4m992RWvjqPGPgnEUER8lqIdGl41tfYeBBPSbaa04DIhaK0Hr-0tRc0FCMqKsHh=w260?key=hx55_DCq0RN-JHjXN-CkkA",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCsbx3pOE1EFAATHv-3D1Uu9BXKkLBuOVvbtigbYngvLegGr8M79bfOt9BwkSjfDNP99V2BbALAmAJo24oFX2vtgR89Xq56Ejem6_-OfNxQbASR8OHssihP-QILNyyrwQrYJyQBEuJaksMazOVxVy5xwYrAzKqizZx01xDipmT96CSPqxT6uQmR5Nru64LTOewPHaTmrcJQfyz1=w260?key=hx55_DCq0RN-JHjXN-CkkA",
                     "path": "images/8b33cf9e0ca4bddfb5a6af1da1dada46.png"
                 }
             },
             {
                 "text": "Opsi 3",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA9tohGzXHZ-mRQI5rpykDDfBvHbpA9AW6YFBnjgHfVAJZ-rBT0NSUDbQ8garYRH9Ah2v9pugznVtLlIMQ7zUxPCMTYLX4C_Bn8s4fKL4YJAL0aksxKFJZ0Hf8gWFCSiHqjEZtkMiKbiMGyX4A00gZkSfty4DHUp9y114dIb3zg-ZNm7SdYPQPoix_JfK6SbpNPxJQLpMF03iTh=w260?key=hx55_DCq0RN-JHjXN-CkkA",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAOpHkhYXGHB34ARVVezt0SMj_ue7TInZT7RzBVqtnaL8e9nsiV802O2Z0aHAF12G7NOeQsq9ONP5rZkRrIZz58INgOZ8CtH2gYAztYyrwNlro8VfXgdDrwqoUQVlg_NwZFCzZnwt5tberz5uLLosVvIdLnKQIWsc2mky96BjIl4W_ACrrjPNVagHhGDEw6MCuTRiht2zgroMWe=w260?key=hx55_DCq0RN-JHjXN-CkkA",
                     "path": "images/a27c3af9503e4cbccf27c9bb33697a3b.png"
                 }
             }
@@ -800,33 +859,36 @@
         "audio_url": "https://drive.google.com/file/d/1Nv5qkGng-0SM3wkK8049qplYv6XLZ_9m/view?usp=drive_link",
         "audio": "audio/82d5805e037b94a8dfa4ffcf6809645a.mp3",
         "hash": "9398ce7a66046ad328477c3c09554897",
-        "created_at": "2026-05-18T13:16:33.382133"
+        "created_at": "2026-05-18T14:02:08.276050",
+        "correctAnswer": "\u304a\u3082\u3061\u3083"
     },
     {
-        "question_id": "SHATSU_28_1779084996",
+        "question_id": "SHATSU_28_1779087734",
         "form_name": "SHATSU",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "3.\u00a0Audio\nSaudara AN dimasa depan ingin melakukan apa ?",
+        "context": "",
         "choices": [
             {
                 "text": "\u89b3\u5149\u30ac\u30a4\u30c9",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAQ7LhkdXLWwPhU1e4gejEJVZlF-WbYy6509Bsfpyxpc6BSPoHz6Z_kChe57EKx7PXAP-NtVfL_Ceb3tZlw3xt_UH75y1Ca08yn_KT9q0PaLzxN49uz4yzrGFkkabbSwam9ohfJQONMux8yQ7b-kYsWjLbHGjLmoO0_KGIGQgWC6QX3F-K9gp0l7BQFv8NpY-WOKT4GubtgESAi=w260?key=hx55_DCq0RN-JHjXN-CkkA",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCZWpQ3GVVvcWI1keqHwNUd62htszeeZpLg1MSpcYhoFnZW8ulio2ra2yg-EtMieAjuGPBUdNLAFDlk0A2Vq2MJhNzqxP16ksHUb7Lk0bhnayiP4HQK32a2zCdVGDX4fMHC9zNGBQ8TPEwFTCydVIO-0abe0P0QN_FGzQlN79EMM_BMZvHAa_RnFOXZCndPbIXzQe9cAnKQzMJ6=w260?key=hx55_DCq0RN-JHjXN-CkkA",
                     "path": "images/fe9a6022c0433aa2da81ae3df427aad3.png"
                 }
             },
             {
                 "text": "\u88c1\u5224\u5b98",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCp3TMW4xdUxutmnk_4n0p6GP1rzU6TM0MrYVVA2vr9SsmVbiSJkQezPE2_YHQw6JtqEB8URmnwjkxRK9YjmUL3raL_FcTawa-qyh80o7byf4qoa77n7J5sovG_xlB4nuKez_VFNfoqJVJlPnSDiBNT7uQEoi7TLzX2GBIUUDyWN0a-zGWi948DawgiOwfOa_VZp076KFzuBsVE=w239?key=hx55_DCq0RN-JHjXN-CkkA",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBa99j6PT1HTl62h0AgfoKEE-gqQrlCVWZMqybA2ldSktXJb-kyVWCJZIAFEce3aMs4VTu7zKoAhL2yR0wat9ENfOIQM59nKVRU5DFgVF30f81brt-YbSWbd_SITmJUOAym3b27cTVS9XBd_uxanNy3gbsbHftVTTjh_AC4d7Lzk6JB1B83FAdXid-ajmEXD_oNuCWsxp7vL2t8=w239?key=hx55_DCq0RN-JHjXN-CkkA",
                     "path": "images/29d97f21254eb32fd9b0700e8f2036d8.png"
                 }
             },
             {
                 "text": "\u6d88\u9632\u58eb",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAWCXXtzI5mFrdrUTixt1H16G_4ZbfQ4TKVVwOmUJTbHfPBqw0yRHV0ztCeF-jolRwO92w2pk-DVjoXK9Og-Dc7hL0o7K5eBMSWuaktkKeqorB6n_JDQMA4DMqiowv_Dubk8gDfd1vE4CBbaMekCVWWiFA1Wrkgd1xcZljarh6efkybQJbNOW-rOlDGt2vbZiE1214gd7-TXDSH=w260?key=hx55_DCq0RN-JHjXN-CkkA",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDOlaV-MQdB7e0FJ4N0xDykEU6K3rfPhvAWg2xNtCQuKX7KOTdc0hXkm9cN2TWkutMtrQ5AmrqTFXtNz23aQNgeHFjw-DLtnwG6hULDW5yXutXcSyhUlJ8ngZWEqUtPejCMO-aGy8cAGlFy2IGzdzotcd3yOJvN-Rm0ByD1YgIbWwl8it-_F4rgUR-U8iuDjqqztgu0p9X7_BGC=w260?key=hx55_DCq0RN-JHjXN-CkkA",
                     "path": "images/c10f7effae00bc0a9a07084e389b618c.png"
                 }
             }
@@ -835,34 +897,36 @@
         "audio_url": "https://drive.google.com/file/d/1Rx7tEDAzFAVKh3UJfMR9n0EU8XmgrEbi/view?usp=drive_link",
         "audio": "audio/9f3da493d7acf60e6ba488143ea688b5.mp3",
         "hash": "dab3109afefa6a049ef8a5d4cca58453",
-        "created_at": "2026-05-18T13:16:36.936670",
+        "created_at": "2026-05-18T14:02:14.732374",
         "correctAnswer": "\u89b3\u5149\u30ac\u30a4\u30c9"
     },
     {
-        "question_id": "SHATSU_29_1779085001",
+        "question_id": "SHATSU_29_1779087739",
         "form_name": "SHATSU",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "4.\u00a0Audio\nATM nya disebelah mana?",
+        "context": "",
         "choices": [
             {
                 "text": "di gedung lantai 4",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVD4S5ndveMtfCI1N0atYfl0EjYFyXs9dPHr4Lkri0BNbX3Zq_q5JKDrOzuAxzW8_OX9oSLG0doRJZXm7Uv04vqBiwHpKru17UzQphHm1VkTlCrPBMB4IQWhyy_7YNfQcXX4iC1S0k0JOLHnW0sbo7MmMKPJHQKm7d4iPzMrDPVopEZBKS9ipS2jPEgxex95T0tAkArTxlICBsdM=w260?key=hx55_DCq0RN-JHjXN-CkkA",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAdPe53fJSQg1vb8X4MjQiTcwfSOVU85jUnm8iVBWlaaJfOCedv4sAes4SNtFGCizXGVbCayDIN5x5-J-fRtM9GnUBSRUmMr3U3eoj1Rt5I1U0AWnI70VcYDyMdlhtU5_BPlIXV4Fbk5iptAvaFaehFt480NukgQPZgvAlf9mqGij7LmwgqkbgDfWvnOV-gSd8NpGGhpKp6deT-=w260?key=hx55_DCq0RN-JHjXN-CkkA",
                     "path": "images/146f7455d531f2af05b2aab91a331972.png"
                 }
             },
             {
                 "text": "digedung lantai 3",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVChDYTTOOSHnRN8rcmrLoJSWl-n-zIqqnd-Z01WrPWPSq6tJWFYPyipbhy0GKgIF0RPl_p7cBlwKGwBLgu-4QMiK6BQKs1jX_QY2GNCEb4LUgPZastw5wxO5sIWfIlNPhXRKyHNyXRr0UqsJVaWPhvKmlKq--Wkk3NzVW2KWEQLStYVoBcDjjNXXwWr0Li34jN3ghMy4w6tQZ0w=w260?key=hx55_DCq0RN-JHjXN-CkkA",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCqJ8VvwwyALJ6f_7uzsANef4_MRrkmMxCUh6ccmJBUN4rEL5oSboORWCOINnzm8hujWegRWUpoCtjdwo1kd41yfaMOW7wNWw3y164QisnJgKRCXKiZNH400Yo6KHcnNMHcfI312YQ8wwKjB5-9EJPhVQrBmrfp9tmcUscWfZT9BdBD9FPw5V7hdmur0PXFoUCw9EcXeJV88gJL=w260?key=hx55_DCq0RN-JHjXN-CkkA",
                     "path": "images/593f92ba9fab984305d991010b1d3acd.png"
                 }
             },
             {
                 "text": "digedung lantai 2",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBU5Fgjh8sEWm2lZUxkzoXy2r1QBnSNazmqYfcjrjpMvUlPOZBFFS-0GKIbTzKBgCj3tujDWEI9BEfNa9JGcG-QLwS0hJJan7CWcZYTKSr0Kf4XaQb_bRV3qv7gS8crN71WqUNXIHjMP7j-2VWeYQNg7yxfapgpZmF96_Ue6lC0ktMjno19WMEgCcvpcMNokIxpqCIIO7CWaYer=w260?key=hx55_DCq0RN-JHjXN-CkkA",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAGwQZd9BMAJiGgOI6Fzo97ulxkosEHNRDRnmJH9BaZeVwtIvt_X9QF3BjriB6EHqJhXOSnUQ7e69QHfrMJ7QRHZeqx8aX9qMRTg-YJuC3pbqHC_XlclAZIkocTK2W0UEss2rLdcxoM0LL59Csw2SwVNB_bmia1C1TLp39uBbNnRm-Uqa_2niLC9lD_vXq49j3aa_Mgq_fCWG7J=w260?key=hx55_DCq0RN-JHjXN-CkkA",
                     "path": "images/b7cad2b336ba80bd4af5729f3417143f.png"
                 }
             }
@@ -871,33 +935,36 @@
         "audio_url": "https://drive.google.com/file/d/1lCQXt9WFHhbebti7Rix38DdBqWX_yf0a/view?usp=drive_link",
         "audio": "audio/09a561effb1474c2c6cb9d3a21c59589.mp3",
         "hash": "fc82310ada87d6e67434a081dc4b6874",
-        "created_at": "2026-05-18T13:16:41.030476"
+        "created_at": "2026-05-18T14:02:19.634307",
+        "correctAnswer": "digedung lantai 2"
     },
     {
-        "question_id": "SHATSU_30_1779085005",
+        "question_id": "SHATSU_30_1779087743",
         "form_name": "SHATSU",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "5.\u00a0Audio\nIngin pergi ke restoran mana?",
+        "context": "",
         "choices": [
             {
                 "text": "YANG ADA SUSHI DAN RAMEN",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDM6O_zMPQEqR4rqmkD-BRKSgsI30UxixKGhjarx2x_Hh0V-Fs53ahAwZLTzBhZk8-1dra7UJvyMO4zoFPe1c9AcKzwOjLNkpcPPIAD6VPrYLh4U5EDDjhY1s-6DLEIHb-Soa5ZcRaqHNlCw0kFo13fMx6L_oPhbrK61RhkPOkA2S2F63SMabCKD8A0oEvuEI9usH23bEnFjhBu=w260?key=hx55_DCq0RN-JHjXN-CkkA",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBEavO-wdrGRI0oqYAAatLppcPGq_TXZtdSZnE46GGwMEkwYS1AjIlBYqPaTNIfDKk0F6w1EYh5KQK79cXxcm7QIyMYaHADFzoKddUhucghMCRZDCh0x8g6aMjsitnMABpsh6nS0qv6rSJFnF7GSN2mYkX9TSYfrGv_Qq-gdwx8kn_16L2X4bQRN_HjA5N5-soiN-UUDr1Gz8IP=w260?key=hx55_DCq0RN-JHjXN-CkkA",
                     "path": "images/02d00447c0f7b19fb12b58fe3d837ff3.png"
                 }
             },
             {
                 "text": "YANG ADA BABI DAN AYAM",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBcMwQe9bB3xmBanPfE7Bczzj1LDTnfigc46JEEQ7iBr0SrBFPvjstqa3kSYJbdcXW7jJaoo6YK-7uRkekXfOfZoz1SNageL_WD-yPNm_ZrRGPGi2pomcH3em1Nhs4EqlVSrwthsB3eDjGFoWBenhqOvX3Q5PhBaf5c19lrHMpaiXdSK04BFW38O5joxcMAhCcSMnmn6yJCArAf=w260?key=hx55_DCq0RN-JHjXN-CkkA",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCmW_hWhpAhitSYuW5QQDnZeNwVoo8kz85TCDhxPtGu7rz56QO-o4aVJ_tfokSKQB4pfI2dsuxVZfIB8IjYM_3aZJllsOpIgiRidKjCrViYf2Km7N84JulwcTbZD9K6Uz9amf-VDrM-A__qiB4iT-3R39fKFu6ZKqc_cz_nIVrQnwAlISxcEux77iycvyvxdqxBLKOSMQIwlm_b=w260?key=hx55_DCq0RN-JHjXN-CkkA",
                     "path": "images/e4845690810ab7dc73365d5b247899ee.png"
                 }
             },
             {
                 "text": "YANG ADA IKAN DAN UDANG",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCjIqxNdmaiqTl6kMbcUDd4Yxb1Rss5P7nVhpvZKWnwnQDqr2vduro1WU8cBdNWX409iyGQ4d7Pi9aqsqR47-87_Q58w1koyKBhZTAthIwNWSe4gzQjsjYCSIcXZ3T1fR7jhNhQLtI85CWB1ogaTcKY8YWC2DRf9EndO4xm8vp48Q667TTijsjiHXy654aZaBqfgN7xELZLNwc=w260?key=hx55_DCq0RN-JHjXN-CkkA",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAZoJh4xlGVQEmWzE28l5IRL4M_iUnnvCSi1PyiD3OMyR0jovS494ZlyiC7vFPxlaAepmOJwY8lTLBWCD4bRB1hrRN-SjFIMZ3cppanFP0wu3C3pWgoFlGw4LUNFqSNEZarTSa9I17Nz9l7ZNGeyKB7e8h1DmTrafu6AQRQeVrSB_vK2jPEcvMz0flUTbX2eCQrnvFRWHHUj_Q=w260?key=hx55_DCq0RN-JHjXN-CkkA",
                     "path": "images/cc325af5a5ca8f5b8c91bd67cf59197a.png"
                 }
             }
@@ -906,15 +973,16 @@
         "audio_url": "https://drive.google.com/file/d/1hhG8BOGMzrUzSg5KPSxPh33h0YR4B3w5/view?usp=drive_link",
         "audio": "audio/bf28ccc442788a28e93cb1ac5e415cc7.mp3",
         "hash": "b4a5f916d97f91d92c9b2cb4c263d81b",
-        "created_at": "2026-05-18T13:16:45.273154",
-        "correctAnswer": "YANG ADA IKAN DAN UDANG"
+        "created_at": "2026-05-18T14:02:23.819790"
     },
     {
-        "question_id": "SHATSU_31_1779085008",
+        "question_id": "SHATSU_31_1779087747",
         "form_name": "SHATSU",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "6.\u00a0Audio\nOrang tersebut membeli oleh oleh yang mana?",
+        "context": "",
         "choices": [
             {
                 "text": "BISKUIT BERBENTUK GUNUNG FUJI",
@@ -926,14 +994,14 @@
             {
                 "text": "KUE BOLU YANG DI POTONG\"",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBbmNbR9gPU0NPuIs1e3PIz1uxXQIth_tx49lLP11qWSSDh8tSeI2HppfQOqE73P2YMc7O2IkS1GtLKKe_xidmCyIa_wMkh-QCKpd6mzR6zohWcwxRfiDtxBN4r2E0OWyaiPSXW-ZF1DjUrlpSTiSg2wPRcPnaMXgF15ndcv41y7ehWeZei5E7L2bkVOMVO79JcNnzDA-UZaH5G=w253?key=hx55_DCq0RN-JHjXN-CkkA",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAXtsh1srmuXJpSOe4AbXOKK60F-J0VKsUllm5VSSg0N1sHSPcPSR1TCngIcwxVKYh7IXCNL9z9znL6pG2TABCOZRAChBzA_SLda1OzU9fX1T4MlIbSbHN9DMfpfT9JSDeSBVvJlWeQNsdFyE-XkGrjLvJuqriwx52hWEgL6LgA3DazwoIluld9fksQ5OdR7A-7GNC84Kbu7AK8=w253?key=hx55_DCq0RN-JHjXN-CkkA",
                     "path": "images/7da0fc975b01e8360acfc22181ea9860.png"
                 }
             },
             {
                 "text": "PUDING",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCcBr_qkCRNkU233T4osiAGVchXFuUrAhiB7jvQi00lfX0TUVzFoAxhaHrKRGUwMjKXXSyuKLfSN1zaW5gDeHHxn97VA2MvNPsfPCqztLBaA0vqtZeKs9nmBwJBYmmrmsmq-F8txcuqVceSjiDFxzKoKhLBqd97weRqJUW_mGMJRS1hoYo7IB2qn6rRE9sdUBObwSWPQbnfddDg=w260?key=hx55_DCq0RN-JHjXN-CkkA",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBqE_98xbFOmjZG-bihp29soVMas6TMs9e6m-hCwboyAuIPe32XqkTPYWN1r1EwrJU9oqtRYc9qw-qWWxtIVGWGV2fxn1dAvr1cwJGIvoi1YbXW1BSw0lzTq7wuV93oJ9q53Cc0au7Psd-T6ZcxgKCVfjVF4VHrn8a79zV99WlJ7XjD2GSLSmnK-py1Bv9Qy2XO-WAfnZydv9QY=w260?key=hx55_DCq0RN-JHjXN-CkkA",
                     "path": "images/51a33591ef91e57f1fcea077a8be14ee.png"
                 }
             }
@@ -942,19 +1010,22 @@
         "audio_url": "https://drive.google.com/file/d/1Ss2ezXM80WbwDgFXcD_rbcC_mRWDb6my/view?usp=drive_link",
         "audio": "audio/4e8106249733ebf383fbfd8ccb92b25f.mp3",
         "hash": "d03376a1fd5a8f2346e467c6e4b196f8",
-        "created_at": "2026-05-18T13:16:48.839308"
+        "created_at": "2026-05-18T14:02:27.983452",
+        "correctAnswer": "BISKUIT BERBENTUK GUNUNG FUJI"
     },
     {
-        "question_id": "SHATSU_32_1779085012",
+        "question_id": "SHATSU_32_1779087751",
         "form_name": "SHATSU",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "7.\u00a0Audio\nA. Pria tersebut menuju ke arah mana?",
+        "context": "",
         "choices": [
             {
                 "text": "Lurus keatas",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVC5CdbYJvJCZp0Ghwph-gS--5qQtCs2O-Nv_JIITqfZ9FRHKvhatwAG4Yuw0SSNmQvWA1uKPiHbZXhdaT-3iif6jLzBDTqw1LtckYVJ8ozeasFB_yAsDdO1yVY1EXC89Bd6QTCWQfSsjY8h6ccNjrK6tGKdUIHp_UoIRpmiafG22pFiAJSBlbYKKgkAGNl7U1BgRJH8hrLFBAI=w195?key=hx55_DCq0RN-JHjXN-CkkA",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBU7sdh266ipN81BBP-vDduWJn3BH2Z2BIKjy-Cn-ssFk9pLSjOuAljNTbVzcZWxYRxfb95mHfA96sdb607ImRx5hXe27n7mhcv_OYgPfPKeC6ut55zA2jOncqOB9on2iRtd8-5HpTgbJqIOymvpjXgTMvQyaghyCLGVIvUV6b9uV7Hh5-xQaiuYrFvO1JrVcTY_von89y33-M=w195?key=hx55_DCq0RN-JHjXN-CkkA",
                     "path": "images/2f6081db99149a146c73867a826400b2.png"
                 }
             },
@@ -977,15 +1048,17 @@
         "audio_url": "https://drive.google.com/file/d/1CjN4VVbETNUImvPZP7_T1Uh8cUs0bQsv/view?usp=drive_link",
         "audio": "audio/7ad8bfb134403d5cdda411749bc34373.mp3",
         "hash": "00661d42d4926a6ca9ea3bcf36dd2dd6",
-        "created_at": "2026-05-18T13:16:52.128906",
+        "created_at": "2026-05-18T14:02:31.368520",
         "correctAnswer": "Lurus keatas"
     },
     {
-        "question_id": "SHATSU_33_1779085013",
+        "question_id": "SHATSU_33_1779087752",
         "form_name": "SHATSU",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "8.\nB. Dimana pos polisinya berada?",
+        "context": "",
         "choices": [
             {
                 "text": "Disebelah kantor pos",
@@ -997,14 +1070,14 @@
             {
                 "text": "Disebelah rumah sakit",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAdON-ENVjjEUnTa7KsFu_corhd69uxiC3Iak_PwujAa8NjOTLRHtGGs8jTJrsSVAbaQoTgzUu8k_RUv8KA4X6IOT0Hw5bhGVTqcSRd1y_FQeusAKDdadsZPPDn8vmbfGOK08X--RFkW7scA5yYtVaRg3u7NwQC7eTzf6cKzTTMQl6Zx0YBmDWx3X2ZshLBwWQmrHSWy2_QgFd_=w260?key=hx55_DCq0RN-JHjXN-CkkA",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVC0spJG3iPlDlAB_pHQ6K6j7Zjjl9A-MhZ14JHNcxajBkS6ryJwyq_B9y_Xoz59V1lkbOjyqWr3mcUEEXAegOI63AMT7gb26PZ9vFFklMTNYftqX4yrHPCeCx1kO7iY9x5Eo9cFKEWAKvU8EAdO6xzkzrAUcDWuNcua74PmEJtapGdOXs6MdaRY_IoPbZl2AEByjFqmhFrar4HM=w260?key=hx55_DCq0RN-JHjXN-CkkA",
                     "path": "images/be00ce70117eff68b9018f50d5822a41.png"
                 }
             },
             {
                 "text": "Disebelah kantor polisi",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAnSwLddl_Lqdf-Cb-8MFPxwIKh8m86sV2v9XHZESenjYRPMvVYznIPW3e_qqHEoJJS3kabgX5n9hc9fhfU7cC6JHMdEhDrfYvL-fHwIbgHuTg3PtIFIKRTzzdmjlyll4yhe70yAg5ao7kpaVgLPqIIw9Ie1Q5eiEDXZ4bQz3uAPsRk72rg3s3qzVWGAnAjg96dsvvdoAx0WIOp=w260?key=hx55_DCq0RN-JHjXN-CkkA",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCw2_MFzKu2uyNltuzykZr8VWrs1T6EccP42dDhw1gin5aQx8NSnZASHv4FrcCTTnO2HgjGE33YrvHK5IQV6EMOCsc-xQ8aWKVE9L52HMj9G12PxeJYRhWrBLgRC1Q-ADZmg6SQJRTuej5S2adu5pmPCnVac5jgfZAKx8EBkOyTRzz3cD0r9islYEBT3-HHeAtiy99XkEOsKHTs=w260?key=hx55_DCq0RN-JHjXN-CkkA",
                     "path": "images/7b009ddad76435479b91e4f72626c1f9.png"
                 }
             }
@@ -1013,14 +1086,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "55c402319a6c661e81bcf46457eebfee",
-        "created_at": "2026-05-18T13:16:53.436933"
+        "created_at": "2026-05-18T14:02:32.794020",
+        "correctAnswer": "Disebelah rumah sakit"
     },
     {
-        "question_id": "SHATSU_34_1779085015",
+        "question_id": "SHATSU_34_1779087755",
         "form_name": "SHATSU",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "9.\u00a0\u00a0Audio\nA. Yang dipesan, karaokenya jam berapa?",
+        "context": "",
         "choices": [
             {
                 "text": "JAM 7",
@@ -1039,15 +1115,16 @@
         "audio_url": "https://drive.google.com/file/d/172L3S5_RK7ySYJ3FQ6TQV-h-YX2pY2_m/view?usp=drive_link",
         "audio": "audio/0794c605325470e9251bb74b76a85d81.mp3",
         "hash": "8230aff3632a479d1634359b3132595b",
-        "created_at": "2026-05-18T13:16:55.636129",
-        "correctAnswer": "JAM 7"
+        "created_at": "2026-05-18T14:02:35.426539"
     },
     {
-        "question_id": "SHATSU_35_1779085015",
+        "question_id": "SHATSU_35_1779087755",
         "form_name": "SHATSU",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "10.\nB. Dimana berkumpul?",
+        "context": "",
         "choices": [
             {
                 "text": "Didepan perusahaan",
@@ -1066,15 +1143,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "71f28bcc8893dc283881159b65cb6cbd",
-        "created_at": "2026-05-18T13:16:55.980277",
-        "correctAnswer": "Didepan perusahaan"
+        "created_at": "2026-05-18T14:02:35.791111"
     },
     {
-        "question_id": "SHATSU_36_1779085018",
+        "question_id": "SHATSU_36_1779087758",
         "form_name": "SHATSU",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "11.\u00a0Audio\nA. Jam berapa konser dimulai?",
+        "context": "",
         "choices": [
             {
                 "text": "JAM 2.45",
@@ -1093,15 +1171,16 @@
         "audio_url": "https://drive.google.com/file/d/1dtF6c95LvqWLbXbVf2VT9HSpY4XWagfu/view?usp=drive_link",
         "audio": "audio/de515a0b0e13c75c47ea0a0c6db54616.mp3",
         "hash": "096ba18cd7272b62bd8b517be84af3e0",
-        "created_at": "2026-05-18T13:16:58.254299",
-        "correctAnswer": "JAM 2.45"
+        "created_at": "2026-05-18T14:02:38.274278"
     },
     {
-        "question_id": "SHATSU_37_1779085018",
+        "question_id": "SHATSU_37_1779087758",
         "form_name": "SHATSU",
         "page_number": 3,
         "category": "choukai",
+        "question_type": "text_only",
         "question": "12.\nB. Apa yang boleh dilakukan saat konser?",
+        "context": "",
         "choices": [
             {
                 "text": "Makan dan minum",
@@ -1120,15 +1199,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "ea10af5a0724ce4e3558a748b07a3c45",
-        "created_at": "2026-05-18T13:16:58.597373",
-        "correctAnswer": "Makan dan minum"
+        "created_at": "2026-05-18T14:02:38.645450"
     },
     {
-        "question_id": "SHATSU_38_1779085029",
+        "question_id": "SHATSU_38_1779087769",
         "form_name": "SHATSU",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_image",
         "question": "1. \u4f55\u6642\u307e\u3067\u4f1a\u793e\u306b\u3044\u307e\u305b\u3093\u304b\uff1f",
+        "context": "",
         "choices": [
             {
                 "text": "\uff11\uff11\u664230\u5206\u3067\u3059",
@@ -1145,7 +1225,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVC5IH35R1c3dcVNHvostQmEvJIkzUGvb9CwqIJixQY1nCPdviZAuJ5QzfERyjlIm-zaC9YUWMRluYwmBuWLCbyuW3Rt7Y_YOhDrmkJ-sxXP6NaYupQozvf2Di8m0puwLZVgey2qfEmq3hHPFYdCUj_sYNKL_6TigTFaGUykIjlt6thPXA1yIyXzCItSvwK6fzXUcEqjzZztk18p=w740?key=hx55_DCq0RN-JHjXN-CkkA",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDMsfklV4XWpZjyV7ryOuEKv7Yv08D-KM03ZWaa8mhQsEOEdHBVsE6zdrdldFIfoNLVD8OmxQyLhoB8RuErF3HREMjD27CMjMZKYboeTqk0z92JyveFsMC7YmMbYIU8Vhjk158auwmC3Kxz6z1bWN5O-QADD9IRmDHpmS-WfrvmaVY-uqEcGxZnt76hGnaeZF_eZZvgobldNNhL=w740?key=hx55_DCq0RN-JHjXN-CkkA",
                 "path": "images/5aa80daa6590a6139f14100ad874dad4.png",
                 "index": 0
             }
@@ -1153,15 +1233,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "9f0b267da8fa278f458644c43b27cf8f",
-        "created_at": "2026-05-18T13:17:09.123845",
+        "created_at": "2026-05-18T14:02:49.239156",
         "correctAnswer": "\uff11\uff11\u664230\u5206\u3067\u3059\nFeedback\nJawabannya ada 2\nA : gambar toko/ supermarket ramai (\u306b\u304e\u3084\u304b\u306a\u30b9\u30fc\u30d1\u306e\u3057\u3083\u3057\u3093\u3067\u3059\u3002\nA : gambar perempuan membawa tas, tas yang keren (\u304b\u3063\u3053\u3044\u3044\u30d0\u30c3\u30b0\u3092\u3082\u3061\u307e\u3059/\u3082\u3063\u305f\u3058\u3087\u305b\u3044\u306e\u3057\u3083\u3057\u3093\u3067\u3059\u3002"
     },
     {
-        "question_id": "SHATSU_39_1779085029",
+        "question_id": "SHATSU_39_1779087769",
         "form_name": "SHATSU",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "2\uff0e\u7530\u4e2d\u3055\u3093\u306f\u4f55\u3092\u3057\u307e\u3059\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "\u5f7c\u5973\u306b\u4f1a\u3063\u3066\u3044\u307e\u3059",
@@ -1180,14 +1262,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "34c0c7d739fa64d6d3208ac5595997b4",
-        "created_at": "2026-05-18T13:17:09.491153"
+        "created_at": "2026-05-18T14:02:49.593769",
+        "correctAnswer": "\u3042\u3055\u3072\u9280\u884c\u306e\u4eba\u306b\u3042\u3044\u307e\u3059"
     },
     {
-        "question_id": "SHATSU_40_1779085030",
+        "question_id": "SHATSU_40_1779087770",
         "form_name": "SHATSU",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_image",
         "question": "2.\nA. \u305d\u306e\u3072\u3068\u306f\u3044\u3064\u30b8\u30e7\u30ae\u30f3\u30b0\u3057\u307e\u3059\u304b\uff1f",
+        "context": "",
         "choices": [
             {
                 "text": "\u6bce\u9031",
@@ -1204,7 +1289,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCFlhcJ0BD1aLpdzZRBc74grr8DHIGTzMAT6o8nzkBCP9M73_nMVXMXBw3WHyx0zwQMkpPTFApl9-dANq--TQDIdCpxOt8Vpy4MkCOv5-FzBLPYunSEiM2V46L2S_5hcA1CGrWaT1_BsY5GZFpmKBcsWk3ZD806vIoR74-tN0SBtsCelsSCl4NyPGk9srCya8PfEcvlQ6A2UWc=w740?key=hx55_DCq0RN-JHjXN-CkkA",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDMo32pSLC7z4ioVYGuD4xRYRGOmsTEK4q6ajlFfhEYiJpKOB0RBVDRP24UxjVMKarfOvOb41wbKEuIIxTWwMOQdDlUu_FQHGtwk3PY1FghPQ6noLcn377wV1uMse50hiy8mD_pnWsv3KvYbz78nw8aN9S6V_mpHXvTwaIH7u4kkQ_wYEFja4N-FJKc_Ner_fl3z2ndaGJAgyw=w740?key=hx55_DCq0RN-JHjXN-CkkA",
                 "path": "images/484137589c2f323b61dfa0554fa34687.png",
                 "index": 0
             }
@@ -1212,14 +1297,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "19a2dad0913f3e58cafc04c474fa3e0a",
-        "created_at": "2026-05-18T13:17:10.435442"
+        "created_at": "2026-05-18T14:02:50.381011",
+        "correctAnswer": "\u6bce\u65e5"
     },
     {
-        "question_id": "SHATSU_41_1779085030",
+        "question_id": "SHATSU_41_1779087770",
         "form_name": "SHATSU",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "4.\u00a0\u00a0\nB. \u7530\u4e2d\u3055\u3093\u306f\u4f55\u3092\u8cb7\u3044\u307e\u3057\u305f\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "\u30b8\u30e7\u30ae\u30f3\u30b0\u306e\u670d",
@@ -1242,15 +1330,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "46a905e20afc53ee368df73784e5e87c",
-        "created_at": "2026-05-18T13:17:10.785955",
+        "created_at": "2026-05-18T14:02:50.744187",
         "correctAnswer": "\u30b8\u30e7\u30ae\u30f3\u30b0\u306e\u670d"
     },
     {
-        "question_id": "SHATSU_42_1779085031",
+        "question_id": "SHATSU_42_1779087771",
         "form_name": "SHATSU",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_image",
         "question": "5\uff0e\nA. \u30c1\u30fc\u30ba\u30b1\u30fc\u30ad\u306f\u3044\u304f\u3089\u3067\u3059\u304b\uff1f",
+        "context": "",
         "choices": [
             {
                 "text": "2\uff15\uff10\u5186",
@@ -1267,7 +1357,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB_6wlooWCCM3NpaV7TyJphnbY_k6utC-nDfOX7jh9p63oi741duCvEB9KLne5cK6vDfH2N93n7YFCOZRIoyscqwhE1V8G7ht9sSWYSLxBiiSKWCBNAWrXQYlGFbRYMv6atBccMnYr9LSZLfPRMk73GLRgma_CrOBjrDZFgWoPN-KOIDN_N_flhFRDcbbAcRYsZ1VxzMDGsNz5C=w740?key=hx55_DCq0RN-JHjXN-CkkA",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVD1uXGXMbnkg72tHNJ4NbNTGFa4wULwrMZh8RMrbYsmn0attrBpatCBItmTaZdNNKaoE7m22zMffsr4pBK2b3j3EeppLsRrv1j6SihT6EW-B0A0LqLU2VnqboJakdch-blXjTbdNGylpJ06n51RsmYBNk-zGnRtORY7Ku3O2WG3RzPMuTB3RFBwbQHR5GxbGG5mA8qLc7uKNY74=w740?key=hx55_DCq0RN-JHjXN-CkkA",
                 "path": "images/064dde332187d1dba2cb770894a5bc9d.png",
                 "index": 0
             }
@@ -1275,14 +1365,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "657923a1c48645f42c1671e051e09a4b",
-        "created_at": "2026-05-18T13:17:11.730050"
+        "created_at": "2026-05-18T14:02:51.739577"
     },
     {
-        "question_id": "SHATSU_43_1779085032",
+        "question_id": "SHATSU_43_1779087772",
         "form_name": "SHATSU",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "6.\nB.\u30b1\u30fc\u30ad\u3092\u3044\u304f\u3064\u8cb7\u3044\u307e\u3057\u305f\u304b\uff1f",
+        "context": "",
         "choices": [
             {
                 "text": "\u4e00\u3064",
@@ -1301,15 +1393,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "c57a973653e595d724fc3ba991bc139a",
-        "created_at": "2026-05-18T13:17:12.080334",
+        "created_at": "2026-05-18T14:02:52.088295",
         "correctAnswer": "\u4e09\u3064"
     },
     {
-        "question_id": "SHATSU_44_1779085032",
+        "question_id": "SHATSU_44_1779087772",
         "form_name": "SHATSU",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_image",
         "question": "7.\nA.\u3059\u3044\u305e\u304f\u304b\u3093\u306f\u3069\u3046\u304b\u308f\u308a\u307e\u3057\u305f\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "\u3081\u305a\u3089\u3057\u3044\u9b5a\u304c\u3075\u3048\u3066\u3044\u307e\u3059",
@@ -1326,7 +1420,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBBACRp3NcFa3V6LRBvKbls3AiGmMaLkzmXwmjIjboaP4JBXvuIti_Y8TKQybZNT8bM_qnXbrKI8mQWBg0HbXLykkPYN39agFgFFZpw_nA2eAhSLaRUVrXtMYfZL7LXnSwvIKn-89oYnQQNTe3dLvFpeK28rFj3QpCQs1ivi21ndBgjoY-tGeKiZ98S3MPxHWv6YirWsBRe8MF2=w740?key=hx55_DCq0RN-JHjXN-CkkA",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDWqjymqBINtXSW0Wp-Wn8vDFDj-YeRuZtcvAnxoLyT0ZyrEGJEr8NBuGzkkSDB1J5tH5QM68VouX5AAi2IFy4aphwZBwvP1ITvkhhRTj5LrsPiZ6ySdc2U8Q2S5TV0U6UkCfbUNwzMldKiNpzmBlAxn6Wq8iLuyMhDFKeMmCgtnquwR90KfF5h7fueP7b0pif5bh6BRAmjc4NY=w740?key=hx55_DCq0RN-JHjXN-CkkA",
                 "path": "images/f55e2420cff6c95de476bf6685b48cd7.png",
                 "index": 0
             }
@@ -1334,14 +1428,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "89048f24ee9ce939e179f3b3550e813e",
-        "created_at": "2026-05-18T13:17:12.845688"
+        "created_at": "2026-05-18T14:02:52.855060",
+        "correctAnswer": "\u3081\u305a\u3089\u3057\u3044\u9b5a\u304c\u3075\u3048\u3066\u3044\u307e\u3059"
     },
     {
-        "question_id": "SHATSU_45_1779085033",
+        "question_id": "SHATSU_45_1779087773",
         "form_name": "SHATSU",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "8.\nB. \u305d\u306e\u3072\u3068\u306f\u3069\u3093\u306a\u30a2\u30c9\u30d0\u30a4\u30b9\u3092\u3042\u3052\u307e\u3059. \u304b\uff1f",
+        "context": "",
         "choices": [
             {
                 "text": "\u3055\u3044\u3057\u3087\u304b\u3089\u30a4\u30eb\u30ab\u306e\u30b7\u30e7\u30fc\u3092\u898b\u3063\u305f\u3070\u304b\u308a\u3044\u3044\u3067\u3059",
@@ -1360,15 +1457,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "cca8de7d096900e06a3fb9279264328d",
-        "created_at": "2026-05-18T13:17:13.196931",
+        "created_at": "2026-05-18T14:02:53.204894",
         "correctAnswer": "\u3055\u3044\u3057\u3087\u304b\u3089\u30a4\u30eb\u30ab\u306e\u30b7\u30e7\u30fc\u3092\u898b\u3063\u305f\u307b\u3046\u304c\u3044\u3044\u3067\u3059"
     },
     {
-        "question_id": "SHATSU_46_1779085034",
+        "question_id": "SHATSU_46_1779087773",
         "form_name": "SHATSU",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_image",
         "question": "9.\nA. \u3055\u304f\u3089\u99c5\u306b\u4f55\u6642\u306b\u5230\u7740\u3057\u307e\u3059\u304b",
+        "context": "",
         "choices": [
             {
                 "text": "08 \u664255\u5206",
@@ -1385,7 +1484,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAdx22QQPJymWx5kE9e-xKhw2XB04mz4Ys5ZIMT2nhj45jPGvsR8k2b42_ADkQZUN3Jg1_xr-2LItkzKR5YayTKDCbI2fzFaZA_w8ISYhQHW-qFWZaXCGIOi-tG8-6ACkTpb1Nus95HZIwUOwXiUDTUCSSWbQL-GqXtbnBvCrYmjjwsaPBRa3VsqEFV0vkX7xb6okPq21U6bnRo=w664?key=hx55_DCq0RN-JHjXN-CkkA",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAFs67Jl0QWd1FnEdEhjg4YMGNh_aciSNtdleKfeKhyWgp6tjWY14SLKFpVJ3dNzNuuzrwlX3Yr01dUAg1iTIV9RjWZ91kcHuU4uMr_WOcTY51qSYGeU443VF1zymxKcpIiKy-HhOv4C4UefGMdmkIhzVfqC_byMm7VOLK9R-2dlSenRiZORNYcrHifZk2sqYATYgmBsJWEImrI=w664?key=hx55_DCq0RN-JHjXN-CkkA",
                 "path": "images/b44d5f24e26743811e14b221ea129b3d.png",
                 "index": 0
             }
@@ -1393,15 +1492,17 @@
         "audio_url": "",
         "audio": "",
         "hash": "f2feb2a8b0966f8acbc2bc7b2bcda556",
-        "created_at": "2026-05-18T13:17:14.111239",
+        "created_at": "2026-05-18T14:02:53.878455",
         "correctAnswer": "08\u664241\u5206"
     },
     {
-        "question_id": "SHATSU_47_1779085034",
+        "question_id": "SHATSU_47_1779087774",
         "form_name": "SHATSU",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "10.\nB. \u5ddd\u53e3\u99c5\u3067\u4f55\u756a\u7dda\u304b\u3089\u4e57\u308a\u307e\u3059\u304b\uff1f",
+        "context": "",
         "choices": [
             {
                 "text": "\uff15\u756a\u7dda",
@@ -1420,14 +1521,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "454777d61736083dc2cdca1638406bf9",
-        "created_at": "2026-05-18T13:17:14.463827"
+        "created_at": "2026-05-18T14:02:54.220137"
     },
     {
-        "question_id": "SHATSU_48_1779085035",
+        "question_id": "SHATSU_48_1779087774",
         "form_name": "SHATSU",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_image",
         "question": "11.\nA. TEMPAT BERKUMPULNYA DIMANA ?",
+        "context": "",
         "choices": [
             {
                 "text": "\u5927\u5c71\u99c5",
@@ -1452,14 +1555,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "85219a9ef6fcc7b32dd8282e8bf20963",
-        "created_at": "2026-05-18T13:17:15.059244"
+        "created_at": "2026-05-18T14:02:54.921441"
     },
     {
-        "question_id": "SHATSU_49_1779085035",
+        "question_id": "SHATSU_49_1779087775",
         "form_name": "SHATSU",
         "page_number": 4,
         "category": "dokkai",
+        "question_type": "text_only",
         "question": "12.\u00a0\nB. Apa yang bisa dilakukan ditempat ini?",
+        "context": "",
         "choices": [
             {
                 "text": "\u304a\u307f\u3084\u3052",
@@ -1478,7 +1583,7 @@
         "audio_url": "",
         "audio": "",
         "hash": "601323dd55352df36babd34e10eef2fd",
-        "created_at": "2026-05-18T13:17:15.413580",
+        "created_at": "2026-05-18T14:02:55.270535",
         "correctAnswer": "JAWABANNYA YG ADA \u6e29\u6cc9 NYA"
     }
 ]

@@ -1,15 +1,17 @@
 [
     {
-        "question_id": "JITENSHA_0_1779085677",
+        "question_id": "JITENSHA_0_1779088456",
         "form_name": "JITENSHA",
         "page_number": 1,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "1.\u00a0Audio\n\nHari libur melakukan apa ?",
+        "context": "",
         "choices": [
             {
                 "text": "\u6cf3\u3050",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB5hMXFB3GmLL_O57EXL-Ye1fHrAeMUGNwf4aePGLjazvToLE0zZ032MWMJvDpbsF-9ASiB1Y8Gks5I1GrUht_2BUKsnwH83VrUQTC5_oSxDVBk4_LEMX-mF4StLXX4DCvgbCY3SY3zm7P1OrFN6bSfWMoP3vkc1oGfn3oWhc4clcvCFcF-SbqQOvOyWVBDu9r2u0Ygj775UU6h=w202?key=NViP5vzRFxZCNzIdmecclw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDU_m7D_f4PTZprx6QrKVo_HqKJxhIx2ws5MqrUFPAWbYZcxOEQdcuHfSx1R0HZELGlaRmIi3F2yQLsY7I9BUGZq-b3ZJ2Zh9WE_O9UaBR-45Mn8uXL-K4qVYZoHL1hJ5lnRUkWgrDhLgQEcFwzSjTHjOhm_2wbA1KfrwUk5BFv82Nocrv3Op4yxXkf40ZqmYMEh1UQIFiWl9NO=w202?key=NViP5vzRFxZCNzIdmecclw",
                     "path": "images/e6939029997f10ea6387024256dda944.png"
                 }
             },
@@ -23,7 +25,7 @@
             {
                 "text": "\u30b5\u30c3\u30ab\u30fc\u3092\u3059\u308b",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCYgIuFwzZ-xVdwwBaVkhTTUrcY6A7JIgPCGFdWKjJRXmkCCHT62xjdktCsKe_BSFcjrhLa7Ly7Ke-dRN-5WjIqzCOHhWw4QuWi7s1h8CabBPW36GzqVIle7spd3KeFa9df7OgvZJO5a3qANqEFtlKXSEjNTCJqwlS6L20WK0tRrSh0zRHQgvc15fZtxy7jFIznRzDWkDXIPlg=w260?key=NViP5vzRFxZCNzIdmecclw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDfcwzZk9xSQSbcDwuk3n7L5n0hUA5JBE4GEYTLcWNdoNFMMO0kV8KEVJJFQObH1HXNdyV1dydyIEiNrLbxWOGM0pvkMXNykyOv9s9Ww3v5t429Ex21McGs7QXoKWiEwxdcc6mWgX14Vn3UJ1-Agn0_d74IeFLYJXP4jFFjlpjgEseEIN2ZhD9U0ZSV10YFvv-kdHYo4gtfwL8=w260?key=NViP5vzRFxZCNzIdmecclw",
                     "path": "images/c6302b15d275be7a2dba9bb11df344c2.png"
                 }
             }
@@ -32,14 +34,16 @@
         "audio_url": "https://drive.google.com/file/d/1R7t4SU0lUEHYVOwsa8Pj9wmUX65SQGRq/view?usp=drive_link",
         "audio": "audio/01c985a57ba8658392569022a28d4863.mp3",
         "hash": "e65cef3173aa235b2caf41d2fbeb37e9",
-        "created_at": "2026-05-18T13:27:57.708729"
+        "created_at": "2026-05-18T14:14:16.819041"
     },
     {
-        "question_id": "JITENSHA_1_1779085680",
+        "question_id": "JITENSHA_1_1779088467",
         "form_name": "JITENSHA",
         "page_number": 1,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "2.\u00a0Audio\nBertanya tentang ikeda san orang yang mana?",
+        "context": "",
         "choices": [
             {
                 "text": "A",
@@ -56,7 +60,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBH1Fa8Yqh_vndwM3Eor0tYnnoauygYgHap6KSijhRuMmlZlyhVrD7nOwDCA23e95CSqQvC9llmvlNu6IwAXpcR0acBYfUZcCuG2oY-vh7IOb8Lhb9xcXbzUpQ_Hu5TFMX1umlpkWaZ-N1Hph6Eu1UFxttF1IxSowrjTa9MWXAL175KJD7A0Z834VdQadM5-c_it6HQ80XFlbk3=w407?key=NViP5vzRFxZCNzIdmecclw",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAMGRiMCEaNZFzC5pluPwb6kDaS1G_atMB91R23QdI03z6rY_PSjz0SrKe592-Eba-AChFdM4pJMPZwClfq5iq93tl-yqgvfZAFZYcHf_ulZGgawRl2cZnc_-pMHW3WkYInPgzEuvbUHGbl5qb6U8A5xf0qhE-HPvf8VPLnLFPgfZJ8Tp4zJrD_JGGM7fb_ErXj56sHL-6CpG7Y=w407?key=NViP5vzRFxZCNzIdmecclw",
                 "path": "images/81ce75c660de69f1124af2dd302b3932.png",
                 "index": 0
             }
@@ -64,33 +68,35 @@
         "audio_url": "https://drive.google.com/file/d/178uJmvHK9_Z30R9aPQZ6ifhEMkxxfiLg/view?usp=drive_link",
         "audio": "audio/43a478292e723e1bcd57d30f873b6a07.mp3",
         "hash": "cc1ef49a4e13d39c979324dbc15e7e9c",
-        "created_at": "2026-05-18T13:28:00.085778"
+        "created_at": "2026-05-18T14:14:27.640841"
     },
     {
-        "question_id": "JITENSHA_2_1779085683",
+        "question_id": "JITENSHA_2_1779088471",
         "form_name": "JITENSHA",
         "page_number": 1,
         "category": "choukai",
-        "question": "3.\u00a0Audio\nPercakapaan lagi cuci piring\u00a0\n1. Piring nya di letak kan di mana?",
+        "question_type": "chokai",
+        "question": "1. Piring nya di letak kan di mana?",
+        "context": "3.\u00a0Audio\nPercakapaan lagi cuci piring",
         "choices": [
             {
                 "text": "gambar piring, gelas, mangkuk kecil",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDe8JFtcLQ4PvzJPlzJpYxV1JmZjfKOaxyZAGvciXAuSjYWOjhxa99C7_4lZjcBi1Vk_VTaVdlUlTPygl2cwTTBVzcmyIC1GEGG42-wmZU2uvYeL615jDYTsl8ienzyUV7OKJQm0kdXJe61TN1t83hKkW1eJWNo-gdmq2Nq8OvZLKNsjsEsvUKCU1iUDDkJxSNkU3jW4UlkAcM=w260?key=NViP5vzRFxZCNzIdmecclw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVD-UmxDQrgSPnNIMd1g415QeWjQ_Amw77yl5h6zwQgd1JJt7qQyBsnFU_BMhJY4bWgpsqQvUjcg6VhjZxlEGKIVW1OgJw3nBtFhoH-0H-sepXgQZSajv2drTYnrDcP66SOrAzaxEL5EKmkwCV5PcFQmK3tiWI9cvsnocZCPGh_hTeQ9RhhjjIhfNyAXI0AGh4XJ0IlseMnDlxw=w260?key=NViP5vzRFxZCNzIdmecclw",
                     "path": "images/4cb568325c6e81bd653a5e4f55f2d9c3.png"
                 }
             },
             {
                 "text": "gambar piring di sebelah cangkir kopi",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDqG9aBbuk9CAmztLZm7CTEalBMEkWDNLwNfcgCEZRfzTsZ0Pzph2WiD4XVKOVfKIF2PKTq3noALBu8gdVvHIYOB9tBA63FzTlhXwKn4e0OtlxosQK-JJ7aNGlzPBVxICrJHuPH_n7z9ywyp-uWgNNYC9UlG4go1BSyiMOgnX8Bb4LCM4eDF7NBuuDYXBJVOHHbXdWBYiHVNdTg=w260?key=NViP5vzRFxZCNzIdmecclw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDHHntW0cYLrdyIcl5Ejhg3d6V9No_OTfwuqjkpPSicU0ngg_73hQZ-P-gCS5mM6Y3E5BegMs1HB40ICtB1gck7hv9XFq4z_QMZohHu65dOcmpNx2N_ZXWnQ2V78Jd6mduQfQ2DZFqqoCEF-u5UFf2c9kPyGud0UJEV3rYDZHqXI33g9XXfm5Sxp83g9YyXNdqi3b4RYrrPwHYo=w260?key=NViP5vzRFxZCNzIdmecclw",
                     "path": "images/18dcb01e6ff2dbfd2e05366b49fa2d9f.png"
                 }
             },
             {
                 "text": "gambar tiga mangkok",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDgObdEfcY5V_uYSEgPZ_C-dfrCpJ9U5D9h9YAl_y_tlmlsSnAtPNdEJy_ZVLrCn8xv1Mhma8fvwhEY7oK3axiTluMhPcocIxj9GDCrKC5_TC4dNtpEe0fgZfvFGG-CQHUUVWchpyisPuxW0_H_9pWsbxgI0bvnvxS_JdBHwVPnSVc_mNzUConwI39DGICBUm68qNIKkYNQxzI=w260?key=NViP5vzRFxZCNzIdmecclw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAu3-kUTwThwaneh9VGCg7_MHmiVRvy-oSclx6oje1D_bHjjGv58NeEzD1V4d5XqFBGxK6yuTi5IAY9L7Gx6Ze66N9F8VqXkc_Y9SWgEehRBp8D_hScCQoW3gAq_4-QxfTnTmirAUvXildnF0fwc4Pj46miIo0xQ4-ep644vH5CY1zW03Yvi1QUf7uJiF4Yu9-HBYCtmY6M6RA=w260?key=NViP5vzRFxZCNzIdmecclw",
                     "path": "images/40429b7f1c06907a8b0b344a9c8cef39.png"
                 }
             }
@@ -98,15 +104,17 @@
         "images": [],
         "audio_url": "https://drive.google.com/file/d/1J2wi-b0WFa2FEdA8a3Lg-6nNVpEuy7G5/view?usp=drive_link",
         "audio": "audio/fa33251ea3390963d8c441299383f0e9.mp3",
-        "hash": "0d36d5478acd94e87ced6fee95e43123",
-        "created_at": "2026-05-18T13:28:03.857007"
+        "hash": "fabd5e6390fbfbd53cba1966fbac0ce2",
+        "created_at": "2026-05-18T14:14:31.641819"
     },
     {
-        "question_id": "JITENSHA_3_1779085685",
+        "question_id": "JITENSHA_3_1779088477",
         "form_name": "JITENSHA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_image",
         "question": "4.\nSumpit nya di taruh mana?\u00a0\nNanti di pilihan jawaban ada kotak persegi panjang berwarna hijau, kuning, coklat diatas nya ada sumpit jawabnya yang COKLAT",
+        "context": "",
         "choices": [
             {
                 "text": "Opsi 1",
@@ -118,21 +126,21 @@
             {
                 "text": "Opsi 2",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB-vr465jn1VYXeWSqMfwid-XlUzfjhGwiACsEOjNFKzNoriUo3FU73soy2-EKlq3tboEra5098D1R3G0OzNNNhttv3qt0zk5DGQ8V7kSJiM2KxXrNdIQ2vASxpJDO9PfFjuFcctcun1mXWLI0-pLoDMWaSO8_vGs9vgOcklOXGLF0rm897kdz-avZUlkdlEA08GRyPanme_cwv=w122?key=NViP5vzRFxZCNzIdmecclw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBJ9rs1OlalN78aJ1swGEZpsEWPWiTSeFJ_PYa9iyJ4Qb_fE0ixbxzxvfdkKFQN9IWPuuZ9lTW95Rh_TsmX_BEMmh3FSGpnXlkSsJfVN5nNG3jq0KloEWnLeHNvP6UMtYEzYDt3R7JRMfpyvgZ5US1AOqiepmNleCpXq0kJNiCYXm8bFC7auFY2_jziySS_ArvP7Pw0a68HsFu9=w122?key=NViP5vzRFxZCNzIdmecclw",
                     "path": "images/931fb390ae278d61c8931916e5ce3e6a.png"
                 }
             },
             {
                 "text": "Opsi 3",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDR9gbc3AAi2be_5-yCl3SRVq_lAjR3XBWKvbR9TtP9hcEnbXinPKMDKXMus0jB9rQTB_ewGXe9F4UxFk_krDWMLHs0Y3TfGZGbpbtgLUamQ4XcRXVKILPq9A9RIjgl0OpgxBD76qdCYVxCoCgd4xuLEQcg4WoIQD-p590J10ub48wVNvNZnCUGWHlLoXE-FjNnpcmV_pCc-hlT=w129?key=NViP5vzRFxZCNzIdmecclw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBaSOcNpd2R62Y9I40vWoejG2T7Ll41BVFIjx8DcVTdgtXKH8EihhwCH3hciVxMuCZZART2HxfcseinXCG8AI6BhR8i9Hsk9u0r4qHeY7W6cDoc9-Mj-m-q0plMbS0CUBalv6FPnpeubnhhsFJNLfLntU3SZqKGjl27D-IQ62h6tKra7yhW44D_dK6PlBdHRGGB8Fjttnu5PlYq=w129?key=NViP5vzRFxZCNzIdmecclw",
                     "path": "images/3d2fb6171c7d9a9dfcc5b8973d2eb123.png"
                 }
             }
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVC2xAhQUNyXnWWRfglLj5y_kug5Zv-w1kOyeq6JL-tmueMbctWoNHYZL3PL90cmnD87GLlMcwiaMrHKiKnXvfi-XgsN5KeqHih4ZC0anRMeqaNBsJsbqLIKypcrV6KyXO9XLM3tkM5LeYEHtVFZmrFR3o-wXn_SjMUuKyM6zwrXeMoO37sGK_biDnCn9lBakEMza3Lc2qjQ-zQp=w248?key=NViP5vzRFxZCNzIdmecclw",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDe0ZJmNt225ZLp9bnSZcU_qLaN5XHH1nwugMb-KqPnI1wygyKGdNBHkieVz1a_H6NADa0c9VTYY3U1d913DuG76RPXMuFERunU2wgmxqBPcpjI6hzK9EV6uX6NMMpHsGJ3l79G7ANf0r4dJfFLSHeY7_OumU3KFYDXnkSR1baUvK-z3l57hl6keqG2PE9-ead2Fp0q2QDgq76c=w248?key=NViP5vzRFxZCNzIdmecclw",
                 "path": "images/14ad943f55ae2a7fd67cd8bdab008fa4.png",
                 "index": 0
             }
@@ -140,33 +148,35 @@
         "audio_url": "",
         "audio": "",
         "hash": "d5b14f04a0bcd58e94bb58ce5de5d8ad",
-        "created_at": "2026-05-18T13:28:05.758157"
+        "created_at": "2026-05-18T14:14:37.121520"
     },
     {
-        "question_id": "JITENSHA_4_1779085689",
+        "question_id": "JITENSHA_4_1779088480",
         "form_name": "JITENSHA",
         "page_number": 1,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "5.\u00a0Audio\nDi okinawa melakukan apa ?\nTelah melakukan diving tapi harus berhenti karena hujan setelah itu saya naik perahu",
+        "context": "",
         "choices": [
             {
                 "text": "Opsi 1",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBBOrCTsiRqHLnn3XVMjapuCBQtiyqDSS9fh-rgzfjD0MJw9FI9UxyghxXhQPTFn1QCM8N4n96r7Fk4QACzSw3eoygGGeMw-D4nwcuYW6DD6tUCtE4aZ1TcACCAOjTENdZC76NjIRNK45CBHtbPziZ7ZPyUXeszpZBxIsuEQJ_ahxdRcZ-0lO-mp95MhmSQjTxdGYlkGo24gEXB=w240?key=NViP5vzRFxZCNzIdmecclw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVArCNOB-9OZ5FxQxmWO18JDuQGRmCSrc-zL5v5ZV1Y5UMnliOLJHRdmhqo8uNfK05dMT77EguDLZ1TO-047ThoKrvL8YK2SE3on4tHx4-JAdA1DrDTA_Afo2k1g7A4HIOqz3LtF0nlRVWekBbevIDENi5DB5dljEW_fGLgIwYiYYjQzqbOCHSbaGqIB3Srpd_UbRbKwj_BOEAjP=w240?key=NViP5vzRFxZCNzIdmecclw",
                     "path": "images/95ea7daa8c00fdb3b47b36a9b57f5009.png"
                 }
             },
             {
                 "text": "Opsi 2",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCc6i1nrZZQikSD2BEphhg1KnhRa4tD2Lj9UM1FVQf74gFff8wINIDRFwEDwnN-qOFzsw1uIX-OLBb9oDBhtj7Qwcn9ftwGP9u732pJZsVxn8Bv_QVodSNAcArnR-abyorTBYfaxSFeGqnTeW3adEJmP8ZhPL4GPWofRTrgTk5bwU82qoCunMgBr0Zg5nUXvzJyl6mT1aU9cKc=w260?key=NViP5vzRFxZCNzIdmecclw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB7zILJ5bNVueM93QOzY6wkhEkFiWmrXCXsrrJFPMzCGSXH_AO16kuxwR6M_SR1PWIW-7hUqYlY__E6SqHqkK3dqhWLNL35I9j6IzhmuQ513X6qfjhB7TpD7aV10mGG6BkULFD0dO9ZyWl_BzO3VR6YirLOlKFCeu5ZDL2kVyBuQfio1icpVnCs8N6nsV6sKIHKh3lcjxVNFsM=w260?key=NViP5vzRFxZCNzIdmecclw",
                     "path": "images/6296dbe67698482804905e57e044e88d.png"
                 }
             },
             {
                 "text": "Opsi 3",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVASbnYwuJaq3wEbSn2jrP8GbnZew1zwfZVfPWFNMn6FMBhxRWF4wkZBay87s-MoBjMwxriLNsEBVGFZwWj__mfjKCFXjNfT3WApNnD56wtWnsSNf3SWCYJPcSsJJ2VqrMO2m0exnhkgLqjGyvqGxAumwezOC7HXDqRp6A9cvcKMUcl9NY3M-DhtNlLcKCJhDgZS3qDZoW9XiCz-=w260?key=NViP5vzRFxZCNzIdmecclw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCygwZiNqEPBa6Wg73-_7ckinyO0WwNpHNSrG0SRNRLKhbq1fE54eaOzyWRr7M5WEC7_Gw00-404DmA7vS84lJ3SzZnFSGCzsBgvhAP2qHUuxNumwDNmvFxgQMlYGalvJpDkW8keoO8uoL5gE1zx_TONWfx93sVdeteGOExC6uDw2J1SQheBw1r3eNPGLn4vPB2UT02R8trQcJ5=w260?key=NViP5vzRFxZCNzIdmecclw",
                     "path": "images/34f413fafe4dd45b6afc08a568a577eb.png"
                 }
             }
@@ -175,14 +185,16 @@
         "audio_url": "https://drive.google.com/file/d/1YdWv05leMqdRAmUoVF638vX_z6NPwGw_/view?usp=drive_link",
         "audio": "audio/14da449e26a69a147c1b0d4dec5a1805.mp3",
         "hash": "d29088019c526dcd5297ebd398a57121",
-        "created_at": "2026-05-18T13:28:09.824231"
+        "created_at": "2026-05-18T14:14:40.777522"
     },
     {
-        "question_id": "JITENSHA_5_1779085692",
+        "question_id": "JITENSHA_5_1779088483",
         "form_name": "JITENSHA",
         "page_number": 1,
         "category": "choukai",
+        "question_type": "chokai",
         "question": "6.\u00a0Audio\nPercakapan tentang membeli tiket Ada cewek membeli tiket harga?",
+        "context": "",
         "choices": [
             {
                 "text": "250\u5186",
@@ -201,33 +213,35 @@
         "audio_url": "https://drive.google.com/file/d/1IRHfGJi9xneH_CMhYom8inpW3-lLvTw3/view?usp=drive_link",
         "audio": "audio/26fbaa0c456c3223c5222c4cd44555ec.mp3",
         "hash": "72ab8033f1204253c882cb6b4e393a1b",
-        "created_at": "2026-05-18T13:28:12.186762"
+        "created_at": "2026-05-18T14:14:43.436865"
     },
     {
-        "question_id": "JITENSHA_6_1779085695",
+        "question_id": "JITENSHA_6_1779088487",
         "form_name": "JITENSHA",
         "page_number": 1,
         "category": "choukai",
-        "question": "8.\u00a0Audio\nPercakapan tentang kulkas lama\u00a0\n1. Apa yg harus di lakukan terhadap kulkas lama?",
+        "question_type": "chokai",
+        "question": "1. Apa yg harus di lakukan terhadap kulkas lama?",
+        "context": "8.\u00a0Audio\nPercakapan tentang kulkas lama",
         "choices": [
             {
                 "text": "\u304f\u3060\u3082\u306e\u3092\u3060\u3057\u307e\u3059",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCQWTWeyAz27k57Vo0aUaL0o6NfZ5yNbaX1okaG1U8FVhT1N6JDgA5ZpjHFgvhAFrn3txjLob6Worqg-XhGGjR-iE-hvVxU2veZJH9P4aaX1SCstQYd_uEh46avRzmupIOqiRkTJbcwn4UoyQlpyCxRdw2gMC30AElgJUQdCOCocTkA8bcMLYgFG7V3D8EWTVq6UNOQbpwKxEtZ=w260?key=NViP5vzRFxZCNzIdmecclw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVABGO1q4zpOmuV0ozaUwO23FwDU7Uwio1gusqbtQzpMtdblRBzm1SSRqCffllpK2wz6oQrNKpCEAFS6OJWJBmZdz-M6pgak_XdBO3btQVcrno8qc6ghHcOSZ1ehkcaLLEhNDzQ1HRHmJS7CwQrT_Mi1iRR1xVfj-WZ7yeyIXUVgXNYNK8ZXC2GxH73W4gFi3Wz68RTm5s0KP_cA=w260?key=NViP5vzRFxZCNzIdmecclw",
                     "path": "images/4afe40ba28018be5c26577595160ca9d.png"
                 }
             },
             {
                 "text": "Opsi 2",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVABZ2KcFld0AIP_ZFa8bxXbmdJkTD-JuhTG7Q8Ae2Bm6svUs3x9yNmqw5Rn7q6B8HVRi2mgI3OO_CfSa1g106ZaIGB1sDDdTxqtfPOGwG7mFqT1F0py_U04-vu__Bn9kmqqDBH6y5yKnYnkAeKRS7FnYg9E9CylV3_uesbZEb7Z09CzPvZ4BdFd6WnBscVf3kTMtDKLcj7jNOQ=w260?key=NViP5vzRFxZCNzIdmecclw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDJAZA7aoWSj1YWJSasBMWSpZn0IOhBclB55FPfT-IO45AqnIOeSUXci3-Xgj3Y73TH6RUB0Hm7zhrGzTzqKQIBwCKFDYFlSHqw1znqyHxOxuGj54NRhzqMmc2cKvOox_bVGPswjAkOhCpPAlY_tY4831fnpFOcvMZdxc2tMN6_vR4kfDjubtsjGbL1pEhtmMEfEqc6DIlnnNo=w260?key=NViP5vzRFxZCNzIdmecclw",
                     "path": "images/ba32c4f4e59c24cffe9b36bfbe09066f.png"
                 }
             },
             {
                 "text": "Opsi 3",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDWw8H0IW5FUn_M_OphLzvzJ98rpvqgFCb1D-q5CeqPTUYSBlCDw1YdD56qNFu-2QwxePQY1ED0dQOhkyfKonmpLynz7qJWhtHs2SFRGpuGwfrDYeyX4jW-tZnh9X3306PaAq6j9GG2KrxsCpq7-y49RQDVKxlmVWrvgA-gPQq1UK9jPlvTY8OE8MhwMtcvz48S2H-rJARX32W2=w260?key=NViP5vzRFxZCNzIdmecclw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCQzQOcqS1nEUSpGDOKdLU3zpLOHcbp3XoGzCPQJe00V4Xlqv8XSJ_nzMmU57SQr2CHZt5PV-ropt5ZhRqB_W1AJEgsJKA8zPAL290jFu-3XhgoCYAzi4yZVfKjrs4oM14y988hPytX2zeYVFaIXeiGYWxTTBG08eNb84wjhjHNRQOizXbILEuRhIf8nVoTv4fQN_fmSrGiUyXK=w260?key=NViP5vzRFxZCNzIdmecclw",
                     "path": "images/fc0156d06936bf4d0ebcbc9b40ec1639.png"
                 }
             }
@@ -235,27 +249,29 @@
         "images": [],
         "audio_url": "https://drive.google.com/file/d/1ldWG-EGLIboNJ-GqgkauYrf0N_oB5s3q/view?usp=drive_link",
         "audio": "audio/4882b059886a001753b29d9a6ace46fa.mp3",
-        "hash": "e14cb7e3cd4132434c3f883dbc6129b8",
-        "created_at": "2026-05-18T13:28:15.708352"
+        "hash": "9164f86e6045b33c785f712baca92186",
+        "created_at": "2026-05-18T14:14:47.170933"
     },
     {
-        "question_id": "JITENSHA_7_1779085699",
+        "question_id": "JITENSHA_7_1779088490",
         "form_name": "JITENSHA",
         "page_number": 1,
         "category": "choukai",
-        "question": "9.\u00a0Audio\nTentang konsultasi ke dokter\u00a0\n1. Apakah boleh makan buah",
+        "question_type": "chokai",
+        "question": "1. Apakah boleh makan buah",
+        "context": "9.\u00a0Audio\nTentang konsultasi ke dokter",
         "choices": [
             {
                 "text": "Opsi 1",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCcVzLCrnQ_rTG9h2UaP4-mTYcnQobGgTS06t3HZ2cP3YW_UrqpVwDRb0ghyYqhPMX6vW1Ce4s8AOmWYsSIL2KUyPx3C9v1ZOWoeE-MIdG7EAmkFmPsxXj-5MFmFDd6HxaQkZxpEVnC4vNPznDaYMlX4mF2ctKXboZOApMoboCWTfgiqwMgi1QGqU4wUr1dNp-WsQNB9LCX3K1E=w260?key=NViP5vzRFxZCNzIdmecclw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBd_S3Z9bVvPZ9LC8sC0ZsDje7RdqlOZ_30IYvE9CNKCRsQmfy9EE-rj-rO1be-CR61TPX5v2XuhACt1hkOM-KNj_kVZdYRnkPBeVdc_-dlegcpffyAEXh_FWe9Tch7MXUMd0oA3Zxl1OntKjFTWEWhXrBvyZxE-SH3OecvPIHgSAeg9DUqCt2Mw-quVsi5BoZFZNFfLq8ilZC0=w260?key=NViP5vzRFxZCNzIdmecclw",
                     "path": "images/c86b76a9cae3a2a877c77a02de24b5b4.png"
                 }
             },
             {
                 "text": "Opsi 2",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBC7Hzn0ReBnDOy7zaP_guMWDuCA9UcSMitM28wWBPlql2T8FnayYOMU0nvJ3XEUv8-bpG8WMPIYyVvRS07yVBWmgPdZBU5-esucPT1Omd7iP17-eDPV1iPLTMlFnFE8WR98eJTpdE2FMrdG0ByNo2eQjsjpLXL6bn1to_5bxejNmknfbGl_x9Wlz8d9685wDI1jQMR42WV423s=w260?key=NViP5vzRFxZCNzIdmecclw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAbWonePcG3STG6ng7xDA-F8kaKbpaS52_gupIEIgey6Gqg2ktypJbrIbnz-HdaydYwUTg-qmMBEpbnJbnFEZJk9_Ckd2yqvP-tmxiG9UYOz3wFk51sIJcWHR29waT8nM2VjD15DPsJFNpAD2ZcoMEDMEug-aam8y_hKMkjMYgEOcTRHkTJiJz3OUQ7fie4H80w9gYIRZ97gWES=w260?key=NViP5vzRFxZCNzIdmecclw",
                     "path": "images/95e9d345237f6eb5a0fad9e4941bd6cb.png"
                 }
             },
@@ -270,27 +286,29 @@
         "images": [],
         "audio_url": "https://drive.google.com/file/d/1nt2i1gkCogXaVlDpEDU6WRr13tkNypiA/view?usp=drive_link",
         "audio": "audio/5d82d107b7f32ff3c5b668d1bf8f4f66.mp3",
-        "hash": "aeabe9d92dbba43b40be9ea54e3328a3",
-        "created_at": "2026-05-18T13:28:19.147332"
+        "hash": "58dd4c4a579ce0df1875b1ebed3a9858",
+        "created_at": "2026-05-18T14:14:50.700664"
     },
     {
-        "question_id": "JITENSHA_8_1779085700",
+        "question_id": "JITENSHA_8_1779088492",
         "form_name": "JITENSHA",
         "page_number": 1,
         "category": "moji_goi",
-        "question": "10.\u00a0\u00a02. Obat apa yg diminum pagi hari?",
+        "question_type": "text_only",
+        "question": "2. Obat apa yg diminum pagi hari?",
+        "context": "10.",
         "choices": [
             {
                 "text": "1 obat putih, 2 obat merah",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDFcgm9iBYUVp5SdndZstOSpd6oAgv8yZRj7jxCUD7-6_OuKOI5HgL3cCOplVrdsP95HYSZK8X2aNydCIyqnz4mt08c7gro8IGprbt2vo7749kG-xkSWfVwbaWC3x178Q0YNxPOUcTMwJrGoAaiQB1ZAtkM79W7zYnJp6tOitb9riaQ1crLzyrK8Gc_vxYLHnldJHi7I_-RtGR4=w260?key=NViP5vzRFxZCNzIdmecclw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDUsyt5jPqxqlUZHuONjY4bgRaXezWv5g10A0_bu28-hbsKRSkFNZDvupACCPhtPwbGe8mvvy70eglMbcEHawa0ZDSNpT1Zv117QMEdVWY8K416hGyTTRgpXadpzpXmVSv0PM8imsQqdsXRrEVCEikcj8y3W1WQjM12wZtiCRDd8CFAoBbUJHrSO_JVZD6oRO8MFQcZmPl9amZt=w260?key=NViP5vzRFxZCNzIdmecclw",
                     "path": "images/15cd2dfa764e2753d24acefc5e99b3ec.png"
                 }
             },
             {
                 "text": "2 obat putih, 2 obat merah",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVARQn7vjylhT-3eC8Kg5X71Ulke4MKTvNdIsEWcs2zDPVr3wjVXZooXKXQhmyhYaJPee6Mz7bLUlbn0FI5Fv8YgO8_hg3nL6ZfW3X0X8RMZe3SwUvf_gcM3Y_a0gbl60by1PVb7A1zOSty8QcLX_mIGh1Ao4umhmIKwfu7cL6TMilUWCYaihSz_4zSiWMpHC5464-V4k2-zLzbI=w260?key=NViP5vzRFxZCNzIdmecclw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDOAdmbIvSxkfWgKWLl1xtjkK2CQmQa6MbpJ_TWgup1cw0WUfNTN-K69nGrJy9f3PYHhQwz7v4XuShtdgh0isFQFJ0-XS44e8fm77aGxYiTD5hp-SKg2zR9hDHFRGY6iECFrZFHdApcKg1LLf0phe7TTlO9VmDgFmK2Tepq1ZNc3RZY2eL6hQrn-cwBfcauv0K290O_qsbGeNPH=w260?key=NViP5vzRFxZCNzIdmecclw",
                     "path": "images/60edda819c996e3079cd0c1484d29829.png"
                 }
             },
@@ -305,34 +323,36 @@
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "6a134add238497eff305d226b314990c",
-        "created_at": "2026-05-18T13:28:20.468951"
+        "hash": "a210006cf67056a11f1b0dbb55b897f2",
+        "created_at": "2026-05-18T14:14:52.174111"
     },
     {
-        "question_id": "JITENSHA_9_1779085703",
+        "question_id": "JITENSHA_9_1779088495",
         "form_name": "JITENSHA",
         "page_number": 1,
         "category": "choukai",
-        "question": "11.\u00a0Audio\nAda pengumuman panjang tentang persiapan meeting\u00a0\n1. Apa yang harus dilakukan pada jam 10",
+        "question_type": "chokai",
+        "question": "1. Apa yang harus dilakukan pada jam 10",
+        "context": "11.\u00a0Audio\nAda pengumuman panjang tentang persiapan meeting",
         "choices": [
             {
                 "text": "gambar orang dicafe",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDtyaSuvtWhEifLHD7ftFWVn8oJSENFo3wi9Bh6sH93OMvjdD0DZ5-TJk30xDG5EdoSJqLkRNg5s3ml7lkZ2YHOANfF_s6-0onxrbCGrYQP2UDZSOBPlUanAxrTdP2rTybZlFHbMgWW7kwpzLbbr0swv8TMgtm5WoV3bOtZLfpc38AGz5Ns4aVxGaFq7Gqs9fJuqpcnAL3A6Se6=w260?key=NViP5vzRFxZCNzIdmecclw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDLoRJNhI1X1A6vRsFR3eOcok0nbTo5Jrg-FI8pO5kKpUczFWYzF8j-TrlIktAnlb9Dv7oxkVdQ92dgGf0HIqUes5KvGrH08KHAj-dXt9rZR6astuatqfy2dzw8ie9cYYIsOusLOR_p-k6Z5UTchJa8gfc7QvUaXKvW99Obmq9YHSbFDBBWqS5veAgWsGY4TKHBqxh0sqWkwryp=w260?key=NViP5vzRFxZCNzIdmecclw",
                     "path": "images/f6dadadde5c514b84fd2706743f34398.png"
                 }
             },
             {
                 "text": "gambar orang mengantri",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDssmdl3HP1rrHoD7kOzAiQhPEEZnw2oHeLBSXrbp66UBAkKqZyokv-aXaN3qZT4ls-N27oygU4fYGJ6u5CrzVaiYiwGy3w-JHIqrrc1C4dskdp1yXOUzlMI8zCNvL5694MvS4-Fg6wl6FplaKGBW_6fhrwmpLFREzcqDah7sjOewrm08pKjdXiDV2m8NBqAP0yeCT4vXC_V2T3=w260?key=NViP5vzRFxZCNzIdmecclw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAfkduaMubUOIrPpIN58gNUM1BQKz-Wg80kPFSBT9iR_DMJU2ax_UjlP0HkPyQnI3QXdDDUKRio6siV7Z1XRguK24IbTpU4RXRffW9FQovcxNKV0moiOZRS013vpRuXxtBdDI9OKQ6x-hB-zh-sMIlSUYejhDjuZRQqlcWGvyfjUMojNt6Z-clmpA-t8hzplbxP52aogKhgErP7=w260?key=NViP5vzRFxZCNzIdmecclw",
                     "path": "images/a0ad67afff392d468243938c34366ff1.png"
                 }
             },
             {
                 "text": "gambar orang di meja resepsionis",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA3oNXl8PL744uPE4zOgeqsIIxejLvs2aIokpaRZB9kaiHO2855_kc4Jy87qPci56BUeZcRk1CYNAM9ZmHBOqmj4qgCsA3oaUKiv3Irbau5xTCqFQAe_9nW8GV7hznKOc6c3v77c4htdN0lSWcD-iyU9YDCQNAi6ZHyh2BJ-sHmW3EdbnoNDieRD7K5m_S4NH3L933DqSh1Kl3Z=w260?key=NViP5vzRFxZCNzIdmecclw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAd435yw4uRPuZZSYTEFnixpKAr7_LWOg7eTqwpJLjXoSeDfMIdxGY_RisTksX6BNkBz966LYN9LAikfwDjRZPn1MlfW4oHoT1UqCsk_9gE9yOlTXDaDoPw--ECwZt8iKeHK5ra1I6_TwPIhJRqnymys9_sca01gEQCtGA_oByoXWtFyY8k7iTz5hvIuBxvE3CNITE_QFZ4ya6Q=w260?key=NViP5vzRFxZCNzIdmecclw",
                     "path": "images/d597e79d3fa7efdf04750a4227c0ce22.png"
                 }
             }
@@ -340,15 +360,17 @@
         "images": [],
         "audio_url": "https://drive.google.com/file/d/14buELZ3jWBcE4fmEEhCSkY7uQIXQGxgT/view?usp=drive_link",
         "audio": "audio/3da51e408e835de26d786fa6665a2ad7.mp3",
-        "hash": "7b0578dac3d7463e0cfeecffec4ba8d9",
-        "created_at": "2026-05-18T13:28:23.447863"
+        "hash": "02d4c36620336e8215ecad0dbeb221e0",
+        "created_at": "2026-05-18T14:14:55.391491"
     },
     {
-        "question_id": "JITENSHA_10_1779085704",
+        "question_id": "JITENSHA_10_1779088497",
         "form_name": "JITENSHA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "12.\nMakanan bento dimakan dimana?",
+        "context": "",
         "choices": [
             {
                 "text": "ruang rapat",
@@ -360,14 +382,14 @@
             {
                 "text": "kantin",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAMmdPunSw1qq0sx6I8m9SAKhs_rgG6PbNss7fDfrMjtPaAfUsKdHV8Gxmlq5g3YNg9meg4Sqc7Zdh8BFDQgpEqdZG1eL45V_dxesze4c_86QaycRoNfvRskG4MU17uhDTQMzIiFmaQ39JwsDXWPF6THi2AMJ-k1nzV_JjHZKrFis_A4DNRWOcHqlKarMpbL3sttqTzzE6Ko1e7=w260?key=NViP5vzRFxZCNzIdmecclw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBVi9Dj9kX24n_W44a8HCDp5HsGa9IY3TAY0dnT5lZUvpJcQJsozLVx7IsI45p3HYx78VSZQDeeDkj0ZiBxhkfjt7G0vEBkNIuaulwcFP3yt2yABSjQQ8DWCGjJM5SIx-QRh22mnxCANSvxBKIgxT28Cyu_HGuWRtEgT9wWVJ96_cBStGj6CkmlWKdRIGE5y-MiGf0D6uo_S1KS=w260?key=NViP5vzRFxZCNzIdmecclw",
                     "path": "images/ebfe5823f1e5f6f9246fe0aadabdaf28.png"
                 }
             },
             {
                 "text": "kantor",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCvFkR7jJUyLMhnmNP0zKKG-mxKRVmj329taIqdhnACDzM-vB0l5ZWaRn2VvhfWN1UzzawA09MR1JJ-kOqtyxU1EgaEQA5gVjUPNuuu59_dWgXp9yGiolbCX1GJC9GBARtcWBy0X8cnO5ln1bmc5hLBACwm0sDYOyiv5MTIgp2v8UV1j57NRSvlZLMf26OPjoEYciUtJSQvWXg=w260?key=NViP5vzRFxZCNzIdmecclw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDJGA52AmV6GQnpCUqVoppdoHRqtVk82UECajsZxcNrNOD74_O_b7ymKpb6C9cZPzWv-HkNEdDiFK57Vr8U93GAjkfAB8mShv5FlKCDEnf5MDFpmR7L0FCKo-P4ZEa7TcHnYxj_OVOUjm3zZxOHE0toEB-qbW3VdiCd0f2tfmogKD0akBktHALAFPbPsw4FMNCMb9hd1yil4R4=w260?key=NViP5vzRFxZCNzIdmecclw",
                     "path": "images/d95d7db8deafd03e842704aad8897fce.png"
                 }
             }
@@ -376,33 +398,35 @@
         "audio_url": "",
         "audio": "",
         "hash": "cc884ac974e62d0218fc633ba5ee356c",
-        "created_at": "2026-05-18T13:28:24.867587"
+        "created_at": "2026-05-18T14:14:57.018086"
     },
     {
-        "question_id": "JITENSHA_11_1779085716",
+        "question_id": "JITENSHA_11_1779088508",
         "form_name": "JITENSHA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "1.\u00a0\nAda masangger tentang ucapan selamat?\u00a0\n#ucapan tentang apa ?",
+        "context": "",
         "choices": [
             {
                 "text": "Hari Ulang Tahun",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVD8E22pGfJrjNXviouycR8Y9UfTuC1y0Z4lUDwiAC8bvVUUlymQs7DRWCfwdNnHcenkprsmQnQocellcFl0u6LCuUn4vH5CKRqw5ULg7_RH6WcNfzWEMoiWOEdpy-DxNwdmMc-5DVkX4th2TsGDx6zpQ0SN998l44HOLac4iOKq9nzlssT5xNb_ezeXsPkdCLM2P9Sugg-2o8B5=w260?key=NViP5vzRFxZCNzIdmecclw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVApgBlyJROCP29SO3Z3kpzv8FX5bmL5XuqmD0bDk0fiZHm6igNL-ucyyBE-adi1jAs6JWc-p9vf4Xq_skIO-NXPq1j3fhvx85rVm1uv72Y-5b96W8kWtUm3bLa1eHVemIyPtmhrV9L_Sw-xw3YXtZYm-bB_TJMfnB8lmyx_cMkv4hougkaYEsfYReg8vpHxlt1INsmSxkqfCXgb=w260?key=NViP5vzRFxZCNzIdmecclw",
                     "path": "images/6afb1f8386a99d8bd7f7deff1ea9a255.png"
                 }
             },
             {
                 "text": "wisuda",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVC57mFhTvD9JeBDfaefko_NWhL-JRELcBNZNsdUU5EIM3oZEGfZC97CU-oU2I60XOvLye2m4vuofIUlr9qbp3JtzqT_tM_kFVZGdpn0HiMdb-kqSqvW0B3Y6l5dXnNqRm8HjgLko26kMnM9jADWhp2mjna-bPnc9YIqW_f-CnMBSwk6iP6HHOMWTeIaMi4GLJ3YQLGd4pJRU4E=w260?key=NViP5vzRFxZCNzIdmecclw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDZaoGE6zBeA0Twa0qaNpp1aatxytl00cWUlsy6sJ14qrSCw1vH4CI9CuASwR9gN7JtXznzwteFBMIgACwlwd1MkKhXA9cdL2IPACB4rmc-n1GW2XHTYsL9Fu7z8a7bdrChAbeGIu-hD27paoGbtunu5nCm5PPC55Ax8fIWgiNW3UZ0X348WLhEpPSt4cdFxhmVjg9FgbH_Q7I=w260?key=NViP5vzRFxZCNzIdmecclw",
                     "path": "images/aa3f45d2c3416247718d39032a575827.png"
                 }
             },
             {
                 "text": "pernikahan",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAU0y77hs-5nKo5sdC6rltFsFINSe6d2tk03Yqk4lfBWch2dJ1UOd3XwDnLVDJ7tdKqrke8tG-qOXoHaVcrVKc3ihrGTtnIJtQp6dUDGEhTguiqbGMHoiMVd8crWERk-FBHeaLLui48xRfCQMqylsnQdDVXIq4sOIPCLY9HHya1LMm6T98BfzTXw9EXiGPEYrIXpmTlYnhdzpTa=w260?key=NViP5vzRFxZCNzIdmecclw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAJK5WDy01Z87Lkrx5YALv4n5lkzNkdbm9VBgftwN5RBjh9c0gyyVN5V5qlsbImgON7pb2BgOwvi6saMeoEb0z2QaSbcFg7EY4rpRJgKjBtmhVnpMhPB8OvoI-Mf7Af88kMJ8m3oAhNODjVeeX_nyvTc6ei7zcRmkYOtsaxHz9cAF4LaHa1LNxNL3XotzUciSccTYoIcpzohsin=w260?key=NViP5vzRFxZCNzIdmecclw",
                     "path": "images/4e0f559969086ac8d02e999f25f5f29c.png"
                 }
             }
@@ -411,14 +435,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "6a20713ae2bd009e3dc4e727492f5fcb",
-        "created_at": "2026-05-18T13:28:36.149977"
+        "created_at": "2026-05-18T14:15:08.510030"
     },
     {
-        "question_id": "JITENSHA_12_1779085717",
+        "question_id": "JITENSHA_12_1779088510",
         "form_name": "JITENSHA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "2.\nDisana ada acara apa ?",
+        "context": "",
         "choices": [
             {
                 "text": "Piknik",
@@ -437,7 +463,7 @@
             {
                 "text": "bakar bakaran",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCeK-MHwqfzzV7Y1k0bNJCtw3Cegp9orQ3ZAzKxxaekD9RqgsaqYV_jMtI1mwquRShQTzIkwZHTrZlhWpKIIwlgYJRTK2SEly56eSV5sU6yfFpSgy4COpr4OjjtAcjnZQEu2SU0A1Y0J7o1eSH1txit6BrkE5LrKcxDkmjR4LxNvl35OiwoHZboHaXQYOvGrwEebPwLxsHnjNg=w214?key=NViP5vzRFxZCNzIdmecclw",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVC9efMN7_SuzXyWuFFvttBpsLDtFxBPcfAFeRWmZqcHu623hI90Ic5UPh1LPyP5IHZH5q4CO7CQ8IS4ilrfdWIv-DejL8blWU_OQmkMPo5IVrl4k2aDpgq1Brj9VFysTDr4HFWgEiYbT0hO823NMiNjjhJYbKwp0Lm7JxpmY9jLV8lvQ7vHDDsvWj8M2P3GVSVZjId3SxZpUzA=w214?key=NViP5vzRFxZCNzIdmecclw",
                     "path": "images/2556cbdfa701be915011d32f416a109d.png"
                 }
             }
@@ -446,14 +472,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "4a36af6389124875feb085d4bb19115d",
-        "created_at": "2026-05-18T13:28:37.567323"
+        "created_at": "2026-05-18T14:15:10.216235"
     },
     {
-        "question_id": "JITENSHA_13_1779085717",
+        "question_id": "JITENSHA_13_1779088510",
         "form_name": "JITENSHA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
-        "question": "3.\nNgasih tau kalau ada telefon\u00a0\u00a0\n1. Telfon dari siapa",
+        "question_type": "text_only",
+        "question": "1. Telfon dari siapa",
+        "context": "3.\nNgasih tau kalau ada telefon",
         "choices": [
             {
                 "text": "\u30ea\u30d5\u30a1\u30eb\u30fc\u3055\u3093",
@@ -471,15 +499,17 @@
         "images": [],
         "audio_url": "",
         "audio": "",
-        "hash": "054778f383d23e3d012ba4b6563749a4",
-        "created_at": "2026-05-18T13:28:37.926942"
+        "hash": "e1b005075d7d8ad0a917adcc9e4cbdc4",
+        "created_at": "2026-05-18T14:15:10.562473"
     },
     {
-        "question_id": "JITENSHA_14_1779085718",
+        "question_id": "JITENSHA_14_1779088510",
         "form_name": "JITENSHA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "4.\nsdr yamada Di suruh pergi kemana ?",
+        "context": "",
         "choices": [
             {
                 "text": "\u3068\u3057\u3087\u304b\u3093",
@@ -498,14 +528,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "b09a977f8eee32a39e57ac7b9d205cd5",
-        "created_at": "2026-05-18T13:28:38.286977"
+        "created_at": "2026-05-18T14:15:10.926491"
     },
     {
-        "question_id": "JITENSHA_15_1779085718",
+        "question_id": "JITENSHA_15_1779088511",
         "form_name": "JITENSHA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "5.\nterkait toko/mall\u00a02 soal\n\n\n\u00a0a. di lantai berapa yg jual \u30d0\u30c3\u30b0?",
+        "context": "",
         "choices": [
             {
                 "text": "Lantai 1F",
@@ -524,14 +556,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "0c2650c07359980c6a53952da4991939",
-        "created_at": "2026-05-18T13:28:38.655294"
+        "created_at": "2026-05-18T14:15:11.294568"
     },
     {
-        "question_id": "JITENSHA_16_1779085719",
+        "question_id": "JITENSHA_16_1779088511",
         "form_name": "JITENSHA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "6.\u00a0\u00a0\nb. di lantai 3F sampe jam berapa?",
+        "context": "",
         "choices": [
             {
                 "text": "10.00",
@@ -550,14 +584,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "69fac7074d942bf93b79460e3a76655d",
-        "created_at": "2026-05-18T13:28:39.022441"
+        "created_at": "2026-05-18T14:15:11.659510"
     },
     {
-        "question_id": "JITENSHA_17_1779085719",
+        "question_id": "JITENSHA_17_1779088512",
         "form_name": "JITENSHA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "7.\ncerita tentang soujiki vacum cleaner dapet rekomendasi dari teman\u00a02 soal\n\n\na. kenapa saudara niko membeli mesin pembersih debu itu?",
+        "context": "",
         "choices": [
             {
                 "text": "\u3068\u3082\u3060\u3061\u304b\u3089\u3044\u3044\u3068\u3044\u3063\u305f\u304b\u3089",
@@ -576,14 +612,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "7d18503c70b90f83bd1e18d24b83a29d",
-        "created_at": "2026-05-18T13:28:39.386639"
+        "created_at": "2026-05-18T14:15:12.027818"
     },
     {
-        "question_id": "JITENSHA_18_1779085719",
+        "question_id": "JITENSHA_18_1779088512",
         "form_name": "JITENSHA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "8.\u00a0 \u00a0\nb. hal apa yg di sesali setelah beli vacum cleaner ?",
+        "context": "",
         "choices": [
             {
                 "text": "\u30b5\u30a4\u30ba \u306f \u3059\u3053\u3057 \u5927\u304d\u3044\u3053\u3068",
@@ -598,14 +636,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "1629d5e805b7958cb55d56a333fcb7e1",
-        "created_at": "2026-05-18T13:28:39.747238"
+        "created_at": "2026-05-18T14:15:12.386683"
     },
     {
-        "question_id": "JITENSHA_19_1779085720",
+        "question_id": "JITENSHA_19_1779088512",
         "form_name": "JITENSHA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "10.\u00a0\n\n\nb. orang yg baru pertama kali datang jam berapa?",
+        "context": "",
         "choices": [
             {
                 "text": "19:27",
@@ -624,14 +664,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "9173dd2d1b70246926f4e97410d85818",
-        "created_at": "2026-05-18T13:28:40.152958"
+        "created_at": "2026-05-18T14:15:12.782707"
     },
     {
-        "question_id": "JITENSHA_20_1779085720",
+        "question_id": "JITENSHA_20_1779088513",
         "form_name": "JITENSHA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "11.\u00a0Tentang himbauan gempa\u00a02 soal\n\n\na. persiapan makanannya sebaiknya untuk berapa hari",
+        "context": "",
         "choices": [
             {
                 "text": "1\u9031\u9593",
@@ -650,14 +692,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "b5e3f500d7602c14c27fc6097359091d",
-        "created_at": "2026-05-18T13:28:40.520463"
+        "created_at": "2026-05-18T14:15:13.124237"
     },
     {
-        "question_id": "JITENSHA_21_1779085720",
+        "question_id": "JITENSHA_21_1779088513",
         "form_name": "JITENSHA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "12.\u00a0\u00a0\n\n\nb. ketika jishin apa yg harus dilakukan jika tinggal didekat laut?",
+        "context": "",
         "choices": [
             {
                 "text": "\u4f55\u3082\u98df\u3079\u307e\u305b\u3093",
@@ -676,6 +720,6 @@
         "audio_url": "",
         "audio": "",
         "hash": "e52ab69a73587a960a37b571c2042cc0",
-        "created_at": "2026-05-18T13:28:40.886892"
+        "created_at": "2026-05-18T14:15:13.492550"
     }
 ]

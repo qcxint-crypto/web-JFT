@@ -1,10 +1,12 @@
 [
     {
-        "question_id": "TANA_0_1779084914",
+        "question_id": "TANA_0_1779087645",
         "form_name": "TANA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "1.\u00a0\u00a0\nA : RUMAH SAUDARA TANAKA DARI PERUSAHAAN JAUH KAN YAH\nSETIAP PAGI BANGUN PADA JAM BERAPA ?\nB : SETIAP PAGI BANGUN PADA JAM 05.30\nKALAU SAUDARA KAORI ?\nA : KALAU SAYA SETIAP PAGI BANGUN PADA JAM 7.00\n\n\nA. PEREMPUANNYA BANGUN PADA JAM BERAPA ?",
+        "context": "",
         "choices": [
             {
                 "text": "Jam 07.30",
@@ -23,14 +25,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "5ee9650b5c57c950f41192700da4be9f",
-        "created_at": "2026-05-18T13:15:14.901970"
+        "created_at": "2026-05-18T14:00:45.770312"
     },
     {
-        "question_id": "TANA_1_1779084915",
+        "question_id": "TANA_1_1779087646",
         "form_name": "TANA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "2.\u00a0\u00a0\nA : SETELAH INI MAU BAGAIMANA ?\nB : KALAU MAKAN BAGAIMANA ? APAKAH SUDAH LAPAR ?\nA : BELUM, ADA BUKU YANG INGIN SAYA BELI SETELAH INI\nTAPI, SEBELUM MEMBELI BUKU SAYA INGIN MENGAMBIL UANG KE ATM\nBOLEHKAH SAYA PERGI KE ATM DULU ?\nB : YA, KALAU BEGITU AYO\n\n\nB. APA YANG PERTAMA KALI DILAKUKAN PEREMPUAN TERSEBUT ?",
+        "context": "",
         "choices": [
             {
                 "text": "Membeli buku",
@@ -49,14 +53,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "85151b42ab2a0daff247027a53d7f66c",
-        "created_at": "2026-05-18T13:15:15.251712"
+        "created_at": "2026-05-18T14:00:46.127636"
     },
     {
-        "question_id": "TANA_2_1779084915",
+        "question_id": "TANA_2_1779087646",
         "form_name": "TANA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "3.\u00a0\nA : HOBI SAUDARA TANAKA APA ?\nB : HOBI SAYA BERMACAM MACAM, SEPERTI BERMAIN TENIS, BERWISATA, DAN MEMASAK\nTAPI, KARENA TAHUN LALU KAKI SAYA SAKIT, SEKARANG SUDAH TIDAK BERMAIN TENIS.\nKALAU WISATA, SAYA MULAI SEJAK SMA, OLEH KARENA ITU SETIAP TAHUN SEKALI SAYA\nPERGI BERWISATA. KARENA KETIKA WISATA BANYAK MAKANAN YANG ENAK , AKHIR AKHIR INI\nSAYA SERING MEMASAK, KALAU MAU NANTI AKAN SAYA BUATKAN MASAKAN\nA : BENARKAH ? TERIMA KASIH\n\n\nBARU BARU INI HOBI PRIA TERSEBUT APA ?",
+        "context": "",
         "choices": [
             {
                 "text": "MEMASAK / \u6599\u7406",
@@ -75,14 +81,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "6b22b91d802545ad0a29bae801066eb1",
-        "created_at": "2026-05-18T13:15:15.618986"
+        "created_at": "2026-05-18T14:00:46.503931"
     },
     {
-        "question_id": "TANA_3_1779084915",
+        "question_id": "TANA_3_1779087646",
         "form_name": "TANA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "4.\u00a0\nA : JERUK INI HARGANYA BERAPA ?\nB : 1 BUAH 150 YEN\nA : KALAU APEL NYA ?\nB : APEL NYA 1 BUAH 120 YEN\nA : KALAU BEGITU , TOLONG APELNYA SATU\n\nHARGA APELNYA BERAPA ?",
+        "context": "",
         "choices": [
             {
                 "text": "150 Yen",
@@ -101,14 +109,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "1d9b067bb75081c346f4a04c9d16f0b4",
-        "created_at": "2026-05-18T13:15:15.992373"
+        "created_at": "2026-05-18T14:00:46.860193"
     },
     {
-        "question_id": "TANA_4_1779084917",
+        "question_id": "TANA_4_1779087647",
         "form_name": "TANA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_image",
         "question": "5.\u00a0\nA : HALO\nB : HALO, INI TOKO ASIA SHOP\nA : MAAF SEKARANG SAYA DI STASIUN, DAN INGIN PERGI KE TOKO,\nTAPI SAYA TIDAK TAHU TEMPATNYA\nB : KALAU DARI STASIUN TOLONG PERGI LURUS MENGIKUTI JALAN BESAR\nKEMUDIAN NANTI ADA JEMBATAN, SETELAH MENYEBRANG JEMBATAN,\nTOKONYA DISEBELAH KIRI\nA : BAIKLAH, TERIMA KASIH\n\n\nTOKONYA DIMANA ?",
+        "context": "",
         "choices": [
             {
                 "text": "LURUS, LALU MENYEBRANG JEMBATAN, DI SEBELAH KANAN",
@@ -125,7 +135,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDi6kUKv-wgGUPAo5nKs2-sQZnOK2lYd2lFxqnVfyWGXBw9HotIfDdcA0s7ztXdr5Dol11tdtJMk719dH5673Qgd-kLNPGWSbzsoqRBEw7sepSauIZCbqgE3-i0nga5IxjgF6hEl5e9ZxB7cBo7nupZKXEMSgnmEieuJWWfNvRTrgWH8iBrwajtqxV7kc5a8DQeFH2uXsOQumAN=w412?key=lqrP7CI00SUj-mmik5XiXQ",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDkPb07_MsgcIbwNdE31rM3brteyfhUNlBLf7qmHqKxps1T1L_k1c-Y4wYCrODLsEUnb6T4HKcrulvOhHVxfUjeiRk8T44LIOdatdumBP_IH81sX_7niMtjwtHDMjM1y2JDQe5PwQhucDSSugOtxVUtSDfQyj4HpNOALm1VctWIuHugvTok-fqFV8eNJnqNFlxNdBNJdPsqoBS1=w412?key=lqrP7CI00SUj-mmik5XiXQ",
                 "path": "images/4289b435572f2b5d6601e0d293480edd.png",
                 "index": 0
             }
@@ -133,33 +143,35 @@
         "audio_url": "",
         "audio": "",
         "hash": "cce82762bab64c821acf99e6dd417174",
-        "created_at": "2026-05-18T13:15:17.032356"
+        "created_at": "2026-05-18T14:00:47.622547"
     },
     {
-        "question_id": "TANA_5_1779084918",
+        "question_id": "TANA_5_1779087648",
         "form_name": "TANA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "6.\u00a0 PERCAKAPAN DI KEBUN BINATANG ANTARA PETUGAS DAN PENGUNJUNG\nA : MAAF APAKAH MASIH BISA BERKELILING KEBUN BINATANG DENGAN BUS ?\nB : KALAU UNTUK BIS, TADI SUDAH BIS YANG TERAKHIR, TAPI KALAU MAU BISA\nBERKELILING DENGAN MOBIL, KALAU DENGAN MOBIL BISA KAPAN SAJA, DAN\nADA PEMANDUNYA, TAPI HARGANYA 3000 YEN\nA : CUKUP MAHAL JUGA YAH\nB : KALAU YANG MURAH JUGA ADA, BISA BERKELILING DENGAN SEPEDA, HARGANYA\n300 YEN\nA : SEPEDA YAH, KALAU SEPEDA, MAAF SAYA TIDAK BISA. KALAU BEGITU\nYANG ADA PEMANDU NYA SAJA\nB : BAIKLAH\n\nSAAT BERWISATA KE KEBUN BINATANG, BERKELILING DENGAN APA ?",
+        "context": "",
         "choices": [
             {
                 "text": "\u81ea\u8ee2\u8eca",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAO4r1vtHW9xd8sx4d56RUOYBk08mXTbVvSELuunT5qIc0Nst09Gx6d4TtH_V031fHswq_lm-KhVUAyVUsMHXBgm_l18dshlu9wmwaZ1-myfSGADOLZuEbq5-TSCraeIqwiDSekESU_Qp_uJ5PKfL1_GS5ByI6erf59ii3gv-sbJUSPAeLOSbXCM7sNhHdYMsLju664D3yAgO8V=w260?key=lqrP7CI00SUj-mmik5XiXQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAH0KxWeJuXDxLP31enchbbML7VmR01ZB_c9Or7L_41hu3W0YQZjauqByFiBcbIPizz-wCo5pijkcKIFACYka5VflQ-G7nT_rRlXtq72VBjEKMUKdtowL_uPiaNiZfg9QQSsmZJQnS-QiFeEL5puFTX8fCsfIr_efAiKMuN_ZlTwDOabO5jASZKMb6D-MLrwk9Ng97lHpBkHa_4=w260?key=lqrP7CI00SUj-mmik5XiXQ",
                     "path": "images/f5865907d330768a076b9dbbc66c8e75.png"
                 }
             },
             {
                 "text": "\u30d0\u30b9",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCfjNIQ261HEIA1Y8HT_kpeJTnqbRCb6S98jf5vu2GzN9Rm17GJ2rU-3PKWD86pz3kE4BcgRzG1oECOJ_1DpY6AbKnaPe_Rw8k5sf-PHCxTrQL_wi-WGsSQdcjQ0PZ-sjnCO0Y8up9OPbYER_dMMfJeUsMgsXL4vgsADlp2_uCXdQC-4YNGYptqPYNMkAtGLr76CE_Zf-g_s85y=w260?key=lqrP7CI00SUj-mmik5XiXQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCs51UhjBFk8uIQ3pDXHwIdHZd0c02S3EvKcgZ7bXEbeaMZOJDVIQ7LVjXz47GCi7u-DyYrWQcrbM3Y1vdfRD2J5SlqqwxF0ngzy8fwK1Q_ijA3V7vNpTK5xYtF2xsRolmsO_eLVRG0ptSfntXgsk3QgQmA7O7-Bkyx3elExKXm2fSt-TogcNJqvI6d53lFl8hr0QyFbquy5Nj3=w260?key=lqrP7CI00SUj-mmik5XiXQ",
                     "path": "images/87bcaf1e4518565da468b38ef1845c40.png"
                 }
             },
             {
                 "text": "\u30b8\u30fc\u30d7",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCZTzeMm9TEAdmPWmGiwL95jpZXYpWySet-3S38InHA10nPLi9YliXERkH56tIcSdE5HJsvmx2RGe6qtCLh4OuyvRQoN5odhxt5U-_9BKOGwXbz8mgOdk9e5j51blZXo9Dnz-L5tazi-6bhn5OKqcE6LZnSszJRtU39jX4xtBCA51N7XWyQUHqazoW33czaBZw485grPifnspY2=w260?key=lqrP7CI00SUj-mmik5XiXQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCiVFUpvQDM93zYmmfdB-_dWumNQZdMUy15oif_sPEzKGztEUT9jB6NVbZn0GfUhsqv8YVHi8EHEj0t375qqjqksPClMGm9cAqT-Mn19WSbYIwyO5vB_r9Bcfqz6ZX4pHWuhqSdb2rMXGcui_-f_YTxLOBKqioft66Xz7A7dcyS6fwcEbsG1B9JmG0RsNugPJl_PPPGhktRHsaq=w260?key=lqrP7CI00SUj-mmik5XiXQ",
                     "path": "images/74d4db408eaa7e6c65192d78eb27b9a9.png"
                 }
             }
@@ -168,14 +180,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "231caafd38f28b59686c0c89c6478f45",
-        "created_at": "2026-05-18T13:15:18.548558"
+        "created_at": "2026-05-18T14:00:48.916667"
     },
     {
-        "question_id": "TANA_6_1779084918",
+        "question_id": "TANA_6_1779087649",
         "form_name": "TANA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "7.\u00a0\u00a0\nA : TOLONG AMBILKAN KERTAS YANG UKURAN A3\nB : BAIKLAH. KERTASNYA ADA DIMANA ?\nA : DIBAWAH MEJA\n\u00a0\nA. KERTASNYA ADA DIMANA ?",
+        "context": "",
         "choices": [
             {
                 "text": "Di bawah Meja",
@@ -194,14 +208,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "4d9793a010e3efeb477d34dda9b5636c",
-        "created_at": "2026-05-18T13:15:18.906708"
+        "created_at": "2026-05-18T14:00:49.259915"
     },
     {
-        "question_id": "TANA_7_1779084919",
+        "question_id": "TANA_7_1779087649",
         "form_name": "TANA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "8.\u00a0\u00a0\n\u00a0B. KERTASNYA UKURAN APA ?",
+        "context": "",
         "choices": [
             {
                 "text": "A3",
@@ -220,14 +236,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "7c3c20aa17f6482c8ad05e4f387bf459",
-        "created_at": "2026-05-18T13:15:19.274573"
+        "created_at": "2026-05-18T14:00:49.627518"
     },
     {
-        "question_id": "TANA_8_1779084919",
+        "question_id": "TANA_8_1779087649",
         "form_name": "TANA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "9.\u00a0\u00a0\n\u00a0\u00a0PEMBERITAHUAN MENGENAI KEBAKARAN DI MALL\u00a0\n\n\nA.\u00a0 KEBAKARANNYA DI LANTAI BERAPA ?",
+        "context": "",
         "choices": [
             {
                 "text": "3 \u304b\u3044,",
@@ -246,14 +264,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "fb76063261b1deb98081fd37443852d6",
-        "created_at": "2026-05-18T13:15:19.638246"
+        "created_at": "2026-05-18T14:00:49.992957"
     },
     {
-        "question_id": "TANA_9_1779084920",
+        "question_id": "TANA_9_1779087650",
         "form_name": "TANA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "10.\u00a0\nB JANGAN PAKAI LIFT, PAKAI TANGGA SAJA, TANGGANYA ADA DIMANA ?",
+        "context": "",
         "choices": [
             {
                 "text": "Sebelah Lift",
@@ -272,14 +292,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "b2cb6e21711508e87891c1c1a48375d6",
-        "created_at": "2026-05-18T13:15:20.006183"
+        "created_at": "2026-05-18T14:00:50.362743"
     },
     {
-        "question_id": "TANA_10_1779084920",
+        "question_id": "TANA_10_1779087650",
         "form_name": "TANA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "11.\u00a0\u00a0\nPEMBERITAHUAN MENGENAI JADWAL HARI KERJA DAN PERALATAN\n\n\nA. KAPAN BEKERJA DI KANTOR ?",
+        "context": "",
         "choices": [
             {
                 "text": "\u6c34\u66dc\u65e5\u3067\u3059",
@@ -298,14 +320,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "fbc971076e1ff74e2e883f276a5a0b6d",
-        "created_at": "2026-05-18T13:15:20.370423"
+        "created_at": "2026-05-18T14:00:50.728041"
     },
     {
-        "question_id": "TANA_11_1779084920",
+        "question_id": "TANA_11_1779087651",
         "form_name": "TANA",
         "page_number": 1,
         "category": "moji_goi",
+        "question_type": "text_only",
         "question": "12.\u00a0\nB. SAAT BEKERJA DI PABRIK MEMBAWA APA ?",
+        "context": "",
         "choices": [
             {
                 "text": "Sarung Tangan",
@@ -324,14 +348,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "0bdb0c8eaa486cb554dbfb1579d16aa3",
-        "created_at": "2026-05-18T13:15:20.734955"
+        "created_at": "2026-05-18T14:00:51.095213"
     },
     {
-        "question_id": "TANA_12_1779084930",
+        "question_id": "TANA_12_1779087660",
         "form_name": "TANA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "1.\u00a0\u00a0\nA : RUMAH SAUDARA TANAKA DARI PERUSAHAAN JAUH KAN YAH\nSETIAP PAGI BANGUN PADA JAM BERAPA ?\nB : SETIAP PAGI BANGUN PADA JAM 05.30\nKALAU SAUDARA KAORI ?\nA : KALAU SAYA SETIAP PAGI BANGUN PADA JAM 7.00\n\n\nA. PEREMPUANNYA BANGUN PADA JAM BERAPA ?",
+        "context": "",
         "choices": [
             {
                 "text": "Jam 07.30",
@@ -350,14 +376,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "5ee9650b5c57c950f41192700da4be9f",
-        "created_at": "2026-05-18T13:15:30.240326"
+        "created_at": "2026-05-18T14:01:00.647438"
     },
     {
-        "question_id": "TANA_13_1779084930",
+        "question_id": "TANA_13_1779087660",
         "form_name": "TANA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "2.\u00a0\u00a0\nA : SETELAH INI MAU BAGAIMANA ?\nB : KALAU MAKAN BAGAIMANA ? APAKAH SUDAH LAPAR ?\nA : BELUM, ADA BUKU YANG INGIN SAYA BELI SETELAH INI\nTAPI, SEBELUM MEMBELI BUKU SAYA INGIN MENGAMBIL UANG KE ATM\nBOLEHKAH SAYA PERGI KE ATM DULU ?\nB : YA, KALAU BEGITU AYO\n\n\nB. APA YANG PERTAMA KALI DILAKUKAN PEREMPUAN TERSEBUT ?",
+        "context": "",
         "choices": [
             {
                 "text": "Membeli buku",
@@ -376,14 +404,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "85151b42ab2a0daff247027a53d7f66c",
-        "created_at": "2026-05-18T13:15:30.584588"
+        "created_at": "2026-05-18T14:01:00.993642"
     },
     {
-        "question_id": "TANA_14_1779084930",
+        "question_id": "TANA_14_1779087661",
         "form_name": "TANA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "3.\u00a0\nA : HOBI SAUDARA TANAKA APA ?\nB : HOBI SAYA BERMACAM MACAM, SEPERTI BERMAIN TENIS, BERWISATA, DAN MEMASAK\nTAPI, KARENA TAHUN LALU KAKI SAYA SAKIT, SEKARANG SUDAH TIDAK BERMAIN TENIS.\nKALAU WISATA, SAYA MULAI SEJAK SMA, OLEH KARENA ITU SETIAP TAHUN SEKALI SAYA\nPERGI BERWISATA. KARENA KETIKA WISATA BANYAK MAKANAN YANG ENAK , AKHIR AKHIR INI\nSAYA SERING MEMASAK, KALAU MAU NANTI AKAN SAYA BUATKAN MASAKAN\nA : BENARKAH ? TERIMA KASIH\n\n\nBARU BARU INI HOBI PRIA TERSEBUT APA ?",
+        "context": "",
         "choices": [
             {
                 "text": "MEMASAK / \u6599\u7406",
@@ -402,14 +432,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "6b22b91d802545ad0a29bae801066eb1",
-        "created_at": "2026-05-18T13:15:30.950298"
+        "created_at": "2026-05-18T14:01:01.363426"
     },
     {
-        "question_id": "TANA_15_1779084931",
+        "question_id": "TANA_15_1779087661",
         "form_name": "TANA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "4.\u00a0\nA : JERUK INI HARGANYA BERAPA ?\nB : 1 BUAH 150 YEN\nA : KALAU APEL NYA ?\nB : APEL NYA 1 BUAH 120 YEN\nA : KALAU BEGITU , TOLONG APELNYA SATU\n\nHARGA APELNYA BERAPA ?",
+        "context": "",
         "choices": [
             {
                 "text": "150 Yen",
@@ -428,14 +460,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "1d9b067bb75081c346f4a04c9d16f0b4",
-        "created_at": "2026-05-18T13:15:31.324207"
+        "created_at": "2026-05-18T14:01:01.726402"
     },
     {
-        "question_id": "TANA_16_1779084932",
+        "question_id": "TANA_16_1779087662",
         "form_name": "TANA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_image",
         "question": "5.\u00a0\nA : HALO\nB : HALO, INI TOKO ASIA SHOP\nA : MAAF SEKARANG SAYA DI STASIUN, DAN INGIN PERGI KE TOKO,\nTAPI SAYA TIDAK TAHU TEMPATNYA\nB : KALAU DARI STASIUN TOLONG PERGI LURUS MENGIKUTI JALAN BESAR\nKEMUDIAN NANTI ADA JEMBATAN, SETELAH MENYEBRANG JEMBATAN,\nTOKONYA DISEBELAH KIRI\nA : BAIKLAH, TERIMA KASIH\n\n\nTOKONYA DIMANA ?",
+        "context": "",
         "choices": [
             {
                 "text": "LURUS, LALU MENYEBRANG JEMBATAN, DI SEBELAH KANAN",
@@ -452,7 +486,7 @@
         ],
         "images": [
             {
-                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDi6kUKv-wgGUPAo5nKs2-sQZnOK2lYd2lFxqnVfyWGXBw9HotIfDdcA0s7ztXdr5Dol11tdtJMk719dH5673Qgd-kLNPGWSbzsoqRBEw7sepSauIZCbqgE3-i0nga5IxjgF6hEl5e9ZxB7cBo7nupZKXEMSgnmEieuJWWfNvRTrgWH8iBrwajtqxV7kc5a8DQeFH2uXsOQumAN=w412?key=lqrP7CI00SUj-mmik5XiXQ",
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDkPb07_MsgcIbwNdE31rM3brteyfhUNlBLf7qmHqKxps1T1L_k1c-Y4wYCrODLsEUnb6T4HKcrulvOhHVxfUjeiRk8T44LIOdatdumBP_IH81sX_7niMtjwtHDMjM1y2JDQe5PwQhucDSSugOtxVUtSDfQyj4HpNOALm1VctWIuHugvTok-fqFV8eNJnqNFlxNdBNJdPsqoBS1=w412?key=lqrP7CI00SUj-mmik5XiXQ",
                 "path": "images/4289b435572f2b5d6601e0d293480edd.png",
                 "index": 0
             }
@@ -460,33 +494,35 @@
         "audio_url": "",
         "audio": "",
         "hash": "cce82762bab64c821acf99e6dd417174",
-        "created_at": "2026-05-18T13:15:32.022453"
+        "created_at": "2026-05-18T14:01:02.330686"
     },
     {
-        "question_id": "TANA_17_1779084933",
+        "question_id": "TANA_17_1779087663",
         "form_name": "TANA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "6.\u00a0 PERCAKAPAN DI KEBUN BINATANG ANTARA PETUGAS DAN PENGUNJUNG\nA : MAAF APAKAH MASIH BISA BERKELILING KEBUN BINATANG DENGAN BUS ?\nB : KALAU UNTUK BIS, TADI SUDAH BIS YANG TERAKHIR, TAPI KALAU MAU BISA\nBERKELILING DENGAN MOBIL, KALAU DENGAN MOBIL BISA KAPAN SAJA, DAN\nADA PEMANDUNYA, TAPI HARGANYA 3000 YEN\nA : CUKUP MAHAL JUGA YAH\nB : KALAU YANG MURAH JUGA ADA, BISA BERKELILING DENGAN SEPEDA, HARGANYA\n300 YEN\nA : SEPEDA YAH, KALAU SEPEDA, MAAF SAYA TIDAK BISA. KALAU BEGITU\nYANG ADA PEMANDU NYA SAJA\nB : BAIKLAH\n\nSAAT BERWISATA KE KEBUN BINATANG, BERKELILING DENGAN APA ?",
+        "context": "",
         "choices": [
             {
                 "text": "\u81ea\u8ee2\u8eca",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAO4r1vtHW9xd8sx4d56RUOYBk08mXTbVvSELuunT5qIc0Nst09Gx6d4TtH_V031fHswq_lm-KhVUAyVUsMHXBgm_l18dshlu9wmwaZ1-myfSGADOLZuEbq5-TSCraeIqwiDSekESU_Qp_uJ5PKfL1_GS5ByI6erf59ii3gv-sbJUSPAeLOSbXCM7sNhHdYMsLju664D3yAgO8V=w260?key=lqrP7CI00SUj-mmik5XiXQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAH0KxWeJuXDxLP31enchbbML7VmR01ZB_c9Or7L_41hu3W0YQZjauqByFiBcbIPizz-wCo5pijkcKIFACYka5VflQ-G7nT_rRlXtq72VBjEKMUKdtowL_uPiaNiZfg9QQSsmZJQnS-QiFeEL5puFTX8fCsfIr_efAiKMuN_ZlTwDOabO5jASZKMb6D-MLrwk9Ng97lHpBkHa_4=w260?key=lqrP7CI00SUj-mmik5XiXQ",
                     "path": "images/f5865907d330768a076b9dbbc66c8e75.png"
                 }
             },
             {
                 "text": "\u30d0\u30b9",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCfjNIQ261HEIA1Y8HT_kpeJTnqbRCb6S98jf5vu2GzN9Rm17GJ2rU-3PKWD86pz3kE4BcgRzG1oECOJ_1DpY6AbKnaPe_Rw8k5sf-PHCxTrQL_wi-WGsSQdcjQ0PZ-sjnCO0Y8up9OPbYER_dMMfJeUsMgsXL4vgsADlp2_uCXdQC-4YNGYptqPYNMkAtGLr76CE_Zf-g_s85y=w260?key=lqrP7CI00SUj-mmik5XiXQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCs51UhjBFk8uIQ3pDXHwIdHZd0c02S3EvKcgZ7bXEbeaMZOJDVIQ7LVjXz47GCi7u-DyYrWQcrbM3Y1vdfRD2J5SlqqwxF0ngzy8fwK1Q_ijA3V7vNpTK5xYtF2xsRolmsO_eLVRG0ptSfntXgsk3QgQmA7O7-Bkyx3elExKXm2fSt-TogcNJqvI6d53lFl8hr0QyFbquy5Nj3=w260?key=lqrP7CI00SUj-mmik5XiXQ",
                     "path": "images/87bcaf1e4518565da468b38ef1845c40.png"
                 }
             },
             {
                 "text": "\u30b8\u30fc\u30d7",
                 "image": {
-                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCZTzeMm9TEAdmPWmGiwL95jpZXYpWySet-3S38InHA10nPLi9YliXERkH56tIcSdE5HJsvmx2RGe6qtCLh4OuyvRQoN5odhxt5U-_9BKOGwXbz8mgOdk9e5j51blZXo9Dnz-L5tazi-6bhn5OKqcE6LZnSszJRtU39jX4xtBCA51N7XWyQUHqazoW33czaBZw485grPifnspY2=w260?key=lqrP7CI00SUj-mmik5XiXQ",
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCiVFUpvQDM93zYmmfdB-_dWumNQZdMUy15oif_sPEzKGztEUT9jB6NVbZn0GfUhsqv8YVHi8EHEj0t375qqjqksPClMGm9cAqT-Mn19WSbYIwyO5vB_r9Bcfqz6ZX4pHWuhqSdb2rMXGcui_-f_YTxLOBKqioft66Xz7A7dcyS6fwcEbsG1B9JmG0RsNugPJl_PPPGhktRHsaq=w260?key=lqrP7CI00SUj-mmik5XiXQ",
                     "path": "images/74d4db408eaa7e6c65192d78eb27b9a9.png"
                 }
             }
@@ -495,14 +531,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "231caafd38f28b59686c0c89c6478f45",
-        "created_at": "2026-05-18T13:15:33.256617"
+        "created_at": "2026-05-18T14:01:03.603979"
     },
     {
-        "question_id": "TANA_18_1779084933",
+        "question_id": "TANA_18_1779087663",
         "form_name": "TANA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "7.\u00a0\u00a0\nA : TOLONG AMBILKAN KERTAS YANG UKURAN A3\nB : BAIKLAH. KERTASNYA ADA DIMANA ?\nA : DIBAWAH MEJA\n\u00a0\nA. KERTASNYA ADA DIMANA ?",
+        "context": "",
         "choices": [
             {
                 "text": "Di bawah Meja",
@@ -521,14 +559,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "4d9793a010e3efeb477d34dda9b5636c",
-        "created_at": "2026-05-18T13:15:33.598220"
+        "created_at": "2026-05-18T14:01:03.959736"
     },
     {
-        "question_id": "TANA_19_1779084933",
+        "question_id": "TANA_19_1779087664",
         "form_name": "TANA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "8.\u00a0\u00a0\n\u00a0B. KERTASNYA UKURAN APA ?",
+        "context": "",
         "choices": [
             {
                 "text": "A3",
@@ -547,14 +587,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "7c3c20aa17f6482c8ad05e4f387bf459",
-        "created_at": "2026-05-18T13:15:33.978853"
+        "created_at": "2026-05-18T14:01:04.324907"
     },
     {
-        "question_id": "TANA_20_1779084934",
+        "question_id": "TANA_20_1779087664",
         "form_name": "TANA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "9.\u00a0\u00a0\n\u00a0\u00a0PEMBERITAHUAN MENGENAI KEBAKARAN DI MALL\u00a0\n\n\nA.\u00a0 KEBAKARANNYA DI LANTAI BERAPA ?",
+        "context": "",
         "choices": [
             {
                 "text": "3 \u304b\u3044,",
@@ -573,14 +615,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "fb76063261b1deb98081fd37443852d6",
-        "created_at": "2026-05-18T13:15:34.337412"
+        "created_at": "2026-05-18T14:01:04.691483"
     },
     {
-        "question_id": "TANA_21_1779084934",
+        "question_id": "TANA_21_1779087665",
         "form_name": "TANA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "10.\u00a0\nB JANGAN PAKAI LIFT, PAKAI TANGGA SAJA, TANGGANYA ADA DIMANA ?",
+        "context": "",
         "choices": [
             {
                 "text": "Sebelah Lift",
@@ -599,14 +643,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "b2cb6e21711508e87891c1c1a48375d6",
-        "created_at": "2026-05-18T13:15:34.699687"
+        "created_at": "2026-05-18T14:01:05.063033"
     },
     {
-        "question_id": "TANA_22_1779084935",
+        "question_id": "TANA_22_1779087665",
         "form_name": "TANA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "11.\u00a0\u00a0\nPEMBERITAHUAN MENGENAI JADWAL HARI KERJA DAN PERALATAN\n\n\nA. KAPAN BEKERJA DI KANTOR ?",
+        "context": "",
         "choices": [
             {
                 "text": "\u6c34\u66dc\u65e5\u3067\u3059",
@@ -625,14 +671,16 @@
         "audio_url": "",
         "audio": "",
         "hash": "fbc971076e1ff74e2e883f276a5a0b6d",
-        "created_at": "2026-05-18T13:15:35.074635"
+        "created_at": "2026-05-18T14:01:05.424773"
     },
     {
-        "question_id": "TANA_23_1779084935",
+        "question_id": "TANA_23_1779087665",
         "form_name": "TANA",
         "page_number": 2,
         "category": "kaiwa_hyougen",
+        "question_type": "text_only",
         "question": "12.\u00a0\nB. SAAT BEKERJA DI PABRIK MEMBAWA APA ?",
+        "context": "",
         "choices": [
             {
                 "text": "Sarung Tangan",
@@ -651,6 +699,6 @@
         "audio_url": "",
         "audio": "",
         "hash": "0bdb0c8eaa486cb554dbfb1579d16aa3",
-        "created_at": "2026-05-18T13:15:35.435971"
+        "created_at": "2026-05-18T14:01:05.794721"
     }
 ]

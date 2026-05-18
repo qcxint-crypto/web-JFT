@@ -2,6 +2,8 @@ interface QuestionProps {
   question: {
     question_id: string
     question: string
+    context?: string
+    question_type?: 'text_only' | 'text_image' | 'image_only' | 'chokai'
     choices: Array<{ text: string; image?: { url: string; path: string } }>
     images: Array<{ url: string; path: string; index: number }>
     audio: string
@@ -88,6 +90,13 @@ export default function QuestionCard({
         <div className="mb-4 inline-flex rounded-full border border-slate-900/8 bg-white/80 px-3 py-1.5 text-[11px] font-black uppercase tracking-[0.22em] text-slate-500">
           Prompt
         </div>
+
+        {question.context && (
+          <div className="mb-4 rounded-[18px] border border-slate-200/70 bg-slate-50/80 px-4 py-3">
+            <p className="mb-1 text-[10px] font-black uppercase tracking-[0.2em] text-slate-400">Konteks</p>
+            <p className="whitespace-pre-line text-sm leading-relaxed text-slate-600">{question.context}</p>
+          </div>
+        )}
 
         <h2 className="whitespace-pre-line font-display text-2xl font-bold leading-[1.15] tracking-[-0.05em] text-slate-950 md:text-[2rem]">
           {question.question || (question.images?.length > 0 ? '(Image Question)' : 'No Question Text')}
