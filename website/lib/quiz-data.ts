@@ -241,7 +241,7 @@ export function normalizeQuestions() {
     let previousPageNumber: number | null = null
     let lastAudio = ''
     let lastAudioUrl = ''
-    let lastImages: QuizQuestion['images'] = []
+    let lastPassageImages: QuizQuestion['images'] = []
 
     for (const question of orderedQuestions) {
       const nextQuestion = { ...question }
@@ -250,7 +250,7 @@ export function normalizeQuestions() {
       if (previousPageNumber !== null && question.page_number !== previousPageNumber) {
         lastAudio = ''
         lastAudioUrl = ''
-        lastImages = []
+        lastPassageImages = []
       }
 
       // Propagate audio: every question in a choukai set gets the shared audio
@@ -264,12 +264,20 @@ export function normalizeQuestions() {
         nextQuestion.audio_url = lastAudioUrl
       }
 
-      // Propagate images: every question in a dokkai/choukai set gets the shared image
-      // This ensures randomized questions still display the passage/image they belong to
+      // Propagate images: ONLY from "passage" questions (image-only, minimal text like "3.")
+      // Questions with substantial text have their own context — never propagate their images.
+      // This prevents kaiwa conversation images from leaking to unrelated adjacent questions.
       if (nextQuestion.images && nextQuestion.images.length > 0) {
-        lastImages = nextQuestion.images
-      } else if (lastImages.length > 0) {
-        nextQuestion.images = [...lastImages]
+        const strippedText = (nextQuestion.question || '').replace(/^\s*\d+\s*[.．]?\s*/, '').trim()
+        if (strippedText.length < 5) {
+          // Image-only / passage question → safe to propagate to dependent questions
+          lastPassageImages = nextQuestion.images
+        } else {
+          // Own context (kaiwa conversation etc.) → reset propagation chain
+          lastPassageImages = []
+        }
+      } else if (lastPassageImages.length > 0) {
+        nextQuestion.images = [...lastPassageImages]
       }
 
       propagatedQuestions.push(nextQuestion)
