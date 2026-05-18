@@ -11,6 +11,7 @@ interface Question {
   choices: Array<{ text: string; image?: { url: string; path: string } }>
   images: Array<{ url: string; path: string; index: number }>
   audio: string
+  audio_url?: string
   category: string
   categoryKey?: string
   correctAnswer?: string | number
@@ -318,22 +319,15 @@ export default function QuizPage() {
 
   return (
     <div className="space-y-6 pb-24">
-      <section className="glass-panel relative overflow-hidden rounded-[38px] px-6 py-7 sm:px-8">
+      <section className="glass-panel relative overflow-hidden rounded-[38px] px-4 py-5 sm:px-8 sm:py-7">
         <div
           aria-hidden="true"
           className="absolute right-[-3rem] top-[-2rem] h-36 w-36 rounded-full bg-[radial-gradient(circle_at_center,_rgba(91,168,255,0.24),_transparent_72%)] blur-2xl"
         />
-        <div className="relative grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
+        <div className="relative grid gap-4 lg:grid-cols-[1.05fr_0.95fr]">
           <div>
             <div className="text-[11px] font-black uppercase tracking-[0.3em] text-slate-500">Randomized JFT Session</div>
-            <h1 className="font-display mt-3 text-3xl font-bold tracking-[-0.06em] text-slate-950 sm:text-4xl">
-              Sesi latihan yang lebih fokus, lebih enak dilihat, dan tetap cepat dipakai.
-            </h1>
-            <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600 sm:text-base">
-              Soal tetap berjalan sesuai flow JFT: kosakata, percakapan, listening, lalu reading. Anda bisa kembali ke menu utama kapan saja lewat tombol yang ada di layar ini.
-            </p>
           </div>
-
           <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-3">
             <div className="rounded-[24px] border border-slate-900/10 bg-white/88 p-4">
               <div className="text-[11px] font-black uppercase tracking-[0.24em] text-slate-500">Answered</div>
@@ -350,7 +344,7 @@ export default function QuizPage() {
           </div>
         </div>
 
-        <div className="relative mt-6 flex flex-wrap items-center justify-between gap-4">
+        <div className="relative mt-4 flex flex-wrap items-center justify-between gap-3">
           <span className={`inline-flex rounded-full px-4 py-2 text-xs font-black uppercase tracking-[0.22em] ${categoryTheme.tone}`}>
             {categoryTheme.label}
           </span>
@@ -365,15 +359,12 @@ export default function QuizPage() {
 
       <ProgressBar current={currentIndex + 1} total={questions.length} />
 
-      <section className="glass-panel rounded-[34px] px-5 py-6 sm:px-7 sm:py-8">
+      <section className="glass-panel rounded-[34px] px-4 py-5 sm:px-7 sm:py-8">
         <div className="mb-7 flex flex-wrap items-start justify-between gap-4">
           <div>
             <div className="inline-flex rounded-full border border-slate-900/8 bg-white/80 px-3 py-1.5 text-[11px] font-black uppercase tracking-[0.24em] text-slate-500">
               Question {currentIndex + 1} of {questions.length}
             </div>
-            <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600">
-              Pilih jawaban terbaik. Progress akan tetap berada di halaman ini sampai Anda submit atau keluar ke menu utama.
-            </p>
           </div>
 
           {isAnswered && !submitted && (
@@ -391,9 +382,9 @@ export default function QuizPage() {
         />
       </section>
 
-      <div className="sticky bottom-4 z-30">
+      <div className="sticky bottom-3 z-30">
         <div className="glass-panel rounded-[30px] p-3 sm:p-4">
-          <div className="flex flex-col gap-3 md:flex-row md:items-center">
+          <div className="flex flex-col gap-2 md:flex-row md:items-center">
             <div className="text-[11px] font-black uppercase tracking-[0.28em] text-slate-500">
               Navigation Deck
             </div>

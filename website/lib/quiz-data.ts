@@ -21,6 +21,7 @@ export const QUIZ_CATEGORY_LABELS: Record<QuizCategoryKey, string> = {
 export interface QuizQuestion {
   question_id: string
   form_name: string
+  page_number?: number
   category?: string
   categoryKey?: QuizCategoryKey
   question: string
@@ -234,7 +235,34 @@ export function normalizeQuestions() {
       (left, right) => parseQuestionSequence(left.question_id) - parseQuestionSequence(right.question_id)
     )
 
-    const sections = splitFormIntoSections(orderedQuestions)
+    const propagatedQuestions: QuizQuestion[] = []
+    let previousPageNumber: number | null = null
+    let lastAudio = ''
+    let lastAudioUrl = ''
+
+    for (const question of orderedQuestions) {
+      const nextQuestion = { ...question }
+
+      if (previousPageNumber !== null && question.page_number !== previousPageNumber) {
+        lastAudio = ''
+        lastAudioUrl = ''
+      }
+
+      if (nextQuestion.audio || nextQuestion.audio_url) {
+        nextQuestion.audio = nextQuestion.audio || nextQuestion.audio_url || ''
+        nextQuestion.audio_url = nextQuestion.audio_url || nextQuestion.audio || ''
+        lastAudio = nextQuestion.audio
+        lastAudioUrl = nextQuestion.audio_url
+      } else if (lastAudio || lastAudioUrl) {
+        nextQuestion.audio = lastAudio
+        nextQuestion.audio_url = lastAudioUrl
+      }
+
+      propagatedQuestions.push(nextQuestion)
+      previousPageNumber = typeof question.page_number === 'number' ? question.page_number : null
+    }
+
+    const sections = splitFormIntoSections(propagatedQuestions)
     const storedCategories = sections.map(section =>
       section.map(question => normalizeStoredCategory(question.category)).find(Boolean) || null
     )

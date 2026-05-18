@@ -1,6 +1,5 @@
 'use client'
 
-import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
@@ -157,69 +156,45 @@ export default function Home() {
 
   if (!playerName) {
     return (
-      <div className="mx-auto max-w-3xl">
-        <section className="panel fade-up overflow-hidden p-6 sm:p-8">
-          <div className="grid gap-8 lg:grid-cols-[0.92fr_1.08fr]">
-            <div className="space-y-5">
-              <div className="portrait-card">
-                <div className="portrait-card__image">
-                  <Image
-                    src="/PP.JPG"
-                    alt="Rananwari portrait"
-                    width={720}
-                    height={960}
-                    className="h-full w-full object-cover"
-                    priority
-                  />
-                </div>
-                <div className="portrait-card__meta">
-                  <span className="eyebrow">owner</span>
-                  <strong>rananwari</strong>
-                  <a href="https://rananwari-web.vercel.app/" target="_blank" rel="noreferrer" className="owner-link">
-                    personal website
-                  </a>
-                </div>
-              </div>
+      <div className="mx-auto flex min-h-[calc(100vh-10rem)] max-w-2xl items-center justify-center px-2">
+        <section className="panel fade-up w-full max-w-xl p-6 sm:p-8">
+          <div className="mx-auto max-w-md space-y-5 text-center">
+            <span className="eyebrow">enter study mode</span>
+            <div className="space-y-3">
+              <h1 className="font-display text-2xl font-bold tracking-[-0.05em] text-slate-950 sm:text-3xl">
+                Masuk dulu pakai nama Anda agar skor bisa tampil di leaderboard mingguan.
+              </h1>
+              <p className="dashboard-copy">
+                Tidak perlu akun dan tidak perlu password. Nama ini akan dipakai untuk menampilkan rank JFT dan Kanji,
+                total soal yang sudah dikerjakan, serta rata-rata skor Anda.
+              </p>
             </div>
 
-            <div className="flex flex-col justify-center space-y-6">
-              <span className="eyebrow">enter study mode</span>
-              <div className="space-y-3">
-                <h1 className="dashboard-title">
-                  Masuk dulu pakai nama Anda agar skor bisa tampil di leaderboard mingguan.
-                </h1>
-                <p className="dashboard-copy">
-                  Tidak perlu akun dan tidak perlu password. Nama ini akan dipakai untuk menampilkan rank JFT dan Kanji,
-                  total soal yang sudah dikerjakan, serta rata-rata skor Anda.
-                </p>
-              </div>
-
-              <div className="panel-soft space-y-4 p-5">
-                <label className="eyebrow" htmlFor="player-name">
-                  Nama display
-                </label>
-                <input
-                  id="player-name"
-                  value={draftName}
-                  onChange={(event) => setDraftName(event.target.value)}
-                  onKeyDown={(event) => {
-                    if (event.key === 'Enter') {
-                      saveName()
-                    }
-                  }}
-                  placeholder="Masukkan nama Anda"
-                  className="input-shell"
-                  maxLength={32}
-                />
-                <button
-                  type="button"
-                  onClick={saveName}
-                  disabled={draftName.trim().length < 2 || savingName}
-                  className="button-primary tap-feedback disabled:cursor-not-allowed disabled:opacity-40"
-                >
-                  {savingName ? 'Menyimpan...' : 'Masuk ke Dashboard'}
-                </button>
-              </div>
+            <div className="panel-soft space-y-4 p-5 text-left">
+              <label className="eyebrow" htmlFor="player-name">
+                Nama display
+              </label>
+              <input
+                id="player-name"
+                value={draftName}
+                onChange={(event) => setDraftName(event.target.value)}
+                onKeyDown={(event) => {
+                  if (event.key === 'Enter') {
+                    saveName()
+                  }
+                }}
+                placeholder="Masukkan nama Anda"
+                className="input-shell"
+                maxLength={32}
+              />
+              <button
+                type="button"
+                onClick={saveName}
+                disabled={draftName.trim().length < 2 || savingName}
+                className="button-primary tap-feedback disabled:cursor-not-allowed disabled:opacity-40"
+              >
+                {savingName ? 'Menyimpan...' : 'Masuk ke Dashboard'}
+              </button>
             </div>
           </div>
         </section>
@@ -233,13 +208,10 @@ export default function Home() {
         <div className="dashboard-hero">
           <div className="space-y-5">
             <span className="eyebrow">welcome back</span>
-            <div className="space-y-3">
-              <h1 className="dashboard-title">Dashboard belajar yang lebih tenang, lebih rapi, dan tetap hidup.</h1>
-              <p className="dashboard-copy">
-                Hi, {playerName}. Semua sesi tetap cepat dimulai, tapi sekarang skor, rata-rata akurasi, dan rank mingguan
-                Anda langsung kebaca dari satu layar yang lebih simpel.
-              </p>
-            </div>
+            <p className="dashboard-copy max-w-2xl">
+              Hi, {playerName}. Semua sesi tetap cepat dimulai, tapi sekarang skor, rata-rata akurasi, dan rank mingguan
+              Anda langsung kebaca dari satu layar yang lebih simpel.
+            </p>
 
             <div className="metric-strip">
               <div className="metric-pill">

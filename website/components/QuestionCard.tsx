@@ -5,6 +5,7 @@ interface QuestionProps {
     choices: Array<{ text: string; image?: { url: string; path: string } }>
     images: Array<{ url: string; path: string; index: number }>
     audio: string
+    audio_url?: string
     correctAnswer?: string | number
   }
   selectedAnswer: number
@@ -78,9 +79,12 @@ export default function QuestionCard({
     return question.choices[idx]?.text === question.correctAnswer
   }
 
+  const audioSourcePath = question.audio || question.audio_url || ''
+  const hasAudio = Boolean(audioSourcePath)
+
   return (
     <div className="space-y-6 md:space-y-7">
-      <div className="rounded-[30px] border border-slate-900/8 bg-[rgba(255,255,255,0.78)] p-5 shadow-[0_18px_40px_-32px_rgba(15,23,42,0.6)] backdrop-blur-sm md:p-7">
+      <div className="rounded-[30px] border border-slate-900/8 bg-[color:var(--surface)] p-5 shadow-[0_18px_40px_-32px_rgba(15,23,42,0.6)] backdrop-blur-sm md:p-7">
         <div className="mb-4 inline-flex rounded-full border border-slate-900/8 bg-white/80 px-3 py-1.5 text-[11px] font-black uppercase tracking-[0.22em] text-slate-500">
           Prompt
         </div>
@@ -99,7 +103,7 @@ export default function QuestionCard({
                 <img
                   src={getImageUrl(img.path)}
                   alt={`Question image ${idx + 1}`}
-                  className="mx-auto max-h-80 w-full rounded-[18px] object-contain"
+                  className="choice-image mx-auto max-h-80 w-full rounded-[18px] object-contain"
                   onError={(e) => {
                     ;(e.target as HTMLImageElement).style.display = 'none'
                   }}
@@ -109,7 +113,7 @@ export default function QuestionCard({
           </div>
         )}
 
-        {question.audio && (
+        {hasAudio && (
           <div className="mt-6 overflow-hidden rounded-[28px] border border-sky-200/70 bg-[linear-gradient(135deg,rgba(91,168,255,0.16),rgba(255,255,255,0.82))] p-5 shadow-[0_18px_40px_-32px_rgba(59,130,246,0.45)]">
             <div className="mb-4 flex items-center gap-3">
               <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-[16px] bg-slate-900 text-white">
@@ -128,7 +132,7 @@ export default function QuestionCard({
             </div>
 
             <audio controls preload="metadata" className="block w-full max-w-full rounded-[18px]">
-              {getAudioSourceTypes(question.audio).map((source) => (
+              {getAudioSourceTypes(audioSourcePath).map((source) => (
                 <source key={`${source.src}-${source.type}`} src={source.src} type={source.type} />
               ))}
               Browser Anda tidak mendukung pemutar audio.
@@ -165,9 +169,9 @@ export default function QuestionCard({
               markerColor = 'bg-red-500 text-white'
             }
           } else if (isSelected) {
-            borderColor = 'border-sky-400'
-            bgColor = 'bg-sky-50 ring-1 ring-sky-400/30'
-            markerColor = 'bg-slate-900 text-white'
+            borderColor = 'border-[#4f7cff]'
+            bgColor = 'bg-[#dcecff] ring-1 ring-[#4f7cff]/35'
+            markerColor = 'bg-[#101828] text-white'
           }
 
           return (
@@ -190,11 +194,11 @@ export default function QuestionCard({
 
                 <div className="flex-1">
                   {choice.image && (
-                    <div className="mb-3 overflow-hidden rounded-[18px] border border-slate-900/8 bg-slate-50 p-1.5">
+                    <div className="mb-3 overflow-hidden rounded-[18px] border border-slate-900/8 bg-[color:var(--surface-soft)] p-1.5">
                       <img
                         src={getImageUrl(choice.image.path)}
                         alt={`Choice ${idx + 1}`}
-                        className="mx-auto h-32 w-auto rounded-[14px] object-contain md:h-40"
+                        className="choice-image mx-auto h-32 w-auto rounded-[14px] object-contain md:h-40"
                         onError={(e) => {
                           ;(e.target as HTMLImageElement).style.display = 'none'
                         }}
@@ -209,7 +213,9 @@ export default function QuestionCard({
                           ? 'text-emerald-900'
                           : submitted && isSelected && !isCorrect
                             ? 'text-red-900'
-                            : 'text-slate-800'
+                            : isSelected
+                              ? 'text-[#101828]'
+                              : 'text-slate-800'
                       }`}
                     >
                       {choice.text}

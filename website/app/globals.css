@@ -724,3 +724,172 @@ button {
 .text-white {
   color: #fff !important;
 }
+
+[data-theme='dark'] .kanji-choice {
+  background-color: rgba(23, 28, 36, 0.94) !important;
+  border-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+[data-theme='dark'] .kanji-choice--idle {
+  color: var(--ink-soft) !important;
+}
+
+[data-theme='dark'] .kanji-choice--correct {
+  background-color: rgba(22, 32, 28, 0.96) !important;
+  border-color: rgba(64, 211, 156, 0.24) !important;
+  color: #dcfff0 !important;
+}
+
+[data-theme='dark'] .kanji-choice--wrong {
+  background-color: rgba(34, 24, 28, 0.96) !important;
+  border-color: rgba(255, 143, 109, 0.24) !important;
+  color: #ffe8df !important;
+}
+
+[data-theme='dark'] .kanji-choice .bg-slate-900\/6 {
+  background-color: rgba(255, 255, 255, 0.06) !important;
+  color: var(--ink) !important;
+}
+
+[data-theme='dark'] .kanji-result-panel--correct {
+  background-color: rgba(20, 30, 26, 0.92) !important;
+  border-color: rgba(64, 211, 156, 0.22) !important;
+}
+
+[data-theme='dark'] .kanji-result-panel--wrong {
+  background-color: rgba(31, 22, 25, 0.92) !important;
+  border-color: rgba(255, 143, 109, 0.22) !important;
+}
+
+[data-theme='dark'] .kanji-feedback-row--correct {
+  background-color: rgba(19, 28, 24, 0.95) !important;
+  border-color: rgba(64, 211, 156, 0.18) !important;
+  color: #d9f8e9 !important;
+}
+
+[data-theme='dark'] .kanji-feedback-row--wrong {
+  background-color: rgba(28, 21, 24, 0.95) !important;
+  border-color: rgba(255, 143, 109, 0.18) !important;
+  color: #ffe7de !important;
+}
+
+[data-theme='dark'] .kanji-feedback-badge {
+  background-color: rgba(255, 143, 109, 0.14) !important;
+  color: #ffd7c8 !important;
+}
+
+@media (max-width: 767px) {
+  .site-header {
+    top: 8px;
+    padding: 10px 12px;
+    gap: 8px;
+    border-radius: 20px;
+    flex-wrap: nowrap;
+  }
+
+  .site-header__brand {
+    flex: 1 1 auto;
+    gap: 10px;
+    min-width: 0;
+  }
+
+  .site-header__owner {
+    min-width: 0;
+  }
+
+  .site-header__owner .avatar-shell {
+    padding: 1px;
+  }
+
+  .site-header__owner img {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 14px;
+  }
+
+  .owner-link,
+  .player-chip {
+    display: none;
+  }
+
+  .site-header__actions {
+    flex: 0 0 auto;
+    margin-left: 0;
+    gap: 6px;
+  }
+
+  .brand-title {
+    font-size: 1rem;
+    line-height: 1;
+  }
+
+  .eyebrow {
+    font-size: 9px;
+    letter-spacing: 0.22em;
+  }
+
+  .icon-button,
+  .button-secondary {
+    min-height: 38px;
+    padding-inline: 12px;
+    font-size: 13px;
+  }
+
+  .icon-button {
+    min-width: 38px;
+  }
+
+  .panel,
+  .glass-panel,
+  .panel-soft {
+    border-radius: 22px;
+  }
+
+  .dashboard-copy {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .metric-strip,
+  .mode-summary-grid,
+  .bank-summary-grid,
+  .current-run {
+    gap: 10px;
+  }
+
+  .metric-pill {
+    flex: 1 1 0;
+    min-width: 0;
+    padding: 12px 14px;
+  }
+
+  .mode-card {
+    padding: 18px;
+  }
+
+  .mode-card h2 {
+    font-size: 1.5rem;
+  }
+
+  .mode-card p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .dashboard-grid,
+  .dashboard-hero {
+    gap: 16px;
+  }
+
+  .portfolio-like-mobile-fix {
+    padding-top: 0.25rem;
+  }
+
+  .choice-image {
+    mix-blend-mode: multiply;
+  }
+
+  .kanji-choice .choice-image {
+    mix-blend-mode: normal;
+  }
+}

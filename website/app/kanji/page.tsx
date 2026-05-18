@@ -169,15 +169,15 @@ function FeedbackRow({
 }) {
   const toneClasses =
     tone === 'correct'
-      ? 'border-emerald-200 bg-white/92 text-emerald-950'
-      : 'border-rose-200 bg-white/92 text-rose-950'
+      ? 'kanji-feedback-row kanji-feedback-row--correct border-emerald-200 bg-white/92 text-emerald-950'
+      : 'kanji-feedback-row kanji-feedback-row--wrong border-rose-200 bg-white/92 text-rose-950'
 
   return (
     <div className={`rounded-[24px] border px-4 py-3 shadow-[0_18px_34px_-28px_rgba(15,23,42,0.35)] ${toneClasses}`}>
       <div className="flex items-start justify-between gap-3">
         <div className="text-sm font-semibold leading-relaxed md:text-base">{formatEntryLine(entry)}</div>
         {badge && (
-          <span className="shrink-0 rounded-full bg-rose-100 px-3 py-1 text-[10px] font-black uppercase tracking-[0.22em] text-rose-700">
+          <span className="kanji-feedback-badge shrink-0 rounded-full bg-rose-100 px-3 py-1 text-[10px] font-black uppercase tracking-[0.22em] text-rose-700">
             {badge}
           </span>
         )}
@@ -388,8 +388,8 @@ export default function KanjiQuizPage() {
 
   if (!quizStarted) {
     return (
-      <div className="grid gap-6 xl:grid-cols-[1.04fr_0.96fr]">
-        <section className="glass-panel relative overflow-hidden rounded-[38px] px-6 py-8 sm:px-8 sm:py-10">
+      <div className="mx-auto grid max-w-5xl gap-6 xl:grid-cols-[1.04fr_0.96fr]">
+        <section className="glass-panel relative hidden overflow-hidden rounded-[38px] px-6 py-8 xl:block sm:px-8 sm:py-10">
           <div
             aria-hidden="true"
             className="absolute right-[-3rem] top-[-2rem] h-40 w-40 rounded-full bg-[radial-gradient(circle_at_center,_rgba(0,215,160,0.24),_transparent_72%)] blur-2xl"
@@ -430,21 +430,21 @@ export default function KanjiQuizPage() {
           </div>
         </section>
 
-        <section className="glass-panel rounded-[38px] px-6 py-8 sm:px-8 sm:py-10">
+        <section className="glass-panel rounded-[38px] px-5 py-6 sm:px-8 sm:py-10">
           <div className="text-[11px] font-black uppercase tracking-[0.28em] text-slate-500">Setup Session</div>
-          <h2 className="font-display mt-3 text-3xl font-bold tracking-[-0.05em] text-slate-950">
+          <h2 className="font-display mt-3 text-2xl font-bold tracking-[-0.05em] text-slate-950 sm:text-3xl">
             Atur batch quiz Anda
           </h2>
           <p className="mt-3 text-sm leading-6 text-slate-600">
             Cocok untuk quick warm-up, review tengah malam, atau sesi hafalan panjang.
           </p>
 
-          <div className="mt-6 rounded-[28px] border border-slate-900/10 bg-white/88 p-5">
+          <div className="mt-6 rounded-[28px] border border-slate-900/10 bg-[color:var(--surface-strong)] p-4 sm:p-5">
             <div className="text-[11px] font-black uppercase tracking-[0.24em] text-slate-500">Jumlah Soal</div>
-            <div className="mt-4 flex items-center justify-center gap-3">
+            <div className="mt-4 flex items-center justify-center gap-2 sm:gap-3">
               <button
                 onClick={() => adjustQuestionCount(-5)}
-                className="flex h-12 w-12 items-center justify-center rounded-[18px] border border-slate-900/10 bg-slate-900 text-2xl font-black text-white transition hover:-translate-y-0.5"
+                className="flex h-11 w-11 items-center justify-center rounded-[18px] border border-slate-900/10 bg-slate-900 text-xl font-black text-white transition hover:-translate-y-0.5"
               >
                 −
               </button>
@@ -454,11 +454,11 @@ export default function KanjiQuizPage() {
                 max={allKanji.length}
                 value={questionsPerSession}
                 onChange={(event) => setQuestionsPerSession(clampQuestionCount(Number(event.target.value)))}
-                className="w-28 rounded-[20px] border border-slate-900/10 bg-white px-4 py-3 text-center text-xl font-black text-slate-950 outline-none focus:border-emerald-400"
+                className="w-24 rounded-[20px] border border-slate-900/10 bg-white px-3 py-3 text-center text-lg font-black text-slate-950 outline-none focus:border-emerald-400 sm:w-28 sm:text-xl"
               />
               <button
                 onClick={() => adjustQuestionCount(5)}
-                className="flex h-12 w-12 items-center justify-center rounded-[18px] border border-slate-900/10 bg-white text-2xl font-black text-slate-900 transition hover:-translate-y-0.5"
+                className="flex h-11 w-11 items-center justify-center rounded-[18px] border border-slate-900/10 bg-white text-xl font-black text-slate-900 transition hover:-translate-y-0.5"
               >
                 +
               </button>
@@ -471,7 +471,7 @@ export default function KanjiQuizPage() {
           <div className="mt-6 space-y-3">
             <button
               onClick={startQuiz}
-              className="inline-flex w-full items-center justify-center rounded-[22px] bg-slate-900 px-5 py-4 text-sm font-semibold text-white shadow-[0_18px_32px_-20px_rgba(15,23,42,0.82)] transition hover:-translate-y-0.5"
+              className="inline-flex w-full items-center justify-center rounded-[22px] bg-slate-900 px-5 py-3.5 text-sm font-semibold text-white shadow-[0_18px_32px_-20px_rgba(15,23,42,0.82)] transition hover:-translate-y-0.5"
             >
               Mulai Quiz Sekarang
             </button>
@@ -594,14 +594,7 @@ export default function KanjiQuizPage() {
         <div className="relative grid gap-6 lg:grid-cols-[1.08fr_0.92fr]">
           <div>
             <div className="text-[11px] font-black uppercase tracking-[0.3em] text-slate-500">Kanji Focus Mode</div>
-            <h1 className="font-display mt-3 text-3xl font-bold tracking-[-0.06em] text-slate-950 sm:text-4xl">
-              Satu layar, satu fokus, dan tetap ada jalan cepat balik ke menu utama.
-            </h1>
-            <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600 sm:text-base">
-              Anda sedang mengerjakan pairing acak antara Kanji, Hiragana, dan arti. Setelah memilih jawaban, semua opsi akan dijelaskan ulang supaya sesi tetap terasa edukatif.
-            </p>
           </div>
-
           <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-3">
             <div className="rounded-[24px] border border-slate-900/10 bg-white/88 p-4">
               <div className="text-[11px] font-black uppercase tracking-[0.24em] text-slate-500">Score</div>
@@ -693,6 +686,14 @@ export default function KanjiQuizPage() {
               buttonClass += 'border-slate-900/10 bg-white/90 text-slate-800 hover:-translate-y-0.5 hover:border-emerald-300'
             }
 
+            buttonClass += answered
+              ? isRight
+                ? ' kanji-choice kanji-choice--correct'
+                : isSelected
+                  ? ' kanji-choice kanji-choice--wrong'
+                  : ' kanji-choice kanji-choice--idle'
+              : ' kanji-choice kanji-choice--idle'
+
             return (
               <button
                 key={`${currentQuestion.id}-${option.id}-${index}`}
@@ -723,8 +724,8 @@ export default function KanjiQuizPage() {
 
         {answered && (
           <div
-            className={`mt-8 rounded-[28px] border p-6 ${
-              isCorrect ? 'border-emerald-200 bg-emerald-50/75' : 'border-rose-200 bg-rose-50/75'
+            className={`kanji-result-panel mt-8 rounded-[28px] border p-6 ${
+              isCorrect ? 'kanji-result-panel--correct border-emerald-200 bg-emerald-50/75' : 'kanji-result-panel--wrong border-rose-200 bg-rose-50/75'
             }`}
           >
             <div
