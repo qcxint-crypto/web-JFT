@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv
+venv/
+
+# Node
+node_modules/
+.next/
+.next-dev/
+.next-build/
+out/
+*.log
+
+# Secrets
+.env
+.env.local
+.env.*.local
+.credentials.json
+auth.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Temp
+session/
+*.tmp
+logs/*.png
+
+# Website build/data
+!website/output/
+!website/images/
+!website/audio/
