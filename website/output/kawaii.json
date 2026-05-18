@@ -1,0 +1,1620 @@
+[
+    {
+        "question_id": "KAWAII_0_1779091784",
+        "form_name": "KAWAII",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question_type": "image_only",
+        "question": "1.",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u305b\u304d",
+                "image": null
+            },
+            {
+                "text": "\u306d\u3064",
+                "image": null
+            },
+            {
+                "text": "\u30a4\u30f3\u30d5\u30eb\u30a8\u30f3\u30b6",
+                "image": null
+            }
+        ],
+        "images": [
+            {
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVC6-Jq8WFmjM-PkPCHPlfqX4-jWhlLB0eVafHbwOQdy_NUMa-QwHfBwFt2GLc7rEpB2BS3F98wYFoPnLh18YRwvM0mC6feOUK-pEKvEk2BImW7Ar157uRq2SDuo4yqcQGNNqPbdoGdZEiK1UzrthjhbLyQNMDmxOy3AUhDXQKJNF0lvT45pMlqDq3oXXEQNVmwiOzja2pBq0eI-=w545?key=BK7uoMAXMRaUNjzuDfdOMA",
+                "path": "images/798aecf696f6397df9136a3586d36319.png",
+                "index": 0
+            }
+        ],
+        "audio_url": "",
+        "audio": "",
+        "hash": "772c34404b8eb22d7d361bc07c181e8f",
+        "created_at": "2026-05-18T15:09:44.763652",
+        "correctAnswer": "\u305b\u304d"
+    },
+    {
+        "question_id": "KAWAII_1_1779091785",
+        "form_name": "KAWAII",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question_type": "image_only",
+        "question": "2.",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u9b5a",
+                "image": null
+            },
+            {
+                "text": "\u9ce5",
+                "image": null
+            },
+            {
+                "text": "\u3048\u3073",
+                "image": null
+            }
+        ],
+        "images": [
+            {
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDli5_uV-AAjGcaumXSuJdykncRVX-ch9WFedJ1ggIc9XXdcoiq3SI104iZbI3VC-uSaPN2LDLkL8uSQ8BPFVKUaHWEAjFNkp06HhcDtMH7pVcjZGYwW5gI8yuGVa2NG1dYYEtll66wgcRU5mawANRDW0-hKLS4YOGKX0N3Jjgv6e1zmkc4qdMtqfRR6BTGL7aue30AQLolhCCD=w329?key=BK7uoMAXMRaUNjzuDfdOMA",
+                "path": "images/f837f613544268a5d9fb71dc43594d43.png",
+                "index": 0
+            }
+        ],
+        "audio_url": "",
+        "audio": "",
+        "hash": "aeb97bb77efb41d7628b16441bc06da7",
+        "created_at": "2026-05-18T15:09:45.393558",
+        "correctAnswer": "\u3048\u3073"
+    },
+    {
+        "question_id": "KAWAII_2_1779091786",
+        "form_name": "KAWAII",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question_type": "image_only",
+        "question": "3.",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u30b9\u30fc\u30c4",
+                "image": null
+            },
+            {
+                "text": "\u30b7\u30e3\u30c4",
+                "image": null
+            },
+            {
+                "text": "\u30b9\u30dd\u30fc\u30c4",
+                "image": null
+            }
+        ],
+        "images": [
+            {
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVC15o3Q4VzvVjCjycKD03ZY4ic90bDkqJzJpRYsbAgjSsF48NTqVW-HNQpKeTIA5C-f8XRZoBqHVflHSXYYj44l6F4VaKpLpwkt2XzqrMysMlMQmBm-UmXR4HuDpaev8jr05hqSo3sUej5FSL4iiTUqIst3mffciz8LM5Tv5m1bCEcZOjucokC9p32WokxhxybK7CjJo9W0XHA=w396?key=BK7uoMAXMRaUNjzuDfdOMA",
+                "path": "images/5d5a59c659e883817e4eda80ea4b1444.png",
+                "index": 0
+            }
+        ],
+        "audio_url": "",
+        "audio": "",
+        "hash": "58a843e04368366d67cd104ccaecc299",
+        "created_at": "2026-05-18T15:09:46.440829",
+        "correctAnswer": "\u30b9\u30fc\u30c4"
+    },
+    {
+        "question_id": "KAWAII_3_1779091786",
+        "form_name": "KAWAII",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question_type": "text_only",
+        "question": "4. \u6bce\u65e5_________ \u3092 \u8aad\u307f\u307e\u3059",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u30de\u30f3\u30ac",
+                "image": null
+            },
+            {
+                "text": "\u307e\u3093\u304b",
+                "image": null
+            },
+            {
+                "text": "\u30de\u30f3\u30ac\u30a2",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "9eb3931f47c81ef0b3bb9879013c0221",
+        "created_at": "2026-05-18T15:09:46.793603",
+        "correctAnswer": "\u30de\u30f3\u30ac"
+    },
+    {
+        "question_id": "KAWAII_4_1779091787",
+        "form_name": "KAWAII",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question_type": "text_only",
+        "question": "5. \u3053\u306e\u304d\u304b\u3044 \u306e \u4f7f\u3044\u304b\u305f \u3092__________\u304f\u308c\u307e\u305b\u3093\u304b\uff1f",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u8aad\u3093\u3067",
+                "image": null
+            },
+            {
+                "text": "\u805e\u3044\u3066",
+                "image": null
+            },
+            {
+                "text": "\u6559\u3048\u3066",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "f830d11684791d6029ee2b66c7f98377",
+        "created_at": "2026-05-18T15:09:47.161226",
+        "correctAnswer": "\u6559\u3048\u3066"
+    },
+    {
+        "question_id": "KAWAII_5_1779091787",
+        "form_name": "KAWAII",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question_type": "text_only",
+        "question": "6.\nA : \u3053\u3046\u3058\u3087\u3046\u3067\u306f\u3001_________\u4ed5\u4e8b \u3092 \u3057\u3066\u3044\u307e\u3059\u304b\uff1f\nB : \u3076\u3072\u3093 \u3092 \u30c1\u30a7\u30c3\u30af\u3057\u3066\u3044\u307e\u3059",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u3053\u3093\u306a",
+                "image": null
+            },
+            {
+                "text": "\u3069\u3093\u306a",
+                "image": null
+            },
+            {
+                "text": "\u305d\u3093\u306a",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "477cde1027dab3dc9d0374914d31b587",
+        "created_at": "2026-05-18T15:09:47.527481"
+    },
+    {
+        "question_id": "KAWAII_6_1779091787",
+        "form_name": "KAWAII",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question_type": "text_only",
+        "question": "7. \u6bce\u9031\u3001\u304a\u305d\u304f\u307e\u3067\u3057\u3054\u3068\u3092_______\u3001\u3054\u98ef \u3092 \u98df\u3079\u307e\u3059",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u3057\u3066",
+                "image": null
+            },
+            {
+                "text": "\u3057\u307e\u3059",
+                "image": null
+            },
+            {
+                "text": "\u3057\u305f",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "a95a12813a4743a4108dad7a70b472be",
+        "created_at": "2026-05-18T15:09:47.895696"
+    },
+    {
+        "question_id": "KAWAII_7_1779091788",
+        "form_name": "KAWAII",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question_type": "text_only",
+        "question": "8. \u308f\u308c\u305f\u306e\u3067\u3001\u3053\u306e\u30b0\u30e9\u30b9 \u306f \u306f\u3053 \u306b\u3002\u3002\u3002\u3002\u304f\u3060\u3055\u3044",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u6368\u3066\u3066",
+                "image": null
+            },
+            {
+                "text": "\u904b\u3093\u3067",
+                "image": null
+            },
+            {
+                "text": "\u56de\u3057\u3066",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "0b61838605d8a8153f006f10ca7f6404",
+        "created_at": "2026-05-18T15:09:48.262238",
+        "correctAnswer": "\u6368\u3066\u3066"
+    },
+    {
+        "question_id": "KAWAII_8_1779091788",
+        "form_name": "KAWAII",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question_type": "text_only",
+        "question": "9. \u5148\u9031\u3001\u65e5\u672c\u306b\u304d\u305f\u3070\u304b\u308a\u3067\u3059\u3002",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u3053\u3093\u3057\u3085\u3046",
+                "image": null
+            },
+            {
+                "text": "\u3089\u3044\u3057\u3085\u3046",
+                "image": null
+            },
+            {
+                "text": "\u305b\u3093\u3057\u3085\u3046",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "f629bc251c2ad861df70ffda7f441538",
+        "created_at": "2026-05-18T15:09:48.629930",
+        "correctAnswer": "\u305b\u3093\u3057\u3085\u3046"
+    },
+    {
+        "question_id": "KAWAII_9_1779091788",
+        "form_name": "KAWAII",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question_type": "text_only",
+        "question": "10. \u3057\u3051\u3093 \u306b \u5408\u683c\u3057\u307e\u3057\u305f",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u305d\u3064\u304e\u3087\u3046",
+                "image": null
+            },
+            {
+                "text": "\u3054\u3046\u304b\u304f",
+                "image": null
+            },
+            {
+                "text": "\u3057\u3063\u3071\u3044",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "0f24c6543135b7f0b25c1f10034c577f",
+        "created_at": "2026-05-18T15:09:48.993774",
+        "correctAnswer": "\u3054\u3046\u304b\u304f"
+    },
+    {
+        "question_id": "KAWAII_10_1779091789",
+        "form_name": "KAWAII",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question_type": "text_only",
+        "question": "11. \u3053\u306e\u307e\u3061 \u306f \u81ea\u7136\u306a\u307e\u3061\u3067\u3059",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u3057\u305c\u3093",
+                "image": null
+            },
+            {
+                "text": "\u3057\u3051\u3093",
+                "image": null
+            },
+            {
+                "text": "\u3057\u305b\u3093",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "658aa4e17beb37abbd756338a7449bb4",
+        "created_at": "2026-05-18T15:09:49.362553",
+        "correctAnswer": "\u3057\u305c\u3093"
+    },
+    {
+        "question_id": "KAWAII_11_1779091789",
+        "form_name": "KAWAII",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question_type": "text_only",
+        "question": "12. \u5148\u751f \u306b \u65e5\u672c\u8a9e \u3092 \u7fd2\u3044\u307e\u3059",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u307e\u306a\u3073\u307e\u3059",
+                "image": null
+            },
+            {
+                "text": "\u306a\u3089\u3044\u307e\u3059",
+                "image": null
+            },
+            {
+                "text": "\u3044\u305d\u304e\u307e\u3059",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "23866cc9d554341545fbeac4f9f0cd3e",
+        "created_at": "2026-05-18T15:09:49.731046"
+    },
+    {
+        "question_id": "KAWAII_12_1779091790",
+        "form_name": "KAWAII",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question_type": "image_only",
+        "question": "13.",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u304b\u308f\u3044",
+                "image": null
+            },
+            {
+                "text": "\u304b\u308f\u3044\u3044",
+                "image": null
+            },
+            {
+                "text": "\u305f\u304b\u3044",
+                "image": null
+            }
+        ],
+        "images": [
+            {
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCvS44AIJMeUqu9lmG2yqfZeTmnGAZ_LnU1uaQKiPCXCFWX78C7wjO1WS4ruHhYrvWEbnZG9GqkulQj_WgGvWVgrAWSLu7R1NrkXSaPmpO09stfI80TmspyY6SWKqv3FcDZW4I3JtsLdeeGrOFs8xt4XnxYSAuBpORhJhjUDOTan0HQIG0WC_8BZ1cd7K6BRkW_conqOx-2UB3J=w301?key=BK7uoMAXMRaUNjzuDfdOMA",
+                "path": "images/c9ad0f1f97e446bb991ead3ea5ab1df4.png",
+                "index": 0
+            }
+        ],
+        "audio_url": "",
+        "audio": "",
+        "hash": "80c7aea4eb48faad679b22c677dd385d",
+        "created_at": "2026-05-18T15:09:50.496002",
+        "correctAnswer": "\u304b\u308f\u3044\u3044"
+    },
+    {
+        "question_id": "KAWAII_13_1779091791",
+        "form_name": "KAWAII",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question_type": "image_only",
+        "question": "14.",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u59c9  \u3042\u306d",
+                "image": null
+            },
+            {
+                "text": "\u5144  \u3042\u306b",
+                "image": null
+            },
+            {
+                "text": "\u304a\u723a\u3055\u3093  \u304a\u3058\u3044\u3055\u3093",
+                "image": null
+            }
+        ],
+        "images": [
+            {
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBgPj90Ika5Zvgsl2UGq8UMWe0wB2LqQ8u4ppGq4SgLeEQZcqGNLRO29ffe8-cSvNO9LdKwD_EoQAp_qlzIDbNP2MewMZOMtiKMA75QL2HoT_S5POYixyKFJv2EfNZArI2zqPCfWXHlCPwIEOCEbTgDBvfkZnBVN8kRNm8Nqr8V1rBuXYQ5M_Qya3pP_CsQjZ9QWSCAn6opBTjT=w342?key=BK7uoMAXMRaUNjzuDfdOMA",
+                "path": "images/f290e0a644fcc5139d29cc619e8d4ae0.png",
+                "index": 0
+            }
+        ],
+        "audio_url": "",
+        "audio": "",
+        "hash": "b2e289702d196cc1e746f245f742872c",
+        "created_at": "2026-05-18T15:09:51.336057",
+        "correctAnswer": "\u5144 \u3042\u306b"
+    },
+    {
+        "question_id": "KAWAII_14_1779091792",
+        "form_name": "KAWAII",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question_type": "image_only",
+        "question": "15.",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u5730\u9707  \u3058\u3057\u3093",
+                "image": null
+            },
+            {
+                "text": "\u53f0\u98a8  \u305f\u3044\u3075\u3046",
+                "image": null
+            },
+            {
+                "text": "\u3064\u306a\u307f",
+                "image": null
+            }
+        ],
+        "images": [
+            {
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVD3HgRggYvuTjSUI6R_95GWLUf-IYUH0UtK10h0FeojxtnuGJYN6DUhvYd3dl6BdoCi0jMxoJQVoqiRdTyARTNs4OXRl-GFu01Sad1lX7xegw5mLRsmCb8lLUDIx6DBT6KttoXZvSnDWZmMAn3AAR6FLJTZyq9_xRDHrWnCiW0u4HCDKW4DTqPqniEYNSNEnKZK-ERSLpraSCDf=w605?key=BK7uoMAXMRaUNjzuDfdOMA",
+                "path": "images/a793fb495046ebd597fc30c7f97cbb5d.png",
+                "index": 0
+            }
+        ],
+        "audio_url": "",
+        "audio": "",
+        "hash": "6cf72958b63d767e732e3b51f00c8d3e",
+        "created_at": "2026-05-18T15:09:52.817874",
+        "correctAnswer": "\u5730\u9707 \u3058\u3057\u3093"
+    },
+    {
+        "question_id": "KAWAII_15_1779091802",
+        "form_name": "KAWAII",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question_type": "text_only",
+        "question": "1.\u00a0\nA : \u30c8\u30a4\u30ec \u306f\u3069\u3053\u3067\u3059\u304b\nB : \u3052\u3093\u304b\u3093 \u306e __________",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u305d\u3053\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "\u3088\u3053\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "\u3042\u305d\u3053\u3067\u3059",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "fe15c7ad923f4307a64a2b98ffa0e49f",
+        "created_at": "2026-05-18T15:10:02.917725"
+    },
+    {
+        "question_id": "KAWAII_16_1779091803",
+        "form_name": "KAWAII",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question_type": "text_only",
+        "question": "2.\nA : \u65e5\u66dc\u65e5 \u306b \u306a\u306b \u3092 \u3057\u307e\u3057\u305f\u304b\nB : \u3057\u3054\u3068\u3057\u307e\u3057\u305f\u304b\u3089\u3001\u3068\u3066\u3082",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u3044\u305d\u304c\u3057\u304b\u3063\u305f\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "\u3072\u307e\u3060\u3063\u305f\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "\u3059\u3053\u3057\u304b\u3063\u305f\u3067\u3059",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "7be0dbcc7cec49fbda8bfdacd6d2f19f",
+        "created_at": "2026-05-18T15:10:03.265665",
+        "correctAnswer": "\u3044\u305d\u304c\u3057\u304b\u3063\u305f\u3067\u3059"
+    },
+    {
+        "question_id": "KAWAII_17_1779091803",
+        "form_name": "KAWAII",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question_type": "text_only",
+        "question": "3.\nA : \u3053\u306e\u3058\u3066\u3093\u3057\u3083\u3092__________, \u307b\u3093\u3084 \u3078 \u884c\u304d\u305f\u3044\u3067\u3059\u3002\nB : \u3048\u3048\u3001\u3069\u3046\u305e\u3002",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u6368\u3066\u3066\u3082\u3044\u3044\u3067\u3059\u304b",
+                "image": null
+            },
+            {
+                "text": "\u501f\u308a\u3066\u3082\u3044\u3044\u3067\u3059\u304b",
+                "image": null
+            },
+            {
+                "text": "\u6d17\u3063\u3066\u3082\u3044\u3044\u3067\u3059\u304b",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "5f5ffb281e91cfa49a1b597dd0b2fc04",
+        "created_at": "2026-05-18T15:10:03.632429",
+        "correctAnswer": "\u501f\u308a\u3066\u3082\u3044\u3044\u3067\u3059\u304b"
+    },
+    {
+        "question_id": "KAWAII_18_1779091803",
+        "form_name": "KAWAII",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question_type": "text_only",
+        "question": "4.\u00a0\nA : \u5148\u9031\u304b\u3089\u305a\u3063\u3068\u96e8\u305d\u3046\u3067\u3059\u306d\nB : \u305d\u3046\u3067\u3059\u306d\u3001\u305b\u3093\u305f\u304f\u306b\u305c\u3093\u305c\u3093\u3067\u304d\u307e\u305b\u3093\u306d\nA : __________",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u3044\u3084\u304f\u306a\u308a\u307e\u3059\u306d",
+                "image": null
+            },
+            {
+                "text": "\u3044\u3084\u306b\u306a\u308a\u307e\u3059\u306d",
+                "image": null
+            },
+            {
+                "text": "\u3044\u3084\u306b\u306a\u308a\u307e\u3059\u304b",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "67b0c85903cc000d5b581524d53326be",
+        "created_at": "2026-05-18T15:10:03.992961"
+    },
+    {
+        "question_id": "KAWAII_19_1779091804",
+        "form_name": "KAWAII",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question_type": "text_only",
+        "question": "5.\u00a0\nA : \u3042\u306e\u3046\u3059\u307f\u307e\u305b\u3093\u3001\u30bf\u30a4\u308a\u3087\u3046\u308a\u306e\u304a\u307f\u305b\u3057\u3063\u3066\u3044\u307e\u3059\u304b\nB : \u3072\u304b\u308a\u3053\u3046\u3048\u3093\u306b\u3042\u308a\u307e\u3059\u3002\nA : \u4f55\u6642\u306b__________\u308f\u304b\u308a\u307e\u3059\u304b\u00a0\nB : 10\u6642\u3067\u3059\u3002\nA : \u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u3042\u304f\u304b",
+                "image": null
+            },
+            {
+                "text": "\u304a\u304f\u304b",
+                "image": null
+            },
+            {
+                "text": "\u3046\u304b\u3046\u304b",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "03364efaef579535c2eb29ea6e54797d",
+        "created_at": "2026-05-18T15:10:04.369967",
+        "correctAnswer": "\u3042\u304f\u304b"
+    },
+    {
+        "question_id": "KAWAII_20_1779091804",
+        "form_name": "KAWAII",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question_type": "text_only",
+        "question": "6.\nA : \u304d\u308c\u3044\u3067\u3059\u306d\nB : \u305d\u3046\u3067\u3059\u306d\u3002\u3042\u3042\u3042\u3001\u3053\u3053\u3067\u6c34 \u3092 __________\u00a0\nA : \u3073\u3058\u3085\u3064\u304b\u3093 \u306e \u306a\u304b \u3067 \u30c0\u30e1\u306a\u3093\u3067\u3059\u3088\u3002",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u98f2\u307e\u306a\u3051\u308c\u3070\u306a\u308a\u307e\u305b\u3093",
+                "image": null
+            },
+            {
+                "text": "\u98f2\u307e\u306a\u3044\u3067\u304f\u3060\u3055\u3044",
+                "image": null
+            },
+            {
+                "text": "\u306e\u307e\u306a\u304f\u3066\u3082\u3044\u3044\u3067\u3059",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "e6dc67deabc82d7d2205345115242cd0",
+        "created_at": "2026-05-18T15:10:04.728097",
+        "correctAnswer": "\u98f2\u307e\u306a\u3044\u3067\u304f\u3060\u3055\u3044"
+    },
+    {
+        "question_id": "KAWAII_21_1779091805",
+        "form_name": "KAWAII",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question_type": "text_only",
+        "question": "7.\u00a0\nA : \u30a2\u30b0\u30b9\u3067\u3059\u3001\u30a4\u30f3\u30c9\u30cd\u30b7\u30a2\u304b\u3089\u304d\u307e\u3057\u305f\u3002\nB : \u304d\u308c\u3044\u306a\u540d\u524d\u3067\u3059\u306d\u3002__________\u00a0\nA : \u30a4\u30f3\u30c9\u30cd\u30b7\u30a2\u3067\u306f\u3001\u300c8\u6708\u306b\u751f\u307e\u308c\u305f\u3053\u300d\u3068\u3044\u3046\u3044\u307f\u3067\u3059\u3067\u3059\u3002",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u3069\u3046\u3044\u3046\u3044\u307f\u3067\u3059\u304b",
+                "image": null
+            },
+            {
+                "text": "\u3069\u3046\u3044\u307f\u3067\u3059\u304b",
+                "image": null
+            },
+            {
+                "text": "\u3069\u3046\u3044\u3044\u3067\u3059\u304b",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "534db132950b035e7871e3701bfeca85",
+        "created_at": "2026-05-18T15:10:05.098105"
+    },
+    {
+        "question_id": "KAWAII_22_1779091805",
+        "form_name": "KAWAII",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question_type": "text_only",
+        "question": "8.\nA : \u4f1a\u793e\u3092\u51fa\u3066\u304b\u3089\u3001\u4f55\u3092\u3057\u307e\u3059\u304b\nB : \u3058\u3076\u3093\u306e\u4f1a\u793e\u3092\u3064\u304f\u308d\u3046\u3068\u601d\u3044\u307e\u3059\u3002\n__________\u4eca\u3001\u3061\u3087\u3046\u304d\u3093\u3057\u3066\u3044\u307e\u3059\u3002",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u305d\u306e\u305f\u3081\u306b",
+                "image": null
+            },
+            {
+                "text": "\u305d\u306e\u3088\u3046\u306b",
+                "image": null
+            },
+            {
+                "text": "\u305d\u306e\u3060\u3063\u305f\u3089",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "3a21cf1f32431ec93c2bf412db50e569",
+        "created_at": "2026-05-18T15:10:05.459908",
+        "correctAnswer": "\u305d\u306e\u305f\u3081\u306b"
+    },
+    {
+        "question_id": "KAWAII_23_1779091805",
+        "form_name": "KAWAII",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question_type": "text_only",
+        "question": "9.\nA : B\u3055\u3093\u3001\u8f9b\u3044\u308a\u3087\u3046\u308a\u304c\u597d\u304d\u3067\u3059\u304b\nB : \u306f\u3044\u3001\u3059\u304d\u3067\u3059\u3002__________\u30ab\u30ec\u30fc\u3068\u304b\u3001\u30ad\u30e0\u30c1\u3068\u304b\u00a0\nA : \u79c1\u3082\u30ad\u30e0\u30c1\u304c\u597d\u304d\u3067\u3059\u3002",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u307b\u304b\u306e\u306f",
+                "image": null
+            },
+            {
+                "text": "\u3082\u3057",
+                "image": null
+            },
+            {
+                "text": "\u305f\u3068\u3048\u3070",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "b03c349e869f6f710be1dff207891a08",
+        "created_at": "2026-05-18T15:10:05.828356"
+    },
+    {
+        "question_id": "KAWAII_24_1779091806",
+        "form_name": "KAWAII",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question_type": "text_only",
+        "question": "10.\nA : \u65e5\u66dc\u65e5\u306b\u3001\u3048\u3044\u304c\u3092\u898b\u307e\u3057\u3087\u3046\u304b\nB : \u3059\u307f\u307e\u305b\u3093\u3001\u65e5\u66dc\u65e5\u306f",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u3048\u3063\u3068\u3002\u3002\u3002",
+                "image": null
+            },
+            {
+                "text": "\u3061\u3087\u3063\u3068\u3002\u3002\u3002",
+                "image": null
+            },
+            {
+                "text": "\u3082\u3063\u3068\u3002\u3002\u3002",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "62397d3913623c9691f5859d32160b99",
+        "created_at": "2026-05-18T15:10:06.195486",
+        "correctAnswer": "\u3061\u3087\u3063\u3068\u3002\u3002\u3002"
+    },
+    {
+        "question_id": "KAWAII_25_1779091806",
+        "form_name": "KAWAII",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question_type": "text_only",
+        "question": "11.\u00a0\nA : \u3058\u3085\u3046\u3069\u3046\u306f\u3069\u3046\u3067\u3059\u304b\nB : \u3058\u3085\u3046\u3069\u3046\u306f\u3080\u305a\u304b\u3057\u3044\u3067\u3059\u3002\u307e\u3060__________\u00a0\nA : \u305d\u3046\u306a\u3093\u3067\u3059\u304b\nB : \u3067\u3082\u3001\u3044\u3064\u3082\u7df4\u7fd2\u3057\u307e\u3059\u3002\u4e0a\u624b\u306b\u306a\u308a\u305f\u3044\u3067\u3059\u3002",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u306f\u3058\u3081\u305f\u3070\u304b\u308a\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "\u304a\u308f\u3063\u305f\u3070\u304b\u308a\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "\u306f\u3058\u3081\u3066\u3070\u304b\u308a\u3067\u3059",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "70dd485b090e9acf6d577f86bdb7f25b",
+        "created_at": "2026-05-18T15:10:06.562750",
+        "correctAnswer": "\u306f\u3058\u3081\u305f\u3070\u304b\u308a\u3067\u3059"
+    },
+    {
+        "question_id": "KAWAII_26_1779091806",
+        "form_name": "KAWAII",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question_type": "text_only",
+        "question": "12.\nA : \u3042\u305f\u3089\u3057\u3044\u3057\u3054\u3068\u306f\u3069\u3046\u3067\u3059\u304b\nB : \u305f\u3044\u3078\u3093\u3067\u3059\u3002__________\u304c\u3093\u3070\u308a\u307e\u3059\u3002",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u3067\u3082",
+                "image": null
+            },
+            {
+                "text": "\u305d\u3057\u3066",
+                "image": null
+            },
+            {
+                "text": "\u3060\u304b\u3089",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "105af8f496176109e0570fb5c0aa8d87",
+        "created_at": "2026-05-18T15:10:06.926188",
+        "correctAnswer": "\u3067\u3082"
+    },
+    {
+        "question_id": "KAWAII_27_1779091820",
+        "form_name": "KAWAII",
+        "page_number": 3,
+        "category": "choukai",
+        "question_type": "chokai",
+        "question": "1.\u00a0Audio\n\u30ad\u30e0\u30e9\u3055\u3093\u306f\u3069\u3053\u306b\u3044\u307e\u3059\u304b\uff1f",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u3057\u3087\u304f\u3069\u3046",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBl_1d1DRG1PDHIqwbs832pYfCUO0qdCyPZLFwrgIlj5UujvK0Oik61_yBxVrNak6AYrx5EOF0EZMyyl8RtCj23CI5ylAiC19xQT2gGDE7grQdOAD9OY-RashahCSySJJQI9qaiUicUZ9mIqkwLm166P4VbfnV7dwMtuf5IMvkeo__5RCrHTgHLTxl-2YtOtfSm1BPdC86YGZt6=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/550fb602eb63b1012a22c0ee1c9ae18c.png"
+                }
+            },
+            {
+                "text": "\u3048\u304d",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBzX_5sattWCCWwGfagYWEyQVE4qlTQPJGrY4XdGHddRBPTZ_Tq0_krrpYad4wj-9svGLHlVrxP9toZtYebItTEtkuiamLbShF8Na9e-31g0r9qlGmJLmWRy5xh4ynWv9BPTJhNZvQRLUtL26zAWEV7LePSPCEdbwqr3GnyrtWlW5eLWUqzHF7EoytJIfWCUHJlwGwsOMKLs9Ol=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/a7b140592553877add24c3db34740b30.png"
+                }
+            },
+            {
+                "text": "\u3053\u3046\u3048\u3093",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDw4fNou0kdEpgXZ0gJAV9o3BSa0C1KG1SF6eSVrsJRTJCGXOVUMN2bhC807QaseOtLKf20hEMbj9AG2Zoav1XOz_2AM2-qY2o06CQU5CnRNDcp4HAcs7hEdKHe_bNH9K5NpWk4nX3bBVfQKVHJ0SM-L7Rwa_n7MhQMudkOWakRefxbbybqUEJ84dQTrBe_oyeHLtTs=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/700ed43e6f77b77ae53eff1f90dc7ce5.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "https://drive.google.com/file/d/1W4v_4G51q9oDNay9rGsr2aS5Z_MBTben/view?usp=drive_link",
+        "audio": "audio/856cb6e4577bd21fd947b81ff86e8271.mp3",
+        "hash": "e7aaf28f360e34fcc3aa8ea3e42f0741",
+        "created_at": "2026-05-18T15:10:20.871966"
+    },
+    {
+        "question_id": "KAWAII_28_1779091824",
+        "form_name": "KAWAII",
+        "page_number": 3,
+        "category": "choukai",
+        "question_type": "chokai",
+        "question": "2.\u00a0\u00a0Audio\n\u65e5\u672c\u3067\u5973\u6027\u306e\u3058\u3083\u304f\u3066\u3093\u306f\u3069\u3053\u3067\u3059\u304b\uff1f",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u3061\u3087\u3046\u304b\u3044",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVALZbtUg3Q0JWIkRuP42Nwx8Bul5vZw8_CWMad5Gh13kxh-JALAPXGx0iIIWPP1nRgIalb06yhCBdqAyljEyyUZkTLS-rQUGrQe7XLcrqUqiWFaKjNRd30GFnY7h-1Wc7KZaSHdh5MROAZETyGRYhuqgGNcw-OJiQs3iSTgBvECuxn_lVX4wrsmXqJynFNnKxQN2ag6ixOlnZ6E=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/d16e5ec9bfb729778d6b0e5291991cde.png"
+                }
+            },
+            {
+                "text": "\u304b\u3044\u308f",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDBb6zvH4mZtpNHFemjqnW6qKRiChOTYWmkqFTSzsXLQliaJ_GTQWW1H2mi9ybO0axql6ONvTX62fQ7tKdmx1f1p4EzIjSFARLQ2zMpw5SbBKgMIYddlHxydnIEyakpr2CuHrUzQpBRZqrIB_xEr2Y6HpRPePe0N1MpqwWgatufHGWhotwhePhLDvgFzGRERUZMhwOcfn3Oeo20=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/84ef7fcd5435b91f626c69954e6d9987.png"
+                }
+            },
+            {
+                "text": "\u3069\u304b\u3044",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBiBBVJOtu6wwatqWX9r3UiTCgZ268G88skqFtgwADfW-JSa-z8SSCwPrCtvM3v8e5rJ545asbLXSrq84j7iooLO7ZXu8GLogQFRVMqd5I-_hwOqRAC2C1Ctx5o21MZvpS8zAdwnhKrcZ3ZDDlmkZnpxMe0XbDpxnfU7QZa88R2UnkyEnCzrkYtSXAp60qmwdhh9teV9jrt3KA=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/2b4599ff33bc9059e2387544c4b664a3.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "https://drive.google.com/file/d/1aW4jJU8ifVTJ80LwMZejrWhe5gq8s16K/view?usp=drive_link",
+        "audio": "audio/08a8b88e7a2b489066d342e4657a0aed.mp3",
+        "hash": "d227276d7d9cd1a36b5104b0727da2e2",
+        "created_at": "2026-05-18T15:10:24.928642",
+        "correctAnswer": "\u3061\u3087\u3046\u304b\u3044"
+    },
+    {
+        "question_id": "KAWAII_29_1779091826",
+        "form_name": "KAWAII",
+        "page_number": 3,
+        "category": "choukai",
+        "question_type": "text_only",
+        "question": "3. HAL APAKAH YANG MASIH BISA DI LAKUKAN WANITA SETELAH LIBUR TAHUN BARU?",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u3064\u308a\u3057\u307e\u3059",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAEJdQCHKUfVd8WvsMT_NNi-7JAOTGW3be2rHGfiYBogw0biSJjzWHqU7W2f0IBbd3fqlvgnIPxdGccZeiEbesrn9dXSTjgXdrmXQK6QgYUcItbCunVeO5Io_8WEeQQyQFFFWNqnjhAaY2Eo8MECHW91_Cc5iYcM9ggZKLN510tt75Ho27wLJUGjsJtizpRiRzmEVUXp5uJ8Wo=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/8f6d9df077a7871a075916d38d06ea90.png"
+                }
+            },
+            {
+                "text": "\u308a\u3087\u3053\u3046\u3057\u307e\u3059",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAg1sVyjCz4zFO92x27DyE2HRzCVQookjuWWL0gqO2cWYnF6MyfR90UNESmyuzdCNcVZSn-KqnojRSr_asrFLQhASmexjOyewMq6a2hhQyHmvPzmIzld5vHuSXXzrNWOjl-I5ZzeDnrcyp4ozyhAJH6RGnUFfxloTgYNfaY6AtlhxEyhZz5P6Im9oQuOEXCibTXHfLcIzUpvd_r=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/56d232a7093080d5a1298760a6ff4fa5.png"
+                }
+            },
+            {
+                "text": "camping",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAbEbQ8QpaGE1uUtSysN0rOzMu9ZlVOLwARY02KiD9QJGLBFe37hjqAvzDUsiDgC4dMouwV1AYU7XL-q9fyeNoIGp3jAjh5u-nC6k2nuX342foWeOkek28u6wFw5wChVzN_YQDgrI_hmbxero-LCDFg7D6ElapQVvObHn0KOkNv7q1B4oc_v1D4zNK3zmPixbGgbgA_Jd5ETDQ=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/fc1d0234122e4feb812e107d7c99ad70.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "daa36d897343fe317a78ae39044d7e19",
+        "created_at": "2026-05-18T15:10:26.257012",
+        "correctAnswer": "\u308a\u3087\u3053\u3046\u3057\u307e\u3059"
+    },
+    {
+        "question_id": "KAWAII_30_1779091828",
+        "form_name": "KAWAII",
+        "page_number": 3,
+        "category": "choukai",
+        "question_type": "chokai",
+        "question": "4.\u00a0Audio\nBERAPA HARGA TOPI?",
+        "context": "",
+        "choices": [
+            {
+                "text": "1900\u5186",
+                "image": null
+            },
+            {
+                "text": "1800\u5186",
+                "image": null
+            },
+            {
+                "text": "1700\u5186",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "https://drive.google.com/file/d/1z4MCuxDHcrPUJFEW_DcGrdTteCv8zcvf/view?usp=drive_link",
+        "audio": "audio/d516f7a6d044ba508968499cf4fe68ca.mp3",
+        "hash": "40cd09f7af91cfd87108cce1073ccf9f",
+        "created_at": "2026-05-18T15:10:28.869119",
+        "correctAnswer": "1900\u5186"
+    },
+    {
+        "question_id": "KAWAII_31_1779091832",
+        "form_name": "KAWAII",
+        "page_number": 3,
+        "category": "choukai",
+        "question_type": "chokai",
+        "question": "5.\u00a0Audio\nMAKANAN MANAKAH YANG DIPESAN WANITA?",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u30b9\u30fc\u30d7 (\u8f9b\u304f\u3066\u9178\u3063\u3071\u3044\u98df\u3079\u7269\u3092\u304a\u9858\u3044\u3057\u307e\u3059",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB2ST4wo6P81YTqI_d-pP_7bNKfgDsUO9nfBgikCLhhs-bXYxh4iTy2-bal7nImC3kHqvLWCiZxsttQF75iIgGzlHW3sgIFDr3CCZYPQzocLekUY6q_g1ybhkcNUEOZp5M5QUOwrtFhKKZu5MauRbbKsUxZ50E3jNT_TBkSp9_8chS5XqtPSKlggBREszhpfYb0zF8TK2bgBs5v=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/40eba781e9a44027e09c47845ab5798b.png"
+                }
+            },
+            {
+                "text": "\u3084\u304d\u306b\u304f",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDXWaNcg4W5fzRRH6J1PeS59f-O2lpyLuImj4gL719KUexOoKJ_se7OvEy7R168p0MiDHd2v62l8W4SDcJ8dd3dT_qhYWvDVrD0lCmMqBVWUprSNZExx7WhaXNjZ4yo6dTD3VFUNNAF9JV54L65LtsepggY2LxGgBOvvaTmsmfTqofiT7O2aFpNh96vgXKBGSSYcYVHsTTKie4=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/62b0cc0ca30ed2a7244229febcfed947.png"
+                }
+            },
+            {
+                "text": "\u30b5\u30e9\u30c0",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAIzFhSqbT7bnO5dXtlA7pGWxlEGpYOiOMMI3yHbCoZJ7VlwUm2dw7ftcs_GDJM2CTmzyeJgOuLewwKaAfNTy6gBy-cUneXIj8hPk_4_waenW374LEsTvVHrGz_3ncZecqVTZeImD13VlLiOblIzd-lL_rkLBHsRSx_Mr86jPNiJrE55GTxRikIbNmFZirSmh_xnujPlBI3f0OO=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/cfef241e442bc2bb1bc6c0407f3a972a.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "https://drive.google.com/file/d/1YLmAy15nYX_YS1YxthcsmoiW_SV-PYkP/view?usp=drive_link",
+        "audio": "audio/d75438b07931dc2c2a5d220349a2f93f.mp3",
+        "hash": "b068ff168998d55425ac86acbb19c50e",
+        "created_at": "2026-05-18T15:10:32.667626",
+        "correctAnswer": "\u30b9\u30fc\u30d7 (\u8f9b\u304f\u3066\u9178\u3063\u3071\u3044\u98df\u3079\u7269\u3092\u304a\u9858\u3044\u3057\u307e\u3059"
+    },
+    {
+        "question_id": "KAWAII_32_1779091836",
+        "form_name": "KAWAII",
+        "page_number": 3,
+        "category": "choukai",
+        "question_type": "chokai",
+        "question": "6.\u00a0Audio\nHAL APAKAH YANG PERTAMA KALI DI LAKUKAN PELANGGAN SEBELUM KE RUMAH SAKIT?",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u30e1\u30fc\u30eb\u306b\u540d\u524d\u3092\u66f8\u304d\u3059",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDBAWY2tIQH0LYbxSdfxdJkIv5HrSxwAR7YEm3b7Ub1q-wegs7FyypYZ2iLtge-brsOeqCk6zTnzpLIdxd3d_IM9bliAbfv0nev_Xcs5Y4a14BRIQbIz1FdiZpHY_yoA65KVn1URMcfK367zq7uUobJmoN1d3ycDCvKY5bo3Eb4cKygG4g6K8yRqnSFNOKX9KvnVI879XwoxUYA=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/4f5361f09e112f9488955fe9f57d16cf.png"
+                }
+            },
+            {
+                "text": "\u304b\u307f\u306b \u306a\u307e\u3048\u3092\u66f8\u304d\u3059",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDxJky1dwxbxDh12vkjdC5lbuWdsH57uN-3Yjiv1rmiSqMR8mXrcDgoB2b-yqQpPvVI_Esz2DK3ya90nQbW5yhzAsqNJIRswOO7o3YgwF5jfMIRf2EIqM9VnGhCEdUhArOt5xA9jJfNAnTZJaWzSGVG_nk1C9GIH1l0RanM_c1988GtA1XWuJxQS_Ej0NJ74-MKJHzYiqF7q2M=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/7ac6aee2e424693cb2f34a7e7f043b05.png"
+                }
+            },
+            {
+                "text": "\u3067\u3093\u308f\u3059\u308b",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCpi--SLhkFSV5pZVmYw-GxF8bRZiynuk0i5GDOFsZGDdeqe1LN1ElkCOaq240S7wcPC_5itkWjEq53oR9c2-Qf5_jRIHHAGdE9VLLaJgsecoUlb8R-ZcyQx1LiqvR9xYVRwBTBNx0ETf8Z3irDKC6-85ztpbMTURfV9k3-ex613EQ_m-B4d9_GhNVZGYrqVWptngkFgBRcS06x=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/c3e42b5f4b077f9662489c4a6bd9afdf.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "https://drive.google.com/file/d/1m8s03dl3DjqfP-aEi7N79mkX4WF-ZqqT/view?usp=drive_link",
+        "audio": "audio/346cd8bb590f6e60234fb765e4db7799.mp3",
+        "hash": "1cb711ab7ec297b34f8b5d0141d4a887",
+        "created_at": "2026-05-18T15:10:36.149734",
+        "correctAnswer": "\u304b\u307f\u306b \u306a\u307e\u3048\u3092\u66f8\u304d\u3059"
+    },
+    {
+        "question_id": "KAWAII_33_1779091839",
+        "form_name": "KAWAII",
+        "page_number": 3,
+        "category": "choukai",
+        "question_type": "chokai",
+        "question": "7.\u00a0Audio\nA. Dilantai berapakah kurir mengantar kotak?",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u4e8c\u968e",
+                "image": null
+            },
+            {
+                "text": "\u4e09\u968e",
+                "image": null
+            },
+            {
+                "text": "\u56db\u968e",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "https://drive.google.com/file/d/1gG1r5sbW6nhs96Eywo3EYKW-MDiBEEMc/view?usp=drive_link",
+        "audio": "audio/b7afebb52d6277e4df15a6f09e28f342.mp3",
+        "hash": "466d581f0c511ef720294d3e33f7cf89",
+        "created_at": "2026-05-18T15:10:39.090574",
+        "correctAnswer": "\u56db\u968e"
+    },
+    {
+        "question_id": "KAWAII_34_1779091839",
+        "form_name": "KAWAII",
+        "page_number": 3,
+        "category": "choukai",
+        "question_type": "text_only",
+        "question": "8.\u00a0\nB. Berapa kotak yang dibawa?",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u4e00\u3064",
+                "image": null
+            },
+            {
+                "text": "\u4e8c\u3064",
+                "image": null
+            },
+            {
+                "text": "\u4e09\u3064",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "1b6aac4b9e0bffec5c780e3f14d032cf",
+        "created_at": "2026-05-18T15:10:39.454272",
+        "correctAnswer": "\u4e8c\u3064"
+    },
+    {
+        "question_id": "KAWAII_35_1779091842",
+        "form_name": "KAWAII",
+        "page_number": 3,
+        "category": "choukai",
+        "question_type": "chokai",
+        "question": "9.\u00a0Audio\nA. Mulai kapan pasar loak diadakan?",
+        "context": "",
+        "choices": [
+            {
+                "text": "4\u670821\u65e5",
+                "image": null
+            },
+            {
+                "text": "3\u670821\u65e5",
+                "image": null
+            },
+            {
+                "text": "2\u670821\u65e5",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "https://drive.google.com/file/d/1eObZYwhZbRWginTro3EzgG5-Ji1uiVHD/view?usp=drive_link",
+        "audio": "audio/0a339f0df258f9c8e2991e1c4b08282c.mp3",
+        "hash": "b37ce1d1ddc963bcc047b193d859ecfe",
+        "created_at": "2026-05-18T15:10:42.586102"
+    },
+    {
+        "question_id": "KAWAII_36_1779091842",
+        "form_name": "KAWAII",
+        "page_number": 3,
+        "category": "choukai",
+        "question_type": "text_only",
+        "question": "10.\n\nB. Jam berapa konser dimulai?",
+        "context": "",
+        "choices": [
+            {
+                "text": "2\u664230\u5206",
+                "image": null
+            },
+            {
+                "text": "3\u664230\u5206",
+                "image": null
+            },
+            {
+                "text": "4\u664230\u5206",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "c5bcc4b9111a2513a0e6caa73c54fa63",
+        "created_at": "2026-05-18T15:10:42.948995"
+    },
+    {
+        "question_id": "KAWAII_37_1779091847",
+        "form_name": "KAWAII",
+        "page_number": 3,
+        "category": "choukai",
+        "question_type": "chokai",
+        "question": "11.\u00a0Audio\nA.Sebelum digoreng daging ayamnya diapakan?",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u3057\u304a\u3092\u3064\u3051\u308b",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBTnn8bsak_gBbUQAvnKJsrS9O7cPwaystVsJJf7vj-u5XBdnUkNjrdWCdjEoFem3F9nl0GP9XbEAhfED_iPiqGwO761F_bzzaA17QWGS4PVflD29fOKNZ8k0bWtwb9hkP7eR8qSwO7vTHdIG2GX7ggnpFh9vtlLV9AL7xwvGAtxZ-O7TFg7CsKKC9ChFHjZGKieK1VTgDpr3k=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/de154fc9bb50bd9bdc5c50225bdbf6f4.png"
+                }
+            },
+            {
+                "text": "\u5510\u8f9b\u5b50 \u3092\u3064\u3051\u308b",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDddjo4mbjUb2xLWzDUlhlud4gQzJM582-JbL4YKx8XjfWSzPlKwvZE47kiHdS_6Rpab6-PsAFGd_iF-K3kNti3DSFqihy_-hCglkK-4a6IiRlrG4421ttJDyCaiq-mGzklw2d4SAhfKiild6y8ypk4Uhv1uK_tiMbdpFtd67v3eXSLwJh3aswkKW6jcCVcGLUbF3uAuTw2zic=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/2888c0d50088bed5b74adcda6ee210c2.png"
+                }
+            },
+            {
+                "text": "\u3057\u3087\u3046\u3086\u3092\u3092\u3064\u3051\u308b",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDwKlpRUyuXEQEoYPJPvI0QTsrwAWibmcN9cOWj1ITQfXAhC0Bb8DP9iFM0AIR8USp5mJhpVMDscuDQYT7gssm5t9tCANgAYs-F56lYyPRHO1LAnVQADxnDnNwHz3-d59wH0ZTXF2ApbINQ0hYKXn84x0eBtbTvN2L7oAMkZeJE7dMQ1PU30eIskB7-O0aj4rrhSwIOSZWQM_Lo=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/22e993e31c2eafb474753821e10e1dfd.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "https://drive.google.com/file/d/1EGT9NJQkNkYQUukbYzBwRLVtenfHF82d/view?usp=drive_link",
+        "audio": "audio/f73f0422ab206ac9c0a76f6384e5ac44.mp3",
+        "hash": "255387579a222cac2951a4deb760e340",
+        "created_at": "2026-05-18T15:10:47.342819",
+        "correctAnswer": "\u3057\u304a\u3092\u3064\u3051\u308b"
+    },
+    {
+        "question_id": "KAWAII_38_1779091847",
+        "form_name": "KAWAII",
+        "page_number": 3,
+        "category": "choukai",
+        "question_type": "text_only",
+        "question": "12.\u00a0\nB. Ayam digoreng dengan cara apa?",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u3075\u305f\u3092\u3057\u3066\u3001\u3088\u308f\u3073\u306b\u3059\u308b",
+                "image": null
+            },
+            {
+                "text": "\u3075\u305f\u3092\u306f\u3093\u3076\u3093\u3042\u3051\u3066\u3001\u3064\u3088\u3073\u306b\u3059\u308b",
+                "image": null
+            },
+            {
+                "text": "\u3075\u305f\u3092\u305c\u3093\u3076\u3042\u3051\u3066\u3001\u3088\u308f\u3073\u306b\u3059\u308b",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "1a29794a5d4d04f2e864b8a7c99dbdc9",
+        "created_at": "2026-05-18T15:10:47.703041",
+        "correctAnswer": "\u3075\u305f\u3092\u3057\u3066\u3001\u3088\u308f\u3073\u306b\u3059\u308b"
+    },
+    {
+        "question_id": "KAWAII_39_1779091859",
+        "form_name": "KAWAII",
+        "page_number": 4,
+        "category": "dokkai",
+        "question_type": "text_image",
+        "question": "1.\u00a0\nA. \u306a\u3093\u3067\u308a\u3087\u3053\u3046\u306b\u884c\u304d\u307e\u3057\u305f\u304b",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u81ea\u8ee2\u8eca\u3067\u3044\u304d\u307e\u3057\u305f",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCBzDfDdaI7tWvP-e-fP9l0ogugKjJskJ1Hwp2F_mRewv3otGs7hKL24Y-PH5z301eore-sshSJ_XDHWkvzxOuBI78f_yxT3F0BdHNeBr2bbzLCr96i57W-9WBQ1clUzSJwtWgXt3Y9K1ETpD-WgVCi8aduupVf1h-PGyXCKSt-EnFx3gBpC_Qy2ZbVr4yFZl973KdGXt1w7oc=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/9b4976d6096961dffd3c3ed0ff492547.png"
+                }
+            },
+            {
+                "text": "\u96fb\u8eca\u3067\u3044\u304d\u307e\u3057\u305f",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB0dpq9Pdmv07UIVJ-9igweJbfgOtKHEhw1b3DCjvUcntdM-7S-oVS_0JZ0SphFQ1zaJiPGSm7HyayfJFAR6LBz-SPPwq7v2TZ3eCcVSgfVuhOOvlFDciQdO3W1GLvfsK_tc0YB-qroVwd4EpdQseE8AinMUFLCtzGW-_rnZ0822-dpyFRaJuwUCGIDU54iC7cFNGf70Ws2AhY=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/721507e28a08c49a8812e921bd38354b.png"
+                }
+            },
+            {
+                "text": "\u8eca\u3067\u884c\u304d\u307e\u3057\u305f",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAcIYV3-fp-yR0jMcewgwZvovijPZu0e0F8-J6qfrf2htXpSqZy6W1jGJjHn_X9EDxqC6Rl_Xr-CxP95cr922vjDvG9A2Vq1UVGBrUK6caZXxQPTscIKKPLtcHXh84w5up651WwFhFjvKyqmBgYtQ8g57skKM1HFhevVZSlAPfrs8dFrx1-3XegIDXXqlWDwP85N4y0yGsB_i0O=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/62efd6013005c23687a73ec7d197832f.png"
+                }
+            }
+        ],
+        "images": [
+            {
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBmKlUSilb4mmuHjx8I_sqHObGG1E8TRcnIUg7CJnRDtrtYWo6zKIOcs--dU_nA6D7rFQl5xwiZluT_I4OJ_KvrSx6hvQ6uHyTJAG28rgRt0JurFBE2edesP-zmncA7vhbg3MbQDCXWv7g_14K2hawFXGmVKDlwCnLAhGytn1iPKhTMPGBAJgEvokiJ3xM6438fk9hmqm6huJVM=w740?key=BK7uoMAXMRaUNjzuDfdOMA",
+                "path": "images/ee29f98181ccd447792c141fc61d974f.png",
+                "index": 0
+            }
+        ],
+        "audio_url": "",
+        "audio": "",
+        "hash": "41224320f653658b09a16bf3bacc7a58",
+        "created_at": "2026-05-18T15:10:59.690981",
+        "correctAnswer": "\u8eca\u3067\u884c\u304d\u307e\u3057\u305f"
+    },
+    {
+        "question_id": "KAWAII_40_1779091861",
+        "form_name": "KAWAII",
+        "page_number": 4,
+        "category": "dokkai",
+        "question_type": "text_only",
+        "question": "2.\u00a0\nB. \u5c71\u306e\u9053\u3092\u3068\u304a\u308b\u3068\u304d\u306b\u306f\u4f55\u3092\u898b\u307e\u3057\u305f\u304b",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u306b\u304e\u3084\u304b\u306a\u307e\u3061\u3092\u307f\u307e\u3057\u305f",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVD-SBfy8SPCdn-Y-bSMK8aH75OqieKpHJL0On9eVvyWWscmctbv3M1eokZ6becUJc3AWfgemHt9tyDz8NYi3uxm8-nCUlknHuyV0W04oiqGie8Fjqtg-HmdyEOXcYcjbpoR89Il3sAiVYDdtvyHO9BxsKoOP77dKcES3f5_TUFkCsowh-fO6AZogZVrE53HWyN3YdQ-hDnFfaM=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/f477dc49bf3f7cafe14930967ccf7e25.png"
+                }
+            },
+            {
+                "text": "\u3057\u305a\u304b\u306a\u307e\u3061\u3092\u307f\u307e\u3057\u305f",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBnsOGn9zPgff13OID6JCnMrskNOUaltAw35vFU6Ng-MOe2z7VLcCg4uoFP9N_n_Z6GDM2zd4DGTKZla4ya_j5QWmZ1BfyG0oqRKgFD1br1QClF8RPOwBELrdqY7tec9eA30PLWg4enco19Rt1zJEhAXmJQNaIjQ_dRRFKfanA_zAmVK8Y0hlQe17H1Z1y1Z8ak2nc7VN-P4OyR=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/699b1e7807e63aa0922d3fcac72235a8.png"
+                }
+            },
+            {
+                "text": "\u3044\u306a\u304b\u3092\u307f\u307e\u3057\u305f",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCB_bHty93VQf60XRmPu73U9qhZutLpHOvsiTSTbCFDsIWvlXMiUwxhfU1gqs6kD4hbLgEtPUbWYdaTjdKV6q7kTuD3_9IQ77dbD-E5n-XSA5CeySB2jBJCqCD91jQrYZ2_7-hGlFVJbLsikc8WCkVIsPz9GozXuvv1FKnYC_KoYOrKigi9cJdlb9czrvUxN7RyqNl3JkPcTys=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/3a515d255256e47d8f355ccc948e7018.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "68bf797980e8c0e855a2d2bb8bc0204d",
+        "created_at": "2026-05-18T15:11:01.506933",
+        "correctAnswer": "\u306b\u304e\u3084\u304b\u306a\u307e\u3061\u3092\u307f\u307e\u3057\u305f"
+    },
+    {
+        "question_id": "KAWAII_41_1779091862",
+        "form_name": "KAWAII",
+        "page_number": 4,
+        "category": "dokkai",
+        "question_type": "text_image",
+        "question": "3.\u00a0\nA. B\u3055\u3093\u306f\u3044\u3064\u56fd\u306b\u5e30\u308a\u307e\u3059\u304b",
+        "context": "",
+        "choices": [
+            {
+                "text": "2\u670821\u65e5",
+                "image": null
+            },
+            {
+                "text": "3\u670821\u65e5",
+                "image": null
+            },
+            {
+                "text": "4\u670821\u65e5",
+                "image": null
+            }
+        ],
+        "images": [
+            {
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCFbyVV84Casy2aikLjXUv7mkUmckkVnZMeS6z5s-pofQ-cuG7Yu5VHWJSvy-Z09NRij9HH630ouRtHvcMngRNWl0PGDki-OGVXgAjvYx7XYQMG3Ei0dRdSmHrCwjfN5t7xJ5n0vaDadXkyD4WatPf-kRl8lx8zTKZpGGOtt7Y86Jww4nuPoT3FsvEu5z_c2oSHFftQU2-pBIWX=w740?key=BK7uoMAXMRaUNjzuDfdOMA",
+                "path": "images/6876671f95261f0c04c29c93814e586d.png",
+                "index": 0
+            }
+        ],
+        "audio_url": "",
+        "audio": "",
+        "hash": "3df41b865c6a5f6db2aa62018abc81df",
+        "created_at": "2026-05-18T15:11:02.782653"
+    },
+    {
+        "question_id": "KAWAII_42_1779091864",
+        "form_name": "KAWAII",
+        "page_number": 4,
+        "category": "dokkai",
+        "question_type": "text_only",
+        "question": "4.\nB.\u304d\u306e\u3046\u3001\u305f\u306e\u3057\u304b\u3063\u305f\u3053\u3068\u306f\u4f55\u3067\u3059\u304b",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u305d\u3046\u3079\u3064\u304b\u3044\u3067\u3059",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVB6_C5rY6it8PJVsYEXCcEf72HOw0I-L5Py8z9SDP7VAyTVVJPooLMKA4DCNTaECWms_3ZdpIhsSBJ2a4IgX_lZ4iFQchPbN5ZtE6kTzOTN7i_V0wiWFlJ9GPEfQqw19vOtOoym-bz-1zSViOzrOLDhbWaIIKYo7lo4omXyyuNINBAm4mFzFNXTRloQs2M73K9-uGixT6ai658=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/d9c033d733a95325f68b6af824be332b.png"
+                }
+            },
+            {
+                "text": "\u4ed5\u4e8b",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCLgc1FwMOjPk6P8z4O0VSDGqOkx3pMQbfQ2B-10cpquPoW8dLr5tHMW6QyoEmrPZ_fuUy5D34cajqtj6Y3hSO4PztH-MqZtvFSWFT5Ryk_8GzLnD4NC1SAxnHafOKPh_UhBD90W3ikYeqfeBZ9-G-VXysiNN70pAdYlWCYGDkQpaMkr5nigy23XTgho0ms_QWskMGjftjQGvZA=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/1daef565c3a735ce93bb3d0d6ded48ac.png"
+                }
+            },
+            {
+                "text": "\u306d\u308b",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBxMVe3fXn8I5mr0Imhv4794L-frwAmkYXwcghu26fDyELrVN_mgn33LYGjc8VMbdwDxYeA3fEZY5C0pqu1mBfkPDmmwcS_UdE7akefrqYV7aGul9fM_P8SSwooPvrpPMmrSVKxuaZDg-tk6hny3HgJHEpNN1VHu5ZTXmnAvfSU4lSpzjSrquFu87KEo9AeY2DIAqFWa4tk_2eo=w260?key=BK7uoMAXMRaUNjzuDfdOMA",
+                    "path": "images/5fed9e03fe3b0a74b6cd228643839d98.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "8f095123aed0cbf2a002fece00ef09b6",
+        "created_at": "2026-05-18T15:11:04.017679",
+        "correctAnswer": "\u305d\u3046\u3079\u3064\u304b\u3044\u3067\u3059\nFeedback\n\u305d\u3046\u3079\u3064\u304b\u3044\u3067\u3059 \"GAMBAR ORANG MAKAN BERSAMA\""
+    },
+    {
+        "question_id": "KAWAII_43_1779091865",
+        "form_name": "KAWAII",
+        "page_number": 4,
+        "category": "dokkai",
+        "question_type": "text_image",
+        "question": "5.\u00a0\nA. \u3069\u3046\u3057\u3066\u304b\u3044\u304c\u3093\u3092\u305d\u3046\u3058\u3057\u307e\u3059\u304b",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u3042\u3076\u306a\u304f\u3066\u3054\u307f\u304c\u305f\u304f\u3055\u3093\u3042\u308b\u304b\u3089",
+                "image": null
+            },
+            {
+                "text": "\u3044\u3084\u306b\u306a\u308b",
+                "image": null
+            },
+            {
+                "text": "\u306b\u304c\u3066\u3067\u3059\u304b\u3089",
+                "image": null
+            }
+        ],
+        "images": [
+            {
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAvMwGl4Wg0gJJ2HTpsd_tXERP9ijGNh_woMJB6Js9vewn_P4dO3VUy0NqxyUL81GgtK2CN8StACVfZAaKtSP2hR2WYmW8iHxEB7OK-Ddwnz9o4dhS7pdotpYPMAeATUMQzi7Z29hqBy96I8iTwdqm_sBwHdLzUXdhuyX0J6ESZ_yuaPBjnTW_gkXk5_ri9OX63GWXjyM9Jw9io=w740?key=BK7uoMAXMRaUNjzuDfdOMA",
+                "path": "images/8ec6fbbf68f07b354cfd5c7b78a23b95.png",
+                "index": 0
+            }
+        ],
+        "audio_url": "",
+        "audio": "",
+        "hash": "d4e2d66c49b895fc532d4cabb886408e",
+        "created_at": "2026-05-18T15:11:05.230081"
+    },
+    {
+        "question_id": "KAWAII_44_1779091865",
+        "form_name": "KAWAII",
+        "page_number": 4,
+        "category": "dokkai",
+        "question_type": "text_only",
+        "question": "6.\u00a0\nB. \u305d\u3046\u3058\u304c\u304a\u308f\u3063\u305f\u3042\u3068\u3001\u4f55\u3092\u3057\u307e\u3059\u304b",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u30b2\u30fc\u30e0\u3057\u307e\u3059",
+                "image": null
+            },
+            {
+                "text": "\u3048\u3044\u304c\u3092\u307f\u307e\u3059",
+                "image": null
+            },
+            {
+                "text": "\u3054\u308d\u3054\u308d\u3057\u307e\u3059",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "f15e2c1af9efc7ff8c1e8281619ee5fa",
+        "created_at": "2026-05-18T15:11:05.577606",
+        "correctAnswer": "\u30b2\u30fc\u30e0\u3057\u307e\u3059"
+    },
+    {
+        "question_id": "KAWAII_45_1779091866",
+        "form_name": "KAWAII",
+        "page_number": 4,
+        "category": "dokkai",
+        "question_type": "text_image",
+        "question": "7.\u00a0\nA. \u66dc\u65e5\u306f\u306a\u3093\u3058\u307e\u3067\u3067\u3059\u304b",
+        "context": "",
+        "choices": [
+            {
+                "text": "1\u6642\u307e\u3067\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "2\u6642\u307e\u3067\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "3\u6642\u307e\u3067\u3067\u3059",
+                "image": null
+            }
+        ],
+        "images": [
+            {
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBWjsaC5kt3UdJxobfcGiIQiLR900mvmVgEL_S4uh7Q899aIIwT1UDjQFyaxhnk1Iiy4E3IFP8MwJIoPhaOKteNjAdADu6V_SVmiZjOQB_Zfz3hsjFBHh_TxYnp5bgLElFOD-FbI24CDb4XmyflmUwn7BE9tx9N10dkuv9kwV9-MWfIc4Q8QDP9ukhrCL4HxQwqPoRgbV_73MNM=w740?key=BK7uoMAXMRaUNjzuDfdOMA",
+                "path": "images/249ec5bd2c3148121ad69f0328136b19.png",
+                "index": 0
+            }
+        ],
+        "audio_url": "",
+        "audio": "",
+        "hash": "d9fdbabd32f95db519696696eba6d787",
+        "created_at": "2026-05-18T15:11:06.717160",
+        "correctAnswer": "2\u6642\u307e\u3067\u3067\u3059"
+    },
+    {
+        "question_id": "KAWAII_46_1779091867",
+        "form_name": "KAWAII",
+        "page_number": 4,
+        "category": "dokkai",
+        "question_type": "text_only",
+        "question": "8.\u00a0\nB. \u4f11\u307f\u306f\u3044\u3064\u307e\u3067\u3067\u3059\u304b",
+        "context": "",
+        "choices": [
+            {
+                "text": "5\u67085\u65e5\u307e\u3067\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "6\u67086\u65e5\u307e\u3067\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "7\u67087\u65e5\u307e\u3067\u3067\u3059",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "0adba361732ff0fb6e5ffda86d9d0336",
+        "created_at": "2026-05-18T15:11:07.077041"
+    },
+    {
+        "question_id": "KAWAII_47_1779091868",
+        "form_name": "KAWAII",
+        "page_number": 4,
+        "category": "dokkai",
+        "question_type": "text_image",
+        "question": "9. untuk 2 soall\nA. \u590f\u306e\u6642\u3001\u3044\u3061\u3070\u3093\u3042\u3064\u3044\u306e\u306f\u3044\u3064\u3067\u3059\u304b",
+        "context": "",
+        "choices": [
+            {
+                "text": "8\u6708\u30687\u6708\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "7\u6708\u30688\u6708\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "7\u6708\u30689\u6708\u3067\u3059",
+                "image": null
+            }
+        ],
+        "images": [
+            {
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAEZmTDYgU2JN_ppbOFeYxnhnudEcTwhmMDHyw_gOpC6_EX8qe-CU91JU4YA0-zSkAomJeQBGSl-1B6PwXq_k2gOTHZHB6z-6uw5UVfAWEYHfC1xBVpgOZpa-aRoX8FTN-5esfmvIL3XkZA60K042H87y-R5GfxAz12sDhgxQenmxUXthDWwivwuSZpgz0-OXnrTqnqQ04reF8H=w740?key=BK7uoMAXMRaUNjzuDfdOMA",
+                "path": "images/3a8fcd82fdc2038322d3c42d5c7b466f.png",
+                "index": 0
+            }
+        ],
+        "audio_url": "",
+        "audio": "",
+        "hash": "65eae3559db0c360ad7258cd9e2d168e",
+        "created_at": "2026-05-18T15:11:08.218047",
+        "correctAnswer": "7\u6708\u30688\u6708\u3067\u3059"
+    },
+    {
+        "question_id": "KAWAII_48_1779091868",
+        "form_name": "KAWAII",
+        "page_number": 4,
+        "category": "dokkai",
+        "question_type": "text_only",
+        "question": "10.\u00a0\nB. \u590f\u306e\u3068\u304d\u4f55\u304c\u75db\u3044\u3093\u3067\u3059\u304b",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u982d\u304c\u75db\u3044\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "\u304a\u8179\u304c\u75db\u3044\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "\u624b\u304c\u75db\u3044\u3067\u3059",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "2b7279538805e080f0625dd843efc791",
+        "created_at": "2026-05-18T15:11:08.574377",
+        "correctAnswer": "\u982d\u304c\u75db\u3044\u3067\u3059"
+    },
+    {
+        "question_id": "KAWAII_49_1779091869",
+        "form_name": "KAWAII",
+        "page_number": 4,
+        "category": "dokkai",
+        "question_type": "text_image",
+        "question": "11. untuk 2 soal\n\n\nA. \u3069\u3093\u306a\u30d0\u30b9\u3067\u3059\u304b\n\"BUS YANG BERANGKAT PAGI DAN PULANG MALAM\"",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u3086\u304c\u305f\u306b\u3057\u3085\u3071\u3064",
+                "image": null
+            },
+            {
+                "text": "\u9045\u304f\u30d0\u30b9",
+                "image": null
+            },
+            {
+                "text": "\u671d9\u6642\u306b\u51fa\u767a\u3057\u3066\u3001\u591c11\u6642\u306b\u5e30\u308b\u30d0\u30b9\u3067\u3059\u3002\u904a\u3076\u6642\u9593\u304c\u3042\u308a\u307e\u3059",
+                "image": null
+            }
+        ],
+        "images": [
+            {
+                "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBHxkOjVDxC5sbmytj2cVOmAwlsRxmT0pu5eZ2ZcMC77VJgxIauRYICZUZo3FEKJVGhr1EBqAiuFVSl1dFDDKk2RxacPl_k5uOKcvSEAYfU8J5lCEwx85MiuXOE3t-G3VVjdl0349orn4eClwWNcVo1cHk4jlzdPig2y9ZOAaMCCO6p3rY_wXXROI3mmX-1GImIloNsClrzxyQ=w740?key=BK7uoMAXMRaUNjzuDfdOMA",
+                "path": "images/64bef9aef643aff0912ebc3f49c8b918.png",
+                "index": 0
+            }
+        ],
+        "audio_url": "",
+        "audio": "",
+        "hash": "25c6fe3b0ed6715559429e93df0bdc00",
+        "created_at": "2026-05-18T15:11:09.666195"
+    },
+    {
+        "question_id": "KAWAII_50_1779091870",
+        "form_name": "KAWAII",
+        "page_number": 4,
+        "category": "dokkai",
+        "question_type": "text_only",
+        "question": "12.\u00a0\nB. \u30d0\u30b9\u306e\u308a\u3087\u3046\u304d\u3093\u306e\u3061\u304c\u3046\u306e\u306f\u4f55\u3067\u3059\u304b",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u306d\u3093\u308c\u3044\u306e\u3053\u3068\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "\u3042\u3044\u3055\u3064\u306e\u3053\u3068\u3067\u3059",
+                "image": null
+            },
+            {
+                "text": "\u3051\u3044\u3051\u3093\u306e\u3053\u3068\u3067\u3059",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "0045dde6bb1c16e9da9596e7cc72926b",
+        "created_at": "2026-05-18T15:11:10.025230",
+        "correctAnswer": "\u306d\u3093\u308c\u3044\u306e\u3053\u3068\u3067\u3059"
+    }
+]

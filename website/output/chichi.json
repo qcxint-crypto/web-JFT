@@ -1,0 +1,764 @@
+[
+    {
+        "question_id": "CHICHI_0_1779092089",
+        "form_name": "CHICHI",
+        "page_number": 1,
+        "category": "choukai",
+        "question_type": "text_only",
+        "question": "1.\u00a0\u00a0\u00a0untuk 2 soal\nAda audio tentang perempuan datang terlambat.\n\n\na. Kenapa perempuan datang terlambat?",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u53f0\u98a8\u304c\u3042\u308b\u306e\u3067",
+                "image": null
+            },
+            {
+                "text": "\u307f\u3061\u304c\u3053\u3093\u3067\u3044\u308b\u306e\u3067",
+                "image": null
+            },
+            {
+                "text": "\u304b\u306e\u3058\u3087\u3046\u306f\u3055\u3044\u3075\u3092\u5fd8\u308c\u305f\u306e\u3075\u3048",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "12b8aaaf40cec762653cb82487c3449f",
+        "created_at": "2026-05-18T15:14:49.134677"
+    },
+    {
+        "question_id": "CHICHI_1_1779092089",
+        "form_name": "CHICHI",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question_type": "text_only",
+        "question": "2.\nb. Dompet nya ketinggalan di mana ?",
+        "context": "",
+        "choices": [
+            {
+                "text": "DITAMAN",
+                "image": null
+            },
+            {
+                "text": "DISTASIUN",
+                "image": null
+            },
+            {
+                "text": "DIRUMAH",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "bbb58249ee94f7fc1ec52c7e4ae12d00",
+        "created_at": "2026-05-18T15:14:49.491511"
+    },
+    {
+        "question_id": "CHICHI_2_1779092089",
+        "form_name": "CHICHI",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question_type": "text_only",
+        "question": "3.\nBerapa harga piring kecil itu?",
+        "context": "",
+        "choices": [
+            {
+                "text": "\uff13\uff15\uff10",
+                "image": null
+            },
+            {
+                "text": "\uff14\uff15\uff10",
+                "image": null
+            },
+            {
+                "text": "\uff12\uff15\uff10",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "be8a60b92f48db8354e202c9a7d7b757",
+        "created_at": "2026-05-18T15:14:49.853104"
+    },
+    {
+        "question_id": "CHICHI_3_1779092091",
+        "form_name": "CHICHI",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question_type": "text_only",
+        "question": "\uff14.\nPerempuan itu terlambat datang ke acara menonton film. Setelah itu dia memilih rekomendasi acara lain, tetapiApa yang dilakukan perempuan tersebutbut",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u30ed\u30d3\u30fc\u3067\u3053\u3069\u3082\u306e\u3057\u3083\u3057\u3093\u3092\u307f\u308b",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBboOpI_X1wfhTbWhKaQd4gE8wAgXuigmmmK7LsAkP7wS_tHcRGpBA7YuQoaUI0zfhRecXnJa7Y3BduHjzo0raBkXo1CkVgiYjnNyqoh2our6IqtQsnDfFGsu0CPopmLfYBdj7aqFxa4Acz_VVmYXgk7Nyoi-KxpCbhyqrkq1jexQs7Q4u7i8SCDh5jOGV_E7PmhFdSlUJyyvwL=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/147c730aa26797892a6e97e796f1a1b4.png"
+                }
+            },
+            {
+                "text": "\u30b3\u30f3\u30b5\u30fc\u30c8 \u3092 \u898b\u308b",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCLc6-p8d6RPU0XvXTWyIkrqKKqS1vRJPLro3AeVgLcUGBE_5yhOK6pxKtTO1nq4X8hMngEovudm_Vbj5XEUdj3TmuGVNXd8XO4m20CuPEIgGFLAyWn3Rr3FxVgu0byhcN_dckRuZHHkNWTq2h2iSu6sZDCkEQmRTGigS31FLxydocqUfesLyay6Fmckk5JiLXpLgMFUvhm54I=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/8c97b478658d2480cbb0294efd66ec12.png"
+                }
+            },
+            {
+                "text": "\u3048\u3044\u304c\u3092\u307e\u3063\u3066\u3044\u307e\u3059",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDu3osAkp3QVLnqLlSPY76kGzl6dx0f632LyCvhYmhgZO-cBCu8eyQKQ5XubLyBNBu4nhdxTi0JTnquSoDxljUGjKQ_zZcMpz98rIs_Rq1WD3TQtsfBFrBGMx-7iQNtRtdZlJMw5miLpBvU_Q-1rsegRtxw0SoslHGNCmgmzbLT4K3N2eIIp-xYuP_dFvOYDr1iLJq5hLJTqHZk=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/40d1e87e13bd5e64d004aca548c58568.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "49497f33d3c43f7bd48a137c838c328c",
+        "created_at": "2026-05-18T15:14:51.608464"
+    },
+    {
+        "question_id": "CHICHI_4_1779092093",
+        "form_name": "CHICHI",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question_type": "text_only",
+        "question": "5.\nMemilih menu makanan, kemudian memilih yang paling disukai",
+        "context": "",
+        "choices": [
+            {
+                "text": "Kare",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDDDMXG9dsL_N7MZZ8ntzwCIeFas-5CKz_D3yilFX751ILzQDrH_w4uweHBrKq1f8tNg2_lVLAOU3Kdkp6gQIYHUwmq1_KkN40jzBSUWxQE7xPZG549C5paWBRoMP2tzxUrQwSWWWdgiqgVOCIqtbWe2SaFQ6zblpfADNfBwnUPD3Rh8Xo85HKd7MPZDBpT8-jEFdAvBllJmVEz=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/1d38ed422e8d8281ac688c4a10c0f73d.png"
+                }
+            },
+            {
+                "text": "Mie ayam",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBrs0vi2T4Y6dequkFgU4xyvgcTQqLgaDZ6PMvst4Al-qSJNoN4OOlZHnYEbYYXSQrLr2J0L4D3pd6pjJ_hDhKGxeucP1t-3AfgUVJujWIRNJcxTMvKk0l7-1XRqjlwy6Vb_oJlv2YQ-fw5TomcoFVqyUcZ4O6lk8AYi3nwb62xoBWDFXNdx_AW_xExrWxIoHffaI-GqxYjB36e=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/0652cb0663722790e121273385150026.png"
+                }
+            },
+            {
+                "text": "Rawon",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA9WVkFzKf63cpsk9moO0-7ItBsloRcXffrATXUGBdXcPbw76uckUgxCsEgCcn6PbVf-COd1i1p93vxe9I7F9GDAsMB_haKWdb0I9JPT5z2_haHPHwduLts6fXi0H9rGXgrF6Sb2h5Mx-gHozT2WZODubEhMo8aHx-6DpoCRiPBeG7wVzaRzgCKbcKvH48JG_H4H-eEy0OLsl0=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/93e31e36d1875d0dcdc4e6c3265f3b6d.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "8abaa818c402977fa9d5d7f09b741dcd",
+        "created_at": "2026-05-18T15:14:53.175138"
+    },
+    {
+        "question_id": "CHICHI_5_1779092094",
+        "form_name": "CHICHI",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question_type": "text_only",
+        "question": "6.\nApa yang membuat pria itu terkagum?",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u3046\u305f\u3092\u6b4c\u3048\u308b",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA1l5N4Jw0ohXlI-khptrq1vxFlNdInkzgXKBBicjmaxcfVfoRnZT_0CiDBvoMcJQD7HIjBpk_SqUSTIjXZLjRtpmvEkToTwKbIolAa5T9stPyMHv8Cc5kFMxhK98uR89vIAEWEEBgfmkfh5mWOarXGKu0fFdPVwLdtGy6LqTs8Jfgc_hNNferJ-fTHq-_QkypLDx3n05E4-Y43=w220?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/bd071094f910a55d4fb280cb5f9adda0.png"
+                }
+            },
+            {
+                "text": "\u30c9\u30e9\u30de\u3092\u898b\u308b",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA6v9jMfq-t2FFA8TmNUARwOzPNPp-p6Om0Jd2ReRekD_V8TjxCaLizIs-Z9CWa89daMRvPzvOuTVuge7cXgnsxe8v35FSK2YUljLuQ2epTzIXZKV8yC3kQIhur6q3KlhNStksZ8J7RESBxriWdDyHWmrr4EjjBCcA2nSobnPFFLABACs2ollMT178cMcLwyYrGLVqJFBviUNrp=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/8002ef0d0b14c9deab916ad9642f03cd.png"
+                }
+            },
+            {
+                "text": "\u5c0f\u8aac\u3092\u3088\u3080",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAjMGJ0C0eBqjci3SouZ8DvDvZK77LuY0Asg0u_s3vkQx9O-ixLRy2SEv1BAi05q5x9G8IsLfvm6nwleMkF6DvngqUCw360J5UHr6ipPyt9isBEv4aYC8Vsq1W292k8KFg8UynkrqZ_pasosOxIPsAhkpbiK5wvpvvEOvkyewyPNxMoRMTd-iBpyhoCK_yJnv3N7Bu2jJfNhaws=w209?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/2dced07bc0ca843119bf96360e3f5745.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "a696af31eb9f14ed3c48592bcc43d5f6",
+        "created_at": "2026-05-18T15:14:54.336815"
+    },
+    {
+        "question_id": "CHICHI_6_1779092094",
+        "form_name": "CHICHI",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question_type": "text_only",
+        "question": "7.\u00a0\nAda percakapan orang akan mengirim barang #kapan barangnya sampai",
+        "context": "",
+        "choices": [
+            {
+                "text": "8\u67085\u65e5",
+                "image": null
+            },
+            {
+                "text": "5\u67088\u65e5",
+                "image": null
+            },
+            {
+                "text": "4\u67085\u65e5",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "fa7f186e791b5c321c24364f1625ebcc",
+        "created_at": "2026-05-18T15:14:54.681766"
+    },
+    {
+        "question_id": "CHICHI_7_1779092095",
+        "form_name": "CHICHI",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question_type": "text_only",
+        "question": "8.\nNomor busnya berapa dan di stasiun berikutnya berhenti di stasiun apa?",
+        "context": "",
+        "choices": [
+            {
+                "text": "47",
+                "image": null
+            },
+            {
+                "text": "48",
+                "image": null
+            },
+            {
+                "text": "49",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "a3063078ab703f0f30c4e4669c3ed77f",
+        "created_at": "2026-05-18T15:14:55.051759"
+    },
+    {
+        "question_id": "CHICHI_8_1779092096",
+        "form_name": "CHICHI",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question_type": "text_only",
+        "question": "9.\u00a0\nBus Berhenti Dimana ?",
+        "context": "",
+        "choices": [
+            {
+                "text": "Opsi 1",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAZ8KsGyQ3wFZEd1jr2113UGeAIUdw1jb24De1x7spFOC-9OXiDeLAzAHp5Y18XjxcRna89BbBDZ5zGtbgUvEuDOQi7CzJl2INtyJnepmViGWAa4OPUIVkO2zVyii2Ql-LEKe07QVCPf9q5oDJunicMO0rRVLwMNasDkqBS3Qi_aWdh4eS_zKE7ijAPxdyEtq8OLkENUM3NZyc=w122?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/7db6aacc20f7f46e8d3490d360605bd7.png"
+                }
+            },
+            {
+                "text": "Opsi 2",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDNS0YSVnapj5CThW-E46d9uETUdhtk0GYMfBhZO16lc2tzCsFuDNOBF9Lml9bokJaDPGVusMfHGjUFBX9XlIH2C8P7hL5299DKuso87JkpOqrEX8pzbSr5gAVkXMpygoGze9Xisjigxv4ziiuqTd83qk3WIyck1BMI1amrz_adG7ZXR28MdoUuDeHUpYpU-uRn4sSqib0xXKY=w167?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/6a7bc86829bdc0c5c34c775e82264b84.png"
+                }
+            },
+            {
+                "text": "Opsi 3",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAby_O1D7F1zbbg4OSArbKKljXqajcXplrS0MGYvgo1PNO_6MPHj1UGQrSHwa798otFJFsj8TLxUvjPpOEKZlVzOEEcvfE6cf9IZn_l0PCq2mcrItAGymS3eOV4-uNK3noGFNWbzJzaU8epYcMYwb1dtiygPxvKBIbr9Ip9jfaJEXEzpMo_Lt_g9hCkzmifMMF4Yp1UZpABL38i=w192?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/978136a90fb6d1e82ce3a10f9149395d.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "0ec9274f09e27ce55bf6efadb37d9bd6",
+        "created_at": "2026-05-18T15:14:56.762290"
+    },
+    {
+        "question_id": "CHICHI_9_1779092098",
+        "form_name": "CHICHI",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question_type": "text_only",
+        "question": "10.\u00a0\nDimana Mendapatkan Alat Bersih-Bersih",
+        "context": "",
+        "choices": [
+            {
+                "text": "Resepsionis",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBrrzqvY_OD_5hQErTrfprZSGm5T1NzFIWaN9pFMsCBGJBl5_dMmTEsB74NI_PI-KAOveIHdGHr95FjRqVL-KpCPBWoxmiHJa5R8tCh7x6V27IVxEa-293XrwOHY0T8gOiEOEzDNIwk9FyXkUSzwCaYVUUQ7njZC24ORzDKouj1w0R5NlAAgQPgJHcFWILr-3yvXMYOowmAwRhb=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/8df6a8d9b119bbf9f2163656163a7300.png"
+                }
+            },
+            {
+                "text": "ruang rapat",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVANeG7Olid6_TCnnGs5aJebO2fulF5iZ7yE7U8uc24IkmBVTjhApRDtGfPHPW6l113RRRW0YgL2O4_u38CLY1JmB9rEcemBvaHgAXooJWii_-u16mDv5II4X7oYZmOva5h6vA17AK6Sj4HZYZBZGNSNCxMrXh_QawEH5IKh72VbfEHPnd79JFdO5-nSgjrlR-GIs-AB5Mp2GpY=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/b41ddef72fcc0352f94ee5b3b4b23909.png"
+                }
+            },
+            {
+                "text": "luar angkasa",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDe5uFxKp1mnREVx9VP67NzWERFzB8w76rqtINIIh3COh_8VUlzIM8m290eaw4CIRtPapUYaC7wdq_4QPW2NUinpDA512MYWpGNNINEviCmGWUolAIx8A0SwTagBmDlEk6zVHYN_qAsCvWqJ1rUImABVnj59fIWvmospUFlOtHE6MPYkJx11cV89ZtRXsKwKiNN9rUTu7BuFNac=w231?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/c8eabc38b3dfcae98090654b64b21db9.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "b2d4957d76c7164d0e46b3200c726975",
+        "created_at": "2026-05-18T15:14:58.128236"
+    },
+    {
+        "question_id": "CHICHI_10_1779092098",
+        "form_name": "CHICHI",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question_type": "text_only",
+        "question": "11.\na. ruang rapat tertata seperti apa?",
+        "context": "",
+        "choices": [
+            {
+                "text": "Gambar ruangan yang tidak ada mic nya dan tempat duduk ditata menjadi 2 baris dan tengah dikasih space",
+                "image": null
+            },
+            {
+                "text": "ambar ruangan dengan kursi di kanan-kiri, tengahnya tidak ada mic",
+                "image": null
+            },
+            {
+                "text": "Gambar ruangan yang kosong tidak ada apapun",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "8829fb02535cfbed45fbb3def3b05f6e",
+        "created_at": "2026-05-18T15:14:58.482140"
+    },
+    {
+        "question_id": "CHICHI_11_1779092098",
+        "form_name": "CHICHI",
+        "page_number": 1,
+        "category": "moji_goi",
+        "question_type": "text_only",
+        "question": "12.\nb.\u00a0Apa\u00a0yang dilakukan pertama kali ketika ada orang yang datang?",
+        "context": "",
+        "choices": [
+            {
+                "text": "gambar kantor dengan komputer, ada laki-laki dan perempuan berdiri",
+                "image": null
+            },
+            {
+                "text": "gambar orang menunggu di resepsionis",
+                "image": null
+            },
+            {
+                "text": "gambar orang menyuruh pulang",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "07a00c9f442dc10007e478ed605e38a3",
+        "created_at": "2026-05-18T15:14:58.851051"
+    },
+    {
+        "question_id": "CHICHI_12_1779092108",
+        "form_name": "CHICHI",
+        "page_number": 2,
+        "category": "choukai",
+        "question_type": "text_only",
+        "question": "1.\u00a0\u00a0\u00a0untuk 2 soal\nAda audio tentang perempuan datang terlambat.\n\n\na. Kenapa perempuan datang terlambat?",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u53f0\u98a8\u304c\u3042\u308b\u306e\u3067",
+                "image": null
+            },
+            {
+                "text": "\u307f\u3061\u304c\u3053\u3093\u3067\u3044\u308b\u306e\u3067",
+                "image": null
+            },
+            {
+                "text": "\u304b\u306e\u3058\u3087\u3046\u306f\u3055\u3044\u3075\u3092\u5fd8\u308c\u305f\u306e\u3075\u3048",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "12b8aaaf40cec762653cb82487c3449f",
+        "created_at": "2026-05-18T15:15:08.408466"
+    },
+    {
+        "question_id": "CHICHI_13_1779092108",
+        "form_name": "CHICHI",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question_type": "text_only",
+        "question": "2.\nb. Dompet nya ketinggalan di mana ?",
+        "context": "",
+        "choices": [
+            {
+                "text": "DITAMAN",
+                "image": null
+            },
+            {
+                "text": "DISTASIUN",
+                "image": null
+            },
+            {
+                "text": "DIRUMAH",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "bbb58249ee94f7fc1ec52c7e4ae12d00",
+        "created_at": "2026-05-18T15:15:08.768620"
+    },
+    {
+        "question_id": "CHICHI_14_1779092109",
+        "form_name": "CHICHI",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question_type": "text_only",
+        "question": "3.\nBerapa harga piring kecil itu?",
+        "context": "",
+        "choices": [
+            {
+                "text": "\uff13\uff15\uff10",
+                "image": null
+            },
+            {
+                "text": "\uff14\uff15\uff10",
+                "image": null
+            },
+            {
+                "text": "\uff12\uff15\uff10",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "be8a60b92f48db8354e202c9a7d7b757",
+        "created_at": "2026-05-18T15:15:09.132390"
+    },
+    {
+        "question_id": "CHICHI_15_1779092111",
+        "form_name": "CHICHI",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question_type": "text_only",
+        "question": "\uff14.\nPerempuan itu terlambat datang ke acara menonton film. Setelah itu dia memilih rekomendasi acara lain, tetapiApa yang dilakukan perempuan tersebutbut",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u30ed\u30d3\u30fc\u3067\u3053\u3069\u3082\u306e\u3057\u3083\u3057\u3093\u3092\u307f\u308b",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBboOpI_X1wfhTbWhKaQd4gE8wAgXuigmmmK7LsAkP7wS_tHcRGpBA7YuQoaUI0zfhRecXnJa7Y3BduHjzo0raBkXo1CkVgiYjnNyqoh2our6IqtQsnDfFGsu0CPopmLfYBdj7aqFxa4Acz_VVmYXgk7Nyoi-KxpCbhyqrkq1jexQs7Q4u7i8SCDh5jOGV_E7PmhFdSlUJyyvwL=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/147c730aa26797892a6e97e796f1a1b4.png"
+                }
+            },
+            {
+                "text": "\u30b3\u30f3\u30b5\u30fc\u30c8 \u3092 \u898b\u308b",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCLc6-p8d6RPU0XvXTWyIkrqKKqS1vRJPLro3AeVgLcUGBE_5yhOK6pxKtTO1nq4X8hMngEovudm_Vbj5XEUdj3TmuGVNXd8XO4m20CuPEIgGFLAyWn3Rr3FxVgu0byhcN_dckRuZHHkNWTq2h2iSu6sZDCkEQmRTGigS31FLxydocqUfesLyay6Fmckk5JiLXpLgMFUvhm54I=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/8c97b478658d2480cbb0294efd66ec12.png"
+                }
+            },
+            {
+                "text": "\u3048\u3044\u304c\u3092\u307e\u3063\u3066\u3044\u307e\u3059",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDu3osAkp3QVLnqLlSPY76kGzl6dx0f632LyCvhYmhgZO-cBCu8eyQKQ5XubLyBNBu4nhdxTi0JTnquSoDxljUGjKQ_zZcMpz98rIs_Rq1WD3TQtsfBFrBGMx-7iQNtRtdZlJMw5miLpBvU_Q-1rsegRtxw0SoslHGNCmgmzbLT4K3N2eIIp-xYuP_dFvOYDr1iLJq5hLJTqHZk=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/40d1e87e13bd5e64d004aca548c58568.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "49497f33d3c43f7bd48a137c838c328c",
+        "created_at": "2026-05-18T15:15:11.896959"
+    },
+    {
+        "question_id": "CHICHI_16_1779092113",
+        "form_name": "CHICHI",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question_type": "text_only",
+        "question": "5.\nMemilih menu makanan, kemudian memilih yang paling disukai",
+        "context": "",
+        "choices": [
+            {
+                "text": "Kare",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDDDMXG9dsL_N7MZZ8ntzwCIeFas-5CKz_D3yilFX751ILzQDrH_w4uweHBrKq1f8tNg2_lVLAOU3Kdkp6gQIYHUwmq1_KkN40jzBSUWxQE7xPZG549C5paWBRoMP2tzxUrQwSWWWdgiqgVOCIqtbWe2SaFQ6zblpfADNfBwnUPD3Rh8Xo85HKd7MPZDBpT8-jEFdAvBllJmVEz=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/1d38ed422e8d8281ac688c4a10c0f73d.png"
+                }
+            },
+            {
+                "text": "Mie ayam",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBrs0vi2T4Y6dequkFgU4xyvgcTQqLgaDZ6PMvst4Al-qSJNoN4OOlZHnYEbYYXSQrLr2J0L4D3pd6pjJ_hDhKGxeucP1t-3AfgUVJujWIRNJcxTMvKk0l7-1XRqjlwy6Vb_oJlv2YQ-fw5TomcoFVqyUcZ4O6lk8AYi3nwb62xoBWDFXNdx_AW_xExrWxIoHffaI-GqxYjB36e=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/0652cb0663722790e121273385150026.png"
+                }
+            },
+            {
+                "text": "Rawon",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA9WVkFzKf63cpsk9moO0-7ItBsloRcXffrATXUGBdXcPbw76uckUgxCsEgCcn6PbVf-COd1i1p93vxe9I7F9GDAsMB_haKWdb0I9JPT5z2_haHPHwduLts6fXi0H9rGXgrF6Sb2h5Mx-gHozT2WZODubEhMo8aHx-6DpoCRiPBeG7wVzaRzgCKbcKvH48JG_H4H-eEy0OLsl0=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/93e31e36d1875d0dcdc4e6c3265f3b6d.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "8abaa818c402977fa9d5d7f09b741dcd",
+        "created_at": "2026-05-18T15:15:13.243489"
+    },
+    {
+        "question_id": "CHICHI_17_1779092115",
+        "form_name": "CHICHI",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question_type": "text_only",
+        "question": "6.\nApa yang membuat pria itu terkagum?",
+        "context": "",
+        "choices": [
+            {
+                "text": "\u3046\u305f\u3092\u6b4c\u3048\u308b",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA1l5N4Jw0ohXlI-khptrq1vxFlNdInkzgXKBBicjmaxcfVfoRnZT_0CiDBvoMcJQD7HIjBpk_SqUSTIjXZLjRtpmvEkToTwKbIolAa5T9stPyMHv8Cc5kFMxhK98uR89vIAEWEEBgfmkfh5mWOarXGKu0fFdPVwLdtGy6LqTs8Jfgc_hNNferJ-fTHq-_QkypLDx3n05E4-Y43=w220?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/bd071094f910a55d4fb280cb5f9adda0.png"
+                }
+            },
+            {
+                "text": "\u30c9\u30e9\u30de\u3092\u898b\u308b",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVA6v9jMfq-t2FFA8TmNUARwOzPNPp-p6Om0Jd2ReRekD_V8TjxCaLizIs-Z9CWa89daMRvPzvOuTVuge7cXgnsxe8v35FSK2YUljLuQ2epTzIXZKV8yC3kQIhur6q3KlhNStksZ8J7RESBxriWdDyHWmrr4EjjBCcA2nSobnPFFLABACs2ollMT178cMcLwyYrGLVqJFBviUNrp=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/8002ef0d0b14c9deab916ad9642f03cd.png"
+                }
+            },
+            {
+                "text": "\u5c0f\u8aac\u3092\u3088\u3080",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAjMGJ0C0eBqjci3SouZ8DvDvZK77LuY0Asg0u_s3vkQx9O-ixLRy2SEv1BAi05q5x9G8IsLfvm6nwleMkF6DvngqUCw360J5UHr6ipPyt9isBEv4aYC8Vsq1W292k8KFg8UynkrqZ_pasosOxIPsAhkpbiK5wvpvvEOvkyewyPNxMoRMTd-iBpyhoCK_yJnv3N7Bu2jJfNhaws=w209?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/2dced07bc0ca843119bf96360e3f5745.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "a696af31eb9f14ed3c48592bcc43d5f6",
+        "created_at": "2026-05-18T15:15:15.636992"
+    },
+    {
+        "question_id": "CHICHI_18_1779092115",
+        "form_name": "CHICHI",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question_type": "text_only",
+        "question": "7.\u00a0\nAda percakapan orang akan mengirim barang #kapan barangnya sampai",
+        "context": "",
+        "choices": [
+            {
+                "text": "8\u67085\u65e5",
+                "image": null
+            },
+            {
+                "text": "5\u67088\u65e5",
+                "image": null
+            },
+            {
+                "text": "4\u67085\u65e5",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "fa7f186e791b5c321c24364f1625ebcc",
+        "created_at": "2026-05-18T15:15:15.977642"
+    },
+    {
+        "question_id": "CHICHI_19_1779092116",
+        "form_name": "CHICHI",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question_type": "text_only",
+        "question": "8.\nNomor busnya berapa dan di stasiun berikutnya berhenti di stasiun apa?",
+        "context": "",
+        "choices": [
+            {
+                "text": "47",
+                "image": null
+            },
+            {
+                "text": "48",
+                "image": null
+            },
+            {
+                "text": "49",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "a3063078ab703f0f30c4e4669c3ed77f",
+        "created_at": "2026-05-18T15:15:16.351454"
+    },
+    {
+        "question_id": "CHICHI_20_1779092117",
+        "form_name": "CHICHI",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question_type": "text_only",
+        "question": "9.\u00a0\nBus Berhenti Dimana ?",
+        "context": "",
+        "choices": [
+            {
+                "text": "Opsi 1",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAZ8KsGyQ3wFZEd1jr2113UGeAIUdw1jb24De1x7spFOC-9OXiDeLAzAHp5Y18XjxcRna89BbBDZ5zGtbgUvEuDOQi7CzJl2INtyJnepmViGWAa4OPUIVkO2zVyii2Ql-LEKe07QVCPf9q5oDJunicMO0rRVLwMNasDkqBS3Qi_aWdh4eS_zKE7ijAPxdyEtq8OLkENUM3NZyc=w122?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/7db6aacc20f7f46e8d3490d360605bd7.png"
+                }
+            },
+            {
+                "text": "Opsi 2",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDNS0YSVnapj5CThW-E46d9uETUdhtk0GYMfBhZO16lc2tzCsFuDNOBF9Lml9bokJaDPGVusMfHGjUFBX9XlIH2C8P7hL5299DKuso87JkpOqrEX8pzbSr5gAVkXMpygoGze9Xisjigxv4ziiuqTd83qk3WIyck1BMI1amrz_adG7ZXR28MdoUuDeHUpYpU-uRn4sSqib0xXKY=w167?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/6a7bc86829bdc0c5c34c775e82264b84.png"
+                }
+            },
+            {
+                "text": "Opsi 3",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVAby_O1D7F1zbbg4OSArbKKljXqajcXplrS0MGYvgo1PNO_6MPHj1UGQrSHwa798otFJFsj8TLxUvjPpOEKZlVzOEEcvfE6cf9IZn_l0PCq2mcrItAGymS3eOV4-uNK3noGFNWbzJzaU8epYcMYwb1dtiygPxvKBIbr9Ip9jfaJEXEzpMo_Lt_g9hCkzmifMMF4Yp1UZpABL38i=w192?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/978136a90fb6d1e82ce3a10f9149395d.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "0ec9274f09e27ce55bf6efadb37d9bd6",
+        "created_at": "2026-05-18T15:15:17.584230"
+    },
+    {
+        "question_id": "CHICHI_21_1779092118",
+        "form_name": "CHICHI",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question_type": "text_only",
+        "question": "10.\u00a0\nDimana Mendapatkan Alat Bersih-Bersih",
+        "context": "",
+        "choices": [
+            {
+                "text": "Resepsionis",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVBrrzqvY_OD_5hQErTrfprZSGm5T1NzFIWaN9pFMsCBGJBl5_dMmTEsB74NI_PI-KAOveIHdGHr95FjRqVL-KpCPBWoxmiHJa5R8tCh7x6V27IVxEa-293XrwOHY0T8gOiEOEzDNIwk9FyXkUSzwCaYVUUQ7njZC24ORzDKouj1w0R5NlAAgQPgJHcFWILr-3yvXMYOowmAwRhb=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/8df6a8d9b119bbf9f2163656163a7300.png"
+                }
+            },
+            {
+                "text": "ruang rapat",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVANeG7Olid6_TCnnGs5aJebO2fulF5iZ7yE7U8uc24IkmBVTjhApRDtGfPHPW6l113RRRW0YgL2O4_u38CLY1JmB9rEcemBvaHgAXooJWii_-u16mDv5II4X7oYZmOva5h6vA17AK6Sj4HZYZBZGNSNCxMrXh_QawEH5IKh72VbfEHPnd79JFdO5-nSgjrlR-GIs-AB5Mp2GpY=w260?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/b41ddef72fcc0352f94ee5b3b4b23909.png"
+                }
+            },
+            {
+                "text": "luar angkasa",
+                "image": {
+                    "url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVDe5uFxKp1mnREVx9VP67NzWERFzB8w76rqtINIIh3COh_8VUlzIM8m290eaw4CIRtPapUYaC7wdq_4QPW2NUinpDA512MYWpGNNINEviCmGWUolAIx8A0SwTagBmDlEk6zVHYN_qAsCvWqJ1rUImABVnj59fIWvmospUFlOtHE6MPYkJx11cV89ZtRXsKwKiNN9rUTu7BuFNac=w231?key=gdt-tdeJ3uzfD_3x990zHg",
+                    "path": "images/c8eabc38b3dfcae98090654b64b21db9.png"
+                }
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "b2d4957d76c7164d0e46b3200c726975",
+        "created_at": "2026-05-18T15:15:18.854785"
+    },
+    {
+        "question_id": "CHICHI_22_1779092119",
+        "form_name": "CHICHI",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question_type": "text_only",
+        "question": "11.\na. ruang rapat tertata seperti apa?",
+        "context": "",
+        "choices": [
+            {
+                "text": "Gambar ruangan yang tidak ada mic nya dan tempat duduk ditata menjadi 2 baris dan tengah dikasih space",
+                "image": null
+            },
+            {
+                "text": "ambar ruangan dengan kursi di kanan-kiri, tengahnya tidak ada mic",
+                "image": null
+            },
+            {
+                "text": "Gambar ruangan yang kosong tidak ada apapun",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "8829fb02535cfbed45fbb3def3b05f6e",
+        "created_at": "2026-05-18T15:15:19.201983"
+    },
+    {
+        "question_id": "CHICHI_23_1779092119",
+        "form_name": "CHICHI",
+        "page_number": 2,
+        "category": "kaiwa_hyougen",
+        "question_type": "text_only",
+        "question": "12.\nb.\u00a0Apa\u00a0yang dilakukan pertama kali ketika ada orang yang datang?",
+        "context": "",
+        "choices": [
+            {
+                "text": "gambar kantor dengan komputer, ada laki-laki dan perempuan berdiri",
+                "image": null
+            },
+            {
+                "text": "gambar orang menunggu di resepsionis",
+                "image": null
+            },
+            {
+                "text": "gambar orang menyuruh pulang",
+                "image": null
+            }
+        ],
+        "images": [],
+        "audio_url": "",
+        "audio": "",
+        "hash": "07a00c9f442dc10007e478ed605e38a3",
+        "created_at": "2026-05-18T15:15:19.578803"
+    }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "web-jft-root",
+  "version": "1.0.0",
+  "description": "Root wrapper for website app and scraper backend",
+  "scripts": {
+    "clean:website": "rm -rf .next .next-dev .next-build website/.next website/.next-dev website/.next-build",
+    "dev": "npm --prefix ./website run dev --",
+    "build": "npm --prefix ./website run build --",
+    "start": "npm --prefix ./website run start --",
+    "lint": "npm --prefix ./website run lint --"
+  },
+  "dependencies": {
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "js-cookie": "^3.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.0.0",
+    "tailwindcss": "^3.4.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0"
+  }
+}
