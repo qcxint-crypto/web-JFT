@@ -5,19 +5,28 @@ export function getWebsiteRoot() {
   const currentDir = process.cwd()
   const nestedWebsiteDir = path.join(currentDir, 'website')
 
-  const currentLooksLikeWebsite =
-    fs.existsSync(path.join(currentDir, 'app')) &&
-    fs.existsSync(path.join(currentDir, 'package.json'))
-
-  const nestedLooksLikeWebsite =
-    fs.existsSync(path.join(nestedWebsiteDir, 'app')) &&
-    fs.existsSync(path.join(nestedWebsiteDir, 'package.json'))
-
-  if (nestedLooksLikeWebsite) {
+  // Primary: check for data output directory (present in Vercel deployment and dev)
+  // Avoids relying on TypeScript source files (app/) which are absent in builds
+  if (fs.existsSync(path.join(nestedWebsiteDir, 'output'))) {
     return nestedWebsiteDir
   }
 
-  if (currentLooksLikeWebsite) {
+  if (fs.existsSync(path.join(currentDir, 'output'))) {
+    return currentDir
+  }
+
+  // Fallback: source-tree detection (local dev without pre-built data)
+  if (
+    fs.existsSync(path.join(nestedWebsiteDir, 'app')) &&
+    fs.existsSync(path.join(nestedWebsiteDir, 'package.json'))
+  ) {
+    return nestedWebsiteDir
+  }
+
+  if (
+    fs.existsSync(path.join(currentDir, 'app')) &&
+    fs.existsSync(path.join(currentDir, 'package.json'))
+  ) {
     return currentDir
   }
 

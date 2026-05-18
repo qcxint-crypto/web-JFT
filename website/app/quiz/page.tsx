@@ -61,8 +61,9 @@ export default function QuizPage() {
 
         const response = await fetch(`/api/quiz?session=${sid}`)
         const data = await response.json()
-        setQuestions(data.questions)
-        setAnswers(new Array(data.questions.length).fill(-1))
+        const questionList = Array.isArray(data.questions) ? data.questions : []
+        setQuestions(questionList)
+        setAnswers(new Array(questionList.length).fill(-1))
       } catch (error) {
         console.error('Failed to load quiz:', error)
       } finally {
