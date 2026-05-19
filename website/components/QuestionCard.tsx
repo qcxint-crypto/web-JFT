@@ -105,7 +105,7 @@ export default function QuestionCard({
             {question.images.map((img, idx) => (
               <div
                 key={idx}
-                className="overflow-hidden rounded-[24px] border border-slate-900/8 bg-white/90 p-2 shadow-[0_18px_40px_-34px_rgba(15,23,42,0.55)]"
+                className="overflow-hidden rounded-[24px] border border-slate-900/8 bg-white p-2 shadow-[0_18px_40px_-34px_rgba(15,23,42,0.55)]"
               >
                 <img
                   src={getImageUrl(img.path)}
@@ -140,7 +140,8 @@ export default function QuestionCard({
               </div>
             </div>
 
-            <audio controls preload="metadata" className="block w-full max-w-full rounded-[18px]">
+            {/* key={audioSourcePath} forces remount when audio source changes between questions */}
+            <audio key={audioSourcePath} controls preload="metadata" className="block w-full max-w-full rounded-[18px]">
               {getAudioSourceTypes(audioSourcePath).map((source) => (
                 <source key={`${source.src}-${source.type}`} src={source.src} type={source.type} />
               ))}
@@ -203,7 +204,7 @@ export default function QuestionCard({
 
                 <div className="flex-1">
                   {choice.image && (
-                    <div className="mb-3 overflow-hidden rounded-[18px] border border-slate-900/8 bg-[color:var(--surface-soft)] p-1.5">
+                    <div className="mb-3 overflow-hidden rounded-[18px] border border-slate-900/8 bg-white p-1.5">
                       <img
                         src={getImageUrl(choice.image.path)}
                         alt={`Choice ${idx + 1}`}
