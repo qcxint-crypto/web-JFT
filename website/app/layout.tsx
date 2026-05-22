@@ -26,7 +26,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning className={`${displayFont.variable} ${bodyFont.variable}`}>
-      <body>
+      <body suppressHydrationWarning>
         <div className="app-shell">
           <div className="app-shell__glow app-shell__glow--top" aria-hidden="true" />
           <div className="app-shell__glow app-shell__glow--bottom" aria-hidden="true" />

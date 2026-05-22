@@ -9,7 +9,7 @@ type QuizStats = {
   categories?: Record<string, number>
 }
 
-type LeaderboardMode = 'jft' | 'kanji'
+type LeaderboardMode = 'jft' | 'kanji' | 'pm'
 
 type ModeStats = {
   attempts: number
@@ -44,6 +44,7 @@ type LeaderboardData = {
     name: string
     jft: ModeStats
     kanji: ModeStats
+    pm: ModeStats
   } | null
 }
 
@@ -241,6 +242,12 @@ export default function Home() {
               <h2>Start Kanji Quiz</h2>
               <p>Feedback lengkap per pilihan, cocok untuk hafalan dan review cepat.</p>
             </Link>
+
+            <Link href="/shokuhin" className="mode-card tap-feedback" style={{ borderTop: '1px solid rgba(15,23,42,0.08)' }}>
+              <span className="mode-card__tag">Shokuhin Kakou</span>
+              <h2>Start PM Quiz</h2>
+              <p>Kosakata pengolahan makanan BAB 1–5: keamanan pangan, kebersihan, HACCP, dan K3.</p>
+            </Link>
           </div>
         </div>
       </section>
@@ -258,13 +265,14 @@ export default function Home() {
           </div>
 
           <div className="mode-summary-grid">
-            {(['jft', 'kanji'] as LeaderboardMode[]).map((mode) => {
+            {(['jft', 'kanji', 'pm'] as LeaderboardMode[]).map((mode) => {
               const modeStats = leaderboard?.player?.[mode]
+              const modeLabel = mode === 'jft' ? 'JFT' : mode === 'kanji' ? 'Kanji' : 'Shokuhin'
 
               return (
                 <div key={mode} className={`summary-card ${activeBoard === mode ? 'summary-card--active' : ''}`}>
                   <div className="summary-card__top">
-                    <span className="eyebrow">{mode === 'jft' ? 'JFT' : 'Kanji'}</span>
+                    <span className="eyebrow">{modeLabel}</span>
                     <button type="button" onClick={() => setActiveBoard(mode)} className="button-ghost tap-feedback">
                       Lihat rank
                     </button>
@@ -320,14 +328,14 @@ export default function Home() {
               <h2>Top rank best score</h2>
             </div>
             <div className="leaderboard-tabs">
-              {(['jft', 'kanji'] as LeaderboardMode[]).map((mode) => (
+              {(['jft', 'kanji', 'pm'] as LeaderboardMode[]).map((mode) => (
                 <button
                   key={mode}
                   type="button"
                   onClick={() => setActiveBoard(mode)}
                   className={`tab-button tap-feedback ${activeBoard === mode ? 'tab-button--active' : ''}`}
                 >
-                  {mode === 'jft' ? 'JFT' : 'Kanji'}
+                  {mode === 'jft' ? 'JFT' : mode === 'kanji' ? 'Kanji' : 'PM'}
                 </button>
               ))}
             </div>
@@ -341,7 +349,7 @@ export default function Home() {
           <div className="leaderboard-list">
             {topRows.length === 0 ? (
               <div className="leaderboard-empty">
-                Belum ada skor yang masuk untuk mode {activeBoard === 'jft' ? 'JFT' : 'Kanji'} minggu ini.
+                Belum ada skor yang masuk untuk mode {activeBoard === 'jft' ? 'JFT' : activeBoard === 'kanji' ? 'Kanji' : 'Shokuhin'} minggu ini.
               </div>
             ) : (
               topRows.slice(0, 8).map((entry) => (

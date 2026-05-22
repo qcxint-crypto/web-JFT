@@ -4,7 +4,7 @@ import path from 'path'
 import { resolveWebsitePath } from './project-paths'
 import { bundledToken, bundledRepoUrl, bundledBranch } from './enc-config'
 
-export type LeaderboardMode = 'jft' | 'kanji'
+export type LeaderboardMode = 'jft' | 'kanji' | 'pm'
 
 type ModeStats = {
   attempts: number
@@ -62,6 +62,7 @@ export type LeaderboardView = {
     name: string
     jft: PublicModeStats
     kanji: PublicModeStats
+    pm: PublicModeStats
   } | null
 }
 
@@ -234,6 +235,7 @@ function normalizeSnapshot(snapshot: unknown, now = new Date()): LeaderboardSnap
           stats: {
             jft: normalizeStats(player.stats?.jft),
             kanji: normalizeStats(player.stats?.kanji),
+            pm: normalizeStats(player.stats?.pm),
           },
         }))
       : [],
@@ -301,6 +303,7 @@ function createView(snapshot: LeaderboardSnapshot, playerName?: string, source: 
   const leaderboards = {
     jft: buildRankedEntries(snapshot.players, 'jft').slice(0, 20),
     kanji: buildRankedEntries(snapshot.players, 'kanji').slice(0, 20),
+    pm: buildRankedEntries(snapshot.players, 'pm').slice(0, 20),
   }
 
   const normalizedName = sanitizeName(playerName || '')
@@ -312,7 +315,7 @@ function createView(snapshot: LeaderboardSnapshot, playerName?: string, source: 
     cycleLabel: snapshot.cycleLabel,
     resetAt: snapshot.resetAt,
     updatedAt: snapshot.updatedAt,
-    totalPlayers: snapshot.players.filter((player) => player.stats.jft.attempts > 0 || player.stats.kanji.attempts > 0).length,
+    totalPlayers: snapshot.players.filter((player) => player.stats.jft.attempts > 0 || player.stats.kanji.attempts > 0 || player.stats.pm.attempts > 0).length,
     source,
     leaderboards,
     player: playerRecord
@@ -321,6 +324,7 @@ function createView(snapshot: LeaderboardSnapshot, playerName?: string, source: 
           name: playerRecord.name,
           jft: buildPublicStats(playerRecord.stats.jft),
           kanji: buildPublicStats(playerRecord.stats.kanji),
+          pm: buildPublicStats(playerRecord.stats.pm),
         }
       : null,
   }
@@ -559,6 +563,7 @@ export async function submitLeaderboardResult(payload: SubmissionPayload) {
       stats: {
         jft: createEmptyStats(),
         kanji: createEmptyStats(),
+        pm: createEmptyStats(),
       },
     } satisfies PlayerRecord)
 
