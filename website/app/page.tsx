@@ -238,9 +238,15 @@ export default function Home() {
             </Link>
 
             <Link href="/kanji" className="mode-card mode-card--inverse tap-feedback">
-              <span className="mode-card__tag">Kanji drill</span>
-              <h2>Start Kanji Quiz</h2>
+              <span className="mode-card__tag">Kanji drill N4</span>
+              <h2>Start Kanji N4 Quiz</h2>
               <p>Feedback lengkap per pilihan, cocok untuk hafalan dan review cepat.</p>
+            </Link>
+
+            <Link href="/kanji-n3" className="mode-card tap-feedback" style={{ borderTop: '1px solid rgba(15,23,42,0.08)' }}>
+              <span className="mode-card__tag">Kanji drill N3</span>
+              <h2>Start Kanji N3 Quiz</h2>
+              <p>Kosakata kanji level N3: kata kerja, kata benda, dan kata sifat tingkat menengah.</p>
             </Link>
 
             <Link href="/shokuhin" className="mode-card tap-feedback" style={{ borderTop: '1px solid rgba(15,23,42,0.08)' }}>
