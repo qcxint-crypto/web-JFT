@@ -394,6 +394,12 @@ button {
   gap: 14px;
 }
 
+@media (min-width: 560px) {
+  .dashboard-actions {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 .mode-card {
   display: block;
   padding: 22px;
@@ -431,9 +437,9 @@ button {
 .mode-card h2 {
   margin-top: 16px;
   font-family: var(--font-display), sans-serif;
-  font-size: 2rem;
-  line-height: 1;
-  letter-spacing: -0.06em;
+  font-size: 1.65rem;
+  line-height: 1.05;
+  letter-spacing: -0.05em;
 }
 
 .mode-card p {
