@@ -254,6 +254,12 @@ export default function Home() {
               <h2>Start PM Quiz</h2>
               <p>Kosakata pengolahan makanan BAB 1–5: keamanan pangan, kebersihan, HACCP, dan K3.</p>
             </Link>
+
+            <Link href="/materials" className="mode-card tap-feedback" style={{ borderTop: '1px solid rgba(15,23,42,0.08)' }}>
+              <span className="mode-card__tag">Learning Center</span>
+              <h2>Materi & Latihan Soal</h2>
+              <p>Download dan pelajari PDF materi PM, soal-soal latihan, serta daftar kosakata lengkap.</p>
+            </Link>
           </div>
         </div>
       </section>

@@ -1,19 +1,25 @@
-# dependencies
-node_modules/
+# Dependencies
+node_modules
+.pnpm-debug.log
+.npm
 
-# next build output
-.next/
-.next-dev/
-.next-build/
-out/
+# Next.js
+.next
+.next-build
+.next-dev
+out
+build
 
-# logs
-*.log
-
-# env
+# Environment Variables
 .env
 .env.local
 .env.*.local
 
-# misc
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific
 .DS_Store
+Thumbs.db

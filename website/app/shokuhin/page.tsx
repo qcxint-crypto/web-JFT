@@ -3,11 +3,10 @@
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { useEffect, useState } from 'react'
-import { allPmKotoba } from './data'
+import { allPmKotoba, PmEntry } from './data'
 
 const FIELDS = ['kanji', 'reading', 'meaning'] as const
 type Field = typeof FIELDS[number]
-type PmEntry = (typeof allPmKotoba)[number]
 
 type QuizQuestion = {
   id: number
@@ -41,8 +40,9 @@ const pickRandom = <T,>(items: T[], count: number) => {
 }
 
 const getPmCategory = (entry: PmEntry) => {
-  const k = entry.kanji
-  const m = entry.meaning.toLowerCase()
+  if (!entry) return 'OTHER'
+  const k = entry.kanji || ''
+  const m = (entry.meaning || '').toLowerCase()
 
   if (m.includes('suhu') || m.includes('temperatur') || k.includes('温') || k.includes('冷') || k.includes('熱')) return 'TEMP'
   if (m.includes('bakteri') || m.includes('mikroorganisme') || m.includes('racun') || m.includes('spora') || k.includes('菌') || k.includes('毒')) return 'MICRO'
@@ -59,6 +59,7 @@ const getPmCategory = (entry: PmEntry) => {
 }
 
 const scoreSimilarity = (candidate: PmEntry, target: PmEntry, field: Field) => {
+  if (!candidate || !target) return 0
   const source = target[field]
   const probe = candidate[field]
 
@@ -172,15 +173,27 @@ export default function ShokuhinQuizPage() {
         .map((item) => ({ item, score: scoreSimilarity(item, entry, aField) }))
         .sort((a, b) => b.score - a.score)
 
-      const seenValues = new Set<string>([String(entry[aField])])
+      const seenValues = new Set<string>([
+        String(entry.kanji),
+        String(entry.reading),
+        String(entry.meaning)
+      ])
       const wrongOptions: PmEntry[] = []
 
       for (const candidate of candidateEntries) {
         if (wrongOptions.length >= 3) break
-        const cv = String(candidate.item[aField])
-        if (seenValues.has(cv)) continue
+        
+        // Ensure no field matches any of the already selected options' fields
+        const cKanji = String(candidate.item.kanji)
+        const cReading = String(candidate.item.reading)
+        const cMeaning = String(candidate.item.meaning)
+        
+        if (seenValues.has(cKanji) || seenValues.has(cReading) || seenValues.has(cMeaning)) continue
+        
         wrongOptions.push(candidate.item)
-        seenValues.add(cv)
+        seenValues.add(cKanji)
+        seenValues.add(cReading)
+        seenValues.add(cMeaning)
       }
 
       if (wrongOptions.length < 3) {
