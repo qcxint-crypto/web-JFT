@@ -11,7 +11,7 @@ export async function GET(
     const pdfPath = slug.map(s => decodeURIComponent(s)).join('/')
     
     // Resolve path relative to the process CWD, which should be the root of the repo
-    const baseDir = path.join(process.cwd(), 'kosakata&Kanji')
+    const baseDir = path.join(process.cwd(), 'public/kosakata-kanji')
     const fullPath = path.join(baseDir, pdfPath)
 
     // Security: prevent directory traversal
