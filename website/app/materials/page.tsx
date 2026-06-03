@@ -63,7 +63,7 @@ export default function MaterialsPage() {
         <div className="space-y-4">
           <span className="eyebrow">digital resources</span>
           <h1 className="dashboard-title">
-            {history.length > 1 ? activeFolderName : 'Materi JFT'}
+            {history.length > 1 ? activeFolderName : 'Materi Materi'}
           </h1>
           <p className="dashboard-copy">
             {history.length > 1 
