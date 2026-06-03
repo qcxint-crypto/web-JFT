@@ -79,7 +79,7 @@ export default function MaterialsPage() {
                   </div>
                   <div className="flex items-center gap-2 shrink-0">
                     <a 
-                      href={`/api/pdf/${file.path.split('/').map((s: string) => encodeURIComponent(s)).join('/')}`} 
+                      href={file.driveId ? `https://drive.google.com/file/d/${file.driveId}/view` : `/api/pdf/${file.path.split('/').map((s: string) => encodeURIComponent(s)).join('/')}`} 
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center justify-center rounded-[16px] bg-slate-200 px-5 py-2.5 text-xs font-bold text-slate-900 hover:bg-slate-300 transition-colors"
@@ -88,7 +88,7 @@ export default function MaterialsPage() {
                     </a>
 
                     <a 
-                      href={`/api/pdf/${file.path.split('/').map((s: string) => encodeURIComponent(s)).join('/')}?download=true`} 
+                      href={file.driveId ? `https://drive.google.com/uc?export=download&id=${file.driveId}` : `/api/pdf/${file.path.split('/').map((s: string) => encodeURIComponent(s)).join('/')}?download=true`} 
                       className="inline-flex items-center justify-center rounded-[16px] bg-slate-900 px-5 py-2.5 text-xs font-bold text-white hover:opacity-90 transition-opacity"
                     >
                       Download
