@@ -18,74 +18,81 @@ export async function GET(request: NextRequest) {
     if (!response.ok) throw new Error(`Failed to fetch GDrive: ${response.status}`);
     
     const html = await response.text();
-    
-    // Extraction Strategy:
-    // Google Drive stores its folder content data in a global variable window['_DRIVE_ivd']
-    // encoded with hex escapes (\x5b for [, \x22 for ", etc.)
-    
     const items: {id: string, name: string, isFolder: boolean}[] = [];
     
-    // 1. Try to find the encoded data blob
+    // Primary extraction from window['_DRIVE_ivd']
     const dataMatch = html.match(/window\['_DRIVE_ivd'\]\s*=\s*'([^']+)'/);
     if (dataMatch && dataMatch[1]) {
-        // Decode hex escapes
         let decoded = dataMatch[1].replace(/\\x([0-9a-fA-F]{2})/g, (_, hex) => 
             String.fromCharCode(parseInt(hex, 16))
         );
         
         try {
             const data = JSON.parse(decoded);
-            // The data is usually a deeply nested array. 
-            // In public folders, the items are often in the first element.
-            const rawItems = data[0] || [];
+            const rawItems = (data && Array.isArray(data[0])) ? data[0] : [];
             
             for (const item of rawItems) {
                 if (!Array.isArray(item) || item.length < 4) continue;
-                
                 const id = item[0];
                 const name = item[2];
                 const mimeType = item[3];
-                
-                if (typeof id !== 'string' || typeof name !== 'string') continue;
-                
-                items.push({
-                    id,
-                    name,
-                    isFolder: mimeType === 'application/vnd.google-apps.folder'
-                });
+                if (typeof id === 'string' && typeof name === 'string' && id !== folderId) {
+                    items.push({
+                        id,
+                        name,
+                        isFolder: mimeType === 'application/vnd.google-apps.folder'
+                    });
+                }
             }
-        } catch (e) {
-            console.error('Failed to parse decoded GDrive data', e);
-        }
+        } catch (e) { console.error('Parse error', e); }
     }
     
-    // 2. Fallback to regex-based extraction if the above fails
+    // Fallback extraction if primary fails
     if (items.length === 0) {
-        // Look for pattern: ["ID",["PARENT_ID"],"NAME","MIME_TYPE"
+        // More generic regex for safety
         const fallbackRegex = /\["(1[a-zA-Z0-9_-]{25,40})",\["[^"]*"\],"([^"]+)"/g;
         let m;
-        while ((match = fallbackRegex.exec(html)) !== null) {
-            const id = match[1];
-            const name = match[2];
+        while ((m = fallbackRegex.exec(html)) !== null) {
+            const id = m[1];
+            const name = m[2];
             if (id !== folderId && !items.find(i => i.id === id)) {
                 items.push({
                     id,
                     name,
-                    isFolder: !name.toLowerCase().includes('.')
+                    isFolder: !name.toLowerCase().match(/\.(pdf|jpg|png|mp3|zip|docx|xlsx)$/)
                 });
             }
         }
     }
 
-    // Sort: Folders first, then by name
-    items.sort((a, b) => {
+    // Secondary fallback for public folder structure pattern
+    if (items.length === 0) {
+        const altRegex = /\["(1[a-zA-Z0-9_-]{25,40})",\["([^"]+)"/g;
+        let m;
+        while ((m = altRegex.exec(html)) !== null) {
+             const id = m[1];
+             const name = m[2];
+             if (id && name && id.length > 20 && !items.find(i => i.id === id)) {
+                 items.push({ id, name, isFolder: !name.includes('.') });
+             }
+        }
+    }
+
+    // Filter out common UI strings that might be caught by loose regex
+    const filteredItems = items.filter(i => 
+        i.name && 
+        i.name.length > 1 && 
+        !['none', 'true', 'false', 'null', 'undefined', 'Name', 'Owner', 'Modified', 'File size'].includes(i.name)
+    );
+
+    filteredItems.sort((a, b) => {
         if (a.isFolder === b.isFolder) return a.name.localeCompare(b.name);
         return a.isFolder ? -1 : 1;
     });
 
-    return NextResponse.json(items);
+    return NextResponse.json(filteredItems);
   } catch (error: any) {
-    console.error('GDrive API Error:', error);
+    console.error('GDrive Sync Error:', error);
     return NextResponse.json({ error: error.message }, { status: 500 });
   }
 }
