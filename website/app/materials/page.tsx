@@ -1,7 +1,6 @@
 'use client'
 
-import { useState, useEffect, useCallback } from 'react'
-import staticData from './data.json'
+import { useState, useEffect, useCallback, useMemo } from 'react'
 
 interface DriveItem {
   id: string;
@@ -12,213 +11,241 @@ interface DriveItem {
 const ROOT_ID = '1LdWOImJrkJv1QxEa4465sraLavON99GV';
 
 export default function MaterialsPage() {
-  const [categories, setCategories] = useState<DriveItem[]>([])
-  const [activeFolderId, setActiveFolderId] = useState<string>('')
-  const [activeFolderName, setActiveFolderName] = useState<string>('')
-  const [files, setFiles] = useState<DriveItem[]>([])
+  const [sidebarItems, setSidebarItems] = useState<DriveItem[]>([])
+  const [activeFolderId, setActiveFolderId] = useState<string>(ROOT_ID)
+  const [activeFolderName, setActiveFolderName] = useState<string>('Semua Materi')
+  const [currentFiles, setCurrentFiles] = useState<DriveItem[]>([])
   const [loadingSidebar, setLoadingSidebar] = useState(true)
-  const [loadingFiles, setLoadingFiles] = useState(false)
+  const [loadingContent, setLoadingFiles] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  
+  // Breadcrumb path tracking
+  const [history, setHistory] = useState<{id: string, name: string}[]>([{id: ROOT_ID, name: 'Utama'}])
 
-  // Fetch root categories
-  const fetchCategories = useCallback(async () => {
+  // Fetch root folders for sidebar
+  const fetchRootFolders = useCallback(async () => {
     setLoadingSidebar(true)
     try {
       const res = await fetch(`/api/materials?folderId=${ROOT_ID}`)
-      if (!res.ok) throw new Error('Gagal memuat kategori')
+      if (!res.ok) throw new Error('Gagal terhubung ke server')
       const data = await res.json()
-      // Sort: Folders first
-      const folders = data.filter((i: DriveItem) => i.isFolder).sort((a: any, b: any) => a.name.localeCompare(b.name))
-      setCategories(folders)
-      
-      // Set first folder as active by default if not set
-      if (folders.length > 0 && !activeFolderId) {
-        setActiveFolderId(folders[0].id)
-        setActiveFolderName(folders[0].name)
-      }
+      // Only show folders in sidebar
+      const folders = data.filter((i: DriveItem) => i.isFolder)
+      setSidebarItems(folders)
     } catch (err: any) {
       setError(err.message)
-      // Fallback to static keys if API fails
-      const fallback = Object.keys(staticData).map(name => ({ id: '', name, isFolder: true }))
-      setCategories(fallback)
     } finally {
       setLoadingSidebar(false)
     }
-  }, [activeFolderId])
+  }, [])
 
-  // Fetch files in active folder
-  const fetchFiles = useCallback(async (folderId: string) => {
-    if (!folderId) {
-        // Handle static fallback data
-        const staticFiles = (staticData as any)[activeFolderName] || []
-        setFiles(staticFiles.map((f: any) => ({ 
-            id: f.driveId, 
-            name: f.name, 
-            isFolder: false 
-        })))
-        return
-    }
-
+  // Fetch content for active folder
+  const fetchContent = useCallback(async (folderId: string) => {
     setLoadingFiles(true)
     try {
       const res = await fetch(`/api/materials?folderId=${folderId}`)
-      if (!res.ok) throw new Error('Gagal memuat file')
+      if (!res.ok) throw new Error('Gagal memuat isi folder')
       const data = await res.json()
-      setFiles(data)
+      setCurrentFiles(data)
     } catch (err: any) {
       console.error(err)
     } finally {
       setLoadingFiles(false)
     }
-  }, [activeFolderName])
+  }, [])
 
   useEffect(() => {
-    fetchCategories()
-  }, [fetchCategories])
+    fetchRootFolders()
+  }, [fetchRootFolders])
 
   useEffect(() => {
-    if (activeFolderId || (categories.length > 0 && !activeFolderId)) {
-        fetchFiles(activeFolderId)
-    }
-  }, [activeFolderId, fetchFiles, categories])
+    fetchContent(activeFolderId)
+  }, [activeFolderId, fetchContent])
 
-  const handleFolderClick = (id: string, name: string) => {
+  const navigateTo = (id: string, name: string) => {
     setActiveFolderId(id)
     setActiveFolderName(name)
+    
+    // Manage history for breadcrumbs
+    const idx = history.findIndex(h => h.id === id)
+    if (idx !== -1) {
+        setHistory(history.slice(0, idx + 1))
+    } else {
+        setHistory([...history, {id, name}])
+    }
+  }
+
+  const goBack = () => {
+    if (history.length > 1) {
+        const prev = history[history.length - 2]
+        navigateTo(prev.id, prev.name)
+    }
   }
 
   return (
-    <div className="mx-auto max-w-7xl">
-      <div className="mb-12 fade-up">
-        <h1 className="text-4xl font-black tracking-tighter text-white md:text-6xl">
-          Materi & Latihan Soal
+    <div className="materials-container">
+      {/* Page Header */}
+      <div className="mb-10 animate-fade-in">
+        <h1 className="text-4xl font-black tracking-tight text-white md:text-6xl">
+          Materi & Latihan
         </h1>
-        <p className="mt-4 max-w-2xl text-lg text-slate-400">
-          Lihat langsung di browser atau download untuk belajar offline. Semua materi dipisahkan berdasarkan kategori untuk memudahkan pencarian.
+        <p className="mt-4 text-slate-400 max-w-2xl">
+          Akses modul pembelajaran, kosakata, dan soal ujian JFT langsung dari Google Drive yang selalu terupdate.
         </p>
       </div>
 
-      <div className="grid gap-8 lg:grid-cols-[320px,1fr]">
-        {/* Sidebar - Categories */}
-        <aside className="space-y-4">
-          <div className="rounded-[24px] border border-slate-800 bg-slate-900/40 p-2">
-            {loadingSidebar ? (
-              <div className="flex flex-col gap-2 p-4">
-                {[1, 2, 3, 4, 5].map(i => (
-                  <div key={i} className="h-12 w-full animate-pulse rounded-xl bg-slate-800" />
-                ))}
-              </div>
-            ) : (
-              <div className="flex flex-col gap-1">
-                {categories.map((cat) => (
+      <div className="grid gap-6 lg:grid-cols-[280px,1fr]">
+        
+        {/* SIDEBAR: Folder List (Desktop) */}
+        <aside className="hidden lg:block space-y-4">
+          <div className="sticky top-24">
+            <h2 className="mb-4 px-4 text-xs font-bold uppercase tracking-widest text-slate-500">Kategori Utama</h2>
+            <nav className="flex flex-col gap-1 rounded-[24px] border border-slate-800 bg-slate-900/30 p-2">
+              <button
+                onClick={() => navigateTo(ROOT_ID, 'Semua Materi')}
+                className={`flex items-center gap-3 rounded-xl px-4 py-3 text-left transition-all ${
+                  activeFolderId === ROOT_ID ? 'bg-blue-600 text-white shadow-lg shadow-blue-900/20' : 'text-slate-400 hover:bg-slate-800/50'
+                }`}
+              >
+                <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
+                <span className="font-bold">Beranda</span>
+              </button>
+
+              {loadingSidebar ? (
+                Array.from({length: 5}).map((_, i) => (
+                  <div key={i} className="h-12 w-full animate-pulse rounded-xl bg-slate-800/40" />
+                ))
+              ) : (
+                sidebarItems.map((cat) => (
                   <button
-                    key={cat.id || cat.name}
-                    onClick={() => handleFolderClick(cat.id, cat.name)}
-                    className={`flex items-center justify-between rounded-xl px-5 py-4 text-left transition-all hover:bg-slate-800/50 ${
-                      activeFolderName === cat.name 
-                        ? 'bg-slate-800 text-white ring-1 ring-slate-700 shadow-xl' 
-                        : 'text-slate-400'
+                    key={cat.id}
+                    onClick={() => navigateTo(cat.id, cat.name)}
+                    className={`flex items-center gap-3 rounded-xl px-4 py-3 text-left transition-all ${
+                      activeFolderId === cat.id ? 'bg-slate-800 text-blue-400 border border-slate-700' : 'text-slate-400 hover:bg-slate-800/50'
                     }`}
                   >
-                    <div className="min-w-0">
-                      <span className="block font-bold truncate">{cat.name}</span>
-                      {/* Sub-info if we had it */}
-                    </div>
-                    {activeFolderName === cat.name && (
-                        <div className="h-2 w-2 rounded-full bg-blue-500 shadow-[0_0_8px_rgba(59,130,246,0.5)]" />
-                    )}
+                    <svg className="h-5 w-5 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" /></svg>
+                    <span className="font-bold truncate text-sm">{cat.name}</span>
                   </button>
-                ))}
-              </div>
-            )}
-          </div>
-          
-          <div className="hidden rounded-[24px] bg-blue-600/10 p-6 lg:block">
-            <p className="text-sm font-medium text-blue-400">
-              💡 Tip: Gunakan tombol "Lihat" untuk membuka PDF langsung di browser tanpa mendownload.
-            </p>
+                ))
+              )}
+            </nav>
           </div>
         </aside>
 
-        {/* Main Content - Files */}
-        <main>
-          <div className="mb-6 flex items-center justify-between">
-            <div className="fade-in">
-              <span className="text-xs font-bold uppercase tracking-[0.2em] text-slate-500">Kategori</span>
-              <h2 className="text-3xl font-black text-white">{activeFolderName || 'Pilih Kategori'}</h2>
+        {/* MAIN CONTENT: File Grid */}
+        <main className="space-y-6">
+          
+          {/* Breadcrumbs / Back button */}
+          <div className="flex items-center justify-between gap-4">
+            <div className="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-hide">
+              {history.map((h, i) => (
+                <div key={h.id} className="flex items-center gap-2 whitespace-nowrap">
+                   {i > 0 && <span className="text-slate-700">/</span>}
+                   <button 
+                    onClick={() => navigateTo(h.id, h.name)}
+                    className={`text-sm font-bold transition-colors ${i === history.length - 1 ? 'text-blue-400' : 'text-slate-500 hover:text-slate-300'}`}
+                   >
+                     {h.name}
+                   </button>
+                </div>
+              ))}
             </div>
+            
+            {history.length > 1 && (
+                <button 
+                  onClick={goBack}
+                  className="shrink-0 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-500 hover:text-white transition-colors"
+                >
+                  <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg>
+                  Kembali
+                </button>
+            )}
           </div>
 
-          <div className="space-y-3">
-            {loadingFiles ? (
-              <div className="space-y-3">
-                {[1, 2, 3].map(i => (
-                  <div key={i} className="h-24 w-full animate-pulse rounded-[24px] bg-slate-900/50" />
-                ))}
-              </div>
-            ) : files.length === 0 ? (
-              <div className="rounded-[32px] border-2 border-dashed border-slate-800 py-20 text-center text-slate-500">
-                Tidak ada file di folder ini.
-              </div>
-            ) : (
-              files.map((file) => (
-                <div 
-                  key={file.id || file.name}
-                  className="group flex flex-col gap-4 rounded-[24px] border border-slate-800 bg-slate-900/40 p-6 transition-all hover:border-slate-700 hover:bg-slate-900/60 md:flex-row md:items-center md:justify-between"
-                >
-                  <div className="flex items-center gap-4">
-                    <div className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl ${file.isFolder ? 'bg-blue-500/10 text-blue-400' : 'bg-rose-500/10 text-rose-400'}`}>
-                      {file.isFolder ? (
-                        <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" /></svg>
-                      ) : (
-                        <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>
-                      )}
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-bold text-white transition-colors group-hover:text-blue-400">
-                        {file.name}
-                      </h3>
-                      {!file.isFolder && (
-                        <span className="text-xs font-medium text-slate-500 uppercase tracking-widest">Dokumen PDF</span>
-                      )}
-                    </div>
-                  </div>
-
-                  <div className="flex gap-2">
-                    {file.isFolder ? (
-                      <button 
-                        onClick={() => handleFolderClick(file.id, file.name)}
-                        className="rounded-[16px] bg-slate-800 px-6 py-2.5 text-sm font-bold text-white transition-all hover:bg-slate-700 active:scale-95"
-                      >
-                        Buka Subfolder
-                      </button>
-                    ) : (
-                      <>
-                        <a 
-                          href={`https://drive.google.com/file/d/${file.id}/preview`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="rounded-[16px] bg-slate-800 px-6 py-2.5 text-sm font-bold text-white transition-all hover:bg-slate-700 active:scale-95"
-                        >
-                          Lihat
-                        </a>
-                        <a 
-                          href={`https://drive.google.com/u/0/uc?id=${file.id}&export=download`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="rounded-[16px] bg-blue-600 px-6 py-2.5 text-sm font-bold text-white transition-all hover:bg-blue-500 active:scale-95 shadow-lg shadow-blue-900/20"
-                        >
-                          Download
-                        </a>
-                      </>
-                    )}
-                  </div>
+          <div className="space-y-4">
+            {loadingContent ? (
+               Array.from({length: 4}).map((_, i) => (
+                <div key={i} className="h-24 w-full animate-pulse rounded-[28px] bg-slate-900/50" />
+               ))
+            ) : currentFiles.length === 0 ? (
+                <div className="rounded-[40px] border-2 border-dashed border-slate-900 py-32 text-center">
+                    <p className="text-slate-600 font-bold italic">Folder ini kosong atau tidak dapat diakses.</p>
                 </div>
-              ))
+            ) : (
+                <div className="grid gap-4">
+                    {currentFiles.map((item) => (
+                        <div 
+                          key={item.id}
+                          className="group flex flex-col gap-4 rounded-[28px] border border-slate-800 bg-slate-900/40 p-5 transition-all hover:border-slate-700 hover:bg-slate-900/80 md:flex-row md:items-center md:justify-between"
+                        >
+                          <div className="flex items-center gap-5">
+                            <div className={`flex h-14 w-14 shrink-0 items-center justify-center rounded-[20px] transition-transform group-hover:scale-105 ${item.isFolder ? 'bg-blue-500/10 text-blue-500' : 'bg-red-500/10 text-red-500'}`}>
+                                {item.isFolder ? (
+                                    <svg className="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" /></svg>
+                                ) : (
+                                    <svg className="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>
+                                )}
+                            </div>
+                            <div className="min-w-0">
+                                <h3 className="text-lg font-black text-white group-hover:text-blue-400 transition-colors leading-tight truncate md:max-w-md lg:max-w-lg">
+                                    {item.name}
+                                </h3>
+                                <span className="text-[10px] font-bold uppercase tracking-widest text-slate-500">
+                                    {item.isFolder ? 'Direktori Folder' : 'Dokumen PDF'}
+                                </span>
+                            </div>
+                          </div>
+
+                          <div className="flex gap-2">
+                            {item.isFolder ? (
+                                <button 
+                                  onClick={() => navigateTo(item.id, item.name)}
+                                  className="w-full rounded-2xl bg-slate-800 px-6 py-3 text-sm font-black text-white hover:bg-slate-700 transition-all active:scale-95 md:w-auto"
+                                >
+                                  Buka Folder
+                                </button>
+                            ) : (
+                                <>
+                                    <a 
+                                      href={`https://drive.google.com/file/d/${item.id}/preview`}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="flex-1 rounded-2xl bg-slate-800 px-6 py-3 text-center text-sm font-black text-white hover:bg-slate-700 transition-all active:scale-95 md:flex-none md:min-w-[100px]"
+                                    >
+                                      Lihat
+                                    </a>
+                                    <a 
+                                      href={`https://drive.google.com/u/0/uc?id=${item.id}&export=download`}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="flex-1 rounded-2xl bg-blue-600 px-6 py-3 text-center text-sm font-black text-white hover:bg-blue-500 transition-all active:scale-95 shadow-lg shadow-blue-900/20 md:flex-none md:min-w-[100px]"
+                                    >
+                                      Unduh
+                                    </a>
+                                </>
+                            )}
+                          </div>
+                        </div>
+                    ))}
+                </div>
             )}
           </div>
         </main>
       </div>
+
+      <style jsx global>{`
+        .materials-container {
+            padding-bottom: 2rem;
+        }
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+        .scrollbar-hide {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+      `}</style>
     </div>
   )
 }
