@@ -1,89 +1,14 @@
 {
   "version": 1,
-  "cycleKey": "2026-05-18",
-  "cycleLabel": "Weekly reset 18/05/2026",
-  "resetAt": "2026-05-24T17:00:00.000Z",
-  "updatedAt": "2026-05-21T11:26:54.217Z",
+  "cycleKey": "2026-06-01",
+  "cycleLabel": "Weekly reset 01/06/2026",
+  "resetAt": "2026-06-07T17:00:00.000Z",
+  "updatedAt": "2026-06-04T08:28:23.103Z",
   "players": [
     {
       "id": "rananwari",
       "name": "rananwari",
-      "updatedAt": "2026-05-19T08:04:05.374Z",
-      "stats": {
-        "jft": {
-          "attempts": 1,
-          "totalQuestionsAnswered": 60,
-          "totalCorrectAnswers": 49,
-          "bestPercentage": 81.7,
-          "bestCorrectAnswers": 49,
-          "bestQuestions": 60,
-          "lastPlayedAt": "2026-05-19T07:34:58.634Z"
-        },
-        "kanji": {
-          "attempts": 2,
-          "totalQuestionsAnswered": 60,
-          "totalCorrectAnswers": 49,
-          "bestPercentage": 88,
-          "bestCorrectAnswers": 44,
-          "bestQuestions": 50,
-          "lastPlayedAt": "2026-05-19T08:04:05.374Z"
-        }
-      }
-    },
-    {
-      "id": "nur-aini",
-      "name": "Nur aini",
-      "updatedAt": "2026-05-18T11:18:13.435Z",
-      "stats": {
-        "jft": {
-          "attempts": 1,
-          "totalQuestionsAnswered": 60,
-          "totalCorrectAnswers": 43,
-          "bestPercentage": 71.7,
-          "bestCorrectAnswers": 43,
-          "bestQuestions": 60,
-          "lastPlayedAt": "2026-05-18T11:18:13.435Z"
-        },
-        "kanji": {
-          "attempts": 0,
-          "totalQuestionsAnswered": 0,
-          "totalCorrectAnswers": 0,
-          "bestPercentage": 0,
-          "bestCorrectAnswers": 0,
-          "bestQuestions": 0,
-          "lastPlayedAt": null
-        }
-      }
-    },
-    {
-      "id": "pengembarabingung",
-      "name": "Pengembarabingung",
-      "updatedAt": "2026-05-19T02:00:53.929Z",
-      "stats": {
-        "jft": {
-          "attempts": 1,
-          "totalQuestionsAnswered": 60,
-          "totalCorrectAnswers": 51,
-          "bestPercentage": 85,
-          "bestCorrectAnswers": 51,
-          "bestQuestions": 60,
-          "lastPlayedAt": "2026-05-19T01:54:45.609Z"
-        },
-        "kanji": {
-          "attempts": 1,
-          "totalQuestionsAnswered": 25,
-          "totalCorrectAnswers": 21,
-          "bestPercentage": 84,
-          "bestCorrectAnswers": 21,
-          "bestQuestions": 25,
-          "lastPlayedAt": "2026-05-19T02:00:53.929Z"
-        }
-      }
-    },
-    {
-      "id": "andy-irawan",
-      "name": "Andy irawan",
-      "updatedAt": "2026-05-21T11:26:54.217Z",
+      "updatedAt": "2026-06-04T08:28:23.103Z",
       "stats": {
         "jft": {
           "attempts": 0,
@@ -97,11 +22,20 @@
         "kanji": {
           "attempts": 1,
           "totalQuestionsAnswered": 25,
-          "totalCorrectAnswers": 22,
-          "bestPercentage": 88,
-          "bestCorrectAnswers": 22,
+          "totalCorrectAnswers": 16,
+          "bestPercentage": 64,
+          "bestCorrectAnswers": 16,
           "bestQuestions": 25,
-          "lastPlayedAt": "2026-05-21T11:26:54.217Z"
+          "lastPlayedAt": "2026-06-04T08:28:23.103Z"
+        },
+        "pm": {
+          "attempts": 0,
+          "totalQuestionsAnswered": 0,
+          "totalCorrectAnswers": 0,
+          "bestPercentage": 0,
+          "bestCorrectAnswers": 0,
+          "bestQuestions": 0,
+          "lastPlayedAt": null
         }
       }
     }
