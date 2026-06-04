@@ -3,12 +3,12 @@
   "cycleKey": "2026-06-01",
   "cycleLabel": "Weekly reset 01/06/2026",
   "resetAt": "2026-06-07T17:00:00.000Z",
-  "updatedAt": "2026-06-04T08:41:37.750Z",
+  "updatedAt": "2026-06-04T08:47:21.526Z",
   "players": [
     {
       "id": "rananwari",
       "name": "rananwari",
-      "updatedAt": "2026-06-04T08:41:37.750Z",
+      "updatedAt": "2026-06-04T08:47:21.526Z",
       "stats": {
         "jft": {
           "attempts": 0,
@@ -20,13 +20,13 @@
           "lastPlayedAt": null
         },
         "kanji": {
-          "attempts": 2,
-          "totalQuestionsAnswered": 55,
-          "totalCorrectAnswers": 30,
-          "bestPercentage": 64,
-          "bestCorrectAnswers": 16,
-          "bestQuestions": 25,
-          "lastPlayedAt": "2026-06-04T08:41:37.750Z"
+          "attempts": 3,
+          "totalQuestionsAnswered": 90,
+          "totalCorrectAnswers": 53,
+          "bestPercentage": 65.7,
+          "bestCorrectAnswers": 23,
+          "bestQuestions": 35,
+          "lastPlayedAt": "2026-06-04T08:47:21.526Z"
         },
         "pm": {
           "attempts": 0,
