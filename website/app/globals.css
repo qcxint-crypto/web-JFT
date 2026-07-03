@@ -899,3 +899,41 @@ button {
     mix-blend-mode: normal;
   }
 }
+
+/* Additional Materials Styles */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+.no-select { user-select: none; -webkit-user-select: none; }
+
+/* Furigana ruby — cara baca (hiragana/katakana) ditulis di atas kanji */
+ruby.furigana {
+  ruby-position: over;
+  -webkit-ruby-position: over;
+  ruby-align: center;
+  display: inline-flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  line-height: 1.05;
+  vertical-align: baseline;
+}
+ruby.furigana > rt {
+  display: block;
+  font-family: var(--font-body), sans-serif;
+  font-size: 0.42em;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+  margin-bottom: 0.14em;
+  color: rgba(15, 23, 42, 0.6);
+  text-align: center;
+  white-space: nowrap;
+  user-select: none;
+}
+[data-theme='dark'] ruby.furigana > rt {
+  color: rgba(226, 232, 240, 0.72);
+}
+/* Give big question kanji enough headroom so furigana is never clipped */
+.furigana-question {
+  padding-top: 0.5em;
+  display: inline-block;
+}
