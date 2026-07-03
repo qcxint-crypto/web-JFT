@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "cycleKey": "2026-06-01",
-  "cycleLabel": "Weekly reset 01/06/2026",
-  "resetAt": "2026-06-07T17:00:00.000Z",
-  "updatedAt": "2026-06-04T10:18:46.520Z",
+  "cycleKey": "2026-06-29",
+  "cycleLabel": "Weekly reset 29/06/2026",
+  "resetAt": "2026-07-05T17:00:00.000Z",
+  "updatedAt": "2026-07-03T11:34:39.724Z",
   "players": [
     {
-      "id": "rananwari",
-      "name": "rananwari",
-      "updatedAt": "2026-06-04T08:47:21.526Z",
+      "id": "tester",
+      "name": "Tester",
+      "updatedAt": "2026-07-03T11:34:39.724Z",
       "stats": {
         "jft": {
           "attempts": 0,
@@ -20,56 +20,22 @@
           "lastPlayedAt": null
         },
         "kanji": {
-          "attempts": 3,
-          "totalQuestionsAnswered": 90,
-          "totalCorrectAnswers": 53,
-          "bestPercentage": 65.7,
-          "bestCorrectAnswers": 23,
-          "bestQuestions": 35,
-          "lastPlayedAt": "2026-06-04T08:47:21.526Z"
+          "attempts": 0,
+          "totalQuestionsAnswered": 0,
+          "totalCorrectAnswers": 0,
+          "bestPercentage": 0,
+          "bestCorrectAnswers": 0,
+          "bestQuestions": 0,
+          "lastPlayedAt": null
         },
         "pm": {
-          "attempts": 0,
-          "totalQuestionsAnswered": 0,
-          "totalCorrectAnswers": 0,
-          "bestPercentage": 0,
-          "bestCorrectAnswers": 0,
-          "bestQuestions": 0,
-          "lastPlayedAt": null
-        }
-      }
-    },
-    {
-      "id": "nn",
-      "name": "NN",
-      "updatedAt": "2026-06-04T10:18:46.520Z",
-      "stats": {
-        "jft": {
-          "attempts": 0,
-          "totalQuestionsAnswered": 0,
-          "totalCorrectAnswers": 0,
-          "bestPercentage": 0,
-          "bestCorrectAnswers": 0,
-          "bestQuestions": 0,
-          "lastPlayedAt": null
-        },
-        "kanji": {
-          "attempts": 4,
-          "totalQuestionsAnswered": 20,
-          "totalCorrectAnswers": 12,
-          "bestPercentage": 80,
-          "bestCorrectAnswers": 4,
-          "bestQuestions": 5,
-          "lastPlayedAt": "2026-06-04T10:18:46.520Z"
-        },
-        "pm": {
-          "attempts": 0,
-          "totalQuestionsAnswered": 0,
-          "totalCorrectAnswers": 0,
-          "bestPercentage": 0,
-          "bestCorrectAnswers": 0,
-          "bestQuestions": 0,
-          "lastPlayedAt": null
+          "attempts": 1,
+          "totalQuestionsAnswered": 25,
+          "totalCorrectAnswers": 5,
+          "bestPercentage": 20,
+          "bestCorrectAnswers": 5,
+          "bestQuestions": 25,
+          "lastPlayedAt": "2026-07-03T11:34:39.724Z"
         }
       }
     }
