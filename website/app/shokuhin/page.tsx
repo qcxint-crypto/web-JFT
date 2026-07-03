@@ -5,23 +5,25 @@ import { useRouter } from 'next/navigation'
 import { useEffect, useState } from 'react'
 import { allPmKotoba, PmEntry } from './data'
 
-const FIELDS = ['kanji', 'reading', 'meaning'] as const
-type Field = typeof FIELDS[number]
+// Quiz Shokuhin Kakou — hanya dua arah:
+//   k2m: Kanji (+furigana) -> pilih Arti (Bahasa Indonesia)
+//   m2k: Arti (Bahasa Indonesia) -> pilih Kanji (+furigana)
+// Setiap kali kanji ditampilkan, cara bacanya (hiragana/katakana) ditulis di atasnya sebagai furigana.
+const DIRECTIONS = ['k2m', 'm2k'] as const
+type Direction = typeof DIRECTIONS[number]
+type AnswerField = 'kanji' | 'meaning'
 
 type QuizQuestion = {
   id: number
-  qField: Field
-  aField: Field
-  qValue: string
-  correctOptionId: number
-  options: PmEntry[]
+  direction: Direction
   entry: PmEntry
+  options: PmEntry[]
+  correctOptionId: number
 }
 
-const FIELD_LABELS: Record<Field, { ja: string; id: string }> = {
-  kanji: { ja: '漢字', id: 'Kanji' },
-  reading: { ja: '読み方', id: 'Hiragana' },
-  meaning: { ja: '意味', id: 'Arti' },
+const DIRECTION_LABELS: Record<Direction, { from: string; to: string }> = {
+  k2m: { from: '漢字 Kanji', to: '意味 Arti' },
+  m2k: { from: '意味 Arti', to: '漢字 Kanji' },
 }
 
 const DEFAULT_QUESTION_COUNT = 25
@@ -58,7 +60,7 @@ const getPmCategory = (entry: PmEntry) => {
   return 'OTHER'
 }
 
-const scoreSimilarity = (candidate: PmEntry, target: PmEntry, field: Field) => {
+const scoreSimilarity = (candidate: PmEntry, target: PmEntry, field: AnswerField) => {
   if (!candidate || !target) return 0
   const source = target[field]
   const probe = candidate[field]
@@ -78,17 +80,8 @@ const scoreSimilarity = (candidate: PmEntry, target: PmEntry, field: Field) => {
       }
     }
     if (Math.abs(source.length - probe.length) <= 3) score += 3
-  } else if (field === 'reading') {
-    if (source.length === probe.length) score += 8
-    else if (Math.abs(source.length - probe.length) <= 2) score += 2
-    if (source[0] === probe[0]) score += 6
-    if (source.endsWith('する') && probe.endsWith('する')) score += 12
-    else if (source.endsWith('ます') && probe.endsWith('ます')) score += 12
-    else if (source.endsWith('い') && probe.endsWith('い')) score += 8
-    for (let i = 2; i < Math.min(source.length, probe.length); i += 1) {
-      if (source.substring(i) === probe.substring(i)) score += (source.length - i) * 0.5
-    }
   } else {
+    // field === 'kanji'
     if (source.length === probe.length) score += 10
     else if (Math.abs(source.length - probe.length) <= 1) score += 3
     for (const char of new Set(source)) {
@@ -98,12 +91,35 @@ const scoreSimilarity = (candidate: PmEntry, target: PmEntry, field: Field) => {
     if (source.endsWith('ます') && probe.endsWith('ます')) score += 10
     if (source.endsWith('工程') && probe.endsWith('工程')) score += 15
     if (source.endsWith('管理') && probe.endsWith('管理')) score += 14
+    // dorong distraktor dengan kategori makna serupa
+    if (getPmCategory(target) === getPmCategory(candidate)) score += 6
   }
 
   return score + Math.random() * 2
 }
 
-const formatEntryLine = (entry: PmEntry) => `${entry.kanji} = ${entry.reading} = ${entry.meaning}`
+/**
+ * Menampilkan kanji dengan furigana (cara baca) di atasnya menggunakan <ruby>.
+ * Jika kata sudah berupa kana murni (reading kosong / '-' / sama dengan teksnya),
+ * furigana tidak ditampilkan agar tidak berulang.
+ */
+function Furigana({ entry, className }: { entry: PmEntry; className?: string }) {
+  const kanji = entry.kanji ?? ''
+  const reading = (entry.reading ?? '').trim()
+  const showRuby =
+    reading.length > 0 && reading !== '-' && reading !== 'ー' && reading !== kanji.trim()
+
+  if (!showRuby) {
+    return <span className={className}>{kanji}</span>
+  }
+
+  return (
+    <ruby className={`furigana ${className ?? ''}`}>
+      {kanji}
+      <rt>{reading}</rt>
+    </ruby>
+  )
+}
 
 function FeedbackRow({
   entry,
@@ -122,7 +138,11 @@ function FeedbackRow({
   return (
     <div className={`rounded-[24px] border px-4 py-3 shadow-[0_18px_34px_-28px_rgba(15,23,42,0.35)] ${toneClasses}`}>
       <div className="flex items-start justify-between gap-3">
-        <div className="text-sm font-semibold leading-relaxed md:text-base">{formatEntryLine(entry)}</div>
+        <div className="flex min-w-0 flex-wrap items-baseline gap-x-3 gap-y-2">
+          <Furigana entry={entry} className="font-display text-2xl font-bold leading-[1.5] tracking-[-0.03em] md:text-3xl" />
+          <span className="text-slate-400">＝</span>
+          <span className="text-sm font-semibold leading-relaxed md:text-base">{entry.meaning}</span>
+        </div>
         {badge && (
           <span className="kanji-feedback-badge shrink-0 rounded-full bg-rose-100 px-3 py-1 text-[10px] font-black uppercase tracking-[0.22em] text-rose-700">
             {badge}
@@ -164,54 +184,51 @@ export default function ShokuhinQuizPage() {
     const selectedEntries = pickRandom(allPmKotoba, clampQuestionCount(count))
 
     const nextQuestions = selectedEntries.map((entry) => {
-      const qField = FIELDS[Math.floor(Math.random() * FIELDS.length)]
-      const remainingFields = FIELDS.filter((f) => f !== qField)
-      const aField = remainingFields[Math.floor(Math.random() * remainingFields.length)]
+      const direction = DIRECTIONS[Math.floor(Math.random() * DIRECTIONS.length)]
+      const aField: AnswerField = direction === 'k2m' ? 'meaning' : 'kanji'
 
       const candidateEntries = allPmKotoba
         .filter((item) => item.id !== entry.id && item[aField] !== entry[aField])
         .map((item) => ({ item, score: scoreSimilarity(item, entry, aField) }))
         .sort((a, b) => b.score - a.score)
 
-      const seenValues = new Set<string>([
-        String(entry.kanji),
-        String(entry.reading),
-        String(entry.meaning)
-      ])
+      // Jaga agar tiap opsi berbeda pada kanji maupun arti (hindari opsi kembar)
+      const seenKanji = new Set<string>([entry.kanji])
+      const seenMeaning = new Set<string>([entry.meaning])
       const wrongOptions: PmEntry[] = []
 
       for (const candidate of candidateEntries) {
         if (wrongOptions.length >= 3) break
-        
-        // Ensure no field matches any of the already selected options' fields
-        const cKanji = String(candidate.item.kanji)
-        const cReading = String(candidate.item.reading)
-        const cMeaning = String(candidate.item.meaning)
-        
-        if (seenValues.has(cKanji) || seenValues.has(cReading) || seenValues.has(cMeaning)) continue
-        
-        wrongOptions.push(candidate.item)
-        seenValues.add(cKanji)
-        seenValues.add(cReading)
-        seenValues.add(cMeaning)
+        const item = candidate.item
+        if (seenKanji.has(item.kanji) || seenMeaning.has(item.meaning)) continue
+        if (item[aField] === entry[aField]) continue
+        wrongOptions.push(item)
+        seenKanji.add(item.kanji)
+        seenMeaning.add(item.meaning)
       }
 
       if (wrongOptions.length < 3) {
         const fallback = pickRandom(
-          allPmKotoba.filter((item) => item.id !== entry.id && !seenValues.has(String(item[aField]))),
+          allPmKotoba.filter(
+            (item) =>
+              item.id !== entry.id &&
+              !seenKanji.has(item.kanji) &&
+              !seenMeaning.has(item.meaning) &&
+              item[aField] !== entry[aField]
+          ),
           3 - wrongOptions.length
         )
         for (const candidate of fallback) {
-          const cv = String(candidate[aField])
-          if (seenValues.has(cv)) continue
+          if (seenKanji.has(candidate.kanji) || seenMeaning.has(candidate.meaning)) continue
           wrongOptions.push(candidate)
-          seenValues.add(cv)
+          seenKanji.add(candidate.kanji)
+          seenMeaning.add(candidate.meaning)
         }
       }
 
       const options = pickRandom([entry, ...wrongOptions], Math.min(4, 1 + wrongOptions.length))
 
-      return { id: entry.id, qField, aField, qValue: entry[qField], correctOptionId: entry.id, options, entry }
+      return { id: entry.id, direction, entry, options, correctOptionId: entry.id }
     })
 
     setQuestions(nextQuestions)
@@ -330,27 +347,30 @@ export default function ShokuhinQuizPage() {
             </span>
             <div>
               <h1 className="font-display text-4xl font-bold leading-[0.95] tracking-[-0.06em] text-slate-950 sm:text-5xl">
-                Latihan kosakata Pengolahan Makanan dengan feedback lengkap.
+                Kanji ⇄ Arti Bahasa Indonesia, lengkap dengan furigana.
               </h1>
               <p className="mt-4 max-w-2xl text-base leading-7 text-slate-600">
-                Setiap pertanyaan acak bergerak antara Kanji, Hiragana, dan arti. Setelah menjawab, semua opsi tampil dalam penjelasan penuh agar kosakata PM lebih mudah dihafal.
+                Dua arah latihan: baca <span className="font-semibold">Kanji</span> (cara bacanya ditulis di atas dengan hiragana/katakana) lalu pilih artinya, atau baca <span className="font-semibold">arti Bahasa Indonesia</span> lalu pilih kanji yang tepat. Semua kosakata diambil dari materi SSW Pengolahan Makanan.
               </p>
             </div>
             <div className="grid gap-4 sm:grid-cols-2">
               <div className="rounded-[28px] bg-slate-900 p-6 text-white shadow-[0_28px_70px_-40px_rgba(15,23,42,0.85)]">
-                <div className="text-[11px] font-black uppercase tracking-[0.28em] text-white/55">Why it works</div>
-                <div className="font-display mt-3 text-2xl font-bold tracking-[-0.05em]">
-                  Belajar dari pilihan benar dan salah sekaligus.
+                <div className="text-[11px] font-black uppercase tracking-[0.28em] text-white/55">Contoh Furigana</div>
+                <div className="mt-4 flex items-center gap-4">
+                  <ruby className="furigana font-display text-4xl font-bold tracking-[-0.04em] text-white">
+                    食品安全
+                    <rt>しょくひんあんぜん</rt>
+                  </ruby>
                 </div>
-                <p className="mt-3 text-sm leading-6 text-white/72">
-                  Pilihan jawaban diambil dari kata-kata yang semantiknya mirip — proses, suhu, kebersihan, keselamatan — supaya latihan lebih tajam.
+                <p className="mt-4 text-sm leading-6 text-white/72">
+                  Cara baca selalu tampil di atas kanji, persis seperti buku pelajaran.
                 </p>
               </div>
               <div className="rounded-[26px] border border-slate-900/10 bg-white/88 p-6">
                 <div className="text-[11px] font-black uppercase tracking-[0.28em] text-slate-500">Bank Soal</div>
                 <div className="font-display mt-3 text-4xl font-bold tracking-[-0.06em] text-slate-950">{allPmKotoba.length}</div>
                 <p className="mt-2 text-sm leading-6 text-slate-600">
-                  Kosakata dari BAB 1–5 materi SSW Pengolahan Makanan siap dikuiskan.
+                  Kosakata dari materi & soal latihan SSW Pengolahan Makanan siap dikuiskan.
                 </p>
               </div>
             </div>
@@ -495,8 +515,9 @@ export default function ShokuhinQuizPage() {
   }
 
   const currentQuestion = questions[currentIndex]
-  const qLabel = FIELD_LABELS[currentQuestion.qField]
-  const aLabel = FIELD_LABELS[currentQuestion.aField]
+  const direction = currentQuestion.direction
+  const answerField: AnswerField = direction === 'k2m' ? 'meaning' : 'kanji'
+  const dirLabel = DIRECTION_LABELS[direction]
   const selectedOption = currentQuestion.options.find((o) => o.id === selectedAnswerId) ?? null
   const correctOption = currentQuestion.options.find((o) => o.id === currentQuestion.correctOptionId) ?? currentQuestion.entry
   const wrongOptions = currentQuestion.options.filter((o) => o.id !== currentQuestion.correctOptionId)
@@ -532,12 +553,12 @@ export default function ShokuhinQuizPage() {
 
         <div className="relative mt-6 flex flex-wrap items-center justify-between gap-4">
           <div className="flex flex-wrap items-center gap-3">
-            <span className="rounded-full bg-slate-900 px-4 py-2 text-xs font-black uppercase tracking-[0.22em] text-white">
-              {qLabel.id}
+            <span className="rounded-full bg-slate-900 px-4 py-2 text-xs font-black uppercase tracking-[0.16em] text-white">
+              {dirLabel.from}
             </span>
             <span className="text-slate-400">→</span>
-            <span className="rounded-full bg-orange-100 px-4 py-2 text-xs font-black uppercase tracking-[0.22em] text-orange-900">
-              {aLabel.id}
+            <span className="rounded-full bg-orange-100 px-4 py-2 text-xs font-black uppercase tracking-[0.16em] text-orange-900">
+              {dirLabel.to}
             </span>
           </div>
           <button
@@ -572,18 +593,20 @@ export default function ShokuhinQuizPage() {
       </div>
 
       <section className="glass-panel rounded-[34px] px-5 py-6 sm:px-7 sm:py-8">
-        <div className="mb-8 text-center">
-          <div
-            className={`leading-tight text-slate-950 ${
-              currentQuestion.qField === 'kanji'
-                ? 'font-display text-6xl font-bold tracking-[-0.08em] md:text-8xl'
-                : currentQuestion.qField === 'meaning'
-                  ? 'font-display text-3xl font-bold tracking-[-0.05em] md:text-4xl'
-                  : 'font-display text-4xl font-bold tracking-[-0.05em] md:text-5xl'
-            }`}
-          >
-            {currentQuestion.qValue}
-          </div>
+        <div className="mb-3 text-center text-[11px] font-black uppercase tracking-[0.28em] text-slate-500">
+          {direction === 'k2m' ? 'Apa arti kosakata ini?' : 'Pilih kanji yang tepat'}
+        </div>
+        <div className="mb-8 flex min-h-[120px] items-center justify-center text-center">
+          {direction === 'k2m' ? (
+            <Furigana
+              entry={currentQuestion.entry}
+              className="furigana-question font-display text-5xl font-bold leading-[1.35] tracking-[-0.06em] text-slate-950 md:text-7xl"
+            />
+          ) : (
+            <div className="font-display text-3xl font-bold leading-tight tracking-[-0.04em] text-slate-950 md:text-4xl">
+              {currentQuestion.entry.meaning}
+            </div>
+          )}
         </div>
 
         <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
@@ -609,20 +632,17 @@ export default function ShokuhinQuizPage() {
                 className={buttonClass}
               >
                 <div className="flex items-center gap-3">
-                  <span className="flex h-10 w-10 items-center justify-center rounded-[14px] bg-slate-900/6 text-xs font-black text-slate-700">
+                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-[14px] bg-slate-900/6 text-xs font-black text-slate-700">
                     {answered ? (isRight ? '✓' : isSelected ? '✕' : String.fromCharCode(65 + index)) : String.fromCharCode(65 + index)}
                   </span>
-                  <span
-                    className={
-                      currentQuestion.aField === 'kanji'
-                        ? 'font-display text-2xl font-bold tracking-[-0.05em]'
-                        : currentQuestion.aField === 'meaning'
-                          ? 'text-sm font-semibold leading-6 md:text-base'
-                          : 'font-display text-xl font-bold tracking-[-0.05em] md:text-2xl'
-                    }
-                  >
-                    {option[currentQuestion.aField]}
-                  </span>
+                  {answerField === 'kanji' ? (
+                    <Furigana
+                      entry={option}
+                      className="font-display text-2xl font-bold leading-[1.5] tracking-[-0.04em] md:text-3xl"
+                    />
+                  ) : (
+                    <span className="text-sm font-semibold leading-6 md:text-base">{option.meaning}</span>
+                  )}
                 </div>
               </button>
             )
