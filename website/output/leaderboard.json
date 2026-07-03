@@ -3,12 +3,12 @@
   "cycleKey": "2026-06-29",
   "cycleLabel": "Weekly reset 29/06/2026",
   "resetAt": "2026-07-05T17:00:00.000Z",
-  "updatedAt": "2026-07-03T15:30:32.755Z",
+  "updatedAt": "2026-07-03T15:35:12.841Z",
   "players": [
     {
       "id": "tester",
       "name": "Tester",
-      "updatedAt": "2026-07-03T11:34:39.724Z",
+      "updatedAt": "2026-07-03T15:35:12.841Z",
       "stats": {
         "jft": {
           "attempts": 0,
@@ -29,13 +29,13 @@
           "lastPlayedAt": null
         },
         "pm": {
-          "attempts": 1,
-          "totalQuestionsAnswered": 25,
-          "totalCorrectAnswers": 5,
-          "bestPercentage": 20,
-          "bestCorrectAnswers": 5,
+          "attempts": 2,
+          "totalQuestionsAnswered": 50,
+          "totalCorrectAnswers": 12,
+          "bestPercentage": 28,
+          "bestCorrectAnswers": 7,
           "bestQuestions": 25,
-          "lastPlayedAt": "2026-07-03T11:34:39.724Z"
+          "lastPlayedAt": "2026-07-03T15:35:12.841Z"
         }
       }
     },
