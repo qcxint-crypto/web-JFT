@@ -8,17 +8,21 @@ import { allPmKotoba, PmEntry } from './data'
 // Quiz Shokuhin Kakou — hanya dua arah:
 //   k2m: Kanji (+furigana) -> pilih Arti (Bahasa Indonesia)
 //   m2k: Arti (Bahasa Indonesia) -> pilih Kanji (+furigana)
-// Setiap kali kanji ditampilkan, cara bacanya (hiragana/katakana) ditulis di atasnya sebagai furigana.
+// Kanji yang artinya sama digabung jadi SATU item (mis. 製造日 / 製造年月日 = Tanggal Produksi),
+// sehingga di pilihan ganda tidak pernah ada arti kembar.
 const DIRECTIONS = ['k2m', 'm2k'] as const
 type Direction = typeof DIRECTIONS[number]
 type AnswerField = 'kanji' | 'meaning'
 
+type Variant = { id: number; kanji: string; reading: string }
+type QuizItem = { key: string; meaning: string; variants: Variant[] }
+
 type QuizQuestion = {
-  id: number
+  key: string
   direction: Direction
-  entry: PmEntry
-  options: PmEntry[]
-  correctOptionId: number
+  item: QuizItem
+  options: QuizItem[]
+  correctKey: string
 }
 
 const DIRECTION_LABELS: Record<Direction, { from: string; to: string }> = {
@@ -28,24 +32,154 @@ const DIRECTION_LABELS: Record<Direction, { from: string; to: string }> = {
 
 const DEFAULT_QUESTION_COUNT = 25
 const PLAYER_NAME_KEY = 'rananwari_player_name'
+const SEEN_KEY = 'shokuhin_seen_v1'
 
-const clampQuestionCount = (value: number) =>
-  Number.isFinite(value) ? Math.max(5, Math.min(allPmKotoba.length, Math.round(value))) : DEFAULT_QUESTION_COUNT
+// ---- Gabungkan kosakata berdasarkan arti (Bahasa Indonesia) ----
+const normMeaning = (m: string) =>
+  m
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, ' ')
+    .replace(/[.。]+$/, '')
 
-const pickRandom = <T,>(items: T[], count: number) => {
-  const shuffled = [...items]
-  for (let i = shuffled.length - 1; i > 0; i -= 1) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
-  }
-  return shuffled.slice(0, Math.min(count, shuffled.length))
+const capFirst = (s: string) => (s ? s.charAt(0).toUpperCase() + s.slice(1) : s)
+
+const letters = (s: string) => s.replace(/[^A-Za-z]/g, '')
+const isAllCaps = (s: string) => {
+  const l = letters(s)
+  return l.length > 1 && l === l.toUpperCase()
+}
+// Rapikan casing arti: ALL CAPS -> sentence case; all-lowercase -> kapitalkan huruf awal;
+// biarkan istilah yang sudah punya kapital (mis. pH, E. Coli) apa adanya.
+const niceMeaning = (s: string) => {
+  const t = s.trim()
+  if (isAllCaps(t)) return capFirst(t.toLowerCase())
+  if (/[A-Z]/.test(t)) return t
+  return capFirst(t)
+}
+// Skor kerapian casing untuk memilih arti tampilan dari sekelompok varian.
+const casingScore = (s: string) => {
+  const t = s.trim()
+  if (!letters(t)) return -1
+  let sc = 0
+  if (/[A-Z]/.test(t[0] || '')) sc += 2 // huruf awal kapital
+  if (isAllCaps(t)) sc -= 3 // hindari ALL CAPS
+  return sc
 }
 
-const getPmCategory = (entry: PmEntry) => {
-  if (!entry) return 'OTHER'
-  const k = entry.kanji || ''
-  const m = (entry.meaning || '').toLowerCase()
+function buildQuizItems(entries: PmEntry[]): QuizItem[] {
+  const groups = new Map<string, PmEntry[]>()
+  for (const e of entries) {
+    const key = normMeaning(e.meaning)
+    if (!key) continue
+    const arr = groups.get(key)
+    if (arr) arr.push(e)
+    else groups.set(key, [e])
+  }
 
+  const items: QuizItem[] = []
+  groups.forEach((list, key) => {
+    // arti tampilan: pilih varian dgn casing paling rapi, lalu normalkan (hindari ALL CAPS)
+    const best = [...list].sort((a, b) => casingScore(b.meaning) - casingScore(a.meaning))[0]
+    const display = niceMeaning(best.meaning)
+    // gabungkan varian kanji unik yang berarti sama
+    const seen = new Set<string>()
+    const variants: Variant[] = []
+    for (const e of list) {
+      const nk = e.kanji.replace(/\s+/g, '')
+      if (!nk || seen.has(nk)) continue
+      seen.add(nk)
+      variants.push({ id: e.id, kanji: e.kanji, reading: e.reading })
+    }
+    if (variants.length > 0) items.push({ key, meaning: display, variants })
+  })
+  return items
+}
+
+const QUIZ_ITEMS = buildQuizItems(allPmKotoba)
+const TOTAL_ITEMS = QUIZ_ITEMS.length
+
+const clampQuestionCount = (value: number) =>
+  Number.isFinite(value) ? Math.max(5, Math.min(TOTAL_ITEMS, Math.round(value))) : DEFAULT_QUESTION_COUNT
+
+const shuffle = <T,>(items: T[]) => {
+  const a = [...items]
+  for (let i = a.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[a[i], a[j]] = [a[j], a[i]]
+  }
+  return a
+}
+
+// ---- Reset "soal yang sudah keluar" bareng dengan siklus mingguan leaderboard ----
+const JAKARTA_OFFSET_MS = 7 * 60 * 60 * 1000
+function currentCycleKey(now = new Date()): string {
+  const j = new Date(now.getTime() + JAKARTA_OFFSET_MS)
+  const dayIndex = (j.getUTCDay() + 6) % 7
+  const start = new Date(j)
+  start.setUTCHours(0, 0, 0, 0)
+  start.setUTCDate(start.getUTCDate() - dayIndex)
+  const yyyy = start.getUTCFullYear()
+  const mm = String(start.getUTCMonth() + 1).padStart(2, '0')
+  const dd = String(start.getUTCDate()).padStart(2, '0')
+  return `${yyyy}-${mm}-${dd}`
+}
+
+type SeenState = { cycle: string; name: string; keys: string[] }
+function loadSeen(name: string): SeenState {
+  if (typeof window === 'undefined') return { cycle: currentCycleKey(), name, keys: [] }
+  try {
+    const raw = window.localStorage.getItem(SEEN_KEY)
+    if (raw) {
+      const p = JSON.parse(raw) as SeenState
+      if (p && p.cycle === currentCycleKey() && p.name === name && Array.isArray(p.keys)) {
+        return { cycle: p.cycle, name, keys: p.keys }
+      }
+    }
+  } catch {
+    /* ignore */
+  }
+  return { cycle: currentCycleKey(), name, keys: [] }
+}
+function saveSeen(name: string, keys: string[]) {
+  if (typeof window === 'undefined') return
+  try {
+    window.localStorage.setItem(SEEN_KEY, JSON.stringify({ cycle: currentCycleKey(), name, keys }))
+  } catch {
+    /* ignore */
+  }
+}
+
+// Ambil `count` soal acak yang belum pernah keluar untuk user ini.
+// Kalau semua soal sudah pernah keluar, siklus di-reset (diacak ulang dari awal).
+function selectItems(count: number, name: string): QuizItem[] {
+  const state = loadSeen(name)
+  const seen = new Set(state.keys)
+  const chosen: QuizItem[] = []
+  const chosenKeys = new Set<string>()
+  const n = Math.min(count, TOTAL_ITEMS)
+
+  while (chosen.length < n) {
+    let pool = QUIZ_ITEMS.filter((it) => !seen.has(it.key) && !chosenKeys.has(it.key))
+    if (pool.length === 0) {
+      // seluruh bank sudah pernah keluar -> mulai siklus baru (acak lagi dari awal)
+      seen.clear()
+      pool = QUIZ_ITEMS.filter((it) => !chosenKeys.has(it.key))
+      if (pool.length === 0) break
+    }
+    const pick = pool[Math.floor(Math.random() * pool.length)]
+    chosen.push(pick)
+    chosenKeys.add(pick.key)
+    seen.add(pick.key)
+  }
+
+  saveSeen(name, [...seen])
+  return chosen
+}
+
+const getPmCategory = (meaning: string, kanji: string) => {
+  const k = kanji || ''
+  const m = (meaning || '').toLowerCase()
   if (m.includes('suhu') || m.includes('temperatur') || k.includes('温') || k.includes('冷') || k.includes('熱')) return 'TEMP'
   if (m.includes('bakteri') || m.includes('mikroorganisme') || m.includes('racun') || m.includes('spora') || k.includes('菌') || k.includes('毒')) return 'MICRO'
   if (m.includes('proses') || m.includes('produksi') || m.includes('pembekuan') || m.includes('pendinginan') || m.includes('pemanasan') || m.includes('pengemasan') || k.includes('工程')) return 'PROCESS'
@@ -60,17 +194,14 @@ const getPmCategory = (entry: PmEntry) => {
   return 'OTHER'
 }
 
-const scoreSimilarity = (candidate: PmEntry, target: PmEntry, field: AnswerField) => {
+// Skor kemiripan antar item untuk memilih distraktor yang menantang.
+const scoreSimilarity = (candidate: QuizItem, target: QuizItem, field: AnswerField) => {
   if (!candidate || !target) return 0
-  const source = target[field]
-  const probe = candidate[field]
-
-  if (source === probe) return -999
-
   let score = 0
-
   if (field === 'meaning') {
-    if (getPmCategory(target) === getPmCategory(candidate)) score += 28
+    const source = target.meaning
+    const probe = candidate.meaning
+    if (getPmCategory(target.meaning, target.variants[0]?.kanji || '') === getPmCategory(candidate.meaning, candidate.variants[0]?.kanji || '')) score += 28
     const srcWords = source.toLowerCase().split(/[\s,()\/]+/).filter((w) => w.length > 2)
     const probeWords = probe.toLowerCase().split(/[\s,()\/]+/).filter((w) => w.length > 2)
     for (const w of srcWords) {
@@ -81,38 +212,30 @@ const scoreSimilarity = (candidate: PmEntry, target: PmEntry, field: AnswerField
     }
     if (Math.abs(source.length - probe.length) <= 3) score += 3
   } else {
-    // field === 'kanji'
+    const source = target.variants[0]?.kanji || ''
+    const probe = candidate.variants[0]?.kanji || ''
     if (source.length === probe.length) score += 10
     else if (Math.abs(source.length - probe.length) <= 1) score += 3
     for (const char of new Set(source)) {
       if (probe.includes(char)) score += 4
     }
     if (source.endsWith('する') && probe.endsWith('する')) score += 12
-    if (source.endsWith('ます') && probe.endsWith('ます')) score += 10
     if (source.endsWith('工程') && probe.endsWith('工程')) score += 15
     if (source.endsWith('管理') && probe.endsWith('管理')) score += 14
-    // dorong distraktor dengan kategori makna serupa
-    if (getPmCategory(target) === getPmCategory(candidate)) score += 6
+    if (getPmCategory(target.meaning, source) === getPmCategory(candidate.meaning, probe)) score += 6
   }
-
   return score + Math.random() * 2
 }
 
 /**
  * Menampilkan kanji dengan furigana (cara baca) di atasnya menggunakan <ruby>.
- * Jika kata sudah berupa kana murni (reading kosong / '-' / sama dengan teksnya),
- * furigana tidak ditampilkan agar tidak berulang.
+ * Kata kana murni (reading kosong / '-' / sama dengan teksnya) tidak diberi furigana.
  */
-function Furigana({ entry, className }: { entry: PmEntry; className?: string }) {
-  const kanji = entry.kanji ?? ''
-  const reading = (entry.reading ?? '').trim()
-  const showRuby =
-    reading.length > 0 && reading !== '-' && reading !== 'ー' && reading !== kanji.trim()
-
-  if (!showRuby) {
-    return <span className={className}>{kanji}</span>
-  }
-
+function Furigana({ variant, className }: { variant: Variant; className?: string }) {
+  const kanji = variant.kanji ?? ''
+  const reading = (variant.reading ?? '').trim()
+  const showRuby = reading.length > 0 && reading !== '-' && reading !== 'ー' && reading !== kanji.trim()
+  if (!showRuby) return <span className={className}>{kanji}</span>
   return (
     <ruby className={`furigana ${className ?? ''}`}>
       {kanji}
@@ -121,12 +244,36 @@ function Furigana({ entry, className }: { entry: PmEntry; className?: string }) 
   )
 }
 
+// Gabungan beberapa kanji yang artinya sama, dipisah " / ".
+function VariantGroup({ variants, className }: { variants: Variant[]; className?: string }) {
+  return (
+    <span className="inline-flex flex-wrap items-center justify-center gap-x-3 gap-y-2">
+      {variants.map((v, i) => (
+        <span key={v.id} className="inline-flex items-center gap-x-3">
+          {i > 0 && <span className="font-normal text-slate-400">/</span>}
+          <Furigana variant={v} className={className} />
+        </span>
+      ))}
+    </span>
+  )
+}
+
+const kanjiSizeClass = (variants: Variant[], big: boolean) => {
+  const n = variants.length
+  if (big) {
+    if (n <= 1) return 'font-display text-5xl font-bold leading-[1.35] tracking-[-0.06em] text-slate-950 md:text-7xl'
+    if (n === 2) return 'font-display text-4xl font-bold leading-[1.35] tracking-[-0.05em] text-slate-950 md:text-5xl'
+    return 'font-display text-3xl font-bold leading-[1.4] tracking-[-0.04em] text-slate-950 md:text-4xl'
+  }
+  return 'font-display text-xl font-bold leading-[1.5] tracking-[-0.04em] md:text-2xl'
+}
+
 function FeedbackRow({
-  entry,
+  item,
   tone,
   badge,
 }: {
-  entry: PmEntry
+  item: QuizItem
   tone: 'correct' | 'wrong'
   badge?: string
 }) {
@@ -134,14 +281,13 @@ function FeedbackRow({
     tone === 'correct'
       ? 'kanji-feedback-row kanji-feedback-row--correct border-emerald-200 bg-white/92 text-emerald-950'
       : 'kanji-feedback-row kanji-feedback-row--wrong border-rose-200 bg-white/92 text-rose-950'
-
   return (
     <div className={`rounded-[24px] border px-4 py-3 shadow-[0_18px_34px_-28px_rgba(15,23,42,0.35)] ${toneClasses}`}>
       <div className="flex items-start justify-between gap-3">
         <div className="flex min-w-0 flex-wrap items-baseline gap-x-3 gap-y-2">
-          <Furigana entry={entry} className="font-display text-2xl font-bold leading-[1.5] tracking-[-0.03em] md:text-3xl" />
+          <VariantGroup variants={item.variants} className="font-display text-xl font-bold leading-[1.5] tracking-[-0.03em] md:text-2xl" />
           <span className="text-slate-400">＝</span>
-          <span className="text-sm font-semibold leading-relaxed md:text-base">{entry.meaning}</span>
+          <span className="text-sm font-semibold leading-relaxed md:text-base">{item.meaning}</span>
         </div>
         {badge && (
           <span className="kanji-feedback-badge shrink-0 rounded-full bg-rose-100 px-3 py-1 text-[10px] font-black uppercase tracking-[0.22em] text-rose-700">
@@ -166,7 +312,7 @@ export default function ShokuhinQuizPage() {
   const [quizStarted, setQuizStarted] = useState(false)
   const [quizEnded, setQuizEnded] = useState(false)
   const [questions, setQuestions] = useState<QuizQuestion[]>([])
-  const [selectedAnswerId, setSelectedAnswerId] = useState<number | null>(null)
+  const [selectedKey, setSelectedKey] = useState<string | null>(null)
   const [answered, setAnswered] = useState(false)
   const [loading, setLoading] = useState(true)
 
@@ -180,90 +326,60 @@ export default function ShokuhinQuizPage() {
     setLoading(false)
   }, [router])
 
-  const generateQuiz = (count = questionsPerSession) => {
-    const selectedEntries = pickRandom(allPmKotoba, clampQuestionCount(count))
+  const generateQuiz = (count: number, name: string) => {
+    const selectedItems = selectItems(clampQuestionCount(count), name)
 
-    const nextQuestions = selectedEntries.map((entry) => {
+    const nextQuestions: QuizQuestion[] = selectedItems.map((item) => {
       const direction = DIRECTIONS[Math.floor(Math.random() * DIRECTIONS.length)]
       const aField: AnswerField = direction === 'k2m' ? 'meaning' : 'kanji'
 
-      const candidateEntries = allPmKotoba
-        .filter((item) => item.id !== entry.id && item[aField] !== entry[aField])
-        .map((item) => ({ item, score: scoreSimilarity(item, entry, aField) }))
+      const candidates = QUIZ_ITEMS.filter((o) => o.key !== item.key)
+        .map((o) => ({ o, score: scoreSimilarity(o, item, aField) }))
         .sort((a, b) => b.score - a.score)
 
-      // Jaga agar tiap opsi berbeda pada kanji maupun arti (hindari opsi kembar)
-      const seenKanji = new Set<string>([entry.kanji])
-      const seenMeaning = new Set<string>([entry.meaning])
-      const wrongOptions: PmEntry[] = []
-
-      for (const candidate of candidateEntries) {
-        if (wrongOptions.length >= 3) break
-        const item = candidate.item
-        if (seenKanji.has(item.kanji) || seenMeaning.has(item.meaning)) continue
-        if (item[aField] === entry[aField]) continue
-        wrongOptions.push(item)
-        seenKanji.add(item.kanji)
-        seenMeaning.add(item.meaning)
+      const wrong: QuizItem[] = []
+      for (const c of candidates) {
+        if (wrong.length >= 3) break
+        wrong.push(c.o)
       }
 
-      if (wrongOptions.length < 3) {
-        const fallback = pickRandom(
-          allPmKotoba.filter(
-            (item) =>
-              item.id !== entry.id &&
-              !seenKanji.has(item.kanji) &&
-              !seenMeaning.has(item.meaning) &&
-              item[aField] !== entry[aField]
-          ),
-          3 - wrongOptions.length
-        )
-        for (const candidate of fallback) {
-          if (seenKanji.has(candidate.kanji) || seenMeaning.has(candidate.meaning)) continue
-          wrongOptions.push(candidate)
-          seenKanji.add(candidate.kanji)
-          seenMeaning.add(candidate.meaning)
-        }
-      }
-
-      const options = pickRandom([entry, ...wrongOptions], Math.min(4, 1 + wrongOptions.length))
-
-      return { id: entry.id, direction, entry, options, correctOptionId: entry.id }
+      const options = shuffle([item, ...wrong].slice(0, Math.min(4, 1 + wrong.length)))
+      return { key: item.key, direction, item, options, correctKey: item.key }
     })
 
     setQuestions(nextQuestions)
   }
 
   const startQuiz = () => {
-    generateQuiz(questionsPerSession)
+    generateQuiz(questionsPerSession, playerName)
     setQuizInstanceKey(`pm_${Date.now()}_${Math.random().toString(36).slice(2, 10)}`)
     setQuizStarted(true)
     setQuizEnded(false)
     setCurrentIndex(0)
     setScore(0)
-    setSelectedAnswerId(null)
+    setSelectedKey(null)
     setAnswered(false)
     setSaveState('idle')
     setLeaderboardRank(null)
   }
 
   const resetQuiz = () => {
-    generateQuiz(questionsPerSession)
+    generateQuiz(questionsPerSession, playerName)
     setQuizInstanceKey(`pm_${Date.now()}_${Math.random().toString(36).slice(2, 10)}`)
     setQuizEnded(false)
     setCurrentIndex(0)
     setScore(0)
-    setSelectedAnswerId(null)
+    setSelectedKey(null)
     setAnswered(false)
     setSaveState('idle')
     setLeaderboardRank(null)
   }
 
-  const handleAnswer = (answerId: number) => {
+  const handleAnswer = (optionKey: string) => {
     if (answered) return
-    setSelectedAnswerId(answerId)
+    setSelectedKey(optionKey)
     setAnswered(true)
-    if (answerId === questions[currentIndex]?.correctOptionId) {
+    if (optionKey === questions[currentIndex]?.correctKey) {
       setScore((prev) => prev + 1)
     }
   }
@@ -271,7 +387,7 @@ export default function ShokuhinQuizPage() {
   const nextQuestion = () => {
     if (currentIndex + 1 < questions.length) {
       setCurrentIndex((prev) => prev + 1)
-      setSelectedAnswerId(null)
+      setSelectedKey(null)
       setAnswered(false)
       return
     }
@@ -350,7 +466,7 @@ export default function ShokuhinQuizPage() {
                 Kanji ⇄ Arti Bahasa Indonesia, lengkap dengan furigana.
               </h1>
               <p className="mt-4 max-w-2xl text-base leading-7 text-slate-600">
-                Dua arah latihan: baca <span className="font-semibold">Kanji</span> (cara bacanya ditulis di atas dengan hiragana/katakana) lalu pilih artinya, atau baca <span className="font-semibold">arti Bahasa Indonesia</span> lalu pilih kanji yang tepat. Semua kosakata diambil dari materi SSW Pengolahan Makanan.
+                Dua arah latihan: baca <span className="font-semibold">Kanji</span> (cara bacanya ditulis di atas dengan hiragana/katakana) lalu pilih artinya, atau baca <span className="font-semibold">arti Bahasa Indonesia</span> lalu pilih kanji yang tepat. Kanji yang artinya sama digabung jadi satu.
               </p>
             </div>
             <div className="grid gap-4 sm:grid-cols-2">
@@ -363,14 +479,14 @@ export default function ShokuhinQuizPage() {
                   </ruby>
                 </div>
                 <p className="mt-4 text-sm leading-6 text-white/72">
-                  Cara baca selalu tampil di atas kanji, persis seperti buku pelajaran.
+                  Cara baca selalu tampil di atas kanji. Kanji yang artinya sama muncul bersama (mis. 製造日 / 製造年月日).
                 </p>
               </div>
               <div className="rounded-[26px] border border-slate-900/10 bg-white/88 p-6">
                 <div className="text-[11px] font-black uppercase tracking-[0.28em] text-slate-500">Bank Soal</div>
-                <div className="font-display mt-3 text-4xl font-bold tracking-[-0.06em] text-slate-950">{allPmKotoba.length}</div>
+                <div className="font-display mt-3 text-4xl font-bold tracking-[-0.06em] text-slate-950">{TOTAL_ITEMS}</div>
                 <p className="mt-2 text-sm leading-6 text-slate-600">
-                  Kosakata dari materi & soal latihan SSW Pengolahan Makanan siap dikuiskan.
+                  Soal acak tanpa pengulangan — yang sudah keluar tidak muncul lagi sampai semuanya selesai, lalu diacak ulang. Reset tiap minggu bersama leaderboard.
                 </p>
               </div>
             </div>
@@ -394,7 +510,7 @@ export default function ShokuhinQuizPage() {
               <input
                 type="number"
                 min={5}
-                max={allPmKotoba.length}
+                max={TOTAL_ITEMS}
                 value={questionsPerSession}
                 onChange={(e) => setQuestionsPerSession(clampQuestionCount(Number(e.target.value)))}
                 className="w-24 rounded-[20px] border border-slate-900/10 bg-white px-3 py-3 text-center text-lg font-black text-slate-950 outline-none focus:border-emerald-400 sm:w-28 sm:text-xl"
@@ -406,7 +522,7 @@ export default function ShokuhinQuizPage() {
                 +
               </button>
             </div>
-            <p className="mt-3 text-center text-sm text-slate-500">Minimal 5 soal, maksimal {allPmKotoba.length} soal.</p>
+            <p className="mt-3 text-center text-sm text-slate-500">Minimal 5 soal, maksimal {TOTAL_ITEMS} soal.</p>
           </div>
 
           <div className="mt-6 space-y-3">
@@ -518,10 +634,9 @@ export default function ShokuhinQuizPage() {
   const direction = currentQuestion.direction
   const answerField: AnswerField = direction === 'k2m' ? 'meaning' : 'kanji'
   const dirLabel = DIRECTION_LABELS[direction]
-  const selectedOption = currentQuestion.options.find((o) => o.id === selectedAnswerId) ?? null
-  const correctOption = currentQuestion.options.find((o) => o.id === currentQuestion.correctOptionId) ?? currentQuestion.entry
-  const wrongOptions = currentQuestion.options.filter((o) => o.id !== currentQuestion.correctOptionId)
-  const isCorrect = answered && selectedAnswerId === currentQuestion.correctOptionId
+  const correctItem = currentQuestion.options.find((o) => o.key === currentQuestion.correctKey) ?? currentQuestion.item
+  const wrongItems = currentQuestion.options.filter((o) => o.key !== currentQuestion.correctKey)
+  const isCorrect = answered && selectedKey === currentQuestion.correctKey
   const percentage = ((currentIndex + 1) / questions.length) * 100
 
   return (
@@ -598,24 +713,22 @@ export default function ShokuhinQuizPage() {
         </div>
         <div className="mb-8 flex min-h-[120px] items-center justify-center text-center">
           {direction === 'k2m' ? (
-            <Furigana
-              entry={currentQuestion.entry}
-              className="furigana-question font-display text-5xl font-bold leading-[1.35] tracking-[-0.06em] text-slate-950 md:text-7xl"
-            />
+            <div className="furigana-question">
+              <VariantGroup variants={currentQuestion.item.variants} className={kanjiSizeClass(currentQuestion.item.variants, true)} />
+            </div>
           ) : (
             <div className="font-display text-3xl font-bold leading-tight tracking-[-0.04em] text-slate-950 md:text-4xl">
-              {currentQuestion.entry.meaning}
+              {currentQuestion.item.meaning}
             </div>
           )}
         </div>
 
         <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
           {currentQuestion.options.map((option, index) => {
-            const isSelected = selectedAnswerId === option.id
-            const isRight = option.id === currentQuestion.correctOptionId
+            const isSelected = selectedKey === option.key
+            const isRight = option.key === currentQuestion.correctKey
 
             let buttonClass = 'rounded-[24px] border p-4 text-left transition-all duration-200 md:p-5 '
-
             if (answered) {
               if (isRight) buttonClass += 'border-emerald-400 bg-emerald-50 text-emerald-950 kanji-choice kanji-choice--correct'
               else if (isSelected) buttonClass += 'border-rose-400 bg-rose-50 text-rose-950 kanji-choice kanji-choice--wrong'
@@ -626,8 +739,8 @@ export default function ShokuhinQuizPage() {
 
             return (
               <button
-                key={`${currentQuestion.id}-${option.id}-${index}`}
-                onClick={() => handleAnswer(option.id)}
+                key={`${currentQuestion.key}-${option.key}-${index}`}
+                onClick={() => handleAnswer(option.key)}
                 disabled={answered}
                 className={buttonClass}
               >
@@ -636,10 +749,7 @@ export default function ShokuhinQuizPage() {
                     {answered ? (isRight ? '✓' : isSelected ? '✕' : String.fromCharCode(65 + index)) : String.fromCharCode(65 + index)}
                   </span>
                   {answerField === 'kanji' ? (
-                    <Furigana
-                      entry={option}
-                      className="font-display text-2xl font-bold leading-[1.5] tracking-[-0.04em] md:text-3xl"
-                    />
+                    <VariantGroup variants={option.variants} className={kanjiSizeClass(option.variants, false)} />
                   ) : (
                     <span className="text-sm font-semibold leading-6 md:text-base">{option.meaning}</span>
                   )}
@@ -664,17 +774,17 @@ export default function ShokuhinQuizPage() {
             <div className="space-y-5">
               <div>
                 <div className="mb-2 text-[11px] font-black uppercase tracking-[0.24em] text-slate-500">Jawaban yang benar</div>
-                <FeedbackRow entry={correctOption} tone="correct" />
+                <FeedbackRow item={correctItem} tone="correct" />
               </div>
               <div>
                 <div className="mb-2 text-[11px] font-black uppercase tracking-[0.24em] text-slate-500">Jawaban yang salah</div>
                 <div className="space-y-2">
-                  {wrongOptions.map((option) => (
+                  {wrongItems.map((option) => (
                     <FeedbackRow
-                      key={`feedback-${currentQuestion.id}-${option.id}`}
-                      entry={option}
+                      key={`feedback-${currentQuestion.key}-${option.key}`}
+                      item={option}
                       tone="wrong"
-                      badge={!isCorrect && selectedOption?.id === option.id ? 'Pilihan Anda' : undefined}
+                      badge={!isCorrect && selectedKey === option.key ? 'Pilihan Anda' : undefined}
                     />
                   ))}
                 </div>
