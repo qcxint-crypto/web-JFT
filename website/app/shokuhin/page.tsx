@@ -35,12 +35,14 @@ const PLAYER_NAME_KEY = 'rananwari_player_name'
 const SEEN_KEY = 'shokuhin_seen_v1'
 
 // ---- Gabungkan kosakata berdasarkan arti (Bahasa Indonesia) ----
+// Semua tanda baca/pemisah (spasi, tanda hubung, tanda kurung, dll) disamakan jadi spasi,
+// sehingga "sinar-X" == "sinar x" == "Sinar X" dan varian arti yg sama tergabung.
 const normMeaning = (m: string) =>
   m
-    .trim()
     .toLowerCase()
+    .replace(/[^\p{L}\p{N}]+/gu, ' ')
     .replace(/\s+/g, ' ')
-    .replace(/[.。]+$/, '')
+    .trim()
 
 const capFirst = (s: string) => (s ? s.charAt(0).toUpperCase() + s.slice(1) : s)
 
@@ -258,15 +260,46 @@ function VariantGroup({ variants, className }: { variants: Variant[]; className?
   )
 }
 
-// Tanda tangan karakter kanji (multiset terurut) untuk mendeteksi opsi yang mirip/typo,
-// mis. アレルギー物質 vs アルレギー物質 -> tanda tangan sama sehingga tak muncul bersamaan.
-const kanjiSig = (item: QuizItem) =>
-  item.variants
-    .map((v) => v.kanji.replace(/[\s　・]/g, ''))
-    .join('')
-    .split('')
-    .sort()
-    .join('')
+const cleanKanji = (k: string) => k.replace(/[\s　・]/g, '')
+const sortedChars = (k: string) => k.split('').sort().join('')
+
+// Jarak edit (Levenshtein) dgn early-exit bila selisih panjang > 2.
+const editDistance = (a: string, b: string) => {
+  if (Math.abs(a.length - b.length) > 2) return 9
+  const m = a.length
+  const n = b.length
+  const dp = Array.from({ length: n + 1 }, (_, j) => j)
+  for (let i = 1; i <= m; i += 1) {
+    let prev = dp[0]
+    dp[0] = i
+    for (let j = 1; j <= n; j += 1) {
+      const cur = dp[j]
+      dp[j] = Math.min(dp[j] + 1, dp[j - 1] + 1, prev + (a[i - 1] === b[j - 1] ? 0 : 1))
+      prev = cur
+    }
+  }
+  return dp[n]
+}
+
+// Dua kanji dianggap "mirip" bila: sama persis, anagram/transposisi (mis. アレルギー物質 vs
+// アルレギー物質), beda 1 huruf utk kata >=4 karakter (mis. X線異物検出機 vs X線異物検出器 -> 機/器),
+// atau beda <=2 huruf utk kata panjang (>=6).
+const tooSimilarKanji = (a: string, b: string) => {
+  const x = cleanKanji(a)
+  const y = cleanKanji(b)
+  if (!x || !y) return false
+  if (x === y) return true
+  if (x.length === y.length && sortedChars(x) === sortedChars(y)) return true
+  const d = editDistance(x, y)
+  const L = Math.min(x.length, y.length)
+  if (d <= 1 && L >= 4) return true
+  if (d <= 2 && L >= 6) return true
+  return false
+}
+
+// Bandingkan tiap varian kanji dua item; mirip bila ada satu pasangan yang terlalu mirip.
+const tooSimilarItems = (a: QuizItem, b: QuizItem) =>
+  a.variants.some((va) => b.variants.some((vb) => tooSimilarKanji(va.kanji, vb.kanji)))
 
 const kanjiSizeClass = (variants: Variant[], big: boolean) => {
   const n = variants.length
@@ -347,19 +380,15 @@ export default function ShokuhinQuizPage() {
         .map((o) => ({ o, score: scoreSimilarity(o, item, aField) }))
         .sort((a, b) => b.score - a.score)
 
-      // Untuk arah ID->Kanji, jaga agar tak ada dua opsi kanji yang mirip/typo (tanda tangan sama)
-      const usedSig = new Set<string>()
-      if (aField === 'kanji') usedSig.add(kanjiSig(item))
+      // Untuk arah ID->Kanji, jaga agar tak ada dua opsi kanji yang mirip/typo (mis. 機/器)
+      const chosenKanji: QuizItem[] = aField === 'kanji' ? [item] : []
 
       const wrong: QuizItem[] = []
       for (const c of candidates) {
         if (wrong.length >= 3) break
-        if (aField === 'kanji') {
-          const sig = kanjiSig(c.o)
-          if (usedSig.has(sig)) continue
-          usedSig.add(sig)
-        }
+        if (aField === 'kanji' && chosenKanji.some((o) => tooSimilarItems(o, c.o))) continue
         wrong.push(c.o)
+        if (aField === 'kanji') chosenKanji.push(c.o)
       }
 
       const options = shuffle([item, ...wrong].slice(0, Math.min(4, 1 + wrong.length)))
