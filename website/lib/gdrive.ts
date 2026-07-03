@@ -40,7 +40,7 @@ export async function fetchDriveFolder(folderId: string): Promise<DriveItem[]> {
       const isFolder = !name.includes('.');
       
       if (!items.find(i => i.driveId === id)) {
-        items.append({
+        items.push({
           name,
           driveId: id,
           isFolder,
