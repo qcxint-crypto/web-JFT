@@ -258,6 +258,16 @@ function VariantGroup({ variants, className }: { variants: Variant[]; className?
   )
 }
 
+// Tanda tangan karakter kanji (multiset terurut) untuk mendeteksi opsi yang mirip/typo,
+// mis. アレルギー物質 vs アルレギー物質 -> tanda tangan sama sehingga tak muncul bersamaan.
+const kanjiSig = (item: QuizItem) =>
+  item.variants
+    .map((v) => v.kanji.replace(/[\s　・]/g, ''))
+    .join('')
+    .split('')
+    .sort()
+    .join('')
+
 const kanjiSizeClass = (variants: Variant[], big: boolean) => {
   const n = variants.length
   if (big) {
@@ -337,9 +347,18 @@ export default function ShokuhinQuizPage() {
         .map((o) => ({ o, score: scoreSimilarity(o, item, aField) }))
         .sort((a, b) => b.score - a.score)
 
+      // Untuk arah ID->Kanji, jaga agar tak ada dua opsi kanji yang mirip/typo (tanda tangan sama)
+      const usedSig = new Set<string>()
+      if (aField === 'kanji') usedSig.add(kanjiSig(item))
+
       const wrong: QuizItem[] = []
       for (const c of candidates) {
         if (wrong.length >= 3) break
+        if (aField === 'kanji') {
+          const sig = kanjiSig(c.o)
+          if (usedSig.has(sig)) continue
+          usedSig.add(sig)
+        }
         wrong.push(c.o)
       }
 
