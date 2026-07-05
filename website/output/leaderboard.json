@@ -1,48 +1,14 @@
 {
   "version": 1,
-  "cycleKey": "2026-06-29",
-  "cycleLabel": "Weekly reset 29/06/2026",
-  "resetAt": "2026-07-05T17:00:00.000Z",
-  "updatedAt": "2026-07-03T17:12:32.594Z",
+  "cycleKey": "2026-07-06",
+  "cycleLabel": "Weekly reset 06/07/2026",
+  "resetAt": "2026-07-12T17:00:00.000Z",
+  "updatedAt": "2026-07-05T22:44:39.902Z",
   "players": [
-    {
-      "id": "tester",
-      "name": "Tester",
-      "updatedAt": "2026-07-03T17:12:32.594Z",
-      "stats": {
-        "jft": {
-          "attempts": 0,
-          "totalQuestionsAnswered": 0,
-          "totalCorrectAnswers": 0,
-          "bestPercentage": 0,
-          "bestCorrectAnswers": 0,
-          "bestQuestions": 0,
-          "lastPlayedAt": null
-        },
-        "kanji": {
-          "attempts": 0,
-          "totalQuestionsAnswered": 0,
-          "totalCorrectAnswers": 0,
-          "bestPercentage": 0,
-          "bestCorrectAnswers": 0,
-          "bestQuestions": 0,
-          "lastPlayedAt": null
-        },
-        "pm": {
-          "attempts": 4,
-          "totalQuestionsAnswered": 100,
-          "totalCorrectAnswers": 27,
-          "bestPercentage": 32,
-          "bestCorrectAnswers": 8,
-          "bestQuestions": 25,
-          "lastPlayedAt": "2026-07-03T17:12:32.594Z"
-        }
-      }
-    },
     {
       "id": "asep",
       "name": "ASEP",
-      "updatedAt": "2026-07-03T17:01:01.916Z",
+      "updatedAt": "2026-07-05T22:44:39.902Z",
       "stats": {
         "jft": {
           "attempts": 0,
@@ -63,13 +29,13 @@
           "lastPlayedAt": null
         },
         "pm": {
-          "attempts": 5,
-          "totalQuestionsAnswered": 225,
-          "totalCorrectAnswers": 129,
-          "bestPercentage": 76,
-          "bestCorrectAnswers": 38,
-          "bestQuestions": 50,
-          "lastPlayedAt": "2026-07-03T17:01:01.916Z"
+          "attempts": 1,
+          "totalQuestionsAnswered": 25,
+          "totalCorrectAnswers": 14,
+          "bestPercentage": 56,
+          "bestCorrectAnswers": 14,
+          "bestQuestions": 25,
+          "lastPlayedAt": "2026-07-05T22:44:39.902Z"
         }
       }
     }
