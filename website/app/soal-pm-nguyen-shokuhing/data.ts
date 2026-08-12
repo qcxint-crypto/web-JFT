@@ -1,0 +1,5034 @@
+export interface NguyenChoice {
+  key: string
+  text: string
+  html: string
+}
+
+export interface NguyenQuestion {
+  id: number
+  category: string
+  source: string
+  sourceNumber: number
+  prompt: string
+  promptHtml: string
+  choices: NguyenChoice[]
+  answer: string
+}
+
+export const allNguyenQuestions: NguyenQuestion[] = 
+[
+  {
+    "id": 1,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIHAN_SOAL_1",
+    "sourceNumber": 1,
+    "prompt": "飲料 ( いんりょう) や 食料品 (しょくりょうひん) を工場(こうじょう)で製造(せいぞう)する 仕事(しごと)です. それはどういう意味(いみ)ですか? 正しい(ただしい)ものを一つえらびなさい.",
+    "promptHtml": "<ruby class=\"furigana\">飲料<rt>いんりょう</rt></ruby> や <ruby class=\"furigana\">食料品<rt>しょくりょうひん</rt></ruby> を<ruby class=\"furigana\">工場<rt>こうじょう</rt></ruby>で<ruby class=\"furigana\">製造<rt>せいぞう</rt></ruby>する <ruby class=\"furigana\">仕事<rt>しごと</rt></ruby>です. それはどういう<ruby class=\"furigana\">意味<rt>いみ</rt></ruby>ですか? <ruby class=\"furigana\">正しい<rt>ただしい</rt></ruby>ものを一つえらびなさい.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "動物食料品製造業(どうぶつしょくりょうひんせいぞうぎょう)",
+        "html": "<ruby class=\"furigana\">動物食料品製造業<rt>どうぶつしょくりょうひんせいぞうぎょう</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "野菜食品製造業(やさいしょくひんせいぞうぎょう)",
+        "html": "<ruby class=\"furigana\">野菜食品製造業<rt>やさいしょくひんせいぞうぎょう</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "飲食料品製造業(いんしょくりょうひんせいぞうぎょう)",
+        "html": "<ruby class=\"furigana\">飲食料品製造業<rt>いんしょくりょうひんせいぞうぎょう</rt></ruby>"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 2,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIHAN_SOAL_1",
+    "sourceNumber": 2,
+    "prompt": "食料品製造業(しょくりょうひんせいぞうぎょう)で何(なに)を製造(せいぞう)しますか？間違っているものを選びなさい.",
+    "promptHtml": "<ruby class=\"furigana\">食料品製造業<rt>しょくりょうひんせいぞうぎょう</rt></ruby>で<ruby class=\"furigana\">何<rt>なに</rt></ruby>を<ruby class=\"furigana\">製造<rt>せいぞう</rt></ruby>しますか？間違っているものを選びなさい.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "ハム・ソーセージ 、 パン、コーヒー",
+        "html": "ハム・ソーセージ 、 パン、コーヒー"
+      },
+      {
+        "key": "B",
+        "text": "魚(さかな)のかんつ”め、調味料 (ちょうみりょう)、弁当(べんとう)",
+        "html": "<ruby class=\"furigana\">魚<rt>さかな</rt></ruby>のかんつ”め、<ruby class=\"furigana\">調味料<rt>ちょうみりょう</rt></ruby>、<ruby class=\"furigana\">弁当<rt>べんとう</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "冷凍食品(れいとうしょくひん)、ハム・ソーセージ、おかし",
+        "html": "<ruby class=\"furigana\">冷凍食品<rt>れいとうしょくひん</rt></ruby>、ハム・ソーセージ、おかし"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 3,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIHAN_SOAL_1",
+    "sourceNumber": 3,
+    "prompt": "食品(しょくひん)の衛生管理者(えいせいかんり)が十分(じゅうぶん)ではない食品(しょくひん)を食べた(たべた)人(ひと)とき.何を起こるか？間違っているものを一つ選びなさい.",
+    "promptHtml": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>の<ruby class=\"furigana\">衛生管理者<rt>えいせいかんり</rt></ruby>が<ruby class=\"furigana\">十分<rt>じゅうぶん</rt></ruby>ではない<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を<ruby class=\"furigana\">食べた<rt>たべた</rt></ruby><ruby class=\"furigana\">人<rt>ひと</rt></ruby>とき.何を起こるか？間違っているものを一つ選びなさい.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "病気(びょうき)になりました",
+        "html": "<ruby class=\"furigana\">病気<rt>びょうき</rt></ruby>になりました"
+      },
+      {
+        "key": "B",
+        "text": "会社(かいしゃ)の信用(しんよう)を高めます",
+        "html": "<ruby class=\"furigana\">会社<rt>かいしゃ</rt></ruby>の<ruby class=\"furigana\">信用<rt>しんよう</rt></ruby>を高めます"
+      },
+      {
+        "key": "C",
+        "text": "ケガをします",
+        "html": "ケガをします"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 4,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIHAN_SOAL_1",
+    "sourceNumber": 4,
+    "prompt": "工場(こうじょう)や作業場(さぎょうじょう)でケガなどをしないためには何をしなければりませんか？正しいものを選びなさい",
+    "promptHtml": "<ruby class=\"furigana\">工場<rt>こうじょう</rt></ruby>や<ruby class=\"furigana\">作業場<rt>さぎょうじょう</rt></ruby>でケガなどをしないためには何をしなければりませんか？正しいものを選びなさい",
+    "choices": [
+      {
+        "key": "A",
+        "text": "ヘルメットを着用(ちゃくよう)してはいけません",
+        "html": "ヘルメットを<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>してはいけません"
+      },
+      {
+        "key": "B",
+        "text": "工場(こうじょう)で決(き)まっているルールや作業手順書(さぎょうてじゅんしょ)を守(まも)って作業(さぎょう)を行(おこな)わなければいけません",
+        "html": "<ruby class=\"furigana\">工場<rt>こうじょう</rt></ruby>で<ruby class=\"furigana\">決<rt>き</rt></ruby>まっているルールや<ruby class=\"furigana\">作業手順書<rt>さぎょうてじゅんしょ</rt></ruby>を<ruby class=\"furigana\">守<rt>まも</rt></ruby>って<ruby class=\"furigana\">作業<rt>さぎょう</rt></ruby>を<ruby class=\"furigana\">行<rt>おこな</rt></ruby>わなければいけません"
+      },
+      {
+        "key": "C",
+        "text": "安全保護具(あんぜんほごぐ)を着用(ちゃくよう)しない",
+        "html": "<ruby class=\"furigana\">安全保護具<rt>あんぜんほごぐ</rt></ruby>を<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>しない"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 5,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIHAN_SOAL_1",
+    "sourceNumber": 5,
+    "prompt": "労働安全(ろうどうあんぜん)は意味(いみ)ですか?正しいものを一つ選びなさい",
+    "promptHtml": "<ruby class=\"furigana\">労働安全<rt>ろうどうあんぜん</rt></ruby>は<ruby class=\"furigana\">意味<rt>いみ</rt></ruby>ですか?正しいものを一つ選びなさい",
+    "choices": [
+      {
+        "key": "A",
+        "text": "作業者(さぎょうしゃ)の安全(あんぜん)と健康(けんこう)を守(まも)る",
+        "html": "<ruby class=\"furigana\">作業者<rt>さぎょうしゃ</rt></ruby>の<ruby class=\"furigana\">安全<rt>あんぜん</rt></ruby>と<ruby class=\"furigana\">健康<rt>けんこう</rt></ruby>を<ruby class=\"furigana\">守<rt>まも</rt></ruby>る"
+      },
+      {
+        "key": "B",
+        "text": "作業者(さぎょうしゃ)の綺麗(きれい)を守る",
+        "html": "<ruby class=\"furigana\">作業者<rt>さぎょうしゃ</rt></ruby>の<ruby class=\"furigana\">綺麗<rt>きれい</rt></ruby>を守る"
+      },
+      {
+        "key": "C",
+        "text": "責任者(せきにんしゃ)の安全(あんぜん))を守る",
+        "html": "<ruby class=\"furigana\">責任者<rt>せきにんしゃ</rt></ruby>の<ruby class=\"furigana\">安全<rt>あんぜん</rt></ruby>)を守る"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 6,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIHAN_SOAL_1",
+    "sourceNumber": 6,
+    "prompt": "作業者(さぎょうしゃ)はどのような知識(ちしき)を持(も)っていなければなりませんか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">作業者<rt>さぎょうしゃ</rt></ruby>はどのような<ruby class=\"furigana\">知識<rt>ちしき</rt></ruby>を<ruby class=\"furigana\">持<rt>も</rt></ruby>っていなければなりませんか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "食品衛生(しょくひんえいせい)と労働安全(ろうどうあんぜん)",
+        "html": "<ruby class=\"furigana\">食品衛生<rt>しょくひんえいせい</rt></ruby>と<ruby class=\"furigana\">労働安全<rt>ろうどうあんぜん</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "食品衛生(しょくひんえいせい)と労働災害(ろうどうさいがい)",
+        "html": "<ruby class=\"furigana\">食品衛生<rt>しょくひんえいせい</rt></ruby>と<ruby class=\"furigana\">労働災害<rt>ろうどうさいがい</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "労働安全(ろうどうあんぜん)と食品綺麗(しょくひんきれい)",
+        "html": "<ruby class=\"furigana\">労働安全<rt>ろうどうあんぜん</rt></ruby>と<ruby class=\"furigana\">食品綺麗<rt>しょくひんきれい</rt></ruby>"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 7,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIHAN_SOAL_1",
+    "sourceNumber": 7,
+    "prompt": "飲料品製造業(いんりょうひんせいぞうぎょう)で何(なに)を製造(せいぞう)しますか？正しいものを選びなさい.",
+    "promptHtml": "<ruby class=\"furigana\">飲料品製造業<rt>いんりょうひんせいぞうぎょう</rt></ruby>で<ruby class=\"furigana\">何<rt>なに</rt></ruby>を<ruby class=\"furigana\">製造<rt>せいぞう</rt></ruby>しますか？正しいものを選びなさい.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "ジュース や お茶(おちゃ)、コーヒー",
+        "html": "ジュース や お<ruby class=\"furigana\">茶<rt>おちゃ</rt></ruby>、コーヒー"
+      },
+      {
+        "key": "B",
+        "text": "惣菜(そうざい)、ハム・ソーセージ",
+        "html": "<ruby class=\"furigana\">惣菜<rt>そうざい</rt></ruby>、ハム・ソーセージ"
+      },
+      {
+        "key": "C",
+        "text": "お茶(おちゃ)と おかし",
+        "html": "お<ruby class=\"furigana\">茶<rt>おちゃ</rt></ruby>と おかし"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 8,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIHAN_SOAL_1",
+    "sourceNumber": 8,
+    "prompt": "食品衛生(しょくひんえいせい)とはなんですか？正しいものを一つ選びなさい",
+    "promptHtml": "<ruby class=\"furigana\">食品衛生<rt>しょくひんえいせい</rt></ruby>とはなんですか？正しいものを一つ選びなさい",
+    "choices": [
+      {
+        "key": "A",
+        "text": "食品(しょくひん)を食べて、人が病気(びょうき)になること、ケガをします",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を食べて、人が<ruby class=\"furigana\">病気<rt>びょうき</rt></ruby>になること、ケガをします"
+      },
+      {
+        "key": "B",
+        "text": "食品(しょくひん)を食べない、人が病気(びょうき)にならないこと、ケガをしないことです",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を食べない、人が<ruby class=\"furigana\">病気<rt>びょうき</rt></ruby>にならないこと、ケガをしないことです"
+      },
+      {
+        "key": "C",
+        "text": "食品を食べて、人が病気にならないこと、ケガをしないことです",
+        "html": "食品を食べて、人が病気にならないこと、ケガをしないことです"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 9,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIHAN_SOAL_1",
+    "sourceNumber": 9,
+    "prompt": "食べた人が病気(びょうき)になったりケガをしないように食品(しょくひん)を作(つく)る(かんりする).それはどういう意味ですか？正しいものを選びなさい",
+    "promptHtml": "食べた人が<ruby class=\"furigana\">病気<rt>びょうき</rt></ruby>になったりケガをしないように<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を<ruby class=\"furigana\">作<rt>つく</rt></ruby>る(かんりする).それはどういう意味ですか？正しいものを選びなさい",
+    "choices": [
+      {
+        "key": "A",
+        "text": "食品製造(しょくひんせいぞう)の穢い管理(きたないかんり)です",
+        "html": "<ruby class=\"furigana\">食品製造<rt>しょくひんせいぞう</rt></ruby>の穢い<ruby class=\"furigana\">管理<rt>きたないかんり</rt></ruby>です"
+      },
+      {
+        "key": "B",
+        "text": "食品製造(しょくひんせいぞう)の衛生管理(えいせいかんり)です",
+        "html": "<ruby class=\"furigana\">食品製造<rt>しょくひんせいぞう</rt></ruby>の<ruby class=\"furigana\">衛生管理<rt>えいせいかんり</rt></ruby>です"
+      },
+      {
+        "key": "C",
+        "text": "動物製造(どうぶつせいぞう)の衛生管理(えいせいかんり)です",
+        "html": "<ruby class=\"furigana\">動物製造<rt>どうぶつせいぞう</rt></ruby>の<ruby class=\"furigana\">衛生管理<rt>えいせいかんり</rt></ruby>です"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 10,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIHAN_SOAL_1",
+    "sourceNumber": 10,
+    "prompt": "機械(きかい)や器具(きぐ)を使う(つかう)ときは何をしなければならないか？間違っているものを選びなさい",
+    "promptHtml": "<ruby class=\"furigana\">機械<rt>きかい</rt></ruby>や<ruby class=\"furigana\">器具<rt>きぐ</rt></ruby>を<ruby class=\"furigana\">使う<rt>つかう</rt></ruby>ときは何をしなければならないか？間違っているものを選びなさい",
+    "choices": [
+      {
+        "key": "A",
+        "text": "工場(こうじょう)で決(き)まっているルールを守(まも)って作業(さぎょう)を行(おこな)わなければいけません",
+        "html": "<ruby class=\"furigana\">工場<rt>こうじょう</rt></ruby>で<ruby class=\"furigana\">決<rt>き</rt></ruby>まっているルールを<ruby class=\"furigana\">守<rt>まも</rt></ruby>って<ruby class=\"furigana\">作業<rt>さぎょう</rt></ruby>を<ruby class=\"furigana\">行<rt>おこな</rt></ruby>わなければいけません"
+      },
+      {
+        "key": "B",
+        "text": "工場(こうじょう)で決(き)まっているルールや作業手順書(さぎょうてじゅんしょ)を守(まも)って作業(さぎょう)をしてはいけません",
+        "html": "<ruby class=\"furigana\">工場<rt>こうじょう</rt></ruby>で<ruby class=\"furigana\">決<rt>き</rt></ruby>まっているルールや<ruby class=\"furigana\">作業手順書<rt>さぎょうてじゅんしょ</rt></ruby>を<ruby class=\"furigana\">守<rt>まも</rt></ruby>って<ruby class=\"furigana\">作業<rt>さぎょう</rt></ruby>をしてはいけません"
+      },
+      {
+        "key": "C",
+        "text": "工場(こうじょう)で決(き)まって作業手順書(さぎょうてじゅんしょ)を守(まも)って作業(さぎょう)を行(おこな)わなければならない",
+        "html": "<ruby class=\"furigana\">工場<rt>こうじょう</rt></ruby>で<ruby class=\"furigana\">決<rt>き</rt></ruby>まって<ruby class=\"furigana\">作業手順書<rt>さぎょうてじゅんしょ</rt></ruby>を<ruby class=\"furigana\">守<rt>まも</rt></ruby>って<ruby class=\"furigana\">作業<rt>さぎょう</rt></ruby>を<ruby class=\"furigana\">行<rt>おこな</rt></ruby>わなければならない"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 11,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_2",
+    "sourceNumber": 1,
+    "prompt": "食品衛生(しょくひんえいせい)の基本(きほん)の行動(こうどう)について、間違(まちが)っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">食品衛生<rt>しょくひんえいせい</rt></ruby>の<ruby class=\"furigana\">基本<rt>きほん</rt></ruby>の<ruby class=\"furigana\">行動<rt>こうどう</rt></ruby>について、<ruby class=\"furigana\">間違<rt>まちが</rt></ruby>っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "作業服(さぎょうふく)や手袋(てぶくろ)を正(ただし)く着用(ちゃくよう)する",
+        "html": "<ruby class=\"furigana\">作業服<rt>さぎょうふく</rt></ruby>や<ruby class=\"furigana\">手袋<rt>てぶくろ</rt></ruby>を<ruby class=\"furigana\">正<rt>ただし</rt></ruby>く<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>する"
+      },
+      {
+        "key": "B",
+        "text": "清潔(せいけつ)な設備(せつび) • 機械(きかい) • 器具(きぐ) などを使(つか)う",
+        "html": "<ruby class=\"furigana\">清潔<rt>せいけつ</rt></ruby>な<ruby class=\"furigana\">設備<rt>せつび</rt></ruby> • <ruby class=\"furigana\">機械<rt>きかい</rt></ruby> • <ruby class=\"furigana\">器具<rt>きぐ</rt></ruby> などを<ruby class=\"furigana\">使<rt>つか</rt></ruby>う"
+      },
+      {
+        "key": "C",
+        "text": "食品(しょくひん)や原材料(げんざいりょう)を室温(しつおん)で保管(ほかん)します",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>や<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby>を<ruby class=\"furigana\">室温<rt>しつおん</rt></ruby>で<ruby class=\"furigana\">保管<rt>ほかん</rt></ruby>します"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 12,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_2",
+    "sourceNumber": 2,
+    "prompt": "[どんな食品(しょくひん)を作(つく)るときも、どこの作業場(さぎょうじう)でも共通(きょうつ)をおこなわれてうる基本的(きほんてき)な衛生管理(えいせいかんり)] はなんの意味(いみ)ですか。正しいものを一つ選びなさい。",
+    "promptHtml": "[どんな<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を<ruby class=\"furigana\">作<rt>つく</rt></ruby>るときも、どこの<ruby class=\"furigana\">作業場<rt>さぎょうじう</rt></ruby>でも<ruby class=\"furigana\">共通<rt>きょうつ</rt></ruby>をおこなわれてうる<ruby class=\"furigana\">基本的<rt>きほんてき</rt></ruby>な<ruby class=\"furigana\">衛生管理<rt>えいせいかんり</rt></ruby>] はなんの<ruby class=\"furigana\">意味<rt>いみ</rt></ruby>ですか。正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "一般的な健康管理(いっぱんてきなけんこうかんり)",
+        "html": "一般的な<ruby class=\"furigana\">健康管理<rt>いっぱんてきなけんこうかんり</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "ハサップかんり",
+        "html": "ハサップかんり"
+      },
+      {
+        "key": "C",
+        "text": "一般的な衛生管理(いっぱんてきなえいせいかんり)",
+        "html": "一般的な<ruby class=\"furigana\">衛生管理<rt>いっぱんてきなえいせいかんり</rt></ruby>"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 13,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_2",
+    "sourceNumber": 3,
+    "prompt": "HCCP ノ略語(りゃくご)は何のです、正しいものを一つ選びなさい。",
+    "promptHtml": "HCCP ノ<ruby class=\"furigana\">略語<rt>りゃくご</rt></ruby>は何のです、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Hazard Analysis And Critical Control Point",
+        "html": "Hazard Analysis And Critical Control Point"
+      },
+      {
+        "key": "B",
+        "text": "Hazar Analycis Critical And Point",
+        "html": "Hazar Analycis Critical And Point"
+      },
+      {
+        "key": "C",
+        "text": "Hasard Analysist Critical And Control Point",
+        "html": "Hasard Analysist Critical And Control Point"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 14,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_2",
+    "sourceNumber": 4,
+    "prompt": "「食品(しょくひん)に危害要因(きがいよういん)が含(ふく)まれないようにための活動(かつどう)」は何の活動(かつどう)ですか。正しいものを一つ選びなさい。",
+    "promptHtml": "「<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>に<ruby class=\"furigana\">危害要因<rt>きがいよういん</rt></ruby>が<ruby class=\"furigana\">含<rt>ふく</rt></ruby>まれないようにための<ruby class=\"furigana\">活動<rt>かつどう</rt></ruby>」は何の<ruby class=\"furigana\">活動<rt>かつどう</rt></ruby>ですか。正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "一般衛生管理(いっぱんえいせいかんり)と 5S 活動(かつどう)",
+        "html": "<ruby class=\"furigana\">一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>と 5S <ruby class=\"furigana\">活動<rt>かつどう</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "一般衛生管理(いっぱんえいせいかんり)と健康管理(けんこうかんり)",
+        "html": "<ruby class=\"furigana\">一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>と<ruby class=\"furigana\">健康管理<rt>けんこうかんり</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "一般衛生管理(いっぱんえいせいかんり)と HCCP",
+        "html": "<ruby class=\"furigana\">一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>と HCCP"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 15,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_2",
+    "sourceNumber": 5,
+    "prompt": "危害要因分(きがいよういんぶんせき)が3つがあります、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">危害要因分<rt>きがいよういんぶんせき</rt></ruby>が3つがあります、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "物理的気概要因(ぶつりてききがいよういん)",
+        "html": "<ruby class=\"furigana\">物理的気概要因<rt>ぶつりてききがいよういん</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "大学的気概要因(だいがくてききがいよういん)",
+        "html": "<ruby class=\"furigana\">大学的気概要因<rt>だいがくてききがいよういん</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "生物的気概要因(せいぶつてききがいよういん)",
+        "html": "<ruby class=\"furigana\">生物的気概要因<rt>せいぶつてききがいよういん</rt></ruby>"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 16,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_2",
+    "sourceNumber": 7,
+    "prompt": "硬質異物(こうしついぶつ)の例(れい)は何ですか。間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">硬質異物<rt>こうしついぶつ</rt></ruby>の<ruby class=\"furigana\">例<rt>れい</rt></ruby>は何ですか。間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "ガラス",
+        "html": "ガラス"
+      },
+      {
+        "key": "B",
+        "text": "石(いし)",
+        "html": "<ruby class=\"furigana\">石<rt>いし</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "紙片(しへん)",
+        "html": "<ruby class=\"furigana\">紙片<rt>しへん</rt></ruby>"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 17,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_2",
+    "sourceNumber": 8,
+    "prompt": "物理的危害要因(ぶつりてききがいよういん)について、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">物理的危害要因<rt>ぶつりてききがいよういん</rt></ruby>について、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "人にケガと傷(きず)をさせるおそれがあるものの原因(げんいん)です",
+        "html": "人にケガと<ruby class=\"furigana\">傷<rt>きず</rt></ruby>をさせるおそれがあるものの<ruby class=\"furigana\">原因<rt>げんいん</rt></ruby>です"
+      },
+      {
+        "key": "B",
+        "text": "虫(むし)や髪(かみ)の毛(け)や紙片(しへん)のような固(かた)くない異物(いぶつ)は食品(しょくひん)に入(はい)ってもいいです",
+        "html": "<ruby class=\"furigana\">虫<rt>むし</rt></ruby>や<ruby class=\"furigana\">髪<rt>かみ</rt></ruby>の<ruby class=\"furigana\">毛<rt>け</rt></ruby>や<ruby class=\"furigana\">紙片<rt>しへん</rt></ruby>のような<ruby class=\"furigana\">固<rt>かた</rt></ruby>くない<ruby class=\"furigana\">異物<rt>いぶつ</rt></ruby>は<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>に<ruby class=\"furigana\">入<rt>はい</rt></ruby>ってもいいです"
+      },
+      {
+        "key": "C",
+        "text": "異物(いぶつ)が入(はい)っている食品(しょくひん)を作(つく)ると、会社(かいしゃ)の信用(しんよう)を落(お)としてしまいなす。",
+        "html": "<ruby class=\"furigana\">異物<rt>いぶつ</rt></ruby>が<ruby class=\"furigana\">入<rt>はい</rt></ruby>っている<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を<ruby class=\"furigana\">作<rt>つく</rt></ruby>ると、<ruby class=\"furigana\">会社<rt>かいしゃ</rt></ruby>の<ruby class=\"furigana\">信用<rt>しんよう</rt></ruby>を<ruby class=\"furigana\">落<rt>お</rt></ruby>としてしまいなす。"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 18,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_2",
+    "sourceNumber": 9,
+    "prompt": "化学物質(かがくぶっしつ)の危険性(きけんしょう)の要因(げんいん)となる化学的危害要因(かがくてききがいよういん)は何ですか。間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">化学物質<rt>かがくぶっしつ</rt></ruby>の<ruby class=\"furigana\">危険性<rt>きけんしょう</rt></ruby>の<ruby class=\"furigana\">要因<rt>げんいん</rt></ruby>となる<ruby class=\"furigana\">化学的危害要因<rt>かがくてききがいよういん</rt></ruby>は何ですか。間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "硬質異物(こうしついぶつ)",
+        "html": "<ruby class=\"furigana\">硬質異物<rt>こうしついぶつ</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "アレルギー物質(ぶっしつ)",
+        "html": "アレルギー<ruby class=\"furigana\">物質<rt>ぶっしつ</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "ヒスタミナ",
+        "html": "ヒスタミナ"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 19,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_2",
+    "sourceNumber": 10,
+    "prompt": "日本でアレルギーのケースが多(おお)いので、アレルギー物質(ぶっしつ)の入っていた食品(しょくひん)の原因(げんいん)です。それから表示(ひょうじ)する義務(ぎむ)があるものです。間違っているものを一つ選びなさい。",
+    "promptHtml": "日本でアレルギーのケースが<ruby class=\"furigana\">多<rt>おお</rt></ruby>いので、アレルギー<ruby class=\"furigana\">物質<rt>ぶっしつ</rt></ruby>の入っていた<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>の<ruby class=\"furigana\">原因<rt>げんいん</rt></ruby>です。それから<ruby class=\"furigana\">表示<rt>ひょうじ</rt></ruby>する<ruby class=\"furigana\">義務<rt>ぎむ</rt></ruby>があるものです。間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "乳(にゅう)",
+        "html": "<ruby class=\"furigana\">乳<rt>にゅう</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "イカ",
+        "html": "イカ"
+      },
+      {
+        "key": "C",
+        "text": "カニ",
+        "html": "カニ"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 20,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_2",
+    "sourceNumber": 11,
+    "prompt": "化学的危害要因(かがくてききがいよういん)の中でヒスタミンがあります、特(とく)に赤(あか)み魚(さかな)の悪(わる)い条件(じょうけん)で保存(ほぞん)された魚(さかな)です。特(とく)に何の魚(さかな)ですか。間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">化学的危害要因<rt>かがくてききがいよういん</rt></ruby>の中でヒスタミンがあります、<ruby class=\"furigana\">特<rt>とく</rt></ruby>に<ruby class=\"furigana\">赤<rt>あか</rt></ruby>み<ruby class=\"furigana\">魚<rt>さかな</rt></ruby>の<ruby class=\"furigana\">悪<rt>わる</rt></ruby>い<ruby class=\"furigana\">条件<rt>じょうけん</rt></ruby>で<ruby class=\"furigana\">保存<rt>ほぞん</rt></ruby>された<ruby class=\"furigana\">魚<rt>さかな</rt></ruby>です。<ruby class=\"furigana\">特<rt>とく</rt></ruby>に何の<ruby class=\"furigana\">魚<rt>さかな</rt></ruby>ですか。間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "イワシ",
+        "html": "イワシ"
+      },
+      {
+        "key": "B",
+        "text": "サバ",
+        "html": "サバ"
+      },
+      {
+        "key": "C",
+        "text": "ウニ",
+        "html": "ウニ"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 21,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_2",
+    "sourceNumber": 12,
+    "prompt": "ソラニンを含(ふく)んだ食品(しょくひん)を食べると、何の食中毒(しょくちゅうどく)の症状(しょうじょう)が起(お)こりますか、間違っているものを一つ選びなさい。",
+    "promptHtml": "ソラニンを<ruby class=\"furigana\">含<rt>ふく</rt></ruby>んだ<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を食べると、何の<ruby class=\"furigana\">食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby class=\"furigana\">症状<rt>しょうじょう</rt></ruby>が<ruby class=\"furigana\">起<rt>お</rt></ruby>こりますか、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "吐(は)き気(け)",
+        "html": "<ruby class=\"furigana\">吐<rt>は</rt></ruby>き<ruby class=\"furigana\">気<rt>け</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "頭(あたま)が痛(いた)い",
+        "html": "<ruby class=\"furigana\">頭<rt>あたま</rt></ruby>が<ruby class=\"furigana\">痛<rt>いた</rt></ruby>い"
+      },
+      {
+        "key": "C",
+        "text": "痒(かゆ)い",
+        "html": "<ruby class=\"furigana\">痒<rt>かゆ</rt></ruby>い"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 22,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_2",
+    "sourceNumber": 13,
+    "prompt": "生物的危害要因(せいぶつてききがいよういん)のなかで、食中毒(しょくちゅうどく)の原因(げんいん)は何ですか、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">生物的危害要因<rt>せいぶつてききがいよういん</rt></ruby>のなかで、<ruby class=\"furigana\">食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby class=\"furigana\">原因<rt>げんいん</rt></ruby>は何ですか、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "寄生虫(きせいちゅう)",
+        "html": "<ruby class=\"furigana\">寄生虫<rt>きせいちゅう</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "ウイルス",
+        "html": "ウイルス"
+      },
+      {
+        "key": "C",
+        "text": "殺菌(さっきん)",
+        "html": "<ruby class=\"furigana\">殺菌<rt>さっきん</rt></ruby>"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 23,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_2",
+    "sourceNumber": 14,
+    "prompt": "微生物(びせいぶつ)やウイルスなどは目(め)で見(み)えないので、見(み)えるように何でを見(み)ますか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">微生物<rt>びせいぶつ</rt></ruby>やウイルスなどは<ruby class=\"furigana\">目<rt>め</rt></ruby>で<ruby class=\"furigana\">見<rt>み</rt></ruby>えないので、<ruby class=\"furigana\">見<rt>み</rt></ruby>えるように何でを<ruby class=\"furigana\">見<rt>み</rt></ruby>ますか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "聴診器(ちょうしんき)",
+        "html": "<ruby class=\"furigana\">聴診器<rt>ちょうしんき</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "金属探知器(きんぞくたんちき)",
+        "html": "<ruby class=\"furigana\">金属探知器<rt>きんぞくたんちき</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "顕微鏡(けんびきょう)",
+        "html": "<ruby class=\"furigana\">顕微鏡<rt>けんびきょう</rt></ruby>"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 24,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_2",
+    "sourceNumber": 15,
+    "prompt": "食中毒菌(しょくちゅうどくきん)はどいう意味(いみ)ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">食中毒菌<rt>しょくちゅうどくきん</rt></ruby>はどいう<ruby class=\"furigana\">意味<rt>いみ</rt></ruby>ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "食品(しょくひん)の中に善玉菌(ぜんだまきん)を入(はい)った食品(しょくひん)を食(た)べると、健康(けんこう)になった",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>の中に<ruby class=\"furigana\">善玉菌<rt>ぜんだまきん</rt></ruby>を<ruby class=\"furigana\">入<rt>はい</rt></ruby>った<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を<ruby class=\"furigana\">食<rt>た</rt></ruby>べると、<ruby class=\"furigana\">健康<rt>けんこう</rt></ruby>になった"
+      },
+      {
+        "key": "B",
+        "text": "消費期限(しょうひきげん)をすぎた食品(しょくひん)や飲料(いんりょう)です",
+        "html": "<ruby class=\"furigana\">消費期限<rt>しょうひきげん</rt></ruby>をすぎた<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>や<ruby class=\"furigana\">飲料<rt>いんりょう</rt></ruby>です"
+      },
+      {
+        "key": "C",
+        "text": "食中毒(しょくちゅうどく)の原因(げんいん)になる細菌(さいきん)",
+        "html": "<ruby class=\"furigana\">食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby class=\"furigana\">原因<rt>げんいん</rt></ruby>になる<ruby class=\"furigana\">細菌<rt>さいきん</rt></ruby>"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 25,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_3",
+    "sourceNumber": 1,
+    "prompt": "サルモネラ属菌(ぞくきん)の原因(げんいん)となりやすい食品(しょくひん)は何ですか、間違っているものを一つ選びなさい。",
+    "promptHtml": "サルモネラ<ruby class=\"furigana\">属菌<rt>ぞくきん</rt></ruby>の<ruby class=\"furigana\">原因<rt>げんいん</rt></ruby>となりやすい<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>は何ですか、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "鶏肉(とりにく)",
+        "html": "<ruby class=\"furigana\">鶏肉<rt>とりにく</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "豚肉(ぶたにく)",
+        "html": "<ruby class=\"furigana\">豚肉<rt>ぶたにく</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "鶏卵(けいらん)",
+        "html": "<ruby class=\"furigana\">鶏卵<rt>けいらん</rt></ruby>"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 26,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_3",
+    "sourceNumber": 2,
+    "prompt": "カンピロバクター属菌(ぞくきん)の主(おも)な症状(しょうじょう)について、正しいものを一つ選びなさい。",
+    "promptHtml": "カンピロバクター<ruby class=\"furigana\">属菌<rt>ぞくきん</rt></ruby>の<ruby class=\"furigana\">主<rt>おも</rt></ruby>な<ruby class=\"furigana\">症状<rt>しょうじょう</rt></ruby>について、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "発熱(はつねつ)、下痢(げり)、腹痛(ふくつう)",
+        "html": "<ruby class=\"furigana\">発熱<rt>はつねつ</rt></ruby>、<ruby class=\"furigana\">下痢<rt>げり</rt></ruby>、<ruby class=\"furigana\">腹痛<rt>ふくつう</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "下痢(げり)、おう吐(と)、発熱(はつねつ)",
+        "html": "<ruby class=\"furigana\">下痢<rt>げり</rt></ruby>、おう<ruby class=\"furigana\">吐<rt>と</rt></ruby>、<ruby class=\"furigana\">発熱<rt>はつねつ</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "吐気(はきけ)、腹痛(ふくつう)、下痢(げり)",
+        "html": "<ruby class=\"furigana\">吐気<rt>はきけ</rt></ruby>、<ruby class=\"furigana\">腹痛<rt>ふくつう</rt></ruby>、<ruby class=\"furigana\">下痢<rt>げり</rt></ruby>"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 27,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_3",
+    "sourceNumber": 3,
+    "prompt": "腸管出血性大腸菌(ちょうかんしゅっけつせいだいちょういん)について、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">腸管出血性大腸菌<rt>ちょうかんしゅっけつせいだいちょういん</rt></ruby>について、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "体(からだ)の中(なか)菌(きん)増(ふ)えて発症(はっしょう)する",
+        "html": "<ruby class=\"furigana\">体<rt>からだ</rt></ruby>の<ruby class=\"furigana\">中<rt>なか</rt></ruby><ruby class=\"furigana\">菌<rt>きん</rt></ruby><ruby class=\"furigana\">増<rt>ふ</rt></ruby>えて<ruby class=\"furigana\">発症<rt>はっしょう</rt></ruby>する"
+      },
+      {
+        "key": "B",
+        "text": "牛肉(ぎゅうにく)、野菜(やさい)、流水(りゅうすい)は原因(げんいん)となりやすい食品(しょくひん)",
+        "html": "<ruby class=\"furigana\">牛肉<rt>ぎゅうにく</rt></ruby>、<ruby class=\"furigana\">野菜<rt>やさい</rt></ruby>、<ruby class=\"furigana\">流水<rt>りゅうすい</rt></ruby>は<ruby class=\"furigana\">原因<rt>げんいん</rt></ruby>となりやすい<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "激(はげ)しい下痢(げり)、腹痛(ふくつう)、血便(けつべん)は主(おも)な症状(しょうじょう)",
+        "html": "<ruby class=\"furigana\">激<rt>はげ</rt></ruby>しい<ruby class=\"furigana\">下痢<rt>げり</rt></ruby>、<ruby class=\"furigana\">腹痛<rt>ふくつう</rt></ruby>、<ruby class=\"furigana\">血便<rt>けつべん</rt></ruby>は<ruby class=\"furigana\">主<rt>おも</rt></ruby>な<ruby class=\"furigana\">症状<rt>しょうじょう</rt></ruby>"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 28,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_3",
+    "sourceNumber": 4,
+    "prompt": "ボツリヌス菌は熱(ねつ)に強(つよ)い芽胞(がほう)を作(つく)る、食品(しょくひん)の中で菌(きん)ガ増(ふ)えて毒素(どくそ)を作(つく)る。どんな食品(しょくひん)が原因(げんいん)となりやすいですか、間違っているものを一つ選びなさい。",
+    "promptHtml": "ボツリヌス菌は<ruby class=\"furigana\">熱<rt>ねつ</rt></ruby>に<ruby class=\"furigana\">強<rt>つよ</rt></ruby>い<ruby class=\"furigana\">芽胞<rt>がほう</rt></ruby>を<ruby class=\"furigana\">作<rt>つく</rt></ruby>る、<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>の中で<ruby class=\"furigana\">菌<rt>きん</rt></ruby>ガ<ruby class=\"furigana\">増<rt>ふ</rt></ruby>えて<ruby class=\"furigana\">毒素<rt>どくそ</rt></ruby>を<ruby class=\"furigana\">作<rt>つく</rt></ruby>る。どんな<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>が<ruby class=\"furigana\">原因<rt>げんいん</rt></ruby>となりやすいですか、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "レトルト食品(しょくひん)",
+        "html": "レトルト<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "瓶詰(びんづめ)食品(しょくひん)",
+        "html": "<ruby class=\"furigana\">瓶詰<rt>びんづめ</rt></ruby><ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "紙包装(かみほうそう)食品(しょくひん)",
+        "html": "<ruby class=\"furigana\">紙包装<rt>かみほうそう</rt></ruby><ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 29,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_3",
+    "sourceNumber": 5,
+    "prompt": "黄色(おうしょく)ブドウ球菌(きゅうきん)の予防(よぼう)するために、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">黄色<rt>おうしょく</rt></ruby>ブドウ<ruby class=\"furigana\">球菌<rt>きゅうきん</rt></ruby>の<ruby class=\"furigana\">予防<rt>よぼう</rt></ruby>するために、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "手に傷(きず)がある場合(ばあい)は食品(しょくひん)を取(と)り扱(あつか)ってはいけません",
+        "html": "手に<ruby class=\"furigana\">傷<rt>きず</rt></ruby>がある<ruby class=\"furigana\">場合<rt>ばあい</rt></ruby>は<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を<ruby class=\"furigana\">取<rt>と</rt></ruby>り<ruby class=\"furigana\">扱<rt>あつか</rt></ruby>ってはいけません"
+      },
+      {
+        "key": "B",
+        "text": "下痢(げり)の症状(しょうじょう)がいる人、職場(しょくば)に行ってはいけません",
+        "html": "<ruby class=\"furigana\">下痢<rt>げり</rt></ruby>の<ruby class=\"furigana\">症状<rt>しょうじょう</rt></ruby>がいる人、<ruby class=\"furigana\">職場<rt>しょくば</rt></ruby>に行ってはいけません"
+      },
+      {
+        "key": "C",
+        "text": "濃度(のうど)が 200ppm 次亜塩素酸(じあえんそさん)ナトリウム溶液(ようえき)につける",
+        "html": "<ruby class=\"furigana\">濃度<rt>のうど</rt></ruby>が 200ppm <ruby class=\"furigana\">次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウム<ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>につける"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 30,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_3",
+    "sourceNumber": 6,
+    "prompt": "食品(しょくひん)の中で菌(きん)が増(ふ)えて毒素(どくそ)を作(つく)るの特徴(とくちょう)の食中毒菌(しょくちゅうどくきん)です、何の食中毒菌(しょくちゅうどくきん)ですか、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>の中で<ruby class=\"furigana\">菌<rt>きん</rt></ruby>が<ruby class=\"furigana\">増<rt>ふ</rt></ruby>えて<ruby class=\"furigana\">毒素<rt>どくそ</rt></ruby>を<ruby class=\"furigana\">作<rt>つく</rt></ruby>るの<ruby class=\"furigana\">特徴<rt>とくちょう</rt></ruby>の<ruby class=\"furigana\">食中毒菌<rt>しょくちゅうどくきん</rt></ruby>です、何の<ruby class=\"furigana\">食中毒菌<rt>しょくちゅうどくきん</rt></ruby>ですか、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "ボツリヌス菌",
+        "html": "ボツリヌス菌"
+      },
+      {
+        "key": "B",
+        "text": "ウェルシュ菌",
+        "html": "ウェルシュ菌"
+      },
+      {
+        "key": "C",
+        "text": "サルモネラ菌",
+        "html": "サルモネラ菌"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 31,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_3",
+    "sourceNumber": 7,
+    "prompt": "芽胞(がほう)の説明(せつめい)について、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">芽胞<rt>がほう</rt></ruby>の<ruby class=\"furigana\">説明<rt>せつめい</rt></ruby>について、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "高温(こうおん)で加熱(じゃねつ)場合(ばあい)は死(し)ぬ",
+        "html": "<ruby class=\"furigana\">高温<rt>こうおん</rt></ruby>で<ruby class=\"furigana\">加熱<rt>じゃねつ</rt></ruby><ruby class=\"furigana\">場合<rt>ばあい</rt></ruby>は<ruby class=\"furigana\">死<rt>し</rt></ruby>ぬ"
+      },
+      {
+        "key": "B",
+        "text": "殻(から)を被(かぶ)った細菌(さいきん)の種(たね)のようなものです",
+        "html": "<ruby class=\"furigana\">殻<rt>から</rt></ruby>を<ruby class=\"furigana\">被<rt>かぶ</rt></ruby>った<ruby class=\"furigana\">細菌<rt>さいきん</rt></ruby>の<ruby class=\"furigana\">種<rt>たね</rt></ruby>のようなものです"
+      },
+      {
+        "key": "C",
+        "text": "細菌(さいきん)が育(そだ)ちやすい環境(かんきょう)に戻(もど)ると、通常(つうじょう)の細菌(さいきん)に戻(もど)って",
+        "html": "<ruby class=\"furigana\">細菌<rt>さいきん</rt></ruby>が<ruby class=\"furigana\">育<rt>そだ</rt></ruby>ちやすい<ruby class=\"furigana\">環境<rt>かんきょう</rt></ruby>に<ruby class=\"furigana\">戻<rt>もど</rt></ruby>ると、<ruby class=\"furigana\">通常<rt>つうじょう</rt></ruby>の<ruby class=\"furigana\">細菌<rt>さいきん</rt></ruby>に<ruby class=\"furigana\">戻<rt>もど</rt></ruby>って"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 32,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_3",
+    "sourceNumber": 8,
+    "prompt": "細菌(さいきん)の原因(げんいん)の食中毒(しょくちゅうどく)を発生(はっせい)させないためには、3つの原則(げんそく)があります、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">細菌<rt>さいきん</rt></ruby>の<ruby class=\"furigana\">原因<rt>げんいん</rt></ruby>の<ruby class=\"furigana\">食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby class=\"furigana\">発生<rt>はっせい</rt></ruby>させないためには、3つの<ruby class=\"furigana\">原則<rt>げんそく</rt></ruby>があります、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "増(ふ)やさない",
+        "html": "<ruby class=\"furigana\">増<rt>ふ</rt></ruby>やさない"
+      },
+      {
+        "key": "B",
+        "text": "やつける",
+        "html": "やつける"
+      },
+      {
+        "key": "C",
+        "text": "つける",
+        "html": "つける"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 33,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_3",
+    "sourceNumber": 9,
+    "prompt": "細菌(さいきん)の増(ふ)え方(かた)は一番(いちばん)急速(きゅうそく)が何度(ど)ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">細菌<rt>さいきん</rt></ruby>の<ruby class=\"furigana\">増<rt>ふ</rt></ruby>え<ruby class=\"furigana\">方<rt>かた</rt></ruby>は<ruby class=\"furigana\">一番<rt>いちばん</rt></ruby><ruby class=\"furigana\">急速<rt>きゅうそく</rt></ruby>が<ruby class=\"furigana\">何度<rt>ど</rt></ruby>ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "30⁰C – 40⁰C",
+        "html": "30⁰C – 40⁰C"
+      },
+      {
+        "key": "B",
+        "text": "10⁰C – 30⁰C",
+        "html": "10⁰C – 30⁰C"
+      },
+      {
+        "key": "C",
+        "text": "20⁰C – 50⁰C",
+        "html": "20⁰C – 50⁰C"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 34,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_3",
+    "sourceNumber": 10,
+    "prompt": "食品(しょくひん)についた食中毒菌(しょくちゅうどくきん)を増(ふ)やさないためには、どんな活動(かつどう)ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>についた<ruby class=\"furigana\">食中毒菌<rt>しょくちゅうどくきん</rt></ruby>を<ruby class=\"furigana\">増<rt>ふ</rt></ruby>やさないためには、どんな<ruby class=\"furigana\">活動<rt>かつどう</rt></ruby>ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "食品(しょくひん)を高温(こうおん)で保管(ほかん)する",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を<ruby class=\"furigana\">高温<rt>こうおん</rt></ruby>で<ruby class=\"furigana\">保管<rt>ほかん</rt></ruby>する"
+      },
+      {
+        "key": "B",
+        "text": "食品(しょくひん)を室温(しつおん)で保管(ほかん)する",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を<ruby class=\"furigana\">室温<rt>しつおん</rt></ruby>で<ruby class=\"furigana\">保管<rt>ほかん</rt></ruby>する"
+      },
+      {
+        "key": "C",
+        "text": "食品(しょくひん)を低温(ていおん)で保管(ほかん)する",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を<ruby class=\"furigana\">低温<rt>ていおん</rt></ruby>で<ruby class=\"furigana\">保管<rt>ほかん</rt></ruby>する"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 35,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_3",
+    "sourceNumber": 13,
+    "prompt": "ノロウイルスを加熱(かねつ)でやつけるためには、原材料(げんざいりょう)や食品(しょくひん)の中心温度(ちゅうしんおんど)は何度(ど)ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "ノロウイルスを<ruby class=\"furigana\">加熱<rt>かねつ</rt></ruby>でやつけるためには、<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby>や<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>の<ruby class=\"furigana\">中心温度<rt>ちゅうしんおんど</rt></ruby>は<ruby class=\"furigana\">何度<rt>ど</rt></ruby>ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "80⁰Ｃ－90⁰Ｃ",
+        "html": "80⁰Ｃ－90⁰Ｃ"
+      },
+      {
+        "key": "B",
+        "text": "75⁰Ｃ－85⁰Ｃ",
+        "html": "75⁰Ｃ－85⁰Ｃ"
+      },
+      {
+        "key": "C",
+        "text": "85⁰Ｃ－90⁰Ｃ",
+        "html": "85⁰Ｃ－90⁰Ｃ"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 36,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_3",
+    "sourceNumber": 14,
+    "prompt": "調理(ちょうり)使(つか)った機械(きかい)や器具(きぐ)は、洗浄(せんじょう)した後(あと)に次亜塩素酸(じあえんそさん)ナトリウムをつける、溶液(ようえき)濃度(のうど)について、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">調理<rt>ちょうり</rt></ruby><ruby class=\"furigana\">使<rt>つか</rt></ruby>った<ruby class=\"furigana\">機械<rt>きかい</rt></ruby>や<ruby class=\"furigana\">器具<rt>きぐ</rt></ruby>は、<ruby class=\"furigana\">洗浄<rt>せんじょう</rt></ruby>した<ruby class=\"furigana\">後<rt>あと</rt></ruby>に<ruby class=\"furigana\">次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウムをつける、<ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby><ruby class=\"furigana\">濃度<rt>のうど</rt></ruby>について、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "200ppm 次亜塩素酸(じあえんそさん)ナトリウムをつける",
+        "html": "200ppm <ruby class=\"furigana\">次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウムをつける"
+      },
+      {
+        "key": "B",
+        "text": "300ppm 次亜塩素酸(じあえんそさん)ナトリウムをつける",
+        "html": "300ppm <ruby class=\"furigana\">次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウムをつける"
+      },
+      {
+        "key": "C",
+        "text": "250ppm 次亜塩素酸(じあえんそさん)ナトリウムをつける",
+        "html": "250ppm <ruby class=\"furigana\">次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウムをつける"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 37,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_3",
+    "sourceNumber": 15,
+    "prompt": "ノロウイルスによる食中毒(しょくちゅうどく)を防(ふせ)ぐためには4つ原則(げんそく)があります、間違っているものを一つ選びなさい。",
+    "promptHtml": "ノロウイルスによる<ruby class=\"furigana\">食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby class=\"furigana\">防<rt>ふせ</rt></ruby>ぐためには4つ<ruby class=\"furigana\">原則<rt>げんそく</rt></ruby>があります、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "持(も)ち込んで",
+        "html": "<ruby class=\"furigana\">持<rt>も</rt></ruby>ち込んで"
+      },
+      {
+        "key": "B",
+        "text": "つけない",
+        "html": "つけない"
+      },
+      {
+        "key": "C",
+        "text": "殺(ころ)す",
+        "html": "<ruby class=\"furigana\">殺<rt>ころ</rt></ruby>す"
+      },
+      {
+        "key": "D",
+        "text": "広(ひろ)げない",
+        "html": "<ruby class=\"furigana\">広<rt>ひろ</rt></ruby>げない"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 38,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_4",
+    "sourceNumber": 1,
+    "prompt": "カビの特徴(とくちょう)について、正しいものを一つ選びなさい。",
+    "promptHtml": "カビの<ruby class=\"furigana\">特徴<rt>とくちょう</rt></ruby>について、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "カビが殺(ころ)すことができない",
+        "html": "カビが<ruby class=\"furigana\">殺<rt>ころ</rt></ruby>すことができない"
+      },
+      {
+        "key": "B",
+        "text": "100⁰Ｃで加熱(かねつ)したら、カビが無(な)くなる",
+        "html": "100⁰Ｃで<ruby class=\"furigana\">加熱<rt>かねつ</rt></ruby>したら、カビが<ruby class=\"furigana\">無<rt>な</rt></ruby>くなる"
+      },
+      {
+        "key": "C",
+        "text": "カビが殺(ころ)すため、りゅすいで洗浄(せんじょう)する",
+        "html": "カビが<ruby class=\"furigana\">殺<rt>ころ</rt></ruby>すため、りゅすいで<ruby class=\"furigana\">洗浄<rt>せんじょう</rt></ruby>する"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 39,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_4",
+    "sourceNumber": 2,
+    "prompt": "保存中(ほぞんちゅう)にカビが増(ふ)えやすい食品(しょくひん)は何ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">保存中<rt>ほぞんちゅう</rt></ruby>にカビが<ruby class=\"furigana\">増<rt>ふ</rt></ruby>えやすい<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>は何ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "豆(まめ)、心(こころ)、野菜、(やさい)、果物(くだもの)",
+        "html": "<ruby class=\"furigana\">豆<rt>まめ</rt></ruby>、<ruby class=\"furigana\">心<rt>こころ</rt></ruby>、野菜、(やさい)、<ruby class=\"furigana\">果物<rt>くだもの</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "果物(くだもの)、大豆(だいず)、野菜(やさい)、食肉(しょくにく)",
+        "html": "<ruby class=\"furigana\">果物<rt>くだもの</rt></ruby>、<ruby class=\"furigana\">大豆<rt>だいず</rt></ruby>、<ruby class=\"furigana\">野菜<rt>やさい</rt></ruby>、<ruby class=\"furigana\">食肉<rt>しょくにく</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "穀類(こくるい)、果物(くだもの)、野菜、(やさい)、豆(まめ)",
+        "html": "<ruby class=\"furigana\">穀類<rt>こくるい</rt></ruby>、<ruby class=\"furigana\">果物<rt>くだもの</rt></ruby>、野菜、(やさい)、<ruby class=\"furigana\">豆<rt>まめ</rt></ruby>"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 40,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_4",
+    "sourceNumber": 3,
+    "prompt": "寄生虫(きせいちゅ)について、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">寄生虫<rt>きせいちゅ</rt></ruby>について、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "アニサキスは寄生虫(きせいちゅ)の一つです",
+        "html": "アニサキスは<ruby class=\"furigana\">寄生虫<rt>きせいちゅ</rt></ruby>の一つです"
+      },
+      {
+        "key": "B",
+        "text": "魚介類(ぎょかいるい)を生(なま)のまま食べると、アニサキス食中毒(しょくちゅうどく)がおこります",
+        "html": "<ruby class=\"furigana\">魚介類<rt>ぎょかいるい</rt></ruby>を<ruby class=\"furigana\">生<rt>なま</rt></ruby>のまま食べると、アニサキス<ruby class=\"furigana\">食中毒<rt>しょくちゅうどく</rt></ruby>がおこります"
+      },
+      {
+        "key": "C",
+        "text": "人や岩(いわ)の表面(ひょうめん)や体内(たいない)で、人や岩(いわ)から栄養(えいよう)を取(と)って生(い)きているの",
+        "html": "人や<ruby class=\"furigana\">岩<rt>いわ</rt></ruby>の<ruby class=\"furigana\">表面<rt>ひょうめん</rt></ruby>や<ruby class=\"furigana\">体内<rt>たいない</rt></ruby>で、人や<ruby class=\"furigana\">岩<rt>いわ</rt></ruby>から<ruby class=\"furigana\">栄養<rt>えいよう</rt></ruby>を<ruby class=\"furigana\">取<rt>と</rt></ruby>って<ruby class=\"furigana\">生<rt>い</rt></ruby>きているの"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 41,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_4",
+    "sourceNumber": 4,
+    "prompt": "一般衛生管理(いっぱんえいせいかんり)は4つの点(てん)があります、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>は4つの<ruby class=\"furigana\">点<rt>てん</rt></ruby>があります、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5S 活動(かつどう)",
+        "html": "5S <ruby class=\"furigana\">活動<rt>かつどう</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "原材料(げんざいりょう)・食品(しょくひん)の衛生管理(えいせいかんり)を説明(せつめい)します",
+        "html": "<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby>・<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>の<ruby class=\"furigana\">衛生管理<rt>えいせいかんり</rt></ruby>を<ruby class=\"furigana\">説明<rt>せつめい</rt></ruby>します"
+      },
+      {
+        "key": "C",
+        "text": "作業者(さぎょうしゃ)の衛生管理(えいせいかんり)",
+        "html": "<ruby class=\"furigana\">作業者<rt>さぎょうしゃ</rt></ruby>の<ruby class=\"furigana\">衛生管理<rt>えいせいかんり</rt></ruby>"
+      },
+      {
+        "key": "D",
+        "text": "倉庫(しょうこ)の取(と)り扱(あつか)い",
+        "html": "<ruby class=\"furigana\">倉庫<rt>しょうこ</rt></ruby>の<ruby class=\"furigana\">取<rt>と</rt></ruby>り<ruby class=\"furigana\">扱<rt>あつか</rt></ruby>い"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 42,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_4",
+    "sourceNumber": 5,
+    "prompt": "5S 活動(かつどう)について、正しいものを一つ選びなさい。",
+    "promptHtml": "5S <ruby class=\"furigana\">活動<rt>かつどう</rt></ruby>について、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "整理(せいり)、生鮮(せいせん)、清掃(せいそう)、清潔(せいけつ)、習慣(しゅかん)づけ",
+        "html": "<ruby class=\"furigana\">整理<rt>せいり</rt></ruby>、<ruby class=\"furigana\">生鮮<rt>せいせん</rt></ruby>、<ruby class=\"furigana\">清掃<rt>せいそう</rt></ruby>、<ruby class=\"furigana\">清潔<rt>せいけつ</rt></ruby>、<ruby class=\"furigana\">習慣<rt>しゅかん</rt></ruby>づけ"
+      },
+      {
+        "key": "B",
+        "text": "清掃(せいそう)、整理(せいり)、しつけ、整頓(せいとん)、清潔(せいけつ)",
+        "html": "<ruby class=\"furigana\">清掃<rt>せいそう</rt></ruby>、<ruby class=\"furigana\">整理<rt>せいり</rt></ruby>、しつけ、<ruby class=\"furigana\">整頓<rt>せいとん</rt></ruby>、<ruby class=\"furigana\">清潔<rt>せいけつ</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "整頓(せいとん)、しづけ、清潔(せいけつ)、整理(せいり)、清掃(せいそう)",
+        "html": "<ruby class=\"furigana\">整頓<rt>せいとん</rt></ruby>、しづけ、<ruby class=\"furigana\">清潔<rt>せいけつ</rt></ruby>、<ruby class=\"furigana\">整理<rt>せいり</rt></ruby>、<ruby class=\"furigana\">清掃<rt>せいそう</rt></ruby>"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 43,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_4",
+    "sourceNumber": 6,
+    "prompt": "5S 活動(かつどう)の整理(せいり)はどいう意味(いみ)ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "5S <ruby class=\"furigana\">活動<rt>かつどう</rt></ruby>の<ruby class=\"furigana\">整理<rt>せいり</rt></ruby>はどいう<ruby class=\"furigana\">意味<rt>いみ</rt></ruby>ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "使(つか)わない物(もの)を無(な)くして、使(つか)う物(もの)だけにすること",
+        "html": "<ruby class=\"furigana\">使<rt>つか</rt></ruby>わない<ruby class=\"furigana\">物<rt>もの</rt></ruby>を<ruby class=\"furigana\">無<rt>な</rt></ruby>くして、<ruby class=\"furigana\">使<rt>つか</rt></ruby>う<ruby class=\"furigana\">物<rt>もの</rt></ruby>だけにすること"
+      },
+      {
+        "key": "B",
+        "text": "器具(きぐ)や道具(どうぐ)を必要(ひつよう)なときすぐに取(と)り出(だ)せるようにすること",
+        "html": "<ruby class=\"furigana\">器具<rt>きぐ</rt></ruby>や<ruby class=\"furigana\">道具<rt>どうぐ</rt></ruby>を<ruby class=\"furigana\">必要<rt>ひつよう</rt></ruby>なときすぐに<ruby class=\"furigana\">取<rt>と</rt></ruby>り<ruby class=\"furigana\">出<rt>だ</rt></ruby>せるようにすること"
+      },
+      {
+        "key": "C",
+        "text": "決(き)められたこと決(き)められたとおりにできること",
+        "html": "<ruby class=\"furigana\">決<rt>き</rt></ruby>められたこと<ruby class=\"furigana\">決<rt>き</rt></ruby>められたとおりにできること"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 44,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_4",
+    "sourceNumber": 7,
+    "prompt": "交差汚染(こうさおせん)はどいう意味(いみ)ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">交差汚染<rt>こうさおせん</rt></ruby>はどいう<ruby class=\"furigana\">意味<rt>いみ</rt></ruby>ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "清潔(せいけつ)な人が清潔(せいけつ)ではないものに触(ふ)れると、危害要因(きがいよういん)に汚染(おせん)されてしまいます",
+        "html": "<ruby class=\"furigana\">清潔<rt>せいけつ</rt></ruby>な人が<ruby class=\"furigana\">清潔<rt>せいけつ</rt></ruby>ではないものに<ruby class=\"furigana\">触<rt>ふ</rt></ruby>れると、<ruby class=\"furigana\">危害要因<rt>きがいよういん</rt></ruby>に<ruby class=\"furigana\">汚染<rt>おせん</rt></ruby>されてしまいます"
+      },
+      {
+        "key": "B",
+        "text": "清潔(せいけつ)なものと清潔(せいけつ)ではないものが別(べつ)の場所(ばしょ)におきます",
+        "html": "<ruby class=\"furigana\">清潔<rt>せいけつ</rt></ruby>なものと<ruby class=\"furigana\">清潔<rt>せいけつ</rt></ruby>ではないものが<ruby class=\"furigana\">別<rt>べつ</rt></ruby>の<ruby class=\"furigana\">場所<rt>ばしょ</rt></ruby>におきます"
+      },
+      {
+        "key": "C",
+        "text": "清潔(せいけつ)な人が清潔(せいけつ)な原材料(げんざいりょう)が触(ふ)れる",
+        "html": "<ruby class=\"furigana\">清潔<rt>せいけつ</rt></ruby>な人が<ruby class=\"furigana\">清潔<rt>せいけつ</rt></ruby>な<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby>が<ruby class=\"furigana\">触<rt>ふ</rt></ruby>れる"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 45,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_4",
+    "sourceNumber": 8,
+    "prompt": "交差汚染(こうさおせん)を防止(ぼうし)するために、食品製造工場(しょくひんせいぞうこうじょう)の中には区分衛生管理(くぶんえいせいかんり)(ゾーニング)があります、このように区域(くいき)を分けてについて、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">交差汚染<rt>こうさおせん</rt></ruby>を<ruby class=\"furigana\">防止<rt>ぼうし</rt></ruby>するために、<ruby class=\"furigana\">食品製造工場<rt>しょくひんせいぞうこうじょう</rt></ruby>の中には<ruby class=\"furigana\">区分衛生管理<rt>くぶんえいせいかんり</rt></ruby>(ゾーニング)があります、このように<ruby class=\"furigana\">区域<rt>くいき</rt></ruby>を分けてについて、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "汚染作業区域(おせんさぎょうくいき)",
+        "html": "<ruby class=\"furigana\">汚染作業区域<rt>おせんさぎょうくいき</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "清潔作業区域(せいけつさぎょうくいき)",
+        "html": "<ruby class=\"furigana\">清潔作業区域<rt>せいけつさぎょうくいき</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "人生決作業区域(じんせいけつさぎょうくいき)",
+        "html": "<ruby class=\"furigana\">人生決作業区域<rt>じんせいけつさぎょうくいき</rt></ruby>"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 46,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_4",
+    "sourceNumber": 9,
+    "prompt": "区分衛生管理(くぶんえいせいかんり)の取(とり)扱(あつか)うについて、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">区分衛生管理<rt>くぶんえいせいかんり</rt></ruby>の<ruby class=\"furigana\">取<rt>とり</rt></ruby><ruby class=\"furigana\">扱<rt>あつか</rt></ruby>うについて、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "汚染作業区域(おせんさぎょうくき)で作業(さぎょう)する人が、準清潔作業区域(じゅんせいけつさぎょうくいき)や清潔作業区域(せいけつさぎょうくいき)に入らないようになければいけません",
+        "html": "<ruby class=\"furigana\">汚染作業区域<rt>おせんさぎょうくき</rt></ruby>で<ruby class=\"furigana\">作業<rt>さぎょう</rt></ruby>する人が、<ruby class=\"furigana\">準清潔作業区域<rt>じゅんせいけつさぎょうくいき</rt></ruby>や<ruby class=\"furigana\">清潔作業区域<rt>せいけつさぎょうくいき</rt></ruby>に入らないようになければいけません"
+      },
+      {
+        "key": "B",
+        "text": "不要(ふよう)になった原材料(げんざいりょう)や掃除(そうじ)で出(で)たごみを作業場(さぎょうじょう)から出(だ)すとき、決(き)められない通路(つうろ)で出(だ)します",
+        "html": "<ruby class=\"furigana\">不要<rt>ふよう</rt></ruby>になった<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby>や<ruby class=\"furigana\">掃除<rt>そうじ</rt></ruby>で<ruby class=\"furigana\">出<rt>で</rt></ruby>たごみを<ruby class=\"furigana\">作業場<rt>さぎょうじょう</rt></ruby>から<ruby class=\"furigana\">出<rt>だ</rt></ruby>すとき、<ruby class=\"furigana\">決<rt>き</rt></ruby>められない<ruby class=\"furigana\">通路<rt>つうろ</rt></ruby>で<ruby class=\"furigana\">出<rt>だ</rt></ruby>します"
+      },
+      {
+        "key": "C",
+        "text": "段(だん)ボール箱(ばこ)やコンテナのまま準清潔作業区域(じゅんせいけつさぎょうくいき)や清潔作業区域(せいけつさぎょうくいき)に持(も)ち込(こ)んではいけません",
+        "html": "<ruby class=\"furigana\">段<rt>だん</rt></ruby>ボール<ruby class=\"furigana\">箱<rt>ばこ</rt></ruby>やコンテナのまま<ruby class=\"furigana\">準清潔作業区域<rt>じゅんせいけつさぎょうくいき</rt></ruby>や<ruby class=\"furigana\">清潔作業区域<rt>せいけつさぎょうくいき</rt></ruby>に<ruby class=\"furigana\">持<rt>も</rt></ruby>ち<ruby class=\"furigana\">込<rt>こ</rt></ruby>んではいけません"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 47,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_4",
+    "sourceNumber": 10,
+    "prompt": "清掃(せいそう)、洗浄(せのじょう)、消毒(しょうどく)は定期的(ていきてき)に清掃(せいそう)して、いつも清潔(せいけつ)にしておかなければいけません、清掃(せいそう)をしないでいると何を起(お)こりますか、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">清掃<rt>せいそう</rt></ruby>、<ruby class=\"furigana\">洗浄<rt>せのじょう</rt></ruby>、<ruby class=\"furigana\">消毒<rt>しょうどく</rt></ruby>は<ruby class=\"furigana\">定期的<rt>ていきてき</rt></ruby>に<ruby class=\"furigana\">清掃<rt>せいそう</rt></ruby>して、いつも<ruby class=\"furigana\">清潔<rt>せいけつ</rt></ruby>にしておかなければいけません、<ruby class=\"furigana\">清掃<rt>せいそう</rt></ruby>をしないでいると何を<ruby class=\"furigana\">起<rt>お</rt></ruby>こりますか、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "虫(むし)やネズミが入(はい)って",
+        "html": "<ruby class=\"furigana\">虫<rt>むし</rt></ruby>やネズミが<ruby class=\"furigana\">入<rt>はい</rt></ruby>って"
+      },
+      {
+        "key": "B",
+        "text": "食品(しょくひん)を作(つく)ったの値段(ねだん)が高(たか)くなる",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を<ruby class=\"furigana\">作<rt>つく</rt></ruby>ったの<ruby class=\"furigana\">値段<rt>ねだん</rt></ruby>が<ruby class=\"furigana\">高<rt>たか</rt></ruby>くなる"
+      },
+      {
+        "key": "C",
+        "text": "施設(しせつ)、設備(せつび)の衛生上(えいせいじょう)が悪(わる)くなります",
+        "html": "<ruby class=\"furigana\">施設<rt>しせつ</rt></ruby>、<ruby class=\"furigana\">設備<rt>せつび</rt></ruby>の<ruby class=\"furigana\">衛生上<rt>えいせいじょう</rt></ruby>が<ruby class=\"furigana\">悪<rt>わる</rt></ruby>くなります"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 48,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_5",
+    "sourceNumber": 1,
+    "prompt": "正しい作業服(さぎょうふく)を着用(ちゃくよう)について、正しいものを一つ選びなさい。",
+    "promptHtml": "正しい<ruby class=\"furigana\">作業服<rt>さぎょうふく</rt></ruby>を<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>について、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "ヘアーネットを帽子(ぼうし)の外(そと)に着用(ちゃくよう)",
+        "html": "ヘアーネットを<ruby class=\"furigana\">帽子<rt>ぼうし</rt></ruby>の<ruby class=\"furigana\">外<rt>そと</rt></ruby>に<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "作業服(さぎょうふく)はポケットのないを着用(ちゃくよう)",
+        "html": "<ruby class=\"furigana\">作業服<rt>さぎょうふく</rt></ruby>はポケットのないを<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "作業服(さぎょうふく)が不衛生(ふえいせい)なものを着用(ちゃくよう)",
+        "html": "<ruby class=\"furigana\">作業服<rt>さぎょうふく</rt></ruby>が<ruby class=\"furigana\">不衛生<rt>ふえいせい</rt></ruby>なものを<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 49,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_5",
+    "sourceNumber": 2,
+    "prompt": "手袋(てぶくろ)を正しく着(つ)けるためにの注意事項(ちゅういじこう)について、次の絵(え)を見てくださいア イ ウ上(うえ)の写真(しゃしん)から、どの手袋(てぶくろ)を着用(ちゃくよう)できますか。",
+    "promptHtml": "<ruby class=\"furigana\">手袋<rt>てぶくろ</rt></ruby>を正しく<ruby class=\"furigana\">着<rt>つ</rt></ruby>けるためにの<ruby class=\"furigana\">注意事項<rt>ちゅういじこう</rt></ruby>について、次の<ruby class=\"furigana\">絵<rt>え</rt></ruby>を見てくださいア イ ウ<ruby class=\"furigana\">上<rt>うえ</rt></ruby>の<ruby class=\"furigana\">写真<rt>しゃしん</rt></ruby>から、どの<ruby class=\"furigana\">手袋<rt>てぶくろ</rt></ruby>を<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>できますか。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "ウ",
+        "html": "ウ"
+      },
+      {
+        "key": "B",
+        "text": "ア",
+        "html": "ア"
+      },
+      {
+        "key": "C",
+        "text": "イ",
+        "html": "イ"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 50,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_5",
+    "sourceNumber": 3,
+    "prompt": "一般衛生管理(いっぱんえいせいかんり)には手洗(てあら)いが一つ大切(たいせつ)です、手洗(てあら)いがいつでも行(おこな)うですか、間違っている選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>には<ruby class=\"furigana\">手洗<rt>てあら</rt></ruby>いが一つ<ruby class=\"furigana\">大切<rt>たいせつ</rt></ruby>です、<ruby class=\"furigana\">手洗<rt>てあら</rt></ruby>いがいつでも<ruby class=\"furigana\">行<rt>おこな</rt></ruby>うですか、間違っている選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "職場(しょくば)で作業(さぎょう)を始(はじ)める直前(ちょくぜん)",
+        "html": "<ruby class=\"furigana\">職場<rt>しょくば</rt></ruby>で<ruby class=\"furigana\">作業<rt>さぎょう</rt></ruby>を<ruby class=\"furigana\">始<rt>はじ</rt></ruby>める<ruby class=\"furigana\">直前<rt>ちょくぜん</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "食品(しょくひん)に直接(ちょくせつ)触(ふ)れる作業(さぎょう)をする前(まえ)",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>に<ruby class=\"furigana\">直接<rt>ちょくせつ</rt></ruby><ruby class=\"furigana\">触<rt>ふ</rt></ruby>れる<ruby class=\"furigana\">作業<rt>さぎょう</rt></ruby>をする<ruby class=\"furigana\">前<rt>まえ</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "清潔作業区域(せいけつさぎょうくいき)から非汚染作業区域(ひおせんさぎょうくいき)に移動(いどう)するとき",
+        "html": "<ruby class=\"furigana\">清潔作業区域<rt>せいけつさぎょうくいき</rt></ruby>から<ruby class=\"furigana\">非汚染作業区域<rt>ひおせんさぎょうくいき</rt></ruby>に<ruby class=\"furigana\">移動<rt>いどう</rt></ruby>するとき"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 51,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_5",
+    "sourceNumber": 4,
+    "prompt": "次(つぎ)の正しく手洗(てあら)いの方法(ほうほう)を見てください！…もう一つ方法(ほうほう)は何ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">次<rt>つぎ</rt></ruby>の正しく<ruby class=\"furigana\">手洗<rt>てあら</rt></ruby>いの<ruby class=\"furigana\">方法<rt>ほうほう</rt></ruby>を見てください！…もう一つ<ruby class=\"furigana\">方法<rt>ほうほう</rt></ruby>は何ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "使(つか)い捨(す)てペーパータオルで手(て)を乾(かわ)かす",
+        "html": "<ruby class=\"furigana\">使<rt>つか</rt></ruby>い<ruby class=\"furigana\">捨<rt>す</rt></ruby>てペーパータオルで<ruby class=\"furigana\">手<rt>て</rt></ruby>を<ruby class=\"furigana\">乾<rt>かわ</rt></ruby>かす"
+      },
+      {
+        "key": "B",
+        "text": "流水(りゅうしう)で手(て)を洗(あら)う",
+        "html": "<ruby class=\"furigana\">流水<rt>りゅうしう</rt></ruby>で<ruby class=\"furigana\">手<rt>て</rt></ruby>を<ruby class=\"furigana\">洗<rt>あら</rt></ruby>う"
+      },
+      {
+        "key": "C",
+        "text": "石鹼(せっけん)を使(つか)って",
+        "html": "<ruby class=\"furigana\">石鹼<rt>せっけん</rt></ruby>を<ruby class=\"furigana\">使<rt>つか</rt></ruby>って"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 52,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_5",
+    "sourceNumber": 5,
+    "prompt": "工場(こうじょう)で作業者(さぎょしゃ)から食品(しょくひん)に危害要因(きがいよういん)がつかないようにするため、手袋(てぶくろ)やエプロンを交換(こうかん)しなければならない場合(ばあい)があります、いつですか。間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">工場<rt>こうじょう</rt></ruby>で<ruby class=\"furigana\">作業者<rt>さぎょしゃ</rt></ruby>から<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>に<ruby class=\"furigana\">危害要因<rt>きがいよういん</rt></ruby>がつかないようにするため、<ruby class=\"furigana\">手袋<rt>てぶくろ</rt></ruby>やエプロンを<ruby class=\"furigana\">交換<rt>こうかん</rt></ruby>しなければならない<ruby class=\"furigana\">場合<rt>ばあい</rt></ruby>があります、いつですか。間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "トイレ、休憩(きゅうけい)の後(あと)、作業場(さぎょうじょう)に入(はい)るとき",
+        "html": "トイレ、<ruby class=\"furigana\">休憩<rt>きゅうけい</rt></ruby>の<ruby class=\"furigana\">後<rt>あと</rt></ruby>、<ruby class=\"furigana\">作業場<rt>さぎょうじょう</rt></ruby>に<ruby class=\"furigana\">入<rt>はい</rt></ruby>るとき"
+      },
+      {
+        "key": "B",
+        "text": "着用(ちゃくよう)していた手袋(てぶくろ)が破(やぶ)れたとき",
+        "html": "<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>していた<ruby class=\"furigana\">手袋<rt>てぶくろ</rt></ruby>が<ruby class=\"furigana\">破<rt>やぶ</rt></ruby>れたとき"
+      },
+      {
+        "key": "C",
+        "text": "ある食品(しょくひん)の盛(も)り付(つ)け作業(さぎょう)した後(あと)に、同(おな)じの食品(しょくひん)の盛(も)り付(つ)け作業(さぎょう)をする",
+        "html": "ある<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>の<ruby class=\"furigana\">盛<rt>も</rt></ruby>り<ruby class=\"furigana\">付<rt>つ</rt></ruby>け<ruby class=\"furigana\">作業<rt>さぎょう</rt></ruby>した<ruby class=\"furigana\">後<rt>あと</rt></ruby>に、<ruby class=\"furigana\">同<rt>おな</rt></ruby>じの<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>の<ruby class=\"furigana\">盛<rt>も</rt></ruby>り<ruby class=\"furigana\">付<rt>つ</rt></ruby>け<ruby class=\"furigana\">作業<rt>さぎょう</rt></ruby>をする"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 53,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_5",
+    "sourceNumber": 6,
+    "prompt": "作業場(さぎょうじょう)に決(き)まったルールがあります、作業者(さぎょうしゃ)が守(まも)らなければならないこと、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">作業場<rt>さぎょうじょう</rt></ruby>に<ruby class=\"furigana\">決<rt>き</rt></ruby>まったルールがあります、<ruby class=\"furigana\">作業者<rt>さぎょうしゃ</rt></ruby>が<ruby class=\"furigana\">守<rt>まも</rt></ruby>らなければならないこと、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "作業場(さぎょうじょう)の中で何かを食(た)べたり飲(の)んだりしないといけない",
+        "html": "<ruby class=\"furigana\">作業場<rt>さぎょうじょう</rt></ruby>の中で何かを<ruby class=\"furigana\">食<rt>た</rt></ruby>べたり<ruby class=\"furigana\">飲<rt>の</rt></ruby>んだりしないといけない"
+      },
+      {
+        "key": "B",
+        "text": "作業服(さぎょうふく)で手で拭(ふ)いてはいけない",
+        "html": "<ruby class=\"furigana\">作業服<rt>さぎょうふく</rt></ruby>で手で<ruby class=\"furigana\">拭<rt>ふ</rt></ruby>いてはいけない"
+      },
+      {
+        "key": "C",
+        "text": "職場(しょくば)には作業(さぎょう)に関係(かんけい)のない持(も)ち物(もの)を持(も)ち込(こ)んではいけない",
+        "html": "<ruby class=\"furigana\">職場<rt>しょくば</rt></ruby>には<ruby class=\"furigana\">作業<rt>さぎょう</rt></ruby>に<ruby class=\"furigana\">関係<rt>かんけい</rt></ruby>のない<ruby class=\"furigana\">持<rt>も</rt></ruby>ち<ruby class=\"furigana\">物<rt>もの</rt></ruby>を<ruby class=\"furigana\">持<rt>も</rt></ruby>ち<ruby class=\"furigana\">込<rt>こ</rt></ruby>んではいけない"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 54,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_5",
+    "sourceNumber": 7,
+    "prompt": "職場(しょくば)に持(も)ち込(こ)んではいけない物(もの)、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">職場<rt>しょくば</rt></ruby>に<ruby class=\"furigana\">持<rt>も</rt></ruby>ち<ruby class=\"furigana\">込<rt>こ</rt></ruby>んではいけない<ruby class=\"furigana\">物<rt>もの</rt></ruby>、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "スマートフォン",
+        "html": "スマートフォン"
+      },
+      {
+        "key": "B",
+        "text": "メモ帳(ちょう)",
+        "html": "メモ<ruby class=\"furigana\">帳<rt>ちょう</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "ほごうめがね",
+        "html": "ほごうめがね"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 55,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_5",
+    "sourceNumber": 8,
+    "prompt": "仕事中(しごとちゅう)に鼻(はな)を触(さわ)ってしまった場合(ばあい)はどうすればいいですか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">仕事中<rt>しごとちゅう</rt></ruby>に<ruby class=\"furigana\">鼻<rt>はな</rt></ruby>を<ruby class=\"furigana\">触<rt>さわ</rt></ruby>ってしまった<ruby class=\"furigana\">場合<rt>ばあい</rt></ruby>はどうすればいいですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "帰(かえ)ってもいい",
+        "html": "<ruby class=\"furigana\">帰<rt>かえ</rt></ruby>ってもいい"
+      },
+      {
+        "key": "B",
+        "text": "もう一度(いちど)手洗(てあら)いをするや手袋(てぶくろ)を交換(こうかん)する",
+        "html": "もう<ruby class=\"furigana\">一度<rt>いちど</rt></ruby><ruby class=\"furigana\">手洗<rt>てあら</rt></ruby>いをするや<ruby class=\"furigana\">手袋<rt>てぶくろ</rt></ruby>を<ruby class=\"furigana\">交換<rt>こうかん</rt></ruby>する"
+      },
+      {
+        "key": "C",
+        "text": "次亜塩素酸(じあえんそさん)ナトリウム溶液(ようえき)で手を洗(あら)う",
+        "html": "<ruby class=\"furigana\">次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウム<ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>で手を<ruby class=\"furigana\">洗<rt>あら</rt></ruby>う"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 56,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_5",
+    "sourceNumber": 9,
+    "prompt": "作業場(さぎょうじょう)の出(で)入(いり)口(ぐち)や倉庫(そうこ)にカメラを置(お)いて、このような何のために行(おこな)われるのですか。間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">作業場<rt>さぎょうじょう</rt></ruby>の<ruby class=\"furigana\">出<rt>で</rt></ruby><ruby class=\"furigana\">入<rt>いり</rt></ruby><ruby class=\"furigana\">口<rt>ぐち</rt></ruby>や<ruby class=\"furigana\">倉庫<rt>そうこ</rt></ruby>にカメラを<ruby class=\"furigana\">置<rt>お</rt></ruby>いて、このような何のために<ruby class=\"furigana\">行<rt>おこな</rt></ruby>われるのですか。間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "クレームがある場合(ばあい)は証拠(しょうこ)になる",
+        "html": "クレームがある<ruby class=\"furigana\">場合<rt>ばあい</rt></ruby>は<ruby class=\"furigana\">証拠<rt>しょうこ</rt></ruby>になる"
+      },
+      {
+        "key": "B",
+        "text": "正しく行(おこな)われていることを確認(かくにん)するため",
+        "html": "正しく<ruby class=\"furigana\">行<rt>おこな</rt></ruby>われていることを<ruby class=\"furigana\">確認<rt>かくにん</rt></ruby>するため"
+      },
+      {
+        "key": "C",
+        "text": "ビデオを作(つく)るために",
+        "html": "ビデオを<ruby class=\"furigana\">作<rt>つく</rt></ruby>るために"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 57,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_5",
+    "sourceNumber": 10,
+    "prompt": "原材料(げんざいりょう)の受(う)け入(い)れのとき、何をしなければ調(しら)べますか、正しくないものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby>の<ruby class=\"furigana\">受<rt>う</rt></ruby>け<ruby class=\"furigana\">入<rt>い</rt></ruby>れのとき、何をしなければ<ruby class=\"furigana\">調<rt>しら</rt></ruby>べますか、正しくないものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "規格(きかく)",
+        "html": "<ruby class=\"furigana\">規格<rt>きかく</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "包装工程ほ(ほうそうこうてい)",
+        "html": "<ruby class=\"furigana\">包装工程ほ<rt>ほうそうこうてい</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "品温(ひんおん)",
+        "html": "<ruby class=\"furigana\">品温<rt>ひんおん</rt></ruby>"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 58,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_6",
+    "sourceNumber": 1,
+    "prompt": "「注文(ちゅうもん)した種類(しゅるい)と届(とど)いた原材料(げんざいりょう)を照(て)らし合(あ)わせて、正しい原材料(げんざいりょう)が届(とど)いているかどうかを確認(かくにん)する」は何の意味(意味)ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "「<ruby class=\"furigana\">注文<rt>ちゅうもん</rt></ruby>した<ruby class=\"furigana\">種類<rt>しゅるい</rt></ruby>と<ruby class=\"furigana\">届<rt>とど</rt></ruby>いた<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby>を<ruby class=\"furigana\">照<rt>て</rt></ruby>らし<ruby class=\"furigana\">合<rt>あ</rt></ruby>わせて、正しい<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby>が<ruby class=\"furigana\">届<rt>とど</rt></ruby>いているかどうかを<ruby class=\"furigana\">確認<rt>かくにん</rt></ruby>する」は何の<ruby class=\"furigana\">意味<rt>意味</rt></ruby>ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "原材料(げんざいりょう)検査(けんさ)",
+        "html": "<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby><ruby class=\"furigana\">検査<rt>けんさ</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "食品(しょくひん)検査(けんさ)",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby><ruby class=\"furigana\">検査<rt>けんさ</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "受入(うけいれ)検査(けんさ)",
+        "html": "<ruby class=\"furigana\">受入<rt>うけいれ</rt></ruby><ruby class=\"furigana\">検査<rt>けんさ</rt></ruby>"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 59,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_6",
+    "sourceNumber": 2,
+    "prompt": "原材料(けんざいりょう)の保管方法(ほかんほうほう)が原材料(げんざいりょう)の種類(しゅるい)によって保管(ほかんします)、決(き)められた温度(おんど)で保管(ほかん)する必要(ひつよう)があります、次(つぎ)の原材料(げんざいりょう)と保管(ほかん)温度(おんど)、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">原材料<rt>けんざいりょう</rt></ruby>の<ruby class=\"furigana\">保管方法<rt>ほかんほうほう</rt></ruby>が<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby>の<ruby class=\"furigana\">種類<rt>しゅるい</rt></ruby>によって<ruby class=\"furigana\">保管<rt>ほかんします</rt></ruby>、<ruby class=\"furigana\">決<rt>き</rt></ruby>められた<ruby class=\"furigana\">温度<rt>おんど</rt></ruby>で<ruby class=\"furigana\">保管<rt>ほかん</rt></ruby>する<ruby class=\"furigana\">必要<rt>ひつよう</rt></ruby>があります、<ruby class=\"furigana\">次<rt>つぎ</rt></ruby>の<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby>と<ruby class=\"furigana\">保管<rt>ほかん</rt></ruby><ruby class=\"furigana\">温度<rt>おんど</rt></ruby>、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "マーガリンを室温(しつおん)で保管(ほかん)します",
+        "html": "マーガリンを<ruby class=\"furigana\">室温<rt>しつおん</rt></ruby>で<ruby class=\"furigana\">保管<rt>ほかん</rt></ruby>します"
+      },
+      {
+        "key": "B",
+        "text": "鶏肉(とりにく)を 10⁰Ｃ以下で保管(ほかん)します",
+        "html": "<ruby class=\"furigana\">鶏肉<rt>とりにく</rt></ruby>を 10⁰Ｃ以下で<ruby class=\"furigana\">保管<rt>ほかん</rt></ruby>します"
+      },
+      {
+        "key": "C",
+        "text": "乳(にゅう)を 15⁰Ｃ以下で保管(ほかん)します",
+        "html": "<ruby class=\"furigana\">乳<rt>にゅう</rt></ruby>を 15⁰Ｃ以下で<ruby class=\"furigana\">保管<rt>ほかん</rt></ruby>します"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 60,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_6",
+    "sourceNumber": 3,
+    "prompt": "原材料(げんざいりょう)の保管(ほかん)方法(ほうほう)について、間違っているものを選でください。",
+    "promptHtml": "<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby>の<ruby class=\"furigana\">保管<rt>ほかん</rt></ruby><ruby class=\"furigana\">方法<rt>ほうほう</rt></ruby>について、間違っているものを選でください。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "どこでも保管(ほかん)するとき別に構わない",
+        "html": "どこでも<ruby class=\"furigana\">保管<rt>ほかん</rt></ruby>するとき別に構わない"
+      },
+      {
+        "key": "B",
+        "text": "冷蔵庫(れいぞうこ)の場合(ばあい)は冷凍食品(れいとしょくひん)を8～9割(わり)詰(つ)めた方(ほう)が保管(ほかん)します",
+        "html": "<ruby class=\"furigana\">冷蔵庫<rt>れいぞうこ</rt></ruby>の<ruby class=\"furigana\">場合<rt>ばあい</rt></ruby>は<ruby class=\"furigana\">冷凍食品<rt>れいとしょくひん</rt></ruby>を8～9<ruby class=\"furigana\">割<rt>わり</rt></ruby><ruby class=\"furigana\">詰<rt>つ</rt></ruby>めた<ruby class=\"furigana\">方<rt>ほう</rt></ruby>が<ruby class=\"furigana\">保管<rt>ほかん</rt></ruby>します"
+      },
+      {
+        "key": "C",
+        "text": "原材料(げんざいりょう)の種類(しゅるい)によって保存(ほぞん)します",
+        "html": "<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby>の<ruby class=\"furigana\">種類<rt>しゅるい</rt></ruby>によって<ruby class=\"furigana\">保存<rt>ほぞん</rt></ruby>します"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 61,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_6",
+    "sourceNumber": 4,
+    "prompt": "10°C 度以下(いか)の温度(おんど)で保管(ほかん)される原材料(げんざいりょう)の種類(しゅるい)は何ですか、間違っているものを選びなさい。",
+    "promptHtml": "10°C <ruby class=\"furigana\">度以下<rt>いか</rt></ruby>の<ruby class=\"furigana\">温度<rt>おんど</rt></ruby>で<ruby class=\"furigana\">保管<rt>ほかん</rt></ruby>される<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby>の<ruby class=\"furigana\">種類<rt>しゅるい</rt></ruby>は何ですか、間違っているものを選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "食肉(しょくにく)や唐津(からつ)き卵(たまご)",
+        "html": "<ruby class=\"furigana\">食肉<rt>しょくにく</rt></ruby>や<ruby class=\"furigana\">唐津<rt>からつ</rt></ruby>き<ruby class=\"furigana\">卵<rt>たまご</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "生鮮果実(せいせんかじつ)やゆで卵(たまご)",
+        "html": "<ruby class=\"furigana\">生鮮果実<rt>せいせんかじつ</rt></ruby>やゆで<ruby class=\"furigana\">卵<rt>たまご</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "固形油脂(こけいゆし)や液状油脂(えきじょうゆし)",
+        "html": "<ruby class=\"furigana\">固形油脂<rt>こけいゆし</rt></ruby>や<ruby class=\"furigana\">液状油脂<rt>えきじょうゆし</rt></ruby>"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 62,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_6",
+    "sourceNumber": 5,
+    "prompt": "食品衛生法(しょくひんえいせいほう)では、冷凍庫(れいとうこ)の温度(おんど)は何ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">食品衛生法<rt>しょくひんえいせいほう</rt></ruby>では、<ruby class=\"furigana\">冷凍庫<rt>れいとうこ</rt></ruby>の<ruby class=\"furigana\">温度<rt>おんど</rt></ruby>は何ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "－15⁰Ｃ以下(いか)",
+        "html": "－15⁰Ｃ<ruby class=\"furigana\">以下<rt>いか</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "―10⁰Ｃ以上(いじょう)",
+        "html": "―10⁰Ｃ<ruby class=\"furigana\">以上<rt>いじょう</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "－4⁰Ｃ以下(いか)",
+        "html": "－4⁰Ｃ<ruby class=\"furigana\">以下<rt>いか</rt></ruby>"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 63,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_6",
+    "sourceNumber": 6,
+    "prompt": "未開封(みかいふう)の加工食品(かこうしょくひん)を、決(き)められた条件(じょうけん)で保存(ほぞん)した場合(ばあい)に、美味(おい)しく食べられる期間(きかん)の最後(さいご)の日(ひ)です.食べることはできますが、 食 品製造工 場(しょくひんせいぞうこうじょう) では、一般的(いっぱんてき)に食品(しょくひん)や原材料(げんざいりょう)は使(つか)いません。それは何の意味(いみ)ですか、 正しいものを一つ選びなさい",
+    "promptHtml": "<ruby class=\"furigana\">未開封<rt>みかいふう</rt></ruby>の<ruby class=\"furigana\">加工食品<rt>かこうしょくひん</rt></ruby>を、<ruby class=\"furigana\">決<rt>き</rt></ruby>められた<ruby class=\"furigana\">条件<rt>じょうけん</rt></ruby>で<ruby class=\"furigana\">保存<rt>ほぞん</rt></ruby>した<ruby class=\"furigana\">場合<rt>ばあい</rt></ruby>に、<ruby class=\"furigana\">美味<rt>おい</rt></ruby>しく食べられる<ruby class=\"furigana\">期間<rt>きかん</rt></ruby>の<ruby class=\"furigana\">最後<rt>さいご</rt></ruby>の<ruby class=\"furigana\">日<rt>ひ</rt></ruby>です.食べることはできますが、 食 品製造工 <ruby class=\"furigana\">場<rt>しょくひんせいぞうこうじょう</rt></ruby> では、<ruby class=\"furigana\">一般的<rt>いっぱんてき</rt></ruby>に<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>や<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby>は<ruby class=\"furigana\">使<rt>つか</rt></ruby>いません。それは何の<ruby class=\"furigana\">意味<rt>いみ</rt></ruby>ですか、 正しいものを一つ選びなさい",
+    "choices": [
+      {
+        "key": "A",
+        "text": "使用期限(しようきげん)",
+        "html": "<ruby class=\"furigana\">使用期限<rt>しようきげん</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "賞味期限(しょうみきげん)",
+        "html": "<ruby class=\"furigana\">賞味期限<rt>しょうみきげん</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "消費期限(しょうひきげん)",
+        "html": "<ruby class=\"furigana\">消費期限<rt>しょうひきげん</rt></ruby>"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 64,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_6",
+    "sourceNumber": 7,
+    "prompt": "開封(かいふう)した袋(ふくろ)や溶液(ようえき)の切(き)れ端(はし)が、食品(しょくひん)に混入(こんにゅう)しないようにするために何ををしますか、間違っているものを一つ選びんさい。",
+    "promptHtml": "<ruby class=\"furigana\">開封<rt>かいふう</rt></ruby>した<ruby class=\"furigana\">袋<rt>ふくろ</rt></ruby>や<ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>の<ruby class=\"furigana\">切<rt>き</rt></ruby>れ<ruby class=\"furigana\">端<rt>はし</rt></ruby>が、<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>に<ruby class=\"furigana\">混入<rt>こんにゅう</rt></ruby>しないようにするために何ををしますか、間違っているものを一つ選びんさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "切(き)れ口(くち)と切(き)れ端(はし)が合(あ)っていることを確認(かくにん)する",
+        "html": "<ruby class=\"furigana\">切<rt>き</rt></ruby>れ<ruby class=\"furigana\">口<rt>くち</rt></ruby>と<ruby class=\"furigana\">切<rt>き</rt></ruby>れ<ruby class=\"furigana\">端<rt>はし</rt></ruby>が<ruby class=\"furigana\">合<rt>あ</rt></ruby>っていることを<ruby class=\"furigana\">確認<rt>かくにん</rt></ruby>する"
+      },
+      {
+        "key": "B",
+        "text": "同(おな)じ場所(ばしょ)を2回(かい)以上(いじょう)切(き)る",
+        "html": "<ruby class=\"furigana\">同<rt>おな</rt></ruby>じ<ruby class=\"furigana\">場所<rt>ばしょ</rt></ruby>を2<ruby class=\"furigana\">回<rt>かい</rt></ruby><ruby class=\"furigana\">以上<rt>いじょう</rt></ruby><ruby class=\"furigana\">切<rt>き</rt></ruby>る"
+      },
+      {
+        "key": "C",
+        "text": "開封(かいふう)手袋(てぶくろ)や溶液(ようえき)の傷(きず)と切(き)れ端(はし)の数(かず)が同(おな)じであることを確認(かくにん)",
+        "html": "<ruby class=\"furigana\">開封<rt>かいふう</rt></ruby><ruby class=\"furigana\">手袋<rt>てぶくろ</rt></ruby>や<ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>の<ruby class=\"furigana\">傷<rt>きず</rt></ruby>と<ruby class=\"furigana\">切<rt>き</rt></ruby>れ<ruby class=\"furigana\">端<rt>はし</rt></ruby>の<ruby class=\"furigana\">数<rt>かず</rt></ruby>が<ruby class=\"furigana\">同<rt>おな</rt></ruby>じであることを<ruby class=\"furigana\">確認<rt>かくにん</rt></ruby>"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 65,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_6",
+    "sourceNumber": 8,
+    "prompt": "どうやって冷凍(れいとう)の原材料(げんざいりょう)を解凍(かいとう)しますか、正しいものを一つ選びなさい。",
+    "promptHtml": "どうやって<ruby class=\"furigana\">冷凍<rt>れいとう</rt></ruby>の<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby>を<ruby class=\"furigana\">解凍<rt>かいとう</rt></ruby>しますか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "自然解凍(しぜんかいとう)や冷蔵庫解凍(れいぞうこかいとう)、流水解凍(かいとう)",
+        "html": "<ruby class=\"furigana\">自然解凍<rt>しぜんかいとう</rt></ruby>や<ruby class=\"furigana\">冷蔵庫解凍<rt>れいぞうこかいとう</rt></ruby>、<ruby class=\"furigana\">流水解凍<rt>かいとう</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "冷蔵庫解凍(れいぞうこかいとう)や流水解凍(りゅうすいかいとう)や自分解凍(じぶんかいとう)",
+        "html": "<ruby class=\"furigana\">冷蔵庫解凍<rt>れいぞうこかいとう</rt></ruby>や<ruby class=\"furigana\">流水解凍<rt>りゅうすいかいとう</rt></ruby>や<ruby class=\"furigana\">自分解凍<rt>じぶんかいとう</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "自然解凍(しぜんかいとう)や冷水解凍(れいすいかいとう)や冷凍庫解凍(れいとうこかいとう)",
+        "html": "<ruby class=\"furigana\">自然解凍<rt>しぜんかいとう</rt></ruby>や<ruby class=\"furigana\">冷水解凍<rt>れいすいかいとう</rt></ruby>や<ruby class=\"furigana\">冷凍庫解凍<rt>れいとうこかいとう</rt></ruby>"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 66,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_6",
+    "sourceNumber": 9,
+    "prompt": "原材料(げんざいりょう)は適切(てきせつ)な濃度(のうど)の食塩水(しょくえんすい)で洗浄(せんじょう)することもある、何ですか。正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby>は<ruby class=\"furigana\">適切<rt>てきせつ</rt></ruby>な<ruby class=\"furigana\">濃度<rt>のうど</rt></ruby>の<ruby class=\"furigana\">食塩水<rt>しょくえんすい</rt></ruby>で<ruby class=\"furigana\">洗浄<rt>せんじょう</rt></ruby>することもある、何ですか。正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "コメ",
+        "html": "コメ"
+      },
+      {
+        "key": "B",
+        "text": "豆(まめ)",
+        "html": "<ruby class=\"furigana\">豆<rt>まめ</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "業界類(ぎょうかいるい)",
+        "html": "<ruby class=\"furigana\">業界類<rt>ぎょうかいるい</rt></ruby>"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 67,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_6",
+    "sourceNumber": 10,
+    "prompt": "濃度(のうどう)20％NACL 溶液(ようえき)があります、100ppm の NACL 溶液(ようえき)を3Ｌ作(つく)るときに、この溶液(ようえき)と水(みず)はそれぞれ何㎖ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">濃度<rt>のうどう</rt></ruby>20％NACL <ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>があります、100ppm の NACL <ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>を3Ｌ<ruby class=\"furigana\">作<rt>つく</rt></ruby>るときに、この<ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>と<ruby class=\"furigana\">水<rt>みず</rt></ruby>はそれぞれ何㎖ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "溶液 5ml、水 2995ml",
+        "html": "溶液 5ml、水 2995ml"
+      },
+      {
+        "key": "B",
+        "text": "溶液 10ml、水 2990ml",
+        "html": "溶液 10ml、水 2990ml"
+      },
+      {
+        "key": "C",
+        "text": "溶液 15ml、水 2985ml",
+        "html": "溶液 15ml、水 2985ml"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 68,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_7",
+    "sourceNumber": 1,
+    "prompt": "微生物(びせいぶつ)を殺(ころ)す加熱(かねつ)温度(おんど)と時間(じかん)について、正しいものを一つ選びなさい。ふんかんいじょう",
+    "promptHtml": "<ruby class=\"furigana\">微生物<rt>びせいぶつ</rt></ruby>を<ruby class=\"furigana\">殺<rt>ころ</rt></ruby>す<ruby class=\"furigana\">加熱<rt>かねつ</rt></ruby><ruby class=\"furigana\">温度<rt>おんど</rt></ruby>と<ruby class=\"furigana\">時間<rt>じかん</rt></ruby>について、正しいものを一つ選びなさい。ふんかんいじょう",
+    "choices": [
+      {
+        "key": "A",
+        "text": "サルモネラ菌(きん)、中心温度(ちゅうしんおんど)80⁰Ｃ－90⁰Ｃ、1 分 間 以 上びょうかんいじょう",
+        "html": "サルモネラ<ruby class=\"furigana\">菌<rt>きん</rt></ruby>、<ruby class=\"furigana\">中心温度<rt>ちゅうしんおんど</rt></ruby>80⁰Ｃ－90⁰Ｃ、1 分 間 以 上びょうかんいじょう"
+      },
+      {
+        "key": "B",
+        "text": "ノロウイルス、中心温度(ちゅうしんおんど)75⁰Ｃ、90 秒 間 以 上ふんかんいじょう",
+        "html": "ノロウイルス、<ruby class=\"furigana\">中心温度<rt>ちゅうしんおんど</rt></ruby>75⁰Ｃ、90 秒 間 以 上ふんかんいじょう"
+      },
+      {
+        "key": "C",
+        "text": "セレウス菌(きん)中心温度(ちゅうしんおんど)120⁰Ｃ、4 分 間 以 上",
+        "html": "セレウス<ruby class=\"furigana\">菌<rt>きん</rt></ruby><ruby class=\"furigana\">中心温度<rt>ちゅうしんおんど</rt></ruby>120⁰Ｃ、4 分 間 以 上"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 69,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_7",
+    "sourceNumber": 2,
+    "prompt": "なぜ加熱調理(かねつちょうり)を終(お)わった食品(しょくひん)はすぐに冷(ひ)やすことが重要(じゅうよう)ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "なぜ<ruby class=\"furigana\">加熱調理<rt>かねつちょうり</rt></ruby>を<ruby class=\"furigana\">終<rt>お</rt></ruby>わった<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>はすぐに<ruby class=\"furigana\">冷<rt>ひ</rt></ruby>やすことが<ruby class=\"furigana\">重要<rt>じゅうよう</rt></ruby>ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "食品(しょくひん)の中(なか)で食中毒菌(しょくちゅうどくきん)の原因(げんいん)が増(ふ)えない",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>の<ruby class=\"furigana\">中<rt>なか</rt></ruby>で<ruby class=\"furigana\">食中毒菌<rt>しょくちゅうどくきん</rt></ruby>の<ruby class=\"furigana\">原因<rt>げんいん</rt></ruby>が<ruby class=\"furigana\">増<rt>ふ</rt></ruby>えない"
+      },
+      {
+        "key": "B",
+        "text": "食品(しょくひん)の値段(ねだん)が高(たか)くなる",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>の<ruby class=\"furigana\">値段<rt>ねだん</rt></ruby>が<ruby class=\"furigana\">高<rt>たか</rt></ruby>くなる"
+      },
+      {
+        "key": "C",
+        "text": "冷凍庫(れいとうこ)の中身(なかみ)がいっぱいになるように",
+        "html": "<ruby class=\"furigana\">冷凍庫<rt>れいとうこ</rt></ruby>の<ruby class=\"furigana\">中身<rt>なかみ</rt></ruby>がいっぱいになるように"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 70,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_7",
+    "sourceNumber": 3,
+    "prompt": "サラダを作(つく)るためには野菜(やさい)が薬剤(やくざい)を使(つか)って病原性微生物(びょうげんせいびせいぶつ)を殺(ころ)すこともある、次亜塩素酸(じあえんそさん)ナトリウム溶液(ようえき)の濃度(のうどう)の使(つか)う方法(ほうほう)について、間違っているものを一つ選び。ふんかん",
+    "promptHtml": "サラダを<ruby class=\"furigana\">作<rt>つく</rt></ruby>るためには<ruby class=\"furigana\">野菜<rt>やさい</rt></ruby>が<ruby class=\"furigana\">薬剤<rt>やくざい</rt></ruby>を<ruby class=\"furigana\">使<rt>つか</rt></ruby>って<ruby class=\"furigana\">病原性微生物<rt>びょうげんせいびせいぶつ</rt></ruby>を<ruby class=\"furigana\">殺<rt>ころ</rt></ruby>すこともある、<ruby class=\"furigana\">次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウム<ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>の<ruby class=\"furigana\">濃度<rt>のうどう</rt></ruby>の<ruby class=\"furigana\">使<rt>つか</rt></ruby>う<ruby class=\"furigana\">方法<rt>ほうほう</rt></ruby>について、間違っているものを一つ選び。ふんかん",
+    "choices": [
+      {
+        "key": "A",
+        "text": "100ppm、10 分 間 処理(しょり)しますふんかん",
+        "html": "100ppm、10 分 間 <ruby class=\"furigana\">処理<rt>しょり</rt></ruby>しますふんかん"
+      },
+      {
+        "key": "B",
+        "text": "150ppm、15 分 間 処理(しょり)しますふんかん",
+        "html": "150ppm、15 分 間 <ruby class=\"furigana\">処理<rt>しょり</rt></ruby>しますふんかん"
+      },
+      {
+        "key": "C",
+        "text": "200ppm、5 分 間 処理(しょり)します",
+        "html": "200ppm、5 分 間 <ruby class=\"furigana\">処理<rt>しょり</rt></ruby>します"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 71,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_7",
+    "sourceNumber": 4,
+    "prompt": "食品(しょくひん)をゆっくり凍結(とけつ)させると何が変(か)わるですか、間違っているものを一つ選び。",
+    "promptHtml": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>をゆっくり<ruby class=\"furigana\">凍結<rt>とけつ</rt></ruby>させると何が<ruby class=\"furigana\">変<rt>か</rt></ruby>わるですか、間違っているものを一つ選び。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "食感(しょっかん)や意味(いみ)",
+        "html": "<ruby class=\"furigana\">食感<rt>しょっかん</rt></ruby>や<ruby class=\"furigana\">意味<rt>いみ</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "硬(かた)さや弾力(だんりょく)",
+        "html": "<ruby class=\"furigana\">硬<rt>かた</rt></ruby>さや<ruby class=\"furigana\">弾力<rt>だんりょく</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "弾力(だんりょく)や食感(しょっかん)",
+        "html": "<ruby class=\"furigana\">弾力<rt>だんりょく</rt></ruby>や<ruby class=\"furigana\">食感<rt>しょっかん</rt></ruby>"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 72,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_7",
+    "sourceNumber": 5,
+    "prompt": "金属探知機(きんぞくたんちき)は何を検出(けんしゅつ)するですか、間違っているものを一つ選び。",
+    "promptHtml": "<ruby class=\"furigana\">金属探知機<rt>きんぞくたんちき</rt></ruby>は何を<ruby class=\"furigana\">検出<rt>けんしゅつ</rt></ruby>するですか、間違っているものを一つ選び。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "鉄(てつ)",
+        "html": "<ruby class=\"furigana\">鉄<rt>てつ</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "紙(かみ)",
+        "html": "<ruby class=\"furigana\">紙<rt>かみ</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "銅(どう)",
+        "html": "<ruby class=\"furigana\">銅<rt>どう</rt></ruby>"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 73,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_7",
+    "sourceNumber": 6,
+    "prompt": "X 線異物検出機(せんいぶつけんしゅつき)は何を検出(けんしゅつ)するですか、間違っているものを一つ選び。",
+    "promptHtml": "X <ruby class=\"furigana\">線異物検出機<rt>せんいぶつけんしゅつき</rt></ruby>は何を<ruby class=\"furigana\">検出<rt>けんしゅつ</rt></ruby>するですか、間違っているものを一つ選び。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "小石(こいし)",
+        "html": "<ruby class=\"furigana\">小石<rt>こいし</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "ガラス",
+        "html": "ガラス"
+      },
+      {
+        "key": "C",
+        "text": "金属(きんぞく)さきい さきだ",
+        "html": "<ruby class=\"furigana\">金属<rt>きんぞく</rt></ruby>さきい さきだ"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 74,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_7",
+    "sourceNumber": 7,
+    "prompt": "「先 入れ、先 出し」はどいう意味(いみ)ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "「先 入れ、先 出し」はどいう<ruby class=\"furigana\">意味<rt>いみ</rt></ruby>ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "先(さき)に作(つく)る食品(しょくひん)後(あと)の売(う)る",
+        "html": "<ruby class=\"furigana\">先<rt>さき</rt></ruby>に<ruby class=\"furigana\">作<rt>つく</rt></ruby>る<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby><ruby class=\"furigana\">後<rt>あと</rt></ruby>の<ruby class=\"furigana\">売<rt>う</rt></ruby>る"
+      },
+      {
+        "key": "B",
+        "text": "先(さき)に出荷(しゅっか)する先(さき)に買(か)います",
+        "html": "<ruby class=\"furigana\">先<rt>さき</rt></ruby>に<ruby class=\"furigana\">出荷<rt>しゅっか</rt></ruby>する<ruby class=\"furigana\">先<rt>さき</rt></ruby>に<ruby class=\"furigana\">買<rt>か</rt></ruby>います"
+      },
+      {
+        "key": "C",
+        "text": "先(さき)に製品倉庫(せいひんそうこ)に入(い)れた食品(しょくひん)から先(さき)に出荷(しゅっか)する",
+        "html": "<ruby class=\"furigana\">先<rt>さき</rt></ruby>に<ruby class=\"furigana\">製品倉庫<rt>せいひんそうこ</rt></ruby>に<ruby class=\"furigana\">入<rt>い</rt></ruby>れた<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>から<ruby class=\"furigana\">先<rt>さき</rt></ruby>に<ruby class=\"furigana\">出荷<rt>しゅっか</rt></ruby>する"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 75,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_7",
+    "sourceNumber": 8,
+    "prompt": "HCCP の原則(げんそく)が何がありますか、正しいものを一つ選びなさい。",
+    "promptHtml": "HCCP の<ruby class=\"furigana\">原則<rt>げんそく</rt></ruby>が何がありますか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "7",
+        "html": "7"
+      },
+      {
+        "key": "B",
+        "text": "8",
+        "html": "8"
+      },
+      {
+        "key": "C",
+        "text": "9",
+        "html": "9"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 76,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_7",
+    "sourceNumber": 9,
+    "prompt": "濃度(のうど)2％NACL 溶液(ようえき)があります、200ppm の NACL 溶液(ようえき)を 1L を作(つく)るときに、この溶液(ようえき)と水(みず)はそれぞれ何㎖ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">濃度<rt>のうど</rt></ruby>2％NACL <ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>があります、200ppm の NACL <ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>を 1L を<ruby class=\"furigana\">作<rt>つく</rt></ruby>るときに、この<ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>と<ruby class=\"furigana\">水<rt>みず</rt></ruby>はそれぞれ何㎖ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "溶液(ようえき)5ml、水 995ml",
+        "html": "<ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>5ml、水 995ml"
+      },
+      {
+        "key": "B",
+        "text": "溶液(ようえき)10ml、水 990ml",
+        "html": "<ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>10ml、水 990ml"
+      },
+      {
+        "key": "C",
+        "text": "溶液(ようえき)15ml、水 985ml",
+        "html": "<ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>15ml、水 985ml"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 77,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_7",
+    "sourceNumber": 10,
+    "prompt": "500gr のうどん作(つく)るためには 300gr 小麦粉(こむぎこ)、10gr 塩(しお)、500ml 水(みず)を使(つか)う。20 ㎏のうどんを作(つく)るため、小麦粉(こむぎこ)が何㎏ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "500gr のうどん<ruby class=\"furigana\">作<rt>つく</rt></ruby>るためには 300gr <ruby class=\"furigana\">小麦粉<rt>こむぎこ</rt></ruby>、10gr <ruby class=\"furigana\">塩<rt>しお</rt></ruby>、500ml <ruby class=\"furigana\">水<rt>みず</rt></ruby>を<ruby class=\"furigana\">使<rt>つか</rt></ruby>う。20 ㎏のうどんを<ruby class=\"furigana\">作<rt>つく</rt></ruby>るため、<ruby class=\"furigana\">小麦粉<rt>こむぎこ</rt></ruby>が何㎏ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "10 ㎏",
+        "html": "10 ㎏"
+      },
+      {
+        "key": "B",
+        "text": "11 kg",
+        "html": "11 kg"
+      },
+      {
+        "key": "C",
+        "text": "12 kg",
+        "html": "12 kg"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 78,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_8",
+    "sourceNumber": 1,
+    "prompt": "食品(しょくひん)の中には危害要因(きがいよういん)含(ふく)まらないようにするため、一般衛生管理(いっぱんえいせいかんり)と重要管理点(じゅうようかんりてん)の管理(かんり)を監視(かんし)する、正しく実行(じっこう)されなかった場合(ばあい)がどうすればいいですか、間違っている一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>の中には<ruby class=\"furigana\">危害要因<rt>きがいよういん</rt></ruby><ruby class=\"furigana\">含<rt>ふく</rt></ruby>まらないようにするため、<ruby class=\"furigana\">一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>と<ruby class=\"furigana\">重要管理点<rt>じゅうようかんりてん</rt></ruby>の<ruby class=\"furigana\">管理<rt>かんり</rt></ruby>を<ruby class=\"furigana\">監視<rt>かんし</rt></ruby>する、正しく<ruby class=\"furigana\">実行<rt>じっこう</rt></ruby>されなかった<ruby class=\"furigana\">場合<rt>ばあい</rt></ruby>がどうすればいいですか、間違っている一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "その食品(しょくひん)が売(う)ってはいけない",
+        "html": "その<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>が<ruby class=\"furigana\">売<rt>う</rt></ruby>ってはいけない"
+      },
+      {
+        "key": "B",
+        "text": "その食品(しょくひん)を食(たべ)てしないといけない",
+        "html": "その<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を<ruby class=\"furigana\">食<rt>たべ</rt></ruby>てしないといけない"
+      },
+      {
+        "key": "C",
+        "text": "その食品(しょくひん)を出荷(しゅっか)させない",
+        "html": "その<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を<ruby class=\"furigana\">出荷<rt>しゅっか</rt></ruby>させない"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 79,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_8",
+    "sourceNumber": 2,
+    "prompt": "HCCP による7原則(げんそく)があります、間違っている一つ選びなさい。",
+    "promptHtml": "HCCP による7<ruby class=\"furigana\">原則<rt>げんそく</rt></ruby>があります、間違っている一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "危害要因分析(きがいよういんぶんせき)",
+        "html": "<ruby class=\"furigana\">危害要因分析<rt>きがいよういんぶんせき</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "禁止(きんし)",
+        "html": "<ruby class=\"furigana\">禁止<rt>きんし</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "検証方法(けんしょうほうほう)",
+        "html": "<ruby class=\"furigana\">検証方法<rt>けんしょうほうほう</rt></ruby>"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 80,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_8",
+    "sourceNumber": 3,
+    "prompt": "食品(しょくひん)を製造(せいぞう)する場合(ばあい)に重要管理点(じゅうようかんりてん)となる代表的(だいひょうてき)な工程(こうてい)は何ですか、間違っている一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を<ruby class=\"furigana\">製造<rt>せいぞう</rt></ruby>する<ruby class=\"furigana\">場合<rt>ばあい</rt></ruby>に<ruby class=\"furigana\">重要管理点<rt>じゅうようかんりてん</rt></ruby>となる<ruby class=\"furigana\">代表的<rt>だいひょうてき</rt></ruby>な<ruby class=\"furigana\">工程<rt>こうてい</rt></ruby>は何ですか、間違っている一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "加熱殺菌(かねつさっきん)",
+        "html": "<ruby class=\"furigana\">加熱殺菌<rt>かねつさっきん</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "金属探知機(きんぞくたんちき)",
+        "html": "<ruby class=\"furigana\">金属探知機<rt>きんぞくたんちき</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "野菜(やさい)による殺菌(さっきん)",
+        "html": "<ruby class=\"furigana\">野菜<rt>やさい</rt></ruby>による<ruby class=\"furigana\">殺菌<rt>さっきん</rt></ruby>"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 81,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_8",
+    "sourceNumber": 4,
+    "prompt": "管理基準(かんりきじゅん)からの逸脱(いつだつ)の例(れい)について、間違っている一つ選びなさい。ふんかん",
+    "promptHtml": "<ruby class=\"furigana\">管理基準<rt>かんりきじゅん</rt></ruby>からの<ruby class=\"furigana\">逸脱<rt>いつだつ</rt></ruby>の<ruby class=\"furigana\">例<rt>れい</rt></ruby>について、間違っている一つ選びなさい。ふんかん",
+    "choices": [
+      {
+        "key": "A",
+        "text": "食品(しょくひん)が加熱調理(かねつちょうり)を終(お)わった [60 分 間 ] 冷却(れふんかんいきゃく)すると決(き)めたのに、実際(じっさい)には [60 分 間 ]冷却(れいきゃく)するかんいじょう",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>が<ruby class=\"furigana\">加熱調理<rt>かねつちょうり</rt></ruby>を<ruby class=\"furigana\">終<rt>お</rt></ruby>わった [60 分 間 ] <ruby class=\"furigana\">冷却<rt>れふんかんいきゃく</rt></ruby>すると<ruby class=\"furigana\">決<rt>き</rt></ruby>めたのに、<ruby class=\"furigana\">実際<rt>じっさい</rt></ruby>には [60 分 間 ]<ruby class=\"furigana\">冷却<rt>れいきゃく</rt></ruby>するかんいじょう"
+      },
+      {
+        "key": "B",
+        "text": "中心温度(ちゅうしんおんど)を[120⁰Ｃで4分 間 以 上 ]加熱(かねつ)すると決(き)かんいじょうめたのに、実際(じっさい)には中心温度(ちゅうしんおんど)[100⁰Ｃで4分 間 以 上 ]加熱(かねつ)するふんかん",
+        "html": "<ruby class=\"furigana\">中心温度<rt>ちゅうしんおんど</rt></ruby>を[120⁰Ｃで4分 間 以 上 ]<ruby class=\"furigana\">加熱<rt>かねつ</rt></ruby>すると<ruby class=\"furigana\">決<rt>き</rt></ruby>かんいじょうめたのに、<ruby class=\"furigana\">実際<rt>じっさい</rt></ruby>には<ruby class=\"furigana\">中心温度<rt>ちゅうしんおんど</rt></ruby>[100⁰Ｃで4分 間 以 上 ]<ruby class=\"furigana\">加熱<rt>かねつ</rt></ruby>するふんかん"
+      },
+      {
+        "key": "C",
+        "text": "「100ppm の殺菌溶液(さっきんようえき)に 10 分 間 」つけて殺菌(さっきん)すると決(き)めたのに、実際(じっさい)には「100ppm の殺菌溶液(さっきんようえき)にふんかん5分 間」",
+        "html": "「100ppm の<ruby class=\"furigana\">殺菌溶液<rt>さっきんようえき</rt></ruby>に 10 分 間 」つけて<ruby class=\"furigana\">殺菌<rt>さっきん</rt></ruby>すると<ruby class=\"furigana\">決<rt>き</rt></ruby>めたのに、<ruby class=\"furigana\">実際<rt>じっさい</rt></ruby>には「100ppm の<ruby class=\"furigana\">殺菌溶液<rt>さっきんようえき</rt></ruby>にふんかん5分 間」"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 82,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_8",
+    "sourceNumber": 5,
+    "prompt": "職場(しょくば)で逸脱(いつだつ)が起(お)こるとき何をしなければなりますか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">職場<rt>しょくば</rt></ruby>で<ruby class=\"furigana\">逸脱<rt>いつだつ</rt></ruby>が<ruby class=\"furigana\">起<rt>お</rt></ruby>こるとき何をしなければなりますか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "作業場(さぎょうじょう)を離(はな)れる",
+        "html": "<ruby class=\"furigana\">作業場<rt>さぎょうじょう</rt></ruby>を<ruby class=\"furigana\">離<rt>はな</rt></ruby>れる"
+      },
+      {
+        "key": "B",
+        "text": "佐長(さちょう)に報告(ほうこく)する",
+        "html": "<ruby class=\"furigana\">佐長<rt>さちょう</rt></ruby>に<ruby class=\"furigana\">報告<rt>ほうこく</rt></ruby>する"
+      },
+      {
+        "key": "C",
+        "text": "管理者(かんりしゃ)に連絡(れんらく)する",
+        "html": "<ruby class=\"furigana\">管理者<rt>かんりしゃ</rt></ruby>に<ruby class=\"furigana\">連絡<rt>れんらく</rt></ruby>する"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 83,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_8",
+    "sourceNumber": 6,
+    "prompt": "記録(きろく)について、何をしなければならないか、間違っている一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">記録<rt>きろく</rt></ruby>について、何をしなければならないか、間違っている一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "確認(かくにん)したとき後(あと)でまとめて記録(きろく)する",
+        "html": "<ruby class=\"furigana\">確認<rt>かくにん</rt></ruby>したとき<ruby class=\"furigana\">後<rt>あと</rt></ruby>でまとめて<ruby class=\"furigana\">記録<rt>きろく</rt></ruby>する"
+      },
+      {
+        "key": "B",
+        "text": "事実(じじつ)でないこと絶対(ぜったい)に記録(きろく)してはいけない",
+        "html": "<ruby class=\"furigana\">事実<rt>じじつ</rt></ruby>でないこと<ruby class=\"furigana\">絶対<rt>ぜったい</rt></ruby>に<ruby class=\"furigana\">記録<rt>きろく</rt></ruby>してはいけない"
+      },
+      {
+        "key": "C",
+        "text": "確認(かくにん)してないのに記録(きろく)してはいけない",
+        "html": "<ruby class=\"furigana\">確認<rt>かくにん</rt></ruby>してないのに<ruby class=\"furigana\">記録<rt>きろく</rt></ruby>してはいけない"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 84,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_8",
+    "sourceNumber": 7,
+    "prompt": "食品工場(しょくひんこうじょう)で起(お)きる労働災害(ろうどうさいがい)は何が一番(いちばん)多(おお)いですか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">食品工場<rt>しょくひんこうじょう</rt></ruby>で<ruby class=\"furigana\">起<rt>お</rt></ruby>きる<ruby class=\"furigana\">労働災害<rt>ろうどうさいがい</rt></ruby>は何が<ruby class=\"furigana\">一番<rt>いちばん</rt></ruby><ruby class=\"furigana\">多<rt>おお</rt></ruby>いですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "死(し)ぬ",
+        "html": "<ruby class=\"furigana\">死<rt>し</rt></ruby>ぬ"
+      },
+      {
+        "key": "B",
+        "text": "転倒(てんとう)",
+        "html": "<ruby class=\"furigana\">転倒<rt>てんとう</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "はさまれ",
+        "html": "はさまれ"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 85,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_8",
+    "sourceNumber": 8,
+    "prompt": "労働災害(ろうどうさいがい)を無(な)くすためには何をしなければいけませんか、間違っている一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">労働災害<rt>ろうどうさいがい</rt></ruby>を<ruby class=\"furigana\">無<rt>な</rt></ruby>くすためには何をしなければいけませんか、間違っている一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "決(き)まったルールを守(まも)る",
+        "html": "<ruby class=\"furigana\">決<rt>き</rt></ruby>まったルールを<ruby class=\"furigana\">守<rt>まも</rt></ruby>る"
+      },
+      {
+        "key": "B",
+        "text": "担当者(たんとうしゃ)の指示(しじ)に従(したが)います",
+        "html": "<ruby class=\"furigana\">担当者<rt>たんとうしゃ</rt></ruby>の<ruby class=\"furigana\">指示<rt>しじ</rt></ruby>に<ruby class=\"furigana\">従<rt>したが</rt></ruby>います"
+      },
+      {
+        "key": "C",
+        "text": "作業手順書(さぎょうてじゅんしょ)を読(よ)まない",
+        "html": "<ruby class=\"furigana\">作業手順書<rt>さぎょうてじゅんしょ</rt></ruby>を<ruby class=\"furigana\">読<rt>よ</rt></ruby>まない"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 86,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_8",
+    "sourceNumber": 9,
+    "prompt": "やけど防止(ぼうし)するため何を着用(ちゃくよう)しなければいけませんか、間違っている一つ選びなさい。",
+    "promptHtml": "やけど<ruby class=\"furigana\">防止<rt>ぼうし</rt></ruby>するため何を<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>しなければいけませんか、間違っている一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "ゴミ手袋(てぶくろ)",
+        "html": "ゴミ<ruby class=\"furigana\">手袋<rt>てぶくろ</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "耐熱(たいねつ)エプロン",
+        "html": "<ruby class=\"furigana\">耐熱<rt>たいねつ</rt></ruby>エプロン"
+      },
+      {
+        "key": "C",
+        "text": "ミトン手袋(てぶくろ)",
+        "html": "ミトン<ruby class=\"furigana\">手袋<rt>てぶくろ</rt></ruby>"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 87,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_8",
+    "sourceNumber": 10,
+    "prompt": "ヘルメットの着用(ちゃくよう)について、どのような条件(じょうけん)で着用(ちゃくよう)すればいいですか、間違っている一つ選びなさい。",
+    "promptHtml": "ヘルメットの<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>について、どのような<ruby class=\"furigana\">条件<rt>じょうけん</rt></ruby>で<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>すればいいですか、間違っている一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "高所作業(こうしょさぎょう)のとき",
+        "html": "<ruby class=\"furigana\">高所作業<rt>こうしょさぎょう</rt></ruby>のとき"
+      },
+      {
+        "key": "B",
+        "text": "5 メートルのところで作業(さぎょう)するとき",
+        "html": "5 メートルのところで<ruby class=\"furigana\">作業<rt>さぎょう</rt></ruby>するとき"
+      },
+      {
+        "key": "C",
+        "text": "包装固定(ほうそうこてい)に作業(さぎょう)するとき",
+        "html": "<ruby class=\"furigana\">包装固定<rt>ほうそうこてい</rt></ruby>に<ruby class=\"furigana\">作業<rt>さぎょう</rt></ruby>するとき"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 88,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_9",
+    "sourceNumber": 1,
+    "prompt": "微粉(びふん)を取(とり)扱(あつか)うとき何を着用(ちゃくよう)しなければなりませんか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">微粉<rt>びふん</rt></ruby>を<ruby class=\"furigana\">取<rt>とり</rt></ruby><ruby class=\"furigana\">扱<rt>あつか</rt></ruby>うとき何を<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>しなければなりませんか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "耳栓(みみせん)",
+        "html": "<ruby class=\"furigana\">耳栓<rt>みみせん</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "カバー付(つ)き長靴(ながぐつ)",
+        "html": "カバー<ruby class=\"furigana\">付<rt>つ</rt></ruby>き<ruby class=\"furigana\">長靴<rt>ながぐつ</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "保護(ほご)メガネ",
+        "html": "<ruby class=\"furigana\">保護<rt>ほご</rt></ruby>メガネ"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 89,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_9",
+    "sourceNumber": 2,
+    "prompt": "かぼちゃを切(き)るとき何を着用(ちゃくよう)しなければなりませんか、正しいものを一つ選びなさい。",
+    "promptHtml": "かぼちゃを<ruby class=\"furigana\">切<rt>き</rt></ruby>るとき何を<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>しなければなりませんか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "ヘルメット",
+        "html": "ヘルメット"
+      },
+      {
+        "key": "B",
+        "text": "くさり手袋(てぶくろ)",
+        "html": "くさり<ruby class=\"furigana\">手袋<rt>てぶくろ</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "エプロン",
+        "html": "エプロン"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 90,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_9",
+    "sourceNumber": 3,
+    "prompt": "職場(しょくば)に労働災害(ろうどうさいがい)を防止(ぼうし)するために、作業手順書(さぎょうてじゅんしょ)を守らなければなりません、間違っている一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">職場<rt>しょくば</rt></ruby>に<ruby class=\"furigana\">労働災害<rt>ろうどうさいがい</rt></ruby>を<ruby class=\"furigana\">防止<rt>ぼうし</rt></ruby>するために、<ruby class=\"furigana\">作業手順書<rt>さぎょうてじゅんしょ</rt></ruby>を守らなければなりません、間違っている一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "コンベアの下(した)をくぐらない",
+        "html": "コンベアの<ruby class=\"furigana\">下<rt>した</rt></ruby>をくぐらない"
+      },
+      {
+        "key": "B",
+        "text": "決(き)められた通路(つうろ)を歩(ある)いて",
+        "html": "<ruby class=\"furigana\">決<rt>き</rt></ruby>められた<ruby class=\"furigana\">通路<rt>つうろ</rt></ruby>を<ruby class=\"furigana\">歩<rt>ある</rt></ruby>いて"
+      },
+      {
+        "key": "C",
+        "text": "職場(しょくば)で走(はし)らないといけない",
+        "html": "<ruby class=\"furigana\">職場<rt>しょくば</rt></ruby>で<ruby class=\"furigana\">走<rt>はし</rt></ruby>らないといけない"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 91,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_9",
+    "sourceNumber": 4,
+    "prompt": "作業(さぎょう)するときのルールについて、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">作業<rt>さぎょう</rt></ruby>するときのルールについて、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "指差呼称(しさこしょう)をする",
+        "html": "<ruby class=\"furigana\">指差呼称<rt>しさこしょう</rt></ruby>をする"
+      },
+      {
+        "key": "B",
+        "text": "他(ほかの)の人が危険(きけん)を見(み)たら、音(おと)をかけて注意(ちゅうい)する",
+        "html": "<ruby class=\"furigana\">他<rt>ほかの</rt></ruby>の人が<ruby class=\"furigana\">危険<rt>きけん</rt></ruby>を<ruby class=\"furigana\">見<rt>み</rt></ruby>たら、<ruby class=\"furigana\">音<rt>おと</rt></ruby>をかけて<ruby class=\"furigana\">注意<rt>ちゅうい</rt></ruby>する"
+      },
+      {
+        "key": "C",
+        "text": "ムダ話(ばなし)をするで作業(さぎょう)する",
+        "html": "ムダ<ruby class=\"furigana\">話<rt>ばなし</rt></ruby>をするで<ruby class=\"furigana\">作業<rt>さぎょう</rt></ruby>する"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 92,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_9",
+    "sourceNumber": 5,
+    "prompt": "仕事中(しごとちゅう)にけがや労働災害(ろうどうさいがい)をしないように、何を守(まも)らなければなりませんか、間違っている一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">仕事中<rt>しごとちゅう</rt></ruby>にけがや<ruby class=\"furigana\">労働災害<rt>ろうどうさいがい</rt></ruby>をしないように、何を<ruby class=\"furigana\">守<rt>まも</rt></ruby>らなければなりませんか、間違っている一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "マニュアル",
+        "html": "マニュアル"
+      },
+      {
+        "key": "B",
+        "text": "安全標識(あんぜんひょうしき)",
+        "html": "<ruby class=\"furigana\">安全標識<rt>あんぜんひょうしき</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "同僚(どうりょう)の指示(しじ)を従(した)います",
+        "html": "<ruby class=\"furigana\">同僚<rt>どうりょう</rt></ruby>の<ruby class=\"furigana\">指示<rt>しじ</rt></ruby>を<ruby class=\"furigana\">従<rt>した</rt></ruby>います"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 93,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_9",
+    "sourceNumber": 9,
+    "prompt": "始業前点検(しぎょうまえてんけん)を行(おこな)うについて、間違っている一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">始業前点検<rt>しぎょうまえてんけん</rt></ruby>を<ruby class=\"furigana\">行<rt>おこな</rt></ruby>うについて、間違っている一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "カッターやスライサーの刃(は)がかけていないか",
+        "html": "カッターやスライサーの<ruby class=\"furigana\">刃<rt>は</rt></ruby>がかけていないか"
+      },
+      {
+        "key": "B",
+        "text": "足(た)りない部品(ぶひん)はないか",
+        "html": "<ruby class=\"furigana\">足<rt>た</rt></ruby>りない<ruby class=\"furigana\">部品<rt>ぶひん</rt></ruby>はないか"
+      },
+      {
+        "key": "C",
+        "text": "値段(ねだん)が高(たか)いか",
+        "html": "<ruby class=\"furigana\">値段<rt>ねだん</rt></ruby>が<ruby class=\"furigana\">高<rt>たか</rt></ruby>いか"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 94,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "LATIAN_SOAL_9",
+    "sourceNumber": 10,
+    "prompt": "機会(きかい)がトラブルで停止(ていし)したときは、トラブルを取(と)り除(のぞ)く必要(ひつよう)があります、異常時(いじょうじ)のとき何の対応(たいおう)をすればいいですか、間違っている一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">機会<rt>きかい</rt></ruby>がトラブルで<ruby class=\"furigana\">停止<rt>ていし</rt></ruby>したときは、トラブルを<ruby class=\"furigana\">取<rt>と</rt></ruby>り<ruby class=\"furigana\">除<rt>のぞ</rt></ruby>く<ruby class=\"furigana\">必要<rt>ひつよう</rt></ruby>があります、<ruby class=\"furigana\">異常時<rt>いじょうじ</rt></ruby>のとき何の<ruby class=\"furigana\">対応<rt>たいおう</rt></ruby>をすればいいですか、間違っている一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "修理(しゅうり)するとき電源(でんげん)のスイッチが入(はい)っている",
+        "html": "<ruby class=\"furigana\">修理<rt>しゅうり</rt></ruby>するとき<ruby class=\"furigana\">電源<rt>でんげん</rt></ruby>のスイッチが<ruby class=\"furigana\">入<rt>はい</rt></ruby>っている"
+      },
+      {
+        "key": "B",
+        "text": "非常停止(ひじょうていし)ボタンを使(つか)う",
+        "html": "<ruby class=\"furigana\">非常停止<rt>ひじょうていし</rt></ruby>ボタンを<ruby class=\"furigana\">使<rt>つか</rt></ruby>う"
+      },
+      {
+        "key": "C",
+        "text": "運転中(うんてんちゅう)の状態(じょうたい)で手(て)を入(い)れない",
+        "html": "<ruby class=\"furigana\">運転中<rt>うんてんちゅう</rt></ruby>の<ruby class=\"furigana\">状態<rt>じょうたい</rt></ruby>で<ruby class=\"furigana\">手<rt>て</rt></ruby>を<ruby class=\"furigana\">入<rt>い</rt></ruby>れない"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 95,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_1",
+    "sourceNumber": 1,
+    "prompt": "飲料 ( いんりょう) や 食料品 (しょくりょうひん) を工場(こうじょう)で製造(せいぞう)する 仕事(しごと)です. それはどういう意味(いみ)ですか、正しい(ただしい)ものを一つえらびなさい.",
+    "promptHtml": "<ruby class=\"furigana\">飲料<rt>いんりょう</rt></ruby> や <ruby class=\"furigana\">食料品<rt>しょくりょうひん</rt></ruby> を<ruby class=\"furigana\">工場<rt>こうじょう</rt></ruby>で<ruby class=\"furigana\">製造<rt>せいぞう</rt></ruby>する <ruby class=\"furigana\">仕事<rt>しごと</rt></ruby>です. それはどういう<ruby class=\"furigana\">意味<rt>いみ</rt></ruby>ですか、<ruby class=\"furigana\">正しい<rt>ただしい</rt></ruby>ものを一つえらびなさい.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "飲食料品製造業(いんしょくりょうひんせいぞうぎょう)",
+        "html": "<ruby class=\"furigana\">飲食料品製造業<rt>いんしょくりょうひんせいぞうぎょう</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "動物食料品製造業(どうぶつしょくりょうひんせいぞうぎょう)",
+        "html": "<ruby class=\"furigana\">動物食料品製造業<rt>どうぶつしょくりょうひんせいぞうぎょう</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "野菜食品製造業(やさいしょくひんせいぞうぎょう)",
+        "html": "<ruby class=\"furigana\">野菜食品製造業<rt>やさいしょくひんせいぞうぎょう</rt></ruby>"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 96,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_1",
+    "sourceNumber": 2,
+    "prompt": "化学物質(かがくぶっしつ)の危険性(きけんしょう)の要因(げんいん)となる化学的危害要因(かがくてききがいよういん)は何ですか。間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">化学物質<rt>かがくぶっしつ</rt></ruby>の<ruby class=\"furigana\">危険性<rt>きけんしょう</rt></ruby>の<ruby class=\"furigana\">要因<rt>げんいん</rt></ruby>となる<ruby class=\"furigana\">化学的危害要因<rt>かがくてききがいよういん</rt></ruby>は何ですか。間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "アレルギー物質(ぶっしつ)",
+        "html": "アレルギー<ruby class=\"furigana\">物質<rt>ぶっしつ</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "硬質異物(こうしついぶつ)",
+        "html": "<ruby class=\"furigana\">硬質異物<rt>こうしついぶつ</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "ヒスタミナ",
+        "html": "ヒスタミナ"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 97,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_1",
+    "sourceNumber": 3,
+    "prompt": "カンピロバクター属菌(ぞくきん)の主(おも)な症状(しょうじょう)について、正しいものを一つ選びなさい。",
+    "promptHtml": "カンピロバクター<ruby class=\"furigana\">属菌<rt>ぞくきん</rt></ruby>の<ruby class=\"furigana\">主<rt>おも</rt></ruby>な<ruby class=\"furigana\">症状<rt>しょうじょう</rt></ruby>について、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "発熱(はつねつ)、下痢(げり)、腹痛(ふくつう)",
+        "html": "<ruby class=\"furigana\">発熱<rt>はつねつ</rt></ruby>、<ruby class=\"furigana\">下痢<rt>げり</rt></ruby>、<ruby class=\"furigana\">腹痛<rt>ふくつう</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "頭痛(ずつ)、おう吐(と)、発熱(はつねつ)",
+        "html": "<ruby class=\"furigana\">頭痛<rt>ずつ</rt></ruby>、おう<ruby class=\"furigana\">吐<rt>と</rt></ruby>、<ruby class=\"furigana\">発熱<rt>はつねつ</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "吐気(はきけ)、腹痛(ふくつう)、下痢(げり)",
+        "html": "<ruby class=\"furigana\">吐気<rt>はきけ</rt></ruby>、<ruby class=\"furigana\">腹痛<rt>ふくつう</rt></ruby>、<ruby class=\"furigana\">下痢<rt>げり</rt></ruby>"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 98,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_1",
+    "sourceNumber": 4,
+    "prompt": "調理(ちょうり)使(つか)った機械(きかい)や器具(きぐ)は、洗浄(せんじょう)した後(あと)に次亜塩素酸(じあえんそさん)ナトリウムをつける、溶液(ようえき)濃度(のうど)について、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">調理<rt>ちょうり</rt></ruby><ruby class=\"furigana\">使<rt>つか</rt></ruby>った<ruby class=\"furigana\">機械<rt>きかい</rt></ruby>や<ruby class=\"furigana\">器具<rt>きぐ</rt></ruby>は、<ruby class=\"furigana\">洗浄<rt>せんじょう</rt></ruby>した<ruby class=\"furigana\">後<rt>あと</rt></ruby>に<ruby class=\"furigana\">次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウムをつける、<ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby><ruby class=\"furigana\">濃度<rt>のうど</rt></ruby>について、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "200ppm 次亜塩素酸(じあえんそさん)ナトリウムをつける",
+        "html": "200ppm <ruby class=\"furigana\">次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウムをつける"
+      },
+      {
+        "key": "B",
+        "text": "250ppm 次亜塩素酸(じあえんそさん)ナトリウムをつける",
+        "html": "250ppm <ruby class=\"furigana\">次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウムをつける"
+      },
+      {
+        "key": "C",
+        "text": "300ppm 次亜塩素酸(じあえんそさん)ナトリウムをつける",
+        "html": "300ppm <ruby class=\"furigana\">次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウムをつける"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 99,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_1",
+    "sourceNumber": 6,
+    "prompt": "一般衛生管理(いっぱんえいせいかんり)は4つの点(てん)があります、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>は4つの<ruby class=\"furigana\">点<rt>てん</rt></ruby>があります、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5S 活動(かつどう)",
+        "html": "5S <ruby class=\"furigana\">活動<rt>かつどう</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "原材料(げんざいりょう)・食品(しょくひん)の衛生管理(えいせいかんり)を説明(せつめい)します",
+        "html": "<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby>・<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>の<ruby class=\"furigana\">衛生管理<rt>えいせいかんり</rt></ruby>を<ruby class=\"furigana\">説明<rt>せつめい</rt></ruby>します"
+      },
+      {
+        "key": "C",
+        "text": "スーパーの衛生管理(えいせいかんり)",
+        "html": "スーパーの<ruby class=\"furigana\">衛生管理<rt>えいせいかんり</rt></ruby>"
+      },
+      {
+        "key": "D",
+        "text": "作業者(さぎょうしゃ)の衛生管理(えいせいかんり)",
+        "html": "<ruby class=\"furigana\">作業者<rt>さぎょうしゃ</rt></ruby>の<ruby class=\"furigana\">衛生管理<rt>えいせいかんり</rt></ruby>"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 100,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_1",
+    "sourceNumber": 7,
+    "prompt": "食品衛生(しょくひんえいせい)とはなんですか、正しいものを一つ選びなさい",
+    "promptHtml": "<ruby class=\"furigana\">食品衛生<rt>しょくひんえいせい</rt></ruby>とはなんですか、正しいものを一つ選びなさい",
+    "choices": [
+      {
+        "key": "A",
+        "text": "食品(しょくひん)を食べて、人が病気(びょうき)になること、ケガをしないこと",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を食べて、人が<ruby class=\"furigana\">病気<rt>びょうき</rt></ruby>になること、ケガをしないこと"
+      },
+      {
+        "key": "B",
+        "text": "食品(しょくひん)を食べない、人が病気(びょうき)にならないこと、ケガをしないことです",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を食べない、人が<ruby class=\"furigana\">病気<rt>びょうき</rt></ruby>にならないこと、ケガをしないことです"
+      },
+      {
+        "key": "C",
+        "text": "食品(しょくひん)を食べて、人が病気(びょうき)にならないこと、ケガをしないことです",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を食べて、人が<ruby class=\"furigana\">病気<rt>びょうき</rt></ruby>にならないこと、ケガをしないことです"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 101,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_1",
+    "sourceNumber": 8,
+    "prompt": "職場(しょくば)に持(も)ち込(こ)んではいけない物(もの)、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">職場<rt>しょくば</rt></ruby>に<ruby class=\"furigana\">持<rt>も</rt></ruby>ち<ruby class=\"furigana\">込<rt>こ</rt></ruby>んではいけない<ruby class=\"furigana\">物<rt>もの</rt></ruby>、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "スマートフォン",
+        "html": "スマートフォン"
+      },
+      {
+        "key": "B",
+        "text": "メモ帳(ちょう)",
+        "html": "メモ<ruby class=\"furigana\">帳<rt>ちょう</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "ほごうめがね",
+        "html": "ほごうめがね"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 102,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_1",
+    "sourceNumber": 9,
+    "prompt": "濃度(のうどう)20％NACL 溶液(ようえき)があります、100ppm の NACL 溶液(ようえき)を3Ｌ作(つく)るときに、この溶液(ようえき)と水(みず)はそれぞれ何㎖ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">濃度<rt>のうどう</rt></ruby>20％NACL <ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>があります、100ppm の NACL <ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>を3Ｌ<ruby class=\"furigana\">作<rt>つく</rt></ruby>るときに、この<ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>と<ruby class=\"furigana\">水<rt>みず</rt></ruby>はそれぞれ何㎖ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "溶液 5ml、水 2995ml",
+        "html": "溶液 5ml、水 2995ml"
+      },
+      {
+        "key": "B",
+        "text": "溶液 10ml、水 2990ml",
+        "html": "溶液 10ml、水 2990ml"
+      },
+      {
+        "key": "C",
+        "text": "溶液 15ml、水 2985ml",
+        "html": "溶液 15ml、水 2985ml"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 103,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_1",
+    "sourceNumber": 10,
+    "prompt": "一般衛生管理(いっぱんえいせいかんり)には手洗(てあら)いが一つ大切(たいせつ)です、手洗(てあら)いがいつでも行(おこな)うですか、間違っている選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>には<ruby class=\"furigana\">手洗<rt>てあら</rt></ruby>いが一つ<ruby class=\"furigana\">大切<rt>たいせつ</rt></ruby>です、<ruby class=\"furigana\">手洗<rt>てあら</rt></ruby>いがいつでも<ruby class=\"furigana\">行<rt>おこな</rt></ruby>うですか、間違っている選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "職場(しょくば)で作業(さぎょう)を始(はじ)める直前(ちょくぜん)",
+        "html": "<ruby class=\"furigana\">職場<rt>しょくば</rt></ruby>で<ruby class=\"furigana\">作業<rt>さぎょう</rt></ruby>を<ruby class=\"furigana\">始<rt>はじ</rt></ruby>める<ruby class=\"furigana\">直前<rt>ちょくぜん</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "食品(しょくひん)に直接(ちょくせつ)触(ふ)れる作業(さぎょう)をする前(まえ)",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>に<ruby class=\"furigana\">直接<rt>ちょくせつ</rt></ruby><ruby class=\"furigana\">触<rt>ふ</rt></ruby>れる<ruby class=\"furigana\">作業<rt>さぎょう</rt></ruby>をする<ruby class=\"furigana\">前<rt>まえ</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "清潔作業区域(せいけつさぎょうくいき)から非汚染作業区域(ひおせんさぎょうくいき)に移動(いどう)するとき",
+        "html": "<ruby class=\"furigana\">清潔作業区域<rt>せいけつさぎょうくいき</rt></ruby>から<ruby class=\"furigana\">非汚染作業区域<rt>ひおせんさぎょうくいき</rt></ruby>に<ruby class=\"furigana\">移動<rt>いどう</rt></ruby>するとき"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 104,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_1",
+    "sourceNumber": 11,
+    "prompt": "X 線異物検出機(せんいぶつけんしゅつき)は何を検出(けんしゅつ)するですか、間違っているものを一つ選び。",
+    "promptHtml": "X <ruby class=\"furigana\">線異物検出機<rt>せんいぶつけんしゅつき</rt></ruby>は何を<ruby class=\"furigana\">検出<rt>けんしゅつ</rt></ruby>するですか、間違っているものを一つ選び。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "小石(こいし)",
+        "html": "<ruby class=\"furigana\">小石<rt>こいし</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "ガラス",
+        "html": "ガラス"
+      },
+      {
+        "key": "C",
+        "text": "鉄(てつ)",
+        "html": "<ruby class=\"furigana\">鉄<rt>てつ</rt></ruby>"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 105,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_1",
+    "sourceNumber": 12,
+    "prompt": "500gr のうどん作(つく)るためには 300gr 小麦粉(こむぎこ)、10gr 塩(しお)、500ml 水(みず)を使(つか)う。20 ㎏のうどんを作(つく)るため、小麦粉(こむぎこ)が何㎏ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "500gr のうどん<ruby class=\"furigana\">作<rt>つく</rt></ruby>るためには 300gr <ruby class=\"furigana\">小麦粉<rt>こむぎこ</rt></ruby>、10gr <ruby class=\"furigana\">塩<rt>しお</rt></ruby>、500ml <ruby class=\"furigana\">水<rt>みず</rt></ruby>を<ruby class=\"furigana\">使<rt>つか</rt></ruby>う。20 ㎏のうどんを<ruby class=\"furigana\">作<rt>つく</rt></ruby>るため、<ruby class=\"furigana\">小麦粉<rt>こむぎこ</rt></ruby>が何㎏ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "10 ㎏",
+        "html": "10 ㎏"
+      },
+      {
+        "key": "B",
+        "text": "11 kg",
+        "html": "11 kg"
+      },
+      {
+        "key": "C",
+        "text": "12 kg",
+        "html": "12 kg"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 106,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_1",
+    "sourceNumber": 13,
+    "prompt": "管理基準(かんりきじゅん)からの逸脱(いつだつ)の例(れい)について、間違っている一つ選びなさい。ふんかん",
+    "promptHtml": "<ruby class=\"furigana\">管理基準<rt>かんりきじゅん</rt></ruby>からの<ruby class=\"furigana\">逸脱<rt>いつだつ</rt></ruby>の<ruby class=\"furigana\">例<rt>れい</rt></ruby>について、間違っている一つ選びなさい。ふんかん",
+    "choices": [
+      {
+        "key": "A",
+        "text": "食品(しょくひん)が加熱調理(かねつちょうり)を終(お)わった [60 分 間 ] 冷却(れいきふんかんゃく)すると決(き)めたのに、実際(じっさい)には [60 分 間 ]冷却(れいきゃく)するかんいじょう",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>が<ruby class=\"furigana\">加熱調理<rt>かねつちょうり</rt></ruby>を<ruby class=\"furigana\">終<rt>お</rt></ruby>わった [60 分 間 ] <ruby class=\"furigana\">冷却<rt>れいきふんかんゃく</rt></ruby>すると<ruby class=\"furigana\">決<rt>き</rt></ruby>めたのに、<ruby class=\"furigana\">実際<rt>じっさい</rt></ruby>には [60 分 間 ]<ruby class=\"furigana\">冷却<rt>れいきゃく</rt></ruby>するかんいじょう"
+      },
+      {
+        "key": "B",
+        "text": "中心温度(ちゅうしんおんど)を[120⁰Ｃで4分 間 以 上 ]加熱(かねつ)すると決(き)めたかんいじょうのに、実際(じっさい)には中心温度(ちゅうしんおんど)[100⁰Ｃで4分 間 以 上 ]加熱(かねつ)するふんかん",
+        "html": "<ruby class=\"furigana\">中心温度<rt>ちゅうしんおんど</rt></ruby>を[120⁰Ｃで4分 間 以 上 ]<ruby class=\"furigana\">加熱<rt>かねつ</rt></ruby>すると<ruby class=\"furigana\">決<rt>き</rt></ruby>めたかんいじょうのに、<ruby class=\"furigana\">実際<rt>じっさい</rt></ruby>には<ruby class=\"furigana\">中心温度<rt>ちゅうしんおんど</rt></ruby>[100⁰Ｃで4分 間 以 上 ]<ruby class=\"furigana\">加熱<rt>かねつ</rt></ruby>するふんかん"
+      },
+      {
+        "key": "C",
+        "text": "「100ppm の殺菌溶液(さっきんようえき)に 10 分 間 」つけて殺菌(さっきん)すると決(き)めたのに、実際(じっさい)には「100ppm の殺菌溶液(さっきんようえき)に5ふんかん分 間」",
+        "html": "「100ppm の<ruby class=\"furigana\">殺菌溶液<rt>さっきんようえき</rt></ruby>に 10 分 間 」つけて<ruby class=\"furigana\">殺菌<rt>さっきん</rt></ruby>すると<ruby class=\"furigana\">決<rt>き</rt></ruby>めたのに、<ruby class=\"furigana\">実際<rt>じっさい</rt></ruby>には「100ppm の<ruby class=\"furigana\">殺菌溶液<rt>さっきんようえき</rt></ruby>に5ふんかん分 間」"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 107,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_1",
+    "sourceNumber": 14,
+    "prompt": "次(つぎ)の安全標識(あんぜんひょうしき)は何を知(し)らせですか、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">次<rt>つぎ</rt></ruby>の<ruby class=\"furigana\">安全標識<rt>あんぜんひょうしき</rt></ruby>は何を<ruby class=\"furigana\">知<rt>し</rt></ruby>らせですか、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "入(い)り口(ぐち)の場所(ばしょ)を知(し)らせる",
+        "html": "<ruby class=\"furigana\">入<rt>い</rt></ruby>り<ruby class=\"furigana\">口<rt>ぐち</rt></ruby>の<ruby class=\"furigana\">場所<rt>ばしょ</rt></ruby>を<ruby class=\"furigana\">知<rt>し</rt></ruby>らせる"
+      },
+      {
+        "key": "B",
+        "text": "危険(きけん)があれば、出口(でぐち)の場所(ばしょ)を知(し)らせる",
+        "html": "<ruby class=\"furigana\">危険<rt>きけん</rt></ruby>があれば、<ruby class=\"furigana\">出口<rt>でぐち</rt></ruby>の<ruby class=\"furigana\">場所<rt>ばしょ</rt></ruby>を<ruby class=\"furigana\">知<rt>し</rt></ruby>らせる"
+      },
+      {
+        "key": "C",
+        "text": "非常口(ひじょうぐち)の場所(ばしょ)を知(し)らせる",
+        "html": "<ruby class=\"furigana\">非常口<rt>ひじょうぐち</rt></ruby>の<ruby class=\"furigana\">場所<rt>ばしょ</rt></ruby>を<ruby class=\"furigana\">知<rt>し</rt></ruby>らせる"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 108,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_1",
+    "sourceNumber": 15,
+    "prompt": "HCCP による7原則(げんそく)があります、間違っている一つ選びなさい。",
+    "promptHtml": "HCCP による7<ruby class=\"furigana\">原則<rt>げんそく</rt></ruby>があります、間違っている一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "危害要因分析(きがいよういんぶんせき)",
+        "html": "<ruby class=\"furigana\">危害要因分析<rt>きがいよういんぶんせき</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "禁止(きんし)",
+        "html": "<ruby class=\"furigana\">禁止<rt>きんし</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "検証方法(けんしょうほうほう)",
+        "html": "<ruby class=\"furigana\">検証方法<rt>けんしょうほうほう</rt></ruby>"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 109,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_1",
+    "sourceNumber": 16,
+    "prompt": "大(おお)きな労働災害(ろうどうさいがい)は機械(きかい)を使(つか)っているときに起(お)きています、機械(きかい)を正しく使(つか)うについて、間違っている一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">大<rt>おお</rt></ruby>きな<ruby class=\"furigana\">労働災害<rt>ろうどうさいがい</rt></ruby>は<ruby class=\"furigana\">機械<rt>きかい</rt></ruby>を<ruby class=\"furigana\">使<rt>つか</rt></ruby>っているときに<ruby class=\"furigana\">起<rt>お</rt></ruby>きています、<ruby class=\"furigana\">機械<rt>きかい</rt></ruby>を正しく<ruby class=\"furigana\">使<rt>つか</rt></ruby>うについて、間違っている一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "始業前点検(しぎょうまえてんけん)を行(おこな)う",
+        "html": "<ruby class=\"furigana\">始業前点検<rt>しぎょうまえてんけん</rt></ruby>を<ruby class=\"furigana\">行<rt>おこな</rt></ruby>う"
+      },
+      {
+        "key": "B",
+        "text": "異常時(いじょうじ)の対応(たいおう)をしなってもいい",
+        "html": "<ruby class=\"furigana\">異常時<rt>いじょうじ</rt></ruby>の<ruby class=\"furigana\">対応<rt>たいおう</rt></ruby>をしなってもいい"
+      },
+      {
+        "key": "C",
+        "text": "作業手順書(さぎょうてじゅんしょ)を理解(りかい)して機械(きかい)を使(つか)う",
+        "html": "<ruby class=\"furigana\">作業手順書<rt>さぎょうてじゅんしょ</rt></ruby>を<ruby class=\"furigana\">理解<rt>りかい</rt></ruby>して<ruby class=\"furigana\">機械<rt>きかい</rt></ruby>を<ruby class=\"furigana\">使<rt>つか</rt></ruby>う"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 110,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_1",
+    "sourceNumber": 17,
+    "prompt": "労働災害(ろうどうさいがい)やケガしないようには安全標識(あんぜんひょうしき)がどうしたらよいですか、間違っている一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">労働災害<rt>ろうどうさいがい</rt></ruby>やケガしないようには<ruby class=\"furigana\">安全標識<rt>あんぜんひょうしき</rt></ruby>がどうしたらよいですか、間違っている一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "見(み)やすい",
+        "html": "<ruby class=\"furigana\">見<rt>み</rt></ruby>やすい"
+      },
+      {
+        "key": "B",
+        "text": "値段(ねだん)が高(たか)い",
+        "html": "<ruby class=\"furigana\">値段<rt>ねだん</rt></ruby>が<ruby class=\"furigana\">高<rt>たか</rt></ruby>い"
+      },
+      {
+        "key": "C",
+        "text": "分(わ)かりやすい",
+        "html": "<ruby class=\"furigana\">分<rt>わ</rt></ruby>かりやすい"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 111,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_1",
+    "sourceNumber": 18,
+    "prompt": "次(つぎ)の標識(ひょうしき)はどいう意味(いみ)ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">次<rt>つぎ</rt></ruby>の<ruby class=\"furigana\">標識<rt>ひょうしき</rt></ruby>はどいう<ruby class=\"furigana\">意味<rt>いみ</rt></ruby>ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "走(はし)ることを禁止(きんし)する標識(ひょうしき)",
+        "html": "<ruby class=\"furigana\">走<rt>はし</rt></ruby>ることを<ruby class=\"furigana\">禁止<rt>きんし</rt></ruby>する<ruby class=\"furigana\">標識<rt>ひょうしき</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "転(ころ)ぶ危険(きけん)を知(し)らせる",
+        "html": "<ruby class=\"furigana\">転<rt>ころ</rt></ruby>ぶ<ruby class=\"furigana\">危険<rt>きけん</rt></ruby>を<ruby class=\"furigana\">知<rt>し</rt></ruby>らせる"
+      },
+      {
+        "key": "C",
+        "text": "消火器(しょうかき)の場所(ばしょ)を知(し)らせる",
+        "html": "<ruby class=\"furigana\">消火器<rt>しょうかき</rt></ruby>の<ruby class=\"furigana\">場所<rt>ばしょ</rt></ruby>を<ruby class=\"furigana\">知<rt>し</rt></ruby>らせる"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 112,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_1",
+    "sourceNumber": 19,
+    "prompt": "工場(こうじょう)や作業場(さぎょうじょう)でケガなどをしないためには何をしなければりませんか？正しいものを選びなさい",
+    "promptHtml": "<ruby class=\"furigana\">工場<rt>こうじょう</rt></ruby>や<ruby class=\"furigana\">作業場<rt>さぎょうじょう</rt></ruby>でケガなどをしないためには何をしなければりませんか？正しいものを選びなさい",
+    "choices": [
+      {
+        "key": "A",
+        "text": "ヘルメットを着用(ちゃくよう)してはいけません",
+        "html": "ヘルメットを<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>してはいけません"
+      },
+      {
+        "key": "B",
+        "text": "工場(こうじょう)で決(き)まっているルールや作業手順書(さぎょうてじゅんしょ)を守(まも)って作業(さぎょう)を行(おこな)わなければいけません",
+        "html": "<ruby class=\"furigana\">工場<rt>こうじょう</rt></ruby>で<ruby class=\"furigana\">決<rt>き</rt></ruby>まっているルールや<ruby class=\"furigana\">作業手順書<rt>さぎょうてじゅんしょ</rt></ruby>を<ruby class=\"furigana\">守<rt>まも</rt></ruby>って<ruby class=\"furigana\">作業<rt>さぎょう</rt></ruby>を<ruby class=\"furigana\">行<rt>おこな</rt></ruby>わなければいけません"
+      },
+      {
+        "key": "C",
+        "text": "安全保護具(あんぜんほごぐ)を着用(ちゃくよう)しない",
+        "html": "<ruby class=\"furigana\">安全保護具<rt>あんぜんほごぐ</rt></ruby>を<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>しない"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 113,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_1",
+    "sourceNumber": 20,
+    "prompt": "食中毒菌(しょくちゅうどくきん)はどいう意味(いみ)ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">食中毒菌<rt>しょくちゅうどくきん</rt></ruby>はどいう<ruby class=\"furigana\">意味<rt>いみ</rt></ruby>ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "食品(しょくひん)の中に善玉菌(ぜんだまきん)を入(はい)った食品(しょくひん)を食(た)べると、健康(けんこう)になった",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>の中に<ruby class=\"furigana\">善玉菌<rt>ぜんだまきん</rt></ruby>を<ruby class=\"furigana\">入<rt>はい</rt></ruby>った<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を<ruby class=\"furigana\">食<rt>た</rt></ruby>べると、<ruby class=\"furigana\">健康<rt>けんこう</rt></ruby>になった"
+      },
+      {
+        "key": "B",
+        "text": "消費期限(しょうひきげん)をすぎた食品(しょくひん)や飲料(いんりょう)です",
+        "html": "<ruby class=\"furigana\">消費期限<rt>しょうひきげん</rt></ruby>をすぎた<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>や<ruby class=\"furigana\">飲料<rt>いんりょう</rt></ruby>です"
+      },
+      {
+        "key": "C",
+        "text": "食中毒(しょくちゅうどく)の原因(げんいん)になる細菌(さいきん)",
+        "html": "<ruby class=\"furigana\">食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby class=\"furigana\">原因<rt>げんいん</rt></ruby>になる<ruby class=\"furigana\">細菌<rt>さいきん</rt></ruby>"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 114,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_1",
+    "sourceNumber": 21,
+    "prompt": "日本でアレルギーのケースが多(おお)いので、アレルギー物質(ぶっしつ)の入っていた食品(しょくひん)の原因(げんいん)です。それから表示(ひょうじ)する義務(ぎむ)があるものです。間違っているものを一つ選びなさい。",
+    "promptHtml": "日本でアレルギーのケースが<ruby class=\"furigana\">多<rt>おお</rt></ruby>いので、アレルギー<ruby class=\"furigana\">物質<rt>ぶっしつ</rt></ruby>の入っていた<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>の<ruby class=\"furigana\">原因<rt>げんいん</rt></ruby>です。それから<ruby class=\"furigana\">表示<rt>ひょうじ</rt></ruby>する<ruby class=\"furigana\">義務<rt>ぎむ</rt></ruby>があるものです。間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "乳(にゅう)",
+        "html": "<ruby class=\"furigana\">乳<rt>にゅう</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "イカ",
+        "html": "イカ"
+      },
+      {
+        "key": "C",
+        "text": "カニ",
+        "html": "カニ"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 115,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_1",
+    "sourceNumber": 22,
+    "prompt": "ノロウイルスによる食中毒(しょくちゅうどく)を防(ふせ)ぐためには4つ原則(げんそく)があります、間違っているものを一つ選びなさい。",
+    "promptHtml": "ノロウイルスによる<ruby class=\"furigana\">食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby class=\"furigana\">防<rt>ふせ</rt></ruby>ぐためには4つ<ruby class=\"furigana\">原則<rt>げんそく</rt></ruby>があります、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "持(も)ち込(こ)まない",
+        "html": "<ruby class=\"furigana\">持<rt>も</rt></ruby>ち<ruby class=\"furigana\">込<rt>こ</rt></ruby>まない"
+      },
+      {
+        "key": "B",
+        "text": "つける",
+        "html": "つける"
+      },
+      {
+        "key": "C",
+        "text": "殺(ころ)す",
+        "html": "<ruby class=\"furigana\">殺<rt>ころ</rt></ruby>す"
+      },
+      {
+        "key": "D",
+        "text": "広(ひろ)げない",
+        "html": "<ruby class=\"furigana\">広<rt>ひろ</rt></ruby>げない"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 116,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_1",
+    "sourceNumber": 23,
+    "prompt": "カビの特徴(とくちょう)について、正しいものを一つ選びなさい。",
+    "promptHtml": "カビの<ruby class=\"furigana\">特徴<rt>とくちょう</rt></ruby>について、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "カビが殺(ころ)すことができない",
+        "html": "カビが<ruby class=\"furigana\">殺<rt>ころ</rt></ruby>すことができない"
+      },
+      {
+        "key": "B",
+        "text": "100⁰Ｃで加熱(かねつ)したら、カビが無(な)くなる",
+        "html": "100⁰Ｃで<ruby class=\"furigana\">加熱<rt>かねつ</rt></ruby>したら、カビが<ruby class=\"furigana\">無<rt>な</rt></ruby>くなる"
+      },
+      {
+        "key": "C",
+        "text": "カビが殺(ころ)すため、りゅすいで洗浄(せんじょう)する",
+        "html": "カビが<ruby class=\"furigana\">殺<rt>ころ</rt></ruby>すため、りゅすいで<ruby class=\"furigana\">洗浄<rt>せんじょう</rt></ruby>する"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 117,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_1",
+    "sourceNumber": 24,
+    "prompt": "未開封(みかいふう)の加工食品(かこうしょくひん)を、決(き)められた条件(じょうけん)で保存(ほぞん)した場合(ばあい)に、美味(おい)しく食べられる期間(きかん)の最後(さいご)の日(ひ)です.食べることはできますが、 食 品製造工 場(しょくひんせいぞうこうじょう) では、一般的(いっぱんてき)に食品(しょくひん)や原材料(げんざいりょう)は使(つか)いません。それは何の意味(いみ)ですか、 正しいものを一つ選びなさい",
+    "promptHtml": "<ruby class=\"furigana\">未開封<rt>みかいふう</rt></ruby>の<ruby class=\"furigana\">加工食品<rt>かこうしょくひん</rt></ruby>を、<ruby class=\"furigana\">決<rt>き</rt></ruby>められた<ruby class=\"furigana\">条件<rt>じょうけん</rt></ruby>で<ruby class=\"furigana\">保存<rt>ほぞん</rt></ruby>した<ruby class=\"furigana\">場合<rt>ばあい</rt></ruby>に、<ruby class=\"furigana\">美味<rt>おい</rt></ruby>しく食べられる<ruby class=\"furigana\">期間<rt>きかん</rt></ruby>の<ruby class=\"furigana\">最後<rt>さいご</rt></ruby>の<ruby class=\"furigana\">日<rt>ひ</rt></ruby>です.食べることはできますが、 食 品製造工 <ruby class=\"furigana\">場<rt>しょくひんせいぞうこうじょう</rt></ruby> では、<ruby class=\"furigana\">一般的<rt>いっぱんてき</rt></ruby>に<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>や<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby>は<ruby class=\"furigana\">使<rt>つか</rt></ruby>いません。それは何の<ruby class=\"furigana\">意味<rt>いみ</rt></ruby>ですか、 正しいものを一つ選びなさい",
+    "choices": [
+      {
+        "key": "A",
+        "text": "使用期限(しようきげん)",
+        "html": "<ruby class=\"furigana\">使用期限<rt>しようきげん</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "賞味期限(しょうみきげん)",
+        "html": "<ruby class=\"furigana\">賞味期限<rt>しょうみきげん</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "消費期限(しょうひきげん)",
+        "html": "<ruby class=\"furigana\">消費期限<rt>しょうひきげん</rt></ruby>"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 118,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_1",
+    "sourceNumber": 25,
+    "prompt": "職場(しょくば)に持(も)ち込(こ)んではいけない物(もの)、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">職場<rt>しょくば</rt></ruby>に<ruby class=\"furigana\">持<rt>も</rt></ruby>ち<ruby class=\"furigana\">込<rt>こ</rt></ruby>んではいけない<ruby class=\"furigana\">物<rt>もの</rt></ruby>、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "袋(ふくろ)",
+        "html": "<ruby class=\"furigana\">袋<rt>ふくろ</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "ほごうめがね",
+        "html": "ほごうめがね"
+      },
+      {
+        "key": "C",
+        "text": "マスク",
+        "html": "マスク"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 119,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_2",
+    "sourceNumber": 1,
+    "prompt": "職場(しょくば)に労働災害(ろうどうさいがい)を防止(ぼうし)するために、作業手順書(さぎょうてじゅんしょ)を守らなければなりません、間違っている一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">職場<rt>しょくば</rt></ruby>に<ruby class=\"furigana\">労働災害<rt>ろうどうさいがい</rt></ruby>を<ruby class=\"furigana\">防止<rt>ぼうし</rt></ruby>するために、<ruby class=\"furigana\">作業手順書<rt>さぎょうてじゅんしょ</rt></ruby>を守らなければなりません、間違っている一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "コンベアの下(した)をくぐらない",
+        "html": "コンベアの<ruby class=\"furigana\">下<rt>した</rt></ruby>をくぐらない"
+      },
+      {
+        "key": "B",
+        "text": "作業場(さぎょうじょう)で走(はし)らないといけない",
+        "html": "<ruby class=\"furigana\">作業場<rt>さぎょうじょう</rt></ruby>で<ruby class=\"furigana\">走<rt>はし</rt></ruby>らないといけない"
+      },
+      {
+        "key": "C",
+        "text": "決(き)められた通路(つうろ)を歩(ある)いて",
+        "html": "<ruby class=\"furigana\">決<rt>き</rt></ruby>められた<ruby class=\"furigana\">通路<rt>つうろ</rt></ruby>を<ruby class=\"furigana\">歩<rt>ある</rt></ruby>いて"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 120,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_2",
+    "sourceNumber": 2,
+    "prompt": "機械(きかい)や器具(きぐ)を使う(つかう)ときは何をしなければならないか、間違っているものを選びなさい",
+    "promptHtml": "<ruby class=\"furigana\">機械<rt>きかい</rt></ruby>や<ruby class=\"furigana\">器具<rt>きぐ</rt></ruby>を<ruby class=\"furigana\">使う<rt>つかう</rt></ruby>ときは何をしなければならないか、間違っているものを選びなさい",
+    "choices": [
+      {
+        "key": "A",
+        "text": "工場(こうじょう)で決(き)まっているルールや作業手順書(さぎょうてじゅんしょ)を守(まも)って作業(さぎょう)をしてはいけません",
+        "html": "<ruby class=\"furigana\">工場<rt>こうじょう</rt></ruby>で<ruby class=\"furigana\">決<rt>き</rt></ruby>まっているルールや<ruby class=\"furigana\">作業手順書<rt>さぎょうてじゅんしょ</rt></ruby>を<ruby class=\"furigana\">守<rt>まも</rt></ruby>って<ruby class=\"furigana\">作業<rt>さぎょう</rt></ruby>をしてはいけません"
+      },
+      {
+        "key": "B",
+        "text": "工場(こうじょう)で決(き)まっているルールを守(まも)って作業(さぎょう)を行(おこな)わなければいけません",
+        "html": "<ruby class=\"furigana\">工場<rt>こうじょう</rt></ruby>で<ruby class=\"furigana\">決<rt>き</rt></ruby>まっているルールを<ruby class=\"furigana\">守<rt>まも</rt></ruby>って<ruby class=\"furigana\">作業<rt>さぎょう</rt></ruby>を<ruby class=\"furigana\">行<rt>おこな</rt></ruby>わなければいけません"
+      },
+      {
+        "key": "C",
+        "text": "工場(こうじょう)で決(き)まって作業手順書(さぎょうてじゅんしょ)を守(まも)って作業(さぎょう)を行(おこな)わなければならない",
+        "html": "<ruby class=\"furigana\">工場<rt>こうじょう</rt></ruby>で<ruby class=\"furigana\">決<rt>き</rt></ruby>まって<ruby class=\"furigana\">作業手順書<rt>さぎょうてじゅんしょ</rt></ruby>を<ruby class=\"furigana\">守<rt>まも</rt></ruby>って<ruby class=\"furigana\">作業<rt>さぎょう</rt></ruby>を<ruby class=\"furigana\">行<rt>おこな</rt></ruby>わなければならない"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 121,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_2",
+    "sourceNumber": 3,
+    "prompt": "原材料(けんざいりょう)の保管方法(ほかんほうほう)が原材料(げんざいりょう)の種類(しゅるい)によって保管(ほかんします)、決(き)められた温度(おんど)で保管(ほかん)する必要(ひつよう)があります、次(つぎ)の原材料(げんざいりょう)と保管(ほかん)温度(おんど)、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">原材料<rt>けんざいりょう</rt></ruby>の<ruby class=\"furigana\">保管方法<rt>ほかんほうほう</rt></ruby>が<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby>の<ruby class=\"furigana\">種類<rt>しゅるい</rt></ruby>によって<ruby class=\"furigana\">保管<rt>ほかんします</rt></ruby>、<ruby class=\"furigana\">決<rt>き</rt></ruby>められた<ruby class=\"furigana\">温度<rt>おんど</rt></ruby>で<ruby class=\"furigana\">保管<rt>ほかん</rt></ruby>する<ruby class=\"furigana\">必要<rt>ひつよう</rt></ruby>があります、<ruby class=\"furigana\">次<rt>つぎ</rt></ruby>の<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby>と<ruby class=\"furigana\">保管<rt>ほかん</rt></ruby><ruby class=\"furigana\">温度<rt>おんど</rt></ruby>、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "マーガリンを室温(しつおん)で保管(ほかん)する",
+        "html": "マーガリンを<ruby class=\"furigana\">室温<rt>しつおん</rt></ruby>で<ruby class=\"furigana\">保管<rt>ほかん</rt></ruby>する"
+      },
+      {
+        "key": "B",
+        "text": "乳(にゅう)を 15⁰Ｃ以下で保管(ほかん)する",
+        "html": "<ruby class=\"furigana\">乳<rt>にゅう</rt></ruby>を 15⁰Ｃ以下で<ruby class=\"furigana\">保管<rt>ほかん</rt></ruby>する"
+      },
+      {
+        "key": "C",
+        "text": "鶏肉(とりにく)を 10⁰Ｃ以下で保管(ほかん)する",
+        "html": "<ruby class=\"furigana\">鶏肉<rt>とりにく</rt></ruby>を 10⁰Ｃ以下で<ruby class=\"furigana\">保管<rt>ほかん</rt></ruby>する"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 122,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_2",
+    "sourceNumber": 4,
+    "prompt": "食品衛生法(しょくひんえいせいほう)では、冷蔵庫(れいぞうこ)の温度(おんど)は何ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">食品衛生法<rt>しょくひんえいせいほう</rt></ruby>では、<ruby class=\"furigana\">冷蔵庫<rt>れいぞうこ</rt></ruby>の<ruby class=\"furigana\">温度<rt>おんど</rt></ruby>は何ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "－15⁰Ｃ以下(いか)",
+        "html": "－15⁰Ｃ<ruby class=\"furigana\">以下<rt>いか</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "―10⁰Ｃ以下(いか)",
+        "html": "―10⁰Ｃ<ruby class=\"furigana\">以下<rt>いか</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "－4⁰Ｃ以下(いか)",
+        "html": "－4⁰Ｃ<ruby class=\"furigana\">以下<rt>いか</rt></ruby>"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 123,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_2",
+    "sourceNumber": 5,
+    "prompt": "食品(しょくひん)の中で菌(きん)が増(ふ)えて毒素(どくそ)を作(つく)るの特徴(とくちょう)の食中毒菌(しょくちゅうどくきん)です、何の食中毒菌(しょくちゅうどくきん)ですか、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>の中で<ruby class=\"furigana\">菌<rt>きん</rt></ruby>が<ruby class=\"furigana\">増<rt>ふ</rt></ruby>えて<ruby class=\"furigana\">毒素<rt>どくそ</rt></ruby>を<ruby class=\"furigana\">作<rt>つく</rt></ruby>るの<ruby class=\"furigana\">特徴<rt>とくちょう</rt></ruby>の<ruby class=\"furigana\">食中毒菌<rt>しょくちゅうどくきん</rt></ruby>です、何の<ruby class=\"furigana\">食中毒菌<rt>しょくちゅうどくきん</rt></ruby>ですか、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "サルモネラ菌",
+        "html": "サルモネラ菌"
+      },
+      {
+        "key": "B",
+        "text": "ボツリヌス菌",
+        "html": "ボツリヌス菌"
+      },
+      {
+        "key": "C",
+        "text": "ウェルシュ菌",
+        "html": "ウェルシュ菌"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 124,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_2",
+    "sourceNumber": 6,
+    "prompt": "細菌(さいきん)の増(ふ)え方(かた)は一番(いちばん)早(はや)いが何度(ど)ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">細菌<rt>さいきん</rt></ruby>の<ruby class=\"furigana\">増<rt>ふ</rt></ruby>え<ruby class=\"furigana\">方<rt>かた</rt></ruby>は<ruby class=\"furigana\">一番<rt>いちばん</rt></ruby><ruby class=\"furigana\">早<rt>はや</rt></ruby>いが<ruby class=\"furigana\">何度<rt>ど</rt></ruby>ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "30⁰C – 40⁰C",
+        "html": "30⁰C – 40⁰C"
+      },
+      {
+        "key": "B",
+        "text": "10⁰C – 30⁰C",
+        "html": "10⁰C – 30⁰C"
+      },
+      {
+        "key": "C",
+        "text": "20⁰C – 50⁰C",
+        "html": "20⁰C – 50⁰C"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 125,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_2",
+    "sourceNumber": 7,
+    "prompt": "HCCP の略語(りゃくご)は何のです、正しいものを一つ選びなさい。",
+    "promptHtml": "HCCP の<ruby class=\"furigana\">略語<rt>りゃくご</rt></ruby>は何のです、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Hazar Analycis Critical And Point",
+        "html": "Hazar Analycis Critical And Point"
+      },
+      {
+        "key": "B",
+        "text": "Hazard Analysis And Critical Control Point",
+        "html": "Hazard Analysis And Critical Control Point"
+      },
+      {
+        "key": "C",
+        "text": "Hasard Analysist Critical And Control Point",
+        "html": "Hasard Analysist Critical And Control Point"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 126,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_2",
+    "sourceNumber": 8,
+    "prompt": "生物的危害要因(せいぶつてききがいよういん)のなかで、食中毒(しょくちゅうどく)の原因(げんいん)は何ですか、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">生物的危害要因<rt>せいぶつてききがいよういん</rt></ruby>のなかで、<ruby class=\"furigana\">食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby class=\"furigana\">原因<rt>げんいん</rt></ruby>は何ですか、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "寄生虫(きせいちゅう)",
+        "html": "<ruby class=\"furigana\">寄生虫<rt>きせいちゅう</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "ウイルス",
+        "html": "ウイルス"
+      },
+      {
+        "key": "C",
+        "text": "殺菌(さっきん)",
+        "html": "<ruby class=\"furigana\">殺菌<rt>さっきん</rt></ruby>"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 127,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_2",
+    "sourceNumber": 9,
+    "prompt": "やけど防止(ぼうし)するため何を着用(ちゃくよう)しなければいけませんか、間違っている一つ選びなさい。",
+    "promptHtml": "やけど<ruby class=\"furigana\">防止<rt>ぼうし</rt></ruby>するため何を<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>しなければいけませんか、間違っている一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "耐熱(たいねつ)エプロン",
+        "html": "<ruby class=\"furigana\">耐熱<rt>たいねつ</rt></ruby>エプロン"
+      },
+      {
+        "key": "B",
+        "text": "ミトン手袋(てぶくろ)",
+        "html": "ミトン<ruby class=\"furigana\">手袋<rt>てぶくろ</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "ゴミ手袋(てぶくろ)",
+        "html": "ゴミ<ruby class=\"furigana\">手袋<rt>てぶくろ</rt></ruby>"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 128,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_2",
+    "sourceNumber": 10,
+    "prompt": "次(つぎ)禁止(きんし)は何を知(し)らせますか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">次<rt>つぎ</rt></ruby><ruby class=\"furigana\">禁止<rt>きんし</rt></ruby>は何を<ruby class=\"furigana\">知<rt>し</rt></ruby>らせますか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "やけどをする危険(きけん)を知(し)らせる標識(ひょうしき)",
+        "html": "やけどをする<ruby class=\"furigana\">危険<rt>きけん</rt></ruby>を<ruby class=\"furigana\">知<rt>し</rt></ruby>らせる<ruby class=\"furigana\">標識<rt>ひょうしき</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "はさまれ危険(きけん)を知(し)らせる",
+        "html": "はさまれ<ruby class=\"furigana\">危険<rt>きけん</rt></ruby>を<ruby class=\"furigana\">知<rt>し</rt></ruby>らせる"
+      },
+      {
+        "key": "C",
+        "text": "触(ふ)れることを禁止(きんし)",
+        "html": "<ruby class=\"furigana\">触<rt>ふ</rt></ruby>れることを<ruby class=\"furigana\">禁止<rt>きんし</rt></ruby>"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 129,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_2",
+    "sourceNumber": 11,
+    "prompt": "次(つぎ)の正しく手洗(てあら)いの方法(ほうほう)を見てください！。。。もう一つ方法(ほうほう)は何ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">次<rt>つぎ</rt></ruby>の正しく<ruby class=\"furigana\">手洗<rt>てあら</rt></ruby>いの<ruby class=\"furigana\">方法<rt>ほうほう</rt></ruby>を見てください！。。。もう一つ<ruby class=\"furigana\">方法<rt>ほうほう</rt></ruby>は何ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "使(つか)い捨(す)てペーパータオルで手(て)を乾(かわ)かす",
+        "html": "<ruby class=\"furigana\">使<rt>つか</rt></ruby>い<ruby class=\"furigana\">捨<rt>す</rt></ruby>てペーパータオルで<ruby class=\"furigana\">手<rt>て</rt></ruby>を<ruby class=\"furigana\">乾<rt>かわ</rt></ruby>かす"
+      },
+      {
+        "key": "B",
+        "text": "流水(りゅうしう)で手(て)を洗(あら)う",
+        "html": "<ruby class=\"furigana\">流水<rt>りゅうしう</rt></ruby>で<ruby class=\"furigana\">手<rt>て</rt></ruby>を<ruby class=\"furigana\">洗<rt>あら</rt></ruby>う"
+      },
+      {
+        "key": "C",
+        "text": "石鹼(せっけん)を使(つか)って",
+        "html": "<ruby class=\"furigana\">石鹼<rt>せっけん</rt></ruby>を<ruby class=\"furigana\">使<rt>つか</rt></ruby>って"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 130,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_2",
+    "sourceNumber": 12,
+    "prompt": "原材料(げんざいりょう)の受(う)け入(い)れのとき、何をしなければ調(しら)べますか、正しくないものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby>の<ruby class=\"furigana\">受<rt>う</rt></ruby>け<ruby class=\"furigana\">入<rt>い</rt></ruby>れのとき、何をしなければ<ruby class=\"furigana\">調<rt>しら</rt></ruby>べますか、正しくないものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "規格(きかく)",
+        "html": "<ruby class=\"furigana\">規格<rt>きかく</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "値段(ねだん)",
+        "html": "<ruby class=\"furigana\">値段<rt>ねだん</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "品温(ひんおん)",
+        "html": "<ruby class=\"furigana\">品温<rt>ひんおん</rt></ruby>"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 131,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_2",
+    "sourceNumber": 13,
+    "prompt": "濃度(のうど)2％NACL 溶液(ようえき)があります、200ppm の NACL 溶液(ようえき)を 1L を作(つく)るときに、この溶液(ようえき)と水(みず)はそれぞれ何㎖ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">濃度<rt>のうど</rt></ruby>2％NACL <ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>があります、200ppm の NACL <ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>を 1L を<ruby class=\"furigana\">作<rt>つく</rt></ruby>るときに、この<ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>と<ruby class=\"furigana\">水<rt>みず</rt></ruby>はそれぞれ何㎖ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "溶液(ようえき)5ml、水 995ml",
+        "html": "<ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>5ml、水 995ml"
+      },
+      {
+        "key": "B",
+        "text": "溶液(ようえき)10ml、水 990ml",
+        "html": "<ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>10ml、水 990ml"
+      },
+      {
+        "key": "C",
+        "text": "溶液(ようえき)15ml、水 985ml",
+        "html": "<ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>15ml、水 985ml"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 132,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_2",
+    "sourceNumber": 14,
+    "prompt": "食品(しょくひん)をゆっくり凍結(とけつ)させると何が変(か)わるですか、間違っているものを一つ選び。",
+    "promptHtml": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>をゆっくり<ruby class=\"furigana\">凍結<rt>とけつ</rt></ruby>させると何が<ruby class=\"furigana\">変<rt>か</rt></ruby>わるですか、間違っているものを一つ選び。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "食感(しょっかん)や趣味(しゅみ)",
+        "html": "<ruby class=\"furigana\">食感<rt>しょっかん</rt></ruby>や<ruby class=\"furigana\">趣味<rt>しゅみ</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "硬(かた)さや弾力(だんりょく)",
+        "html": "<ruby class=\"furigana\">硬<rt>かた</rt></ruby>さや<ruby class=\"furigana\">弾力<rt>だんりょく</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "弾力(だんりょく)や食感(しょっかん)",
+        "html": "<ruby class=\"furigana\">弾力<rt>だんりょく</rt></ruby>や<ruby class=\"furigana\">食感<rt>しょっかん</rt></ruby>"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 133,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_2",
+    "sourceNumber": 15,
+    "prompt": "食品(しょくひん)の中には危害要因(きがいよういん)含(ふく)まらないようにするため、一般衛生管理(いっぱんえいせいかんり)と重要管理点(じゅうようかんりてん)の管理(かんり)を監視(かんし)する、正しく実行(じっこう)されなかった場合(ばあい)がどうすればいいですか、間違っている一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>の中には<ruby class=\"furigana\">危害要因<rt>きがいよういん</rt></ruby><ruby class=\"furigana\">含<rt>ふく</rt></ruby>まらないようにするため、<ruby class=\"furigana\">一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>と<ruby class=\"furigana\">重要管理点<rt>じゅうようかんりてん</rt></ruby>の<ruby class=\"furigana\">管理<rt>かんり</rt></ruby>を<ruby class=\"furigana\">監視<rt>かんし</rt></ruby>する、正しく<ruby class=\"furigana\">実行<rt>じっこう</rt></ruby>されなかった<ruby class=\"furigana\">場合<rt>ばあい</rt></ruby>がどうすればいいですか、間違っている一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "その食品(しょくひん)が売(う)ってはいけない",
+        "html": "その<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>が<ruby class=\"furigana\">売<rt>う</rt></ruby>ってはいけない"
+      },
+      {
+        "key": "B",
+        "text": "その食品(しょくひん)を食(たべ)て",
+        "html": "その<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を<ruby class=\"furigana\">食<rt>たべ</rt></ruby>て"
+      },
+      {
+        "key": "C",
+        "text": "その食品(しょくひん)を出荷(しゅっか)させない",
+        "html": "その<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を<ruby class=\"furigana\">出荷<rt>しゅっか</rt></ruby>させない"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 134,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_2",
+    "sourceNumber": 16,
+    "prompt": "600gr のドーナツ作(つく)るためには 400gr 小麦粉(こむぎこ)、10gr 塩(しお)、500ml 水(みず)を使(つか)う。24 ㎏小麦粉(こむぎこ)のを作(つく)るとき、ドーナツが何㎏ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "600gr のドーナツ<ruby class=\"furigana\">作<rt>つく</rt></ruby>るためには 400gr <ruby class=\"furigana\">小麦粉<rt>こむぎこ</rt></ruby>、10gr <ruby class=\"furigana\">塩<rt>しお</rt></ruby>、500ml <ruby class=\"furigana\">水<rt>みず</rt></ruby>を<ruby class=\"furigana\">使<rt>つか</rt></ruby>う。24 ㎏<ruby class=\"furigana\">小麦粉<rt>こむぎこ</rt></ruby>のを<ruby class=\"furigana\">作<rt>つく</rt></ruby>るとき、ドーナツが何㎏ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "16 ㎏",
+        "html": "16 ㎏"
+      },
+      {
+        "key": "B",
+        "text": "26 kg",
+        "html": "26 kg"
+      },
+      {
+        "key": "C",
+        "text": "36 kg",
+        "html": "36 kg"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 135,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_2",
+    "sourceNumber": 17,
+    "prompt": "作業服(さぎょうふく)の着用(ちゃくよう)について、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">作業服<rt>さぎょうふく</rt></ruby>の<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>について、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "爪(つめ)はいつも短(みじか)く切(き)っておきます",
+        "html": "<ruby class=\"furigana\">爪<rt>つめ</rt></ruby>はいつも<ruby class=\"furigana\">短<rt>みじか</rt></ruby>く<ruby class=\"furigana\">切<rt>き</rt></ruby>っておきます"
+      },
+      {
+        "key": "B",
+        "text": "すべて自分(じぶん)のサイズに会(あ)った清潔(せいけつ)なものを着用(ちゃくよう)しなければいけない",
+        "html": "すべて<ruby class=\"furigana\">自分<rt>じぶん</rt></ruby>のサイズに<ruby class=\"furigana\">会<rt>あ</rt></ruby>った<ruby class=\"furigana\">清潔<rt>せいけつ</rt></ruby>なものを<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>しなければいけない"
+      },
+      {
+        "key": "C",
+        "text": "イヤリングをして作業場(さぎょうじょう)に入(はい)ってもいいです",
+        "html": "イヤリングをして<ruby class=\"furigana\">作業場<rt>さぎょうじょう</rt></ruby>に<ruby class=\"furigana\">入<rt>はい</rt></ruby>ってもいいです"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 136,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_2",
+    "sourceNumber": 18,
+    "prompt": "保存中(ほぞんちゅう)にカビが増(ふ)えやすい食品(しょくひん)は何ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">保存中<rt>ほぞんちゅう</rt></ruby>にカビが<ruby class=\"furigana\">増<rt>ふ</rt></ruby>えやすい<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>は何ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "豆(まめ)、心(こころ)、野菜、(やさい)、果物(くだもの)",
+        "html": "<ruby class=\"furigana\">豆<rt>まめ</rt></ruby>、<ruby class=\"furigana\">心<rt>こころ</rt></ruby>、野菜、(やさい)、<ruby class=\"furigana\">果物<rt>くだもの</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "果物(くだもの)、豆(まめ)、薬剤(やくざい)、食肉(しょくにく)",
+        "html": "<ruby class=\"furigana\">果物<rt>くだもの</rt></ruby>、<ruby class=\"furigana\">豆<rt>まめ</rt></ruby>、<ruby class=\"furigana\">薬剤<rt>やくざい</rt></ruby>、<ruby class=\"furigana\">食肉<rt>しょくにく</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "穀類(こくるい)、果物(くだもの)、野菜、(やさい)、豆(まめ)",
+        "html": "<ruby class=\"furigana\">穀類<rt>こくるい</rt></ruby>、<ruby class=\"furigana\">果物<rt>くだもの</rt></ruby>、野菜、(やさい)、<ruby class=\"furigana\">豆<rt>まめ</rt></ruby>"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 137,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_2",
+    "sourceNumber": 19,
+    "prompt": "労働安全(ろうどうあんぜん)はどいう意味(いみ)ですか、間違っている一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">労働安全<rt>ろうどうあんぜん</rt></ruby>はどいう<ruby class=\"furigana\">意味<rt>いみ</rt></ruby>ですか、間違っている一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "作業者(さぎょうしゃ)の安全(あんぜん)を守(まも)る",
+        "html": "<ruby class=\"furigana\">作業者<rt>さぎょうしゃ</rt></ruby>の<ruby class=\"furigana\">安全<rt>あんぜん</rt></ruby>を<ruby class=\"furigana\">守<rt>まも</rt></ruby>る"
+      },
+      {
+        "key": "B",
+        "text": "作業者(さぎょうしゃ)のせいけつを守る",
+        "html": "<ruby class=\"furigana\">作業者<rt>さぎょうしゃ</rt></ruby>のせいけつを守る"
+      },
+      {
+        "key": "C",
+        "text": "作業者(さぎょうしゃ)の健康(けんこう)を守(まも)る",
+        "html": "<ruby class=\"furigana\">作業者<rt>さぎょうしゃ</rt></ruby>の<ruby class=\"furigana\">健康<rt>けんこう</rt></ruby>を<ruby class=\"furigana\">守<rt>まも</rt></ruby>る"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 138,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_2",
+    "sourceNumber": 20,
+    "prompt": "作業場(さぎょうじょう)に入(はい)る前(まえ)に何をしなければいけませんか、間違っているものを選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">作業場<rt>さぎょうじょう</rt></ruby>に<ruby class=\"furigana\">入<rt>はい</rt></ruby>る<ruby class=\"furigana\">前<rt>まえ</rt></ruby>に何をしなければいけませんか、間違っているものを選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "粘着(ねんちゃく)ローラーとエアシャワーを使(つか)う",
+        "html": "<ruby class=\"furigana\">粘着<rt>ねんちゃく</rt></ruby>ローラーとエアシャワーを<ruby class=\"furigana\">使<rt>つか</rt></ruby>う"
+      },
+      {
+        "key": "B",
+        "text": "手(て)を洗(あら)わず",
+        "html": "<ruby class=\"furigana\">手<rt>て</rt></ruby>を<ruby class=\"furigana\">洗<rt>あら</rt></ruby>わず"
+      },
+      {
+        "key": "C",
+        "text": "私物(しぶつ)をロッカーに置(お)く",
+        "html": "<ruby class=\"furigana\">私物<rt>しぶつ</rt></ruby>をロッカーに<ruby class=\"furigana\">置<rt>お</rt></ruby>く"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 139,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_2",
+    "sourceNumber": 21,
+    "prompt": "5S 活動(かつどう)について、正しいものを一つ選びなさい。",
+    "promptHtml": "5S <ruby class=\"furigana\">活動<rt>かつどう</rt></ruby>について、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "整理(せいり)、整頓(せいとん)、先週(せんしゅう)、清潔(せいけつ)、習慣(しゅかん)づけ",
+        "html": "<ruby class=\"furigana\">整理<rt>せいり</rt></ruby>、<ruby class=\"furigana\">整頓<rt>せいとん</rt></ruby>、<ruby class=\"furigana\">先週<rt>せんしゅう</rt></ruby>、<ruby class=\"furigana\">清潔<rt>せいけつ</rt></ruby>、<ruby class=\"furigana\">習慣<rt>しゅかん</rt></ruby>づけ"
+      },
+      {
+        "key": "B",
+        "text": "清掃(せいそう)、整理(せいり)、しつけ、整頓(せいとん)、清潔(せいけつ)",
+        "html": "<ruby class=\"furigana\">清掃<rt>せいそう</rt></ruby>、<ruby class=\"furigana\">整理<rt>せいり</rt></ruby>、しつけ、<ruby class=\"furigana\">整頓<rt>せいとん</rt></ruby>、<ruby class=\"furigana\">清潔<rt>せいけつ</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "整頓(せいとん)、しづけ、清潔(せいけつ)、整理(せいり)、清掃(せいそう)",
+        "html": "<ruby class=\"furigana\">整頓<rt>せいとん</rt></ruby>、しづけ、<ruby class=\"furigana\">清潔<rt>せいけつ</rt></ruby>、<ruby class=\"furigana\">整理<rt>せいり</rt></ruby>、<ruby class=\"furigana\">清掃<rt>せいそう</rt></ruby>"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 140,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_2",
+    "sourceNumber": 22,
+    "prompt": "清掃(せいそう)、洗浄(せのじょう)、消毒(しょうどく)は定期的(ていきてき)に清掃(せいそう)して、いつも清潔(せいけつ)にしておかなければいけません、清掃(せいそう)をしないでいると何を起(お)こりますか、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">清掃<rt>せいそう</rt></ruby>、<ruby class=\"furigana\">洗浄<rt>せのじょう</rt></ruby>、<ruby class=\"furigana\">消毒<rt>しょうどく</rt></ruby>は<ruby class=\"furigana\">定期的<rt>ていきてき</rt></ruby>に<ruby class=\"furigana\">清掃<rt>せいそう</rt></ruby>して、いつも<ruby class=\"furigana\">清潔<rt>せいけつ</rt></ruby>にしておかなければいけません、<ruby class=\"furigana\">清掃<rt>せいそう</rt></ruby>をしないでいると何を<ruby class=\"furigana\">起<rt>お</rt></ruby>こりますか、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "この食品(しょくひん)わたくさん売(う)れます",
+        "html": "この<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>わたくさん<ruby class=\"furigana\">売<rt>う</rt></ruby>れます"
+      },
+      {
+        "key": "B",
+        "text": "虫(むし)やネズミが入(はい)って",
+        "html": "<ruby class=\"furigana\">虫<rt>むし</rt></ruby>やネズミが<ruby class=\"furigana\">入<rt>はい</rt></ruby>って"
+      },
+      {
+        "key": "C",
+        "text": "設備(せつび)の衛生上(えいせいじょう)が悪(わる)くなります",
+        "html": "<ruby class=\"furigana\">設備<rt>せつび</rt></ruby>の<ruby class=\"furigana\">衛生上<rt>えいせいじょう</rt></ruby>が<ruby class=\"furigana\">悪<rt>わる</rt></ruby>くなります"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 141,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_2",
+    "sourceNumber": 23,
+    "prompt": "微粉(びふん)を取(とり)扱(あつか)うとき何を着用(ちゃくよう)しなければなりませんか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">微粉<rt>びふん</rt></ruby>を<ruby class=\"furigana\">取<rt>とり</rt></ruby><ruby class=\"furigana\">扱<rt>あつか</rt></ruby>うとき何を<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>しなければなりませんか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "耳栓(みみせん)",
+        "html": "<ruby class=\"furigana\">耳栓<rt>みみせん</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "ゴム手袋(ごむてぶくろ)",
+        "html": "ゴム<ruby class=\"furigana\">手袋<rt>ごむてぶくろ</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "保護(ほご)メガネ",
+        "html": "<ruby class=\"furigana\">保護<rt>ほご</rt></ruby>メガネ"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 142,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_2",
+    "sourceNumber": 24,
+    "prompt": "調理(ちょうり)使(つか)った機械(きかい)や器具(きぐ)は、洗浄(せんじょう)した後(あと)に次亜塩素酸(じあえんそさん)ナトリウムをつける、溶液(ようえき)濃度(のうど)について、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">調理<rt>ちょうり</rt></ruby><ruby class=\"furigana\">使<rt>つか</rt></ruby>った<ruby class=\"furigana\">機械<rt>きかい</rt></ruby>や<ruby class=\"furigana\">器具<rt>きぐ</rt></ruby>は、<ruby class=\"furigana\">洗浄<rt>せんじょう</rt></ruby>した<ruby class=\"furigana\">後<rt>あと</rt></ruby>に<ruby class=\"furigana\">次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウムをつける、<ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby><ruby class=\"furigana\">濃度<rt>のうど</rt></ruby>について、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "200ppm 次亜塩素酸(じあえんそさん)ナトリウムをつける",
+        "html": "200ppm <ruby class=\"furigana\">次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウムをつける"
+      },
+      {
+        "key": "B",
+        "text": "300ppm 次亜塩素酸(じあえんそさん)ナトリウムをつける",
+        "html": "300ppm <ruby class=\"furigana\">次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウムをつける"
+      },
+      {
+        "key": "C",
+        "text": "250ppm 次亜塩素酸(じあえんそさん)ナトリウムをつける",
+        "html": "250ppm <ruby class=\"furigana\">次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウムをつける"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 143,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_2",
+    "sourceNumber": 25,
+    "prompt": "食中毒(しょくちゅうどく)の原因(げんいん)になるウイルス代表的(だいひょうてき)なものは何ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby class=\"furigana\">原因<rt>げんいん</rt></ruby>になるウイルス<ruby class=\"furigana\">代表的<rt>だいひょうてき</rt></ruby>なものは何ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "コロナウイルス",
+        "html": "コロナウイルス"
+      },
+      {
+        "key": "B",
+        "text": "ノロウイルス",
+        "html": "ノロウイルス"
+      },
+      {
+        "key": "C",
+        "text": "インフルエンザ",
+        "html": "インフルエンザ"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 144,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_3-1",
+    "sourceNumber": 1,
+    "prompt": "原材料(げんざいりょう)は適切(てきせつ)な濃度(のうど)の食塩水(しょくえんすい)で洗浄(せんじょう)することもある、何ですか。正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby>は<ruby class=\"furigana\">適切<rt>てきせつ</rt></ruby>な<ruby class=\"furigana\">濃度<rt>のうど</rt></ruby>の<ruby class=\"furigana\">食塩水<rt>しょくえんすい</rt></ruby>で<ruby class=\"furigana\">洗浄<rt>せんじょう</rt></ruby>することもある、何ですか。正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "業界類(ぎょうかいるい)",
+        "html": "<ruby class=\"furigana\">業界類<rt>ぎょうかいるい</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "枝豆(えだまめ)",
+        "html": "<ruby class=\"furigana\">枝豆<rt>えだまめ</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "大豆(だいず)",
+        "html": "<ruby class=\"furigana\">大豆<rt>だいず</rt></ruby>"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 145,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_3-1",
+    "sourceNumber": 2,
+    "prompt": "食料品製造業(しょくりょうひんせいぞうぎょう)で何(なに)を製造(せいぞう)しますか、間違っているものを選びなさい.",
+    "promptHtml": "<ruby class=\"furigana\">食料品製造業<rt>しょくりょうひんせいぞうぎょう</rt></ruby>で<ruby class=\"furigana\">何<rt>なに</rt></ruby>を<ruby class=\"furigana\">製造<rt>せいぞう</rt></ruby>しますか、間違っているものを選びなさい.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "魚(さかな)のかんつ”め、調味料 (ちょうみりょう)、弁当(べんとう)",
+        "html": "<ruby class=\"furigana\">魚<rt>さかな</rt></ruby>のかんつ”め、<ruby class=\"furigana\">調味料<rt>ちょうみりょう</rt></ruby>、<ruby class=\"furigana\">弁当<rt>べんとう</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "冷凍食品(れいとうしょくひん)、ハム・ソーセージ、おかし",
+        "html": "<ruby class=\"furigana\">冷凍食品<rt>れいとうしょくひん</rt></ruby>、ハム・ソーセージ、おかし"
+      },
+      {
+        "key": "C",
+        "text": "ハム・ソーセージ 、コーラ、 パン",
+        "html": "ハム・ソーセージ 、コーラ、 パン"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 146,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_3-1",
+    "sourceNumber": 3,
+    "prompt": "機会(きかい)がトラブルで停止(ていし)したときは、トラブルを取(と)り除(のぞ)く必要(ひつよう)があります、異常時(いじょうじ)のとき何の対応(たいおう)をすればいいですか、間違っている一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">機会<rt>きかい</rt></ruby>がトラブルで<ruby class=\"furigana\">停止<rt>ていし</rt></ruby>したときは、トラブルを<ruby class=\"furigana\">取<rt>と</rt></ruby>り<ruby class=\"furigana\">除<rt>のぞ</rt></ruby>く<ruby class=\"furigana\">必要<rt>ひつよう</rt></ruby>があります、<ruby class=\"furigana\">異常時<rt>いじょうじ</rt></ruby>のとき何の<ruby class=\"furigana\">対応<rt>たいおう</rt></ruby>をすればいいですか、間違っている一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "修理(しゅうり)するとき電源(でんげん)のスイッチが入(はい)っている",
+        "html": "<ruby class=\"furigana\">修理<rt>しゅうり</rt></ruby>するとき<ruby class=\"furigana\">電源<rt>でんげん</rt></ruby>のスイッチが<ruby class=\"furigana\">入<rt>はい</rt></ruby>っている"
+      },
+      {
+        "key": "B",
+        "text": "非常停止(ひじょうていし)ボタンを使(つか)う",
+        "html": "<ruby class=\"furigana\">非常停止<rt>ひじょうていし</rt></ruby>ボタンを<ruby class=\"furigana\">使<rt>つか</rt></ruby>う"
+      },
+      {
+        "key": "C",
+        "text": "運転中(うんてんちゅう)の状態(じょうたい)で手(て)を入(い)れない",
+        "html": "<ruby class=\"furigana\">運転中<rt>うんてんちゅう</rt></ruby>の<ruby class=\"furigana\">状態<rt>じょうたい</rt></ruby>で<ruby class=\"furigana\">手<rt>て</rt></ruby>を<ruby class=\"furigana\">入<rt>い</rt></ruby>れない"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 147,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_3-1",
+    "sourceNumber": 4,
+    "prompt": "微生物(びせいぶつ)やウイルスなどは目(め)で見(み)えないので、見(み)えるように何でを見(み)ますか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">微生物<rt>びせいぶつ</rt></ruby>やウイルスなどは<ruby class=\"furigana\">目<rt>め</rt></ruby>で<ruby class=\"furigana\">見<rt>み</rt></ruby>えないので、<ruby class=\"furigana\">見<rt>み</rt></ruby>えるように何でを<ruby class=\"furigana\">見<rt>み</rt></ruby>ますか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "顕微鏡(けんびきょう)",
+        "html": "<ruby class=\"furigana\">顕微鏡<rt>けんびきょう</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "保護(ほご)メガネ",
+        "html": "<ruby class=\"furigana\">保護<rt>ほご</rt></ruby>メガネ"
+      },
+      {
+        "key": "C",
+        "text": "金属探知器(きんぞくたんちき)",
+        "html": "<ruby class=\"furigana\">金属探知器<rt>きんぞくたんちき</rt></ruby>"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 148,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_3-1",
+    "sourceNumber": 5,
+    "prompt": "職場(しょくば)で逸脱(いつだつ)が起(お)こるとき何をしなければなりますか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">職場<rt>しょくば</rt></ruby>で<ruby class=\"furigana\">逸脱<rt>いつだつ</rt></ruby>が<ruby class=\"furigana\">起<rt>お</rt></ruby>こるとき何をしなければなりますか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "作業場(さぎょうじょう)を離(はな)れる",
+        "html": "<ruby class=\"furigana\">作業場<rt>さぎょうじょう</rt></ruby>を<ruby class=\"furigana\">離<rt>はな</rt></ruby>れる"
+      },
+      {
+        "key": "B",
+        "text": "佐長(さちょう)に報告(ほうこく)する",
+        "html": "<ruby class=\"furigana\">佐長<rt>さちょう</rt></ruby>に<ruby class=\"furigana\">報告<rt>ほうこく</rt></ruby>する"
+      },
+      {
+        "key": "C",
+        "text": "管理者(かんりしゃ)に連絡(れんらく)する",
+        "html": "<ruby class=\"furigana\">管理者<rt>かんりしゃ</rt></ruby>に<ruby class=\"furigana\">連絡<rt>れんらく</rt></ruby>する"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 149,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_3-1",
+    "sourceNumber": 6,
+    "prompt": "正しい作業服(さぎょうふく)を着用(ちゃくよう)について、正しいものを一つ選びなさい。",
+    "promptHtml": "正しい<ruby class=\"furigana\">作業服<rt>さぎょうふく</rt></ruby>を<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>について、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "ヘアーネットを帽子(ぼうし)の外(そと)に着用(ちゃくよう)",
+        "html": "ヘアーネットを<ruby class=\"furigana\">帽子<rt>ぼうし</rt></ruby>の<ruby class=\"furigana\">外<rt>そと</rt></ruby>に<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "作業服(さぎょうふく)はポケットのないを着用(ちゃくよう)",
+        "html": "<ruby class=\"furigana\">作業服<rt>さぎょうふく</rt></ruby>はポケットのないを<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "作業服(さぎょうふく)が不衛生(ふえいせい)なものを着用(ちゃくよう)",
+        "html": "<ruby class=\"furigana\">作業服<rt>さぎょうふく</rt></ruby>が<ruby class=\"furigana\">不衛生<rt>ふえいせい</rt></ruby>なものを<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 150,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_3-1",
+    "sourceNumber": 7,
+    "prompt": "微生物(びせいぶつ)を殺(ころ)す加熱(かねつ)温度(おんど)と時間(じかん)について、正しいものを一つ選びなさい。ふんかんいじょう",
+    "promptHtml": "<ruby class=\"furigana\">微生物<rt>びせいぶつ</rt></ruby>を<ruby class=\"furigana\">殺<rt>ころ</rt></ruby>す<ruby class=\"furigana\">加熱<rt>かねつ</rt></ruby><ruby class=\"furigana\">温度<rt>おんど</rt></ruby>と<ruby class=\"furigana\">時間<rt>じかん</rt></ruby>について、正しいものを一つ選びなさい。ふんかんいじょう",
+    "choices": [
+      {
+        "key": "A",
+        "text": "サルモネラ菌(きん)、中心温度(ちゅうしんおんど)80⁰Ｃ－90⁰Ｃ、1 分 間 以 上ふんかんいじょう",
+        "html": "サルモネラ<ruby class=\"furigana\">菌<rt>きん</rt></ruby>、<ruby class=\"furigana\">中心温度<rt>ちゅうしんおんど</rt></ruby>80⁰Ｃ－90⁰Ｃ、1 分 間 以 上ふんかんいじょう"
+      },
+      {
+        "key": "B",
+        "text": "セレウス菌(きん)中心温度(ちゅうしんおんど)120⁰Ｃ、4 分 間 以 上びょうかんいじょう",
+        "html": "セレウス<ruby class=\"furigana\">菌<rt>きん</rt></ruby><ruby class=\"furigana\">中心温度<rt>ちゅうしんおんど</rt></ruby>120⁰Ｃ、4 分 間 以 上びょうかんいじょう"
+      },
+      {
+        "key": "C",
+        "text": "ノロウイルス、中心温度(ちゅうしんおんど)75⁰Ｃ、90 秒 間 以 上",
+        "html": "ノロウイルス、<ruby class=\"furigana\">中心温度<rt>ちゅうしんおんど</rt></ruby>75⁰Ｃ、90 秒 間 以 上"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 151,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_3-1",
+    "sourceNumber": 8,
+    "prompt": "5S 活動(かつどう)の整理(せいり)はどいう意味(いみ)ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "5S <ruby class=\"furigana\">活動<rt>かつどう</rt></ruby>の<ruby class=\"furigana\">整理<rt>せいり</rt></ruby>はどいう<ruby class=\"furigana\">意味<rt>いみ</rt></ruby>ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "器具(きぐ)や道具(どうぐ)を必要(ひつよう)なときすぐに取(と)り出(だ)せるようにすること",
+        "html": "<ruby class=\"furigana\">器具<rt>きぐ</rt></ruby>や<ruby class=\"furigana\">道具<rt>どうぐ</rt></ruby>を<ruby class=\"furigana\">必要<rt>ひつよう</rt></ruby>なときすぐに<ruby class=\"furigana\">取<rt>と</rt></ruby>り<ruby class=\"furigana\">出<rt>だ</rt></ruby>せるようにすること"
+      },
+      {
+        "key": "B",
+        "text": "決(き)められたこと決(き)められたとおりにできること",
+        "html": "<ruby class=\"furigana\">決<rt>き</rt></ruby>められたこと<ruby class=\"furigana\">決<rt>き</rt></ruby>められたとおりにできること"
+      },
+      {
+        "key": "C",
+        "text": "使(つか)わない物(もの)を無(な)くして、使(つか)う物(もの)だけにすること",
+        "html": "<ruby class=\"furigana\">使<rt>つか</rt></ruby>わない<ruby class=\"furigana\">物<rt>もの</rt></ruby>を<ruby class=\"furigana\">無<rt>な</rt></ruby>くして、<ruby class=\"furigana\">使<rt>つか</rt></ruby>う<ruby class=\"furigana\">物<rt>もの</rt></ruby>だけにすること"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 152,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_3-1",
+    "sourceNumber": 9,
+    "prompt": "正しく活動(かつどう)の区分衛生管理(くぶんえいせいかんり)について、正しいものを一つ選びなさい。",
+    "promptHtml": "正しく<ruby class=\"furigana\">活動<rt>かつどう</rt></ruby>の<ruby class=\"furigana\">区分衛生管理<rt>くぶんえいせいかんり</rt></ruby>について、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "作業場(さぎょうじょう)で使(つか)っている作業服(さぎょうふく)は使(つか)ってまま作業場(さぎょうじょう)に離(はな)らなければならない",
+        "html": "<ruby class=\"furigana\">作業場<rt>さぎょうじょう</rt></ruby>で<ruby class=\"furigana\">使<rt>つか</rt></ruby>っている<ruby class=\"furigana\">作業服<rt>さぎょうふく</rt></ruby>は<ruby class=\"furigana\">使<rt>つか</rt></ruby>ってまま<ruby class=\"furigana\">作業場<rt>さぎょうじょう</rt></ruby>に<ruby class=\"furigana\">離<rt>はな</rt></ruby>らなければならない"
+      },
+      {
+        "key": "B",
+        "text": "トイレを使(つか)うときは履(は)き替(か)える",
+        "html": "トイレを<ruby class=\"furigana\">使<rt>つか</rt></ruby>うときは<ruby class=\"furigana\">履<rt>は</rt></ruby>き<ruby class=\"furigana\">替<rt>か</rt></ruby>える"
+      },
+      {
+        "key": "C",
+        "text": "作業場(さぎょうじょう)の外(そと)から、作業場(さぎょうじょう)の入(はい)るときは土(つち)やほこりなどがついなかった",
+        "html": "<ruby class=\"furigana\">作業場<rt>さぎょうじょう</rt></ruby>の<ruby class=\"furigana\">外<rt>そと</rt></ruby>から、<ruby class=\"furigana\">作業場<rt>さぎょうじょう</rt></ruby>の<ruby class=\"furigana\">入<rt>はい</rt></ruby>るときは<ruby class=\"furigana\">土<rt>つち</rt></ruby>やほこりなどがついなかった"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 153,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_3-1",
+    "sourceNumber": 10,
+    "prompt": "サルモネラ属菌(ぞくきん)の原因(げんいん)となりやすい食品(しょくひん)は何ですか、間違っているものを一つ選びなさい。",
+    "promptHtml": "サルモネラ<ruby class=\"furigana\">属菌<rt>ぞくきん</rt></ruby>の<ruby class=\"furigana\">原因<rt>げんいん</rt></ruby>となりやすい<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>は何ですか、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "鶏肉(とりにく)",
+        "html": "<ruby class=\"furigana\">鶏肉<rt>とりにく</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "鶏卵(けいらん)",
+        "html": "<ruby class=\"furigana\">鶏卵<rt>けいらん</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "豚肉(ぶたにく)",
+        "html": "<ruby class=\"furigana\">豚肉<rt>ぶたにく</rt></ruby>"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 154,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_3-1",
+    "sourceNumber": 11,
+    "prompt": "食品衛生(しょくひんえいせい)の基本(きほん)の行動(こうどう)について、間違(まちが)っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">食品衛生<rt>しょくひんえいせい</rt></ruby>の<ruby class=\"furigana\">基本<rt>きほん</rt></ruby>の<ruby class=\"furigana\">行動<rt>こうどう</rt></ruby>について、<ruby class=\"furigana\">間違<rt>まちが</rt></ruby>っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "作業服(さぎょうふく)や手袋(てぶくろ)を正(ただし)く着用(ちゃくよう)する",
+        "html": "<ruby class=\"furigana\">作業服<rt>さぎょうふく</rt></ruby>や<ruby class=\"furigana\">手袋<rt>てぶくろ</rt></ruby>を<ruby class=\"furigana\">正<rt>ただし</rt></ruby>く<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>する"
+      },
+      {
+        "key": "B",
+        "text": "清潔(せいけつ)な設備(せつび) •機械(きかい) • 器具(きぐ) などを使(つか)う",
+        "html": "<ruby class=\"furigana\">清潔<rt>せいけつ</rt></ruby>な<ruby class=\"furigana\">設備<rt>せつび</rt></ruby> •<ruby class=\"furigana\">機械<rt>きかい</rt></ruby> • <ruby class=\"furigana\">器具<rt>きぐ</rt></ruby> などを<ruby class=\"furigana\">使<rt>つか</rt></ruby>う"
+      },
+      {
+        "key": "C",
+        "text": "食品(しょくひん)や原材料(げんざいりょう)を室温(しつおん)で保管(ほかん)します",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>や<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby>を<ruby class=\"furigana\">室温<rt>しつおん</rt></ruby>で<ruby class=\"furigana\">保管<rt>ほかん</rt></ruby>します"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 155,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_3-1",
+    "sourceNumber": 12,
+    "prompt": "次(つぎ)の標識(ひょうしき)はどういう意味(いみ)ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">次<rt>つぎ</rt></ruby>の<ruby class=\"furigana\">標識<rt>ひょうしき</rt></ruby>はどういう<ruby class=\"furigana\">意味<rt>いみ</rt></ruby>ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "走(はし)ることを禁止(きんし)する",
+        "html": "<ruby class=\"furigana\">走<rt>はし</rt></ruby>ることを<ruby class=\"furigana\">禁止<rt>きんし</rt></ruby>する"
+      },
+      {
+        "key": "B",
+        "text": "入(はい)ることを禁止(きんし)する",
+        "html": "<ruby class=\"furigana\">入<rt>はい</rt></ruby>ることを<ruby class=\"furigana\">禁止<rt>きんし</rt></ruby>する"
+      },
+      {
+        "key": "C",
+        "text": "手(て)で触(さわ)ることを禁止(きんし)する",
+        "html": "<ruby class=\"furigana\">手<rt>て</rt></ruby>で<ruby class=\"furigana\">触<rt>さわ</rt></ruby>ることを<ruby class=\"furigana\">禁止<rt>きんし</rt></ruby>する"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 156,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_3-1",
+    "sourceNumber": 13,
+    "prompt": "寄生虫(きせいちゅ)について、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">寄生虫<rt>きせいちゅ</rt></ruby>について、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "アニサキスは寄生虫(きせいちゅ)の一つです",
+        "html": "アニサキスは<ruby class=\"furigana\">寄生虫<rt>きせいちゅ</rt></ruby>の一つです"
+      },
+      {
+        "key": "B",
+        "text": "魚介類(ぎょかいるい)を生(なま)のまま食べると、アニサキス食中毒(しょくちゅうどく)がおこります",
+        "html": "<ruby class=\"furigana\">魚介類<rt>ぎょかいるい</rt></ruby>を<ruby class=\"furigana\">生<rt>なま</rt></ruby>のまま食べると、アニサキス<ruby class=\"furigana\">食中毒<rt>しょくちゅうどく</rt></ruby>がおこります"
+      },
+      {
+        "key": "C",
+        "text": "人や岩(いわ)の表面(ひょうめん)や体内(たいない)で、人や岩(いわ)から栄養(えいよう)を取(と)って生(い)きているの",
+        "html": "人や<ruby class=\"furigana\">岩<rt>いわ</rt></ruby>の<ruby class=\"furigana\">表面<rt>ひょうめん</rt></ruby>や<ruby class=\"furigana\">体内<rt>たいない</rt></ruby>で、人や<ruby class=\"furigana\">岩<rt>いわ</rt></ruby>から<ruby class=\"furigana\">栄養<rt>えいよう</rt></ruby>を<ruby class=\"furigana\">取<rt>と</rt></ruby>って<ruby class=\"furigana\">生<rt>い</rt></ruby>きているの"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 157,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_3-1",
+    "sourceNumber": 14,
+    "prompt": "食品衛生(しょくひんえいせい)とはなんですか、正しいものを一つ選びなさい",
+    "promptHtml": "<ruby class=\"furigana\">食品衛生<rt>しょくひんえいせい</rt></ruby>とはなんですか、正しいものを一つ選びなさい",
+    "choices": [
+      {
+        "key": "A",
+        "text": "食品(しょくひん)を食べて、人が病気(びょうき)になること、ケガをします",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を食べて、人が<ruby class=\"furigana\">病気<rt>びょうき</rt></ruby>になること、ケガをします"
+      },
+      {
+        "key": "B",
+        "text": "食品(しょくひん)を食べない、人が病気(びょうき)にならないこと、ケガをしないことです",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を食べない、人が<ruby class=\"furigana\">病気<rt>びょうき</rt></ruby>にならないこと、ケガをしないことです"
+      },
+      {
+        "key": "C",
+        "text": "食品を食べて、人が病気にならないこと、ケガをしないことです",
+        "html": "食品を食べて、人が病気にならないこと、ケガをしないことです"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 158,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_3-1",
+    "sourceNumber": 15,
+    "prompt": "食品(しょくひん)の衛生管理者(えいせいかんり)が十分(じゅうぶん)ではない食品(しょくひん)を食べた(たべた)人(ひと)とき、何を起こるか、間違っているものを一つ選びなさい.",
+    "promptHtml": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>の<ruby class=\"furigana\">衛生管理者<rt>えいせいかんり</rt></ruby>が<ruby class=\"furigana\">十分<rt>じゅうぶん</rt></ruby>ではない<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を<ruby class=\"furigana\">食べた<rt>たべた</rt></ruby><ruby class=\"furigana\">人<rt>ひと</rt></ruby>とき、何を起こるか、間違っているものを一つ選びなさい.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "会社(かいしゃ)の信用(しんよう)を高めます",
+        "html": "<ruby class=\"furigana\">会社<rt>かいしゃ</rt></ruby>の<ruby class=\"furigana\">信用<rt>しんよう</rt></ruby>を高めます"
+      },
+      {
+        "key": "B",
+        "text": "病気(びょうき)になりました",
+        "html": "<ruby class=\"furigana\">病気<rt>びょうき</rt></ruby>になりました"
+      },
+      {
+        "key": "C",
+        "text": "ケガをします",
+        "html": "ケガをします"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 159,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_3-1",
+    "sourceNumber": 16,
+    "prompt": "工場(こうじょう)で作業者(さぎょしゃ)から食品(しょくひん)に危害要因(きがいよういん)がつかないようにするため、手袋(てぶくろ)やエプロンを交換(こうかん)しなければならない場合(ばあい)があります、いつですか。間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">工場<rt>こうじょう</rt></ruby>で<ruby class=\"furigana\">作業者<rt>さぎょしゃ</rt></ruby>から<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>に<ruby class=\"furigana\">危害要因<rt>きがいよういん</rt></ruby>がつかないようにするため、<ruby class=\"furigana\">手袋<rt>てぶくろ</rt></ruby>やエプロンを<ruby class=\"furigana\">交換<rt>こうかん</rt></ruby>しなければならない<ruby class=\"furigana\">場合<rt>ばあい</rt></ruby>があります、いつですか。間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "トイレ、休憩(きゅうけい)の後(あと)、作業場(さぎょうじょう)に入(はい)るとき",
+        "html": "トイレ、<ruby class=\"furigana\">休憩<rt>きゅうけい</rt></ruby>の<ruby class=\"furigana\">後<rt>あと</rt></ruby>、<ruby class=\"furigana\">作業場<rt>さぎょうじょう</rt></ruby>に<ruby class=\"furigana\">入<rt>はい</rt></ruby>るとき"
+      },
+      {
+        "key": "B",
+        "text": "着用(ちゃくよう)していた手袋(てぶくろ)が破(やぶ)れたとき",
+        "html": "<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>していた<ruby class=\"furigana\">手袋<rt>てぶくろ</rt></ruby>が<ruby class=\"furigana\">破<rt>やぶ</rt></ruby>れたとき"
+      },
+      {
+        "key": "C",
+        "text": "ある食品(しょくひん)の盛(も)り付(つ)け作業(さぎょう)した後(あと)に、同(おな)じの食品(しょくひん)の盛(も)り付(つ)け作業(さぎょう)をする",
+        "html": "ある<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>の<ruby class=\"furigana\">盛<rt>も</rt></ruby>り<ruby class=\"furigana\">付<rt>つ</rt></ruby>け<ruby class=\"furigana\">作業<rt>さぎょう</rt></ruby>した<ruby class=\"furigana\">後<rt>あと</rt></ruby>に、<ruby class=\"furigana\">同<rt>おな</rt></ruby>じの<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>の<ruby class=\"furigana\">盛<rt>も</rt></ruby>り<ruby class=\"furigana\">付<rt>つ</rt></ruby>け<ruby class=\"furigana\">作業<rt>さぎょう</rt></ruby>をする"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 160,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_3-1",
+    "sourceNumber": 17,
+    "prompt": "かぼちゃを切(き)るとき何を着用(ちゃくよう)しなければなりませんか、正しいものを一つ選びなさい。",
+    "promptHtml": "かぼちゃを<ruby class=\"furigana\">切<rt>き</rt></ruby>るとき何を<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>しなければなりませんか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "ヘルメット",
+        "html": "ヘルメット"
+      },
+      {
+        "key": "B",
+        "text": "くさり手袋(てぶくろ)",
+        "html": "くさり<ruby class=\"furigana\">手袋<rt>てぶくろ</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "エプロン",
+        "html": "エプロン"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 161,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_3-1",
+    "sourceNumber": 18,
+    "prompt": "ヘルメットの着用(ちゃくよう)について、どのような条件(じょうけん)で着用(ちゃくよう)すればいいですか、間違っている一つ選びなさい。",
+    "promptHtml": "ヘルメットの<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>について、どのような<ruby class=\"furigana\">条件<rt>じょうけん</rt></ruby>で<ruby class=\"furigana\">着用<rt>ちゃくよう</rt></ruby>すればいいですか、間違っている一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "食品(しょくひん)を製造固定(せいぞうこてい)するとき",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を<ruby class=\"furigana\">製造固定<rt>せいぞうこてい</rt></ruby>するとき"
+      },
+      {
+        "key": "B",
+        "text": "高所作業(こうしょさぎょう)のとき",
+        "html": "<ruby class=\"furigana\">高所作業<rt>こうしょさぎょう</rt></ruby>のとき"
+      },
+      {
+        "key": "C",
+        "text": "7 メートルのところで作業(さぎょう)するとき",
+        "html": "7 メートルのところで<ruby class=\"furigana\">作業<rt>さぎょう</rt></ruby>するとき"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 162,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_3-1",
+    "sourceNumber": 19,
+    "prompt": "HCCP の原則(げんそく)が何がありますか、正しいものを一つ選びなさい。",
+    "promptHtml": "HCCP の<ruby class=\"furigana\">原則<rt>げんそく</rt></ruby>が何がありますか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3",
+        "html": "3"
+      },
+      {
+        "key": "B",
+        "text": "5",
+        "html": "5"
+      },
+      {
+        "key": "C",
+        "text": "7",
+        "html": "7"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 163,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_3-1",
+    "sourceNumber": 20,
+    "prompt": "濃度(のうど)0,2％NACL 溶液(ようえき)があります、300ppm の NACL 溶液(ようえき)を 1Lを作(つく)るときに、この溶液(ようえき)と水(みず)はそれぞれ何㎖ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">濃度<rt>のうど</rt></ruby>0,2％NACL <ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>があります、300ppm の NACL <ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>を 1Lを<ruby class=\"furigana\">作<rt>つく</rt></ruby>るときに、この<ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>と<ruby class=\"furigana\">水<rt>みず</rt></ruby>はそれぞれ何㎖ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "溶液(ようえき)1,5ml、水 998,5ml",
+        "html": "<ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>1,5ml、水 998,5ml"
+      },
+      {
+        "key": "B",
+        "text": "溶液(ようえき)105ml、水 985ml",
+        "html": "<ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>105ml、水 985ml"
+      },
+      {
+        "key": "C",
+        "text": "溶液(ようえき)150ml、水 850ml",
+        "html": "<ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>150ml、水 850ml"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 164,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_3-1",
+    "sourceNumber": 21,
+    "prompt": "危害要因分(きがいよういんぶんせき)が3つがあります、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">危害要因分<rt>きがいよういんぶんせき</rt></ruby>が3つがあります、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "物理的危害要因(ぶつりてききがいよういん)",
+        "html": "<ruby class=\"furigana\">物理的危害要因<rt>ぶつりてききがいよういん</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "化学的危害要因(だいがくてききがいよういん)",
+        "html": "<ruby class=\"furigana\">化学的危害要因<rt>だいがくてききがいよういん</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "清潔的危害要因(せいけつてききがいよういん)",
+        "html": "<ruby class=\"furigana\">清潔的危害要因<rt>せいけつてききがいよういん</rt></ruby>"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 165,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_3-1",
+    "sourceNumber": 22,
+    "prompt": "化学的危害要因(かがくてききがいよういん)の中でヒスタミンがあります、特(とく)に赤(あか)み魚(さかな)の悪(わる)い条件(じょうけん)で保存(ほぞん)された魚(さかな)です。特(とく)に何の魚(さかな)ですか。間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">化学的危害要因<rt>かがくてききがいよういん</rt></ruby>の中でヒスタミンがあります、<ruby class=\"furigana\">特<rt>とく</rt></ruby>に<ruby class=\"furigana\">赤<rt>あか</rt></ruby>み<ruby class=\"furigana\">魚<rt>さかな</rt></ruby>の<ruby class=\"furigana\">悪<rt>わる</rt></ruby>い<ruby class=\"furigana\">条件<rt>じょうけん</rt></ruby>で<ruby class=\"furigana\">保存<rt>ほぞん</rt></ruby>された<ruby class=\"furigana\">魚<rt>さかな</rt></ruby>です。<ruby class=\"furigana\">特<rt>とく</rt></ruby>に何の<ruby class=\"furigana\">魚<rt>さかな</rt></ruby>ですか。間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "ウニ",
+        "html": "ウニ"
+      },
+      {
+        "key": "B",
+        "text": "イワシ",
+        "html": "イワシ"
+      },
+      {
+        "key": "C",
+        "text": "サバ",
+        "html": "サバ"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 166,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_3-1",
+    "sourceNumber": 23,
+    "prompt": "腸管出血性大腸菌(ちょうかんしゅっけつせいだいちょういん)について、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">腸管出血性大腸菌<rt>ちょうかんしゅっけつせいだいちょういん</rt></ruby>について、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "体(からだ)の中(なか)菌(きん)増(ふ)えて発症(はっしょう)する",
+        "html": "<ruby class=\"furigana\">体<rt>からだ</rt></ruby>の<ruby class=\"furigana\">中<rt>なか</rt></ruby><ruby class=\"furigana\">菌<rt>きん</rt></ruby><ruby class=\"furigana\">増<rt>ふ</rt></ruby>えて<ruby class=\"furigana\">発症<rt>はっしょう</rt></ruby>する"
+      },
+      {
+        "key": "B",
+        "text": "牛肉(ぎゅうにく)、野菜(やさい)、流水(りゅうすい)は原因(げんいん)となりやすい食品(しょくひん)",
+        "html": "<ruby class=\"furigana\">牛肉<rt>ぎゅうにく</rt></ruby>、<ruby class=\"furigana\">野菜<rt>やさい</rt></ruby>、<ruby class=\"furigana\">流水<rt>りゅうすい</rt></ruby>は<ruby class=\"furigana\">原因<rt>げんいん</rt></ruby>となりやすい<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "激(はげ)しい下痢(げり)、腹痛(ふくつう)、血便(けつべん)は主(おも)な症状(しょうじょう)",
+        "html": "<ruby class=\"furigana\">激<rt>はげ</rt></ruby>しい<ruby class=\"furigana\">下痢<rt>げり</rt></ruby>、<ruby class=\"furigana\">腹痛<rt>ふくつう</rt></ruby>、<ruby class=\"furigana\">血便<rt>けつべん</rt></ruby>は<ruby class=\"furigana\">主<rt>おも</rt></ruby>な<ruby class=\"furigana\">症状<rt>しょうじょう</rt></ruby>"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 167,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_3-1",
+    "sourceNumber": 24,
+    "prompt": "芽胞(がほう)の説明(せつめい)について、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">芽胞<rt>がほう</rt></ruby>の<ruby class=\"furigana\">説明<rt>せつめい</rt></ruby>について、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "高温(こうおん)で加熱(じゃねつ)場合(ばあい)は死(し)ぬ",
+        "html": "<ruby class=\"furigana\">高温<rt>こうおん</rt></ruby>で<ruby class=\"furigana\">加熱<rt>じゃねつ</rt></ruby><ruby class=\"furigana\">場合<rt>ばあい</rt></ruby>は<ruby class=\"furigana\">死<rt>し</rt></ruby>ぬ"
+      },
+      {
+        "key": "B",
+        "text": "殻(から)を被(かぶ)った細菌(さいきん)の種(たね)のようなものです",
+        "html": "<ruby class=\"furigana\">殻<rt>から</rt></ruby>を<ruby class=\"furigana\">被<rt>かぶ</rt></ruby>った<ruby class=\"furigana\">細菌<rt>さいきん</rt></ruby>の<ruby class=\"furigana\">種<rt>たね</rt></ruby>のようなものです"
+      },
+      {
+        "key": "C",
+        "text": "細菌(さいきん)が育(そだ)ちやすい環境(かんきょう)に戻(もど)ると、通常(つうじょう)の細菌(さいきん)に戻(もど)って",
+        "html": "<ruby class=\"furigana\">細菌<rt>さいきん</rt></ruby>が<ruby class=\"furigana\">育<rt>そだ</rt></ruby>ちやすい<ruby class=\"furigana\">環境<rt>かんきょう</rt></ruby>に<ruby class=\"furigana\">戻<rt>もど</rt></ruby>ると、<ruby class=\"furigana\">通常<rt>つうじょう</rt></ruby>の<ruby class=\"furigana\">細菌<rt>さいきん</rt></ruby>に<ruby class=\"furigana\">戻<rt>もど</rt></ruby>って"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 168,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_3-1",
+    "sourceNumber": 25,
+    "prompt": "下(した)は 500g のラーメンの配合(はいごう)です。同(おな)じ配合(はいごう)で作(つく)るときに、小麦粉(こうむぎこ)の 20 ㎏あれば、ラーメンは何㎏できますか。小麦粉(こむぎこ): 400g, 塩 20g, 油 50g",
+    "promptHtml": "<ruby class=\"furigana\">下<rt>した</rt></ruby>は 500g のラーメンの<ruby class=\"furigana\">配合<rt>はいごう</rt></ruby>です。<ruby class=\"furigana\">同<rt>おな</rt></ruby>じ<ruby class=\"furigana\">配合<rt>はいごう</rt></ruby>で<ruby class=\"furigana\">作<rt>つく</rt></ruby>るときに、<ruby class=\"furigana\">小麦粉<rt>こうむぎこ</rt></ruby>の 20 ㎏あれば、ラーメンは何㎏できますか。<ruby class=\"furigana\">小麦粉<rt>こむぎこ</rt></ruby>: 400g, 塩 20g, 油 50g",
+    "choices": [
+      {
+        "key": "A",
+        "text": "15kg",
+        "html": "15kg"
+      },
+      {
+        "key": "B",
+        "text": "20kg",
+        "html": "20kg"
+      },
+      {
+        "key": "C",
+        "text": "25kg",
+        "html": "25kg"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 169,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_4",
+    "sourceNumber": 1,
+    "prompt": "作業(さぎょう)するときのルールについて、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">作業<rt>さぎょう</rt></ruby>するときのルールについて、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "他(ほかの)の人が危険(きけん)を見(み)たら、音(おと)をかけて注意(ちゅうい)する",
+        "html": "<ruby class=\"furigana\">他<rt>ほかの</rt></ruby>の人が<ruby class=\"furigana\">危険<rt>きけん</rt></ruby>を<ruby class=\"furigana\">見<rt>み</rt></ruby>たら、<ruby class=\"furigana\">音<rt>おと</rt></ruby>をかけて<ruby class=\"furigana\">注意<rt>ちゅうい</rt></ruby>する"
+      },
+      {
+        "key": "B",
+        "text": "ムダ話(ばなし)をするで作業(さぎょう)する",
+        "html": "ムダ<ruby class=\"furigana\">話<rt>ばなし</rt></ruby>をするで<ruby class=\"furigana\">作業<rt>さぎょう</rt></ruby>する"
+      },
+      {
+        "key": "C",
+        "text": "指差呼称(しさこしょう)をする",
+        "html": "<ruby class=\"furigana\">指差呼称<rt>しさこしょう</rt></ruby>をする"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 170,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_4",
+    "sourceNumber": 2,
+    "prompt": "交差汚染(こうさおせん)はどいう意味(いみ)ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">交差汚染<rt>こうさおせん</rt></ruby>はどいう<ruby class=\"furigana\">意味<rt>いみ</rt></ruby>ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "清潔(せいけつ)な人が清潔(せいけつ)ではないものに触(ふ)れると、危害要因(きがいよういん)に汚染(おせん)されてしまいます",
+        "html": "<ruby class=\"furigana\">清潔<rt>せいけつ</rt></ruby>な人が<ruby class=\"furigana\">清潔<rt>せいけつ</rt></ruby>ではないものに<ruby class=\"furigana\">触<rt>ふ</rt></ruby>れると、<ruby class=\"furigana\">危害要因<rt>きがいよういん</rt></ruby>に<ruby class=\"furigana\">汚染<rt>おせん</rt></ruby>されてしまいます"
+      },
+      {
+        "key": "B",
+        "text": "清潔(せいけつ)なものと清潔(せいけつ)ではないものが別(べつ)の場所(ばしょ)におきます",
+        "html": "<ruby class=\"furigana\">清潔<rt>せいけつ</rt></ruby>なものと<ruby class=\"furigana\">清潔<rt>せいけつ</rt></ruby>ではないものが<ruby class=\"furigana\">別<rt>べつ</rt></ruby>の<ruby class=\"furigana\">場所<rt>ばしょ</rt></ruby>におきます"
+      },
+      {
+        "key": "C",
+        "text": "清潔(せいけつ)な人が清潔(せいけつ)な原材料(げんざいりょう)が触(ふ)れる",
+        "html": "<ruby class=\"furigana\">清潔<rt>せいけつ</rt></ruby>な人が<ruby class=\"furigana\">清潔<rt>せいけつ</rt></ruby>な<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby>が<ruby class=\"furigana\">触<rt>ふ</rt></ruby>れる"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 171,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_4",
+    "sourceNumber": 3,
+    "prompt": "なぜ加熱調理(かねつちょうり)を終(お)わった食品(しょくひん)はすぐに冷(ひ)やすことが重要(じゅうよう)ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "なぜ<ruby class=\"furigana\">加熱調理<rt>かねつちょうり</rt></ruby>を<ruby class=\"furigana\">終<rt>お</rt></ruby>わった<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>はすぐに<ruby class=\"furigana\">冷<rt>ひ</rt></ruby>やすことが<ruby class=\"furigana\">重要<rt>じゅうよう</rt></ruby>ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "食品(しょくひん)の中(なか)で食中毒菌(しょくちゅうどくきん)の原因(げんいん)が増(ふ)えない",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>の<ruby class=\"furigana\">中<rt>なか</rt></ruby>で<ruby class=\"furigana\">食中毒菌<rt>しょくちゅうどくきん</rt></ruby>の<ruby class=\"furigana\">原因<rt>げんいん</rt></ruby>が<ruby class=\"furigana\">増<rt>ふ</rt></ruby>えない"
+      },
+      {
+        "key": "B",
+        "text": "食品(しょくひん)の値段(ねだん)が高(たか)くなる",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>の<ruby class=\"furigana\">値段<rt>ねだん</rt></ruby>が<ruby class=\"furigana\">高<rt>たか</rt></ruby>くなる"
+      },
+      {
+        "key": "C",
+        "text": "冷凍庫(れいとうこ)の中身(なかみ)がいっぱいになるように",
+        "html": "<ruby class=\"furigana\">冷凍庫<rt>れいとうこ</rt></ruby>の<ruby class=\"furigana\">中身<rt>なかみ</rt></ruby>がいっぱいになるように"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 172,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_4",
+    "sourceNumber": 4,
+    "prompt": "X 線異物検出機(せんいぶつけんしゅつき)は何を検出(けんしゅつ)するですか、間違っているものを一つ選び。",
+    "promptHtml": "X <ruby class=\"furigana\">線異物検出機<rt>せんいぶつけんしゅつき</rt></ruby>は何を<ruby class=\"furigana\">検出<rt>けんしゅつ</rt></ruby>するですか、間違っているものを一つ選び。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "金属(きんぞく)",
+        "html": "<ruby class=\"furigana\">金属<rt>きんぞく</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "小石(こいし)",
+        "html": "<ruby class=\"furigana\">小石<rt>こいし</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "野菜(やさい)",
+        "html": "<ruby class=\"furigana\">野菜<rt>やさい</rt></ruby>"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 173,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_4",
+    "sourceNumber": 5,
+    "prompt": "「硬(かた)くて歯(は)が欠(か)ける、尖(とが)っていて口(くち)の中に傷(きず)ができるなど、人にケガをさせるおそれがあるもの」は何の危害要因(きがいよういん)ですか。正しいものを一つ選びなさい。",
+    "promptHtml": "「<ruby class=\"furigana\">硬<rt>かた</rt></ruby>くて<ruby class=\"furigana\">歯<rt>は</rt></ruby>が<ruby class=\"furigana\">欠<rt>か</rt></ruby>ける、<ruby class=\"furigana\">尖<rt>とが</rt></ruby>っていて<ruby class=\"furigana\">口<rt>くち</rt></ruby>の中に<ruby class=\"furigana\">傷<rt>きず</rt></ruby>ができるなど、人にケガをさせるおそれがあるもの」は何の<ruby class=\"furigana\">危害要因<rt>きがいよういん</rt></ruby>ですか。正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "化学的危害要因(かがくてききがいよういん)",
+        "html": "<ruby class=\"furigana\">化学的危害要因<rt>かがくてききがいよういん</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "物理的危害要因(ぶつりてききがいよういん)",
+        "html": "<ruby class=\"furigana\">物理的危害要因<rt>ぶつりてききがいよういん</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "生物的危害要因(せいぶつてききがいよういん",
+        "html": "生物的危害要因(せいぶつてききがいよういん"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 174,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_4",
+    "sourceNumber": 6,
+    "prompt": "ソラニンを含(ふく)んだ食品(しょくひん)を食べると、何の食中毒(しょくちゅうどく)の症状(しょうじょう)が起(お)こりますか、間違っているものを一つ選びなさい。",
+    "promptHtml": "ソラニンを<ruby class=\"furigana\">含<rt>ふく</rt></ruby>んだ<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を食べると、何の<ruby class=\"furigana\">食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby class=\"furigana\">症状<rt>しょうじょう</rt></ruby>が<ruby class=\"furigana\">起<rt>お</rt></ruby>こりますか、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "吐(は)き気(け)",
+        "html": "<ruby class=\"furigana\">吐<rt>は</rt></ruby>き<ruby class=\"furigana\">気<rt>け</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "かすみ目(め)",
+        "html": "かすみ<ruby class=\"furigana\">目<rt>め</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "頭(あたま)が痛(いた)い",
+        "html": "<ruby class=\"furigana\">頭<rt>あたま</rt></ruby>が<ruby class=\"furigana\">痛<rt>いた</rt></ruby>い"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 175,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_4",
+    "sourceNumber": 7,
+    "prompt": "「注文(ちゅうもん)した種類(しゅるい)と届(とど)いた原材料(げんざいりょう)を照(て)らし合(あ)わせて、正しい原材料(げんざいりょう)が届(とど)いているかどうかを確認(かくにん)する」は何の意味(意味)ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "「<ruby class=\"furigana\">注文<rt>ちゅうもん</rt></ruby>した<ruby class=\"furigana\">種類<rt>しゅるい</rt></ruby>と<ruby class=\"furigana\">届<rt>とど</rt></ruby>いた<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby>を<ruby class=\"furigana\">照<rt>て</rt></ruby>らし<ruby class=\"furigana\">合<rt>あ</rt></ruby>わせて、正しい<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby>が<ruby class=\"furigana\">届<rt>とど</rt></ruby>いているかどうかを<ruby class=\"furigana\">確認<rt>かくにん</rt></ruby>する」は何の<ruby class=\"furigana\">意味<rt>意味</rt></ruby>ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "原材料(げんざいりょう)検査(けんさ)",
+        "html": "<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby><ruby class=\"furigana\">検査<rt>けんさ</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "異物(いぶつ)検査(けんさ)",
+        "html": "<ruby class=\"furigana\">異物<rt>いぶつ</rt></ruby><ruby class=\"furigana\">検査<rt>けんさ</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "受入(うけいれ)検査(けんさ)",
+        "html": "<ruby class=\"furigana\">受入<rt>うけいれ</rt></ruby><ruby class=\"furigana\">検査<rt>けんさ</rt></ruby>"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 176,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_4",
+    "sourceNumber": 8,
+    "prompt": "開封(かいふう)した袋(ふくろ)や溶液(ようえき)の切(き)れ端(はし)が、食品(しょくひん)に混入(こんにゅう)しないようにするために何ををしますか、間違っているものを一つ選びんさい。",
+    "promptHtml": "<ruby class=\"furigana\">開封<rt>かいふう</rt></ruby>した<ruby class=\"furigana\">袋<rt>ふくろ</rt></ruby>や<ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>の<ruby class=\"furigana\">切<rt>き</rt></ruby>れ<ruby class=\"furigana\">端<rt>はし</rt></ruby>が、<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>に<ruby class=\"furigana\">混入<rt>こんにゅう</rt></ruby>しないようにするために何ををしますか、間違っているものを一つ選びんさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "切(き)れ口(くち)と切(き)れ端(はし)が合(あ)っていることを確認(かくにん)する",
+        "html": "<ruby class=\"furigana\">切<rt>き</rt></ruby>れ<ruby class=\"furigana\">口<rt>くち</rt></ruby>と<ruby class=\"furigana\">切<rt>き</rt></ruby>れ<ruby class=\"furigana\">端<rt>はし</rt></ruby>が<ruby class=\"furigana\">合<rt>あ</rt></ruby>っていることを<ruby class=\"furigana\">確認<rt>かくにん</rt></ruby>する"
+      },
+      {
+        "key": "B",
+        "text": "開封(かいふう)手袋(てぶくろ)や溶液(ようえき)の傷(きず)と切(き)れ端(はし)の数(かず)が同(おな)じであることを確認(かくにん)",
+        "html": "<ruby class=\"furigana\">開封<rt>かいふう</rt></ruby><ruby class=\"furigana\">手袋<rt>てぶくろ</rt></ruby>や<ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>の<ruby class=\"furigana\">傷<rt>きず</rt></ruby>と<ruby class=\"furigana\">切<rt>き</rt></ruby>れ<ruby class=\"furigana\">端<rt>はし</rt></ruby>の<ruby class=\"furigana\">数<rt>かず</rt></ruby>が<ruby class=\"furigana\">同<rt>おな</rt></ruby>じであることを<ruby class=\"furigana\">確認<rt>かくにん</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "同(おな)じ場所(ばしょ)を2回(かい)以上(いじょう)切(き)る",
+        "html": "<ruby class=\"furigana\">同<rt>おな</rt></ruby>じ<ruby class=\"furigana\">場所<rt>ばしょ</rt></ruby>を2<ruby class=\"furigana\">回<rt>かい</rt></ruby><ruby class=\"furigana\">以上<rt>いじょう</rt></ruby><ruby class=\"furigana\">切<rt>き</rt></ruby>る"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 177,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_4",
+    "sourceNumber": 9,
+    "prompt": "記録(きろく)について、何をしなければならないか、間違っている一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">記録<rt>きろく</rt></ruby>について、何をしなければならないか、間違っている一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "確認(かくにん)したとき後(あと)でまとめて記録(きろく)する",
+        "html": "<ruby class=\"furigana\">確認<rt>かくにん</rt></ruby>したとき<ruby class=\"furigana\">後<rt>あと</rt></ruby>でまとめて<ruby class=\"furigana\">記録<rt>きろく</rt></ruby>する"
+      },
+      {
+        "key": "B",
+        "text": "事実(じじつ)でないこと絶対(ぜったい)に記録(きろく)してはいけない",
+        "html": "<ruby class=\"furigana\">事実<rt>じじつ</rt></ruby>でないこと<ruby class=\"furigana\">絶対<rt>ぜったい</rt></ruby>に<ruby class=\"furigana\">記録<rt>きろく</rt></ruby>してはいけない"
+      },
+      {
+        "key": "C",
+        "text": "確認(かくにん)してないのに記録(きろく)してはいけない",
+        "html": "<ruby class=\"furigana\">確認<rt>かくにん</rt></ruby>してないのに<ruby class=\"furigana\">記録<rt>きろく</rt></ruby>してはいけない"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 178,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_4",
+    "sourceNumber": 10,
+    "prompt": "食品(しょくひん)についた食中毒菌(しょくちゅうどくきん)を増(ふ)やさないためには、どんな活動(かつどう)ですか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>についた<ruby class=\"furigana\">食中毒菌<rt>しょくちゅうどくきん</rt></ruby>を<ruby class=\"furigana\">増<rt>ふ</rt></ruby>やさないためには、どんな<ruby class=\"furigana\">活動<rt>かつどう</rt></ruby>ですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "食品(しょくひん)を高温(こうおん)で保管(ほかん)する",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を<ruby class=\"furigana\">高温<rt>こうおん</rt></ruby>で<ruby class=\"furigana\">保管<rt>ほかん</rt></ruby>する"
+      },
+      {
+        "key": "B",
+        "text": "食品(しょくひん)を室温(しつおん)で保管(ほかん)する",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を<ruby class=\"furigana\">室温<rt>しつおん</rt></ruby>で<ruby class=\"furigana\">保管<rt>ほかん</rt></ruby>する"
+      },
+      {
+        "key": "C",
+        "text": "食品(しょくひん)を適切(てきせつ)温度(おんど)で保管(ほかん)する",
+        "html": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を<ruby class=\"furigana\">適切<rt>てきせつ</rt></ruby><ruby class=\"furigana\">温度<rt>おんど</rt></ruby>で<ruby class=\"furigana\">保管<rt>ほかん</rt></ruby>する"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 179,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_4",
+    "sourceNumber": 11,
+    "prompt": "ボツリヌス菌は熱(ねつ)に強(つよ)い芽胞(がほう)を作(つく)る、食品(しょくひん)の中で菌(きん)ガ増(ふ)えて毒素(どくそ)を作(つく)る。どんな食品(しょくひん)が原因(げんいん)となりやすいですか、間違っているものを一つ選びなさい。",
+    "promptHtml": "ボツリヌス菌は<ruby class=\"furigana\">熱<rt>ねつ</rt></ruby>に<ruby class=\"furigana\">強<rt>つよ</rt></ruby>い<ruby class=\"furigana\">芽胞<rt>がほう</rt></ruby>を<ruby class=\"furigana\">作<rt>つく</rt></ruby>る、<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>の中で<ruby class=\"furigana\">菌<rt>きん</rt></ruby>ガ<ruby class=\"furigana\">増<rt>ふ</rt></ruby>えて<ruby class=\"furigana\">毒素<rt>どくそ</rt></ruby>を<ruby class=\"furigana\">作<rt>つく</rt></ruby>る。どんな<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>が<ruby class=\"furigana\">原因<rt>げんいん</rt></ruby>となりやすいですか、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "レトルト食品(しょくひん)",
+        "html": "レトルト<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "瓶詰(びんづめ)食品(しょくひん)",
+        "html": "<ruby class=\"furigana\">瓶詰<rt>びんづめ</rt></ruby><ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "紙包装(かみほうそう)食品(しょくひん)",
+        "html": "<ruby class=\"furigana\">紙包装<rt>かみほうそう</rt></ruby><ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 180,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_4",
+    "sourceNumber": 12,
+    "prompt": "仕事中(しごとちゅう)に鼻(はな)を触(さわ)ってしまった場合(ばあい)はどうすればいいですか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">仕事中<rt>しごとちゅう</rt></ruby>に<ruby class=\"furigana\">鼻<rt>はな</rt></ruby>を<ruby class=\"furigana\">触<rt>さわ</rt></ruby>ってしまった<ruby class=\"furigana\">場合<rt>ばあい</rt></ruby>はどうすればいいですか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "もう一回(いかい)手洗(てあら)いをするや手袋(てぶくろ)を交換(こうかん)する",
+        "html": "もう<ruby class=\"furigana\">一回<rt>いかい</rt></ruby><ruby class=\"furigana\">手洗<rt>てあら</rt></ruby>いをするや<ruby class=\"furigana\">手袋<rt>てぶくろ</rt></ruby>を<ruby class=\"furigana\">交換<rt>こうかん</rt></ruby>する"
+      },
+      {
+        "key": "B",
+        "text": "帰(かえ)ってもいい",
+        "html": "<ruby class=\"furigana\">帰<rt>かえ</rt></ruby>ってもいい"
+      },
+      {
+        "key": "C",
+        "text": "次亜塩素酸(じあえんそさん)ナトリウム溶液(ようえき)で手を洗(あら)う",
+        "html": "<ruby class=\"furigana\">次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウム<ruby class=\"furigana\">溶液<rt>ようえき</rt></ruby>で手を<ruby class=\"furigana\">洗<rt>あら</rt></ruby>う"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 181,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_4",
+    "sourceNumber": 13,
+    "prompt": "作業場(さぎょうじょう)に決(き)まったルールがあります、作業者(さぎょうしゃ)が守(まも)らなければならないこと、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">作業場<rt>さぎょうじょう</rt></ruby>に<ruby class=\"furigana\">決<rt>き</rt></ruby>まったルールがあります、<ruby class=\"furigana\">作業者<rt>さぎょうしゃ</rt></ruby>が<ruby class=\"furigana\">守<rt>まも</rt></ruby>らなければならないこと、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "作業場(さぎょうじょう)の中で何かを食(た)べたり飲(の)んだりしないといけない",
+        "html": "<ruby class=\"furigana\">作業場<rt>さぎょうじょう</rt></ruby>の中で何かを<ruby class=\"furigana\">食<rt>た</rt></ruby>べたり<ruby class=\"furigana\">飲<rt>の</rt></ruby>んだりしないといけない"
+      },
+      {
+        "key": "B",
+        "text": "作業服(さぎょうふく)で手で拭(ふ)いてはいけない",
+        "html": "<ruby class=\"furigana\">作業服<rt>さぎょうふく</rt></ruby>で手で<ruby class=\"furigana\">拭<rt>ふ</rt></ruby>いてはいけない"
+      },
+      {
+        "key": "C",
+        "text": "職場(しょくば)には作業(さぎょう)に関係(かんけい)のない持(も)ち物(もの)を持(も)ち込(こ)んではいけない",
+        "html": "<ruby class=\"furigana\">職場<rt>しょくば</rt></ruby>には<ruby class=\"furigana\">作業<rt>さぎょう</rt></ruby>に<ruby class=\"furigana\">関係<rt>かんけい</rt></ruby>のない<ruby class=\"furigana\">持<rt>も</rt></ruby>ち<ruby class=\"furigana\">物<rt>もの</rt></ruby>を<ruby class=\"furigana\">持<rt>も</rt></ruby>ち<ruby class=\"furigana\">込<rt>こ</rt></ruby>んではいけない"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 182,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_4",
+    "sourceNumber": 14,
+    "prompt": "大(おお)きな労働災害(ろうどうさいがい)は機械(きかい)を使(つか)っているときに起(お)きています、機械(きかい)を正しく使(つか)うについて、間違っている一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">大<rt>おお</rt></ruby>きな<ruby class=\"furigana\">労働災害<rt>ろうどうさいがい</rt></ruby>は<ruby class=\"furigana\">機械<rt>きかい</rt></ruby>を<ruby class=\"furigana\">使<rt>つか</rt></ruby>っているときに<ruby class=\"furigana\">起<rt>お</rt></ruby>きています、<ruby class=\"furigana\">機械<rt>きかい</rt></ruby>を正しく<ruby class=\"furigana\">使<rt>つか</rt></ruby>うについて、間違っている一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "始業前点検(しぎょうまえてんけん)を行(おこな)う",
+        "html": "<ruby class=\"furigana\">始業前点検<rt>しぎょうまえてんけん</rt></ruby>を<ruby class=\"furigana\">行<rt>おこな</rt></ruby>う"
+      },
+      {
+        "key": "B",
+        "text": "異常時(いじょうじ)の対応(たいおう)をしなってもいい",
+        "html": "<ruby class=\"furigana\">異常時<rt>いじょうじ</rt></ruby>の<ruby class=\"furigana\">対応<rt>たいおう</rt></ruby>をしなってもいい"
+      },
+      {
+        "key": "C",
+        "text": "作業手順書(さぎょうてじゅんしょ)を理解(りかい)して機械(きかい)を使(つか)う",
+        "html": "<ruby class=\"furigana\">作業手順書<rt>さぎょうてじゅんしょ</rt></ruby>を<ruby class=\"furigana\">理解<rt>りかい</rt></ruby>して<ruby class=\"furigana\">機械<rt>きかい</rt></ruby>を<ruby class=\"furigana\">使<rt>つか</rt></ruby>う"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 183,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_4",
+    "sourceNumber": 15,
+    "prompt": "仕事中(しごとちゅう)にけがや労働災害(ろうどうさいがい)をしないように、何を守(まも)らなければなりませんか、間違っている一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">仕事中<rt>しごとちゅう</rt></ruby>にけがや<ruby class=\"furigana\">労働災害<rt>ろうどうさいがい</rt></ruby>をしないように、何を<ruby class=\"furigana\">守<rt>まも</rt></ruby>らなければなりませんか、間違っている一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "安全標識(あんぜんひょうしき)",
+        "html": "<ruby class=\"furigana\">安全標識<rt>あんぜんひょうしき</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "作業手順書(さぎょうてじゅんしょ)",
+        "html": "<ruby class=\"furigana\">作業手順書<rt>さぎょうてじゅんしょ</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "同僚(どうりょう)の指示(しじ)を従(した)います",
+        "html": "<ruby class=\"furigana\">同僚<rt>どうりょう</rt></ruby>の<ruby class=\"furigana\">指示<rt>しじ</rt></ruby>を<ruby class=\"furigana\">従<rt>した</rt></ruby>います"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 184,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_4",
+    "sourceNumber": 16,
+    "prompt": "食品(しょくひん)を製造(せいぞう)する場合(ばあい)に重要管理点(じゅうようかんりてん)となる代表的(だいひょうてき)な工程(こうてい)は何ですか、間違っている一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を<ruby class=\"furigana\">製造<rt>せいぞう</rt></ruby>する<ruby class=\"furigana\">場合<rt>ばあい</rt></ruby>に<ruby class=\"furigana\">重要管理点<rt>じゅうようかんりてん</rt></ruby>となる<ruby class=\"furigana\">代表的<rt>だいひょうてき</rt></ruby>な<ruby class=\"furigana\">工程<rt>こうてい</rt></ruby>は何ですか、間違っている一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "加熱殺菌(かねつさっきん)",
+        "html": "<ruby class=\"furigana\">加熱殺菌<rt>かねつさっきん</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "金属探知機(きんぞくたんちき)",
+        "html": "<ruby class=\"furigana\">金属探知機<rt>きんぞくたんちき</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "野菜(やさい)による殺菌(さっきん)",
+        "html": "<ruby class=\"furigana\">野菜<rt>やさい</rt></ruby>による<ruby class=\"furigana\">殺菌<rt>さっきん</rt></ruby>"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 185,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_4",
+    "sourceNumber": 17,
+    "prompt": "金属探知機(きんぞくたんちき)は何を検出(けんしゅつ)するですか、間違っているものを一つ選び。",
+    "promptHtml": "<ruby class=\"furigana\">金属探知機<rt>きんぞくたんちき</rt></ruby>は何を<ruby class=\"furigana\">検出<rt>けんしゅつ</rt></ruby>するですか、間違っているものを一つ選び。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "鉄(てつ)",
+        "html": "<ruby class=\"furigana\">鉄<rt>てつ</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "ゴム",
+        "html": "ゴム"
+      },
+      {
+        "key": "C",
+        "text": "銅(どう)",
+        "html": "<ruby class=\"furigana\">銅<rt>どう</rt></ruby>"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 186,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_4",
+    "sourceNumber": 18,
+    "prompt": "交差汚染(こうさおせん)を防止(ぼうし)するために、食品製造工場(しょくひんせいぞうこうじょう)の中には区分衛生管理(くぶんえいせいかんり)(ゾーニング)があります、このように区域(くいき)を分けてについて、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">交差汚染<rt>こうさおせん</rt></ruby>を<ruby class=\"furigana\">防止<rt>ぼうし</rt></ruby>するために、<ruby class=\"furigana\">食品製造工場<rt>しょくひんせいぞうこうじょう</rt></ruby>の中には<ruby class=\"furigana\">区分衛生管理<rt>くぶんえいせいかんり</rt></ruby>(ゾーニング)があります、このように<ruby class=\"furigana\">区域<rt>くいき</rt></ruby>を分けてについて、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "汚染作業区域(おせんさぎょうくいき)",
+        "html": "<ruby class=\"furigana\">汚染作業区域<rt>おせんさぎょうくいき</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "施設作業区域(しせつさぎょうくいき)",
+        "html": "<ruby class=\"furigana\">施設作業区域<rt>しせつさぎょうくいき</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "準清潔作業区域(じゅんせいけつさぎょうくいき)",
+        "html": "<ruby class=\"furigana\">準清潔作業区域<rt>じゅんせいけつさぎょうくいき</rt></ruby>"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 187,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_4",
+    "sourceNumber": 19,
+    "prompt": "作業者(さぎょうしゃ)はどのような知識(ちしき)を持(も)っていなければなりませんか、正しいものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">作業者<rt>さぎょうしゃ</rt></ruby>はどのような<ruby class=\"furigana\">知識<rt>ちしき</rt></ruby>を<ruby class=\"furigana\">持<rt>も</rt></ruby>っていなければなりませんか、正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "食品衛生(しょくひんえいせい)と労働災害(ろうどうさいがい)",
+        "html": "<ruby class=\"furigana\">食品衛生<rt>しょくひんえいせい</rt></ruby>と<ruby class=\"furigana\">労働災害<rt>ろうどうさいがい</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "労働安全(ろうどうあんぜん)と食品綺麗(しょくひんきれい)",
+        "html": "<ruby class=\"furigana\">労働安全<rt>ろうどうあんぜん</rt></ruby>と<ruby class=\"furigana\">食品綺麗<rt>しょくひんきれい</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "食品衛生(しょくひんえいせい)と労働安全(ろうどうあんぜん)",
+        "html": "<ruby class=\"furigana\">食品衛生<rt>しょくひんえいせい</rt></ruby>と<ruby class=\"furigana\">労働安全<rt>ろうどうあんぜん</rt></ruby>"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 188,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_4",
+    "sourceNumber": 20,
+    "prompt": "[どんな食品(しょくひん)を作(つく)るときも、どこの作業場(さぎょうじう)でも共通(きょうつ)をおこなわれてうる基本的(きほんてき)な衛生管理(えいせいかんり)] はなんの意味(いみ)ですか。正しいものを一つ選びなさい。",
+    "promptHtml": "[どんな<ruby class=\"furigana\">食品<rt>しょくひん</rt></ruby>を<ruby class=\"furigana\">作<rt>つく</rt></ruby>るときも、どこの<ruby class=\"furigana\">作業場<rt>さぎょうじう</rt></ruby>でも<ruby class=\"furigana\">共通<rt>きょうつ</rt></ruby>をおこなわれてうる<ruby class=\"furigana\">基本的<rt>きほんてき</rt></ruby>な<ruby class=\"furigana\">衛生管理<rt>えいせいかんり</rt></ruby>] はなんの<ruby class=\"furigana\">意味<rt>いみ</rt></ruby>ですか。正しいものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "一般的な健康管理(いっぱんてきなけんこうかんり)",
+        "html": "一般的な<ruby class=\"furigana\">健康管理<rt>いっぱんてきなけんこうかんり</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "一般的な作業者管理者(いっぱんてきなさぎょうしゃかんり)",
+        "html": "一般的な<ruby class=\"furigana\">作業者管理者<rt>いっぱんてきなさぎょうしゃかんり</rt></ruby>"
+      },
+      {
+        "key": "C",
+        "text": "一般的な衛生管理(いっぱんてきなえいせいかんり)",
+        "html": "一般的な<ruby class=\"furigana\">衛生管理<rt>いっぱんてきなえいせいかんり</rt></ruby>"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 189,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_4",
+    "sourceNumber": 21,
+    "prompt": "加熱調理(かねつちょうり)の後(あと)、どんな正しく取(と)り扱(あつか)うですか、間違っているものを一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">加熱調理<rt>かねつちょうり</rt></ruby>の<ruby class=\"furigana\">後<rt>あと</rt></ruby>、どんな正しく<ruby class=\"furigana\">取<rt>と</rt></ruby>り<ruby class=\"furigana\">扱<rt>あつか</rt></ruby>うですか、間違っているものを一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "ゆっくり温度(おんど)が下(さ)がって",
+        "html": "ゆっくり<ruby class=\"furigana\">温度<rt>おんど</rt></ruby>が<ruby class=\"furigana\">下<rt>さ</rt></ruby>がって"
+      },
+      {
+        "key": "B",
+        "text": "すぐに冷(ひ)やすこと",
+        "html": "すぐに<ruby class=\"furigana\">冷<rt>ひ</rt></ruby>やすこと"
+      },
+      {
+        "key": "C",
+        "text": "冷凍(れいとう)させる",
+        "html": "<ruby class=\"furigana\">冷凍<rt>れいとう</rt></ruby>させる"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 190,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_4",
+    "sourceNumber": 22,
+    "prompt": "飲料品製造業(いんりょうひんせいぞうぎょう)で何(なに)を製造(せいぞう)しますか、正しいものを選びなさい.",
+    "promptHtml": "<ruby class=\"furigana\">飲料品製造業<rt>いんりょうひんせいぞうぎょう</rt></ruby>で<ruby class=\"furigana\">何<rt>なに</rt></ruby>を<ruby class=\"furigana\">製造<rt>せいぞう</rt></ruby>しますか、正しいものを選びなさい.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "惣菜(そうざい)、お酒(さけ)、ソーセージ",
+        "html": "<ruby class=\"furigana\">惣菜<rt>そうざい</rt></ruby>、お<ruby class=\"furigana\">酒<rt>さけ</rt></ruby>、ソーセージ"
+      },
+      {
+        "key": "B",
+        "text": "ジュース 、 お茶(おちゃ)、コーヒー",
+        "html": "ジュース 、 お<ruby class=\"furigana\">茶<rt>おちゃ</rt></ruby>、コーヒー"
+      },
+      {
+        "key": "C",
+        "text": "お茶(おちゃ)と おかし",
+        "html": "お<ruby class=\"furigana\">茶<rt>おちゃ</rt></ruby>と おかし"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 191,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_4",
+    "sourceNumber": 23,
+    "prompt": "10⁰Ｃ度以下(いか)の温度(おんど)で保管(ほかん)される原材料(げんざいりょう)の種類(しゅるい)は何ですか、間違っているものを選びなさい。",
+    "promptHtml": "10⁰Ｃ<ruby class=\"furigana\">度以下<rt>いか</rt></ruby>の<ruby class=\"furigana\">温度<rt>おんど</rt></ruby>で<ruby class=\"furigana\">保管<rt>ほかん</rt></ruby>される<ruby class=\"furigana\">原材料<rt>げんざいりょう</rt></ruby>の<ruby class=\"furigana\">種類<rt>しゅるい</rt></ruby>は何ですか、間違っているものを選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "食肉(しょくにく)や唐津(からつ)き卵(たまご)",
+        "html": "<ruby class=\"furigana\">食肉<rt>しょくにく</rt></ruby>や<ruby class=\"furigana\">唐津<rt>からつ</rt></ruby>き<ruby class=\"furigana\">卵<rt>たまご</rt></ruby>"
+      },
+      {
+        "key": "B",
+        "text": "生鮮果実(せいせんかじつ)やゆでだこ",
+        "html": "<ruby class=\"furigana\">生鮮果実<rt>せいせんかじつ</rt></ruby>やゆでだこ"
+      },
+      {
+        "key": "C",
+        "text": "固形油脂(こけいゆし)や液状油脂(えきじょうゆし)",
+        "html": "<ruby class=\"furigana\">固形油脂<rt>こけいゆし</rt></ruby>や<ruby class=\"furigana\">液状油脂<rt>えきじょうゆし</rt></ruby>"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 192,
+    "category": "soal-pm-nguyen-shokuhing",
+    "source": "Soal_4",
+    "sourceNumber": 24,
+    "prompt": "作業場(さぎょうじょう)に入(はい)る前(まえ)に、粘着(ねんちゃく)ローラーやエアシャワーで使(つか)います、何のためですか、間違っている一つ選びなさい。",
+    "promptHtml": "<ruby class=\"furigana\">作業場<rt>さぎょうじょう</rt></ruby>に<ruby class=\"furigana\">入<rt>はい</rt></ruby>る<ruby class=\"furigana\">前<rt>まえ</rt></ruby>に、<ruby class=\"furigana\">粘着<rt>ねんちゃく</rt></ruby>ローラーやエアシャワーで<ruby class=\"furigana\">使<rt>つか</rt></ruby>います、何のためですか、間違っている一つ選びなさい。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "マッサージ",
+        "html": "マッサージ"
+      },
+      {
+        "key": "B",
+        "text": "髪の毛(かみのけ)をおとす",
+        "html": "髪の<ruby class=\"furigana\">毛<rt>かみのけ</rt></ruby>をおとす"
+      },
+      {
+        "key": "C",
+        "text": "ほこりをおとす",
+        "html": "ほこりをおとす"
+      }
+    ],
+    "answer": "A"
+  }
+]
+
+export const TOTAL_NGUYEN_QUESTIONS = allNguyenQuestions.length

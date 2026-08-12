@@ -255,6 +255,12 @@ export default function Home() {
               <p>Kosakata pengolahan makanan BAB 1–5: keamanan pangan, kebersihan, HACCP, dan K3.</p>
             </Link>
 
+            <Link href="/soal-pm-nguyen-shokuhing" className="mode-card mode-card--inverse tap-feedback" style={{ borderTop: '1px solid rgba(15,23,42,0.08)' }}>
+              <span className="mode-card__tag">Soal PM Nguyen</span>
+              <h2>Latihan Soal Nguyen</h2>
+              <p>Bank soal Tokutei Shokuhing Nguyen: full kanji + furigana, sesi acak, atur jumlah soal bebas.</p>
+            </Link>
+
             <Link href="/materials" className="mode-card tap-feedback" style={{ borderTop: '1px solid rgba(15,23,42,0.08)' }}>
               <span className="mode-card__tag">Learning Center</span>
               <h2>Materi & Latihan Soal</h2>
