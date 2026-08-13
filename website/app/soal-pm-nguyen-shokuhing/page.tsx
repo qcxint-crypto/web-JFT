@@ -75,7 +75,7 @@ function selectQuestions(count: number, name: string): NguyenQuestion[] {
 function FuriganaPrompt({ html }: { html: string }) {
   return (
     <div
-      className="furigana-question text-xl font-bold leading-relaxed tracking-[-0.02em] text-slate-950 md:text-2xl"
+      className="furigana-question font-display text-xl font-bold tracking-[-0.02em] text-slate-950 md:text-2xl"
       dangerouslySetInnerHTML={{ __html: html }}
     />
   )
@@ -379,41 +379,79 @@ export default function NguyenQuizPage() {
       </section>
 
       <div className="glass-panel rounded-[30px] p-5 sm:p-6">
-        <div className="mb-4 flex items-center justify-between">
-          <div className="text-[11px] font-black uppercase tracking-[0.28em] text-slate-500">Soal {currentIndex + 1}</div>
-          <div className="h-2 w-40 overflow-hidden rounded-full bg-slate-900/8">
-            <div className="h-full rounded-full bg-[linear-gradient(90deg,#11203a_0%,#ff7a59_60%,#00d7a0_100%)]" style={{ width: `${percentage}%` }} />
+        <div className="mb-4 flex flex-wrap items-end justify-between gap-4">
+          <div>
+            <p className="text-[11px] font-black uppercase tracking-[0.28em] text-slate-500">Nguyen PM Flow</p>
+            <h3 className="font-display mt-2 text-2xl font-bold tracking-[-0.05em] text-slate-950">Soal {currentIndex + 1}</h3>
+          </div>
+          <div className="text-right">
+            <div className="font-display text-2xl font-bold tracking-[-0.05em] text-slate-950">
+              {currentIndex + 1}
+              <span className="text-base text-slate-400"> / {questions.length}</span>
+            </div>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">question tracked</p>
           </div>
         </div>
-
-        <div className="mb-8 min-h-[120px] rounded-[24px] border border-slate-900/10 bg-white/90 p-6">
-          <FuriganaPrompt html={current.promptHtml} />
+        <div className="mb-6 h-3 w-full overflow-hidden rounded-full bg-slate-900/8">
+          <div
+            className="h-full rounded-full bg-[linear-gradient(90deg,#11203a_0%,#ff7a59_60%,#00d7a0_100%)] transition-all duration-300 ease-out"
+            style={{ width: `${percentage}%` }}
+          />
         </div>
 
-        <div className="grid grid-cols-1 gap-3 md:grid-cols-1">
+        <section className="rounded-[30px] border border-slate-900/8 bg-[color:var(--surface)] p-5 shadow-[0_18px_40px_-32px_rgba(15,23,42,0.6)] backdrop-blur-sm md:p-7">
+          <div className="mb-4 inline-flex rounded-full border border-slate-900/8 bg-white/80 px-3 py-1.5 text-[11px] font-black uppercase tracking-[0.22em] text-slate-500">
+            Prompt
+          </div>
+          <FuriganaPrompt html={current.promptHtml} />
+        </section>
+
+        <div className="mt-6 space-y-3 md:space-y-4">
+          <p className="px-1 text-[11px] font-black uppercase tracking-[0.28em] text-slate-500 md:text-xs">
+            Pilihan Jawaban
+          </p>
           {current.choices.map((choice) => {
             const isSelected = selectedKey === choice.key
             const isRight = choice.key === current.answer
-            let btn = 'rounded-[22px] border p-4 text-left transition-all md:p-5 '
+
+            let buttonClass = 'w-full overflow-hidden rounded-[26px] border p-4 text-left transition-all duration-200 active:scale-[0.985] md:p-5 '
+            let markerClass = 'bg-slate-900/5 text-slate-600'
+
             if (answered) {
-              if (isRight) btn += 'border-emerald-400 bg-emerald-50 text-emerald-950'
-              else if (isSelected) btn += 'border-rose-400 bg-rose-50 text-rose-950'
-              else btn += 'border-slate-900/8 bg-white/70 text-slate-400'
+              if (isRight) {
+                buttonClass += 'border-emerald-400 bg-emerald-50 text-emerald-950 kanji-choice kanji-choice--correct'
+                markerClass = 'bg-emerald-500 text-white'
+              } else if (isSelected) {
+                buttonClass += 'border-rose-400 bg-rose-50 text-rose-950 kanji-choice kanji-choice--wrong'
+                markerClass = 'bg-rose-500 text-white'
+              } else {
+                buttonClass += 'border-slate-900/8 bg-white/70 text-slate-400 opacity-60 kanji-choice kanji-choice--idle'
+                markerClass = 'bg-slate-900/5 text-slate-400 opacity-55'
+              }
+            } else if (isSelected) {
+              buttonClass += 'border-[#4f7cff] bg-[#dcecff] text-[#101828] ring-1 ring-[#4f7cff]/35 kanji-choice'
+              markerClass = 'bg-[#101828] text-white'
             } else {
-              btn += 'border-slate-900/10 bg-white/95 hover:-translate-y-0.5 hover:border-orange-300'
+              buttonClass += 'border-slate-900/10 bg-white/88 text-slate-800 shadow-[0_18px_34px_-30px_rgba(15,23,42,0.55)] hover:-translate-y-0.5 hover:border-slate-400/30 hover:bg-white kanji-choice kanji-choice--idle'
             }
+
             return (
               <button
                 key={choice.key}
                 onClick={() => handleAnswer(choice.key)}
                 disabled={answered}
-                className={btn}
+                className={buttonClass}
               >
-                <div className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-[12px] bg-slate-900/6 text-sm font-black text-slate-700">
-                    {answered ? (isRight ? '✓' : isSelected ? '✕' : choice.key) : choice.key}
-                  </span>
-                  <div className="furigana-question text-[15px] leading-relaxed text-slate-950 md:text-[17px]" dangerouslySetInnerHTML={{ __html: choice.html }} />
+                <div className="flex items-start gap-4">
+                  <div className="mt-0.5 shrink-0">
+                    <div className={`flex h-9 w-9 items-center justify-center rounded-[14px] text-xs font-black transition-colors md:h-10 md:w-10 ${markerClass}`}>
+                      {answered ? (isRight ? '✓' : isSelected ? '✕' : choice.key) : choice.key}
+                    </div>
+                  </div>
+                  <div
+                    className="furigana-choice flex-1 text-sm font-semibold leading-7 text-inherit md:text-base"
+                    dangerouslySetInnerHTML={{ __html: choice.html }}
+                  />
                 </div>
               </button>
             )
@@ -421,13 +459,25 @@ export default function NguyenQuizPage() {
         </div>
 
         {answered && (
-          <div className={`mt-6 rounded-[24px] border p-5 ${isCorrect ? 'border-emerald-200 bg-emerald-50/80' : 'border-rose-200 bg-rose-50/80'}`}>
-            <div className={`text-[11px] font-black uppercase tracking-[0.28em] ${isCorrect ? 'text-emerald-700' : 'text-rose-700'}`}>
-              {isCorrect ? 'Benar' : 'Salah'}
+          <div
+            className={`mt-8 rounded-[28px] border p-6 ${
+              isCorrect
+                ? 'kanji-result-panel kanji-result-panel--correct border-emerald-200 bg-emerald-50/75'
+                : 'kanji-result-panel kanji-result-panel--wrong border-rose-200 bg-rose-50/75'
+            }`}
+          >
+            <div className={`mb-3 text-[11px] font-black uppercase tracking-[0.3em] ${isCorrect ? 'text-emerald-700' : 'text-rose-700'}`}>
+              {isCorrect ? 'Jawaban Benar' : 'Jawaban Salah'}
             </div>
-            <div className="mt-2 text-sm">
-              Jawaban benar: <span className="font-semibold">{current.answer}</span>
+            <div className="text-sm font-semibold text-slate-700">
+              Jawaban yang benar: <span className="font-black text-slate-950">{current.answer}</span>
             </div>
+            <div
+              className="furigana-choice mt-3 text-base font-semibold text-slate-900"
+              dangerouslySetInnerHTML={{
+                __html: current.choices.find((c) => c.key === current.answer)?.html || current.answer,
+              }}
+            />
           </div>
         )}
       </div>

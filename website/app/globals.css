@@ -905,7 +905,10 @@ button {
 .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
 .no-select { user-select: none; -webkit-user-select: none; }
 
-/* Furigana ruby — cara baca (hiragana/katakana) ditulis di atas kanji */
+/* Furigana ruby — cara baca (hiragana/katakana) di atas kanji.
+   Single-word (shokuhin vocab) uses flex stack for large display.
+   Sentence mode (.furigana-question / .furigana-choice) keeps native ruby
+   so multi-word prompts wrap cleanly and don't look jumbled. */
 ruby.furigana {
   ruby-position: over;
   -webkit-ruby-position: over;
@@ -932,8 +935,51 @@ ruby.furigana > rt {
 [data-theme='dark'] ruby.furigana > rt {
   color: rgba(226, 232, 240, 0.72);
 }
-/* Give big question kanji enough headroom so furigana is never clipped */
-.furigana-question {
-  padding-top: 0.5em;
+
+/* Sentence / multi-word furigana (Nguyen PM prompts + choices) */
+.furigana-question,
+.furigana-choice {
+  display: block;
+  width: 100%;
+  padding-top: 0.55em;
+  line-height: 2.05;
+  word-break: normal;
+  overflow-wrap: anywhere;
+  text-wrap: pretty;
+}
+.furigana-question ruby.furigana,
+.furigana-choice ruby.furigana {
+  display: inline ruby;
+  ruby-position: over;
+  -webkit-ruby-position: over;
+  ruby-align: center;
+  flex-direction: unset;
+  align-items: unset;
+  line-height: 1.2;
+  margin-inline: 0.02em;
+  vertical-align: baseline;
+}
+.furigana-question ruby.furigana > rt,
+.furigana-choice ruby.furigana > rt {
+  display: ruby-text;
+  font-size: 0.48em;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0;
+  margin-bottom: 0;
+  color: rgba(15, 23, 42, 0.62);
+  white-space: nowrap;
+}
+[data-theme='dark'] .furigana-question ruby.furigana > rt,
+[data-theme='dark'] .furigana-choice ruby.furigana > rt {
+  color: rgba(226, 232, 240, 0.75);
+}
+
+/* Keep large single-kanji shokuhin prompts on flex stack */
+.furigana-question:has(> ruby.furigana:only-child),
+.furigana-question:has(> span:only-child) {
   display: inline-block;
+  width: auto;
+  line-height: 1.35;
+  text-align: center;
 }
