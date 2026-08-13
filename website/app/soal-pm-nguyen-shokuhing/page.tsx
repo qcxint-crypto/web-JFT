@@ -72,13 +72,23 @@ function selectQuestions(count: number, name: string): NguyenQuestion[] {
   return chosen
 }
 
-function FuriganaPrompt({ html }: { html: string }) {
+function FuriganaPrompt({ html, showGloss = false }: { html: string; showGloss?: boolean }) {
   return (
     <div
-      className="furigana-question font-display text-xl font-bold tracking-[-0.02em] text-slate-950 md:text-2xl"
+      className={`furigana-question font-display text-xl font-bold tracking-[-0.02em] text-slate-950 md:text-2xl${showGloss ? ' has-gloss' : ''}`}
       dangerouslySetInnerHTML={{ __html: html }}
     />
   )
+}
+
+function choiceHtml(choice: NguyenQuestion['choices'][number], showGloss: boolean) {
+  if (showGloss && choice.glossHtml) return choice.glossHtml
+  return choice.html
+}
+
+function promptHtml(q: NguyenQuestion, showGloss: boolean) {
+  if (showGloss && q.promptGlossHtml) return q.promptGlossHtml
+  return q.promptHtml || q.prompt
 }
 
 export default function NguyenQuizPage() {
@@ -97,6 +107,7 @@ export default function NguyenQuizPage() {
   const [selectedKey, setSelectedKey] = useState<string | null>(null)
   const [answered, setAnswered] = useState(false)
   const [loading, setLoading] = useState(true)
+  const [showIndonesian, setShowIndonesian] = useState(false)
 
   useEffect(() => {
     const storedName = localStorage.getItem(PLAYER_NAME_KEY) || ''
@@ -269,6 +280,31 @@ export default function NguyenQuizPage() {
             <p className="mt-3 text-center text-sm text-slate-500">Minimal 5 soal, maksimal {TOTAL} soal.</p>
           </div>
 
+          <div className="mt-4 rounded-[28px] border border-slate-900/10 bg-[color:var(--surface-strong)] p-4 sm:p-5">
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <div className="text-[11px] font-black uppercase tracking-[0.24em] text-slate-500">Mode Terjemahan</div>
+                <p className="mt-2 text-sm leading-6 text-slate-600">
+                  Tampilkan arti Indonesia di bawah setiap kosakata (soal + pilihan A/B/C). Furigana tetap di atas.
+                </p>
+              </div>
+              <button
+                type="button"
+                role="switch"
+                aria-checked={showIndonesian}
+                onClick={() => setShowIndonesian((v) => !v)}
+                className={`relative mt-1 h-8 w-14 shrink-0 rounded-full transition ${showIndonesian ? 'bg-emerald-500' : 'bg-slate-300'}`}
+              >
+                <span
+                  className={`absolute top-1 left-1 h-6 w-6 rounded-full bg-white shadow transition ${showIndonesian ? 'translate-x-6' : ''}`}
+                />
+              </button>
+            </div>
+            <div className="mt-3 text-xs font-semibold text-slate-500">
+              Status: {showIndonesian ? 'Terjemahan ID aktif' : 'Hanya JP + furigana'}
+            </div>
+          </div>
+
           <div className="mt-6 space-y-3">
             <button
               onClick={startQuiz}
@@ -400,10 +436,26 @@ export default function NguyenQuizPage() {
         </div>
 
         <section className="rounded-[30px] border border-slate-900/8 bg-[color:var(--surface)] p-5 shadow-[0_18px_40px_-32px_rgba(15,23,42,0.6)] backdrop-blur-sm md:p-7">
-          <div className="mb-4 inline-flex rounded-full border border-slate-900/8 bg-white/80 px-3 py-1.5 text-[11px] font-black uppercase tracking-[0.22em] text-slate-500">
-            Prompt
+          <div className="mb-4 flex flex-wrap items-center gap-2">
+            <div className="inline-flex rounded-full border border-slate-900/8 bg-white/80 px-3 py-1.5 text-[11px] font-black uppercase tracking-[0.22em] text-slate-500">
+              Prompt
+            </div>
+            {showIndonesian && (
+              <div className="inline-flex rounded-full border border-emerald-500/20 bg-emerald-50 px-3 py-1.5 text-[11px] font-black uppercase tracking-[0.18em] text-emerald-700">
+                + ID gloss
+              </div>
+            )}
           </div>
-          <FuriganaPrompt html={current.promptHtml} />
+          <FuriganaPrompt html={promptHtml(current, showIndonesian)} showGloss={showIndonesian} />
+          {current.image ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={current.image}
+              alt={`Ilustrasi soal ${current.sourceNumber}`}
+              className="nguyen-question-image"
+              loading="lazy"
+            />
+          ) : null}
         </section>
 
         <div className="mt-6 space-y-3 md:space-y-4">
@@ -449,8 +501,8 @@ export default function NguyenQuizPage() {
                     </div>
                   </div>
                   <div
-                    className="furigana-choice flex-1 text-sm font-semibold leading-7 text-inherit md:text-base"
-                    dangerouslySetInnerHTML={{ __html: choice.html }}
+                    className={`furigana-choice flex-1 text-sm font-semibold leading-7 text-inherit md:text-base${showIndonesian ? ' has-gloss' : ''}`}
+                    dangerouslySetInnerHTML={{ __html: choiceHtml(choice, showIndonesian) }}
                   />
                 </div>
               </button>
@@ -473,9 +525,12 @@ export default function NguyenQuizPage() {
               Jawaban yang benar: <span className="font-black text-slate-950">{current.answer}</span>
             </div>
             <div
-              className="furigana-choice mt-3 text-base font-semibold text-slate-900"
+              className={`furigana-choice mt-3 text-base font-semibold text-slate-900${showIndonesian ? ' has-gloss' : ''}`}
               dangerouslySetInnerHTML={{
-                __html: current.choices.find((c) => c.key === current.answer)?.html || current.answer,
+                __html: choiceHtml(
+                  current.choices.find((c) => c.key === current.answer) || { key: current.answer, text: current.answer, html: current.answer },
+                  showIndonesian,
+                ),
               }}
             />
           </div>
