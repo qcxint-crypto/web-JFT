@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "cycleKey": "2026-07-27",
-  "cycleLabel": "Weekly reset 27/07/2026",
-  "resetAt": "2026-08-02T17:00:00.000Z",
-  "updatedAt": "2026-08-02T12:27:31.687Z",
+  "cycleKey": "2026-08-24",
+  "cycleLabel": "Weekly reset 24/08/2026",
+  "resetAt": "2026-08-30T17:00:00.000Z",
+  "updatedAt": "2026-08-26T13:05:47.460Z",
   "players": [
     {
       "id": "asep",
       "name": "ASEP",
-      "updatedAt": "2026-08-02T12:27:31.687Z",
+      "updatedAt": "2026-08-26T13:05:47.460Z",
       "stats": {
         "jft": {
           "attempts": 0,
@@ -31,11 +31,11 @@
         "pm": {
           "attempts": 1,
           "totalQuestionsAnswered": 25,
-          "totalCorrectAnswers": 13,
-          "bestPercentage": 52,
-          "bestCorrectAnswers": 13,
+          "totalCorrectAnswers": 15,
+          "bestPercentage": 60,
+          "bestCorrectAnswers": 15,
           "bestQuestions": 25,
-          "lastPlayedAt": "2026-08-02T12:27:31.687Z"
+          "lastPlayedAt": "2026-08-26T13:05:47.460Z"
         }
       }
     }
